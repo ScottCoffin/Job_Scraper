@@ -1,109 +1,61 @@
 {
-  "scraped_at": "2026-05-04 22:58 UTC",
-  "total": 13,
+  "scraped_at": "2026-05-05 04:17 UTC",
+  "total": 7,
   "jobs": [
     {
-      "company": "Adaptive Machines, Inc",
-      "title": "Data Scientist",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4408934379/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Shields Group Search",
-      "title": "Machine Learning Engineer",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4408335861/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Uber",
-      "title": "Data Scientist II, Tech",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4410247747/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Uber",
-      "title": "Senior Machine Learning Engineer - Moonshot AI",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4410252616/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Data Scientist, Payment Analytics - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4410250451/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Uber",
-      "title": "Applied Scientist",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4410236957/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Apex Systems",
-      "title": "Data Scientist",
-      "location": "Pleasanton, CA",
-      "url": "https://www.linkedin.com/jobs/view/4410246657/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Waymo",
-      "title": "Senior Staff Data Scientist, Perception",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4408917667/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Prophecy",
-      "title": "Agentic-Workflow MLE (Pipeline)",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4410233342/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Headspace",
-      "title": "Principal Machine Learning Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4408122068/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Fieldguide",
-      "title": "Senior AI Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4408933460/",
-      "date_posted": "2026-05-04",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobright.ai",
-      "title": "AI Engineer (Agents)",
+      "company": "XPENG",
+      "title": "Machine Learning Engineer - LLM, AI & Robotics",
       "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4408932497/",
-      "date_posted": "2026-05-04",
+      "url": "https://www.linkedin.com/jobs/view/4410290826/",
+      "date_posted": "2026-05-05",
       "ats": "LinkedIn"
     },
     {
-      "company": "RecruitSeq",
-      "title": "Computational Biologist",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4408936318/",
-      "date_posted": "2026-05-04",
+      "company": "Experis",
+      "title": "AI/ML Engineer 2",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4408954783/",
+      "date_posted": "2026-05-05",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Cursor",
+      "title": "Data Scientist, Performance and Reliability",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4410512018/",
+      "date_posted": "2026-05-05",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Target",
+      "title": "Lead ML Engineer - Personalization and Item Recommendations",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4410282938/",
+      "date_posted": "2026-05-05",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "XPENG",
+      "title": "Senior Staff AI Engineer",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4410284915/",
+      "date_posted": "2026-05-05",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Parallel Web Systems",
+      "title": "Early Career Research Engineer",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4410507137/",
+      "date_posted": "2026-05-05",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "General Motors",
+      "title": "Machine Learning Engineer, AI Inference Solutions (University Grad)",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4410286892/",
+      "date_posted": "2026-05-05",
       "ats": "LinkedIn"
     }
   ]
