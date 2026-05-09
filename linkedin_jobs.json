@@ -1,76 +1,36 @@
 {
-  "scraped_at": "2026-05-09 19:58 UTC",
-  "total": 9,
+  "scraped_at": "2026-05-09 22:50 UTC",
+  "total": 4,
   "jobs": [
     {
-      "company": "Andiamo",
-      "title": "Data Scientist - Data-Driven Global Investment Firm",
+      "company": "Latent",
+      "title": "Machine Learning Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4380625937/",
+      "url": "https://www.linkedin.com/jobs/view/4399578384/",
       "date_posted": "2026-05-09",
       "ats": "LinkedIn"
     },
     {
-      "company": "Andiamo",
-      "title": "Machine Learning Engineer - Product & Engineering AI Building Tool",
+      "company": "Harmonic",
+      "title": "Research Engineer, Technical Lead",
       "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4362110539/",
+      "url": "https://www.linkedin.com/jobs/view/4330408820/",
       "date_posted": "2026-05-09",
       "ats": "LinkedIn"
     },
     {
-      "company": "Andiamo",
-      "title": "ML Engineer - Pre-IPO Tech Leader",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4380637299/",
+      "company": "Jobright.ai",
+      "title": "AI Engineer (Agents)",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412308878/",
       "date_posted": "2026-05-09",
       "ats": "LinkedIn"
     },
     {
-      "company": "Andiamo",
-      "title": "Data Scientist - Global Tech Leader",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4380631559/",
-      "date_posted": "2026-05-09",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Andiamo",
-      "title": "Data Scientist - Global Tech Leader",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4380634455/",
-      "date_posted": "2026-05-09",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Data Scientist",
-      "location": "Menlo Park, CA",
-      "url": "https://www.linkedin.com/jobs/view/4409974557/",
-      "date_posted": "2026-05-09",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Patreon",
-      "title": "Senior Data Scientist, Feed Relevance",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4390012822/",
-      "date_posted": "2026-05-09",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Andiamo",
-      "title": "Senior Data Scientist - Global Finance Leader",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4380623895/",
-      "date_posted": "2026-05-09",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Inside Higher Ed",
-      "title": "Co-Instructor Pool - Artificial Intelligence, Data Science, and the Future Workplace",
-      "location": "Berkeley, CA",
-      "url": "https://www.linkedin.com/jobs/view/4412313438/",
+      "company": "Haystack",
+      "title": "AI Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4412306960/",
       "date_posted": "2026-05-09",
       "ats": "LinkedIn"
     }
