@@ -1,71 +1,247 @@
 {
-  "scraped_at": "2026-05-15 06:27 UTC",
-  "total": 4,
-  "new_count": 4,
+  "scraped_at": "2026-05-15 16:47 UTC",
+  "total": 15,
+  "new_count": 15,
   "jobs": [
     {
-      "company": "Rakuten Symphony",
-      "title": "AI/ML Engineer",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4415006393/",
-      "date_posted": "2026-05-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Unity South APAC (SEA, ANZ, IND Subcont.)",
-      "title": "Senior Machine Learning Infrastructure Engineer",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4411577505/",
-      "date_posted": "2026-05-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Unity South APAC (SEA, ANZ, IND Subcont.)",
-      "title": "Senior Machine Learning Infrastructure Engineer",
+      "company": "Altos Labs",
+      "title": "Machine Learning Engineer/Machine Learning Scientist , Multi Modality",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4411574722/",
+      "url": "https://www.linkedin.com/jobs/view/4324501733/",
       "date_posted": "2026-05-15",
       "ats": "LinkedIn"
     },
     {
-      "company": "Plaid",
-      "title": "Senior Machine Learning Engineer (Research Scientist) - Data Foundation & AI",
+      "company": "Anthropic",
+      "title": "Research Engineer, Machine Learning (RL Velocity)",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4415320318/",
+      "url": "https://www.linkedin.com/jobs/view/4405025538/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Research Engineer, Machine Learning (RL Velocity)",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4405020607/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Sharp Decisions",
+      "title": "Senior Data Scientist II",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4414522100/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Grindr",
+      "title": "Staff ML Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4205335950/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Ironclad",
+      "title": "Staff Data Scientist - Product Analytics",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4385323525/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Snorkel AI",
+      "title": "Research Engineer \u2013 Training Infra",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4382712851/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Snorkel AI",
+      "title": "Research Engineer \u2013 Training Infra",
+      "location": "Redwood City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4382724175/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Lawrence Livermore National Laboratory",
+      "title": "Data Science Engineer",
+      "location": "Livermore, CA",
+      "url": "https://www.linkedin.com/jobs/view/4404904193/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Research Engineer, Environment Scaling",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4373630351/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Amazon",
+      "title": "Principal Applied Scientist, PXT",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4405888926/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Ironclad",
+      "title": "AI Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4361298334/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "AI Engineer, Enterprise AI (Principal/Sr. Principal/Distinguished)",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4396747771/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Staff/Sr. Staff AI Engineer - Enterprise AI Solutions",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4403298114/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Dinamo Biotechnologies",
+      "title": "Senior Bioinformatics Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4414777301/",
       "date_posted": "2026-05-15",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Rakuten Symphony",
-      "title": "AI/ML Engineer",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4415006393/",
-      "date_posted": "2026-05-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Unity South APAC (SEA, ANZ, IND Subcont.)",
-      "title": "Senior Machine Learning Infrastructure Engineer",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4411577505/",
-      "date_posted": "2026-05-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Unity South APAC (SEA, ANZ, IND Subcont.)",
-      "title": "Senior Machine Learning Infrastructure Engineer",
+      "company": "Altos Labs",
+      "title": "Machine Learning Engineer/Machine Learning Scientist , Multi Modality",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4411574722/",
+      "url": "https://www.linkedin.com/jobs/view/4324501733/",
       "date_posted": "2026-05-15",
       "ats": "LinkedIn"
     },
     {
-      "company": "Plaid",
-      "title": "Senior Machine Learning Engineer (Research Scientist) - Data Foundation & AI",
+      "company": "Anthropic",
+      "title": "Research Engineer, Machine Learning (RL Velocity)",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4415320318/",
+      "url": "https://www.linkedin.com/jobs/view/4405025538/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Research Engineer, Machine Learning (RL Velocity)",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4405020607/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Sharp Decisions",
+      "title": "Senior Data Scientist II",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4414522100/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Grindr",
+      "title": "Staff ML Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4205335950/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Ironclad",
+      "title": "Staff Data Scientist - Product Analytics",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4385323525/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Snorkel AI",
+      "title": "Research Engineer \u2013 Training Infra",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4382712851/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Snorkel AI",
+      "title": "Research Engineer \u2013 Training Infra",
+      "location": "Redwood City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4382724175/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Lawrence Livermore National Laboratory",
+      "title": "Data Science Engineer",
+      "location": "Livermore, CA",
+      "url": "https://www.linkedin.com/jobs/view/4404904193/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Research Engineer, Environment Scaling",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4373630351/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Amazon",
+      "title": "Principal Applied Scientist, PXT",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4405888926/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Ironclad",
+      "title": "AI Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4361298334/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "AI Engineer, Enterprise AI (Principal/Sr. Principal/Distinguished)",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4396747771/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Staff/Sr. Staff AI Engineer - Enterprise AI Solutions",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4403298114/",
+      "date_posted": "2026-05-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Dinamo Biotechnologies",
+      "title": "Senior Bioinformatics Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4414777301/",
       "date_posted": "2026-05-15",
       "ats": "LinkedIn"
     }
