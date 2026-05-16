@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-05-15 06:33 UTC",
-  "total": 10,
-  "new_count": 5,
+  "scraped_at": "2026-05-16 05:53 UTC",
+  "total": 8,
+  "new_count": 2,
   "jobs": [
     {
       "company": "10x Genomics",
@@ -53,76 +53,36 @@
     },
     {
       "company": "Lila Sciences",
-      "title": "Staff ML Engineer, Life Sciences AI",
+      "title": "Principal ML Research Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4414676095/",
-      "date_posted": "2026-05-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Netic",
-      "title": "Applied AI Research Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4354022361/",
-      "date_posted": "2026-05-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Genentech",
-      "title": "Machine Learning Engineer/Senior Machine Learning Engineer - Devops, AI for Drug Discovery",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4402047132/",
-      "date_posted": "2026-05-14",
+      "url": "https://www.linkedin.com/jobs/view/4415518289/",
+      "date_posted": "2026-05-15",
       "ats": "LinkedIn"
     },
     {
       "company": "Biohub",
-      "title": "Staff Data Scientist, Imaging",
+      "title": "Staff Data Scientist, Genomics",
       "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4382515110/",
-      "date_posted": "2026-05-14",
+      "url": "https://www.linkedin.com/jobs/view/4382511241/",
+      "date_posted": "2026-05-15",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "10x Genomics",
-      "title": "Staff Data Scientist, Commercial Analytics",
-      "location": "Pleasanton, California, USA HQ",
-      "url": "https://boards.greenhouse.io/10xgenomics/jobs/7922933?gh_jid=7922933",
-      "date_posted": "2026-05-14",
-      "ats": "Greenhouse"
-    },
-    {
       "company": "Lila Sciences",
-      "title": "Staff ML Engineer, Life Sciences AI",
+      "title": "Principal ML Research Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4414676095/",
-      "date_posted": "2026-05-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Netic",
-      "title": "Applied AI Research Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4354022361/",
-      "date_posted": "2026-05-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Genentech",
-      "title": "Machine Learning Engineer/Senior Machine Learning Engineer - Devops, AI for Drug Discovery",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4402047132/",
-      "date_posted": "2026-05-14",
+      "url": "https://www.linkedin.com/jobs/view/4415518289/",
+      "date_posted": "2026-05-15",
       "ats": "LinkedIn"
     },
     {
       "company": "Biohub",
-      "title": "Staff Data Scientist, Imaging",
+      "title": "Staff Data Scientist, Genomics",
       "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4382515110/",
-      "date_posted": "2026-05-14",
+      "url": "https://www.linkedin.com/jobs/view/4382511241/",
+      "date_posted": "2026-05-15",
       "ats": "LinkedIn"
     }
   ]
