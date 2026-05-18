@@ -1,71 +1,103 @@
 {
-  "scraped_at": "2026-05-18 21:04 UTC",
-  "total": 4,
-  "new_count": 4,
+  "scraped_at": "2026-05-18 22:53 UTC",
+  "total": 6,
+  "new_count": 6,
   "jobs": [
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Data Scientist, Payment Risk - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416424329/",
-      "date_posted": "2026-05-18",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Decagon",
-      "title": "Senior Research Engineer, Voice + Speech",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416410328/",
-      "date_posted": "2026-05-18",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Philo",
-      "title": "Sr. Machine Learning Engineer (Recommendation Systems)",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4302123397/",
-      "date_posted": "2026-05-18",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Luma",
-      "title": "Research Engineer - Evaluations",
+      "company": "Goliath Partners",
+      "title": "Machine Learning/Research Engineer",
       "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4378351738/",
+      "url": "https://www.linkedin.com/jobs/view/4416426380/",
+      "date_posted": "2026-05-18",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Walmart",
+      "title": "Senior, Data Scientist (Machine Learning Engineer)",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412828828/",
+      "date_posted": "2026-05-18",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Uber",
+      "title": "Senior Machine Learning Engineer - Earner Incentive",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416434250/",
+      "date_posted": "2026-05-18",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "ChatGPT Jobs",
+      "title": "Research Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412860043/",
+      "date_posted": "2026-05-18",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Walmart",
+      "title": "Senior Manager, Data Science",
+      "location": "San Bruno, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412833784/",
+      "date_posted": "2026-05-18",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Iron Mountain",
+      "title": "AI Engineer, Global Operations",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416413882/",
       "date_posted": "2026-05-18",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Data Scientist, Payment Risk - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416424329/",
-      "date_posted": "2026-05-18",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Decagon",
-      "title": "Senior Research Engineer, Voice + Speech",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416410328/",
-      "date_posted": "2026-05-18",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Philo",
-      "title": "Sr. Machine Learning Engineer (Recommendation Systems)",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4302123397/",
-      "date_posted": "2026-05-18",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Luma",
-      "title": "Research Engineer - Evaluations",
+      "company": "Goliath Partners",
+      "title": "Machine Learning/Research Engineer",
       "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4378351738/",
+      "url": "https://www.linkedin.com/jobs/view/4416426380/",
+      "date_posted": "2026-05-18",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Walmart",
+      "title": "Senior, Data Scientist (Machine Learning Engineer)",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412828828/",
+      "date_posted": "2026-05-18",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Uber",
+      "title": "Senior Machine Learning Engineer - Earner Incentive",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416434250/",
+      "date_posted": "2026-05-18",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "ChatGPT Jobs",
+      "title": "Research Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412860043/",
+      "date_posted": "2026-05-18",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Walmart",
+      "title": "Senior Manager, Data Science",
+      "location": "San Bruno, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412833784/",
+      "date_posted": "2026-05-18",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Iron Mountain",
+      "title": "AI Engineer, Global Operations",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416413882/",
       "date_posted": "2026-05-18",
       "ats": "LinkedIn"
     }
