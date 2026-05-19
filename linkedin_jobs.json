@@ -1,71 +1,167 @@
 {
-  "scraped_at": "2026-05-19 03:53 UTC",
-  "total": 4,
-  "new_count": 4,
+  "scraped_at": "2026-05-19 17:35 UTC",
+  "total": 10,
+  "new_count": 10,
   "jobs": [
     {
-      "company": "Glint Tech Solutions",
-      "title": "Machine Learning Engineer",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4412859618/",
-      "date_posted": "2026-05-19",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Glint Tech Solutions",
-      "title": "Data Scientist",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4412851623/",
-      "date_posted": "2026-05-19",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Checkr, Inc.",
-      "title": "Machine Learning Engineer",
+      "company": "Ambience Healthcare",
+      "title": "Staff ML Engineer, Frontier AI",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4412857462/",
+      "url": "https://www.linkedin.com/jobs/view/4386728531/",
       "date_posted": "2026-05-19",
       "ats": "LinkedIn"
     },
     {
-      "company": "PlusAI",
-      "title": "Machine Learning Infrastructure Engineer Intern",
+      "company": "Waymo",
+      "title": "Staff Machine Learning Engineer, Data Flywheel",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400026024/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "CooperVision",
+      "title": "Senior Data Scientist",
+      "location": "San Ramon, CA",
+      "url": "https://www.linkedin.com/jobs/view/4407536777/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Intuit",
+      "title": "Principal Data Scientist - Payments Operations",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416902430/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Microsoft AI",
+      "title": "Senior Applied Scientist",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4407540801/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California State University - East Bay",
+      "title": "Lecturer Pool Statistics and Data Science AY 26-27",
+      "location": "Hayward, CA",
+      "url": "https://www.linkedin.com/jobs/view/4406246812/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Intuit",
+      "title": "Applied AI Engineer, Marketing Futures",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416919358/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "ChipSage Labs",
+      "title": "Founding AI Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4415924876/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jobright.ai",
+      "title": "AI Engineer, Agent Product (Full-time/Part-time)",
       "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4412847585/",
+      "url": "https://www.linkedin.com/jobs/view/4415922710/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Genentech",
+      "title": "Principal Bioinformatics Scientist",
+      "location": "Pleasanton, CA",
+      "url": "https://www.linkedin.com/jobs/view/4398017590/",
       "date_posted": "2026-05-19",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Glint Tech Solutions",
-      "title": "Machine Learning Engineer",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4412859618/",
-      "date_posted": "2026-05-19",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Glint Tech Solutions",
-      "title": "Data Scientist",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4412851623/",
-      "date_posted": "2026-05-19",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Checkr, Inc.",
-      "title": "Machine Learning Engineer",
+      "company": "Ambience Healthcare",
+      "title": "Staff ML Engineer, Frontier AI",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4412857462/",
+      "url": "https://www.linkedin.com/jobs/view/4386728531/",
       "date_posted": "2026-05-19",
       "ats": "LinkedIn"
     },
     {
-      "company": "PlusAI",
-      "title": "Machine Learning Infrastructure Engineer Intern",
+      "company": "Waymo",
+      "title": "Staff Machine Learning Engineer, Data Flywheel",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400026024/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "CooperVision",
+      "title": "Senior Data Scientist",
+      "location": "San Ramon, CA",
+      "url": "https://www.linkedin.com/jobs/view/4407536777/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Intuit",
+      "title": "Principal Data Scientist - Payments Operations",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416902430/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Microsoft AI",
+      "title": "Senior Applied Scientist",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4407540801/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California State University - East Bay",
+      "title": "Lecturer Pool Statistics and Data Science AY 26-27",
+      "location": "Hayward, CA",
+      "url": "https://www.linkedin.com/jobs/view/4406246812/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Intuit",
+      "title": "Applied AI Engineer, Marketing Futures",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416919358/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "ChipSage Labs",
+      "title": "Founding AI Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4415924876/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jobright.ai",
+      "title": "AI Engineer, Agent Product (Full-time/Part-time)",
       "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4412847585/",
+      "url": "https://www.linkedin.com/jobs/view/4415922710/",
+      "date_posted": "2026-05-19",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Genentech",
+      "title": "Principal Bioinformatics Scientist",
+      "location": "Pleasanton, CA",
+      "url": "https://www.linkedin.com/jobs/view/4398017590/",
       "date_posted": "2026-05-19",
       "ats": "LinkedIn"
     }
