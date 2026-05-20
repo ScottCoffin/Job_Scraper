@@ -1,28 +1,48 @@
 # 🔥 LinkedIn — MLE / DS Roles (SF Bay Area)
-*Last updated: 2026-05-19 23:21 UTC*
+*Last updated: 2026-05-20 01:32 UTC*
 
-**6 new role(s)** since last run · 8 total in last 1h
+**11 new role(s)** since last run · 11 total in last 1h
 
-### [Data Scientist](https://www.linkedin.com/jobs/view/4416976025/) — Stefanini North America and APAC
-- 📍 **Location:** San Francisco Bay Area
-- 🕒 **Posted:** 2026-05-19
+### [entry level data scientist /Java developer](https://www.linkedin.com/jobs/view/4415998000/) — SynergisticIT
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-05-20
 
-### [Senior Machine Learning Engineer](https://www.linkedin.com/jobs/view/4407444700/) — Instrumental Inc.
+### [Machine Learning Engineer, Level 5](https://www.linkedin.com/jobs/view/4416988556/) — Snap Inc.
 - 📍 **Location:** Palo Alto, CA
-- 🕒 **Posted:** 2026-05-19
+- 🕒 **Posted:** 2026-05-20
 
-### [Researcher/ML Engineer](https://www.linkedin.com/jobs/view/4415973341/) — Adobe
-- 📍 **Location:** San Jose, CA
-- 🕒 **Posted:** 2026-05-19
+### [Sr Data Scientist](https://www.linkedin.com/jobs/view/4416992353/) — Visa
+- 📍 **Location:** Foster City, CA
+- 🕒 **Posted:** 2026-05-20
 
-### [Data Scientist](https://www.linkedin.com/jobs/view/4416977077/) — RADAR
-- 📍 **Location:** Sunnyvale, CA
-- 🕒 **Posted:** 2026-05-19
+### [Staff Machine Learning Engineer, Ads Measurement Products](https://www.linkedin.com/jobs/view/4416982658/) — Pinterest
+- 📍 **Location:** Palo Alto, CA
+- 🕒 **Posted:** 2026-05-20
 
-### [Staff Machine Learning Engineer, Data Flywheel](https://www.linkedin.com/jobs/view/4400023054/) — Waymo
-- 📍 **Location:** Mountain View, CA
-- 🕒 **Posted:** 2026-05-19
+### [Staff Machine Learning Engineer, Programmatic Ads](https://www.linkedin.com/jobs/view/4416978691/) — Pinterest
+- 📍 **Location:** Palo Alto, CA
+- 🕒 **Posted:** 2026-05-20
 
-### [Staff Applied Scientist](https://www.linkedin.com/jobs/view/4415982104/) — Adobe
-- 📍 **Location:** San Jose, CA
-- 🕒 **Posted:** 2026-05-19
+### [Staff Machine Learning Engineer, Programmatic Ads](https://www.linkedin.com/jobs/view/4416980657/) — Pinterest
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-05-20
+
+### [Research Engineer](https://www.linkedin.com/jobs/view/4413382458/) — scalr
+- 📍 **Location:** San Francisco Bay Area
+- 🕒 **Posted:** 2026-05-20
+
+### [Applied Scientist, Full-funnel Agentic Intelligence and Models](https://www.linkedin.com/jobs/view/4416982725/) — Amazon
+- 📍 **Location:** Palo Alto, CA
+- 🕒 **Posted:** 2026-05-20
+
+### [Senior Staff AI Scientist](https://www.linkedin.com/jobs/view/4416987521/) — Uniphore
+- 📍 **Location:** Palo Alto, CA
+- 🕒 **Posted:** 2026-05-20
+
+### [Lecturer - College of Computing, Data Science, and Society](https://www.linkedin.com/jobs/view/4416995028/) — Inside Higher Ed
+- 📍 **Location:** Berkeley, CA
+- 🕒 **Posted:** 2026-05-20
+
+### [Applied Scientist II, AWS Just-Walk-Out Science Team](https://www.linkedin.com/jobs/view/4416975814/) — Amazon Web Services (AWS)
+- 📍 **Location:** East Palo Alto, CA
+- 🕒 **Posted:** 2026-05-20

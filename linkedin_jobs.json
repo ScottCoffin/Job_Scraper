@@ -1,120 +1,184 @@
 {
-  "scraped_at": "2026-05-19 23:21 UTC",
-  "total": 8,
-  "new_count": 6,
+  "scraped_at": "2026-05-20 01:32 UTC",
+  "total": 11,
+  "new_count": 11,
   "jobs": [
     {
-      "company": "Stefanini North America and APAC",
-      "title": "Data Scientist",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4416976025/",
-      "date_posted": "2026-05-19",
+      "company": "SynergisticIT",
+      "title": "entry level data scientist /Java developer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4415998000/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "Advanced Software Talent",
-      "title": "Data Scientist",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4415970321/",
-      "date_posted": "2026-05-19",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Instrumental Inc.",
-      "title": "Senior Machine Learning Engineer",
+      "company": "Snap Inc.",
+      "title": "Machine Learning Engineer, Level 5",
       "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4407444700/",
-      "date_posted": "2026-05-19",
+      "url": "https://www.linkedin.com/jobs/view/4416988556/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "Adobe",
-      "title": "Researcher/ML Engineer",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4415973341/",
-      "date_posted": "2026-05-19",
+      "company": "Visa",
+      "title": "Sr Data Scientist",
+      "location": "Foster City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416992353/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "RADAR",
-      "title": "Data Scientist",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416977077/",
-      "date_posted": "2026-05-19",
+      "company": "Pinterest",
+      "title": "Staff Machine Learning Engineer, Ads Measurement Products",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416982658/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "Lawrence Livermore National Laboratory",
-      "title": "Data Science Engineer",
-      "location": "Livermore, CA",
-      "url": "https://www.linkedin.com/jobs/view/4404904193/",
-      "date_posted": "2026-05-19",
+      "company": "Pinterest",
+      "title": "Staff Machine Learning Engineer, Programmatic Ads",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416978691/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "Waymo",
-      "title": "Staff Machine Learning Engineer, Data Flywheel",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4400023054/",
-      "date_posted": "2026-05-19",
+      "company": "Pinterest",
+      "title": "Staff Machine Learning Engineer, Programmatic Ads",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416980657/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "Adobe",
-      "title": "Staff Applied Scientist",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4415982104/",
-      "date_posted": "2026-05-19",
+      "company": "scalr",
+      "title": "Research Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4413382458/",
+      "date_posted": "2026-05-20",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Amazon",
+      "title": "Applied Scientist, Full-funnel Agentic Intelligence and Models",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416982725/",
+      "date_posted": "2026-05-20",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Uniphore",
+      "title": "Senior Staff AI Scientist",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416987521/",
+      "date_posted": "2026-05-20",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Inside Higher Ed",
+      "title": "Lecturer - College of Computing, Data Science, and Society",
+      "location": "Berkeley, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416995028/",
+      "date_posted": "2026-05-20",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Amazon Web Services (AWS)",
+      "title": "Applied Scientist II, AWS Just-Walk-Out Science Team",
+      "location": "East Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416975814/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Stefanini North America and APAC",
-      "title": "Data Scientist",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4416976025/",
-      "date_posted": "2026-05-19",
+      "company": "SynergisticIT",
+      "title": "entry level data scientist /Java developer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4415998000/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "Instrumental Inc.",
-      "title": "Senior Machine Learning Engineer",
+      "company": "Snap Inc.",
+      "title": "Machine Learning Engineer, Level 5",
       "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4407444700/",
-      "date_posted": "2026-05-19",
+      "url": "https://www.linkedin.com/jobs/view/4416988556/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "Adobe",
-      "title": "Researcher/ML Engineer",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4415973341/",
-      "date_posted": "2026-05-19",
+      "company": "Visa",
+      "title": "Sr Data Scientist",
+      "location": "Foster City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416992353/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "RADAR",
-      "title": "Data Scientist",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416977077/",
-      "date_posted": "2026-05-19",
+      "company": "Pinterest",
+      "title": "Staff Machine Learning Engineer, Ads Measurement Products",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416982658/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "Waymo",
-      "title": "Staff Machine Learning Engineer, Data Flywheel",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4400023054/",
-      "date_posted": "2026-05-19",
+      "company": "Pinterest",
+      "title": "Staff Machine Learning Engineer, Programmatic Ads",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416978691/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     },
     {
-      "company": "Adobe",
-      "title": "Staff Applied Scientist",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4415982104/",
-      "date_posted": "2026-05-19",
+      "company": "Pinterest",
+      "title": "Staff Machine Learning Engineer, Programmatic Ads",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416980657/",
+      "date_posted": "2026-05-20",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "scalr",
+      "title": "Research Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4413382458/",
+      "date_posted": "2026-05-20",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Amazon",
+      "title": "Applied Scientist, Full-funnel Agentic Intelligence and Models",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416982725/",
+      "date_posted": "2026-05-20",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Uniphore",
+      "title": "Senior Staff AI Scientist",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416987521/",
+      "date_posted": "2026-05-20",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Inside Higher Ed",
+      "title": "Lecturer - College of Computing, Data Science, and Society",
+      "location": "Berkeley, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416995028/",
+      "date_posted": "2026-05-20",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Amazon Web Services (AWS)",
+      "title": "Applied Scientist II, AWS Just-Walk-Out Science Team",
+      "location": "East Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416975814/",
+      "date_posted": "2026-05-20",
       "ats": "LinkedIn"
     }
   ]
