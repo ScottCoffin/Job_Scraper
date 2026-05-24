@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-05-23 06:19 UTC",
-  "total": 6,
-  "new_count": 1,
+  "scraped_at": "2026-05-24 06:46 UTC",
+  "total": 5,
+  "new_count": 0,
   "jobs": [
     {
       "company": "10x Genomics",
@@ -42,24 +42,7 @@
       "url": "https://job-boards.greenhouse.io/altoslabs/jobs/5709084004",
       "date_posted": "2026-03-31",
       "ats": "Greenhouse"
-    },
-    {
-      "company": "Buck Institute for Research on Aging",
-      "title": "Data Scientist / AI Scientist \u2013 AI for Aging Research \u2013 Zhou lab",
-      "location": "Novato, CA",
-      "url": "https://www.linkedin.com/jobs/view/4404543004/",
-      "date_posted": "2026-05-22",
-      "ats": "LinkedIn"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Buck Institute for Research on Aging",
-      "title": "Data Scientist / AI Scientist \u2013 AI for Aging Research \u2013 Zhou lab",
-      "location": "Novato, CA",
-      "url": "https://www.linkedin.com/jobs/view/4404543004/",
-      "date_posted": "2026-05-22",
-      "ats": "LinkedIn"
-    }
-  ]
+  "new_jobs": []
 }
