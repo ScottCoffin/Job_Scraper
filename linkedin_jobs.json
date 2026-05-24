@@ -1,55 +1,39 @@
 {
-  "scraped_at": "2026-05-24 19:17 UTC",
-  "total": 3,
-  "new_count": 3,
+  "scraped_at": "2026-05-24 20:17 UTC",
+  "total": 2,
+  "new_count": 2,
   "jobs": [
     {
-      "company": "TikTok",
-      "title": "Data Scientist - TikTok Social and Creation (San Jose)",
+      "company": "TikTok USDS Joint Venture",
+      "title": "Machine Learning Engineer, Content and Service Ads - USDS",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417837182/",
+      "url": "https://www.linkedin.com/jobs/view/4418906009/",
       "date_posted": "2026-05-24",
       "ats": "LinkedIn"
     },
     {
-      "company": "Baselayer",
-      "title": "Senior AI Engineer, Agentic Data Enrichment",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417327752/",
-      "date_posted": "2026-05-24",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok",
-      "title": "Data Science Lead, Quant Modeling",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417829145/",
+      "company": "Open Talent",
+      "title": "Founding AI Engineer | LLM Systems | $500k+ & Equity | Hybrid | SF",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4414055269/",
       "date_posted": "2026-05-24",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "TikTok",
-      "title": "Data Scientist - TikTok Social and Creation (San Jose)",
+      "company": "TikTok USDS Joint Venture",
+      "title": "Machine Learning Engineer, Content and Service Ads - USDS",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417837182/",
+      "url": "https://www.linkedin.com/jobs/view/4418906009/",
       "date_posted": "2026-05-24",
       "ats": "LinkedIn"
     },
     {
-      "company": "Baselayer",
-      "title": "Senior AI Engineer, Agentic Data Enrichment",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417327752/",
-      "date_posted": "2026-05-24",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok",
-      "title": "Data Science Lead, Quant Modeling",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417829145/",
+      "company": "Open Talent",
+      "title": "Founding AI Engineer | LLM Systems | $500k+ & Equity | Hybrid | SF",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4414055269/",
       "date_posted": "2026-05-24",
       "ats": "LinkedIn"
     }
