@@ -1,37 +1,61 @@
 {
-  "scraped_at": "2026-05-25 15:17 UTC",
-  "total": 6,
-  "new_count": 6,
+  "scraped_at": "2026-05-25 16:17 UTC",
+  "total": 9,
+  "new_count": 7,
   "jobs": [
     {
-      "company": "Roblox",
-      "title": "[2026] Senior Machine Learning Engineer, Engine Optimization - PhD Early Career",
+      "company": "Tarro",
+      "title": "Data Scientist",
       "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4325934502/",
+      "url": "https://www.linkedin.com/jobs/view/4298469184/",
       "date_posted": "2026-05-25",
       "ats": "LinkedIn"
     },
     {
-      "company": "Anthropic",
-      "title": "Research Engineer, Discovery",
+      "company": "Harvey",
+      "title": "Staff Data Scientist, Marketing",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4322062014/",
+      "url": "https://www.linkedin.com/jobs/view/4359264895/",
+      "date_posted": "2026-05-25",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Deepgram",
+      "title": "Research Staff, Data Science",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4388907202/",
       "date_posted": "2026-05-25",
       "ats": "LinkedIn"
     },
     {
       "company": "Anthropic",
-      "title": "Research Engineer/Research Scientist, Pre-training",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4322259770/",
+      "title": "Research Engineer / Research Scientist, Tokens",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4378287279/",
       "date_posted": "2026-05-25",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobright.ai",
-      "title": "AI Engineer, Agent Product (Full-time/Part-time)",
+      "company": "Character.AI",
+      "title": "Research Engineer, Post-Training (All Industry Levels)",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/3813454490/",
+      "date_posted": "2026-05-25",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Amazon Web Services (AWS)",
+      "title": "Applied Scientist, LLM Code Agents, Kiro Science",
       "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417885382/",
+      "url": "https://www.linkedin.com/jobs/view/4335479676/",
+      "date_posted": "2026-05-25",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "True Classic",
+      "title": "AI Engineer",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416598954/",
       "date_posted": "2026-05-25",
       "ats": "LinkedIn"
     },
@@ -44,60 +68,68 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Amazon",
-      "title": "Senior Applied Scientist, Delivery Foundation Model",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4315138375/",
+      "company": "Anthropic",
+      "title": "Research Engineer, Discovery",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4322062014/",
       "date_posted": "2026-05-25",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Roblox",
-      "title": "[2026] Senior Machine Learning Engineer, Engine Optimization - PhD Early Career",
+      "company": "Tarro",
+      "title": "Data Scientist",
       "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4325934502/",
+      "url": "https://www.linkedin.com/jobs/view/4298469184/",
       "date_posted": "2026-05-25",
       "ats": "LinkedIn"
     },
     {
-      "company": "Anthropic",
-      "title": "Research Engineer, Discovery",
+      "company": "Harvey",
+      "title": "Staff Data Scientist, Marketing",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4322062014/",
+      "url": "https://www.linkedin.com/jobs/view/4359264895/",
+      "date_posted": "2026-05-25",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Deepgram",
+      "title": "Research Staff, Data Science",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4388907202/",
       "date_posted": "2026-05-25",
       "ats": "LinkedIn"
     },
     {
       "company": "Anthropic",
-      "title": "Research Engineer/Research Scientist, Pre-training",
+      "title": "Research Engineer / Research Scientist, Tokens",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4378287279/",
+      "date_posted": "2026-05-25",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Character.AI",
+      "title": "Research Engineer, Post-Training (All Industry Levels)",
       "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4322259770/",
+      "url": "https://www.linkedin.com/jobs/view/3813454490/",
       "date_posted": "2026-05-25",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobright.ai",
-      "title": "AI Engineer, Agent Product (Full-time/Part-time)",
+      "company": "Amazon Web Services (AWS)",
+      "title": "Applied Scientist, LLM Code Agents, Kiro Science",
       "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417885382/",
+      "url": "https://www.linkedin.com/jobs/view/4335479676/",
       "date_posted": "2026-05-25",
       "ats": "LinkedIn"
     },
     {
-      "company": "Anthropic",
-      "title": "Applied AI Engineer, Life Sciences (Beneficial Deployments)",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4369877096/",
-      "date_posted": "2026-05-25",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Amazon",
-      "title": "Senior Applied Scientist, Delivery Foundation Model",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4315138375/",
+      "company": "True Classic",
+      "title": "AI Engineer",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416598954/",
       "date_posted": "2026-05-25",
       "ats": "LinkedIn"
     }
