@@ -1,6 +1,16 @@
 # 🔥 LinkedIn — MLE / DS Roles (SF Bay Area)
-*Last updated: 2026-05-24 23:17 UTC*
+*Last updated: 2026-05-25 00:17 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**3 new role(s)** since last run · 3 total in last 1h
 
-No new roles since the last run.
+### [Applied Scientist, Amazon Robotics](https://www.linkedin.com/jobs/view/4418902392/) — Amazon
+- 📍 **Location:** Sunnyvale, CA
+- 🕒 **Posted:** 2026-05-25
+
+### [LATAM - Data Science Engineer](https://www.linkedin.com/jobs/view/4414864824/) — Playsaurus Inc.
+- 📍 **Location:** Alameda, CA
+- 🕒 **Posted:** 2026-05-24
+
+### [Machine Learning Engineer, Speech LLM Training](https://www.linkedin.com/jobs/view/4417840403/) — Jobright.ai
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-05-24

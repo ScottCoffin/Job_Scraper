@@ -1,7 +1,57 @@
 {
-  "scraped_at": "2026-05-24 23:17 UTC",
-  "total": 0,
-  "new_count": 0,
-  "jobs": [],
-  "new_jobs": []
+  "scraped_at": "2026-05-25 00:17 UTC",
+  "total": 3,
+  "new_count": 3,
+  "jobs": [
+    {
+      "company": "Amazon",
+      "title": "Applied Scientist, Amazon Robotics",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4418902392/",
+      "date_posted": "2026-05-25",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Playsaurus Inc.",
+      "title": "LATAM - Data Science Engineer",
+      "location": "Alameda, CA",
+      "url": "https://www.linkedin.com/jobs/view/4414864824/",
+      "date_posted": "2026-05-24",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jobright.ai",
+      "title": "Machine Learning Engineer, Speech LLM Training",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417840403/",
+      "date_posted": "2026-05-24",
+      "ats": "LinkedIn"
+    }
+  ],
+  "new_jobs": [
+    {
+      "company": "Amazon",
+      "title": "Applied Scientist, Amazon Robotics",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4418902392/",
+      "date_posted": "2026-05-25",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Playsaurus Inc.",
+      "title": "LATAM - Data Science Engineer",
+      "location": "Alameda, CA",
+      "url": "https://www.linkedin.com/jobs/view/4414864824/",
+      "date_posted": "2026-05-24",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jobright.ai",
+      "title": "Machine Learning Engineer, Speech LLM Training",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417840403/",
+      "date_posted": "2026-05-24",
+      "ats": "LinkedIn"
+    }
+  ]
 }
