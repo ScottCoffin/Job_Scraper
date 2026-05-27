@@ -1,13 +1,29 @@
 {
-  "scraped_at": "2026-05-27 01:17 UTC",
-  "total": 14,
-  "new_count": 7,
+  "scraped_at": "2026-05-27 02:17 UTC",
+  "total": 10,
+  "new_count": 6,
   "jobs": [
     {
-      "company": "Roboflow",
-      "title": "Machine Learning Research Engineer",
+      "company": "Jack & Jill",
+      "title": "AI/ML Engineer ($250k\u2013$400k + Equity) at $10M Seed consumer AI dating startup",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418527731/",
+      "url": "https://www.linkedin.com/jobs/view/4405083386/",
+      "date_posted": "2026-05-27",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Tesla",
+      "title": "Machine Learning Engineer, Global Supply Chain",
+      "location": "Fremont, CA",
+      "url": "https://www.linkedin.com/jobs/view/4419564656/",
+      "date_posted": "2026-05-27",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "PlusAI",
+      "title": "Machine Learning Engineer Intern",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412893082/",
       "date_posted": "2026-05-27",
       "ats": "LinkedIn"
     },
@@ -20,58 +36,18 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Scopely",
-      "title": "Data Scientist, Marketing",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4419540853/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Scopely",
-      "title": "Data Scientist, Marketing",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419539902/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Parafin",
-      "title": "Data Scientist",
+      "company": "Roboflow",
+      "title": "Machine Learning Research Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419566276/",
+      "url": "https://www.linkedin.com/jobs/view/4418527731/",
       "date_posted": "2026-05-27",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobright.ai",
-      "title": "Machine Learning Engineer, Speech LLM Training",
+      "company": "Scale.jobs",
+      "title": "Machine Learning Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418533260/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "GEICO",
-      "title": "Staff Machine Learning Engineer Document Intelligence",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418543176/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok",
-      "title": "Research Engineer/Scientist (all levels), Efficient Models",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418544019/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "ServiceNow",
-      "title": "Senior Data Scientist",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419571464/",
+      "url": "https://www.linkedin.com/jobs/view/4416870392/",
       "date_posted": "2026-05-27",
       "ats": "LinkedIn"
     },
@@ -84,92 +60,76 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Biogen",
-      "title": "Principal Scientist, Biomarker Data Sciences",
+      "company": "ServiceNow",
+      "title": "Senior Data Scientist",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4419571464/",
+      "date_posted": "2026-05-27",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Scale.jobs",
+      "title": "MLOps Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418531377/",
+      "url": "https://www.linkedin.com/jobs/view/4416856961/",
       "date_posted": "2026-05-27",
       "ats": "LinkedIn"
     },
     {
-      "company": "Amazon",
-      "title": "Senior Applied Scientist, Last Mile Delivery",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419569017/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Cornerstone OnDemand",
-      "title": "Associate AI Engineer",
-      "location": "Dublin, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419564135/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Cornerstone OnDemand",
-      "title": "Associate AI Engineer",
-      "location": "Dublin, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419554415/",
+      "company": "Scale.jobs",
+      "title": "LLM / GenAI Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416865433/",
       "date_posted": "2026-05-27",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Roboflow",
-      "title": "Machine Learning Research Engineer",
+      "company": "Jack & Jill",
+      "title": "AI/ML Engineer ($250k\u2013$400k + Equity) at $10M Seed consumer AI dating startup",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418527731/",
+      "url": "https://www.linkedin.com/jobs/view/4405083386/",
       "date_posted": "2026-05-27",
       "ats": "LinkedIn"
     },
     {
-      "company": "Roboflow",
-      "title": "Machine Learning Research Engineer",
+      "company": "Tesla",
+      "title": "Machine Learning Engineer, Global Supply Chain",
+      "location": "Fremont, CA",
+      "url": "https://www.linkedin.com/jobs/view/4419564656/",
+      "date_posted": "2026-05-27",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "PlusAI",
+      "title": "Machine Learning Engineer Intern",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412893082/",
+      "date_posted": "2026-05-27",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Scale.jobs",
+      "title": "Machine Learning Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418547075/",
+      "url": "https://www.linkedin.com/jobs/view/4416870392/",
       "date_posted": "2026-05-27",
       "ats": "LinkedIn"
     },
     {
-      "company": "Parafin",
-      "title": "Data Scientist",
+      "company": "Scale.jobs",
+      "title": "MLOps Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419566276/",
+      "url": "https://www.linkedin.com/jobs/view/4416856961/",
       "date_posted": "2026-05-27",
       "ats": "LinkedIn"
     },
     {
-      "company": "GEICO",
-      "title": "Staff Machine Learning Engineer Document Intelligence",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418543176/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "ServiceNow",
-      "title": "Senior Data Scientist",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419571464/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "ServiceNow",
-      "title": "Senior Data Scientist",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419556662/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Biogen",
-      "title": "Principal Scientist, Biomarker Data Sciences",
+      "company": "Scale.jobs",
+      "title": "LLM / GenAI Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418531377/",
+      "url": "https://www.linkedin.com/jobs/view/4416865433/",
       "date_posted": "2026-05-27",
       "ats": "LinkedIn"
     }
