@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-05-27 18:11 UTC",
-  "total": 9,
-  "new_count": 8,
+  "scraped_at": "2026-05-27 18:17 UTC",
+  "total": 10,
+  "new_count": 1,
   "jobs": [
     {
       "company": "Samba TV",
@@ -52,6 +52,14 @@
       "ats": "LinkedIn"
     },
     {
+      "company": "Bessemer Venture Partners India",
+      "title": "Senior Product Data Scientist, Pickups & Dropoffs",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4419901747/",
+      "date_posted": "2026-05-27",
+      "ats": "LinkedIn"
+    },
+    {
       "company": "Jobright.ai",
       "title": "Machine Learning Engineer, Speech LLM Training",
       "location": "San Francisco, CA",
@@ -78,66 +86,10 @@
   ],
   "new_jobs": [
     {
-      "company": "Samba TV",
-      "title": "Data Scientist",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4401794091/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Lyft",
-      "title": "Data Scientist, Algorithms, Optimization - Fulfillment",
-      "location": "San Francisco County, CA",
-      "url": "https://www.linkedin.com/jobs/view/4410726944/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Calico Life Sciences",
-      "title": "Senior Machine Learning Research Engineer (ML Platform)",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4410786496/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Lyft",
-      "title": "Data Science Manager, Machine Learning - Lyft Ads",
-      "location": "San Francisco County, CA",
-      "url": "https://www.linkedin.com/jobs/view/4401799733/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "ServiceNow",
-      "title": "Senior Data Scientist",
+      "company": "Bessemer Venture Partners India",
+      "title": "Senior Product Data Scientist, Pickups & Dropoffs",
       "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419556662/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "ServiceNow",
-      "title": "Senior Data Scientist",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419571464/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Socure",
-      "title": "Head of Data Science - Identity & Compliance",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4419914438/",
-      "date_posted": "2026-05-27",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Mastercard",
-      "title": "Director of Data Science (AdTech)",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4385498445/",
+      "url": "https://www.linkedin.com/jobs/view/4419901747/",
       "date_posted": "2026-05-27",
       "ats": "LinkedIn"
     }
