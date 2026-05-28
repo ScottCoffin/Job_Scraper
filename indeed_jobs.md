@@ -1,6 +1,8 @@
 # 🟦 Indeed — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-05-28 18:24 UTC*
+*Last updated: 2026-05-28 20:57 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Senior System Software Engineer](https://www.indeed.com/viewjob?jk=8a2c6ccd4e370c7b) — NVIDIA
+- 📍 **Location:** Santa Clara, CA, US
+- 🕒 **Posted:** 2026-05-28

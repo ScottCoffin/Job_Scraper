@@ -1,7 +1,25 @@
 {
-  "scraped_at": "2026-05-28 18:24 UTC",
-  "total": 0,
-  "new_count": 0,
-  "jobs": [],
-  "new_jobs": []
+  "scraped_at": "2026-05-28 20:57 UTC",
+  "total": 1,
+  "new_count": 1,
+  "jobs": [
+    {
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=8a2c6ccd4e370c7b",
+      "date_posted": "2026-05-28",
+      "ats": "Indeed"
+    }
+  ],
+  "new_jobs": [
+    {
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=8a2c6ccd4e370c7b",
+      "date_posted": "2026-05-28",
+      "ats": "Indeed"
+    }
+  ]
 }
