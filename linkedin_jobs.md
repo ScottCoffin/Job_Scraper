@@ -1,152 +1,124 @@
 # 🔥 LinkedIn — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-05-29 21:17 UTC*
+*Last updated: 2026-05-29 22:17 UTC*
 
-**37 new role(s)** since last run · 47 total in last 1h
+**30 new role(s)** since last run · 51 total in last 1h
 
-### [Software Engineer (All Levels)](https://www.linkedin.com/jobs/view/4421235421/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [AI/ML Engineer/Intern 1 (Cybersecurity Data Science)](https://www.linkedin.com/jobs/view/4421224842/) — Trilyon, Inc.
-- 📍 **Location:** San Jose, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Associate Principal Software Engineer, AI Onboarding](https://www.linkedin.com/jobs/view/4421239113/) — Saviynt
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Associate Principal Software Engineer, AI Onboarding](https://www.linkedin.com/jobs/view/4421233450/) — Saviynt
-- 📍 **Location:** Milpitas, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [AI Data Engineer with Databricks](https://www.linkedin.com/jobs/view/4414008683/) — Zensar Technologies
+### [Data Engineer - AI/ML](https://www.linkedin.com/jobs/view/4422057467/) — Yochana
 - 📍 **Location:** Santa Clara, CA
 - 🕒 **Posted:** 2026-05-29
 
-### [Lead Data Scientist](https://www.linkedin.com/jobs/view/4421241105/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
+### [Internship, Software Engineer, Service Engineering (Summer 2026)](https://www.linkedin.com/jobs/view/4421232773/) — Tesla
+- 📍 **Location:** Palo Alto, CA
 - 🕒 **Posted:** 2026-05-29
 
-### [Senior Software Engineer](https://www.linkedin.com/jobs/view/4413050345/) — Shields Group Search
-- 📍 **Location:** Redwood City, CA
+### [AI Software Engineer (Analytical Agents) Hybrid](https://www.linkedin.com/jobs/view/4421252207/) — Cisco
+- 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-05-29
 
-### [Senior Data Scientist](https://www.linkedin.com/jobs/view/4422044784/) — Omnissa
+### [Data Scientist II - AMZ9890779](https://www.linkedin.com/jobs/view/4417972993/) — Amazon Science
+- 📍 **Location:** Palo Alto, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [E-Payments Risk Data Scientist (Machine Learning)](https://www.linkedin.com/jobs/view/4422042924/) — Fiserv
+- 📍 **Location:** Sunnyvale, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Applied Scientist II - AMZ9735083](https://www.linkedin.com/jobs/view/4417983218/) — Amazon Science
+- 📍 **Location:** Sunnyvale, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Senior Manager, Product Data Science - Fleet Optimization and Orchestration](https://www.linkedin.com/jobs/view/4422044907/) — Waymo
 - 📍 **Location:** Mountain View, CA
 - 🕒 **Posted:** 2026-05-29
 
-### [Research Engineer](https://www.linkedin.com/jobs/view/4417979510/) — Acceler8 Talent
+### [Senior Manager, Product Data Science - Fleet Optimization and Orchestration](https://www.linkedin.com/jobs/view/4422048736/) — Waymo
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Forward Deployed Data Engineer Expert](https://www.linkedin.com/jobs/view/4422052708/) — SAP
+- 📍 **Location:** Palo Alto, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Generative AI Engineer](https://www.linkedin.com/jobs/view/4421243395/) — Mindlance
+- 📍 **Location:** Concord, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Advanced Systems Engineer - AI Focused](https://www.linkedin.com/jobs/view/4422051774/) — County of Marin
+- 📍 **Location:** San Rafael, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Software Engineer, Operational/ Process Efficiency](https://www.linkedin.com/jobs/view/4422057613/) — Waymo
+- 📍 **Location:** Mountain View, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Forward Deployed Application/ML Engineering Expert](https://www.linkedin.com/jobs/view/4422057574/) — SAP
+- 📍 **Location:** Palo Alto, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Senior / Staff Forward Deployed AI Engineer](https://www.linkedin.com/jobs/view/4398910623/) — Charta Health
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Robotics Engineer, Technical Lead](https://www.linkedin.com/jobs/view/4422047853/) — Applied Intuition
+- 📍 **Location:** Sunnyvale, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Embedded Software Engineer](https://www.linkedin.com/jobs/view/4422059560/) — BayOne Solutions
+- 📍 **Location:** Sunnyvale, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Full Stack Engineer - Growth](https://www.linkedin.com/jobs/view/4422038913/) — Jobright.ai
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Staff Software Engineer - Vehicle Data Services](https://www.linkedin.com/jobs/view/4422053726/) — Rivian and Volkswagen Group Technologies
+- 📍 **Location:** Palo Alto, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Software Developer](https://www.linkedin.com/jobs/view/4421239470/) — Lawrence Livermore National Laboratory
+- 📍 **Location:** Livermore, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Site Reliability Engineer](https://www.linkedin.com/jobs/view/4417984248/) — Sigmaways Inc
 - 📍 **Location:** San Francisco Bay Area
 - 🕒 **Posted:** 2026-05-29
 
-### [Senior Research Engineer](https://www.linkedin.com/jobs/view/4422050463/) — Polaris Wireless
-- 📍 **Location:** Santa Clara, CA
+### [Systems Engineer 5](https://www.linkedin.com/jobs/view/4422040926/) — Lam Research
+- 📍 **Location:** Fremont, CA
 - 🕒 **Posted:** 2026-05-29
 
-### [Systems Engineer - Staff System Safety Engineer](https://www.linkedin.com/jobs/view/4421233405/) — Lockheed Martin
-- 📍 **Location:** Sunnyvale, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Systems Engineer - Senior System Safety Engineer](https://www.linkedin.com/jobs/view/4421240088/) — Lockheed Martin
-- 📍 **Location:** Sunnyvale, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Systems Engineer - Senior System Safety Engineer](https://www.linkedin.com/jobs/view/4421223971/) — Lockheed Martin
-- 📍 **Location:** Sunnyvale, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Senior Systems Engineer - AI Infrastructure](https://www.linkedin.com/jobs/view/4413200393/) — Clockwork Systems, Inc.
-- 📍 **Location:** Palo Alto, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Staff AI Engineer](https://www.linkedin.com/jobs/view/4421228826/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [AI Engineer, Agent Product (Full-time/Part-time)](https://www.linkedin.com/jobs/view/4422057546/) — Jobright.ai
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [AI Engineer](https://www.linkedin.com/jobs/view/4421229832/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Senior AI Engineer](https://www.linkedin.com/jobs/view/4421239115/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Staff Software Engineer, App Platform](https://www.linkedin.com/jobs/view/4421239117/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Fullstack Software Developer](https://www.linkedin.com/jobs/view/4417968834/) — UST
+### [IP/PDK Infrastructure Engineer](https://www.linkedin.com/jobs/view/4421253208/) — Cisco
 - 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-05-29
 
-### [Staff Software Engineer](https://www.linkedin.com/jobs/view/4417970885/) — SPAN
+### [Cybersecurity Engineer with exp in Vendor risk assessment](https://www.linkedin.com/jobs/view/4417972955/) — PineQ Lab Technology
+- 📍 **Location:** Cupertino, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Security Engineer, Corporate Security](https://www.linkedin.com/jobs/view/4422067034/) — Persona
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-05-29
 
-### [Deployed Software Engineer (Senior or Staff)](https://www.linkedin.com/jobs/view/4421246050/) — Fieldguide
+### [Security Engineer, Enterprise](https://www.linkedin.com/jobs/view/4422052857/) — Persona
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-05-29
 
-### [Principal Full-Stack Engineer](https://www.linkedin.com/jobs/view/4421228579/) — Edison Scientific
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Senior Software Engineer – Time Synchronization](https://www.linkedin.com/jobs/view/4412959298/) — Clockwork Systems, Inc.
+### [Internship, Data Engineer, Fleet Analytics (Summer 2026)](https://www.linkedin.com/jobs/view/4421250257/) — Tesla
 - 📍 **Location:** Palo Alto, CA
 - 🕒 **Posted:** 2026-05-29
 
-### [Senior Frontend Engineer](https://www.linkedin.com/jobs/view/4412966007/) — Clockwork Systems, Inc.
+### [Growth Data Engineer](https://www.linkedin.com/jobs/view/4422049694/) — Jobright.ai
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Staff Software Engineer - ADAS Visual Experience](https://www.linkedin.com/jobs/view/4421245263/) — General Motors
+- 📍 **Location:** Sunnyvale, CA
+- 🕒 **Posted:** 2026-05-29
+
+### [Forward Deployed Data Scientist Expert](https://www.linkedin.com/jobs/view/4422054667/) — SAP
 - 📍 **Location:** Palo Alto, CA
 - 🕒 **Posted:** 2026-05-29
 
-### [Senior Software Engineer, Audit (Full Stack)](https://www.linkedin.com/jobs/view/4421231608/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Staff Software Engineer, Audit (Full Stack)](https://www.linkedin.com/jobs/view/4421249010/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Staff Site Reliability Engineer](https://www.linkedin.com/jobs/view/4421236366/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Sr Staff DevOps Engineer](https://www.linkedin.com/jobs/view/4421237145/) — 42dot
-- 📍 **Location:** Sunnyvale, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Staff Infrastructure Engineer](https://www.linkedin.com/jobs/view/4421236368/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Senior Infrastructure Engineer](https://www.linkedin.com/jobs/view/4421229833/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Senior Distributed Systems Engineer – Kotlin/Spring](https://www.linkedin.com/jobs/view/4408754355/) — Elevance Health
-- 📍 **Location:** Walnut Creek, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Senior Site Reliability Engineer](https://www.linkedin.com/jobs/view/4421247016/) — Fieldguide
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Systems Engineer - Associate System Safety Engineer](https://www.linkedin.com/jobs/view/4421242028/) — Lockheed Martin
-- 📍 **Location:** Sunnyvale, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Lab Infrastructure Engineer](https://www.linkedin.com/jobs/view/4422049576/) — Experis
-- 📍 **Location:** Menlo Park, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Head of Security Engineering](https://www.linkedin.com/jobs/view/4422037795/) — BetterHelp
-- 📍 **Location:** Mountain View, CA
-- 🕒 **Posted:** 2026-05-29
-
-### [Bioinformatics Engineer](https://www.linkedin.com/jobs/view/4421228670/) — LeadStack Inc.
-- 📍 **Location:** Foster City, CA
+### [Forward Deployed Data Scientist Expert](https://www.linkedin.com/jobs/view/4422044875/) — SAP
+- 📍 **Location:** Palo Alto, CA
 - 🕒 **Posted:** 2026-05-29
