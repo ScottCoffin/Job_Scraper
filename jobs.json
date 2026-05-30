@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-05-29 07:03 UTC",
+  "scraped_at": "2026-05-30 06:30 UTC",
   "total": 18,
-  "new_count": 3,
+  "new_count": 4,
   "jobs": [
     {
       "company": "10x Genomics",
@@ -24,7 +24,7 @@
       "title": "Senior Machine Learning Engineer",
       "location": "Brisbane, California",
       "url": "https://job-boards.greenhouse.io/freenome/jobs/8013673002",
-      "date_posted": "2026-03-24",
+      "date_posted": "2026-05-29",
       "ats": "Greenhouse"
     },
     {
@@ -32,7 +32,7 @@
       "title": "Senior Software Engineer II",
       "location": "Brisbane, California",
       "url": "https://job-boards.greenhouse.io/freenome/jobs/8519753002",
-      "date_posted": "2026-05-05",
+      "date_posted": "2026-05-29",
       "ats": "Greenhouse"
     },
     {
@@ -77,6 +77,14 @@
     },
     {
       "company": "Eikon Therapeutics",
+      "title": "Senior Data Scientist, Biology",
+      "location": "Millbrae, CA",
+      "url": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5072518007",
+      "date_posted": "2026-05-29",
+      "ats": "Greenhouse"
+    },
+    {
+      "company": "Eikon Therapeutics",
       "title": "Software Engineer 2, Algorithms and Biological Analysis",
       "location": "Millbrae, CA",
       "url": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5100652007",
@@ -88,7 +96,7 @@
       "title": "Software Engineering Manager, Data Engineering",
       "location": "Millbrae, CA",
       "url": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5129843007",
-      "date_posted": "2026-05-08",
+      "date_posted": "2026-05-29",
       "ats": "Greenhouse"
     },
     {
@@ -116,61 +124,61 @@
       "ats": "Greenhouse"
     },
     {
-      "company": "Gilead Sciences",
-      "title": "Executive Director of Clinical Data Engineering & Analytics (CDEA)",
-      "location": "United States - California - Foster City",
-      "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Executive-Director-of-Clinical-Data-Engineering---Analytics--CDEA-_R0051540",
-      "date_posted": "Posted 14 Days Ago",
-      "ats": "Workday"
-    },
-    {
-      "company": "Genentech",
-      "title": "Computational Scientist 3, Spatial Omics & Computational Pathology",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4420679315/",
+      "company": "Intel",
+      "title": "Senior Infrastructure and DevOps Engineer",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4401476672/",
       "date_posted": "2026-05-29",
       "ats": "LinkedIn"
     },
     {
-      "company": "GRAIL",
-      "title": "Senior Data Scientist # 4630",
-      "location": "Menlo Park, CA",
-      "url": "https://www.linkedin.com/jobs/view/4409951663/",
-      "date_posted": "2026-05-28",
+      "company": "Persona",
+      "title": "Security Engineer, Enterprise",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422052857/",
+      "date_posted": "2026-05-29",
       "ats": "LinkedIn"
     },
     {
-      "company": "Personalis, Inc.",
-      "title": "Sr. Network and Infrastructure Engineer",
-      "location": "Fremont, CA",
-      "url": "https://www.linkedin.com/jobs/view/4369313843/",
-      "date_posted": "2026-05-28",
+      "company": "AbbVie",
+      "title": "Senior Data Scientist II \u2013 Precision Medicine, Allergan & Omics",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4410847901/",
+      "date_posted": "2026-05-29",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Genentech",
-      "title": "Computational Scientist 3, Spatial Omics & Computational Pathology",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4420679315/",
+      "company": "Eikon Therapeutics",
+      "title": "Senior Data Scientist, Biology",
+      "location": "Millbrae, CA",
+      "url": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5072518007",
+      "date_posted": "2026-05-29",
+      "ats": "Greenhouse"
+    },
+    {
+      "company": "Intel",
+      "title": "Senior Infrastructure and DevOps Engineer",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4401476672/",
       "date_posted": "2026-05-29",
       "ats": "LinkedIn"
     },
     {
-      "company": "GRAIL",
-      "title": "Senior Data Scientist # 4630",
-      "location": "Menlo Park, CA",
-      "url": "https://www.linkedin.com/jobs/view/4409951663/",
-      "date_posted": "2026-05-28",
+      "company": "Persona",
+      "title": "Security Engineer, Enterprise",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422052857/",
+      "date_posted": "2026-05-29",
       "ats": "LinkedIn"
     },
     {
-      "company": "Personalis, Inc.",
-      "title": "Sr. Network and Infrastructure Engineer",
-      "location": "Fremont, CA",
-      "url": "https://www.linkedin.com/jobs/view/4369313843/",
-      "date_posted": "2026-05-28",
+      "company": "AbbVie",
+      "title": "Senior Data Scientist II \u2013 Precision Medicine, Allergan & Omics",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4410847901/",
+      "date_posted": "2026-05-29",
       "ats": "LinkedIn"
     }
   ]
