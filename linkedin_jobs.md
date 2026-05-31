@@ -1,56 +1,60 @@
 # 🔥 LinkedIn — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-05-31 18:17 UTC*
+*Last updated: 2026-05-31 19:17 UTC*
 
-**13 new role(s)** since last run · 16 total in last 1h
+**14 new role(s)** since last run · 21 total in last 1h
 
-### [Applied AI Software Engineer](https://www.linkedin.com/jobs/view/4380612968/) — Docusign
+### [ML Engineer - Pre-IPO Tech Leader](https://www.linkedin.com/jobs/view/4380637299/) — Andiamo
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-05-31
 
-### [Senior Software Engineer - Fintech Leading Software Firm](https://www.linkedin.com/jobs/view/4380627876/) — Andiamo
+### [Senior Data Scientist - Global Finance Leader](https://www.linkedin.com/jobs/view/4380623895/) — Andiamo
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-05-31
 
-### [Software Engineer](https://www.linkedin.com/jobs/view/3986116442/) — Epic
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-31
-
-### [Sr. Software Engineer 3 - Global Tech Leader](https://www.linkedin.com/jobs/view/4380638244/) — Andiamo
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-31
-
-### [Silicon ML Engineer III](https://www.linkedin.com/jobs/view/4421625152/) — Cognichip
-- 📍 **Location:** Redwood City, CA
-- 🕒 **Posted:** 2026-05-31
-
-### [Principal Software Engineer, Business Experience](https://www.linkedin.com/jobs/view/4311743614/) — Snap Inc.
+### [Frontend Software Engineer - AI Platform Leader](https://www.linkedin.com/jobs/view/4380635476/) — Andiamo
 - 📍 **Location:** Palo Alto, CA
 - 🕒 **Posted:** 2026-05-31
 
-### [Member of Technical Staff (Backend Software Engineer, API Platform)](https://www.linkedin.com/jobs/view/4323100448/) — Perplexity
+### [Data Scientist - TikTok PGC Sports (San Jose)](https://www.linkedin.com/jobs/view/4422578707/) — TikTok
+- 📍 **Location:** San Jose, CA
+- 🕒 **Posted:** 2026-05-31
+
+### [Sr. Data Engineer - Fintech Leader (Series D)](https://www.linkedin.com/jobs/view/4381048938/) — Andiamo
+- 📍 **Location:** San Jose, CA
+- 🕒 **Posted:** 2026-05-31
+
+### [Senior Data Scientist, Global Data Analytics for Internal Audit Function - AMS](https://www.linkedin.com/jobs/view/4422583676/) — TikTok
+- 📍 **Location:** San Jose, CA
+- 🕒 **Posted:** 2026-05-31
+
+### [Backend Software Engineer - TikTok - OGC](https://www.linkedin.com/jobs/view/4422580701/) — TikTok
+- 📍 **Location:** San Jose, CA
+- 🕒 **Posted:** 2026-05-31
+
+### [Developer Advocate – Reinforcement Learning](https://www.linkedin.com/jobs/view/4418396615/) — NVIDIA AI
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-05-31
+
+### [AI/Generative AI Engineer](https://www.linkedin.com/jobs/view/4380633523/) — Andiamo
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-05-31
 
-### [US Tech - AI Engineering Senior Associate](https://www.linkedin.com/jobs/view/4412363651/) — PwC
+### [Senior Backend Software Engineer - AI - Asset Services](https://www.linkedin.com/jobs/view/4422565732/) — TikTok
+- 📍 **Location:** San Jose, CA
+- 🕒 **Posted:** 2026-05-31
+
+### [Staff Wireless Software Engineer](https://www.linkedin.com/jobs/view/4382190992/) — Axon
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-05-31
 
-### [AI Engineer III - Agentic AI](https://www.linkedin.com/jobs/view/4412390541/) — American Express
-- 📍 **Location:** Palo Alto, CA
+### [Endpoint Security Software Engineer, C++/PC Windows - USDS](https://www.linkedin.com/jobs/view/4421624901/) — TikTok USDS Joint Venture
+- 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-05-31
 
-### [CTIO-AI Engineer-Sr Associate](https://www.linkedin.com/jobs/view/4403095007/) — PwC
-- 📍 **Location:** San Francisco, CA
+### [Multi-Cloud CDN Scheduling Platform Engineer](https://www.linkedin.com/jobs/view/4422565717/) — TikTok
+- 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-05-31
 
-### [Senior Full Stack Engineer](https://www.linkedin.com/jobs/view/4372945684/) — SoFi
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-31
-
-### [ETF Systems - Full Stack Engineer - Associate](https://www.linkedin.com/jobs/view/4382154744/) — BlackRock
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-05-31
-
-### [Staff Computer Vision Engineer](https://www.linkedin.com/jobs/view/4422569693/) — Green Key Resources
+### [Multi-Cloud CDN Access Platform Engineer](https://www.linkedin.com/jobs/view/4422568727/) — TikTok
 - 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-05-31
