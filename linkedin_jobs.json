@@ -1,61 +1,45 @@
 {
-  "scraped_at": "2026-05-31 17:17 UTC",
-  "total": 10,
-  "new_count": 4,
+  "scraped_at": "2026-05-31 18:17 UTC",
+  "total": 16,
+  "new_count": 13,
   "jobs": [
     {
-      "company": "Character.AI",
-      "title": "Machine Learning Infrastructure Engineer",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4081454578/",
-      "date_posted": "2026-05-31",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Vercel",
-      "title": "Software Engineer, Workflows",
+      "company": "Docusign",
+      "title": "Applied AI Software Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4372135667/",
+      "url": "https://www.linkedin.com/jobs/view/4380612968/",
       "date_posted": "2026-05-31",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobright.ai",
-      "title": "Full-Stack Engineer",
+      "company": "Andiamo",
+      "title": "Senior Software Engineer - Fintech Leading Software Firm",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4380627876/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Epic",
+      "title": "Software Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/3986116442/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Andiamo",
+      "title": "Sr. Software Engineer 3 - Global Tech Leader",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4380638244/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Cognichip",
+      "title": "Silicon ML Engineer III",
       "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422564528/",
-      "date_posted": "2026-05-31",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobright.ai",
-      "title": "Machine Learning Engineer, Speech LLM Training",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422578565/",
-      "date_posted": "2026-05-31",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Amazon Web Services (AWS)",
-      "title": "SoC Systems Software Engineer, Annapurna Labs Machine Learning Accelerators, AWS",
-      "location": "Cupertino, CA",
-      "url": "https://www.linkedin.com/jobs/view/4392022613/",
-      "date_posted": "2026-05-31",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Unity South APAC (SEA, ANZ, IND Subcont.)",
-      "title": "Staff Backend Engineer, ML Inference Systems",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418379576/",
-      "date_posted": "2026-05-31",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobright.ai",
-      "title": "Software Engineer - AI Agent",
-      "location": "San Mateo County, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422579524/",
+      "url": "https://www.linkedin.com/jobs/view/4421625152/",
       "date_posted": "2026-05-31",
       "ats": "LinkedIn"
     },
@@ -68,6 +52,30 @@
       "ats": "LinkedIn"
     },
     {
+      "company": "Snap Inc.",
+      "title": "Principal Software Engineer, Business Experience",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4311743614/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Perplexity",
+      "title": "Member of Technical Staff (Backend Software Engineer, API Platform)",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4323100448/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Unity South APAC (SEA, ANZ, IND Subcont.)",
+      "title": "Staff Backend Engineer, ML Inference Systems",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4418379576/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
       "company": "SpaceX",
       "title": "Principal AI Security Software Engineer (Starshield)",
       "location": "Palo Alto, CA",
@@ -76,44 +84,156 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Zip",
-      "title": "Senior Application Security Engineer",
+      "company": "PwC",
+      "title": "US Tech - AI Engineering Senior Associate",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4336876058/",
+      "url": "https://www.linkedin.com/jobs/view/4412363651/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "American Express",
+      "title": "AI Engineer III - Agentic AI",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412390541/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "PwC",
+      "title": "CTIO-AI Engineer-Sr Associate",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4403095007/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "SoFi",
+      "title": "Senior Full Stack Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4372945684/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "BlackRock",
+      "title": "ETF Systems - Full Stack Engineer - Associate",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4382154744/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Green Key Resources",
+      "title": "Staff Computer Vision Engineer",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422569693/",
       "date_posted": "2026-05-31",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Jobright.ai",
-      "title": "Machine Learning Engineer, Speech LLM Training",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422578565/",
-      "date_posted": "2026-05-31",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Unity South APAC (SEA, ANZ, IND Subcont.)",
-      "title": "Staff Backend Engineer, ML Inference Systems",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418379576/",
-      "date_posted": "2026-05-31",
-      "ats": "LinkedIn"
-    },
-    {
       "company": "Docusign",
-      "title": "Sr. Software Engineer",
+      "title": "Applied AI Software Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4391244264/",
+      "url": "https://www.linkedin.com/jobs/view/4380612968/",
       "date_posted": "2026-05-31",
       "ats": "LinkedIn"
     },
     {
-      "company": "SpaceX",
-      "title": "Principal AI Security Software Engineer (Starshield)",
+      "company": "Andiamo",
+      "title": "Senior Software Engineer - Fintech Leading Software Firm",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4380627876/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Epic",
+      "title": "Software Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/3986116442/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Andiamo",
+      "title": "Sr. Software Engineer 3 - Global Tech Leader",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4380638244/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Cognichip",
+      "title": "Silicon ML Engineer III",
+      "location": "Redwood City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4421625152/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Snap Inc.",
+      "title": "Principal Software Engineer, Business Experience",
       "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4392016151/",
+      "url": "https://www.linkedin.com/jobs/view/4311743614/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Perplexity",
+      "title": "Member of Technical Staff (Backend Software Engineer, API Platform)",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4323100448/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "PwC",
+      "title": "US Tech - AI Engineering Senior Associate",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412363651/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "American Express",
+      "title": "AI Engineer III - Agentic AI",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412390541/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "PwC",
+      "title": "CTIO-AI Engineer-Sr Associate",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4403095007/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "SoFi",
+      "title": "Senior Full Stack Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4372945684/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "BlackRock",
+      "title": "ETF Systems - Full Stack Engineer - Associate",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4382154744/",
+      "date_posted": "2026-05-31",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Green Key Resources",
+      "title": "Staff Computer Vision Engineer",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422569693/",
       "date_posted": "2026-05-31",
       "ats": "LinkedIn"
     }
