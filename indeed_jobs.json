@@ -1,8 +1,120 @@
 {
-  "scraped_at": "2026-06-01 20:03 UTC",
-  "total": 39,
-  "new_count": 39,
+  "scraped_at": "2026-06-01 22:42 UTC",
+  "total": 84,
+  "new_count": 55,
   "jobs": [
+    {
+      "company": "Applied Materials",
+      "title": "Software Engineer II",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d63051e9a36b80ce",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CuraFi",
+      "title": "Full Stack Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=a12986c20007fe69",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Socure",
+      "title": "Data Scientist II - Big Data R&D, Identity Graph & KYC",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=a75befce9107331c",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Socure",
+      "title": "Senior Data Scientist - Fraud Data Infrastructure & Automation",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=0ff18e89345b904e",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Socure",
+      "title": "Senior Data Scientist - Big Data R&D, Identity Graph & KYC",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=b255f7cfbea2f42a",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer III, Embedded Systems, Hearables Audio software",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=859d5ef000e88226",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer, Recommendations, Rankings, Predictions, Search Discover",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d2e48e08ea17c4c3",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer III, AI/ML, Search Intelligence Freshness",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=640f5fd2cbbad473",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer III, Generative AI, Payments Risk",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=a257375bb9df7a42",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer, GPU Performance",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=b58d6f65f385be2d",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Quest Global",
+      "title": "Data AI/ML Engineer",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d614e5f53bf17a17",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "General Motors (GM)",
+      "title": "Staff Software Engineer \u2013 Secondary Driving System",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=32ea8eff8301cf72",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Deep Learning Computer Architect - New College Grad 2026",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=0c3a822ec43bd5fe",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Waymo",
+      "title": "Senior Machine Learning Infrastructure Engineer, Simulation",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=1712d8e648e0f458",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
     {
       "company": "Saildrone",
       "title": "Staff Software Engineer, Machine Learning",
@@ -84,11 +196,27 @@
       "ats": "Indeed"
     },
     {
+      "company": "Cisco",
+      "title": "Software Engineer Data/AI/Intelligent Systems II (Intern) \u00e2\u20ac\u201c United States",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=112dfedf0090a6e8",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
       "company": "Apple",
       "title": "Senior Maching Learning & Data Scientist, OS Power & Performance",
       "location": "Cupertino, CA, US",
       "url": "https://www.indeed.com/viewjob?jk=27e4ab76af3f836b",
       "date_posted": "2026-05-28",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Ericsson",
+      "title": "Data Scientist II",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=2857a70c992eb0f6",
+      "date_posted": "2026-04-16",
       "ats": "Indeed"
     },
     {
@@ -105,6 +233,102 @@
       "location": "Sunnyvale, CA, US",
       "url": "https://www.indeed.com/viewjob?jk=7512ac4a428ccb59",
       "date_posted": "2025-08-28",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Applied Materials",
+      "title": "Data Scientist Year Round Intern - BS/MS degree (Santa Clara, CA)",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=7107f9e0f65b34e3",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Volkswagen",
+      "title": "Intern, ADAS Data Science & Machine Learning",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=b59b0b07e6b82103",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SoFi",
+      "title": "Senior Staff Data Scientist, Invest",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=7fffa5980c66a889",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SoFi",
+      "title": "Senior Data Scientist, Borrow",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=3b979a02744a42b6",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SoFi",
+      "title": "Senior Manager, Data Science",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=ba46e6143faaa7df",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SoFi",
+      "title": "Data Science Manager, Borrow",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=59d232af4f1c60e4",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Socure",
+      "title": "Senior Data Scientist - International eKYC, Identity Graph",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d8c35a8039f2d699",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Socure",
+      "title": "Senior Data Scientist - Digital Intelligence, Device Signals",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=7d92f21e9c7b0648",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Socure",
+      "title": "Data Scientist II - Global Watchlist",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=e00313c67e7c938d",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer, Generative AI, Google Ads",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=48e82b2b8cae8301",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Business Data Scientist, Global Business Strategy and Operations",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=9c5d229f1a5a5da2",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer, Generative AI",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=73f11f5bfed09896",
+      "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
@@ -164,6 +388,206 @@
       "ats": "Indeed"
     },
     {
+      "company": "Palo Alto Networks",
+      "title": "Senior Software Engineer",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=e839ea5e62cd21d3",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Principal Software Engineer ( Cloud Security )",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=cc61b4f2092136d1",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Principal Software Engineer (Cloud Nework and AI Security)",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=2398e63035c255ac",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Uber",
+      "title": "Senior Systems Engineer, AM&D Services & Products",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=71ffea358475b79e",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Uber",
+      "title": "Staff Systems Engineer, AM&D Partner Integration",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=e29d10cb75a83aac",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Qualcomm",
+      "title": "Staff Software Engineer - WLAN",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=78624f986faf78b1",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Brainlabs",
+      "title": "Manager, Data Engineering",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=96ab191451d47d01",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Staff Software Engineer, AI Innovation",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=f445907266be4ee0",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer Manager, Google Global Infrastructure, NetSoft",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=0550af8b475cedfb",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer, Earth AI, AI/ML, Research",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=baffd8e278d7c765",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer, Earth AI, AI/ML, Research",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=f63c642be6c8b6c6",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Staff Software Engineer, Serverless",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=8d03a72ddee2032a",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Walmart",
+      "title": "Principal, Software Engineer",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=f613ab30bcf7a888",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Zoom Communications",
+      "title": "Software Engineer",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=8e78592ee1e45a35",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "NuByt",
+      "title": "Navigation Software Engineer",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=07175c9140a50d67",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SoFi",
+      "title": "Senior Software Engineer, Invest",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=56cbfc35a0134be3",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Samsara",
+      "title": "Senior Software Engineer I - Agent Foundations",
+      "location": "San Francisco Bay Area, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=15144fb5595b5393",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Staff Software Engineer, Infrastructure, NetInfra Telemetry",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d1bd91070929bbbc",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineering Manager II, Embedded Systems/Firmware, Platforms Infrastructure Engineering",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=466674c0384b5611",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer III, Infrastructure, Infra Spanner",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=bd1912cc4e49c23a",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Staff Software Engineer, AI/ML Performance",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=1d196e7e90115e8e",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Youtube",
+      "title": "Staff Software Engineer, Mobile (Android), YouTube",
+      "location": "San Bruno, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=24042106a80b22ac",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "ServiceNow",
+      "title": "Sr. Software Engineer, Fullstack - Moveworks",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=4964c89e5b6e22d1",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Unknown",
+      "title": "Founding Backend Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=c861c9f1d37baaf4",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Tokyo Electron",
+      "title": "Entry-Level Software Engineer \u2014 AI Research",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=b1a97635526b81d8",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
       "company": "Nimble Robotics",
       "title": "Staff Software Engineer, Multi-Robot Coordination",
       "location": "San Francisco, CA, US",
@@ -172,10 +596,10 @@
       "ats": "Indeed"
     },
     {
-      "company": "Wells Fargo",
-      "title": "Quantitative Analytics Senior Manager -Agentic AI Platform & Product Owner",
+      "company": "Germain Hotels",
+      "title": "Senior Software Engineer, Vault",
       "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=e1f82355935100c4",
+      "url": "https://www.indeed.com/viewjob?jk=5251e8fee413bb59",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
@@ -188,22 +612,6 @@
       "ats": "Indeed"
     },
     {
-      "company": "Electronic Arts",
-      "title": "D\u00e9veloppeur.se de logiciels / Software Developer",
-      "location": "Redwood City, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=da3fc2d3b20deb25",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Electronic Arts",
-      "title": "D\u00e9veloppeur.euse de logiciels sp\u00e9cialis\u00e9s en testabilit\u00e9 / Software Developer in Test",
-      "location": "Redwood City, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=81bf81566f6fbab7",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
       "company": "clickhouse",
       "title": "Senior Software Engineer - Postgres",
       "location": "San Francisco, CA, US",
@@ -212,42 +620,10 @@
       "ats": "Indeed"
     },
     {
-      "company": "NVIDIA",
-      "title": "Manager, Software Engineering - Cumulus Linux",
-      "location": "Santa Clara, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=adfd3f4313b9161d",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Apple",
-      "title": "Senior Software Engineer, Apple Services Engineering",
-      "location": "Cupertino, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=400990c0630fb004",
-      "date_posted": "2026-05-28",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Germain Hotels",
-      "title": "Senior Software Engineer, Vault",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=5251e8fee413bb59",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Aurora Innovation",
-      "title": "Staff Software Engineer, Deep Learning Acceleration",
-      "location": "Mountain View, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=666c2d94f0491a15",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Aurora Innovation",
-      "title": "Staff Software Engineer, Deep Learning Acceleration",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=4fdcc98d48163735",
+      "company": "General Motors (GM)",
+      "title": "Software Developer - Simulation Platform (Galileo)",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=6d3552477f4c8d7f",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
@@ -256,14 +632,6 @@
       "title": "Staff DevOps Engineer",
       "location": "San Jose, CA, US",
       "url": "https://www.indeed.com/viewjob?jk=3d3e40ef8599a1ee",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Google",
-      "title": "Software Engineer, Andromeda",
-      "location": "Sunnyvale, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=e6dd5b85fbdeb6f3",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
@@ -277,355 +645,475 @@
     },
     {
       "company": "NVIDIA",
-      "title": "Senior Systems Software Engineer, Windows and Linux Enablement - DGX Station",
-      "location": "Santa Clara, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=1b7c0a37aa8d6644",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "General Motors (GM)",
-      "title": "Software Developer - Simulation Platform (Galileo)",
-      "location": "Sunnyvale, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=6d3552477f4c8d7f",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Apple",
-      "title": "Platform Software Engineer, Infrastructure Services",
-      "location": "Sunnyvale, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=0323901d33d998de",
-      "date_posted": "2026-05-28",
-      "ats": "Indeed"
-    },
-    {
-      "company": "NameSpace",
-      "title": "Mac Infrastructure Engineer",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=a4e06e12c3bf06b8",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "NVIDIA",
       "title": "Senior Site Reliability Engineer, GeForce NOW",
       "location": "Santa Clara, CA, US",
       "url": "https://www.indeed.com/viewjob?jk=d7f8ad82f275c453",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Waymo",
+      "title": "Senior Systems Engineer, Vehicle Security",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d6b4bc341a948ac1",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "Quantitative Analytics Senior Manager -Agentic AI Platform & Product Owner",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=e1f82355935100c4",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "LatchBio",
+      "title": "Bioinformatics Engineer, Therapeutics",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=ceca9c9342c09690",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     }
   ],
   "new_jobs": [
     {
-      "company": "Saildrone",
-      "title": "Staff Software Engineer, Machine Learning",
-      "location": "Alameda, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=61c0a5767ae63d2e",
+      "company": "Applied Materials",
+      "title": "Software Engineer II",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d63051e9a36b80ce",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
-      "company": "Saildrone",
-      "title": "Staff Software Engineer, Perception",
-      "location": "Alameda, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=3ade6b902dd97092",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "AT&T",
-      "title": "Principal AI-Native Software Engineer",
-      "location": "Palo Alto, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=17f224bc33d42888",
+      "company": "CuraFi",
+      "title": "Full Stack Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=a12986c20007fe69",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
       "company": "Socure",
-      "title": "Senior Backend Engineer",
+      "title": "Data Scientist II - Big Data R&D, Identity Graph & KYC",
       "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=bed4dced34c124c8",
+      "url": "https://www.indeed.com/viewjob?jk=a75befce9107331c",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
       "company": "Socure",
-      "title": "Senior Software Engineer - Backend (DocV)",
+      "title": "Senior Data Scientist - Fraud Data Infrastructure & Automation",
       "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=03ea7856aad09922",
+      "url": "https://www.indeed.com/viewjob?jk=0ff18e89345b904e",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Socure",
+      "title": "Senior Data Scientist - Big Data R&D, Identity Graph & KYC",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=b255f7cfbea2f42a",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
       "company": "Google",
-      "title": "Software Engineer, Personalization Platform, Core",
-      "location": "San Jose, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=626fdb487989e2c9",
+      "title": "Software Engineer III, Embedded Systems, Hearables Audio software",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=859d5ef000e88226",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
-      "company": "Zoox",
-      "title": "Senior/Staff Software Engineer - Behavior Capabilities",
-      "location": "Foster City, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=6f4cd3acc6e4c804",
+      "company": "Google",
+      "title": "Senior Software Engineer, Recommendations, Rankings, Predictions, Search Discover",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d2e48e08ea17c4c3",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
-      "company": "Zoox",
-      "title": "Software Engineer - Behavior Capabilities",
-      "location": "Foster City, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=62a6f24f162232da",
+      "company": "Google",
+      "title": "Software Engineer III, AI/ML, Search Intelligence Freshness",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=640f5fd2cbbad473",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
-      "company": "Atlassian",
-      "title": "Head of Data Engineering",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=4e7116ecf260921b",
+      "company": "Google",
+      "title": "Software Engineer III, Generative AI, Payments Risk",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=a257375bb9df7a42",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
-      "company": "Cogitativo, Inc.",
-      "title": "Senior Data Scientist",
-      "location": "Berkeley, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=060e11f4fa96f154",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Apple",
-      "title": "Senior Maching Learning & Data Scientist, OS Power & Performance",
-      "location": "Cupertino, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=27e4ab76af3f836b",
-      "date_posted": "2026-05-28",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Apple",
-      "title": "AIML Security Engineering",
-      "location": "Cupertino, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=f31b3002f326c3f5",
-      "date_posted": "2025-12-08",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Amazon.com",
-      "title": "Sr. MLE, Prime Video - Personalization and Discovery",
+      "company": "Google",
+      "title": "Software Engineer, GPU Performance",
       "location": "Sunnyvale, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=7512ac4a428ccb59",
-      "date_posted": "2025-08-28",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Lyft",
-      "title": "Staff Data Scientist, Decisions - Partnership, Loyalty & Pay",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=d8c325cabbad6846",
+      "url": "https://www.indeed.com/viewjob?jk=b58d6f65f385be2d",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
-      "company": "DPR Construction",
-      "title": "AI Engineer Intern",
-      "location": "Silicon Valley, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=bf50514866cadea6",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Rippling",
-      "title": "Data Scientist II",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=bd0c58bdce5dab56",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Google",
-      "title": "Product Data Scientist, Discover Experience",
-      "location": "Mountain View, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=72dedf9c33295228",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Google",
-      "title": "Software Engineer III, AI/ML Recommendations, Rankings, Predictions, Google Ads",
-      "location": "Mountain View, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=2840d71300f76884",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Google",
-      "title": "Business Data Science Manager, Global Business Strategy and Operations",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=e3a23a85dd99cc26",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Micron Technology",
-      "title": "Data Scientist",
-      "location": "San Jose, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=367c6800280b4d85",
-      "date_posted": "2026-05-28",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Nimble Robotics",
-      "title": "Staff Software Engineer, Multi-Robot Coordination",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=e959115648685884",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Wells Fargo",
-      "title": "Quantitative Analytics Senior Manager -Agentic AI Platform & Product Owner",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=e1f82355935100c4",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Terzo",
-      "title": "(Sr/Staff) Software Engineer - Agentic Platform",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=e69cb452657d2605",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Electronic Arts",
-      "title": "D\u00e9veloppeur.se de logiciels / Software Developer",
-      "location": "Redwood City, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=da3fc2d3b20deb25",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Electronic Arts",
-      "title": "D\u00e9veloppeur.euse de logiciels sp\u00e9cialis\u00e9s en testabilit\u00e9 / Software Developer in Test",
-      "location": "Redwood City, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=81bf81566f6fbab7",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "clickhouse",
-      "title": "Senior Software Engineer - Postgres",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=ac0431120c92d0bd",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Manager, Software Engineering - Cumulus Linux",
-      "location": "Santa Clara, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=adfd3f4313b9161d",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Apple",
-      "title": "Senior Software Engineer, Apple Services Engineering",
-      "location": "Cupertino, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=400990c0630fb004",
-      "date_posted": "2026-05-28",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Germain Hotels",
-      "title": "Senior Software Engineer, Vault",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=5251e8fee413bb59",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Aurora Innovation",
-      "title": "Staff Software Engineer, Deep Learning Acceleration",
-      "location": "Mountain View, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=666c2d94f0491a15",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Aurora Innovation",
-      "title": "Staff Software Engineer, Deep Learning Acceleration",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=4fdcc98d48163735",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Zoom Communications",
-      "title": "Staff DevOps Engineer",
-      "location": "San Jose, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=3d3e40ef8599a1ee",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Google",
-      "title": "Software Engineer, Andromeda",
+      "company": "Quest Global",
+      "title": "Data AI/ML Engineer",
       "location": "Sunnyvale, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=e6dd5b85fbdeb6f3",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "IP Infusion Canada Inc",
-      "title": "DevOps Engineer",
-      "location": "Santa Clara, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=9b1957260cec96c2",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Senior Systems Software Engineer, Windows and Linux Enablement - DGX Station",
-      "location": "Santa Clara, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=1b7c0a37aa8d6644",
+      "url": "https://www.indeed.com/viewjob?jk=d614e5f53bf17a17",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
       "company": "General Motors (GM)",
-      "title": "Software Developer - Simulation Platform (Galileo)",
+      "title": "Staff Software Engineer \u2013 Secondary Driving System",
       "location": "Sunnyvale, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=6d3552477f4c8d7f",
-      "date_posted": "2026-06-01",
-      "ats": "Indeed"
-    },
-    {
-      "company": "Apple",
-      "title": "Platform Software Engineer, Infrastructure Services",
-      "location": "Sunnyvale, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=0323901d33d998de",
-      "date_posted": "2026-05-28",
-      "ats": "Indeed"
-    },
-    {
-      "company": "NameSpace",
-      "title": "Mac Infrastructure Engineer",
-      "location": "San Francisco, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=a4e06e12c3bf06b8",
+      "url": "https://www.indeed.com/viewjob?jk=32ea8eff8301cf72",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     },
     {
       "company": "NVIDIA",
-      "title": "Senior Site Reliability Engineer, GeForce NOW",
+      "title": "Deep Learning Computer Architect - New College Grad 2026",
       "location": "Santa Clara, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=d7f8ad82f275c453",
+      "url": "https://www.indeed.com/viewjob?jk=0c3a822ec43bd5fe",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Waymo",
+      "title": "Senior Machine Learning Infrastructure Engineer, Simulation",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=1712d8e648e0f458",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Cisco",
+      "title": "Software Engineer Data/AI/Intelligent Systems II (Intern) \u00e2\u20ac\u201c United States",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=112dfedf0090a6e8",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Ericsson",
+      "title": "Data Scientist II",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=2857a70c992eb0f6",
+      "date_posted": "2026-04-16",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Applied Materials",
+      "title": "Data Scientist Year Round Intern - BS/MS degree (Santa Clara, CA)",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=7107f9e0f65b34e3",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Volkswagen",
+      "title": "Intern, ADAS Data Science & Machine Learning",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=b59b0b07e6b82103",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SoFi",
+      "title": "Senior Staff Data Scientist, Invest",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=7fffa5980c66a889",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SoFi",
+      "title": "Senior Data Scientist, Borrow",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=3b979a02744a42b6",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SoFi",
+      "title": "Senior Manager, Data Science",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=ba46e6143faaa7df",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SoFi",
+      "title": "Data Science Manager, Borrow",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=59d232af4f1c60e4",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Socure",
+      "title": "Senior Data Scientist - International eKYC, Identity Graph",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d8c35a8039f2d699",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Socure",
+      "title": "Senior Data Scientist - Digital Intelligence, Device Signals",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=7d92f21e9c7b0648",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Socure",
+      "title": "Data Scientist II - Global Watchlist",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=e00313c67e7c938d",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer, Generative AI, Google Ads",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=48e82b2b8cae8301",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Business Data Scientist, Global Business Strategy and Operations",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=9c5d229f1a5a5da2",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer, Generative AI",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=73f11f5bfed09896",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Senior Software Engineer",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=e839ea5e62cd21d3",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Principal Software Engineer ( Cloud Security )",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=cc61b4f2092136d1",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Principal Software Engineer (Cloud Nework and AI Security)",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=2398e63035c255ac",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Uber",
+      "title": "Senior Systems Engineer, AM&D Services & Products",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=71ffea358475b79e",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Uber",
+      "title": "Staff Systems Engineer, AM&D Partner Integration",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=e29d10cb75a83aac",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Qualcomm",
+      "title": "Staff Software Engineer - WLAN",
+      "location": "Santa Clara, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=78624f986faf78b1",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Brainlabs",
+      "title": "Manager, Data Engineering",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=96ab191451d47d01",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Staff Software Engineer, AI Innovation",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=f445907266be4ee0",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer Manager, Google Global Infrastructure, NetSoft",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=0550af8b475cedfb",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer, Earth AI, AI/ML, Research",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=baffd8e278d7c765",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer, Earth AI, AI/ML, Research",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=f63c642be6c8b6c6",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Staff Software Engineer, Serverless",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=8d03a72ddee2032a",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Walmart",
+      "title": "Principal, Software Engineer",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=f613ab30bcf7a888",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Zoom Communications",
+      "title": "Software Engineer",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=8e78592ee1e45a35",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "NuByt",
+      "title": "Navigation Software Engineer",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=07175c9140a50d67",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SoFi",
+      "title": "Senior Software Engineer, Invest",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=56cbfc35a0134be3",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Samsara",
+      "title": "Senior Software Engineer I - Agent Foundations",
+      "location": "San Francisco Bay Area, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=15144fb5595b5393",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Staff Software Engineer, Infrastructure, NetInfra Telemetry",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d1bd91070929bbbc",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineering Manager II, Embedded Systems/Firmware, Platforms Infrastructure Engineering",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=466674c0384b5611",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer III, Infrastructure, Infra Spanner",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=bd1912cc4e49c23a",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Google",
+      "title": "Staff Software Engineer, AI/ML Performance",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=1d196e7e90115e8e",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Youtube",
+      "title": "Staff Software Engineer, Mobile (Android), YouTube",
+      "location": "San Bruno, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=24042106a80b22ac",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "ServiceNow",
+      "title": "Sr. Software Engineer, Fullstack - Moveworks",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=4964c89e5b6e22d1",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Unknown",
+      "title": "Founding Backend Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=c861c9f1d37baaf4",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Tokyo Electron",
+      "title": "Entry-Level Software Engineer \u2014 AI Research",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=b1a97635526b81d8",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "Waymo",
+      "title": "Senior Systems Engineer, Vehicle Security",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d6b4bc341a948ac1",
+      "date_posted": "2026-06-01",
+      "ats": "Indeed"
+    },
+    {
+      "company": "LatchBio",
+      "title": "Bioinformatics Engineer, Therapeutics",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=ceca9c9342c09690",
       "date_posted": "2026-06-01",
       "ats": "Indeed"
     }
