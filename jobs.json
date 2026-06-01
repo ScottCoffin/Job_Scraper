@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-05-31 07:06 UTC",
-  "total": 16,
-  "new_count": 1,
+  "scraped_at": "2026-06-01 08:44 UTC",
+  "total": 19,
+  "new_count": 3,
   "jobs": [
     {
       "company": "10x Genomics",
@@ -128,18 +128,58 @@
       "title": "Executive Director of Clinical Data Engineering & Analytics (CDEA)",
       "location": "United States - California - Foster City",
       "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Executive-Director-of-Clinical-Data-Engineering---Analytics--CDEA-_R0051540",
-      "date_posted": "Posted 16 Days Ago",
+      "date_posted": "Posted 17 Days Ago",
       "ats": "Workday"
+    },
+    {
+      "company": "Allogene Therapeutics",
+      "title": "Associate Director, Data Science",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4421660805/",
+      "date_posted": "2026-06-01",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Guardant Health",
+      "title": "Senior Bioinformatics Software Engineer",
+      "location": "Redwood City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422587407/",
+      "date_posted": "2026-06-01",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Bristol Myers Squibb",
+      "title": "Senior Director, Data Sciences and Advanced Analytics",
+      "location": "Brisbane, CA",
+      "url": "https://www.linkedin.com/jobs/view/4372978542/",
+      "date_posted": "2026-06-01",
+      "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Gilead Sciences",
-      "title": "Executive Director of Clinical Data Engineering & Analytics (CDEA)",
-      "location": "United States - California - Foster City",
-      "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Executive-Director-of-Clinical-Data-Engineering---Analytics--CDEA-_R0051540",
-      "date_posted": "Posted 16 Days Ago",
-      "ats": "Workday"
+      "company": "Allogene Therapeutics",
+      "title": "Associate Director, Data Science",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4421660805/",
+      "date_posted": "2026-06-01",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Guardant Health",
+      "title": "Senior Bioinformatics Software Engineer",
+      "location": "Redwood City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422587407/",
+      "date_posted": "2026-06-01",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Bristol Myers Squibb",
+      "title": "Senior Director, Data Sciences and Advanced Analytics",
+      "location": "Brisbane, CA",
+      "url": "https://www.linkedin.com/jobs/view/4372978542/",
+      "date_posted": "2026-06-01",
+      "ats": "LinkedIn"
     }
   ]
 }

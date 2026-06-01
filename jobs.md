@@ -1,8 +1,16 @@
 # 🧬 Biotech LinkedIn — MLE / DS Roles
-*Last updated: 2026-05-31 07:06 UTC*
+*Last updated: 2026-06-01 08:44 UTC*
 
-**1 new role(s)** since last run · 16 total in last 24h
+**3 new role(s)** since last run · 19 total in last 24h
 
-### [Executive Director of Clinical Data Engineering & Analytics (CDEA)](https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Executive-Director-of-Clinical-Data-Engineering---Analytics--CDEA-_R0051540) — Gilead Sciences
-- 📍 **Location:** United States - California - Foster City
-- 🕒 **Posted:** Posted 16 Days Ago
+### [Associate Director, Data Science](https://www.linkedin.com/jobs/view/4421660805/) — Allogene Therapeutics
+- 📍 **Location:** South San Francisco, CA
+- 🕒 **Posted:** 2026-06-01
+
+### [Senior Bioinformatics Software Engineer](https://www.linkedin.com/jobs/view/4422587407/) — Guardant Health
+- 📍 **Location:** Redwood City, CA
+- 🕒 **Posted:** 2026-06-01
+
+### [Senior Director, Data Sciences and Advanced Analytics](https://www.linkedin.com/jobs/view/4372978542/) — Bristol Myers Squibb
+- 📍 **Location:** Brisbane, CA
+- 🕒 **Posted:** 2026-06-01
