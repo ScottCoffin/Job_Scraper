@@ -1,8 +1,16 @@
 {
-  "scraped_at": "2026-06-01 02:17 UTC",
-  "total": 16,
-  "new_count": 15,
+  "scraped_at": "2026-06-01 03:17 UTC",
+  "total": 12,
+  "new_count": 2,
   "jobs": [
+    {
+      "company": "ClickHouse",
+      "title": "Data Scientist, Finance Forecasting",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4418380942/",
+      "date_posted": "2026-06-01",
+      "ats": "LinkedIn"
+    },
     {
       "company": "Jack & Jill",
       "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at $13.7M Seed CRV-backed industrial AI startup",
@@ -21,17 +29,9 @@
     },
     {
       "company": "Jack & Jill",
-      "title": "Senior/Staff Software Engineer ($120k-$200k) at Venture-backed AI Mental Health Startup",
-      "location": "Foster City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422587416/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Platform Engineer ($170k-$220k + Equity) at Stealth-mode Cloud Financial Data Platform",
+      "title": "Founding AI Engineer at Pre-Series A enterprise intelligence startup founded by ex-Dropbox AI leadership",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422594252/",
+      "url": "https://www.linkedin.com/jobs/view/4422805238/",
       "date_posted": "2026-06-01",
       "ats": "LinkedIn"
     },
@@ -44,42 +44,10 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer ($120K - $180K + Equity) at YC-backed AI accounting startup",
+      "company": "ClickHouse",
+      "title": "Senior Analytics Engineer, Product",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422588421/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Staff DSP Software Engineer ($155k-$200k + Equity) at high-growth wireless technology leader",
-      "location": "Milpitas, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422593245/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Guardant Health",
-      "title": "Senior Bioinformatics Software Engineer",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422587407/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Staff Software Engineer, Platform Engineering",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422598252/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Founding Full Stack Engineer ($150k\u2013$180k + Equity) at VC-backed AI supply chain startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422596269/",
+      "url": "https://www.linkedin.com/jobs/view/4418700905/",
       "date_posted": "2026-06-01",
       "ats": "LinkedIn"
     },
@@ -93,9 +61,17 @@
     },
     {
       "company": "Jack & Jill",
-      "title": "Founding AI Engineer at Pre-Series A enterprise intelligence startup founded by ex-Dropbox AI leadership",
+      "title": "Founding Full Stack Engineer ($150k\u2013$180k + Equity) at VC-backed AI supply chain startup",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422805238/",
+      "url": "https://www.linkedin.com/jobs/view/4422596269/",
+      "date_posted": "2026-06-01",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer ($120K - $180K + Equity) at YC-backed AI accounting startup",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422588421/",
       "date_posted": "2026-06-01",
       "ats": "LinkedIn"
     },
@@ -108,148 +84,36 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobs via Dice",
-      "title": "Principal Software Engineer ADEM (ADEM - Autonomous Digital Experience Management) - MacOS",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422595271/",
+      "company": "Jack & Jill",
+      "title": "Senior/Staff Software Engineer ($120k-$200k) at Venture-backed AI Mental Health Startup",
+      "location": "Foster City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422587416/",
       "date_posted": "2026-06-01",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobs via Dice",
-      "title": "Senior Platform Engineer",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422595267/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Staff AI Engineer - SimAI Team",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422597270/",
+      "company": "Jack & Jill",
+      "title": "Platform Engineer ($170k-$220k + Equity) at Stealth-mode Cloud Financial Data Platform",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422594252/",
       "date_posted": "2026-06-01",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Jack & Jill",
-      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at $13.7M Seed CRV-backed industrial AI startup",
+      "company": "ClickHouse",
+      "title": "Data Scientist, Finance Forecasting",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422591271/",
+      "url": "https://www.linkedin.com/jobs/view/4418380942/",
       "date_posted": "2026-06-01",
       "ats": "LinkedIn"
     },
     {
-      "company": "Canyon Code",
-      "title": "Full-Stack ML Systems Engineer",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422587432/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior/Staff Software Engineer ($120k-$200k) at Venture-backed AI Mental Health Startup",
-      "location": "Foster City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422587416/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Platform Engineer ($170k-$220k + Equity) at Stealth-mode Cloud Financial Data Platform",
+      "company": "ClickHouse",
+      "title": "Senior Analytics Engineer, Product",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422594252/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Founding Software Engineer at well-funded industrial AI startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422590287/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer ($120K - $180K + Equity) at YC-backed AI accounting startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422588421/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Staff DSP Software Engineer ($155k-$200k + Equity) at high-growth wireless technology leader",
-      "location": "Milpitas, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422593245/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Staff Software Engineer, Platform Engineering",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422598252/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Founding Full Stack Engineer ($150k\u2013$180k + Equity) at VC-backed AI supply chain startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422596269/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Full-Stack Engineer at well-funded AI manufacturing startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422802224/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Founding AI Engineer at Pre-Series A enterprise intelligence startup founded by ex-Dropbox AI leadership",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422805238/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Fullstack Engineer ($180k-$220k + Equity) at Seed-stage healthcare commerce startup backed by investors in Airbnb and Figma",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422804223/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Principal Software Engineer ADEM (ADEM - Autonomous Digital Experience Management) - MacOS",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422595271/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Senior Platform Engineer",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422595267/",
-      "date_posted": "2026-06-01",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Staff AI Engineer - SimAI Team",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4422597270/",
+      "url": "https://www.linkedin.com/jobs/view/4418700905/",
       "date_posted": "2026-06-01",
       "ats": "LinkedIn"
     }
