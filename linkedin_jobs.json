@@ -1,37 +1,21 @@
 {
-  "scraped_at": "2026-06-07 18:17 UTC",
-  "total": 11,
-  "new_count": 9,
+  "scraped_at": "2026-06-07 19:17 UTC",
+  "total": 4,
+  "new_count": 2,
   "jobs": [
     {
-      "company": "EWS Business Solutions",
-      "title": "ML Infrastructure Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4421902153/",
+      "company": "Tavus",
+      "title": "Infrastructure Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4425026409/",
       "date_posted": "2026-06-07",
       "ats": "LinkedIn"
     },
     {
-      "company": "Okta",
-      "title": "Senior Software Engineer, AI Agentic Experience (Auth0)",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4383152998/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "PwC",
-      "title": "NGA AI Engineer Senior Manager",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4384256805/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Lyft",
-      "title": "Senior Software Engineer, Autonomous Vehicle",
-      "location": "San Francisco County, CA",
-      "url": "https://www.linkedin.com/jobs/view/4384882837/",
+      "company": "TikTok",
+      "title": "Research Engineer/Scientist (all levels), Efficient Models",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425034376/",
       "date_posted": "2026-06-07",
       "ats": "LinkedIn"
     },
@@ -44,125 +28,29 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Etched",
-      "title": "Kernel Driver Software Engineer",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4385378988/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Etched",
-      "title": "Core Software Engineer",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4385381877/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Etched",
-      "title": "Software Engineer \u2013 Performance Profiling",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4385389611/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Scout Motors Inc.",
-      "title": "Senior Staff Software Engineer, Backend",
-      "location": "Fremont, CA",
-      "url": "https://www.linkedin.com/jobs/view/4391148501/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Docusign",
-      "title": "Senior Machine Learning Engineer",
+      "company": "Okta",
+      "title": "Senior Software Engineer, AI Agentic Experience (Auth0)",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4367544478/",
-      "date_posted": "2026-05-17",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Suno",
-      "title": "Machine Learning Engineering Manager, Recommendations",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4351770248/",
-      "date_posted": "2026-05-17",
+      "url": "https://www.linkedin.com/jobs/view/4383152998/",
+      "date_posted": "2026-06-07",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "EWS Business Solutions",
-      "title": "ML Infrastructure Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4421902153/",
+      "company": "Tavus",
+      "title": "Infrastructure Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4425026409/",
       "date_posted": "2026-06-07",
       "ats": "LinkedIn"
     },
     {
-      "company": "Okta",
-      "title": "Senior Software Engineer, AI Agentic Experience (Auth0)",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4383152998/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "PwC",
-      "title": "NGA AI Engineer Senior Manager",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4384256805/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Lyft",
-      "title": "Senior Software Engineer, Autonomous Vehicle",
-      "location": "San Francisco County, CA",
-      "url": "https://www.linkedin.com/jobs/view/4384882837/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Galileo Financial Technologies",
-      "title": "Staff Software Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4374651593/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Etched",
-      "title": "Kernel Driver Software Engineer",
+      "company": "TikTok",
+      "title": "Research Engineer/Scientist (all levels), Efficient Models",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4385378988/",
+      "url": "https://www.linkedin.com/jobs/view/4425034376/",
       "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Scout Motors Inc.",
-      "title": "Senior Staff Software Engineer, Backend",
-      "location": "Fremont, CA",
-      "url": "https://www.linkedin.com/jobs/view/4391148501/",
-      "date_posted": "2026-06-07",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Docusign",
-      "title": "Senior Machine Learning Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4367544478/",
-      "date_posted": "2026-05-17",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Suno",
-      "title": "Machine Learning Engineering Manager, Recommendations",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4351770248/",
-      "date_posted": "2026-05-17",
       "ats": "LinkedIn"
     }
   ]

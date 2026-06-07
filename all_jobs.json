@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-07 18:53 UTC",
+  "updated_at": "2026-06-07 19:17 UTC",
   "jobs": [
+    {
+      "company": "Tavus",
+      "title": "Infrastructure Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4425026409/",
+      "date_posted": "2026-06-07",
+      "ats": "LinkedIn",
+      "first_seen": "2026-06-07T19:17:19Z"
+    },
+    {
+      "company": "TikTok",
+      "title": "Research Engineer/Scientist (all levels), Efficient Models",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425034376/",
+      "date_posted": "2026-06-07",
+      "ats": "LinkedIn",
+      "first_seen": "2026-06-07T19:17:19Z"
+    },
     {
       "company": "EWS Business Solutions",
       "title": "ML Infrastructure Engineer",
