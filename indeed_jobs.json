@@ -1,14 +1,22 @@
 {
-  "scraped_at": "2026-06-07 20:50 UTC",
-  "total": 18,
-  "new_count": 0,
+  "scraped_at": "2026-06-07 22:41 UTC",
+  "total": 27,
+  "new_count": 11,
   "jobs": [
     {
-      "company": "Astera Labs",
-      "title": "Data Analytics Engineer New",
-      "location": "San Jose, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=f65f25086660e68f",
-      "date_posted": "2026-06-06",
+      "company": "CLERA",
+      "title": "Senior Machine Learning Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=03d3c367eec915d4",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "AI/ML Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=55a4ead95fb80215",
+      "date_posted": "2026-06-07",
       "ats": "Indeed"
     },
     {
@@ -60,6 +68,14 @@
       "ats": "Indeed"
     },
     {
+      "company": "CLERA",
+      "title": "AI Engineer (Mid-Level)",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=aeb5dc67885229aa",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
       "company": "Amazon.com",
       "title": "Sr Data Scientist, Ads-Full-Funnel Agentic Intelligence",
       "location": "Palo Alto, CA, US",
@@ -84,11 +100,19 @@
       "ats": "Indeed"
     },
     {
-      "company": "Astera Labs",
-      "title": "Senior Embedded Software Engineer - Ethernet Retimers New",
-      "location": "San Jose, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=0147e4204b4fc27f",
-      "date_posted": "2026-06-06",
+      "company": "CLERA",
+      "title": "Senior Software Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=88ffe6af103db915",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Senior/Staff Software Engineer (Platform)",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=227565ff907e053e",
+      "date_posted": "2026-06-07",
       "ats": "Indeed"
     },
     {
@@ -105,6 +129,54 @@
       "location": "Cupertino, CA, US",
       "url": "https://www.indeed.com/viewjob?jk=40746380c922320d",
       "date_posted": "2026-06-03",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "DevOps Engineer (Kubernetes)",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=61cf9c135e45df64",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Senior iOS/Android Software Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=0ab57b2869180084",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Frontend Engineer \u2014 Distributed Systems Platform",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=e549e788556610d9",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Product Engineer (Software Engineer)",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d4c453f9608c4425",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Software Engineer - Full Stack",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=b584b0cf64651c83",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Frontend Engineer \u2014 Infrastructure OS Platform",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=4176d7e2b4d07bda",
+      "date_posted": "2026-06-07",
       "ats": "Indeed"
     },
     {
@@ -148,5 +220,94 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "CLERA",
+      "title": "Senior Machine Learning Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=03d3c367eec915d4",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "AI/ML Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=55a4ead95fb80215",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "AI Engineer (Mid-Level)",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=aeb5dc67885229aa",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Senior Software Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=88ffe6af103db915",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Senior/Staff Software Engineer (Platform)",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=227565ff907e053e",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "DevOps Engineer (Kubernetes)",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=61cf9c135e45df64",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Senior iOS/Android Software Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=0ab57b2869180084",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Frontend Engineer \u2014 Distributed Systems Platform",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=e549e788556610d9",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Product Engineer (Software Engineer)",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=d4c453f9608c4425",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Software Engineer - Full Stack",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=b584b0cf64651c83",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    },
+    {
+      "company": "CLERA",
+      "title": "Frontend Engineer \u2014 Infrastructure OS Platform",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=4176d7e2b4d07bda",
+      "date_posted": "2026-06-07",
+      "ats": "Indeed"
+    }
+  ]
 }
