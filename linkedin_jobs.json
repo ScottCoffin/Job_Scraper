@@ -1,149 +1,21 @@
 {
-  "scraped_at": "2026-06-08 02:17 UTC",
-  "total": 19,
-  "new_count": 18,
+  "scraped_at": "2026-06-08 03:17 UTC",
+  "total": 3,
+  "new_count": 3,
   "jobs": [
     {
-      "company": "Jack & Jill",
-      "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at Stanford-born AI governance startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425051269/",
+      "company": "Verge Tech",
+      "title": "Software Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4425073042/",
       "date_posted": "2026-06-08",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Founding AI Engineer ($160k-$220k + Equity) at Seed-stage SF startup backed by Paypal Mafia",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425062266/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Staff AI/ML Engineer - Future Sensing, Embodied AI",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425052284/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "AI Engineer ($180K \u2013 $250K + Equity) at Index Ventures-backed agentic AI startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425053023/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at $13.7M Seed CRV-backed industrial AI startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425070253/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Founding Software Engineer at well-funded industrial AI startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425063269/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Founding Software Engineer ($160k\u2013$220k + Equity) at $5M Seed AI wearables startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425070242/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Software Engineer (AI Agents) ($180K \u2013 $300K + Equity) at $51M Series B a16z-backed startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425056268/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Full-Stack Engineer ($180k-$200k + Equity) at a16z-backed AI behavior simulation startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425064287/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer at YC-backed AI startup for global commodities",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425065285/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior/Staff Software Engineer ($120k-$200k) at Venture-backed AI Mental Health Startup",
-      "location": "Foster City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425047501/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Truewind",
-      "title": "Senior Software Engineer - Backend & Agent Platform",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425070220/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Staff Software Engineer ($200K - $250K + Equity) at YC W23 AI-powered accounting startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425070251/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Lead Backend Software Engineer ($185K \u2013 $240K + Equity) at well-funded aviation AI startup",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425063270/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer at VC-backed B2B software platform",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425049315/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer ($180K\u2013$220K + Equity) at YC-backed AI governance startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425065277/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Full Stack Engineer ($250k-$300k + Equity) at SF fintech building real-time private market infrastructure",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425052286/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Fullstack Engineer at Leading Sui DeFi Protocol backed by OKX Ventures & Hashed",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425066017/",
+      "company": "Teleo",
+      "title": "Senior Perception Engineer",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4421910666/",
       "date_posted": "2026-06-08",
       "ats": "LinkedIn"
     },
@@ -151,145 +23,25 @@
       "company": "Gyga Force",
       "title": "Microwave Plasma Systems Engineer",
       "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4425067332/",
+      "url": "https://www.linkedin.com/jobs/view/4425049537/",
       "date_posted": "2026-06-08",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Jack & Jill",
-      "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at Stanford-born AI governance startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425051269/",
+      "company": "Verge Tech",
+      "title": "Software Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4425073042/",
       "date_posted": "2026-06-08",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Founding AI Engineer ($160k-$220k + Equity) at Seed-stage SF startup backed by Paypal Mafia",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425062266/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Staff AI/ML Engineer - Future Sensing, Embodied AI",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425052284/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "AI Engineer ($180K \u2013 $250K + Equity) at Index Ventures-backed agentic AI startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425053023/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at $13.7M Seed CRV-backed industrial AI startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425070253/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Founding Software Engineer at well-funded industrial AI startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425063269/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Founding Software Engineer ($160k\u2013$220k + Equity) at $5M Seed AI wearables startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425070242/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Software Engineer (AI Agents) ($180K \u2013 $300K + Equity) at $51M Series B a16z-backed startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425056268/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Full-Stack Engineer ($180k-$200k + Equity) at a16z-backed AI behavior simulation startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425064287/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer at YC-backed AI startup for global commodities",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425065285/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior/Staff Software Engineer ($120k-$200k) at Venture-backed AI Mental Health Startup",
-      "location": "Foster City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425047501/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Staff Software Engineer ($200K - $250K + Equity) at YC W23 AI-powered accounting startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425070251/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Lead Backend Software Engineer ($185K \u2013 $240K + Equity) at well-funded aviation AI startup",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425063270/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer at VC-backed B2B software platform",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425049315/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer ($180K\u2013$220K + Equity) at YC-backed AI governance startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425065277/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Full Stack Engineer ($250k-$300k + Equity) at SF fintech building real-time private market infrastructure",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425052286/",
-      "date_posted": "2026-06-08",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Fullstack Engineer at Leading Sui DeFi Protocol backed by OKX Ventures & Hashed",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425066017/",
+      "company": "Teleo",
+      "title": "Senior Perception Engineer",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4421910666/",
       "date_posted": "2026-06-08",
       "ats": "LinkedIn"
     },
@@ -297,7 +49,7 @@
       "company": "Gyga Force",
       "title": "Microwave Plasma Systems Engineer",
       "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4425067332/",
+      "url": "https://www.linkedin.com/jobs/view/4425049537/",
       "date_posted": "2026-06-08",
       "ats": "LinkedIn"
     }

@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-08 02:17 UTC",
+  "updated_at": "2026-06-08 03:17 UTC",
   "jobs": [
+    {
+      "company": "Verge Tech",
+      "title": "Software Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4425073042/",
+      "date_posted": "2026-06-08",
+      "ats": "LinkedIn",
+      "first_seen": "2026-06-08T03:17:22Z"
+    },
+    {
+      "company": "Teleo",
+      "title": "Senior Perception Engineer",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4421910666/",
+      "date_posted": "2026-06-08",
+      "ats": "LinkedIn",
+      "first_seen": "2026-06-08T03:17:22Z"
+    },
+    {
+      "company": "Gyga Force",
+      "title": "Microwave Plasma Systems Engineer",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4425049537/",
+      "date_posted": "2026-06-08",
+      "ats": "LinkedIn",
+      "first_seen": "2026-06-08T03:17:22Z"
+    },
     {
       "company": "Jack & Jill",
       "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at Stanford-born AI governance startup",
