@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-06-08 20:17 UTC",
+  "updated_at": "2026-06-08 20:43 UTC",
   "jobs": [
+    {
+      "company": "Consumer Reports",
+      "title": "Senior Research Engineer - Experimental Engineering",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=425bec6aeff52e3b",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
+    {
+      "company": "Visa",
+      "title": "Staff Data Engineer",
+      "location": "Foster City, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=55c4dc35fbc29886",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
+    {
+      "company": "Zscaler",
+      "title": "Principal DevOps Engineer",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=1804bc59f013ef4b",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "Principal AI Engineer",
+      "location": "San Francisco, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=2afd180d9352510f",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
+    {
+      "company": "CoStar Group",
+      "title": "Matterport - Senior Software Engineer",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=8c7e45d608f8cb1f",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
+    {
+      "company": "CrowdStrike",
+      "title": "Sr. Software Engineer, Windows Sensor - CTIO (Hybrid)",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=a8220a72383841b9",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
+    {
+      "company": "Bio-Techne",
+      "title": "Senior Software Engineer, AI and ML Platforms",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=ffac5bcd650b00da",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
+    {
+      "company": "Walmart",
+      "title": "Software Engineer III",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=480b408ddcf3ab86",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
+    {
+      "company": "Field Tech Services LTD",
+      "title": "Backend Engineer",
+      "location": "San Jose, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=6c75f636519e797f",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer, AI/ML GenAI, Google Cloud Compute",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=2655dd739b017038",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
+    {
+      "company": "Waymo",
+      "title": "Senior Systems Engineer, Vehicle Body Control Systems",
+      "location": "Mountain View, CA, US",
+      "url": "https://www.indeed.com/viewjob?jk=457997d2eadc663a",
+      "date_posted": "2026-06-08",
+      "ats": "Indeed",
+      "first_seen": "2026-06-08T20:43:39Z"
+    },
     {
       "company": "Google",
       "title": "Data Scientist",
