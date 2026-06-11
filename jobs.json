@@ -1,16 +1,8 @@
 {
-  "scraped_at": "2026-06-10 07:17 UTC",
-  "total": 18,
-  "new_count": 2,
+  "scraped_at": "2026-06-11 08:15 UTC",
+  "total": 14,
+  "new_count": 1,
   "jobs": [
-    {
-      "company": "10x Genomics",
-      "title": "Staff Data Scientist, Sales Analytics",
-      "location": "Pleasanton, California, USA HQ",
-      "url": "https://boards.greenhouse.io/10xgenomics/jobs/7922933?gh_jid=7922933",
-      "date_posted": "2026-05-27",
-      "ats": "Greenhouse"
-    },
     {
       "company": "Freenome",
       "title": "Senior Machine Learning Engineer",
@@ -49,14 +41,6 @@
       "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
       "url": "https://job-boards.greenhouse.io/profluent/jobs/5154049008",
       "date_posted": "2026-06-02",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Profluent",
-      "title": "Principal Security & Infrastructure Engineer",
-      "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
-      "url": "https://job-boards.greenhouse.io/profluent/jobs/5159563008",
-      "date_posted": "2026-05-06",
       "ats": "Greenhouse"
     },
     {
@@ -104,7 +88,7 @@
       "title": "Machine Learning Engineer/Machine Learning Scientist , Multi Modality",
       "location": "San Diego, CA; San Francisco Bay Area, CA",
       "url": "https://job-boards.greenhouse.io/altoslabs/jobs/5709084004",
-      "date_posted": "2026-06-04",
+      "date_posted": "2026-06-10",
       "ats": "Greenhouse"
     },
     {
@@ -112,7 +96,7 @@
       "title": "Senior Cybersecurity Engineer",
       "location": "San Francisco Bay Area, CA",
       "url": "https://job-boards.greenhouse.io/altoslabs/jobs/5838128004",
-      "date_posted": "2026-06-03",
+      "date_posted": "2026-06-10",
       "ats": "Greenhouse"
     },
     {
@@ -124,45 +108,21 @@
       "ats": "Greenhouse"
     },
     {
-      "company": "Gilead Sciences",
-      "title": "Executive Director of Clinical Data Engineering & Analytics (CDEA)",
-      "location": "United States - California - Foster City",
-      "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Executive-Director-of-Clinical-Data-Engineering---Analytics--CDEA-_R0051540",
-      "date_posted": "Posted 26 Days Ago",
-      "ats": "Workday"
-    },
-    {
-      "company": "Egen",
-      "title": "Lead Data Engineer",
-      "location": "Emeryville, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426544845/",
-      "date_posted": "2026-06-09",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Lila Sciences",
-      "title": "ML Scientist I / II, Foundation Models for Life Sciences",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4407826488/",
-      "date_posted": "2026-06-09",
+      "company": "Intel",
+      "title": "Senior Infrastructure and DevOps Engineer",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426185200/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Egen",
-      "title": "Lead Data Engineer",
-      "location": "Emeryville, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426544845/",
-      "date_posted": "2026-06-09",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Lila Sciences",
-      "title": "ML Scientist I / II, Foundation Models for Life Sciences",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4407826488/",
-      "date_posted": "2026-06-09",
+      "company": "Intel",
+      "title": "Senior Infrastructure and DevOps Engineer",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426185200/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     }
   ]
