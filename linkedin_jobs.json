@@ -1,45 +1,37 @@
 {
-  "scraped_at": "2026-06-12 22:17 UTC",
-  "total": 14,
-  "new_count": 14,
+  "scraped_at": "2026-06-12 23:00 UTC",
+  "total": 16,
+  "new_count": 10,
   "jobs": [
     {
-      "company": "Amazon Science",
-      "title": "Data Scientist II - AMZ27351.1",
+      "company": "CriticalRiver Inc.",
+      "title": "Generative AI Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425335070/",
+      "url": "https://www.linkedin.com/jobs/view/4421233004/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobright.ai",
-      "title": "Software Engineer - AI Agent",
-      "location": "San Mateo County, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427220607/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Waymo",
-      "title": "Senior Software Engineer, Planner Evaluation",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427222537/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Waymo",
-      "title": "Senior Software Engineer, Planner Evaluation",
+      "company": "Instawork",
+      "title": "ML Engineer - Instawork Robotics",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427228460/",
+      "url": "https://www.linkedin.com/jobs/view/4428188052/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobright.ai",
-      "title": "Growth Data Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427216575/",
+      "company": "Peterson Cat",
+      "title": "Data Engineer",
+      "location": "San Leandro, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427209895/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Data Capital Incorporation",
+      "title": "GCP Data Engineer",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427211854/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
@@ -48,6 +40,30 @@
       "title": "Full Stack Software Engineer",
       "location": "San Jose, CA",
       "url": "https://www.linkedin.com/jobs/view/4427222595/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Data Scientist, Research, Search Intelligence Quality",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427222636/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer, Voxel, JIT and Hardware Accelerated GoogleSQL",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427221622/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Instawork",
+      "title": "Senior Software Engineer - Instawork Robotics",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428171346/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
@@ -68,18 +84,18 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "OP Recruiting-as-a-Service (OP RaaS)",
-      "title": "Senior AI Engineer - Agentic AI Startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427229500/",
+      "company": "EPIC Insurance Brokers & Consultants",
+      "title": "Lead Insurance Data Scientist",
+      "location": "San Ramon, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428164625/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "McAfee",
-      "title": "Senior AI Platform Engineer - Frisco",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425330473/",
+      "company": "OP Recruiting-as-a-Service (OP RaaS)",
+      "title": "Senior AI Engineer - Agentic AI Startup",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427229500/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
@@ -92,140 +108,108 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobright.ai",
-      "title": "Full Stack Engineer - Growth",
+      "company": "OpenAI",
+      "title": "Software Engineer, Private Computing",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427226480/",
+      "url": "https://www.linkedin.com/jobs/view/4427225699/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Ztek Consulting",
-      "title": "EE Component Systems Engineer / Function Owner",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425315623/",
+      "company": "OpenAI",
+      "title": "Software Engineer, Computer Use & Frontier Interfaces",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427209944/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "EPIC Insurance Brokers & Consultants",
-      "title": "Lead Insurance Data Scientist",
-      "location": "San Ramon, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428164625/",
+      "company": "Personalis, Inc.",
+      "title": "Software Engineer Lead",
+      "location": "Fremont, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428165992/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Amazon Science",
-      "title": "Data Scientist II - AMZ27351.1",
+      "company": "CriticalRiver Inc.",
+      "title": "Generative AI Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425335070/",
+      "url": "https://www.linkedin.com/jobs/view/4421233004/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobright.ai",
-      "title": "Software Engineer - AI Agent",
-      "location": "San Mateo County, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427220607/",
+      "company": "Instawork",
+      "title": "ML Engineer - Instawork Robotics",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428188052/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Waymo",
-      "title": "Senior Software Engineer, Planner Evaluation",
+      "company": "Peterson Cat",
+      "title": "Data Engineer",
+      "location": "San Leandro, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427209895/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Data Capital Incorporation",
+      "title": "GCP Data Engineer",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427211854/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Google",
+      "title": "Senior Data Scientist, Research, Search Intelligence Quality",
       "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427222537/",
+      "url": "https://www.linkedin.com/jobs/view/4427222636/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Waymo",
-      "title": "Senior Software Engineer, Planner Evaluation",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427228460/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobright.ai",
-      "title": "Growth Data Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427216575/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Illumio",
-      "title": "Full Stack Software Engineer",
+      "company": "Google",
+      "title": "Software Engineer, Voxel, JIT and Hardware Accelerated GoogleSQL",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427222595/",
+      "url": "https://www.linkedin.com/jobs/view/4427221622/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Amazon Science",
-      "title": "Applied Scientist II, Search Ranking",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425314644/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Amazon Science",
-      "title": "Applied Scientist, AWS Central Economics and Science",
+      "company": "Instawork",
+      "title": "Senior Software Engineer - Instawork Robotics",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425326429/",
+      "url": "https://www.linkedin.com/jobs/view/4428171346/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "OP Recruiting-as-a-Service (OP RaaS)",
-      "title": "Senior AI Engineer - Agentic AI Startup",
+      "company": "OpenAI",
+      "title": "Software Engineer, Private Computing",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427229500/",
+      "url": "https://www.linkedin.com/jobs/view/4427225699/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "McAfee",
-      "title": "Senior AI Platform Engineer - Frisco",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425330473/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "APRIDEN",
-      "title": "Full Stack Engineer",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428160992/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobright.ai",
-      "title": "Full Stack Engineer - Growth",
+      "company": "OpenAI",
+      "title": "Software Engineer, Computer Use & Frontier Interfaces",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427226480/",
+      "url": "https://www.linkedin.com/jobs/view/4427209944/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Ztek Consulting",
-      "title": "EE Component Systems Engineer / Function Owner",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425315623/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "EPIC Insurance Brokers & Consultants",
-      "title": "Lead Insurance Data Scientist",
-      "location": "San Ramon, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428164625/",
+      "company": "Personalis, Inc.",
+      "title": "Software Engineer Lead",
+      "location": "Fremont, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428165992/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     }
