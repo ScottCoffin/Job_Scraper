@@ -1,44 +1,40 @@
 # 🔥 LinkedIn — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-06-12 23:00 UTC*
+*Last updated: 2026-06-12 23:17 UTC*
 
-**10 new role(s)** since last run · 16 total in last 1h
+**9 new role(s)** since last run · 21 total in last 1h
 
-### [Generative AI Engineer](https://www.linkedin.com/jobs/view/4421233004/) — CriticalRiver Inc.
+### [Senior Data Scientist - Generative AI](https://www.linkedin.com/jobs/view/4427227800/) — Roblox
+- 📍 **Location:** San Mateo, CA
+- 🕒 **Posted:** 2026-06-12
+
+### [Senior Software Engineer, Geometry](https://www.linkedin.com/jobs/view/4427219878/) — Roblox
+- 📍 **Location:** San Mateo, CA
+- 🕒 **Posted:** 2026-06-12
+
+### [Applied Scientist/Research Engineer—Speech AI](https://www.linkedin.com/jobs/view/4427231555/) — GTN Technical Staffing
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [ML Engineer - Instawork Robotics](https://www.linkedin.com/jobs/view/4428188052/) — Instawork
+### [Senior Perception Engineer](https://www.linkedin.com/jobs/view/4427230561/) — John Deere
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-12
+
+### [AI Engineer, Developer Experience](https://www.linkedin.com/jobs/view/4424839433/) — Retool
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [Data Engineer](https://www.linkedin.com/jobs/view/4427209895/) — Peterson Cat
-- 📍 **Location:** San Leandro, CA
+### [Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab](https://www.linkedin.com/jobs/view/4427934142/) — Buck Institute for Research on Aging
+- 📍 **Location:** Novato, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [GCP Data Engineer](https://www.linkedin.com/jobs/view/4427211854/) — Data Capital Incorporation
-- 📍 **Location:** Sunnyvale, CA
-- 🕒 **Posted:** 2026-06-12
-
-### [Senior Data Scientist, Research, Search Intelligence Quality](https://www.linkedin.com/jobs/view/4427222636/) — Google
-- 📍 **Location:** Mountain View, CA
-- 🕒 **Posted:** 2026-06-12
-
-### [Software Engineer, Voxel, JIT and Hardware Accelerated GoogleSQL](https://www.linkedin.com/jobs/view/4427221622/) — Google
+### [Software Engineering Manager II, Core, Web Ecosystem](https://www.linkedin.com/jobs/view/4427229561/) — Google
 - 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [Senior Software Engineer - Instawork Robotics](https://www.linkedin.com/jobs/view/4428171346/) — Instawork
-- 📍 **Location:** San Francisco, CA
+### [Android Framework Software Engineer (Infotainment Systems)](https://www.linkedin.com/jobs/view/4427220927/) — OSI Engineering
+- 📍 **Location:** Mountain View, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [Software Engineer, Private Computing](https://www.linkedin.com/jobs/view/4427225699/) — OpenAI
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-06-12
-
-### [Software Engineer, Computer Use & Frontier Interfaces](https://www.linkedin.com/jobs/view/4427209944/) — OpenAI
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-06-12
-
-### [Software Engineer Lead](https://www.linkedin.com/jobs/view/4428165992/) — Personalis, Inc.
-- 📍 **Location:** Fremont, CA
+### [Sr. Software Engineer II, MacOS Sensor - CTIO (Hybrid)](https://www.linkedin.com/jobs/view/4425323741/) — CrowdStrike
+- 📍 **Location:** Sunnyvale, CA
 - 🕒 **Posted:** 2026-06-12

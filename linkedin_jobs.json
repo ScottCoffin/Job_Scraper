@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-12 23:00 UTC",
-  "total": 16,
-  "new_count": 10,
+  "scraped_at": "2026-06-12 23:17 UTC",
+  "total": 21,
+  "new_count": 9,
   "jobs": [
     {
       "company": "CriticalRiver Inc.",
@@ -28,14 +28,6 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Data Capital Incorporation",
-      "title": "GCP Data Engineer",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427211854/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
       "company": "Illumio",
       "title": "Full Stack Software Engineer",
       "location": "San Jose, CA",
@@ -52,10 +44,18 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Google",
-      "title": "Software Engineer, Voxel, JIT and Hardware Accelerated GoogleSQL",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427221622/",
+      "company": "Roblox",
+      "title": "Senior Data Scientist - Generative AI",
+      "location": "San Mateo, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427227800/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "OpenAI",
+      "title": "Software Engineer, Private Computing",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427225699/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
@@ -68,34 +68,66 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Amazon Science",
-      "title": "Applied Scientist II, Search Ranking",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425314644/",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Geometry",
+      "location": "San Mateo, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427219878/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Amazon Science",
-      "title": "Applied Scientist, AWS Central Economics and Science",
+      "company": "GTN Technical Staffing",
+      "title": "Applied Scientist/Research Engineer\u2014Speech AI",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425326429/",
+      "url": "https://www.linkedin.com/jobs/view/4427231555/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "EPIC Insurance Brokers & Consultants",
-      "title": "Lead Insurance Data Scientist",
-      "location": "San Ramon, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428164625/",
+      "company": "John Deere",
+      "title": "Senior Perception Engineer",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427230561/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "OP Recruiting-as-a-Service (OP RaaS)",
-      "title": "Senior AI Engineer - Agentic AI Startup",
+      "company": "Retool",
+      "title": "AI Engineer, Developer Experience",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427229500/",
+      "url": "https://www.linkedin.com/jobs/view/4424839433/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Buck Institute for Research on Aging",
+      "title": "Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab",
+      "location": "Novato, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427934142/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "OpenAI",
+      "title": "Software Engineer, Computer Use & Frontier Interfaces",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427209944/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer, Voxel, JIT and Hardware Accelerated GoogleSQL",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427221622/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineering Manager II, Core, Web Ecosystem",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427229561/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
@@ -108,52 +140,18 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "OpenAI",
-      "title": "Software Engineer, Private Computing",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427225699/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "OpenAI",
-      "title": "Software Engineer, Computer Use & Frontier Interfaces",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427209944/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
       "company": "Personalis, Inc.",
       "title": "Software Engineer Lead",
       "location": "Fremont, CA",
       "url": "https://www.linkedin.com/jobs/view/4428165992/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
-    }
-  ],
-  "new_jobs": [
-    {
-      "company": "CriticalRiver Inc.",
-      "title": "Generative AI Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4421233004/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
     },
     {
-      "company": "Instawork",
-      "title": "ML Engineer - Instawork Robotics",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428188052/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Peterson Cat",
-      "title": "Data Engineer",
-      "location": "San Leandro, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427209895/",
+      "company": "OSI Engineering",
+      "title": "Android Framework Software Engineer (Infotainment Systems)",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427220927/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
@@ -166,50 +164,84 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Google",
-      "title": "Senior Data Scientist, Research, Search Intelligence Quality",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427222636/",
+      "company": "CrowdStrike",
+      "title": "Sr. Software Engineer II, MacOS Sensor - CTIO (Hybrid)",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425323741/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    }
+  ],
+  "new_jobs": [
+    {
+      "company": "Roblox",
+      "title": "Senior Data Scientist - Generative AI",
+      "location": "San Mateo, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427227800/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Geometry",
+      "location": "San Mateo, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427219878/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "GTN Technical Staffing",
+      "title": "Applied Scientist/Research Engineer\u2014Speech AI",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427231555/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "John Deere",
+      "title": "Senior Perception Engineer",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427230561/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Retool",
+      "title": "AI Engineer, Developer Experience",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424839433/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Buck Institute for Research on Aging",
+      "title": "Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab",
+      "location": "Novato, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427934142/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
       "company": "Google",
-      "title": "Software Engineer, Voxel, JIT and Hardware Accelerated GoogleSQL",
+      "title": "Software Engineering Manager II, Core, Web Ecosystem",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427221622/",
+      "url": "https://www.linkedin.com/jobs/view/4427229561/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Instawork",
-      "title": "Senior Software Engineer - Instawork Robotics",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428171346/",
+      "company": "OSI Engineering",
+      "title": "Android Framework Software Engineer (Infotainment Systems)",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427220927/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "OpenAI",
-      "title": "Software Engineer, Private Computing",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427225699/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "OpenAI",
-      "title": "Software Engineer, Computer Use & Frontier Interfaces",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427209944/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Personalis, Inc.",
-      "title": "Software Engineer Lead",
-      "location": "Fremont, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428165992/",
+      "company": "CrowdStrike",
+      "title": "Sr. Software Engineer II, MacOS Sensor - CTIO (Hybrid)",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425323741/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     }
