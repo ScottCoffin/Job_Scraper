@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-11 08:15 UTC",
-  "total": 14,
-  "new_count": 1,
+  "scraped_at": "2026-06-12 08:01 UTC",
+  "total": 15,
+  "new_count": 2,
   "jobs": [
     {
       "company": "Freenome",
@@ -24,7 +24,7 @@
       "title": "Lead Bioinformatics Scientist, NGS",
       "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
       "url": "https://job-boards.greenhouse.io/profluent/jobs/4983485008",
-      "date_posted": "2026-04-24",
+      "date_posted": "2026-06-11",
       "ats": "Greenhouse"
     },
     {
@@ -32,7 +32,7 @@
       "title": "Machine Learning Scientist, Reinforcement Learning",
       "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
       "url": "https://job-boards.greenhouse.io/profluent/jobs/5238462008",
-      "date_posted": "2026-06-02",
+      "date_posted": "2026-06-11",
       "ats": "Greenhouse"
     },
     {
@@ -40,7 +40,7 @@
       "title": "ML Platform / MLOps Engineer",
       "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
       "url": "https://job-boards.greenhouse.io/profluent/jobs/5154049008",
-      "date_posted": "2026-06-02",
+      "date_posted": "2026-06-11",
       "ats": "Greenhouse"
     },
     {
@@ -48,7 +48,7 @@
       "title": "Senior Software Engineer, Data Platform",
       "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
       "url": "https://job-boards.greenhouse.io/profluent/jobs/5210793008",
-      "date_posted": "2026-05-11",
+      "date_posted": "2026-06-11",
       "ats": "Greenhouse"
     },
     {
@@ -56,7 +56,7 @@
       "title": "Software Engineering Manager, Lab Informatics Platform",
       "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
       "url": "https://job-boards.greenhouse.io/profluent/jobs/4905081008",
-      "date_posted": "2026-06-08",
+      "date_posted": "2026-06-11",
       "ats": "Greenhouse"
     },
     {
@@ -104,25 +104,41 @@
       "title": "Full Stack Engineer",
       "location": "Palo Alto, CA",
       "url": "https://job-boards.greenhouse.io/arcinstitute/jobs/5821381004",
-      "date_posted": "2026-03-19",
+      "date_posted": "2026-06-11",
       "ats": "Greenhouse"
     },
     {
-      "company": "Intel",
-      "title": "Senior Infrastructure and DevOps Engineer",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426185200/",
-      "date_posted": "2026-06-11",
+      "company": "Bristol Myers Squibb",
+      "title": "Senior Cloud Engineer",
+      "location": "Brisbane, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427916452/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Buck Institute for Research on Aging",
+      "title": "Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab",
+      "location": "Novato, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427934142/",
+      "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Intel",
-      "title": "Senior Infrastructure and DevOps Engineer",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426185200/",
-      "date_posted": "2026-06-11",
+      "company": "Bristol Myers Squibb",
+      "title": "Senior Cloud Engineer",
+      "location": "Brisbane, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427916452/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Buck Institute for Research on Aging",
+      "title": "Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab",
+      "location": "Novato, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427934142/",
+      "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     }
   ]
