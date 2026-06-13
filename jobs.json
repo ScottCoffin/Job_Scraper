@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-12 08:01 UTC",
-  "total": 15,
-  "new_count": 2,
+  "scraped_at": "2026-06-13 07:06 UTC",
+  "total": 17,
+  "new_count": 3,
   "jobs": [
     {
       "company": "Freenome",
@@ -108,10 +108,26 @@
       "ats": "Greenhouse"
     },
     {
-      "company": "Bristol Myers Squibb",
-      "title": "Senior Cloud Engineer",
-      "location": "Brisbane, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427916452/",
+      "company": "Buck Institute for Research on Aging",
+      "title": "AI Data Scientist-Furman lab",
+      "location": "Novato, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427938237/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Genentech",
+      "title": "Senior Data Scientist, Gen AI Foundation",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416762334/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Calico Life Sciences",
+      "title": "Data Engineer, Human Cohorts",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416785716/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
@@ -126,18 +142,26 @@
   ],
   "new_jobs": [
     {
-      "company": "Bristol Myers Squibb",
-      "title": "Senior Cloud Engineer",
-      "location": "Brisbane, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427916452/",
+      "company": "Buck Institute for Research on Aging",
+      "title": "AI Data Scientist-Furman lab",
+      "location": "Novato, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427938237/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Buck Institute for Research on Aging",
-      "title": "Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab",
-      "location": "Novato, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427934142/",
+      "company": "Genentech",
+      "title": "Senior Data Scientist, Gen AI Foundation",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416762334/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Calico Life Sciences",
+      "title": "Data Engineer, Human Cohorts",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416785716/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     }

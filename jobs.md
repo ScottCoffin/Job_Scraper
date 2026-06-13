@@ -1,12 +1,16 @@
 # 🧬 Biotech LinkedIn — MLE / DS Roles
-*Last updated: 2026-06-12 08:01 UTC*
+*Last updated: 2026-06-13 07:06 UTC*
 
-**2 new role(s)** since last run · 15 total in last 24h
+**3 new role(s)** since last run · 17 total in last 24h
 
-### [Senior Cloud Engineer](https://www.linkedin.com/jobs/view/4427916452/) — Bristol Myers Squibb
-- 📍 **Location:** Brisbane, CA
+### [AI Data Scientist-Furman lab](https://www.linkedin.com/jobs/view/4427938237/) — Buck Institute for Research on Aging
+- 📍 **Location:** Novato, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab](https://www.linkedin.com/jobs/view/4427934142/) — Buck Institute for Research on Aging
-- 📍 **Location:** Novato, CA
+### [Senior Data Scientist, Gen AI Foundation](https://www.linkedin.com/jobs/view/4416762334/) — Genentech
+- 📍 **Location:** South San Francisco, CA
+- 🕒 **Posted:** 2026-06-12
+
+### [Data Engineer, Human Cohorts](https://www.linkedin.com/jobs/view/4416785716/) — Calico Life Sciences
+- 📍 **Location:** South San Francisco, CA
 - 🕒 **Posted:** 2026-06-12
