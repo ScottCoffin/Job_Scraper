@@ -1,60 +1,44 @@
 # 🔥 LinkedIn — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-06-13 16:17 UTC*
+*Last updated: 2026-06-13 17:17 UTC*
 
-**14 new role(s)** since last run · 27 total in last 1h
+**10 new role(s)** since last run · 13 total in last 1h
 
-### [Software Engineer - AI Agent](https://www.linkedin.com/jobs/view/4427407058/) — Jobright.ai
-- 📍 **Location:** San Mateo County, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Software Engineer, Creator Translation](https://www.linkedin.com/jobs/view/4398195565/) — Roblox
-- 📍 **Location:** San Mateo, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Senior Software Engineer, Backend](https://www.linkedin.com/jobs/view/4378085833/) — Finch
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Software Engineer III - Frontend/React](https://www.linkedin.com/jobs/view/4427299146/) — hackajob
-- 📍 **Location:** Palo Alto, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Software Engineer, Native Delivery](https://www.linkedin.com/jobs/view/4418419672/) — Hightouch
-- 📍 **Location:** San Francisco Bay Area
-- 🕒 **Posted:** 2026-06-13
-
-### [Applied Scientist, AWS Quick](https://www.linkedin.com/jobs/view/4418444360/) — Amazon Web Services (AWS)
+### [Software Engineer (New College Grad - Masters))](https://www.linkedin.com/jobs/view/4425375821/) — Applied Materials
 - 📍 **Location:** Santa Clara, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Applied Scientist, AWS Quick](https://www.linkedin.com/jobs/view/4418452068/) — Amazon Web Services (AWS)
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Senior Software Engineer](https://www.linkedin.com/jobs/view/4387928399/) — Cadence
+### [Diagnostic Software Engineer (6151)](https://www.linkedin.com/jobs/view/4405830731/) — itD
 - 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Lead AI Engineer – GenAI / Agentic AI (Onsite | San Francisco, CA)](https://www.linkedin.com/jobs/view/4425381775/) — Charter Global
+### [Senior Data Scientist, Member Insights - Growth](https://www.linkedin.com/jobs/view/4361316140/) — SoFi
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Senior Software Engineer, Compute Architecture](https://www.linkedin.com/jobs/view/4414340969/) — CoreWeave
-- 📍 **Location:** Sunnyvale, CA
+### [Senior Embedded Software Engineer](https://www.linkedin.com/jobs/view/4418424922/) — Tau Motors
+- 📍 **Location:** Redwood City, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Software Engineer Intern (Fall / Winter 2026)](https://www.linkedin.com/jobs/view/4407974013/) — Cohere
+### [Site Reliability Engineer, Inference Infrastructure](https://www.linkedin.com/jobs/view/4354823548/) — Cohere
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Full Stack Engineer - Growth](https://www.linkedin.com/jobs/view/4427286288/) — Jobright.ai
+### [Software Engineer II, Storage](https://www.linkedin.com/jobs/view/4388307322/) — Crusoe
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Senior Software Engineer](https://www.linkedin.com/jobs/view/4257838305/) — Peregrine
+### [Senior Software Engineer, Attribution](https://www.linkedin.com/jobs/view/4425382822/) — Unity South APAC (SEA, ANZ, IND Subcont.)
+- 📍 **Location:** Mountain View, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Applied Scientist](https://www.linkedin.com/jobs/view/4398097882/) — Hippocratic AI
+- 📍 **Location:** Palo Alto, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior Backend Engineer, Connectors & Discover](https://www.linkedin.com/jobs/view/4407222871/) — Zendesk
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Systems Development Eng (AWS Generative AI & ML Servers), AWS Hardware Engineering Accelerators](https://www.linkedin.com/jobs/view/4400308804/) — Amazon Web Services (AWS)
-- 📍 **Location:** Cupertino, CA
+### [Senior Frontend Engineer (Team Lead)](https://www.linkedin.com/jobs/view/4417193879/) — Meltwater
+- 📍 **Location:** Redwood City, CA
 - 🕒 **Posted:** 2026-06-13
