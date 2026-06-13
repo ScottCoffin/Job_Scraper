@@ -1,13 +1,45 @@
 {
-  "scraped_at": "2026-06-13 21:17 UTC",
-  "total": 9,
-  "new_count": 4,
+  "scraped_at": "2026-06-13 22:17 UTC",
+  "total": 8,
+  "new_count": 7,
   "jobs": [
     {
-      "company": "Jobright.ai",
-      "title": "Machine Learning Engineer, Speech LLM Training",
+      "company": "Amazon Science",
+      "title": "Data Scientist, Amazon Music - DISCO",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425707047/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Waymo",
+      "title": "Machine Learning Engineer, Simulation Evaluation",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427289633/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Waymo",
+      "title": "Machine Learning Engineer, Simulation Evaluation",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427408169/",
+      "url": "https://www.linkedin.com/jobs/view/4427292626/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jobright.ai",
+      "title": "Software Engineer - AI Agent",
+      "location": "San Mateo County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427298609/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jobright.ai",
+      "title": "Growth Data Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427291692/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     },
@@ -20,92 +52,76 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "iLEAf Digital",
-      "title": "Lead Backend Developer",
+      "company": "hackajob",
+      "title": "Lead Software Engineer - Linux Infrastructure Platform",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425369957/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "AI Engineer ($170k\u2013$220k + Equity) at Withshepherd",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427298526/",
+      "url": "https://www.linkedin.com/jobs/view/4427285755/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     },
     {
       "company": "Jobright.ai",
-      "title": "Full-Stack Engineer",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427405417/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Eve",
-      "title": "Software Engineer, Full Stack - GTM",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427698207/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Full Stack Engineer ($250k-$300k + Equity) at Caplight",
+      "title": "Full Stack Engineer - Growth",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427284971/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Full-Stack Engineer ($180k-$200k + Equity) at blok",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427298528/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Software Engineer, iOS/Mobile ($135K \u2013 $260K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427299416/",
+      "url": "https://www.linkedin.com/jobs/view/4427295595/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Jobright.ai",
-      "title": "Machine Learning Engineer, Speech LLM Training",
+      "company": "Amazon Science",
+      "title": "Data Scientist, Amazon Music - DISCO",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425707047/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Waymo",
+      "title": "Machine Learning Engineer, Simulation Evaluation",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427289633/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Waymo",
+      "title": "Machine Learning Engineer, Simulation Evaluation",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427408169/",
+      "url": "https://www.linkedin.com/jobs/view/4427292626/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     },
     {
       "company": "Jobright.ai",
-      "title": "Senior Software Engineer, Product",
-      "location": "Burlingame, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427299496/",
+      "title": "Software Engineer - AI Agent",
+      "location": "San Mateo County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427298609/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     },
     {
-      "company": "iLEAf Digital",
-      "title": "Lead Backend Developer",
+      "company": "Jobright.ai",
+      "title": "Growth Data Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425369957/",
+      "url": "https://www.linkedin.com/jobs/view/4427291692/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "hackajob",
+      "title": "Lead Software Engineer - Linux Infrastructure Platform",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427285755/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     },
     {
       "company": "Jobright.ai",
-      "title": "Full-Stack Engineer",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427405417/",
+      "title": "Full Stack Engineer - Growth",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427295595/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     }

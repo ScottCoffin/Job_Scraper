@@ -1,20 +1,32 @@
 # 🔥 LinkedIn — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-06-13 21:17 UTC*
+*Last updated: 2026-06-13 22:17 UTC*
 
-**4 new role(s)** since last run · 9 total in last 1h
+**7 new role(s)** since last run · 8 total in last 1h
 
-### [Machine Learning Engineer, Speech LLM Training](https://www.linkedin.com/jobs/view/4427408169/) — Jobright.ai
+### [Data Scientist, Amazon Music - DISCO](https://www.linkedin.com/jobs/view/4425707047/) — Amazon Science
+- 📍 **Location:** Sunnyvale, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Machine Learning Engineer, Simulation Evaluation](https://www.linkedin.com/jobs/view/4427289633/) — Waymo
+- 📍 **Location:** Mountain View, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Machine Learning Engineer, Simulation Evaluation](https://www.linkedin.com/jobs/view/4427292626/) — Waymo
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Senior Software Engineer, Product](https://www.linkedin.com/jobs/view/4427299496/) — Jobright.ai
-- 📍 **Location:** Burlingame, CA
+### [Software Engineer - AI Agent](https://www.linkedin.com/jobs/view/4427298609/) — Jobright.ai
+- 📍 **Location:** San Mateo County, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Lead Backend Developer](https://www.linkedin.com/jobs/view/4425369957/) — iLEAf Digital
+### [Growth Data Engineer](https://www.linkedin.com/jobs/view/4427291692/) — Jobright.ai
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Full-Stack Engineer](https://www.linkedin.com/jobs/view/4427405417/) — Jobright.ai
-- 📍 **Location:** Redwood City, CA
+### [Lead Software Engineer - Linux Infrastructure Platform](https://www.linkedin.com/jobs/view/4427285755/) — hackajob
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Full Stack Engineer - Growth](https://www.linkedin.com/jobs/view/4427295595/) — Jobright.ai
+- 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-06-13
