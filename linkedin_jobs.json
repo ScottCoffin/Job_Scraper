@@ -1,119 +1,23 @@
 {
-  "scraped_at": "2026-06-13 03:17 UTC",
-  "total": 9,
-  "new_count": 5,
+  "scraped_at": "2026-06-13 06:40 UTC",
+  "total": 1,
+  "new_count": 1,
   "jobs": [
     {
-      "company": "Jack & Jill",
-      "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at CTGT, Inc.",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427258114/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "PDF Solutions",
-      "title": "Senior Systems Engineer",
-      "location": "Milpitas, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425351007/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Dexmate",
-      "title": "Software Engineer",
+      "company": "NVIDIA AI",
+      "title": "Senior Software Engineer - Storage",
       "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428303473/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Arine",
-      "title": "Full Stack Engineering Summer Intern",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428306537/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Eli Lilly and Company",
-      "title": "Senior Software Engineer, TuneLab",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428301610/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "AMD",
-      "title": "AI Infrastructure Engineer",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425336601/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Veracyte, Inc.",
-      "title": "Senior Systems Engineer",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428307513/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Texas Instruments",
-      "title": "Systems Engineer | FPDLink",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427258312/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at Omen AI",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427258120/",
+      "url": "https://www.linkedin.com/jobs/view/4425339796/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Arine",
-      "title": "Full Stack Engineering Summer Intern",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428306537/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Eli Lilly and Company",
-      "title": "Senior Software Engineer, TuneLab",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428301610/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "AMD",
-      "title": "AI Infrastructure Engineer",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425336601/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Veracyte, Inc.",
-      "title": "Senior Systems Engineer",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428307513/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Texas Instruments",
-      "title": "Systems Engineer | FPDLink",
+      "company": "NVIDIA AI",
+      "title": "Senior Software Engineer - Storage",
       "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427258312/",
+      "url": "https://www.linkedin.com/jobs/view/4425339796/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     }
