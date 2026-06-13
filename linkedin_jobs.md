@@ -1,40 +1,64 @@
 # 🔥 LinkedIn — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-06-12 23:17 UTC*
+*Last updated: 2026-06-13 00:17 UTC*
 
-**9 new role(s)** since last run · 21 total in last 1h
+**15 new role(s)** since last run · 28 total in last 1h
 
-### [Senior Data Scientist - Generative AI](https://www.linkedin.com/jobs/view/4427227800/) — Roblox
-- 📍 **Location:** San Mateo, CA
-- 🕒 **Posted:** 2026-06-12
-
-### [Senior Software Engineer, Geometry](https://www.linkedin.com/jobs/view/4427219878/) — Roblox
-- 📍 **Location:** San Mateo, CA
-- 🕒 **Posted:** 2026-06-12
-
-### [Applied Scientist/Research Engineer—Speech AI](https://www.linkedin.com/jobs/view/4427231555/) — GTN Technical Staffing
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-06-12
-
-### [Senior Perception Engineer](https://www.linkedin.com/jobs/view/4427230561/) — John Deere
+### [Senior Software Engineer, AI Speed Infrastructure](https://www.linkedin.com/jobs/view/4427243072/) — NVIDIA
 - 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior Software Engineer, DGXC Data Services](https://www.linkedin.com/jobs/view/4427241063/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Research Scientist, Efficient Deep Learning - New College Grad 2026](https://www.linkedin.com/jobs/view/4427233480/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Full-Stack & AI Engineer](https://www.linkedin.com/jobs/view/4428181676/) — SS8 Networks
+- 📍 **Location:** Milpitas, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior Software Engineer - Storage](https://www.linkedin.com/jobs/view/4427236104/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Embedded Software Engineer - RISCV](https://www.linkedin.com/jobs/view/4427240101/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior Systems Software Engineer, Performance Architecture - Analytics and Data Intelligence](https://www.linkedin.com/jobs/view/4427243070/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior Software Engineer, Integrated Vehicle Simulator](https://www.linkedin.com/jobs/view/4428179718/) — Joby Aviation
+- 📍 **Location:** Santa Cruz, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Associate Data Scientist](https://www.linkedin.com/jobs/view/4428191122/) — Visa
+- 📍 **Location:** Foster City, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [AI Engineer, Developer Experience](https://www.linkedin.com/jobs/view/4424839433/) — Retool
-- 📍 **Location:** San Francisco, CA
+### [LATAM - Data Science Engineer](https://www.linkedin.com/jobs/view/4425318831/) — Playsaurus Inc.
+- 📍 **Location:** Alameda, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab](https://www.linkedin.com/jobs/view/4427934142/) — Buck Institute for Research on Aging
-- 📍 **Location:** Novato, CA
+### [Software Engineer5 - AndroidTV Platform](https://www.linkedin.com/jobs/view/4425319757/) — Netflix
+- 📍 **Location:** Los Gatos, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [Software Engineering Manager II, Core, Web Ecosystem](https://www.linkedin.com/jobs/view/4427229561/) — Google
+### [Senior Flight Test Data Engineer, Loads](https://www.linkedin.com/jobs/view/4427229913/) — Archer
 - 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [Android Framework Software Engineer (Infotainment Systems)](https://www.linkedin.com/jobs/view/4427220927/) — OSI Engineering
-- 📍 **Location:** Mountain View, CA
+### [UI/UX and Full-Stack Engineer](https://www.linkedin.com/jobs/view/4427230931/) — IntBot
+- 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-06-12
 
-### [Sr. Software Engineer II, MacOS Sensor - CTIO (Hybrid)](https://www.linkedin.com/jobs/view/4425323741/) — CrowdStrike
-- 📍 **Location:** Sunnyvale, CA
+### [Senior Software engineer, Backend](https://www.linkedin.com/jobs/view/4428180576/) — HEN Technologies
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-06-12
+
+### [Network Software Engineer](https://www.linkedin.com/jobs/view/4427236078/) — SpanIdea Systems
+- 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-06-12
