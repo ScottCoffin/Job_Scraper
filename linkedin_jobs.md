@@ -1,44 +1,48 @@
 # 🔥 LinkedIn — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-06-13 17:17 UTC*
+*Last updated: 2026-06-13 18:17 UTC*
 
-**10 new role(s)** since last run · 13 total in last 1h
+**11 new role(s)** since last run · 18 total in last 1h
 
-### [Software Engineer (New College Grad - Masters))](https://www.linkedin.com/jobs/view/4425375821/) — Applied Materials
+### [Junior Software Engineer (Robot Operating Systems)](https://www.linkedin.com/jobs/view/4407640345/) — Core Group Resources
+- 📍 **Location:** Richmond, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior Software Engineer - BaseOS](https://www.linkedin.com/jobs/view/4417520009/) — NVIDIA
 - 📍 **Location:** Santa Clara, CA
 - 🕒 **Posted:** 2026-06-13
 
-### [Diagnostic Software Engineer (6151)](https://www.linkedin.com/jobs/view/4405830731/) — itD
+### [Senior Systems Software Engineer - Autonomous Vehicles Platform](https://www.linkedin.com/jobs/view/4417501991/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior Software Engineer - BaseOS](https://www.linkedin.com/jobs/view/4417505919/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior Software Engineer](https://www.linkedin.com/jobs/view/4408959228/) — Heartflow
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior System Software Engineer – GeForce NOW Cloud](https://www.linkedin.com/jobs/view/4416719826/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Software Engineer Lead](https://www.linkedin.com/jobs/view/4409498798/) — Resource Innovations
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [System Software Engineer - GPU](https://www.linkedin.com/jobs/view/4417508859/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior Systems Engineer](https://www.linkedin.com/jobs/view/4418432406/) — Roche
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Senior Software Engineer - NVLink Rack Scale Stability and Reliability](https://www.linkedin.com/jobs/view/4417522005/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Optical Systems Engineer](https://www.linkedin.com/jobs/view/4418438764/) — Etched
 - 📍 **Location:** San Jose, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Senior Data Scientist, Member Insights - Growth](https://www.linkedin.com/jobs/view/4361316140/) — SoFi
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Senior Embedded Software Engineer](https://www.linkedin.com/jobs/view/4418424922/) — Tau Motors
-- 📍 **Location:** Redwood City, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Site Reliability Engineer, Inference Infrastructure](https://www.linkedin.com/jobs/view/4354823548/) — Cohere
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Software Engineer II, Storage](https://www.linkedin.com/jobs/view/4388307322/) — Crusoe
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Senior Software Engineer, Attribution](https://www.linkedin.com/jobs/view/4425382822/) — Unity South APAC (SEA, ANZ, IND Subcont.)
-- 📍 **Location:** Mountain View, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Applied Scientist](https://www.linkedin.com/jobs/view/4398097882/) — Hippocratic AI
-- 📍 **Location:** Palo Alto, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Senior Backend Engineer, Connectors & Discover](https://www.linkedin.com/jobs/view/4407222871/) — Zendesk
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-06-13
-
-### [Senior Frontend Engineer (Team Lead)](https://www.linkedin.com/jobs/view/4417193879/) — Meltwater
-- 📍 **Location:** Redwood City, CA
 - 🕒 **Posted:** 2026-06-13
