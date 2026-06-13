@@ -1,816 +1,1784 @@
 {
-  "scraped_at": "2026-06-12 20:17 UTC",
-  "total": 51,
-  "new_count": 50,
+  "scraped_at": "2026-06-13 01:14 UTC",
+  "total": 111,
+  "new_count": 111,
   "jobs": [
     {
-      "company": "Jack & Jill",
-      "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at CTGT, Inc.",
+      "company": "Lakefront Biotherapeutics",
+      "title": "Director/Senior Director, Toxicology",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426996957/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "AI/ML Engineer ($250k\u2013$400k + Equity) at Known",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427203896/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Mochi Health",
-      "title": "Data Scientist, Operations",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428123932/",
+      "url": "https://www.linkedin.com/jobs/view/4427220157/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
       "company": "Jack & Jill",
-      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at Omen AI",
+      "title": "Research Scientist at well-funded biotech platform startup",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427206896/",
+      "url": "https://www.linkedin.com/jobs/view/4427203961/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Software Engineer, iOS/Mobile ($135K \u2013 $260K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427207873/",
+      "company": "Ionis Pharmaceuticals, Inc.",
+      "title": "Associate Director, Toxicology",
+      "location": "Carlsbad, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425319708/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Deals Data Scientist at Goodwater Capital",
-      "location": "Burlingame, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426998992/",
+      "company": "California State University, Northridge",
+      "title": "Assistant Professor of Environmental Earth Science - Department of Geological Science #26-13",
+      "location": "Northridge, CA",
+      "url": "https://www.linkedin.com/jobs/view/4372012882/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Software Engineer (AI Agents) ($180K \u2013 $300K + Equity) at Pylon Labs, Inc.",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427207875/",
+      "company": "Revolution Medicines",
+      "title": "Principal Scientist, Cancer Pharmacology, Translational Research",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4414056997/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Figma",
-      "title": "Data Scientist, Finance",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427206957/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer at CommodityAI",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426996955/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TalentAlly",
-      "title": "Data Engineer",
-      "location": "Los Altos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428147139/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Pi Square Technologies",
-      "title": "Embedded Software Engineer (QNX)",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425314184/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Google",
-      "title": "Senior Software Engineer, Full Stack, Labs",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426996889/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer at VC-backed B2B software platform",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427208428/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Globus Medical",
-      "title": "Sr. Software Engineer (Mobile Applications)",
+      "company": "Biohub",
+      "title": "Research Scientist, AI",
       "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4408119065/",
+      "url": "https://www.linkedin.com/jobs/view/4398639360/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "VetJobs",
-      "title": "Software Engineer - Sunnyvale CA",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426992967/",
+      "company": "Amgen",
+      "title": "Senior Scientist - siRNA Bioanalysis & Mechanistic Studies",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4418154064/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Google",
-      "title": "Senior Software Engineer, TPU Supercomputer, Infrastructure, Cloud",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427209092/",
+      "company": "GHD",
+      "title": "Environmental Scientist",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427211488/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "INUIX LLC",
-      "title": "Software Engineer (Node.js, React.js, Python)",
+      "company": "J.S. Held LLC",
+      "title": "Director \u2013 Environmental Remediation",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4419831015/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Department of Public Health",
+      "title": "RESEARCH SCIENTIST STAFF JC-521291",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4427254292/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Air Resources Board",
+      "title": "Air Pollution Monitoring Technical Support",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428168922/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Polytechnic State University-San Luis Obispo",
+      "title": "Tenure Track Position - Public Health",
+      "location": "Greater San Luis Obispo Area",
+      "url": "https://www.linkedin.com/jobs/view/4427233401/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Masimo",
+      "title": "Clinical Research Data Scientist (RWE)",
+      "location": "Irvine, CA",
+      "url": "https://www.linkedin.com/jobs/view/4366916216/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Stanford Medicine Children's Health",
+      "title": "Environmental Health & Safety Program Manager",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4421317219/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "SoCalGas",
+      "title": "Environmental Science Senior I - (Natural Resource Management / Biology)",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4409408420/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Caltrans",
+      "title": "ENVIRONMENTAL SCIENTIST",
+      "location": "Stockton, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428177182/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HDR",
+      "title": "Water Resources Engineer",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4396380724/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HDR",
+      "title": "Water Resources Engineer",
+      "location": "Walnut Creek, CA",
+      "url": "https://www.linkedin.com/jobs/view/4396366845/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "APTIM",
+      "title": "Environmental Remediation Project Manager",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427959150/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "APTIM",
+      "title": "Project Manager, Environmental Remediation",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427951202/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Intellectt Inc",
+      "title": "Regulatory Affairs Specialist \u2013 Medical Devices",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4404783874/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Roche",
+      "title": "Senior Safety, Health, and Environmental Specialist",
+      "location": "Carlsbad, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427929796/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Roche",
+      "title": "Senior Safety, Health, and Environmental Specialist",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427940623/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "GForce Life Sciences",
+      "title": "Regulatory Affairs Specialist",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428124485/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "United Pharma",
+      "title": "Senior Regulatory Affairs Specialist",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4428159535/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Precision Point",
+      "title": "Associate Director of Regulatory Affairs",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4427989862/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Precision Point",
+      "title": "Director of Regulatory Affairs",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4427981818/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HireTalent - Staffing & Recruiting Firm",
+      "title": "Senior Regulatory Affairs Specialist",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428115061/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "JLSa2 Therapeutics, Inc.",
+      "title": "Senior Scientist, Protein & Peptide/Chemical-Protein Conjugate Formulation",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427205831/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Ultima Genomics",
+      "title": "Senior Scientist, Surface Chemistry",
+      "location": "Fremont, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424825365/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Quantum AI Research Scientist,  Applied Research",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416723777/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Neurocrine Biosciences",
+      "title": "Senior Scientist, Analytical Development",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426975252/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Neurocrine Biosciences",
+      "title": "Sr. Principal Scientist, Clinical Pharmacology",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426693860/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Q-CTRL",
+      "title": "Senior Scientist, Quantum Compilation",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427989944/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "IceKredit",
+      "title": "Data Science Analyst",
+      "location": "Westlake Village, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427087758/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Roku",
+      "title": "Senior Data Scientist",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428152231/",
+      "url": "https://www.linkedin.com/jobs/view/4428109706/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Gamma",
-      "title": "Software Engineer, Frontend",
+      "company": "Buck Institute for Research on Aging",
+      "title": "AI Data Scientist-Furman lab",
+      "location": "Novato, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427938237/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Meta",
+      "title": "Research Scientist, Artificial Intelligence",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4414083042/",
+      "url": "https://www.linkedin.com/jobs/view/4414301113/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobs via Dice",
-      "title": "AI/ML Engineer / Data Scientist (AdTech / MarTech / Retail Media)",
+      "company": "Braze",
+      "title": "Forward-Deployed Data Scientist II",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4409026399/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Blue Stone Management",
+      "title": "Data Scientist / Power BI & Project Analytics Specialist",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426980167/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Insight Global",
+      "title": "Clinical Health Scientist I",
+      "location": "Carlsbad, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426640041/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Neurocrine Biosciences",
+      "title": "TEMP - Toxicology Operations Specialist",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424800900/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "The Nature Conservancy",
+      "title": "Director of Science, California Water Program",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4423178955/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Revvity",
+      "title": "Research Associate I - Bioassay",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417460741/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Revvity",
+      "title": "Research Associate I - Immunoassay",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417422467/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "CoFactor Recruitment",
+      "title": "Research Associate - Cell Culture",
+      "location": "Greater Sacramento",
+      "url": "https://www.linkedin.com/jobs/view/4426660350/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Merck",
+      "title": "Senior Specialist, Data Science",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427673064/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Research Scientist, Fundamental Generative AI",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4395486159/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "BioSpace",
+      "title": "Principal Research Scientist - Modeling and Simulation",
+      "location": "East Irvine, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427163198/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Caltrans",
+      "title": "SENIOR ENVIRONMENTAL SCIENTIST (SPECIALIST)",
+      "location": "Stockton, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427646960/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Mercor",
+      "title": "Environmental Scientist - Fully Remote | Upto $1450 Part-time",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426195330/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Department of Toxic Substances Control",
+      "title": "SENIOR ENVIRONMENTAL SCIENTIST (SPECIALIST)",
+      "location": "San Diego County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427578309/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Roux",
+      "title": "Senior Environmental Engineer I",
+      "location": "Burbank, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417901914/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Trihydro Corporation",
+      "title": "Project Engineer/Geologist/Environmental Scientist",
+      "location": "Concord, CA",
+      "url": "https://www.linkedin.com/jobs/view/4366233745/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Air Resources Board",
+      "title": "Staff Air Pollution Specialist",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427672108/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Caltrans",
+      "title": "SENIOR ENVIRONMENTAL SCIENTIST (SPECIALIST)",
+      "location": "San Bernardino County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427649982/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Meta",
+      "title": "Research Scientist, Demography and Survey Sciences",
       "location": "Menlo Park, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426997959/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4423611491/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer - AI Data & Analytics at HOAi",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427202882/",
-      "date_posted": "2026-06-12",
+      "company": "Verdantas",
+      "title": "Staff Scientist III",
+      "location": "West Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423691630/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HDR",
+      "title": "Water Resources Management Market Sector Leader",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4395936083/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HDR",
+      "title": "Water Resources Management Market Sector Leader",
+      "location": "Irvine, CA",
+      "url": "https://www.linkedin.com/jobs/view/4395921113/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "JenaValve Technology, Inc.",
+      "title": "Senior Specialist, Environmental Health & Safety",
+      "location": "Irvine, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423697692/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Louis Dreyfus Company",
+      "title": "Research Scientist, Proteins",
+      "location": "Livermore, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424823038/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Biological Safety Research Scientist",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4407084902/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Acadia Pharmaceuticals",
+      "title": "Associate Director, Regulatory Affairs Project Planning & Coordination",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416346917/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "ORIC Pharmaceuticals Inc.",
+      "title": "Senior Scientist, Process Chemistry",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423041681/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Experis",
+      "title": "Research Scientist",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426191491/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Allogene Therapeutics",
+      "title": "Senior Scientist, Analytical Development",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417383309/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AbbVie",
+      "title": "Senior Scientist I, Analytical Development",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426660311/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Alumis",
+      "title": "Senior Scientist I Analytical Development",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4408706905/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Exponent",
+      "title": "Senior Managing Regulatory Scientist",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426170923/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Meta",
+      "title": "Data Scientist, Product Analytics",
+      "location": "Burlingame, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423636367/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
       "company": "TikTok",
-      "title": "Research Scientist, Generative AI - San Jose",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427210004/",
-      "date_posted": "2026-06-12",
+      "title": "Data Scientist - TikTok PGC Sports (Los Angeles)",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426645499/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
-      "company": "Alpha Search Advisors",
-      "title": "Software Engineer",
+      "company": "Public Storage",
+      "title": "Data Scientist",
+      "location": "Glendale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423642868/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Sigma Defense Systems LLC",
+      "title": "1698 - Data Scientist",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426636588/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "USC Schaeffer Institute",
+      "title": "Research Data Scientist",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427613681/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Samba TV",
+      "title": "Data Scientist  (Knowledge Graph & Identity)",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4401779639/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4382972405/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobs via Dice",
-      "title": "Software Engineer - Machine Learning III",
+      "company": "Sesame",
+      "title": "Research Scientist",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4399470703/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AI",
+      "title": "Data Scientist",
+      "location": "Woodland, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424814560/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Google DeepMind",
+      "title": "Research Scientist/Engineer, Autonomous Security, DeepMind",
       "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427203915/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4416163726/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobs via Dice",
-      "title": "Full Stack Software Engineer",
+      "company": "Google DeepMind",
+      "title": "Research Scientist, Gemini Vision, DeepMind",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416515360/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Data Scientist,  ML (Credit Risk)",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423188480/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Google DeepMind",
+      "title": "Research Scientist/Engineer, Autonomous Security, DeepMind",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426997987/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4416179393/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "AI Engineer ($180K \u2013 $250K + Equity) at BUILD,",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426997957/",
-      "date_posted": "2026-06-12",
+      "company": "Aditi Consulting",
+      "title": "Senior Scientist",
+      "location": "Thousand Oaks, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427049340/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "AI Engineer ($170k\u2013$220k + Equity) at Withshepherd",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427220011/",
-      "date_posted": "2026-06-12",
+      "company": "Yoh, A Day & Zimmermann Company",
+      "title": "Principal Research Scientist, Cancer Biology",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427090342/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "Google",
-      "title": "Software Engineer, TPU Software Systems, Cloud",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427203822/",
-      "date_posted": "2026-06-12",
+      "company": "Denali Therapeutics",
+      "title": "Associate Director, Toxicology",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416935856/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "Marble",
-      "title": "Software Engineer, Lead",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428157135/",
-      "date_posted": "2026-06-12",
+      "company": "Advanced Clinical",
+      "title": "Research Associate - Biology - III*",
+      "location": "Foster City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416695036/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "Java Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425332208/",
-      "date_posted": "2026-06-12",
+      "company": "Apex Companies",
+      "title": "Environmental Scientist 1",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427084068/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "Java Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425315371/",
-      "date_posted": "2026-06-12",
+      "company": "Genentech",
+      "title": "Senior Scientist, Cellular Pharmacology",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427070905/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "Java Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425328224/",
-      "date_posted": "2026-06-12",
+      "company": "Synectics",
+      "title": "Environmental Scientist - Data Manager",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4332069803/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "Java Fullstack Engineer - Senior - Consulting - Location OPEN",
+      "company": "NV5",
+      "title": "Senior Stormwater/Environmental Scientist-QSD",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4394733492/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Caltrans",
+      "title": "ENVIRONMENTAL SCIENTIST",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427097864/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Insignia Environmental",
+      "title": "Lead Environmental Specialist/Planner (QSD/QSP) (Menlo Park and Encinitas, California)",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4404874145/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Clover Sonoma",
+      "title": "Environmental Health & Safety Manager (Manufacturing & Distribution)",
+      "location": "Petaluma, CA",
+      "url": "https://www.linkedin.com/jobs/view/4390777729/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Herndon Solutions Group",
+      "title": "Environmental Health Lead",
+      "location": "Edwards, CA",
+      "url": "https://www.linkedin.com/jobs/view/4419641486/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AECOM",
+      "title": "Environmental Health and Safety Compliance Professional",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425318358/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4426141930/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "C# Fullstack Engineer - Senior - Consulting - Location OPEN",
+      "company": "Regional Government Services Authority",
+      "title": "Staff Water Resources Analyst for the East Turlock Subbasin GSA",
+      "location": "Merced, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426149335/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Arcadis",
+      "title": "Environmental Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425331239/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4426090159/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Software Engineer, iOS - Securing Engineering, USDS",
+      "company": "RED Digital Cinema",
+      "title": "Chemical Regulatory Manager",
+      "location": "Orange County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4414729720/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Periodic Labs",
+      "title": "Environmental Health and Safety",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427078703/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Abbott",
+      "title": "Senior Manager, Regulatory Affairs - Lingo (on-site)",
+      "location": "Alameda, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427097795/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "elemed",
+      "title": "Director of Regulatory Affairs",
+      "location": "San Diego Metropolitan Area",
+      "url": "https://www.linkedin.com/jobs/view/4423142198/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "U.S. Department of Veterans Affairs",
+      "title": "Supervisory Health Science Specialist",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427092762/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "KLA",
+      "title": "Research Scientist",
+      "location": "Milpitas, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422770983/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Cambium",
+      "title": "Senior Scientist - Formulation & Composites",
+      "location": "Los Angeles Metropolitan Area",
+      "url": "https://www.linkedin.com/jobs/view/4427081253/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "TikTok",
+      "title": "Research Scientist, Intelligent Editing and AI Agent (Multimodality) Graduate (Intelligent Creation) - Global Frontier Tech Recruitment Program - 2027 Start (PhD)",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428140672/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4406260660/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "C# Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425330231/",
-      "date_posted": "2026-06-12",
+      "company": "Replit",
+      "title": "Data Scientist, People",
+      "location": "Foster City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4415982893/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "C# Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425320284/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "EY",
-      "title": "C# Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425325240/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Full Stack Engineer ($250k-$300k + Equity) at Caplight",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427205879/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Backend Engineer at Tavus",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427202927/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Full-Stack Engineer ($180k-$200k + Equity) at blok",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427203899/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "People Culture Talent",
-      "title": "Full-Stack Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428144875/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Full Stack AI Engineer at Taste",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427208462/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Frontend Developer",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427217030/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Faros",
-      "title": "Lead Software Engineer - Backend",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428155196/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Lead Software Engineer ($185K \u2013 $240K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427205877/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Embedded Software Engineer(QNX)",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426999912/",
-      "date_posted": "2026-06-12",
+      "company": "Meta",
+      "title": "Data Scientist, Product Analytics",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423136970/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
       "company": "Chime",
-      "title": "Software Engineer, Infrastructure",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4425313405/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Product Infrastructure Engineer ($200k-$220k + Equity) at Truewind",
+      "title": "Data Scientist, Growth Product",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427208425/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4423154986/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "VARITE INC",
-      "title": "Sr DevOps Engineer",
+      "company": "Amazon Science",
+      "title": "Data Scientist, Amazon Music - DISCO",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423180236/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "TikTok USDS Joint Venture",
+      "title": "Data Scientist, Product Analytics - USDS",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412954961/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Airbnb",
+      "title": "Sr. Data Scientist (contract)",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428157330/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Senior Security Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427202957/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "DELFI Diagnostics",
-      "title": "Senior Data Scientist, Computational Biology",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428159152/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4426581877/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Jack & Jill",
-      "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at CTGT, Inc.",
+      "company": "Lakefront Biotherapeutics",
+      "title": "Director/Senior Director, Toxicology",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426996957/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "AI/ML Engineer ($250k\u2013$400k + Equity) at Known",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427203896/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Mochi Health",
-      "title": "Data Scientist, Operations",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428123932/",
+      "url": "https://www.linkedin.com/jobs/view/4427220157/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
       "company": "Jack & Jill",
-      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at Omen AI",
+      "title": "Research Scientist at well-funded biotech platform startup",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427206896/",
+      "url": "https://www.linkedin.com/jobs/view/4427203961/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Software Engineer, iOS/Mobile ($135K \u2013 $260K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427207873/",
+      "company": "Ionis Pharmaceuticals, Inc.",
+      "title": "Associate Director, Toxicology",
+      "location": "Carlsbad, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425319708/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Deals Data Scientist at Goodwater Capital",
-      "location": "Burlingame, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426998992/",
+      "company": "California State University, Northridge",
+      "title": "Assistant Professor of Environmental Earth Science - Department of Geological Science #26-13",
+      "location": "Northridge, CA",
+      "url": "https://www.linkedin.com/jobs/view/4372012882/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Software Engineer (AI Agents) ($180K \u2013 $300K + Equity) at Pylon Labs, Inc.",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427207875/",
+      "company": "Revolution Medicines",
+      "title": "Principal Scientist, Cancer Pharmacology, Translational Research",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4414056997/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Figma",
-      "title": "Data Scientist, Finance",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427206957/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer at CommodityAI",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426996955/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TalentAlly",
-      "title": "Data Engineer",
-      "location": "Los Altos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428147139/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Google",
-      "title": "Senior Software Engineer, Full Stack, Labs",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426996889/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer at VC-backed B2B software platform",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427208428/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Globus Medical",
-      "title": "Sr. Software Engineer (Mobile Applications)",
+      "company": "Biohub",
+      "title": "Research Scientist, AI",
       "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4408119065/",
+      "url": "https://www.linkedin.com/jobs/view/4398639360/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "VetJobs",
-      "title": "Software Engineer - Sunnyvale CA",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426992967/",
+      "company": "Amgen",
+      "title": "Senior Scientist - siRNA Bioanalysis & Mechanistic Studies",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4418154064/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Google",
-      "title": "Senior Software Engineer, TPU Supercomputer, Infrastructure, Cloud",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427209092/",
+      "company": "GHD",
+      "title": "Environmental Scientist",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427211488/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "INUIX LLC",
-      "title": "Software Engineer (Node.js, React.js, Python)",
+      "company": "J.S. Held LLC",
+      "title": "Director \u2013 Environmental Remediation",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4419831015/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Department of Public Health",
+      "title": "RESEARCH SCIENTIST STAFF JC-521291",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4427254292/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Air Resources Board",
+      "title": "Air Pollution Monitoring Technical Support",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428168922/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Polytechnic State University-San Luis Obispo",
+      "title": "Tenure Track Position - Public Health",
+      "location": "Greater San Luis Obispo Area",
+      "url": "https://www.linkedin.com/jobs/view/4427233401/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Masimo",
+      "title": "Clinical Research Data Scientist (RWE)",
+      "location": "Irvine, CA",
+      "url": "https://www.linkedin.com/jobs/view/4366916216/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Stanford Medicine Children's Health",
+      "title": "Environmental Health & Safety Program Manager",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4421317219/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "SoCalGas",
+      "title": "Environmental Science Senior I - (Natural Resource Management / Biology)",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4409408420/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Caltrans",
+      "title": "ENVIRONMENTAL SCIENTIST",
+      "location": "Stockton, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428177182/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HDR",
+      "title": "Water Resources Engineer",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4396380724/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HDR",
+      "title": "Water Resources Engineer",
+      "location": "Walnut Creek, CA",
+      "url": "https://www.linkedin.com/jobs/view/4396366845/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "APTIM",
+      "title": "Environmental Remediation Project Manager",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427959150/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "APTIM",
+      "title": "Project Manager, Environmental Remediation",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427951202/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Intellectt Inc",
+      "title": "Regulatory Affairs Specialist \u2013 Medical Devices",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4404783874/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Roche",
+      "title": "Senior Safety, Health, and Environmental Specialist",
+      "location": "Carlsbad, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427929796/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Roche",
+      "title": "Senior Safety, Health, and Environmental Specialist",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427940623/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "GForce Life Sciences",
+      "title": "Regulatory Affairs Specialist",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428124485/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "United Pharma",
+      "title": "Senior Regulatory Affairs Specialist",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4428159535/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Precision Point",
+      "title": "Associate Director of Regulatory Affairs",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4427989862/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Precision Point",
+      "title": "Director of Regulatory Affairs",
+      "location": "San Francisco Bay Area",
+      "url": "https://www.linkedin.com/jobs/view/4427981818/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HireTalent - Staffing & Recruiting Firm",
+      "title": "Senior Regulatory Affairs Specialist",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428115061/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "JLSa2 Therapeutics, Inc.",
+      "title": "Senior Scientist, Protein & Peptide/Chemical-Protein Conjugate Formulation",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427205831/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Ultima Genomics",
+      "title": "Senior Scientist, Surface Chemistry",
+      "location": "Fremont, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424825365/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Quantum AI Research Scientist,  Applied Research",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416723777/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Neurocrine Biosciences",
+      "title": "Senior Scientist, Analytical Development",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426975252/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Neurocrine Biosciences",
+      "title": "Sr. Principal Scientist, Clinical Pharmacology",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426693860/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Q-CTRL",
+      "title": "Senior Scientist, Quantum Compilation",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427989944/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "IceKredit",
+      "title": "Data Science Analyst",
+      "location": "Westlake Village, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427087758/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Roku",
+      "title": "Senior Data Scientist",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428152231/",
+      "url": "https://www.linkedin.com/jobs/view/4428109706/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Gamma",
-      "title": "Software Engineer, Frontend",
+      "company": "Buck Institute for Research on Aging",
+      "title": "AI Data Scientist-Furman lab",
+      "location": "Novato, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427938237/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Meta",
+      "title": "Research Scientist, Artificial Intelligence",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4414083042/",
+      "url": "https://www.linkedin.com/jobs/view/4414301113/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobs via Dice",
-      "title": "AI/ML Engineer / Data Scientist (AdTech / MarTech / Retail Media)",
+      "company": "Braze",
+      "title": "Forward-Deployed Data Scientist II",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4409026399/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Blue Stone Management",
+      "title": "Data Scientist / Power BI & Project Analytics Specialist",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426980167/",
+      "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Insight Global",
+      "title": "Clinical Health Scientist I",
+      "location": "Carlsbad, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426640041/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Neurocrine Biosciences",
+      "title": "TEMP - Toxicology Operations Specialist",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424800900/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "The Nature Conservancy",
+      "title": "Director of Science, California Water Program",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4423178955/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Revvity",
+      "title": "Research Associate I - Bioassay",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417460741/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Revvity",
+      "title": "Research Associate I - Immunoassay",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417422467/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "CoFactor Recruitment",
+      "title": "Research Associate - Cell Culture",
+      "location": "Greater Sacramento",
+      "url": "https://www.linkedin.com/jobs/view/4426660350/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Merck",
+      "title": "Senior Specialist, Data Science",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427673064/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Research Scientist, Fundamental Generative AI",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4395486159/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "BioSpace",
+      "title": "Principal Research Scientist - Modeling and Simulation",
+      "location": "East Irvine, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427163198/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Caltrans",
+      "title": "SENIOR ENVIRONMENTAL SCIENTIST (SPECIALIST)",
+      "location": "Stockton, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427646960/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Mercor",
+      "title": "Environmental Scientist - Fully Remote | Upto $1450 Part-time",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426195330/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Department of Toxic Substances Control",
+      "title": "SENIOR ENVIRONMENTAL SCIENTIST (SPECIALIST)",
+      "location": "San Diego County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427578309/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Roux",
+      "title": "Senior Environmental Engineer I",
+      "location": "Burbank, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417901914/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Trihydro Corporation",
+      "title": "Project Engineer/Geologist/Environmental Scientist",
+      "location": "Concord, CA",
+      "url": "https://www.linkedin.com/jobs/view/4366233745/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Air Resources Board",
+      "title": "Staff Air Pollution Specialist",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427672108/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Caltrans",
+      "title": "SENIOR ENVIRONMENTAL SCIENTIST (SPECIALIST)",
+      "location": "San Bernardino County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427649982/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Meta",
+      "title": "Research Scientist, Demography and Survey Sciences",
       "location": "Menlo Park, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426997959/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4423611491/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer - AI Data & Analytics at HOAi",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427202882/",
-      "date_posted": "2026-06-12",
+      "company": "Verdantas",
+      "title": "Staff Scientist III",
+      "location": "West Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423691630/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HDR",
+      "title": "Water Resources Management Market Sector Leader",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4395936083/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HDR",
+      "title": "Water Resources Management Market Sector Leader",
+      "location": "Irvine, CA",
+      "url": "https://www.linkedin.com/jobs/view/4395921113/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "JenaValve Technology, Inc.",
+      "title": "Senior Specialist, Environmental Health & Safety",
+      "location": "Irvine, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423697692/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Louis Dreyfus Company",
+      "title": "Research Scientist, Proteins",
+      "location": "Livermore, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424823038/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Biological Safety Research Scientist",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4407084902/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Acadia Pharmaceuticals",
+      "title": "Associate Director, Regulatory Affairs Project Planning & Coordination",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416346917/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "ORIC Pharmaceuticals Inc.",
+      "title": "Senior Scientist, Process Chemistry",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423041681/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Experis",
+      "title": "Research Scientist",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426191491/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Allogene Therapeutics",
+      "title": "Senior Scientist, Analytical Development",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417383309/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AbbVie",
+      "title": "Senior Scientist I, Analytical Development",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426660311/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Alumis",
+      "title": "Senior Scientist I Analytical Development",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4408706905/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Exponent",
+      "title": "Senior Managing Regulatory Scientist",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426170923/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Meta",
+      "title": "Data Scientist, Product Analytics",
+      "location": "Burlingame, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423636367/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
       "company": "TikTok",
-      "title": "Research Scientist, Generative AI - San Jose",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427210004/",
-      "date_posted": "2026-06-12",
+      "title": "Data Scientist - TikTok PGC Sports (Los Angeles)",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426645499/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
-      "company": "Alpha Search Advisors",
-      "title": "Software Engineer",
+      "company": "Public Storage",
+      "title": "Data Scientist",
+      "location": "Glendale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423642868/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Sigma Defense Systems LLC",
+      "title": "1698 - Data Scientist",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426636588/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "USC Schaeffer Institute",
+      "title": "Research Data Scientist",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427613681/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Samba TV",
+      "title": "Data Scientist  (Knowledge Graph & Identity)",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4401779639/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4382972405/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobs via Dice",
-      "title": "Software Engineer - Machine Learning III",
+      "company": "Sesame",
+      "title": "Research Scientist",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4399470703/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AI",
+      "title": "Data Scientist",
+      "location": "Woodland, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424814560/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Google DeepMind",
+      "title": "Research Scientist/Engineer, Autonomous Security, DeepMind",
       "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427203915/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4416163726/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobs via Dice",
-      "title": "Full Stack Software Engineer",
+      "company": "Google DeepMind",
+      "title": "Research Scientist, Gemini Vision, DeepMind",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416515360/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Data Scientist,  ML (Credit Risk)",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423188480/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Google DeepMind",
+      "title": "Research Scientist/Engineer, Autonomous Security, DeepMind",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426997987/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4416179393/",
+      "date_posted": "2026-06-11",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "AI Engineer ($180K \u2013 $250K + Equity) at BUILD,",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426997957/",
-      "date_posted": "2026-06-12",
+      "company": "Aditi Consulting",
+      "title": "Senior Scientist",
+      "location": "Thousand Oaks, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427049340/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "AI Engineer ($170k\u2013$220k + Equity) at Withshepherd",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427220011/",
-      "date_posted": "2026-06-12",
+      "company": "Yoh, A Day & Zimmermann Company",
+      "title": "Principal Research Scientist, Cancer Biology",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427090342/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "Google",
-      "title": "Software Engineer, TPU Software Systems, Cloud",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427203822/",
-      "date_posted": "2026-06-12",
+      "company": "Denali Therapeutics",
+      "title": "Associate Director, Toxicology",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416935856/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "Marble",
-      "title": "Software Engineer, Lead",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428157135/",
-      "date_posted": "2026-06-12",
+      "company": "Advanced Clinical",
+      "title": "Research Associate - Biology - III*",
+      "location": "Foster City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4416695036/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "Java Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425332208/",
-      "date_posted": "2026-06-12",
+      "company": "Apex Companies",
+      "title": "Environmental Scientist 1",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427084068/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "Java Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425315371/",
-      "date_posted": "2026-06-12",
+      "company": "Genentech",
+      "title": "Senior Scientist, Cellular Pharmacology",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427070905/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "Java Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425328224/",
-      "date_posted": "2026-06-12",
+      "company": "Synectics",
+      "title": "Environmental Scientist - Data Manager",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4332069803/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "Java Fullstack Engineer - Senior - Consulting - Location OPEN",
+      "company": "NV5",
+      "title": "Senior Stormwater/Environmental Scientist-QSD",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4394733492/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Caltrans",
+      "title": "ENVIRONMENTAL SCIENTIST",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427097864/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Insignia Environmental",
+      "title": "Lead Environmental Specialist/Planner (QSD/QSP) (Menlo Park and Encinitas, California)",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/4404874145/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Clover Sonoma",
+      "title": "Environmental Health & Safety Manager (Manufacturing & Distribution)",
+      "location": "Petaluma, CA",
+      "url": "https://www.linkedin.com/jobs/view/4390777729/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Herndon Solutions Group",
+      "title": "Environmental Health Lead",
+      "location": "Edwards, CA",
+      "url": "https://www.linkedin.com/jobs/view/4419641486/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AECOM",
+      "title": "Environmental Health and Safety Compliance Professional",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425318358/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4426141930/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "C# Fullstack Engineer - Senior - Consulting - Location OPEN",
+      "company": "Regional Government Services Authority",
+      "title": "Staff Water Resources Analyst for the East Turlock Subbasin GSA",
+      "location": "Merced, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426149335/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Arcadis",
+      "title": "Environmental Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425331239/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4426090159/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Software Engineer, iOS - Securing Engineering, USDS",
+      "company": "RED Digital Cinema",
+      "title": "Chemical Regulatory Manager",
+      "location": "Orange County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4414729720/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Periodic Labs",
+      "title": "Environmental Health and Safety",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427078703/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Abbott",
+      "title": "Senior Manager, Regulatory Affairs - Lingo (on-site)",
+      "location": "Alameda, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427097795/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "elemed",
+      "title": "Director of Regulatory Affairs",
+      "location": "San Diego Metropolitan Area",
+      "url": "https://www.linkedin.com/jobs/view/4423142198/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "U.S. Department of Veterans Affairs",
+      "title": "Supervisory Health Science Specialist",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427092762/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "KLA",
+      "title": "Research Scientist",
+      "location": "Milpitas, CA",
+      "url": "https://www.linkedin.com/jobs/view/4422770983/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Cambium",
+      "title": "Senior Scientist - Formulation & Composites",
+      "location": "Los Angeles Metropolitan Area",
+      "url": "https://www.linkedin.com/jobs/view/4427081253/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "TikTok",
+      "title": "Research Scientist, Intelligent Editing and AI Agent (Multimodality) Graduate (Intelligent Creation) - Global Frontier Tech Recruitment Program - 2027 Start (PhD)",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428140672/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4406260660/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "C# Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425330231/",
-      "date_posted": "2026-06-12",
+      "company": "Replit",
+      "title": "Data Scientist, People",
+      "location": "Foster City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4415982893/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "EY",
-      "title": "C# Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425320284/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "EY",
-      "title": "C# Fullstack Engineer - Senior - Consulting - Location OPEN",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425325240/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Full Stack Engineer ($250k-$300k + Equity) at Caplight",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427205879/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Backend Engineer at Tavus",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427202927/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Full-Stack Engineer ($180k-$200k + Equity) at blok",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427203899/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "People Culture Talent",
-      "title": "Full-Stack Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428144875/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Full Stack AI Engineer at Taste",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427208462/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Frontend Developer",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427217030/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Faros",
-      "title": "Lead Software Engineer - Backend",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428155196/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Lead Software Engineer ($185K \u2013 $240K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427205877/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Embedded Software Engineer(QNX)",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4426999912/",
-      "date_posted": "2026-06-12",
+      "company": "Meta",
+      "title": "Data Scientist, Product Analytics",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423136970/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
       "company": "Chime",
-      "title": "Software Engineer, Infrastructure",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4425313405/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Product Infrastructure Engineer ($200k-$220k + Equity) at Truewind",
+      "title": "Data Scientist, Growth Product",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427208425/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4423154986/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     },
     {
-      "company": "VARITE INC",
-      "title": "Sr DevOps Engineer",
+      "company": "Amazon Science",
+      "title": "Data Scientist, Amazon Music - DISCO",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4423180236/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "TikTok USDS Joint Venture",
+      "title": "Data Scientist, Product Analytics - USDS",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4412954961/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Airbnb",
+      "title": "Sr. Data Scientist (contract)",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428157330/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Senior Security Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427202957/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "DELFI Diagnostics",
-      "title": "Senior Data Scientist, Computational Biology",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428159152/",
-      "date_posted": "2026-06-12",
+      "url": "https://www.linkedin.com/jobs/view/4426581877/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     }
   ]

@@ -1,144 +1,152 @@
 {
-  "scraped_at": "2026-06-12 08:01 UTC",
-  "total": 15,
-  "new_count": 2,
+  "scraped_at": "2026-06-13 01:14 UTC",
+  "total": 9,
+  "new_count": 9,
   "jobs": [
     {
-      "company": "Freenome",
-      "title": "Senior Machine Learning Engineer",
-      "location": "Brisbane, California",
-      "url": "https://job-boards.greenhouse.io/freenome/jobs/8013673002",
-      "date_posted": "2026-05-29",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Freenome",
-      "title": "Senior Software Engineer II",
-      "location": "Brisbane, California",
-      "url": "https://job-boards.greenhouse.io/freenome/jobs/8519753002",
-      "date_posted": "2026-05-29",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Profluent",
-      "title": "Lead Bioinformatics Scientist, NGS",
-      "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
-      "url": "https://job-boards.greenhouse.io/profluent/jobs/4983485008",
-      "date_posted": "2026-06-11",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Profluent",
-      "title": "Machine Learning Scientist, Reinforcement Learning",
-      "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
-      "url": "https://job-boards.greenhouse.io/profluent/jobs/5238462008",
-      "date_posted": "2026-06-11",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Profluent",
-      "title": "ML Platform / MLOps Engineer",
-      "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
-      "url": "https://job-boards.greenhouse.io/profluent/jobs/5154049008",
-      "date_posted": "2026-06-11",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Profluent",
-      "title": "Senior Software Engineer, Data Platform",
-      "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
-      "url": "https://job-boards.greenhouse.io/profluent/jobs/5210793008",
-      "date_posted": "2026-06-11",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Profluent",
-      "title": "Software Engineering Manager, Lab Informatics Platform",
-      "location": "Emeryville, California, United States; Hybrid (2-3 days on-site)",
-      "url": "https://job-boards.greenhouse.io/profluent/jobs/4905081008",
-      "date_posted": "2026-06-11",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Eikon Therapeutics",
-      "title": "Senior Data Scientist, Biology",
-      "location": "Millbrae, CA",
-      "url": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5072518007",
-      "date_posted": "2026-05-29",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Eikon Therapeutics",
-      "title": "Software Engineer 2, Algorithms and Biological Analysis",
-      "location": "Millbrae, CA",
-      "url": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5100652007",
-      "date_posted": "2026-05-08",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Eikon Therapeutics",
-      "title": "Software Engineering Manager, Data Engineering",
-      "location": "Millbrae, CA",
-      "url": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5129843007",
-      "date_posted": "2026-05-29",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Altos Labs",
-      "title": "Machine Learning Engineer/Machine Learning Scientist , Multi Modality",
-      "location": "San Diego, CA; San Francisco Bay Area, CA",
-      "url": "https://job-boards.greenhouse.io/altoslabs/jobs/5709084004",
-      "date_posted": "2026-06-10",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Altos Labs",
-      "title": "Senior Cybersecurity Engineer",
-      "location": "San Francisco Bay Area, CA",
-      "url": "https://job-boards.greenhouse.io/altoslabs/jobs/5838128004",
-      "date_posted": "2026-06-10",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Arc Institute",
-      "title": "Full Stack Engineer",
-      "location": "Palo Alto, CA",
-      "url": "https://job-boards.greenhouse.io/arcinstitute/jobs/5821381004",
-      "date_posted": "2026-06-11",
-      "ats": "Greenhouse"
-    },
-    {
-      "company": "Bristol Myers Squibb",
-      "title": "Senior Cloud Engineer",
-      "location": "Brisbane, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427916452/",
+      "company": "GHD",
+      "title": "Environmental Scientist",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427211488/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Buck Institute for Research on Aging",
-      "title": "Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab",
-      "location": "Novato, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427934142/",
+      "company": "California Air Resources Board",
+      "title": "Air Pollution Monitoring Technical Support",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428168922/",
       "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Department of Toxic Substances Control",
+      "title": "SENIOR ENVIRONMENTAL SCIENTIST (SPECIALIST)",
+      "location": "San Diego County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427578309/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Air Resources Board",
+      "title": "Staff Air Pollution Specialist",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427672108/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Exponent",
+      "title": "Senior Managing Regulatory Scientist",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426170923/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AI",
+      "title": "Data Scientist",
+      "location": "Woodland, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424814560/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Genentech",
+      "title": "Senior Scientist, Cellular Pharmacology",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427070905/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AECOM",
+      "title": "Environmental Health and Safety Compliance Professional",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426141930/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Arcadis",
+      "title": "Environmental Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426090159/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Bristol Myers Squibb",
-      "title": "Senior Cloud Engineer",
-      "location": "Brisbane, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427916452/",
+      "company": "GHD",
+      "title": "Environmental Scientist",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427211488/",
       "date_posted": "2026-06-12",
       "ats": "LinkedIn"
     },
     {
-      "company": "Buck Institute for Research on Aging",
-      "title": "Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab",
-      "location": "Novato, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427934142/",
+      "company": "California Air Resources Board",
+      "title": "Air Pollution Monitoring Technical Support",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428168922/",
       "date_posted": "2026-06-12",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Department of Toxic Substances Control",
+      "title": "SENIOR ENVIRONMENTAL SCIENTIST (SPECIALIST)",
+      "location": "San Diego County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427578309/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "California Air Resources Board",
+      "title": "Staff Air Pollution Specialist",
+      "location": "Sacramento, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427672108/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Exponent",
+      "title": "Senior Managing Regulatory Scientist",
+      "location": "Menlo Park, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426170923/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AI",
+      "title": "Data Scientist",
+      "location": "Woodland, CA",
+      "url": "https://www.linkedin.com/jobs/view/4424814560/",
+      "date_posted": "2026-06-11",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Genentech",
+      "title": "Senior Scientist, Cellular Pharmacology",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427070905/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AECOM",
+      "title": "Environmental Health and Safety Compliance Professional",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426141930/",
+      "date_posted": "2026-06-10",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Arcadis",
+      "title": "Environmental Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4426090159/",
+      "date_posted": "2026-06-10",
       "ats": "LinkedIn"
     }
   ]
