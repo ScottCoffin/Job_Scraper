@@ -1,21 +1,29 @@
 {
-  "scraped_at": "2026-06-13 18:17 UTC",
-  "total": 18,
-  "new_count": 11,
+  "scraped_at": "2026-06-13 19:17 UTC",
+  "total": 7,
+  "new_count": 5,
   "jobs": [
     {
-      "company": "Core Group Resources",
-      "title": "Junior Software Engineer (Robot Operating Systems)",
-      "location": "Richmond, CA",
-      "url": "https://www.linkedin.com/jobs/view/4407640345/",
+      "company": "Capital One",
+      "title": "Senior Lead AI Engineer",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4418600719/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     },
     {
-      "company": "SoFi",
-      "title": "Senior Data Scientist, Member Insights - Growth",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4361316140/",
+      "company": "AVEVA",
+      "title": "Experienced Software Developer",
+      "location": "San Leandro, CA",
+      "url": "https://www.linkedin.com/jobs/view/4368518037/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, CAD Tool Development - Circuits",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417507928/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     },
@@ -28,212 +36,68 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Unity South APAC (SEA, ANZ, IND Subcont.)",
-      "title": "Senior Software Engineer, Attribution",
-      "location": "Mountain View, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425382822/",
+      "company": "Core Group Resources",
+      "title": "Junior Software Engineer (Robot Operating Systems)",
+      "location": "Richmond, CA",
+      "url": "https://www.linkedin.com/jobs/view/4407640345/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     },
     {
       "company": "NVIDIA",
-      "title": "Senior Systems Software Engineer - Autonomous Vehicles Platform",
+      "title": "Senior System Software Engineer for Cloud \u2013 GeForce NOW Platform",
       "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417501991/",
+      "url": "https://www.linkedin.com/jobs/view/4417521004/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     },
     {
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer - BaseOS",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417505919/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Heartflow",
-      "title": "Senior Software Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4408959228/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Hippocratic AI",
-      "title": "Applied Scientist",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4398097882/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Zendesk",
-      "title": "Senior Backend Engineer, Connectors & Discover",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4407222871/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Crusoe",
-      "title": "Software Engineer II, Storage",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4388307322/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Applied Materials",
-      "title": "Software Engineer (New College Grad - Masters))",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4425375821/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "itD",
-      "title": "Diagnostic Software Engineer (6151)",
+      "company": "TikTok USDS Joint Venture",
+      "title": "Software Engineer, Corporate Information Systems - USDS",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4405830731/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Senior System Software Engineer \u2013 GeForce NOW Cloud",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416719826/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Resource Innovations",
-      "title": "Software Engineer Lead",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4409498798/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "System Software Engineer - GPU",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417508859/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Roche",
-      "title": "Senior Systems Engineer",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418432406/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer - NVLink Rack Scale Stability and Reliability",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417522005/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Etched",
-      "title": "Optical Systems Engineer",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418438764/",
+      "url": "https://www.linkedin.com/jobs/view/4428383429/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Core Group Resources",
-      "title": "Junior Software Engineer (Robot Operating Systems)",
-      "location": "Richmond, CA",
-      "url": "https://www.linkedin.com/jobs/view/4407640345/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer - BaseOS",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417520009/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Senior Systems Software Engineer - Autonomous Vehicles Platform",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417501991/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer - BaseOS",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417505919/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Heartflow",
-      "title": "Senior Software Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4408959228/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Senior System Software Engineer \u2013 GeForce NOW Cloud",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416719826/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Resource Innovations",
-      "title": "Software Engineer Lead",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4409498798/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "System Software Engineer - GPU",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417508859/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Roche",
-      "title": "Senior Systems Engineer",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418432406/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer - NVLink Rack Scale Stability and Reliability",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4417522005/",
-      "date_posted": "2026-06-13",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Etched",
-      "title": "Optical Systems Engineer",
+      "company": "Capital One",
+      "title": "Senior Lead AI Engineer",
       "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4418438764/",
+      "url": "https://www.linkedin.com/jobs/view/4418600719/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "AVEVA",
+      "title": "Experienced Software Developer",
+      "location": "San Leandro, CA",
+      "url": "https://www.linkedin.com/jobs/view/4368518037/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, CAD Tool Development - Circuits",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417507928/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer for Cloud \u2013 GeForce NOW Platform",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4417521004/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "TikTok USDS Joint Venture",
+      "title": "Software Engineer, Corporate Information Systems - USDS",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428383429/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     }
