@@ -1,9 +1,9 @@
 # 🟦 Indeed — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-06-13 22:42 UTC*
+*Last updated: 2026-06-14 01:59 UTC*
 
-**1 new role(s)** since last run · 48 total in last 24h
+**1 new role(s)** since last run · 34 total in last 24h
 
-### [Sr. Software Engineer II, MacOS Sensor - CTIO (Hybrid)](https://www.indeed.com/viewjob?jk=b7b86d3377f1bd39) — CrowdStrike
-- 📍 **Location:** Sunnyvale, CA, US
-- 💰 **Salary:** $160k–$250k/yr
-- 🕒 **Posted:** 2026-06-12
+### [Software Engineer](https://www.indeed.com/viewjob?jk=a6e4ec8eda85e993) — Avenue Code
+- 📍 **Location:** San Francisco, CA, US
+- 💰 **Salary:** $25–$30/hr
+- 🕒 **Posted:** 2026-06-13
