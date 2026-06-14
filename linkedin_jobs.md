@@ -1,8 +1,8 @@
 # 🔥 LinkedIn — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-06-14 03:17 UTC*
+*Last updated: 2026-06-14 07:08 UTC*
 
-**1 new role(s)** since last run · 7 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-### [Senior Full Stack Software Engineer](https://www.linkedin.com/jobs/view/4428611397/) — Cynch AI
-- 📍 **Location:** San Francisco, CA
+### [Security Engineer](https://www.linkedin.com/jobs/view/4428608775/) — ECLARO
+- 📍 **Location:** Los Altos, CA
 - 🕒 **Posted:** 2026-06-14
