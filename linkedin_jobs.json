@@ -1,13 +1,13 @@
 {
-  "scraped_at": "2026-06-14 22:17 UTC",
-  "total": 5,
-  "new_count": 4,
+  "scraped_at": "2026-06-14 23:17 UTC",
+  "total": 2,
+  "new_count": 1,
   "jobs": [
     {
-      "company": "Jobright.ai",
-      "title": "Software Engineer - AI Agent",
-      "location": "San Mateo County, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427461099/",
+      "company": "Valeo",
+      "title": "Software Engineer",
+      "location": "San Mateo, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428668066/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
@@ -16,64 +16,16 @@
       "title": "Growth Data Engineer",
       "location": "San Francisco, CA",
       "url": "https://www.linkedin.com/jobs/view/4427443542/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobright.ai",
-      "title": "Senior Software Engineer, Product",
-      "location": "Burlingame, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427437654/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobright.ai",
-      "title": "Full Stack Engineer - Growth",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427443539/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Roche",
-      "title": "Senior Research Engineer, Microfluidic Systems, R&D",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428647945/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Jobright.ai",
-      "title": "Software Engineer - AI Agent",
-      "location": "San Mateo County, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427461099/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobright.ai",
-      "title": "Growth Data Engineer",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427443542/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobright.ai",
-      "title": "Full Stack Engineer - Growth",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427443539/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Roche",
-      "title": "Senior Research Engineer, Microfluidic Systems, R&D",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428647945/",
+      "company": "Valeo",
+      "title": "Software Engineer",
+      "location": "San Mateo, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428668066/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     }
