@@ -1,21 +1,21 @@
 {
-  "scraped_at": "2026-06-14 21:17 UTC",
-  "total": 7,
-  "new_count": 5,
+  "scraped_at": "2026-06-14 22:17 UTC",
+  "total": 5,
+  "new_count": 4,
   "jobs": [
     {
-      "company": "iSoftStone",
-      "title": "Sr. AI Data Engineer",
-      "location": "Menlo Park, CA",
-      "url": "https://www.linkedin.com/jobs/view/4406719191/",
+      "company": "Jobright.ai",
+      "title": "Software Engineer - AI Agent",
+      "location": "San Mateo County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427461099/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
       "company": "Jobright.ai",
-      "title": "Machine Learning Engineer, Speech LLM Training",
+      "title": "Growth Data Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427448411/",
+      "url": "https://www.linkedin.com/jobs/view/4427443542/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
@@ -29,75 +29,51 @@
     },
     {
       "company": "Jobright.ai",
-      "title": "Full-Stack Engineer",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427439548/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Deployment Infrastructure Engineer at well-funded enterprise AI platform",
+      "title": "Full Stack Engineer - Growth",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427458187/",
+      "url": "https://www.linkedin.com/jobs/view/4427443539/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Product Infrastructure Engineer ($200k-$220k + Equity) at Truewind",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427445406/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "RUCKUS Networks",
-      "title": "Devops Architect",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4409886098/",
+      "company": "Roche",
+      "title": "Senior Research Engineer, Microfluidic Systems, R&D",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428647945/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "iSoftStone",
-      "title": "Sr. AI Data Engineer",
-      "location": "Menlo Park, CA",
-      "url": "https://www.linkedin.com/jobs/view/4406719191/",
+      "company": "Jobright.ai",
+      "title": "Software Engineer - AI Agent",
+      "location": "San Mateo County, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427461099/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
       "company": "Jobright.ai",
-      "title": "Machine Learning Engineer, Speech LLM Training",
+      "title": "Growth Data Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427448411/",
+      "url": "https://www.linkedin.com/jobs/view/4427443542/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
       "company": "Jobright.ai",
-      "title": "Senior Software Engineer, Product",
-      "location": "Burlingame, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427437654/",
+      "title": "Full Stack Engineer - Growth",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427443539/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobright.ai",
-      "title": "Full-Stack Engineer",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427439548/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "RUCKUS Networks",
-      "title": "Devops Architect",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4409886098/",
+      "company": "Roche",
+      "title": "Senior Research Engineer, Microfluidic Systems, R&D",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428647945/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     }
