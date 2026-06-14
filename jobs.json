@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-13 07:06 UTC",
-  "total": 17,
-  "new_count": 3,
+  "scraped_at": "2026-06-14 07:57 UTC",
+  "total": 13,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Freenome",
@@ -106,64 +106,7 @@
       "url": "https://job-boards.greenhouse.io/arcinstitute/jobs/5821381004",
       "date_posted": "2026-06-11",
       "ats": "Greenhouse"
-    },
-    {
-      "company": "Buck Institute for Research on Aging",
-      "title": "AI Data Scientist-Furman lab",
-      "location": "Novato, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427938237/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Genentech",
-      "title": "Senior Data Scientist, Gen AI Foundation",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416762334/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Calico Life Sciences",
-      "title": "Data Engineer, Human Cohorts",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416785716/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Buck Institute for Research on Aging",
-      "title": "Bioinformatics & Data Scientist or Postdoctoral Researcher- Furman lab",
-      "location": "Novato, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427934142/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Buck Institute for Research on Aging",
-      "title": "AI Data Scientist-Furman lab",
-      "location": "Novato, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427938237/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Genentech",
-      "title": "Senior Data Scientist, Gen AI Foundation",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416762334/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Calico Life Sciences",
-      "title": "Data Engineer, Human Cohorts",
-      "location": "South San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4416785716/",
-      "date_posted": "2026-06-12",
-      "ats": "LinkedIn"
-    }
-  ]
+  "new_jobs": []
 }
