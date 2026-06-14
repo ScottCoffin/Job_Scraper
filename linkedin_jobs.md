@@ -1,8 +1,20 @@
 # 🔥 LinkedIn — Engineering / ML / DS Roles (SF Bay Area)
-*Last updated: 2026-06-13 23:17 UTC*
+*Last updated: 2026-06-14 00:17 UTC*
 
-**1 new role(s)** since last run · 1 total in last 1h
+**4 new role(s)** since last run · 4 total in last 1h
 
-### [Senior Data Architect / Data Engineer](https://www.linkedin.com/jobs/view/4427406419/) — Context66
+### [LATAM - Data Science Engineer](https://www.linkedin.com/jobs/view/4425701132/) — Playsaurus Inc.
+- 📍 **Location:** Alameda, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Software Engineer II, Backend - IT Product](https://www.linkedin.com/jobs/view/4428604005/) — Rippling
 - 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [LATAM - Backend Developer](https://www.linkedin.com/jobs/view/4425389858/) — Playsaurus Inc.
+- 📍 **Location:** Alameda, CA
+- 🕒 **Posted:** 2026-06-13
+
+### [Security Engineer - SIEM (Splunk) Platform & Operations](https://www.linkedin.com/jobs/view/4428372841/) — Samsung SDS America
+- 📍 **Location:** San Jose, CA
 - 🕒 **Posted:** 2026-06-13

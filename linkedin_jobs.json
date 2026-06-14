@@ -1,23 +1,71 @@
 {
-  "scraped_at": "2026-06-13 23:17 UTC",
-  "total": 1,
-  "new_count": 1,
+  "scraped_at": "2026-06-14 00:17 UTC",
+  "total": 4,
+  "new_count": 4,
   "jobs": [
     {
-      "company": "Context66",
-      "title": "Senior Data Architect / Data Engineer",
+      "company": "Playsaurus Inc.",
+      "title": "LATAM - Data Science Engineer",
+      "location": "Alameda, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425701132/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Rippling",
+      "title": "Software Engineer II, Backend - IT Product",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427406419/",
+      "url": "https://www.linkedin.com/jobs/view/4428604005/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Playsaurus Inc.",
+      "title": "LATAM - Backend Developer",
+      "location": "Alameda, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425389858/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Samsung SDS America",
+      "title": "Security Engineer - SIEM (Splunk) Platform & Operations",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428372841/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "Context66",
-      "title": "Senior Data Architect / Data Engineer",
+      "company": "Playsaurus Inc.",
+      "title": "LATAM - Data Science Engineer",
+      "location": "Alameda, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425701132/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Rippling",
+      "title": "Software Engineer II, Backend - IT Product",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427406419/",
+      "url": "https://www.linkedin.com/jobs/view/4428604005/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Playsaurus Inc.",
+      "title": "LATAM - Backend Developer",
+      "location": "Alameda, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425389858/",
+      "date_posted": "2026-06-13",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Samsung SDS America",
+      "title": "Security Engineer - SIEM (Splunk) Platform & Operations",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428372841/",
       "date_posted": "2026-06-13",
       "ats": "LinkedIn"
     }
