@@ -1,471 +1,439 @@
 {
-  "scraped_at": "2026-06-14 19:17 UTC",
-  "total": 36,
-  "new_count": 22,
+  "scraped_at": "2026-06-14 20:18 UTC",
+  "total": 27,
+  "new_count": 27,
   "jobs": [
     {
-      "company": "ByteDance",
-      "title": "Machine Learning Platform Engineer, Applied Machine Learning Team",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427451286/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Applied Materials",
-      "title": "Data Scientist - Agentic AI / ML",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4414824467/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Hire Feed",
-      "title": "Machine Learning Engineer (Remote)",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4428643528/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Machine Learning Engineer, E-commerce Recommendation Foundation  - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428653505/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Data Scientist, CapCut - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428656490/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Data Scientist, E-commerce - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428658470/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Machine Learning Engineer, AI Search - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428656486/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Machine Learning Engineer, E-Commerce Risk Control - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428643611/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Data Scientist, E-commerce - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428657477/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Inside Higher Ed",
-      "title": "Data Science Faculty Position",
-      "location": "Stanford, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428645462/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Inside Higher Ed",
-      "title": "Geophysical Software Engineer (5300C) - Berkeley Seismological Lab",
-      "location": "Berkeley, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428649475/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Andiamo",
-      "title": "AI/Generative AI Engineer",
+      "company": "Jack & Jill",
+      "title": "AI/ML Engineer ($250k\u2013$400k + Equity) at Known",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4380633523/",
+      "url": "https://www.linkedin.com/jobs/view/4427451341/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Andiamo",
-      "title": "Lead Site Reliability Engineer - Autonomous Finance AI Platform",
+      "company": "Jack & Jill",
+      "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at CTGT, Inc.",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4387740032/",
+      "url": "https://www.linkedin.com/jobs/view/4427438544/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Software Engineer, ML Infrastructure - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428644599/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "SLAC National Accelerator Laboratory",
-      "title": "Senior Site Reliability Engineer",
-      "location": "Menlo Park, CA",
-      "url": "https://www.linkedin.com/jobs/view/4368880985/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Software Engineer, AI Infrastructure - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428649591/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Block",
-      "title": "Senior Site Reliability Engineer",
+      "company": "Jack & Jill",
+      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at Omen AI",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4398876031/",
+      "url": "https://www.linkedin.com/jobs/view/4427459112/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "USA Tech Recruit",
-      "title": "Software Engineer - C++ / GPU Virtualization / Cloud Infrastructure",
+      "company": "Jack & Jill",
+      "title": "Machine Learning Engineer at Terranox AI",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428646499/",
+      "url": "https://www.linkedin.com/jobs/view/4427442423/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Site Reliability Engineer, Cloud Infrastructure - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428642647/",
+      "company": "Jack & Jill",
+      "title": "Software Engineer, iOS/Mobile ($135K \u2013 $260K + Equity) at Beacon AI Inc.",
+      "location": "San Carlos, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427443440/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Hire Feed",
-      "title": "Backend Software Engineer (Remote)",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4428652441/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Hire Feed",
-      "title": "Senior Software Engineer (Remote)",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4428650497/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Hire Feed",
-      "title": "Senior Full Stack Software Engineer (Remote)",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4428645500/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Software Engineer, Capacity & Optimization - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428651526/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Ambience Healthcare",
-      "title": "Senior Software Engineer, Product",
+      "company": "Jack & Jill",
+      "title": "Software Engineer (AI Agents) ($180K \u2013 $300K + Equity) at Pylon Labs, Inc.",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4341015078/",
+      "url": "https://www.linkedin.com/jobs/view/4427443429/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Resource Innovations",
-      "title": "Senior Software Engineer",
+      "company": "Jack & Jill",
+      "title": "Software Engineer, Platform ($200k-$250k + Equity) at Duckbill",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4409509284/",
+      "url": "https://www.linkedin.com/jobs/view/4427446402/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Resource Innovations",
-      "title": "Salesforce Software Engineer",
+      "company": "Jack & Jill",
+      "title": "Software Engineer, Product ($140k\u2013$250k + Equity) at fast-growing AI edtech startup",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4400281184/",
+      "url": "https://www.linkedin.com/jobs/view/4427446394/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Hire Feed",
-      "title": "DevOps Engineer (Remote)",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4428660354/",
+      "company": "Haystack",
+      "title": "AI Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425756056/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Hire Feed",
-      "title": "Cloud Engineer (Remote)",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4428650501/",
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer - AI Data & Analytics at HOAi",
+      "location": "Redwood City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427438534/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Site Reliability Engineer - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428643557/",
+      "company": "Jack & Jill",
+      "title": "AI Engineer ($180K \u2013 $250K + Equity) at BUILD,",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427445410/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Site Reliability Engineer, Cloud Infrastructure - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428655498/",
+      "company": "Jack & Jill",
+      "title": "Applied AI Engineer at Innovative AI simulation startup",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427450363/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Site Reliability Engineer, Network and Traffic - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428642649/",
+      "company": "Jack & Jill",
+      "title": "AI Engineer ($170k\u2013$220k + Equity) at Withshepherd",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427452294/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Site Reliability Engineer, Network and Traffic - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428652460/",
+      "company": "Jack & Jill",
+      "title": "Product Infrastructure Engineer ($200k-$220k + Equity) at Truewind",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427445406/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "DevOps Engineer, Assurance and Infrastructure Services - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428654525/",
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer ($120K - $180K + Equity) at Truewind",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427439492/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "OMNIVISION",
-      "title": "Sr. Information Security Engineer",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4369185471/",
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer at VC-backed B2B software platform",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427457199/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Liberate",
-      "title": "Lead Security Engineer",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4427446357/",
+      "company": "Jack & Jill",
+      "title": "Full-Stack Engineer at Drafter Inc.",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427450370/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Hire Feed",
-      "title": "Data Engineer (Remote)",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4428656430/",
+      "company": "Jack & Jill",
+      "title": "Backend Engineer at Tavus",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427458176/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Full Stack Engineer ($250k-$300k + Equity) at Caplight",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427439489/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Full-Stack Engineer ($180k-$200k + Equity) at blok",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427436784/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Backend Engineer at Caplight",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427454244/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Full Stack AI Engineer at Taste",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427447423/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer ($180K\u2013$220K + Equity) at CTGT, Inc.",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427443439/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Lead Software Engineer ($185K \u2013 $240K + Equity) at Beacon AI Inc.",
+      "location": "San Carlos, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427446404/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Network Software Engineer ($250K \u2013 $300K + Equity) at Blaxel",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427454241/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Deployment Infrastructure Engineer at well-funded enterprise AI platform",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427458187/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer ($250K + $120K Equity/Signing) at Omen AI",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427447424/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     }
   ],
   "new_jobs": [
     {
-      "company": "ByteDance",
-      "title": "Machine Learning Platform Engineer, Applied Machine Learning Team",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427451286/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Machine Learning Engineer, E-commerce Recommendation Foundation  - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428653505/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Data Scientist, CapCut - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428656490/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Data Scientist, E-commerce - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428658470/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Machine Learning Engineer, AI Search - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428656486/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Machine Learning Engineer, E-Commerce Risk Control - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428643611/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Data Scientist, E-commerce - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428657477/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Andiamo",
-      "title": "Lead Site Reliability Engineer - Autonomous Finance AI Platform",
+      "company": "Jack & Jill",
+      "title": "AI/ML Engineer ($250k\u2013$400k + Equity) at Known",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4387740032/",
+      "url": "https://www.linkedin.com/jobs/view/4427451341/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Software Engineer, ML Infrastructure - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428644599/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "SLAC National Accelerator Laboratory",
-      "title": "Senior Site Reliability Engineer",
-      "location": "Menlo Park, CA",
-      "url": "https://www.linkedin.com/jobs/view/4368880985/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Software Engineer, AI Infrastructure - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428649591/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Block",
-      "title": "Senior Site Reliability Engineer",
+      "company": "Jack & Jill",
+      "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at CTGT, Inc.",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4398876031/",
+      "url": "https://www.linkedin.com/jobs/view/4427438544/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "USA Tech Recruit",
-      "title": "Software Engineer - C++ / GPU Virtualization / Cloud Infrastructure",
+      "company": "Jack & Jill",
+      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at Omen AI",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428646499/",
+      "url": "https://www.linkedin.com/jobs/view/4427459112/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Site Reliability Engineer, Cloud Infrastructure - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428642647/",
+      "company": "Jack & Jill",
+      "title": "Machine Learning Engineer at Terranox AI",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427442423/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Software Engineer, Capacity & Optimization - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428651526/",
+      "company": "Jack & Jill",
+      "title": "Software Engineer, iOS/Mobile ($135K \u2013 $260K + Equity) at Beacon AI Inc.",
+      "location": "San Carlos, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427443440/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Site Reliability Engineer - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428643557/",
+      "company": "Jack & Jill",
+      "title": "Software Engineer (AI Agents) ($180K \u2013 $300K + Equity) at Pylon Labs, Inc.",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427443429/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Site Reliability Engineer, Cloud Infrastructure - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428655498/",
+      "company": "Jack & Jill",
+      "title": "Software Engineer, Platform ($200k-$250k + Equity) at Duckbill",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427446402/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Site Reliability Engineer, Network and Traffic - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428642649/",
+      "company": "Jack & Jill",
+      "title": "Software Engineer, Product ($140k\u2013$250k + Equity) at fast-growing AI edtech startup",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427446394/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "Senior Site Reliability Engineer, Network and Traffic - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428652460/",
+      "company": "Haystack",
+      "title": "AI Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4425756056/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "TikTok USDS Joint Venture",
-      "title": "DevOps Engineer, Assurance and Infrastructure Services - USDS",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428654525/",
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer - AI Data & Analytics at HOAi",
+      "location": "Redwood City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427438534/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "OMNIVISION",
-      "title": "Sr. Information Security Engineer",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4369185471/",
+      "company": "Jack & Jill",
+      "title": "AI Engineer ($180K \u2013 $250K + Equity) at BUILD,",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427445410/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
     {
-      "company": "Liberate",
-      "title": "Lead Security Engineer",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/4427446357/",
+      "company": "Jack & Jill",
+      "title": "Applied AI Engineer at Innovative AI simulation startup",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427450363/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "AI Engineer ($170k\u2013$220k + Equity) at Withshepherd",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427452294/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Product Infrastructure Engineer ($200k-$220k + Equity) at Truewind",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427445406/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer ($120K - $180K + Equity) at Truewind",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427439492/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer at VC-backed B2B software platform",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427457199/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Full-Stack Engineer at Drafter Inc.",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427450370/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Backend Engineer at Tavus",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427458176/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Full Stack Engineer ($250k-$300k + Equity) at Caplight",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427439489/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Full-Stack Engineer ($180k-$200k + Equity) at blok",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427436784/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Backend Engineer at Caplight",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427454244/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Full Stack AI Engineer at Taste",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427447423/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer ($180K\u2013$220K + Equity) at CTGT, Inc.",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427443439/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Lead Software Engineer ($185K \u2013 $240K + Equity) at Beacon AI Inc.",
+      "location": "San Carlos, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427446404/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Network Software Engineer ($250K \u2013 $300K + Equity) at Blaxel",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427454241/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Deployment Infrastructure Engineer at well-funded enterprise AI platform",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427458187/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Jack & Jill",
+      "title": "Senior Software Engineer ($250K + $120K Equity/Signing) at Omen AI",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427447424/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     }
