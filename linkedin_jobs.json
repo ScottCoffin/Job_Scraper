@@ -1,61 +1,13 @@
 {
-  "scraped_at": "2026-06-14 02:17 UTC",
-  "total": 21,
-  "new_count": 20,
+  "scraped_at": "2026-06-14 03:17 UTC",
+  "total": 7,
+  "new_count": 1,
   "jobs": [
     {
-      "company": "Jack & Jill",
-      "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at CTGT, Inc.",
+      "company": "Cynch AI",
+      "title": "Senior Full Stack Software Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427403870/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at Omen AI",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427420001/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Software Engineer, iOS/Mobile ($135K \u2013 $260K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427410197/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Software Engineer at fast-growing Series A healthtech startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427406785/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer ($180K\u2013$220K + Equity) at CTGT, Inc.",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427407803/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Lead Software Engineer ($185K \u2013 $240K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427407790/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "AI Engineer ($170k\u2013$220k + Equity) at Withshepherd",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427404820/",
+      "url": "https://www.linkedin.com/jobs/view/4428611397/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
@@ -68,112 +20,6 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobs via Dice",
-      "title": "DevOps Engineer",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427404815/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Fullstack Engineer at NAVI Labs",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427402871/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Backend Engineer at Tavus",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427418028/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Full Stack Engineer ($250k-$300k + Equity) at Caplight",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427297970/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "YO IT Consulting",
-      "title": "Python Backend Engineer - Remote",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427411201/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "YO IT Consulting",
-      "title": "Python Backend Engineer - Remote",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427414077/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Full-Stack Engineer ($180k-$200k + Equity) at blok",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427419012/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Lead Backend Software Engineer ($185K \u2013 $240K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427298968/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Embedded Software Engineer, Laser Mesh Routing (Starlink)",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427415049/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427298970/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Sr. RAN Software Engineer (Starlink Mobile)",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427414047/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer - AI Data & Analytics at HOAi",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427420003/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer at CommodityAI",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427407793/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    }
-  ],
-  "new_jobs": [
-    {
       "company": "Jack & Jill",
       "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at CTGT, Inc.",
       "location": "San Francisco, CA",
@@ -182,42 +28,10 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Jack & Jill",
-      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at Omen AI",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427420001/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Software Engineer, iOS/Mobile ($135K \u2013 $260K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427410197/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Software Engineer at fast-growing Series A healthtech startup",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427406785/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer ($180K\u2013$220K + Equity) at CTGT, Inc.",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427407803/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Lead Software Engineer ($185K \u2013 $240K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427407790/",
+      "company": "Jobs via Dice",
+      "title": "DevOps Engineer",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427404815/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     },
@@ -230,22 +44,6 @@
       "ats": "LinkedIn"
     },
     {
-      "company": "Jobs via Dice",
-      "title": "DevOps Engineer",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427404815/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Fullstack Engineer at NAVI Labs",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427402871/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
       "company": "Jack & Jill",
       "title": "Backend Engineer at Tavus",
       "location": "San Francisco, CA",
@@ -255,81 +53,19 @@
     },
     {
       "company": "Jack & Jill",
-      "title": "Full Stack Engineer ($250k-$300k + Equity) at Caplight",
+      "title": "Senior Software Engineer ($180K\u2013$220K + Equity) at CTGT, Inc.",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427297970/",
+      "url": "https://www.linkedin.com/jobs/view/4427407803/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
-    },
+    }
+  ],
+  "new_jobs": [
     {
-      "company": "YO IT Consulting",
-      "title": "Python Backend Engineer - Remote",
-      "location": "San Jose, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427411201/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "YO IT Consulting",
-      "title": "Python Backend Engineer - Remote",
+      "company": "Cynch AI",
+      "title": "Senior Full Stack Software Engineer",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427414077/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Full-Stack Engineer ($180k-$200k + Equity) at blok",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427419012/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Lead Backend Software Engineer ($185K \u2013 $240K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427298968/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Embedded Software Engineer, Laser Mesh Routing (Starlink)",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427415049/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427298970/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jobs via Dice",
-      "title": "Sr. RAN Software Engineer (Starlink Mobile)",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427414047/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer - AI Data & Analytics at HOAi",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427420003/",
-      "date_posted": "2026-06-14",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer at CommodityAI",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427407793/",
+      "url": "https://www.linkedin.com/jobs/view/4428611397/",
       "date_posted": "2026-06-14",
       "ats": "LinkedIn"
     }
