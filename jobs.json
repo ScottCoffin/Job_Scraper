@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-14 07:57 UTC",
-  "total": 13,
-  "new_count": 0,
+  "scraped_at": "2026-06-15 09:33 UTC",
+  "total": 15,
+  "new_count": 2,
   "jobs": [
     {
       "company": "Freenome",
@@ -106,7 +106,40 @@
       "url": "https://job-boards.greenhouse.io/arcinstitute/jobs/5821381004",
       "date_posted": "2026-06-11",
       "ats": "Greenhouse"
+    },
+    {
+      "company": "Biohub",
+      "title": "Machine Learning Engineer, AI",
+      "location": "Redwood City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4398630444/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Genentech",
+      "title": "Computational Scientist 3 - Cell & Tissue Genomics",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400669618/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Biohub",
+      "title": "Machine Learning Engineer, AI",
+      "location": "Redwood City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4398630444/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Genentech",
+      "title": "Computational Scientist 3 - Cell & Tissue Genomics",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400669618/",
+      "date_posted": "2026-06-14",
+      "ats": "LinkedIn"
+    }
+  ]
 }
