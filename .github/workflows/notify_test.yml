@@ -1,0 +1,21 @@
+name: Test Pushover Notification
+
+# Manually trigger from the Actions tab to send a single test push to your
+# phone — confirms PUSHOVER_TOKEN / PUSHOVER_USER are set correctly.
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Send test push
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Send test Pushover notification
+        run: python notify.py --test
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}

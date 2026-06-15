@@ -1,0 +1,43 @@
+name: Local & State Gov Watcher (NEOGOV + CalOpps)
+
+on:
+  schedule:
+    - cron: "22 16 * * *"   # daily ~9am PT
+  workflow_dispatch:
+
+concurrency:
+  group: job-scraper-commit-push
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    name: Scrape NEOGOV + CalOpps
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Scrape GovernmentJobs / NEOGOV
+        run: python scrape_jobs.py --governmentjobs-only
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+          NOTIFY_TERMS: ${{ vars.NOTIFY_TERMS }}
+      - name: Scrape CalOpps
+        run: python scrape_jobs.py --calopps-only
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+          NOTIFY_TERMS: ${{ vars.NOTIFY_TERMS }}
+      - name: Commit results to repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add governmentjobs_jobs.json governmentjobs_jobs.md governmentjobs_jobs.html \
+                  calopps_jobs.json calopps_jobs.md calopps_jobs.html all_jobs.json notified.json
+          git diff --cached --quiet || git commit -m "chore: update local-gov listings [$(date -u '+%Y-%m-%d %H:%MZ')]"
+          git pull --rebase origin main
+          git push

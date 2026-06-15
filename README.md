@@ -71,6 +71,37 @@ python3 -m http.server 8000
 ```
 Opening from `file://` won't work — the dashboard needs same-origin HTTP to `fetch()` the source JSONs.
 
+## Extra sources & features
+
+Beyond the three core watchers, these run-on-demand sources and dashboard
+features are available (all reuse the existing `KEYWORDS` / `is_mle_role` gate, so
+they follow whatever roles you already target):
+
+**More job sources** (each writes `{basename}.{json,md,html}` and feeds the dashboard):
+
+| Flag | Source | Notes |
+|---|---|---|
+| `--usajobs-only` | [usajobs.gov](https://www.usajobs.gov) | Federal jobs **with salary**, no API key (public search endpoint). Nationwide. |
+| `--governmentjobs-only` | [governmentjobs.com](https://www.governmentjobs.com) (NEOGOV) | State & local government; filtered to your `BAY_AREA_LOCATIONS` via `is_bay_area()`. |
+| `--calopps-only` | [calopps.org](https://www.calopps.org) | California local agencies (cities/counties/special districts). |
+| `--calcareers-only` | [calcareers.ca.gov](https://calcareers.ca.gov) | California state civil service (ASP.NET postback). |
+
+Heavier per-term sources share `GOV_SEARCH_TERMS` (a slice of `LINKEDIN_SEARCH_TERMS`); widen it to taste. Each new source has a matching workflow (`usajobs_watch.yml`, `localgov_watch.yml`, `calcareers_watch.yml`).
+
+**Salary backfill:** the LinkedIn watcher now backfills pay from each posting's public guest page (search cards omit it). The dashboard harmonizes every format (hourly / monthly / yearly / `$k` ranges / title-embedded) to an annual figure.
+
+**Dashboard additions:**
+- **🗺 Map view** — Leaflet map of roles by city (client-side geocoding, no API key), auto-fitting to wherever the jobs are.
+- **Salary distribution** chart + a salary-floor slider (filters by minimum annual pay; excludes unlisted-salary roles by default).
+- **Cross-source de-duplication** — the same role cross-posted to multiple boards collapses into one card (matched on title + location + compatible company), showing all source badges; triage applies to every copy.
+- **Explicit source** shown on each card (`🔗 LinkedIn`, etc.).
+- `mergeJobs` now refreshes cached job fields (e.g. a later-added salary) instead of only adding new jobs.
+
+**📲 Pushover notifications** (`notify.py`) — get a phone push for each new role.
+No-op unless `PUSHOVER_TOKEN` + `PUSHOVER_USER` are set as Actions secrets; dedupes
+via `notified.json`. Optional `NOTIFY_TERMS` variable filters by title words. Test
+from the **Test Pushover Notification** workflow or `python notify.py --test`.
+
 ## Setup
 
 ### Triage secrets (for the nightly fit-scoring agent)

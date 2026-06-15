@@ -6,6 +6,7 @@ allowlist-filtered LinkedIn). Each writes {basename}.{json,md,html} digests and
 accumulates into all_jobs.json for the nightly triage agent and the dashboard.
 """
 
+import http.cookiejar
 import json
 import os
 import re
@@ -13,7 +14,7 @@ import sys
 import time
 import urllib.parse
 from datetime import datetime, timedelta, timezone
-from urllib.request import urlopen, Request
+from urllib.request import urlopen, Request, build_opener, HTTPCookieProcessor
 from urllib.error import URLError
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -579,6 +580,7 @@ def scrape_linkedin_recent() -> list:
               f"preserving previous {len(prev)} result(s)")
         return prev
     print(f"  ✅ LinkedIn: {len(jobs)} role(s)")
+    _enrich_linkedin_salaries(jobs)
     return jobs
 
 
@@ -847,6 +849,13 @@ def save_jobs_output(jobs: list, *, basename: str, title: str, subtitle: str,
     except Exception as e:
         print(f"  ⚠️  all_jobs.json accumulator failed (non-fatal): {e}")
 
+    # Push new roles to Pushover (no-op without PUSHOVER_TOKEN/USER env vars).
+    try:
+        import notify
+        notify.notify_new_jobs(new_jobs)
+    except Exception as e:
+        print(f"  ⚠️  Pushover notify failed (non-fatal): {e}")
+
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     output = {
@@ -1037,6 +1046,423 @@ def save_results(jobs: list):
     print(f"\n📄 Saved jobs.json/.md/.html ({len(jobs)} total roles)")
 
 
+# ===========================================================================
+# Salary backfill + extra sources (USAJOBS / GovernmentJobs / CalCareers /
+# CalOpps). These reuse the repo's existing keyword gate (is_mle_role) and
+# location predicate (is_bay_area), so they follow whatever KEYWORDS /
+# BAY_AREA_LOCATIONS the maintainer sets — no domain-specific terms are
+# hardcoded here. Heavier per-term sources share GOV_SEARCH_TERMS (a slice of
+# the LinkedIn list) to keep request counts sane; widen it if you like.
+# ===========================================================================
+
+GOV_SEARCH_TERMS = LINKEDIN_SEARCH_TERMS[:8]
+
+
+# ---- LinkedIn salary backfill ---------------------------------------------
+# LinkedIn search-result cards omit pay, but the public guest *posting* page
+# carries a `compensation__salary` block when the employer provided it. Fetch
+# it only for jobs still missing salary, capped per run to bound runtime.
+LINKEDIN_SALARY_FETCH_CAP = 120
+
+
+def _linkedin_posting_salary(job_id: str) -> str:
+    import html as html_mod
+    page = fetch(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{job_id}")
+    if not page:
+        return ""
+    anchor = re.search(r'compensation__salary', page)
+    if not anchor:
+        return ""
+    window = page[anchor.start():anchor.start() + 400]
+    amt = re.search(r'\$[\d][^<]{0,60}', window)
+    return re.sub(r'\s+', ' ', html_mod.unescape(amt.group(0))).strip() if amt else ""
+
+
+def _enrich_linkedin_salaries(jobs: list) -> int:
+    """Backfill salary on LinkedIn jobs from their posting pages. Bounded by
+    LINKEDIN_SALARY_FETCH_CAP; never raises."""
+    filled = fetched = 0
+    for job in jobs:
+        if fetched >= LINKEDIN_SALARY_FETCH_CAP:
+            break
+        if job.get("salary") or job.get("ats") != "LinkedIn":
+            continue
+        m = re.search(r'/jobs/view/(\d+)', job.get("url", ""))
+        if not m:
+            continue
+        time.sleep(REQUEST_DELAY)
+        fetched += 1
+        try:
+            sal = _linkedin_posting_salary(m.group(1))
+        except (URLError, TimeoutError, OSError):
+            continue
+        if sal:
+            job["salary"] = sal
+            filled += 1
+    if fetched:
+        print(f"  💰 LinkedIn salary backfill: {filled}/{fetched} posting(s) had pay")
+    return filled
+
+
+# ---- Shared cookie-jar opener (for ASP.NET session sources) ---------------
+def _session_opener():
+    jar = http.cookiejar.CookieJar()
+    return build_opener(HTTPCookieProcessor(jar))
+
+
+def _hidden_inputs(html: str) -> dict:
+    """All <input type=hidden> name/value pairs (ASP.NET viewstate etc.)."""
+    fields = {}
+    for tag in re.findall(r'<input\b[^>]*type=["\']hidden["\'][^>]*>', html, re.I):
+        n = re.search(r'\bname=["\']([^"\']+)["\']', tag)
+        v = re.search(r'\bvalue=["\']([^"\']*)["\']', tag)
+        if n:
+            fields[n.group(1)] = (v.group(1) if v else "")
+    return fields
+
+
+# ---- USAJOBS — federal jobs (no API key) ----------------------------------
+USAJOBS_RESULTS_URL = "https://www.usajobs.gov/Search/Results?hp=public&s=startdate&sd=desc&p=1"
+USAJOBS_SEARCH_URL = "https://www.usajobs.gov/Search/ExecuteSearch"
+USAJOBS_RESULTS_PER_PAGE = 50
+
+
+def _usajobs_date(date_display: str) -> str:
+    m = re.search(r'(\d{2})/(\d{2})/(\d{4})', date_display or "")
+    return f"{m.group(3)}-{m.group(1)}-{m.group(2)}" if m else ""
+
+
+def scrape_usajobs_recent() -> list:
+    """Federal roles from usajobs.gov via the public website search (no API key).
+    Seeds a session on the Results page, then POSTs each keyword to
+    /Search/ExecuteSearch and keeps titles passing is_mle_role(). Returns salary."""
+    print("🇺🇸 Scraping USAJOBS (federal jobs)...")
+    jobs_by_url: dict[str, dict] = {}
+    headers = {
+        **HEADERS,
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json;charset=UTF-8",
+        "X-Requested-With": "XMLHttpRequest",
+        "Origin": "https://www.usajobs.gov",
+        "Referer": USAJOBS_RESULTS_URL,
+    }
+    try:
+        opener = _session_opener()
+        opener.open(Request(USAJOBS_RESULTS_URL, headers=HEADERS), timeout=25).read()
+        for term in GOV_SEARCH_TERMS:
+            time.sleep(REQUEST_DELAY)
+            body = json.dumps({
+                "Keyword": term, "HiringPath": ["public"],
+                "SortField": "startdate", "SortDirection": "desc",
+                "Page": "1", "ResultsPerPage": USAJOBS_RESULTS_PER_PAGE,
+            }).encode()
+            try:
+                payload = json.loads(opener.open(
+                    Request(USAJOBS_SEARCH_URL, data=body, headers=headers),
+                    timeout=25).read().decode("utf-8", "ignore"))
+            except (URLError, TimeoutError, OSError, json.JSONDecodeError) as e:
+                print(f"  ⚠️  USAJOBS ({term!r}): {e}")
+                continue
+            for job in payload.get("Jobs", []):
+                title = (job.get("Title") or "").strip()
+                if not is_mle_role(title):
+                    continue
+                uri = (job.get("PositionURI") or "").replace(":443", "")
+                if not uri and job.get("DocumentID"):
+                    uri = f"https://www.usajobs.gov/job/{job['DocumentID']}"
+                if not uri or uri in jobs_by_url:
+                    continue
+                jobs_by_url[uri] = {
+                    "company": (job.get("Agency") or job.get("Department") or "Federal Government").strip(),
+                    "title": title,
+                    "location": (job.get("LocationName") or "").strip(),
+                    "url": uri,
+                    "date_posted": _usajobs_date(job.get("DateDisplay", "")),
+                    "salary": (job.get("SalaryDisplay") or "").strip(),
+                    "ats": "USAJOBS",
+                }
+    except (URLError, TimeoutError, OSError, ValueError) as e:
+        print(f"  ⛔ USAJOBS unreachable ({e}); preserving previous results")
+        return _load_prev_jobs(os.path.join(SCRIPT_DIR, "usajobs_jobs.json"))
+    jobs = list(jobs_by_url.values())
+    print(f"  ✅ USAJOBS: {len(jobs)} federal role(s)")
+    return jobs if jobs else _load_prev_jobs(os.path.join(SCRIPT_DIR, "usajobs_jobs.json"))
+
+
+def save_usajobs_results(jobs: list):
+    save_jobs_output(
+        jobs, basename="usajobs_jobs",
+        title="🇺🇸 USAJOBS — Federal Roles",
+        subtitle="usajobs.gov · federal agencies",
+        accent="#1d4ed8",
+        empty_message="No new federal roles since the last run.",
+        window_label="current USAJOBS postings",
+    )
+
+
+# ---- GovernmentJobs.com / NEOGOV — state & local government ----------------
+GOVERNMENTJOBS_BASE = "https://www.governmentjobs.com"
+GOVERNMENTJOBS_DAYS = 21
+GOVERNMENTJOBS_PAGES = 2
+
+
+def scrape_governmentjobs_recent() -> list:
+    """State/local-government roles via governmentjobs.com, filtered to the
+    repo's locations with is_bay_area()."""
+    print("🏛  Scraping GovernmentJobs/NEOGOV (state & local gov)...")
+    import html as html_mod
+    item_re = re.compile(r'<li[^>]*class=["\'][^"\']*\bjob-item\b[^"\']*["\'][^>]*>([\s\S]*?)</li>', re.I)
+    link_re = re.compile(r'<a[^>]*class=["\'][^"\']*\bjob-details-link\b[^"\']*["\'][^>]*href=["\']([^"\']+)["\'][^>]*>([\s\S]*?)</a>', re.I)
+    org_re = re.compile(r'<div[^>]*class=["\'][^"\']*\bjob-organization\b[^"\']*["\'][^>]*>([\s\S]*?)</div>', re.I)
+    loc_re = re.compile(r'<span[^>]*class=["\'][^"\']*\bjob-location\b[^"\']*["\'][^>]*>([\s\S]*?)</span>', re.I)
+
+    def _clean(s):
+        return re.sub(r'\s+', ' ', html_mod.unescape(re.sub(r'<[^>]+>', ' ', s or ''))).strip()
+
+    jobs_by_url: dict[str, dict] = {}
+    raw_items = 0
+    for term in GOV_SEARCH_TERMS:
+        for page in range(1, GOVERNMENTJOBS_PAGES + 1):
+            time.sleep(REQUEST_DELAY)
+            url = (f"{GOVERNMENTJOBS_BASE}/jobs?keyword={urllib.parse.quote(term)}"
+                   f"&daysposted={GOVERNMENTJOBS_DAYS}&isFiltered=true&page={page}")
+            items = item_re.findall(fetch(url))
+            raw_items += len(items)
+            if not items:
+                break
+            for it in items:
+                lk = link_re.search(it)
+                if not lk:
+                    continue
+                title = _clean(lk.group(2))
+                if not is_mle_role(title):
+                    continue
+                loc_m = loc_re.search(it)
+                location = _clean(loc_m.group(1)) if loc_m else ""
+                if not is_bay_area(location):
+                    continue
+                href = re.sub(r'\s+', '', lk.group(1))
+                job_url = href if href.startswith("http") else GOVERNMENTJOBS_BASE + "/" + href.lstrip("/")
+                if job_url in jobs_by_url:
+                    continue
+                org_m = org_re.search(it)
+                sal_m = re.search(
+                    r'\$[\d,]+(?:\.\d{2})?\s*-\s*\$[\d,]+(?:\.\d{2})?'
+                    r'\s*(?:Annually|Monthly|Hourly|Biweekly|Bi-Weekly|Weekly|Daily)?',
+                    _clean(it), re.I)
+                jobs_by_url[job_url] = {
+                    "company": _clean(org_m.group(1)) if org_m else "Government Agency",
+                    "title": title, "location": location, "url": job_url,
+                    "date_posted": "",
+                    "salary": sal_m.group(0).strip() if sal_m else "",
+                    "ats": "NEOGOV",
+                }
+    jobs = list(jobs_by_url.values())
+    print(f"  ✅ NEOGOV: {len(jobs)} role(s) (from {raw_items} scanned)")
+    if not jobs and raw_items == 0:
+        return _load_prev_jobs(os.path.join(SCRIPT_DIR, "governmentjobs_jobs.json"))
+    return jobs
+
+
+def save_governmentjobs_results(jobs: list):
+    save_jobs_output(
+        jobs, basename="governmentjobs_jobs",
+        title="🏛 NEOGOV — State & Local Government Roles",
+        subtitle="governmentjobs.com",
+        accent="#0e7490",
+        empty_message="No new state/local-gov roles since the last run.",
+        window_label="recent GovernmentJobs postings",
+    )
+
+
+# ---- CalOpps — California local agencies -----------------------------------
+CALOPPS_LIST_URL = "https://www.calopps.org/job-search-list"
+CALOPPS_MAX_PAGES = 10
+
+
+def _calopps_company(href: str) -> str:
+    m = re.match(r'/?([^/]+)/', href or "")
+    return m.group(1).replace('-', ' ').title() if m else "California Agency"
+
+
+def scrape_calopps_recent() -> list:
+    """California local-agency roles from calopps.org (CA-only board)."""
+    print("🏛  Scraping CalOpps (California local agencies)...")
+    import html as html_mod
+    row_re = re.compile(r'<tr[^>]*>([\s\S]*?)</tr>', re.I)
+    cell_re = re.compile(r'<td[^>]*>([\s\S]*?)</td>', re.I)
+    link_re = re.compile(r'<a[^>]*href=["\']([^"\']+)["\'][^>]*>([\s\S]*?)</a>', re.I)
+
+    def _clean(s):
+        return re.sub(r'\s+', ' ', html_mod.unescape(re.sub(r'<[^>]+>', ' ', s or ''))).strip()
+
+    jobs_by_url: dict[str, dict] = {}
+    scanned = 0
+    for page in range(CALOPPS_MAX_PAGES):
+        time.sleep(REQUEST_DELAY)
+        url = CALOPPS_LIST_URL + (f"?page={page}" if page else "")
+        rows = [r for r in row_re.findall(fetch(url)) if "views-field-label" in r.lower()]
+        if not rows:
+            break
+        for r in rows:
+            cells = cell_re.findall(r)
+            if len(cells) < 5:
+                continue
+            lk = link_re.search(cells[0])
+            if not lk:
+                continue
+            scanned += 1
+            title = _clean(lk.group(2))
+            if not is_mle_role(title):
+                continue
+            href = html_mod.unescape(lk.group(1).strip())
+            job_url = href if href.startswith("http") else "https://www.calopps.org" + ("" if href.startswith("/") else "/") + href
+            if job_url in jobs_by_url:
+                continue
+            jobs_by_url[job_url] = {
+                "company": _calopps_company(href), "title": title,
+                "location": _clean(cells[1]) or "California", "url": job_url,
+                "date_posted": "", "salary": "", "ats": "CalOpps",
+            }
+    jobs = list(jobs_by_url.values())
+    for job in jobs:  # salary is on the posting page (few matches → cheap)
+        time.sleep(REQUEST_DELAY)
+        try:
+            ph = fetch(job["url"])
+        except (URLError, TimeoutError, OSError):
+            continue
+        sm = re.search(
+            r'Salary\s*(\$[\d,]+(?:\.\d{2})?\s*-\s*\$[\d,]+(?:\.\d{2})?'
+            r'\s*(?:Monthly|Annually|Hourly|Biweekly|Bi-Weekly|Weekly|Daily)?)',
+            re.sub(r'<[^>]+>', ' ', ph), re.I)
+        if sm:
+            job["salary"] = re.sub(r'\s+', ' ', sm.group(1)).strip()
+    print(f"  ✅ CalOpps: {len(jobs)} role(s) (from {scanned} scanned)")
+    if not jobs and scanned == 0:
+        return _load_prev_jobs(os.path.join(SCRIPT_DIR, "calopps_jobs.json"))
+    return jobs
+
+
+def save_calopps_results(jobs: list):
+    save_jobs_output(
+        jobs, basename="calopps_jobs",
+        title="🏛 CalOpps — California Local-Agency Roles",
+        subtitle="calopps.org · CA cities, counties, special districts",
+        accent="#15803d",
+        empty_message="No new CalOpps roles since the last run.",
+        window_label="recent CalOpps postings",
+    )
+
+
+# ---- CalCareers — California state civil service ---------------------------
+CALCAREERS_SEARCH_URL = "https://calcareers.ca.gov/CalHRPublic/Search/JobSearchResults.aspx"
+CALCAREERS_TIMEOUT = 30
+CALCAREERS_CARD_RE = re.compile(
+    r'Working Title:\s*</div>\s*<div class="col-xs-6 job-details">\s*<span[^>]*>(.*?)</span>'
+    r'[\s\S]*?Job Control:\s*</div>\s*<div class="col-xs-6 job-details">\s*(\d+)\s*</div>'
+    r'[\s\S]*?Department:\s*</div>\s*<div class="col-xs-6 job-details">\s*(.*?)\s*</div>'
+    r'[\s\S]*?Location:\s*</div>\s*<div class="col-xs-6 job-details">\s*(.*?)\s*</div>'
+    r'[\s\S]*?Publish Date:\s*</div>\s*<div class="col-xs-6 job-details">\s*<time[^>]*>\s*([^<]+)\s*</time>'
+    r'[\s\S]*?href="(https://www\.calcareers\.ca\.gov/CalHrPublic/Jobs/JobPosting\.aspx\?JobControlId=\d+)"',
+    re.I,
+)
+
+
+def _parse_calcareers_results(html: str) -> list[dict]:
+    import html as html_mod
+
+    def _clean(s):
+        return re.sub(r'\s+', ' ', html_mod.unescape(re.sub(r'<[^>]+>', ' ', s or ''))).strip()
+
+    jobs: list[dict] = []
+    for m in CALCAREERS_CARD_RE.finditer(html):
+        title, _jc, dept, location, pub_date, url = m.groups()
+        date = ""
+        dm = re.search(r'(\d{1,2})/(\d{1,2})/(\d{4})', pub_date or "")
+        if dm:
+            date = f"{dm.group(3)}-{int(dm.group(1)):02d}-{int(dm.group(2)):02d}"
+        card = html[m.start():m.end()]
+        sal_m = re.search(r'Salary Range:\s*</div>\s*<div[^>]*>([\s\S]*?)</div>', card, re.I)
+        salary = ""
+        if sal_m:
+            sm = re.search(
+                r'\$[\d,]+(?:\.\d{2})?\s*-\s*\$[\d,]+(?:\.\d{2})?(?:\s*(?:per|/)\s*\w+)?',
+                _clean(sal_m.group(1)))
+            salary = sm.group(0).strip() if sm else ""
+        jobs.append({
+            "company": _clean(dept) or "State of California",
+            "title": _clean(title), "location": _clean(location) or "California",
+            "url": _clean(url), "date_posted": date, "salary": salary,
+            "ats": "CalCareers",
+        })
+    return jobs
+
+
+def _calcareers_payload(hidden: dict, event_target: str, keyword: str) -> dict:
+    payload = dict(hidden)
+    payload["__EVENTTARGET"] = event_target
+    payload["__EVENTARGUMENT"] = ""
+    payload["ctl00$cphMainContent$txtKeyword"] = keyword
+    payload["ctl00$cphMainContent$hdnInit"] = "true"
+    payload.setdefault("ctl00$cphMainContent$chkExactWordMatch", "")
+    payload.setdefault("ctl00$hdnShowHeaderPadding", "1")
+    payload.setdefault("ctl00$ucSessionTimeoutDialog$tmrCountdown", "1200")
+    return payload
+
+
+def scrape_calcareers_recent() -> list:
+    """California state civil-service roles via the ASP.NET search postback.
+    Fires the search with __EVENTTARGET=btnSearch + the keyword field, then
+    parses the labeled result cards. Guarded — returns previous on any failure."""
+    print("🏛  Scraping CalCareers (California state jobs)...")
+    headers = {
+        **HEADERS,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Referer": CALCAREERS_SEARCH_URL,
+    }
+    jobs_by_url: dict[str, dict] = {}
+    parsed_total = 0
+    reached = False
+    for term in GOV_SEARCH_TERMS:
+        time.sleep(REQUEST_DELAY)
+        try:
+            opener = _session_opener()  # fresh session/viewstate per keyword
+            seed = opener.open(Request(CALCAREERS_SEARCH_URL, headers=HEADERS),
+                               timeout=CALCAREERS_TIMEOUT).read().decode("utf-8", "ignore")
+            reached = True
+            hidden = _hidden_inputs(seed)
+            if not hidden:
+                continue
+            data = urllib.parse.urlencode(
+                _calcareers_payload(hidden, "ctl00$cphMainContent$btnSearch", term)).encode()
+            res_html = opener.open(Request(CALCAREERS_SEARCH_URL, data=data, headers=headers),
+                                   timeout=CALCAREERS_TIMEOUT).read().decode("utf-8", "ignore")
+        except (URLError, TimeoutError, OSError) as e:
+            print(f"  ⚠️  CalCareers ({term!r}): {e}")
+            continue
+        for job in _parse_calcareers_results(res_html):
+            parsed_total += 1
+            if is_mle_role(job["title"]) and job["url"] not in jobs_by_url:
+                jobs_by_url[job["url"]] = job
+    jobs = list(jobs_by_url.values())
+    print(f"  ✅ CalCareers: {len(jobs)} on-target role(s) (from {parsed_total} parsed)")
+    if not jobs and (parsed_total == 0 or not reached):
+        return _load_prev_jobs(os.path.join(SCRIPT_DIR, "calcareers_jobs.json"))
+    return jobs
+
+
+def save_calcareers_results(jobs: list):
+    save_jobs_output(
+        jobs, basename="calcareers_jobs",
+        title="🏛 CalCareers — California State Roles",
+        subtitle="calcareers.ca.gov · California state civil service",
+        accent="#b45309",
+        empty_message="No new CalCareers roles since the last run.",
+        window_label="current CalCareers postings",
+    )
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -1048,6 +1474,22 @@ if __name__ == "__main__":
 
     if "--linkedin-only" in sys.argv:
         save_linkedin_results(scrape_linkedin_recent())
+        sys.exit(0)
+
+    if "--usajobs-only" in sys.argv:
+        save_usajobs_results(scrape_usajobs_recent())
+        sys.exit(0)
+
+    if "--governmentjobs-only" in sys.argv:
+        save_governmentjobs_results(scrape_governmentjobs_recent())
+        sys.exit(0)
+
+    if "--calopps-only" in sys.argv:
+        save_calopps_results(scrape_calopps_recent())
+        sys.exit(0)
+
+    if "--calcareers-only" in sys.argv:
+        save_calcareers_results(scrape_calcareers_recent())
         sys.exit(0)
 
     if "--biotech-only" in sys.argv:

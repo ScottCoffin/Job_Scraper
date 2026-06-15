@@ -1,0 +1,36 @@
+name: USAJOBS Watcher
+
+on:
+  schedule:
+    - cron: "37 15 * * *"   # daily ~8am PT
+  workflow_dispatch:
+
+concurrency:
+  group: job-scraper-commit-push
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    name: USAJOBS scrape
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Scrape USAJOBS (federal jobs)
+        run: python scrape_jobs.py --usajobs-only
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+          NOTIFY_TERMS: ${{ vars.NOTIFY_TERMS }}
+      - name: Commit results to repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add usajobs_jobs.json usajobs_jobs.md usajobs_jobs.html all_jobs.json notified.json
+          git diff --cached --quiet || git commit -m "chore: update usajobs listings [$(date -u '+%Y-%m-%d %H:%MZ')]"
+          git pull --rebase origin main
+          git push

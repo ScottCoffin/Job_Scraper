@@ -1,0 +1,36 @@
+name: CalCareers Watcher
+
+on:
+  schedule:
+    - cron: "52 16 * * *"   # daily ~9:52am PT
+  workflow_dispatch:
+
+concurrency:
+  group: job-scraper-commit-push
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    name: CalCareers scrape
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Scrape CalCareers (California state jobs)
+        run: python scrape_jobs.py --calcareers-only
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+          NOTIFY_TERMS: ${{ vars.NOTIFY_TERMS }}
+      - name: Commit results to repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add calcareers_jobs.json calcareers_jobs.md calcareers_jobs.html all_jobs.json notified.json
+          git diff --cached --quiet || git commit -m "chore: update calcareers listings [$(date -u '+%Y-%m-%d %H:%MZ')]"
+          git pull --rebase origin main
+          git push
