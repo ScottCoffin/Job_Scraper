@@ -1,21 +1,29 @@
 {
-  "scraped_at": "2026-06-15 02:17 UTC",
-  "total": 20,
-  "new_count": 1,
+  "scraped_at": "2026-06-15 03:17 UTC",
+  "total": 14,
+  "new_count": 0,
   "jobs": [
     {
-      "company": "Verdant Robotics",
-      "title": "Machine Learning Engineer",
-      "location": "Fremont, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427222603/",
+      "company": "Voltai",
+      "title": "Senior Software Engineer: Solutions",
+      "location": "Palo Alto, CA",
+      "url": "https://www.linkedin.com/jobs/view/4428663587/",
       "date_posted": "2026-06-15",
       "ats": "LinkedIn"
     },
     {
       "company": "Jack & Jill",
-      "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at CTGT, Inc.",
+      "title": "AI Engineer ($170k\u2013$220k + Equity) at Withshepherd",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427463113/",
+      "url": "https://www.linkedin.com/jobs/view/4427440738/",
+      "date_posted": "2026-06-15",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Verdant Robotics",
+      "title": "Machine Learning Engineer",
+      "location": "Fremont, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427222603/",
       "date_posted": "2026-06-15",
       "ats": "LinkedIn"
     },
@@ -29,33 +37,9 @@
     },
     {
       "company": "Jack & Jill",
-      "title": "Senior Machine Learning Engineer ($250k + $100k/year Equity) at Omen AI",
+      "title": "Machine Learning Engineer ($175K \u2013 $250K + Equity) at CTGT, Inc.",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427450720/",
-      "date_posted": "2026-06-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Software Engineer, Platform ($200k-$250k + Equity) at Duckbill",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427459442/",
-      "date_posted": "2026-06-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "AI Engineer ($170k\u2013$220k + Equity) at Withshepherd",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427440738/",
-      "date_posted": "2026-06-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Software Engineer, iOS/Mobile ($135K \u2013 $260K + Equity) at Beacon AI Inc.",
-      "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427453583/",
+      "url": "https://www.linkedin.com/jobs/view/4427463113/",
       "date_posted": "2026-06-15",
       "ats": "LinkedIn"
     },
@@ -85,17 +69,17 @@
     },
     {
       "company": "Jack & Jill",
-      "title": "Fullstack Engineer at NAVI Labs",
+      "title": "Software Engineer, Platform ($200k-$250k + Equity) at Duckbill",
       "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427453587/",
+      "url": "https://www.linkedin.com/jobs/view/4427459442/",
       "date_posted": "2026-06-15",
       "ats": "LinkedIn"
     },
     {
-      "company": "Voltai",
-      "title": "Senior Software Engineer: Solutions",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428663587/",
+      "company": "Jack & Jill",
+      "title": "Fullstack Engineer at NAVI Labs",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4427453587/",
       "date_posted": "2026-06-15",
       "ats": "LinkedIn"
     },
@@ -125,53 +109,12 @@
     },
     {
       "company": "Jack & Jill",
-      "title": "Lead Software Engineer ($185K \u2013 $240K + Equity) at Beacon AI Inc.",
+      "title": "Software Engineer, iOS/Mobile ($135K \u2013 $260K + Equity) at Beacon AI Inc.",
       "location": "San Carlos, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427439856/",
-      "date_posted": "2026-06-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Hafo Medical Management",
-      "title": "Software Engineer",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427460336/",
-      "date_posted": "2026-06-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Full-Stack Engineer ($180k-$200k + Equity) at blok",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427462269/",
-      "date_posted": "2026-06-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Deployment Infrastructure Engineer at well-funded enterprise AI platform",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427460414/",
-      "date_posted": "2026-06-15",
-      "ats": "LinkedIn"
-    },
-    {
-      "company": "Jack & Jill",
-      "title": "Senior Software Engineer - AI Data & Analytics at HOAi",
-      "location": "Redwood City, CA",
-      "url": "https://www.linkedin.com/jobs/view/4427439859/",
+      "url": "https://www.linkedin.com/jobs/view/4427453583/",
       "date_posted": "2026-06-15",
       "ats": "LinkedIn"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Voltai",
-      "title": "Senior Software Engineer: Solutions",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/4428663587/",
-      "date_posted": "2026-06-15",
-      "ats": "LinkedIn"
-    }
-  ]
+  "new_jobs": []
 }
