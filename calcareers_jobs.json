@@ -1,7 +1,207 @@
 {
-  "scraped_at": "2026-06-14 16:43 UTC",
-  "total": 0,
-  "new_count": 0,
-  "jobs": [],
-  "new_jobs": []
+  "scraped_at": "2026-06-15 04:16 UTC",
+  "total": 11,
+  "new_count": 11,
+  "jobs": [
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Environmental Scientist",
+      "location": "Yolo County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=510577",
+      "date_posted": "2026-06-03",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Office of Energy Infrastructure Safety",
+      "title": "Environmental Scientist-Inspector",
+      "location": "United States",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=517025",
+      "date_posted": "2026-05-18",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Department of Food & Agriculture",
+      "title": "ENVIRONMENTAL SCIENTIST",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=518689",
+      "date_posted": "2026-06-04",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "State Water Resources Control Board",
+      "title": "Environmental Scientist",
+      "location": "San Bernardino County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520131",
+      "date_posted": "2026-06-02",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Environmental Scientist",
+      "location": "Shasta County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520226",
+      "date_posted": "2026-06-02",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Environmental Scientist",
+      "location": "Shasta County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520237",
+      "date_posted": "2026-06-02",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "State Water Resources Control Board",
+      "title": "Environmental Scientist",
+      "location": "Riverside County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520546",
+      "date_posted": "2026-06-05",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Environmental Scientist",
+      "location": "United States",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=521213",
+      "date_posted": "2026-06-10",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Environmental Scientist",
+      "location": "Solano County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=521250",
+      "date_posted": "2026-06-10",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Environmental Health Hazard Assessment Office",
+      "title": "Environmental Health Education and Community Science Program Specialist",
+      "location": "United States",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=518467",
+      "date_posted": "2026-05-14",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Centinela State Prison",
+      "title": "Associate Hazardous Materials Specialist",
+      "location": "Imperial County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520668",
+      "date_posted": "2026-06-05",
+      "salary": "",
+      "ats": "CalCareers"
+    }
+  ],
+  "new_jobs": [
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Environmental Scientist",
+      "location": "Yolo County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=510577",
+      "date_posted": "2026-06-03",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Office of Energy Infrastructure Safety",
+      "title": "Environmental Scientist-Inspector",
+      "location": "United States",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=517025",
+      "date_posted": "2026-05-18",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Department of Food & Agriculture",
+      "title": "ENVIRONMENTAL SCIENTIST",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=518689",
+      "date_posted": "2026-06-04",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "State Water Resources Control Board",
+      "title": "Environmental Scientist",
+      "location": "San Bernardino County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520131",
+      "date_posted": "2026-06-02",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Environmental Scientist",
+      "location": "Shasta County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520226",
+      "date_posted": "2026-06-02",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Environmental Scientist",
+      "location": "Shasta County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520237",
+      "date_posted": "2026-06-02",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "State Water Resources Control Board",
+      "title": "Environmental Scientist",
+      "location": "Riverside County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520546",
+      "date_posted": "2026-06-05",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Environmental Scientist",
+      "location": "United States",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=521213",
+      "date_posted": "2026-06-10",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Environmental Scientist",
+      "location": "Solano County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=521250",
+      "date_posted": "2026-06-10",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Environmental Health Hazard Assessment Office",
+      "title": "Environmental Health Education and Community Science Program Specialist",
+      "location": "United States",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=518467",
+      "date_posted": "2026-05-14",
+      "salary": "",
+      "ats": "CalCareers"
+    },
+    {
+      "company": "Centinela State Prison",
+      "title": "Associate Hazardous Materials Specialist",
+      "location": "Imperial County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520668",
+      "date_posted": "2026-06-05",
+      "salary": "",
+      "ats": "CalCareers"
+    }
+  ]
 }

@@ -896,13 +896,15 @@ def scrape_indeed_recent() -> list:
 # ---------------------------------------------------------------------------
 
 CALCAREERS_BASE = "https://www.calcareers.ca.gov"
-CALCAREERS_SEARCH_URL = CALCAREERS_BASE + "/CalHRPublic/Search/JobSearchResults.aspx"
+# Apex domain for the search postback (per the OpenPostings calcareers module).
+CALCAREERS_SEARCH_URL = "https://calcareers.ca.gov/CalHRPublic/Search/JobSearchResults.aspx"
 CALCAREERS_TIMEOUT = 30
 
 # Broad CalCareers queries; titles are still gated by is_mle_role() afterward.
 CALCAREERS_TERMS = [
     "toxicologist", "environmental scientist", "risk assessment",
     "exposure", "water quality", "microplastics", "hazard",
+    "environmental health", "ecologist",
 ]
 
 
@@ -924,115 +926,100 @@ def _hidden_inputs(html: str) -> dict:
     return fields
 
 
-def _find_keyword_field(html: str) -> str | None:
-    """Name of the visible text input that represents the keyword box."""
-    for tag in re.findall(r'<input\b[^>]*>', html, re.I):
-        if re.search(r'type=["\']hidden["\']', tag, re.I):
-            continue
-        n = re.search(r'\bname=["\']([^"\']+)["\']', tag)
-        if n and re.search(r'keyword|search', n.group(1), re.I):
-            return n.group(1)
-    return None
-
-
-def _find_submit_control(html: str) -> tuple[str, str] | None:
-    """Name/value of the search submit button (for the POST body)."""
-    for tag in re.findall(r'<input\b[^>]*type=["\'](?:submit|button)["\'][^>]*>', html, re.I):
-        n = re.search(r'\bname=["\']([^"\']+)["\']', tag)
-        v = re.search(r'\bvalue=["\']([^"\']*)["\']', tag)
-        if n and re.search(r'search|find|go|submit', (n.group(1) + (v.group(1) if v else "")), re.I):
-            return n.group(1), (v.group(1) if v else "")
-    return None
+# CalCareers renders each result as labeled "col-xs-6 job-details" divs
+# (Working Title / Job Control / Department / Location / Publish Date) followed
+# by the posting link. Pattern adapted from the OpenPostings calcareers module.
+CALCAREERS_CARD_RE = re.compile(
+    r'Working Title:\s*</div>\s*<div class="col-xs-6 job-details">\s*<span[^>]*>(.*?)</span>'
+    r'[\s\S]*?Job Control:\s*</div>\s*<div class="col-xs-6 job-details">\s*(\d+)\s*</div>'
+    r'[\s\S]*?Department:\s*</div>\s*<div class="col-xs-6 job-details">\s*(.*?)\s*</div>'
+    r'[\s\S]*?Location:\s*</div>\s*<div class="col-xs-6 job-details">\s*(.*?)\s*</div>'
+    r'[\s\S]*?Publish Date:\s*</div>\s*<div class="col-xs-6 job-details">\s*<time[^>]*>\s*([^<]+)\s*</time>'
+    r'[\s\S]*?href="(https://www\.calcareers\.ca\.gov/CalHrPublic/Jobs/JobPosting\.aspx\?JobControlId=\d+)"',
+    re.I,
+)
 
 
 def _parse_calcareers_results(html: str) -> list[dict]:
-    """
-    Best-effort parse of the CalCareers results HTML. Each posting links to
-    JobPosting.aspx?JobControlId=NNN (or JobPostingPrint.aspx?jcid=NNN); we take
-    the link text as the title and scan a window of following text for the
-    department, location, and salary, which CalCareers renders as labeled rows.
-    """
     import html as html_mod
+
+    def _clean(s):
+        return re.sub(r'\s+', ' ', html_mod.unescape(re.sub(r'<[^>]+>', ' ', s or ''))).strip()
+
     jobs: list[dict] = []
-    seen: set[str] = set()
-    for m in re.finditer(
-        r'<a\b[^>]*href=["\']([^"\']*JobPosting[A-Za-z]*\.aspx\?[^"\']*(?:JobControlId|jcid)=(\d+)[^"\']*)["\'][^>]*>(.*?)</a>',
-        html, re.I | re.S,
-    ):
-        href, jcid, inner = m.group(1), m.group(2), m.group(3)
-        if jcid in seen:
-            continue
-        seen.add(jcid)
-        title = html_mod.unescape(re.sub(r'<[^>]+>', ' ', inner)).strip()
-        title = re.sub(r'\s+', ' ', title)
-        if not title:
-            continue
-        url = href if href.startswith("http") else CALCAREERS_BASE + "/CalHRPublic/" + href.lstrip("/")
-        # Window of text after the link for dept / location / salary labels.
-        window = re.sub(r'<[^>]+>', ' ', html[m.end():m.end() + 1200])
-        window = html_mod.unescape(re.sub(r'\s+', ' ', window))
-        dept_m = re.search(r'(Department|Departmental)\s*:?\s*([A-Z][^|•\n]{3,60})', window)
-        loc_m = re.search(r'(?:Location|County|City)\s*:?\s*([A-Z][A-Za-z .,/-]{2,40})', window)
-        sal_m = re.search(r'\$[\d,]+(?:\.\d{2})?\s*(?:-|–|to)\s*\$[\d,]+(?:\.\d{2})?\s*(?:per month|/mo|monthly|per year|/yr|annually)?', window, re.I)
+    for m in CALCAREERS_CARD_RE.finditer(html):
+        title, _jc, dept, location, pub_date, url = m.groups()
+        date = ""
+        dm = re.search(r'(\d{1,2})/(\d{1,2})/(\d{4})', pub_date or "")
+        if dm:
+            date = f"{dm.group(3)}-{int(dm.group(1)):02d}-{int(dm.group(2)):02d}"
         jobs.append({
-            "company": (dept_m.group(2).strip() if dept_m else "State of California"),
-            "title": title,
-            "location": (loc_m.group(1).strip() if loc_m else "California"),
-            "url": url,
-            "date_posted": "",
-            "salary": (sal_m.group(0).strip() if sal_m else ""),
+            "company": _clean(dept) or "State of California",
+            "title": _clean(title),
+            "location": _clean(location) or "California",
+            "url": _clean(url),
+            "date_posted": date,
+            "salary": "",
             "ats": "CalCareers",
         })
     return jobs
 
 
-def scrape_calcareers_recent() -> list:
-    """CalCareers env/tox roles. Adaptive ASP.NET session+viewstate POST flow;
-    fully guarded — returns previous results on any failure so a flaky run never
-    nukes the dashboard's CalCareers column."""
-    print("🏛  Scraping CalCareers (California state jobs)...")
-    jobs_by_url: dict[str, dict] = {}
-    matched = 0
-    try:
-        opener = _calcareers_opener()
-        seed_req = Request(CALCAREERS_SEARCH_URL, headers=HEADERS)
-        seed_html = opener.open(seed_req, timeout=CALCAREERS_TIMEOUT).read().decode("utf-8", "ignore")
-        hidden = _hidden_inputs(seed_html)
-        kw_field = _find_keyword_field(seed_html)
-        submit = _find_submit_control(seed_html)
-        if not hidden or not kw_field:
-            print("  ⚠️  CalCareers form not recognized (no viewstate/keyword field); skipping")
-            return _load_prev_jobs(os.path.join(SCRIPT_DIR, "calcareers_jobs.json"))
+def _calcareers_payload(hidden: dict, event_target: str, keyword: str) -> dict:
+    """ASP.NET postback body that actually fires the search (the missing piece
+    was __EVENTTARGET=btnSearch + the real keyword field name)."""
+    payload = dict(hidden)
+    payload["__EVENTTARGET"] = event_target
+    payload["__EVENTARGUMENT"] = ""
+    payload["ctl00$cphMainContent$txtKeyword"] = keyword
+    payload["ctl00$cphMainContent$hdnInit"] = "true"
+    payload.setdefault("ctl00$cphMainContent$chkExactWordMatch", "")
+    payload.setdefault("ctl00$hdnShowHeaderPadding", "1")
+    payload.setdefault("ctl00$ucSessionTimeoutDialog$tmrCountdown", "1200")
+    return payload
 
-        for term in CALCAREERS_TERMS:
-            time.sleep(REQUEST_DELAY)
-            body = dict(hidden)
-            body[kw_field] = term
-            if submit:
-                body[submit[0]] = submit[1]
-            data = urllib.parse.urlencode(body).encode()
-            post = Request(
-                CALCAREERS_SEARCH_URL, data=data,
-                headers={**HEADERS, "Content-Type": "application/x-www-form-urlencoded"},
-            )
-            try:
-                res_html = opener.open(post, timeout=CALCAREERS_TIMEOUT).read().decode("utf-8", "ignore")
-            except (URLError, TimeoutError, OSError) as e:
-                print(f"  ⚠️  CalCareers ({term!r}): {e}")
+
+def scrape_calcareers_recent() -> list:
+    """CalCareers env/tox roles via the ASP.NET search postback (method proven by
+    the OpenPostings project). Fully guarded — returns previous results on any
+    failure so a flaky run never nukes the dashboard's CalCareers column."""
+    print("🏛  Scraping CalCareers (California state jobs)...")
+    headers = {
+        **HEADERS,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Referer": CALCAREERS_SEARCH_URL,
+    }
+    jobs_by_url: dict[str, dict] = {}
+    parsed_total = 0
+    reached = False
+    for term in CALCAREERS_TERMS:
+        time.sleep(REQUEST_DELAY)
+        try:
+            opener = _calcareers_opener()  # fresh session/viewstate per keyword
+            seed = opener.open(Request(CALCAREERS_SEARCH_URL, headers=HEADERS),
+                               timeout=CALCAREERS_TIMEOUT).read().decode("utf-8", "ignore")
+            reached = True
+            hidden = _hidden_inputs(seed)
+            if not hidden:
                 continue
-            for job in _parse_calcareers_results(res_html):
-                matched += 1
-                if is_mle_role(job["title"]) and job["url"] not in jobs_by_url:
-                    jobs_by_url[job["url"]] = job
-    except (URLError, TimeoutError, OSError, ValueError) as e:
-        print(f"  ⛔ CalCareers unreachable ({e}); preserving previous results")
-        return _load_prev_jobs(os.path.join(SCRIPT_DIR, "calcareers_jobs.json"))
+            data = urllib.parse.urlencode(
+                _calcareers_payload(hidden, "ctl00$cphMainContent$btnSearch", term)).encode()
+            res_html = opener.open(Request(CALCAREERS_SEARCH_URL, data=data, headers=headers),
+                                   timeout=CALCAREERS_TIMEOUT).read().decode("utf-8", "ignore")
+        except (URLError, TimeoutError, OSError) as e:
+            print(f"  ⚠️  CalCareers ({term!r}): {e}")
+            continue
+        for job in _parse_calcareers_results(res_html):
+            parsed_total += 1
+            if is_mle_role(job["title"]) and job["url"] not in jobs_by_url:
+                jobs_by_url[job["url"]] = job
 
     jobs = list(jobs_by_url.values())
-    print(f"  ✅ CalCareers: {len(jobs)} on-target role(s) (from {matched} parsed)")
-    if not jobs and matched == 0:
-        # Parsed nothing at all — likely a selector mismatch or async-loaded grid.
-        # Preserve the previous column rather than blanking it.
+    print(f"  ✅ CalCareers: {len(jobs)} on-target role(s) (from {parsed_total} parsed)")
+    if not jobs and (parsed_total == 0 or not reached):
+        # No data — site unreachable or parser/search mismatch. Preserve the
+        # previous column rather than blanking it.
         return _load_prev_jobs(os.path.join(SCRIPT_DIR, "calcareers_jobs.json"))
     return jobs
 

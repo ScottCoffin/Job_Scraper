@@ -129,18 +129,13 @@ geo lists at the top of `scrape_jobs.py` to add/remove regions:
 
 `scrape_jobs.py --calcareers-only` scrapes [calcareers.ca.gov](https://calcareers.ca.gov)
 — the CA state civil-service portal where OEHHA, DTSC, CARB, the Water Boards,
-and Caltrans post scientist roles. CalCareers is an ASP.NET WebForms site with
-**no public API**, so the scraper seeds a session, auto-discovers the search
-form's fields, POSTs the query, and parses the result cards. It is fully guarded
-(a failure never affects the other sources) and runs daily via
-`calcareers_watch.yml`.
-
-> ⚠️ This source could not be verified from the development network (the portal
-> sits behind a WAF that times out there); it's written to run on GitHub
-> Actions' clean egress. If the first GH run logs `0 rows`, the result-card
-> parser in `_parse_calcareers_results()` needs a selector tweak — open the
-> committed `calcareers_jobs.json` to check. CA state departments also surface
-> via LinkedIn (priority-employer allowlist) as a backstop.
+Fish & Wildlife, and Caltrans post scientist roles. CalCareers is an ASP.NET
+WebForms site with **no public API**, so the scraper seeds a session and fires
+the search postback (`__EVENTTARGET=ctl00$cphMainContent$btnSearch` with the
+keyword field), then parses the labeled result cards. The working postback
+method was adapted from the [OpenPostings](https://github.com/Masterjx9/OpenPostings)
+`calcareers` module. Fully guarded; runs daily via `calcareers_watch.yml`.
+Verified returning real roles (Water Board, Fish & Wildlife, OEHHA, DTSC…).
 
 ### USAJOBS (federal jobs)
 
