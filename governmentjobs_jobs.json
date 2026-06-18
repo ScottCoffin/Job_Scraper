@@ -1,26 +1,8 @@
 {
-  "scraped_at": "2026-06-17 17:28 UTC",
-  "total": 4,
-  "new_count": 1,
+  "scraped_at": "2026-06-18 17:27 UTC",
+  "total": 1,
+  "new_count": 0,
   "jobs": [
-    {
-      "company": "City of Salem",
-      "title": "Stormwater Quality Seasonal Maintenance Worker",
-      "location": "1457 23rd St SE Salem, OR",
-      "url": "https://www.governmentjobs.com/jobs/5373090-0/stormwater-quality-seasonal-maintenance-worker",
-      "date_posted": "",
-      "salary": "",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Sacramento",
-      "title": "Utilities Operations and Maintenance Superintendent (Water Quality Lab and R&D)",
-      "location": "Sacramento, CA",
-      "url": "https://www.governmentjobs.com/jobs/5348244-0/utilities-operations-and-maintenance-superintendent-water-quality-lab-and-rd",
-      "date_posted": "",
-      "salary": "$114,176.67 - $160,658.04 Annually",
-      "ats": "NEOGOV"
-    },
     {
       "company": "Bay Area Air District",
       "title": "Senior Air Quality Specialist (Ambient Air Quality Analysis)",
@@ -29,26 +11,7 @@
       "date_posted": "",
       "salary": "$125,685.16 - $152,771.09 Annually",
       "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Mountain View (CA)",
-      "title": "Senior Hazardous Materials Specialist",
-      "location": "City of Mountain View",
-      "url": "https://www.governmentjobs.com/jobs/5345724-0/senior-hazardous-materials-specialist",
-      "date_posted": "",
-      "salary": "$171,085.46 - $231,468.38 Annually",
-      "ats": "NEOGOV"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "City of Mountain View (CA)",
-      "title": "Senior Hazardous Materials Specialist",
-      "location": "City of Mountain View",
-      "url": "https://www.governmentjobs.com/jobs/5345724-0/senior-hazardous-materials-specialist",
-      "date_posted": "",
-      "salary": "$171,085.46 - $231,468.38 Annually",
-      "ats": "NEOGOV"
-    }
-  ]
+  "new_jobs": []
 }
