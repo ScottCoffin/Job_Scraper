@@ -143,24 +143,6 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.15); z-index: 100; }
   .toast.show { opacity: 1; }
 
-  /* Modal */
-  .modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,0.45);
-    display: none; align-items: center; justify-content: center; z-index: 200; }
-  .modal-bg.show { display: flex; }
-  .modal { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
-    width: min(640px, 92vw); padding: 20px 22px; box-shadow: 0 20px 60px rgba(0,0,0,0.25);
-    position: relative; }
-  .modal h2 { margin: 0 0 8px 0; font-size: 18px; padding-right: 36px; }
-  .modal p { color: var(--muted); font-size: 13px; margin: 0 0 12px 0; }
-  .modal textarea { width: 100%; min-height: 200px; font-family: ui-monospace,
-    SFMono-Regular, Menlo, monospace; font-size: 12px; padding: 10px; border-radius: 6px;
-    border: 1px solid var(--line); background: var(--bg); color: var(--ink); resize: vertical; }
-  .modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px; }
-  .modal-close-x { position: absolute; top: 10px; right: 10px;
-    background: transparent; border: 1px solid transparent; color: var(--muted);
-    width: 32px; height: 32px; border-radius: 6px; font-size: 14px; cursor: pointer;
-    font-family: inherit; line-height: 1; }
-  .modal-close-x:hover { background: var(--pill-bg); color: var(--ink); }
 
   .empty { text-align: center; padding: 40px; color: var(--muted); font-style: italic;
     background: var(--panel); border: 1px dashed var(--line); border-radius: 10px; }
@@ -191,7 +173,7 @@
       display: inline-flex; align-items: center; }
 
     /* Prevent iOS auto-zoom on input focus — any input <16px triggers it */
-    .search, .modal textarea { font-size: 16px; }
+    .search { font-size: 16px; }
     .search { padding: 12px 14px; min-height: 44px; }
 
     /* Header layout: snapshot line wraps to its own row */
@@ -200,7 +182,7 @@
     h1 { font-size: 22px; }
 
     /* Kill the iOS gray tap-flash on interactive elements */
-    .act, .pill, .iconbtn, .btn, .modal-close-x {
+    .act, .pill, .iconbtn, .btn {
       -webkit-tap-highlight-color: transparent;
     }
   }
@@ -268,7 +250,6 @@
   <span class="sub" id="snapshot-line" aria-live="polite" aria-atomic="true">California · Environmental / Toxicology · loading…</span>
   <span class="grow"></span>
   <button type="button" class="iconbtn" id="refresh-btn" title="Re-fetch all sources">↻ Refresh</button>
-  <button type="button" class="iconbtn" id="paste-btn">Paste fresh JSON</button>
 </header>
 
 <div class="kpis">
@@ -350,18 +331,6 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<div class="modal-bg" id="modal-bg" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-  <div class="modal">
-    <button type="button" class="modal-close-x" id="modal-close-x" aria-label="Close">✕</button>
-    <h2 id="modal-title">Update with fresh data</h2>
-    <p>Paste the contents of <code>linkedin_jobs.json</code> or <code>jobs.json</code> (or any object with a <code>jobs</code> array). New jobs merge with existing triage state.</p>
-    <textarea id="paste-area" placeholder='{"scraped_at":"…","jobs":[…]}'></textarea>
-    <div class="modal-actions">
-      <button type="button" class="btn ghost" id="modal-cancel">Cancel</button>
-      <button type="button" class="btn" id="modal-merge">Merge</button>
-    </div>
-  </div>
-</div>
 
 <script>
   // ---------- Sources ----------
@@ -1605,45 +1574,6 @@
     clearTimeout(toast._t);
     toast._t = setTimeout(() => t.classList.remove('show'), 1800);
   }
-
-  // ---------- Modal (paste fresh JSON — offline escape hatch) ----------
-  let _modalPrevFocus = null;
-  function openModal() {
-    _modalPrevFocus = document.activeElement;
-    $('modal-bg').classList.add('show');
-    setTimeout(() => $('paste-area').focus(), 0);
-  }
-  function closeModal() {
-    $('modal-bg').classList.remove('show');
-    if (_modalPrevFocus && _modalPrevFocus.focus) _modalPrevFocus.focus();
-  }
-  $('paste-btn').onclick = openModal;
-  $('modal-cancel').onclick = closeModal;
-  $('modal-close-x').onclick = closeModal;
-  $('modal-bg').addEventListener('click', e => {
-    if (e.target === $('modal-bg')) closeModal();
-  });
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape' && $('modal-bg').classList.contains('show')) closeModal();
-  });
-  $('modal-merge').onclick = () => {
-    try {
-      const txt = $('paste-area').value.trim();
-      if (!txt) return;
-      const obj = JSON.parse(txt);
-      const arr = obj.jobs || (Array.isArray(obj) ? obj : []);
-      if (!arr.length) { toast('No jobs[] found in pasted JSON'); return; }
-      const valid = arr.filter(j => j && j.url && /^https?:\/\//i.test(j.url));
-      valid.forEach(enrich);
-      const added = mergeJobs(valid);
-      closeModal();
-      $('paste-area').value = '';
-      renderAll();
-      toast(`Merged ${added} new job${added === 1 ? '' : 's'}`);
-    } catch (err) {
-      toast('Invalid JSON: ' + err.message);
-    }
-  };
 
   // ---------- Clipboard (used by the ✉ Opener button) ----------
   async function copy(text) {
