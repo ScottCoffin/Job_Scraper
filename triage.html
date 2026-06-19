@@ -250,6 +250,7 @@
   <span class="sub" id="snapshot-line" aria-live="polite" aria-atomic="true">California · Environmental / Toxicology · loading…</span>
   <span class="grow"></span>
   <button type="button" class="iconbtn" id="refresh-btn" title="Re-fetch all sources">↻ Refresh</button>
+  <a class="iconbtn" id="repo-link" href="https://github.com/ScottCoffin/Job_Scraper" target="_blank" rel="noopener" title="View source repo">⌥ Repo</a>
 </header>
 
 <div class="kpis">
@@ -716,13 +717,31 @@
     if (a === b) return true;
     return a.length >= 5 && b.length >= 5 && (a.includes(b) || b.includes(a));
   }
+  function _locOverlap(a, b) {
+    a = _normLoc(a); b = _normLoc(b);
+    if (!a || !b) return false;
+    if (a === b) return true;
+    return a.length >= 4 && b.length >= 4 && (a.includes(b) || b.includes(a));
+  }
+  // Two jobs with the same title should merge when their companies match AND either:
+  // (a) their location strings overlap, or
+  // (b) they come from different source boards — boards like NEOGOV and CalOpps
+  //     cross-post the same role using different region/city label conventions.
+  function _shouldMerge(a, b) {
+    if (!_coMatch(a.company, b.company)) return false;
+    if (_locOverlap(a.location, b.location)) return true;
+    return a._src !== b._src;
+  }
   function _richness(j) { return (j._salMin != null ? 2 : 0) + (j.description ? 1 : 0); }
   const TRIAGE_PRIORITY = { applied: 4, saved: 3, irrelevant: 2, dismissed: 1 };
 
   function dedupe(list) {
+    // Group by title only — location is not in the key so cross-board posts
+    // that use different region strings (e.g. "City of Mountain View" vs "South Bay")
+    // still land in the same bucket and reach the company-match check.
     const groups = new Map();
     for (const j of list) {
-      const k = _normTitle(j.title) + '|' + _normLoc(j.location);
+      const k = _normTitle(j.title);
       if (!groups.has(k)) groups.set(k, []);
       groups.get(k).push(j);
     }
@@ -733,7 +752,7 @@
         if (used[i]) continue;
         const cluster = [grp[i]]; used[i] = true;
         for (let k = i + 1; k < grp.length; k++) {
-          if (!used[k] && _coMatch(grp[i].company, grp[k].company)) { cluster.push(grp[k]); used[k] = true; }
+          if (!used[k] && _shouldMerge(grp[i], grp[k])) { cluster.push(grp[k]); used[k] = true; }
         }
         out.push(_mergeCluster(cluster));
       }
@@ -1580,6 +1599,16 @@
     try { await navigator.clipboard.writeText(text); toast('Copied to clipboard'); }
     catch { toast('Copy failed — select text manually'); }
   }
+
+  // ---------- Repo link — dynamic on GitHub Pages, fallback to upstream ----------
+  (function () {
+    const h = window.location.hostname;
+    if (h.endsWith('.github.io')) {
+      const user = h.replace('.github.io', '');
+      const repo = window.location.pathname.split('/').filter(Boolean)[0] || '';
+      if (repo) $('repo-link').href = `https://github.com/${user}/${repo}`;
+    }
+  })();
 
   // ---------- Refresh button + tab-focus auto-refresh ----------
   $('refresh-btn').onclick = refresh;
