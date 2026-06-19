@@ -922,9 +922,9 @@ INDEED_SEARCH_TERMS = _cfg("search_terms.indeed", [
 ])
 
 # jobspy returns the full JD (markdown) for Indeed rows. We keep a trimmed copy
-# in indeed_jobs.json (bounded: 24h window) so the nightly triage agent can
-# judge Indeed roles from the actual description instead of the title alone.
-# _merge_into_all_jobs strips it so the dashboard's master stays lean.
+# in indeed_jobs.json and all_jobs.json so the dashboard, deterministic scorer,
+# and optional triage agent can judge roles from the actual description instead
+# of the title alone.
 INDEED_JD_MAX_CHARS = 6000
 
 

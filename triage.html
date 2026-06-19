@@ -382,9 +382,9 @@
   let SCORES = {};
 
   // ---------- Persistence ----------
-  // v2: retargeted to environmental/toxicology — bump forces a one-time reset
-  // so browsers drop the inherited Bay Area ML/SWE jobs cached under v1.
-  const STORAGE_KEY = 'jobTriage:v2';
+  // v3: scraped source files are authoritative for the job list. Bump forces
+  // browsers to drop older additive caches that kept aged-out jobs visible.
+  const STORAGE_KEY = 'jobTriage:v3';
   const state = (() => {
     try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
     catch { return {}; }
@@ -870,6 +870,11 @@
       }
     }
     return added;
+  }
+
+  function replaceJobs(incoming) {
+    state.jobs = incoming.slice();
+    return state.jobs.length;
   }
 
   // ---------- Filters ----------
@@ -1481,7 +1486,7 @@
       } catch { /* keep defaults */ }
       SEED = await loadJobs();
       SEED.jobs.forEach(enrich);
-      mergeJobs(SEED.jobs);
+      replaceJobs(SEED.jobs);
       pruneState();
       refreshIrrelevantCorpus();   // build the "not relevant" penalty set first
       state.jobs.forEach(enrich);  // re-classify + re-score all (classifier/fit updates)

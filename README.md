@@ -93,9 +93,14 @@ Optional knobs: `profile` (dashboard title/subtitle), `keywords.exclude`, `emplo
 
 ## Step 3 — Host the dashboard (GitHub Pages)
 
-This publishes `triage.html` at a free public URL. 1. In your repo: **Settings → Pages**. 2. Under **Build and deployment → Source**, choose **Deploy from a branch**. 3. Branch: **`main`**, folder: **`/ (root)`** → **Save**. 4. After \~1 minute your dashboard is live at: **`https://YOUR-USERNAME.github.io/YOUR-REPO/triage.html`**
+This publishes `triage.html` at a free public URL.
+1. In your repo: **Settings → Pages**.
+2. Under **Build and deployment → Source**, choose **Deploy from a branch**.
+3. Branch: **`main`**, folder: **`/ (root)`** → **Save**.
+4. After \~1 minute your dashboard is live at: **`https://YOUR-USERNAME.github.io/YOUR-REPO/triage.html`**
 
-New to Pages? GitHub's 2-minute guide: [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site). Want it on a custom domain (like `you.com/jobs`)? See [Managing a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+New to Pages? GitHub's 2-minute guide: [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+Want it on a custom domain (like `you.com/jobs`)? See [Managing a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
 
 ## Step 4 — Turn on the scrapers (GitHub Actions)
 
@@ -106,11 +111,16 @@ New to Pages? GitHub's 2-minute guide: [Creating a GitHub Pages site](https://do
 
 In the **Actions** tab, open each watcher and click **Run workflow** (afterwards they run automatically on a schedule): - **LinkedIn** and **Indeed** watchers (work anywhere). - **USAJOBS** (US federal). **NEOGOV** / **CalOpps** / **CalCareers** are US / California public-sector boards — run them only if relevant, or [disable them](#turning-sources-on--off).
 
-Give it 1–2 minutes, then open your `…/triage.html` URL. 🎉 Hard-refresh after each scrape to see new jobs.
+Give it 1–2 minutes, then open your `…/triage.html` URL. 🎉 Hard-refresh (ctrl+R) after each scrape to see new jobs.
 
 ## Step 6 — Phone notifications (optional)
 
-Get a push the moment a relevant new role appears, via [**Pushover**](https://pushover.net) (a simple, one-time \~\$5 app for [iOS](https://apps.apple.com/us/app/pushover-notifications/id506088175) / [Android](https://play.google.com/store/apps/details?id=net.superblock.pushover); the API is free): 1. Sign in at [pushover.net](https://pushover.net), **Create an Application/API Token** (any name) → copy the **API Token**. Copy your **User Key** from the dashboard home. 2. In your repo: **Settings → Secrets and variables → Actions → New repository secret** — add `PUSHOVER_TOKEN` and `PUSHOVER_USER`. 3. Test it: **Actions → Test Pushover Notification → Run workflow** — you should get a push within \~20 seconds. 4. (Optional) Add a repository **Variable** `NOTIFY_MIN_FIT` to tune instant high-fit pings. 5. (Optional) Add repository **Variable** `WEEKLY_DIGEST_PUSHOVER=true` to receive the weekly Pushover brief. You can also set `WEEKLY_DIGEST_DAYS` (default `7`).
+Get a push the moment a relevant new role appears, via [**Pushover**](https://pushover.net) (a simple, one-time \~\$5 app for [iOS](https://apps.apple.com/us/app/pushover-notifications/id506088175) / [Android](https://play.google.com/store/apps/details?id=net.superblock.pushover); the API is free):
+1. Sign in at [pushover.net](https://pushover.net), **Create an Application/API Token** (any name) → copy the **API Token**. Copy your **User Key** from the dashboard home.
+2. In your repo: **Settings → Secrets and variables → Actions → New repository secret** — add `PUSHOVER_TOKEN` and `PUSHOVER_USER`.
+3. Test it: **Actions → Test Pushover Notification → Run workflow** — you should get a push within \~20 seconds.
+4. (Optional) Add a repository **Variable** `NOTIFY_MIN_FIT` to tune instant high-fit pings.
+5. (Optional) Add repository **Variable** `WEEKLY_DIGEST_PUSHOVER=true` to receive the weekly Pushover brief. You can also set `WEEKLY_DIGEST_DAYS` (default `7`).
 
 Without these secrets, notifications are simply off and everything else works.
 
