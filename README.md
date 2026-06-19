@@ -24,13 +24,8 @@ Your personal config (`config.json`, `scoring_profile.json`) and all scraped dat
 
 > Can't fork because you already own this repo? Use Option C.
 
-### Option B — "Use this template" (standalone, no upstream link)
 
-If you see a green **Use this template → Create a new repository** button, click it for a clean copy with no git history. Simple to set up, but you won't get a Sync fork button — future improvements have to be pulled manually.
-
-> This button only appears when the repo owner has enabled **Settings → Template repository**.
-
-### Option C — Import (for same-account users or CLI preference)
+### Option B — Import (for same-account users or CLI preference)
 
 Use this when GitHub blocks forking because you already own the repo, or when you prefer the command line.
 
@@ -56,7 +51,7 @@ Use this when GitHub blocks forking because you already own the repo, or when yo
 
 ### Staying up to date (Options B and C)
 
-Forks (Option A) get GitHub's native Sync fork button. For B and C, pull improvements manually any time:
+Forks (Option A) get GitHub's native Sync fork button. For B, pull improvements manually any time:
 
 ```bash
 git remote add upstream https://github.com/ScottCoffin/Job_Scraper.git  # one-time setup
