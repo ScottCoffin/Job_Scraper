@@ -1,8 +1,8 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-06-18 22:58 UTC*
+*Last updated: 2026-06-18 23:56 UTC*
 
-**1 new role(s)** since last run · 5 total in last 1h
+**1 new role(s)** since last run · 2 total in last 1h
 
-### [Toxicology Director](https://www.linkedin.com/jobs/view/4429982477/) — Proclinical Staffing
-- 📍 **Location:** San Francisco Bay Area
+### [Environmental Compliance Coordinator](https://www.linkedin.com/jobs/view/4429381846/) — APWA Inland Empire Branch
+- 📍 **Location:** Corona, CA
 - 🕒 **Posted:** 2026-06-18
