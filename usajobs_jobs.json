@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-18 16:44 UTC",
-  "total": 12,
-  "new_count": 2,
+  "scraped_at": "2026-06-19 16:28 UTC",
+  "total": 9,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Consumer Product Safety Commission",
@@ -67,33 +67,6 @@
       "ats": "USAJOBS"
     },
     {
-      "company": "U.S. Marine Corps",
-      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
-      "location": "Jacksonville, North Carolina",
-      "url": "https://www.usajobs.gov/job/872813900",
-      "date_posted": "2026-06-12",
-      "salary": "Starting at $74,678 Per year (GS 11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "John C. Stennis Space Center",
-      "title": "Environmental Protection Specialist (Direct Hire)",
-      "location": "Stennis Space Center, Mississippi",
-      "url": "https://www.usajobs.gov/job/871675100",
-      "date_posted": "2026-06-11",
-      "salary": "Starting at $89,508 Per year (GS 12-13)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Bureau of Prisons/Federal Prison System",
-      "title": "Environmental Protection Specialist",
-      "location": "Texarkana, Texas",
-      "url": "https://www.usajobs.gov/job/871849500",
-      "date_posted": "2026-06-04",
-      "salary": "Starting at $74,678 Per year (GS 11)",
-      "ats": "USAJOBS"
-    },
-    {
       "company": "Consumer Product Safety Commission",
       "title": "Director for Hazard Identification",
       "location": "Bethesda, Maryland",
@@ -112,24 +85,5 @@
       "ats": "USAJOBS"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Federal Emergency Management Agency",
-      "title": "Environmental Protection Specialist (Environmental Specialist) - Reservist",
-      "location": "Salt Lake City, Utah",
-      "url": "https://www.usajobs.gov/job/873587300",
-      "date_posted": "2026-06-18",
-      "salary": "Starting at $29.27 Per hour (IM 1)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Defense Logistics Agency",
-      "title": "Environmental Protection Specialist",
-      "location": "Battle Creek, Michigan",
-      "url": "https://www.usajobs.gov/job/873512600",
-      "date_posted": "2026-06-17",
-      "salary": "Starting at $89,508 Per year (GS 12)",
-      "ats": "USAJOBS"
-    }
-  ]
+  "new_jobs": []
 }
