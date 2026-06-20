@@ -1,10 +1,9 @@
 name: Clear Job Data
 
-# Resets the accumulated job dataset so you can start fresh — useful when
-# you've changed search terms and want to purge old, irrelevant results.
-# Clears the rolling accumulator (all_jobs.json) and the Pushover dedup
-# tracker (notified.json). Per-source files are overwritten on the next
-# scheduled scraper run anyway and don't need to be cleared here.
+# Resets ALL scraped job data so you can start fresh — useful when you've
+# changed search terms and want to purge old, irrelevant results.
+# Clears every per-source JSON the dashboard reads, the rolling accumulator
+# (all_jobs.json), and the Pushover dedup tracker (notified.json).
 on:
   workflow_dispatch:
 
@@ -14,7 +13,7 @@ concurrency:
 
 jobs:
   clear:
-    name: Reset job data
+    name: Reset all job data
     runs-on: ubuntu-latest
 
     permissions:
@@ -24,7 +23,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Reset accumulator and notification tracker
+      - name: Reset all output JSON files
         run: |
           python - <<'EOF'
           import json, os
@@ -33,11 +32,33 @@ jobs:
           now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
           os.makedirs("output", exist_ok=True)
 
-          with open("output/all_jobs.json", "w") as f:
+          # Per-source files (same shape that save_jobs_output() writes)
+          source_files = [
+              "output/jobs.json",
+              "output/linkedin_jobs.json",
+              "output/indeed_jobs.json",
+              "output/glassdoor_jobs.json",
+              "output/ziprecruiter_jobs.json",
+              "output/google_jobs.json",
+              "output/hiringcafe_jobs.json",
+              "output/calcareers_jobs.json",
+              "output/usajobs_jobs.json",
+              "output/governmentjobs_jobs.json",
+              "output/calopps_jobs.json",
+          ]
+          empty_source = {"scraped_at": now, "total": 0, "new_count": 0, "jobs": [], "new_jobs": []}
+          for path in source_files:
+              with open(path, "w", encoding="utf-8") as f:
+                  json.dump(empty_source, f)
+              print(f"✅ {path} cleared")
+
+          # Accumulator (all_jobs.json)
+          with open("output/all_jobs.json", "w", encoding="utf-8") as f:
               json.dump({"updated_at": now, "jobs": []}, f)
           print("✅ output/all_jobs.json cleared")
 
-          with open("output/notified.json", "w") as f:
+          # Pushover dedup tracker
+          with open("output/notified.json", "w", encoding="utf-8") as f:
               json.dump({"ids": []}, f)
           print("✅ output/notified.json cleared")
           EOF
@@ -47,7 +68,7 @@ jobs:
         run: |
           git config user.name  "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add -f output/all_jobs.json output/notified.json
-          git diff --cached --quiet || git commit -m "chore: clear job data [$(date -u '+%Y-%m-%d %H:%MZ')]"
+          git add -f output/
+          git diff --cached --quiet || git commit -m "chore: clear all job data [$(date -u '+%Y-%m-%d %H:%MZ')]"
           git pull --rebase -X ours origin main
           git push
