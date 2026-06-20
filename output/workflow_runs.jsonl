@@ -48,3 +48,4 @@
 {"job_count": 84, "run_attempt": "2", "run_id": "27880601375", "timestamp": "2026-06-20T19:03:11Z", "workflow": "hiringcafe"}
 {"job_count": 0, "run_attempt": "2", "run_id": "27880896291", "timestamp": "2026-06-20T19:08:42Z", "workflow": "google_jobs"}
 {"job_count": 0, "run_attempt": "1", "run_id": "27881064452", "timestamp": "2026-06-20T19:10:23Z", "workflow": "glassdoor"}
+{"job_count": 6, "run_attempt": "1", "run_id": "27881213590", "timestamp": "2026-06-20T19:16:24Z", "workflow": "indeed"}
