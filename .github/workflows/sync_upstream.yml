@@ -1,9 +1,13 @@
 name: Sync from upstream
 
 # Pull the latest scraper/dashboard improvements from the source template repo.
-# Safe to run at any time — merges with -X ours so your config.json,
-# scoring_profile.json, and output/ data always take precedence over anything
-# in upstream on conflict.
+# Uses REBASE (not merge) so the fork stays "N commits ahead, 0 behind":
+#   • GitHub's "Sync fork" button then does a clean fast-forward and never
+#     shows the confusing "Discard N commits" prompt.
+#   • config.json, scoring_profile.json, and output/ are gitignored upstream
+#     so they are never present in upstream commits; rebasing replays your
+#     commits on top of upstream without touching your personal files.
+# -X ours auto-resolves any conflict by keeping this fork's version.
 #
 # UPSTREAM SOURCE: https://github.com/ScottCoffin/Job_Scraper
 # Do NOT point this at your own personal fork.
@@ -15,7 +19,7 @@ on:
 
 jobs:
   sync:
-    name: Merge upstream code improvements
+    name: Rebase onto upstream code improvements
     runs-on: ubuntu-latest
 
     permissions:
@@ -27,20 +31,27 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Merge from upstream
+      - name: Rebase onto upstream
         run: |
           git config user.name  "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git remote add upstream https://github.com/ScottCoffin/Job_Scraper.git
           git fetch upstream main
 
-          # Merge upstream code. -X ours resolves any conflicts by keeping this
-          # fork's version — most importantly, this preserves the fork's own
-          # output/ data files if upstream also has data committed there.
-          # Conflicts on code files (rare, only if you edited the same lines as
-          # upstream) are also resolved in the fork's favour; inspect the merge
-          # commit if you want to manually reconcile those.
-          git merge upstream/main --no-edit -X ours \
-            -m "chore: sync from upstream [$(date -u '+%Y-%m-%d')]"
-          git push origin main
+          # Rebase this fork's commits on top of upstream/main. After the
+          # force-push the fork is "ahead only" — no more diverged-branch
+          # warnings. -X ours auto-resolves conflicts in this fork's favour
+          # (should never trigger for config.json/scoring_profile.json since
+          # those files don't exist in upstream at all).
+          if git rebase upstream/main -X ours; then
+            git push --force-with-lease origin main
+          else
+            # Rebase failed despite -X ours (extremely unlikely). Fall back to
+            # a merge so the workflow doesn't error silently.
+            git rebase --abort
+            echo "⚠️  rebase failed; falling back to merge"
+            git merge upstream/main --no-edit -X ours \
+              -m "chore: sync from upstream [$(date -u '+%Y-%m-%d')]"
+            git push origin main
+          fi
           echo "✅ Synced successfully."

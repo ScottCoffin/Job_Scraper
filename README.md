@@ -16,13 +16,15 @@ You only need a free [**GitHub account**](https://github.com/signup). Everything
 
 ## Step 1 — Get your own copy of the repo
 
-Click **Fork** at the top of this page. You get a linked copy with GitHub's built-in **Sync fork** button — one click whenever this repo gets new scrapers, bug fixes, or dashboard features.
+Click **Fork** at the top of this page.
 
 Your personal config (`config.json`, `scoring_profile.json`) and all scraped data (`output/`) are gitignored in this upstream repo, so syncing will **never** overwrite your customizations.
 
 ### Staying up to date
 
-Enable the **`sync_upstream.yml`** workflow in your repo (**Actions → Sync from upstream → Enable workflow**) and it merges new code every Monday.
+Enable the **`sync_upstream.yml`** workflow in your repo (**Actions → Sync from upstream → Enable workflow**) and it rebases new code improvements every Monday.
+
+> **Use the workflow, not the GitHub "Sync fork" button.** Because your fork has commits upstream doesn't (your `config.json`, your scraped data), GitHub's built-in button shows "Discard N commits" — which would delete your config. The `sync_upstream.yml` workflow handles this correctly by rebasing your commits on top of upstream. The button is safe only before you've committed any personalization.
 
 > Always pull from `https://github.com/ScottCoffin/Job_Scraper` — never from someone else's personal fork.
 
@@ -42,7 +44,7 @@ You don't need to clone just to configure it — you can edit `config.json` dire
 
 This is the only file you need to change. Pick one:
 
-**First:** rename [`config.example.json`](config.example.json) to `config.json` in your repo (on GitHub: open the file → pencil → change filename at top → paste your edits → commit). 
+**First:** create `config.json` in your repo. On GitHub: click **Add file → Create new file**, name it `config.json`, then copy the contents of [`config.example.json`](config.example.json) in, edit, and commit. **Do not delete or rename `config.example.json`** — keeping it lets the sync workflow pull upstream improvements to the example without conflict.
 
 **A. Generate it from your CV (no coding).** Open [`docs/cv-to-config-prompt.md`](docs/cv-to-config-prompt.md), copy the prompt, and paste it into [**ChatGPT**](https://chat.openai.com), [**Claude**](https://claude.ai), or any chatbot together with your CV and your target locations. It returns a finished `config.json` ready to commit.
 

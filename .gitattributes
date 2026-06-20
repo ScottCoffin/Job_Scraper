@@ -1,1 +1,8 @@
 workflow_runs.jsonl merge=union
+
+# Fork-owner personal files — always keep the fork's version on any merge.
+# This is belt-and-suspenders: these files are gitignored upstream (so upstream
+# never commits them and conflicts should never arise), but the attribute
+# prevents surprises if a conflict somehow occurs anyway.
+config.json merge=ours
+scoring_profile.json merge=ours
