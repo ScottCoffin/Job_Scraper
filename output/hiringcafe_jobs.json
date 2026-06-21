@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-21 17:30 UTC",
+  "scraped_at": "2026-06-21 18:28 UTC",
   "total": 46,
-  "new_count": 2,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Department of Health and Human Services",
@@ -602,32 +602,5 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Other Agencies and Independent Organizations",
-      "title": "Pharmacologist/Physiologist/Toxicologist",
-      "location": "Rockville, Maryland, United States",
-      "url": "https://www.usajobs.gov/job/872778700",
-      "direct_url": "https://www.usajobs.gov/job/872778700",
-      "date_posted": "2026-06-11T15:06:50.420Z",
-      "description": "U.S. citizen required; Public Trust background investigation; degree in relevant biological/medical/veterinary/physical science or pharmacy with specified coursework; 1+ year specialized experience in toxicology/pharmacology/physiology analyses and report preparation; transcripts required.",
-      "salary": "$85k–$158k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Brown and Caldwell",
-      "title": "Environmental Scientist I - Stormwater",
-      "location": "Walnut Creek, California, United States",
-      "url": "https://recruiting2.ultipro.com/bro1018braca/JobBoard/a06992cf-10e7-4e24-8932-26d607a3049e/OpportunityDetail?opportunityId=bc7dc039-53b5-4b2a-8a59-2d50767089bc",
-      "direct_url": "https://recruiting2.ultipro.com/bro1018braca/JobBoard/a06992cf-10e7-4e24-8932-26d607a3049e/OpportunityDetail?opportunityId=bc7dc039-53b5-4b2a-8a59-2d50767089bc",
-      "date_posted": "2026-06-05T18:29:26.526Z",
-      "description": "Bachelor's in chemistry, physics, environmental or life sciences (or equivalent), 0-2 years environmental/life sciences experience, California driver's license, Excel/Word proficiency, strong written/verbal and quantitative skills, ability to perform field sampling and travel up to 50%.",
-      "salary": "$59k–$95k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "ats": "HiringCafe"
-    }
-  ]
+  "new_jobs": []
 }
