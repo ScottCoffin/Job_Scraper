@@ -218,6 +218,18 @@
   .note-row { display: flex; align-items: flex-start; gap: 6px; }
   .note-row .note-input { flex: 1; }
 
+  /* ---- Sector badge colors ---- */
+  .tag.sector-government  { background: rgba(34,197,94,0.13);  color: #4ade80; }
+  .tag.sector-academic    { background: rgba(59,130,246,0.15); color: #60a5fa; }
+  .tag.sector-non-profit  { background: rgba(234,179,8,0.15);  color: #fbbf24; }
+  .tag.sector-consulting  { background: rgba(249,115,22,0.15); color: #fb923c; }
+  .tag.sector-industry    { background: rgba(148,163,184,0.15);color: #94a3b8; }
+  :root[data-theme="light"] .tag.sector-government { color: #15803d; }
+  :root[data-theme="light"] .tag.sector-academic   { color: #1d4ed8; }
+  :root[data-theme="light"] .tag.sector-non-profit { color: #a16207; }
+  :root[data-theme="light"] .tag.sector-consulting { color: #c2410c; }
+  :root[data-theme="light"] .tag.sector-industry   { color: #475569; }
+
   /* ---- Score floor filter ---- */
   .score-ctl { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
   .score-ctl .rng { display: flex; align-items: center; gap: 6px; }
@@ -482,6 +494,10 @@
   <div class="controls-row">
     <span class="pillgroup-label">Work mode</span>
     <div id="filter-work" class="controls-row" style="gap:6px"></div>
+  </div>
+  <div class="controls-row">
+    <span class="pillgroup-label">Sector</span>
+    <div id="filter-sector" class="controls-row" style="gap:6px"></div>
   </div>
   <div class="controls-row">
     <span class="pillgroup-label">Posted</span>
@@ -749,6 +765,41 @@
     }
     return '';
   }
+
+  const SECTOR_NAMES = ['Government', 'Academic', 'Non-profit', 'Consulting', 'Industry'];
+
+  function classifySector(j) {
+    const src = j._src || j.ats || '';
+    const co  = (j.company || '').toLowerCase();
+
+    // Source is the strongest signal — these boards are sector-specific.
+    if (src === 'USAJOBS' || src === 'CalCareers' || src === 'NEOGOV' || src === 'CalOpps') return 'Government';
+    if (src === 'CSUCareers') return 'Academic';
+
+    // Company name heuristics (applied when posting comes from a general board).
+    // Government — agencies, departments, counties, cities.
+    if (/\b(u\.?s\.?\s+|state of |county of |city of |town of |port of )/i.test(j.company)) return 'Government';
+    if (/\b(department|agency|bureau|office|division|board|commission|authority|district)\b/.test(co)
+        && !/consulting|consultants|inc\.|llc|corp|ltd/.test(co)) return 'Government';
+    if (/\bepa\b|environmental protection agency|ca\.?\s*oehha|\bcdfw\b|\bcdtsc\b|\bswrcb\b|\bcarb\b|\bcdph\b|\bnoaa\b|\bnist\b|\bniehs\b|\bnih\b|\busgs\b|\bfda\b|\bnps\b|army corps|air force|navy |dept\. of /.test(co)) return 'Government';
+    if (/\b(county|municipalities|municipal)\b/.test(co) && !/inc\.|llc|corp/.test(co)) return 'Government';
+
+    // Academic — universities, colleges, research institutes attached to academia.
+    if (/\b(university|université|college|polytechnic|institute of technology|community college|school of medicine|graduate school)\b/.test(co)) return 'Academic';
+    if (/\b(uc |cal poly|caltech|stanford|mit |harvard|yale |ucla|ucsd|ucsb|uci |ucr |ucsc|ucd )\b/.test(co)) return 'Academic';
+
+    // Non-profit — foundations, conservancies, advocacy orgs, research NGOs.
+    if (/\b(foundation|conservancy|conservation|alliance|coalition|league|society|federation|greenpeace|audubon|sierra club|nature conservancy|natural resources defense|earthjustice|wildlife fund|environmental defense|waterkeeper|clean water|clean air|public interest)\b/.test(co)) return 'Non-profit';
+    if (/\b(institute|center|centre)\b/.test(co) && !/inc\.|llc|corp\.|ltd\.|consulting/.test(co)) return 'Non-profit';
+    if (/\bnon-?profit\b|\b501\s*\(?c\)?/.test(co)) return 'Non-profit';
+
+    // Consulting — environmental/engineering consultancies.
+    if (/\b(stantec|arcadis|ramboll|aecom|tetra\s*tech|brown and caldwell|cdm\s*smith|kleinfelder|exponent|hdr\b|wspa\b|golder|jacobs\b|wood\s*plc|arup\b|aptim\b|icf\b|roux\s*assoc|gradient\b|environ\b|gssi\b|scs\s*engineers)\b/.test(co)) return 'Consulting';
+    if (/\bconsult(ing|ant|ants|ancy)?\b/.test(co)) return 'Consulting';
+
+    return 'Industry';
+  }
+
   // ---------- Resume-fit scoring (client-side, deterministic) ----------
   // Weighted keywords from Dr. Coffin's specializations. Title matches count
   // ~3x (title is the strongest signal); company / agent "why" text also count.
@@ -971,10 +1022,11 @@
   }
 
   function enrich(j) {
-    j._role = classifyRole(j.title);
-    j._sen  = classifySeniority(j.title);
-    j._src  = classifySource(j);
-    j._work = classifyWorkArrangement(j);
+    j._role   = classifyRole(j.title);
+    j._sen    = classifySeniority(j.title);
+    j._src    = classifySource(j);
+    j._work   = classifyWorkArrangement(j);
+    j._sector = classifySector(j);
     // Agent verdict, when this URL has been scored (see scores.json).
     // A stored "error" verdict is a failed model call, not a judgment —
     // treat it as unscored so it doesn't masquerade as a real 0/100.
@@ -1267,6 +1319,7 @@
     role: new Set(),
     sen: new Set(),
     work: new Set(),
+    sector: new Set(),
     state: new Set(['active', 'saved', 'applied', 'interview', 'offer']),
     days: null,   // null = any time; else an integer day-window (7 = last 7 days)
     salMin: 0,    // minimum annual salary (USD); 0 = no floor
@@ -1314,9 +1367,10 @@
     // Merged cross-posts carry every source in _srcs (single jobs: [_src]).
     const srcs = j._srcs || [j._src];
     if (except !== 'source' && filters.source.size && !srcs.some(s => filters.source.has(s))) return false;
-    if (except !== 'role'   && filters.role.size   && !filters.role.has(j._role)) return false;
-    if (except !== 'sen'    && filters.sen.size    && !filters.sen.has(j._sen))   return false;
-    if (except !== 'work'   && filters.work.size   && !filters.work.has(j._work)) return false;
+    if (except !== 'role'   && filters.role.size   && !filters.role.has(j._role))     return false;
+    if (except !== 'sen'    && filters.sen.size    && !filters.sen.has(j._sen))       return false;
+    if (except !== 'work'   && filters.work.size   && !filters.work.has(j._work))     return false;
+    if (except !== 'sector' && filters.sector.size && !filters.sector.has(j._sector)) return false;
     if (except !== 'state') {
       const st = state.triage[j.url] || 'active';
       if (!filters.state.has(st)) return false;
@@ -1417,7 +1471,7 @@
     VIEW.forEach(j => {
       if (!matchesFilters(j, key)) return;          // honor every filter except this facet's
       if (key === 'source') { (j._srcs || [j._src]).forEach(s => counts[s] = (counts[s] || 0) + 1); return; }
-      const v = key === 'role' ? j._role : key === 'work' ? j._work : j._sen;
+      const v = key === 'role' ? j._role : key === 'work' ? j._work : key === 'sector' ? j._sector : j._sen;
       if (!v) return;
       counts[v] = (counts[v] || 0) + 1;
     });
@@ -1664,13 +1718,22 @@
 
   function exportVisibleCsv() {
     const rows = visibleJobs();
-    const header = ['status', 'title', 'company', 'location', 'sources', 'salary', 'fit', 'job_type', 'work_arrangement', 'remote', 'date_posted', 'note', 'url', 'direct_url'];
+    const header = [
+      'status', 'title', 'company', 'sector', 'location', 'sources', 'salary',
+      'fit_score', 'score_source', 'verdict', 'role_family', 'score_why',
+      'job_type', 'work_arrangement', 'remote', 'date_posted', 'role', 'seniority',
+      'note', 'url', 'direct_url',
+    ];
     const lines = [header.join(',')];
     rows.forEach(j => {
+      const rs = rankScore(j);
       lines.push([
-        jobStatus(j), j.title, j.company, j.location, (j._srcs || [j._src]).join('; '),
-        j._salDisp || j.salary || '', scoreMeta(j), j.job_type || '', j._work || j.work_arrangement || '', j.is_remote ? 'yes' : '',
-        j.date_posted || '', jobNote(j), j.url || '', j.direct_url || '',
+        jobStatus(j), j.title, j.company, j._sector || '', j.location,
+        (j._srcs || [j._src]).join('; '), j._salDisp || j.salary || '',
+        rs.value, rs.source, j._verdict || '', j._family || '', j._why || '',
+        j.job_type || '', j._work || j.work_arrangement || '', j.is_remote ? 'yes' : '',
+        j.date_posted || '', j._role || '', j._sen || '',
+        jobNote(j), j.url || '', j.direct_url || '',
       ].map(csvCell).join(','));
     });
     const blob = new Blob([lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
@@ -1803,7 +1866,7 @@
             ${typeBits ? `<span>${typeBits}</span>` : ''}
             ${j.date_posted ? `<span title="${escape(j.date_posted)}">🕒 ${escape(_fmtDate(j.date_posted))}</span>` : ''}
             ${score}
-            <span><span class="tag role">${j._role}</span><span class="tag">${j._sen}</span>${j._family ? `<span class="tag">${escape(j._family)}</span>` : ''}</span>
+            <span><span class="tag role">${j._role}</span><span class="tag">${j._sen}</span><span class="tag sector-${j._sector.toLowerCase().replace(/[\s\/]/g,'-')}">${escape(j._sector)}</span>${j._family ? `<span class="tag">${escape(j._family)}</span>` : ''}</span>
           </div>
           ${j._why ? `<div class="why">${escape(j._why)}</div>` : ''}
           <div class="note-row"><textarea class="note-input" data-note rows="1" placeholder="Notes, follow-up, contact, deadline...">${escape(note)}</textarea><div class="star-rating" title="Rate your interest (click to set, click again to clear)">${starBtns}</div></div>
@@ -2033,6 +2096,7 @@
     renderFilterGroup('filter-sen', 'sen',
       ['Director+', 'Principal', 'Staff', 'Senior', 'Mid', 'Associate']);
     renderFilterGroup('filter-work', 'work', WORK_MODES);
+    renderFilterGroup('filter-sector', 'sector', SECTOR_NAMES);
     renderDateFilter();
     renderStateFilter();
     renderSalaryControl();
@@ -2507,7 +2571,7 @@
   });
 
   $('clear-filters').onclick = () => {
-    filters.source.clear(); filters.role.clear(); filters.sen.clear(); filters.work.clear();
+    filters.source.clear(); filters.role.clear(); filters.sen.clear(); filters.work.clear(); filters.sector.clear();
     filters.state = new Set(['active', 'saved', 'applied', 'interview', 'offer']);
     filters.days = null;
     filters.salMin = 0; filters.salUnknown = false;
