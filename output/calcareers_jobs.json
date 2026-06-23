@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-06-22 17:44 UTC",
-  "total": 11,
+  "scraped_at": "2026-06-23 17:00 UTC",
+  "total": 12,
   "new_count": 0,
   "jobs": [
     {
@@ -100,18 +100,6 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "Department of Fish and Wildlife",
-      "title": "Environmental Scientist",
-      "location": "Humboldt County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=521674",
-      "date_posted": "2026-06-15",
-      "salary": "$4418.00 - $9321.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
       "company": "State Water Resources Control Board",
       "title": "Environmental Scientist",
       "location": "Sacramento County",
@@ -124,11 +112,35 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
+      "company": "Department of Pesticide Regulation",
+      "title": "Environmental Scientist",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=521907",
+      "date_posted": "2026-06-22",
+      "salary": "$4418.00 - $9321.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
       "company": "Environmental Health Hazard Assessment Office",
       "title": "Environmental Health Education and Community Science Program Specialist",
       "location": "United States",
       "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=518467",
       "date_posted": "2026-05-14",
+      "salary": "$7820.00 - $10732.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Senior Environmental Scientist (Specialist)",
+      "location": "San Joaquin County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=522382",
+      "date_posted": "2026-06-23",
       "salary": "$7820.00 - $10732.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
