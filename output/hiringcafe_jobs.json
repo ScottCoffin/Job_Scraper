@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-23 23:22 UTC",
+  "scraped_at": "2026-06-24 00:24 UTC",
   "total": 50,
-  "new_count": 2,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Department of Health and Human Services",
@@ -704,34 +704,5 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Pae",
-      "title": "Environmental Scientist",
-      "location": "Pittsburgh, Pennsylvania, United States",
-      "url": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-PA-Pittsburgh/Environmental-Scientist_R0164261",
-      "direct_url": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-PA-Pittsburgh/Environmental-Scientist_R0164261",
-      "date_posted": "2026-06-23T00:00:00.000Z",
-      "description": "Bachelor's in geology/engineering, valid driver license, 2+ years environmental experience (2-4 preferred), ability to travel and stay overnight, pass drug screen, work in PPE/respirator; 40-hour OSHA HAZWOPER available if needed.",
-      "salary": "$60k–$95k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Brown and Caldwell",
-      "title": "Environmental Scientist I - Stormwater",
-      "location": "Walnut Creek, California, United States",
-      "url": "https://recruiting2.ultipro.com/bro1018braca/JobBoard/a06992cf-10e7-4e24-8932-26d607a3049e/OpportunityDetail?opportunityId=bc7dc039-53b5-4b2a-8a59-2d50767089bc",
-      "direct_url": "https://recruiting2.ultipro.com/bro1018braca/JobBoard/a06992cf-10e7-4e24-8932-26d607a3049e/OpportunityDetail?opportunityId=bc7dc039-53b5-4b2a-8a59-2d50767089bc",
-      "date_posted": "2026-06-05T18:29:26.526Z",
-      "description": "Bachelor's in chemistry, physics, environmental or life sciences (or equivalent), 0-2 years environmental/life sciences experience, California driver's license, Excel/Word proficiency, strong written/verbal and quantitative skills, ability to perform field sampling and travel up to 50%.",
-      "salary": "$59k–$95k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
-      "ats": "HiringCafe"
-    }
-  ]
+  "new_jobs": []
 }
