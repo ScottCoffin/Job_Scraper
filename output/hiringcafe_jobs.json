@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-25 17:51 UTC",
-  "total": 52,
-  "new_count": 0,
+  "scraped_at": "2026-06-25 18:40 UTC",
+  "total": 53,
+  "new_count": 2,
   "jobs": [
     {
       "company": "Department of Health and Human Services",
@@ -46,17 +46,17 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Exponent",
-      "title": "Public Health Toxicologist (Ph.D.)",
-      "location": "Austin, Texas, United States",
-      "url": "https://careers-exponent.icims.com/jobs/2485/public-health-toxicologist-%28ph.d.%29/job?in_iframe=1",
-      "direct_url": "https://careers-exponent.icims.com/jobs/2485/public-health-toxicologist-%28ph.d.%29/job?in_iframe=1",
-      "date_posted": "2026-06-19T04:00:00.000Z",
-      "description": "Ph.D. in toxicology/public health or related field, strong human health toxicology and risk assessment expertise, excellent writing and communication, ability to manage multiple projects and work independently or in teams; must be authorized to work in the U.S.",
-      "salary": "",
+      "company": "J.S. Held LLC",
+      "title": "Principal Consulting Toxicologist",
+      "location": "Redmond, Washington, United States",
+      "url": "https://jobs.smartrecruiters.com/JSHeldLLC/744000134223365-principal-consulting-toxicologist",
+      "direct_url": "https://jobs.smartrecruiters.com/JSHeldLLC/744000134223365-principal-consulting-toxicologist",
+      "date_posted": "2026-06-25T10:04:22.093Z",
+      "description": "PhD in toxicology or related field, ~15+ years professional experience with consulting and leadership, testifying expert experience, deep toxicological risk assessment and regulatory expertise, strong business development and communication skills.",
+      "salary": "$150k–$300k/yr",
       "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
       "ats": "HiringCafe"
     },
     {
@@ -71,6 +71,20 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Exponent",
+      "title": "Public Health Toxicologist (Ph.D.)",
+      "location": "Austin, Texas, United States",
+      "url": "https://careers-exponent.icims.com/jobs/2485/public-health-toxicologist-%28ph.d.%29/job?in_iframe=1",
+      "direct_url": "https://careers-exponent.icims.com/jobs/2485/public-health-toxicologist-%28ph.d.%29/job?in_iframe=1",
+      "date_posted": "2026-06-19T04:00:00.000Z",
+      "description": "Ph.D. in toxicology/public health or related field, strong human health toxicology and risk assessment expertise, excellent writing and communication, ability to manage multiple projects and work independently or in teams; must be authorized to work in the U.S.",
+      "salary": "",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
       "ats": "HiringCafe"
     },
     {
@@ -172,14 +186,14 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Kimley-Horn",
-      "title": "Experienced Environmental Scientist",
-      "location": "Philadelphia, Pennsylvania, United States",
-      "url": "https://careers-kimley-horn.icims.com/jobs/24157/experienced-environmental-scientist/job?in_iframe=1",
-      "direct_url": "https://careers-kimley-horn.icims.com/jobs/24157/experienced-environmental-scientist/job?in_iframe=1",
-      "date_posted": "2026-05-28T04:00:00.000Z",
-      "description": "4+ years in environmental consulting; BS or MS in Environmental Science, Geology, Environmental Engineering, or related; strong regulatory knowledge; excellent writing; client-facing; willingness to travel ~40%.",
-      "salary": "",
+      "company": "Apex Companies",
+      "title": "Environmental Scientist",
+      "location": "Omaha or Nebraska or Iowa",
+      "url": "https://job-boards.greenhouse.io/apexcompanies/jobs/5278671008",
+      "direct_url": "https://job-boards.greenhouse.io/apexcompanies/jobs/5278671008",
+      "date_posted": "2026-06-24T22:26:49.000Z",
+      "description": "Bachelor's in a related scientific field, 2+ years environmental field sampling and data collection, HAZWOPER preferred, valid driver's license and reliable transportation, Microsoft 365 proficiency, technical writing skills.",
+      "salary": "$55k–$65k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -193,6 +207,20 @@
       "direct_url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/requisitions/job/89439",
       "date_posted": "2026-06-19T14:02:18.000Z",
       "description": "Bachelor's in environmental or related life science, 7+ years environmental science experience, knowledge of environmental laws and compliance, leadership and communication skills, proficiency with office technology, occasional travel.",
+      "salary": "",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Kimley-Horn",
+      "title": "Experienced Environmental Scientist",
+      "location": "Philadelphia, Pennsylvania, United States",
+      "url": "https://careers-kimley-horn.icims.com/jobs/24157/experienced-environmental-scientist/job?in_iframe=1",
+      "direct_url": "https://careers-kimley-horn.icims.com/jobs/24157/experienced-environmental-scientist/job?in_iframe=1",
+      "date_posted": "2026-05-28T04:00:00.000Z",
+      "description": "4+ years in environmental consulting; BS or MS in Environmental Science, Geology, Environmental Engineering, or related; strong regulatory knowledge; excellent writing; client-facing; willingness to travel ~40%.",
       "salary": "",
       "job_type": "Full Time",
       "is_remote": false,
@@ -340,20 +368,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "QK",
-      "title": "Senior Environmental Scientist",
-      "location": "Clovis, California, United States",
-      "url": "https://qk.breezy.hr/p/ed244794392a-senior-environmental-scientist",
-      "direct_url": "https://qk.breezy.hr/p/ed244794392a-senior-environmental-scientist",
-      "date_posted": "2026-06-24T19:55:12.571Z",
-      "description": "Bachelor's or Master's in a related field, 8+ years environmental consulting experience, strong knowledge of CEQA/NEPA/ESA/CWA and wetland delineations, project management, technical report writing, and valid driver's license.",
-      "salary": "$105k–$120k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Johnson, Mirmiran & Thompson, Inc.",
       "title": "Senior Environmental Scientist",
       "location": "Jacksonville, Florida, United States",
@@ -362,6 +376,20 @@
       "date_posted": "2026-06-05T18:16:04.721Z",
       "description": "Conduct environmental investigations, wetland impact analyses and permitting, ecological assessment/restoration, field data collection and sampling, GIS/GPS mapping, technical report writing, and project management/business development support.",
       "salary": "",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "QK",
+      "title": "Senior Environmental Scientist",
+      "location": "Clovis, California, United States",
+      "url": "https://qk.breezy.hr/p/ed244794392a-senior-environmental-scientist",
+      "direct_url": "https://qk.breezy.hr/p/ed244794392a-senior-environmental-scientist",
+      "date_posted": "2026-06-24T19:55:12.571Z",
+      "description": "Bachelor's or Master's in a related field, 8+ years environmental consulting experience, strong knowledge of CEQA/NEPA/ESA/CWA and wetland delineations, project management, technical report writing, and valid driver's license.",
+      "salary": "$105k–$120k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -690,20 +718,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Apex Companies",
-      "title": "Environmental Scientist 1",
-      "location": "Fullerton, California, United States",
-      "url": "https://job-boards.greenhouse.io/apexcompanies/jobs/5272472008",
-      "direct_url": "https://job-boards.greenhouse.io/apexcompanies/jobs/5272472008",
-      "date_posted": "2026-06-19T23:07:01.000Z",
-      "description": "Bachelor's in environmental science or related field required. Experience with environmental sampling, regulatory compliance, inspections, data management, Microsoft Office and ArcGIS. Valid CA driver's license and ability to lift 50 lbs.",
-      "salary": "$70k–$86k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "AECOM",
       "title": "Mid-level Environmental Scientist",
       "location": "San Jose, California, United States",
@@ -732,5 +746,34 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "J.S. Held LLC",
+      "title": "Principal Consulting Toxicologist",
+      "location": "Redmond, Washington, United States",
+      "url": "https://jobs.smartrecruiters.com/JSHeldLLC/744000134223365-principal-consulting-toxicologist",
+      "direct_url": "https://jobs.smartrecruiters.com/JSHeldLLC/744000134223365-principal-consulting-toxicologist",
+      "date_posted": "2026-06-25T10:04:22.093Z",
+      "description": "PhD in toxicology or related field, ~15+ years professional experience with consulting and leadership, testifying expert experience, deep toxicological risk assessment and regulatory expertise, strong business development and communication skills.",
+      "salary": "$150k–$300k/yr",
+      "job_type": "Full Time",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Apex Companies",
+      "title": "Environmental Scientist",
+      "location": "Omaha or Nebraska or Iowa",
+      "url": "https://job-boards.greenhouse.io/apexcompanies/jobs/5278671008",
+      "direct_url": "https://job-boards.greenhouse.io/apexcompanies/jobs/5278671008",
+      "date_posted": "2026-06-24T22:26:49.000Z",
+      "description": "Bachelor's in a related scientific field, 2+ years environmental field sampling and data collection, HAZWOPER preferred, valid driver's license and reliable transportation, Microsoft 365 proficiency, technical writing skills.",
+      "salary": "$55k–$65k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    }
+  ]
 }
