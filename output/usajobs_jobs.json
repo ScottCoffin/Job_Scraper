@@ -1,8 +1,26 @@
 {
-  "scraped_at": "2026-06-25 16:26 UTC",
-  "total": 5,
-  "new_count": 0,
+  "scraped_at": "2026-06-26 16:24 UTC",
+  "total": 7,
+  "new_count": 2,
   "jobs": [
+    {
+      "company": "Veterans Health Administration",
+      "title": "Environmental Protection Specialist",
+      "location": "New York, New York",
+      "url": "https://www.usajobs.gov/job/874440500",
+      "date_posted": "2026-06-26",
+      "salary": "Starting at $88,005 Per year (GS 11)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Defense Logistics Agency",
+      "title": "Environmental Protection Specialist",
+      "location": "Battle Creek, Michigan",
+      "url": "https://www.usajobs.gov/job/874442800",
+      "date_posted": "2026-06-25",
+      "salary": "Starting at $89,508 Per year (GS 12)",
+      "ats": "USAJOBS"
+    },
     {
       "company": "United States Army Installation Management Command",
       "title": "Environmental Protection Specialist",
@@ -49,5 +67,24 @@
       "ats": "USAJOBS"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Veterans Health Administration",
+      "title": "Environmental Protection Specialist",
+      "location": "New York, New York",
+      "url": "https://www.usajobs.gov/job/874440500",
+      "date_posted": "2026-06-26",
+      "salary": "Starting at $88,005 Per year (GS 11)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Defense Logistics Agency",
+      "title": "Environmental Protection Specialist",
+      "location": "Battle Creek, Michigan",
+      "url": "https://www.usajobs.gov/job/874442800",
+      "date_posted": "2026-06-25",
+      "salary": "Starting at $89,508 Per year (GS 12)",
+      "ats": "USAJOBS"
+    }
+  ]
 }
