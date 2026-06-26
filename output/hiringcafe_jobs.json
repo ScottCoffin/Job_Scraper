@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-26 21:27 UTC",
-  "total": 54,
-  "new_count": 0,
+  "scraped_at": "2026-06-26 22:24 UTC",
+  "total": 55,
+  "new_count": 1,
   "jobs": [
     {
       "company": "State of Washington",
@@ -298,20 +298,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Arcadis",
-      "title": "Environmental Scientist",
-      "location": "Bluefield, Virginia, United States",
-      "url": "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/41739",
-      "direct_url": "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/41739",
-      "date_posted": "2026-06-15T13:57:24.000Z",
-      "description": "Bachelor's in Geology or Environmental Science required. Primarily field work (95–100%), experience with remediation sampling, H&S focus, valid clean driver’s license, pass background and drug tests; 40-hour HAZWOPER preferred; MS Office proficiency.",
-      "salary": "$50k–$75k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "BGE, Inc",
       "title": "Environmental Scientist",
       "location": "Frisco, Texas, United States",
@@ -320,6 +306,20 @@
       "date_posted": "2026-06-25T17:13:32.000Z",
       "description": "Bachelor's or Master's in environmental science/ecology/biology/geology, 1+ years relevant experience (Phase I/II ESAs, wetlands, ecological surveys), MS Office proficiency, ArcGIS knowledge preferred, strong writing/communication, willingness to travel and perform fieldwork.",
       "salary": "",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Arcadis",
+      "title": "Environmental Scientist",
+      "location": "Bluefield, Virginia, United States",
+      "url": "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/41739",
+      "direct_url": "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/41739",
+      "date_posted": "2026-06-15T13:57:24.000Z",
+      "description": "Bachelor's in Geology or Environmental Science required. Primarily field work (95–100%), experience with remediation sampling, H&S focus, valid clean driver’s license, pass background and drug tests; 40-hour HAZWOPER preferred; MS Office proficiency.",
+      "salary": "$50k–$75k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -348,6 +348,20 @@
       "date_posted": "2026-06-25T00:00:00.000Z",
       "description": "Bachelor's in an environmental/physical/biological science or related field and minimum 2 years environmental science/engineering experience; knowledge of environmental laws/regulations, ability to analyze data, conduct inspections, prepare technical documents, and communicate findings.",
       "salary": "$82k–$93k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Canacre",
+      "title": "Senior Environmental Scientist",
+      "location": "Raleigh, North Carolina, United States",
+      "url": "https://careers2-quanta.icims.com/jobs/16589/senior-environmental-scientist/job?in_iframe=1",
+      "direct_url": "https://careers2-quanta.icims.com/jobs/16589/senior-environmental-scientist/job?in_iframe=1",
+      "date_posted": "2026-06-26T04:00:00.000Z",
+      "description": "Requires a bachelor’s (master’s preferred) in environmental science/ecology/environmental planning or related, 2+ years relevant experience, familiarity with GIS, Microsoft Office proficiency, fieldwork capability, and strong communication skills.",
+      "salary": "",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -505,20 +519,6 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "Telecommute eligible",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Spheros Environmental",
-      "title": "Environmental Scientist I/II",
-      "location": "Springfield or Chicago or United States",
-      "url": "https://secure7.saashr.com/ta/6203043.careers?ShowJob=604475169",
-      "direct_url": "https://secure7.saashr.com/ta/6203043.careers?ShowJob=604475169",
-      "date_posted": "2026-06-18T01:47:11.696Z",
-      "description": "Bachelor's in environmental science or related field required; 1+ years professional experience preferred. Experience with environmental monitoring, scientific instrumentation, telemetry, GIS (ESRI ArcPro), Microsoft Office/Excel, data management, and valid driver's license required.",
-      "salary": "$52k–$73k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
       "ats": "HiringCafe"
     },
     {
@@ -732,6 +732,20 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "Spheros Environmental",
+      "title": "Environmental Scientist I/II",
+      "location": "Springfield or Chicago or United States",
+      "url": "https://secure7.saashr.com/ta/6203043.careers?ShowJob=604475169",
+      "direct_url": "https://secure7.saashr.com/ta/6203043.careers?ShowJob=604475169",
+      "date_posted": "2026-06-18T01:47:11.696Z",
+      "description": "Bachelor's in environmental science or related field required; 1+ years professional experience preferred. Experience with environmental monitoring, scientific instrumentation, telemetry, GIS (ESRI ArcPro), Microsoft Office/Excel, data management, and valid driver's license required.",
+      "salary": "$52k–$73k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "AECOM",
       "title": "Mid-level Environmental Scientist",
       "location": "San Jose, California, United States",
@@ -760,5 +774,20 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Canacre",
+      "title": "Senior Environmental Scientist",
+      "location": "Raleigh, North Carolina, United States",
+      "url": "https://careers2-quanta.icims.com/jobs/16589/senior-environmental-scientist/job?in_iframe=1",
+      "direct_url": "https://careers2-quanta.icims.com/jobs/16589/senior-environmental-scientist/job?in_iframe=1",
+      "date_posted": "2026-06-26T04:00:00.000Z",
+      "description": "Requires a bachelor’s (master’s preferred) in environmental science/ecology/environmental planning or related, 2+ years relevant experience, familiarity with GIS, Microsoft Office proficiency, fieldwork capability, and strong communication skills.",
+      "salary": "",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    }
+  ]
 }
