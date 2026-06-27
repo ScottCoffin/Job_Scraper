@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-27 20:22 UTC",
+  "scraped_at": "2026-06-27 21:21 UTC",
   "total": 53,
   "new_count": 0,
   "jobs": [
@@ -144,20 +144,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "GEI Consultants",
-      "title": "Environmental Scientist",
-      "location": "New York, New York, United States",
-      "url": "https://jobs.jobvite.com/gei-consultants/job/oRm3zfwz?nl=1&fr=true",
-      "direct_url": "https://jobs.jobvite.com/gei-consultants/job/oRm3zfwz?nl=1&fr=true",
-      "date_posted": "2026-06-10T20:14:09.699Z",
-      "description": "B.S. in Environmental Science/Geology/Engineering, 3+ years environmental consulting experience, field remedial action oversight, 40-hour HAZWOPER and OSHA 30 training, proficiency with Microsoft Office and spatial tools, valid U.S. driver’s license, willingness to travel to NYC sites.",
-      "salary": "$79k–$92k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Trilon Group",
       "title": "Environmental Scientist I",
       "location": "Waynesburg, Pennsylvania, United States",
@@ -169,6 +155,20 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "GEI Consultants",
+      "title": "Environmental Scientist",
+      "location": "New York, New York, United States",
+      "url": "https://jobs.jobvite.com/gei-consultants/job/oRm3zfwz?nl=1&fr=true",
+      "direct_url": "https://jobs.jobvite.com/gei-consultants/job/oRm3zfwz?nl=1&fr=true",
+      "date_posted": "2026-06-10T20:14:09.699Z",
+      "description": "B.S. in Environmental Science/Geology/Engineering, 3+ years environmental consulting experience, field remedial action oversight, 40-hour HAZWOPER and OSHA 30 training, proficiency with Microsoft Office and spatial tools, valid U.S. driver’s license, willingness to travel to NYC sites.",
+      "salary": "$79k–$92k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
       "ats": "HiringCafe"
     },
     {
@@ -298,20 +298,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "BGE, Inc",
-      "title": "Environmental Scientist",
-      "location": "Frisco, Texas, United States",
-      "url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
-      "direct_url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
-      "date_posted": "2026-06-25T17:13:32.000Z",
-      "description": "Bachelor's or Master's in environmental science/ecology/biology/geology, 1+ years relevant experience (Phase I/II ESAs, wetlands, ecological surveys), MS Office proficiency, ArcGIS knowledge preferred, strong writing/communication, willingness to travel and perform fieldwork.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Arcadis",
       "title": "Environmental Scientist",
       "location": "Bluefield, Virginia, United States",
@@ -326,14 +312,14 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Ri",
-      "title": "ENVIRONMENTAL SCIENTIST II",
-      "location": "Rhode Island or United States",
-      "url": "https://ri.wd5.myworkdayjobs.com/ri/job/Cannon-Building/ENVIRONMENTAL-SCIENTIST-II_JR103206",
-      "direct_url": "https://ri.wd5.myworkdayjobs.com/ri/job/Cannon-Building/ENVIRONMENTAL-SCIENTIST-II_JR103206",
-      "date_posted": "2026-06-25T00:00:00.000Z",
-      "description": "Bachelor's in an environmental/physical/biological science or related field and minimum 2 years environmental science/engineering experience; knowledge of environmental laws/regulations, ability to analyze data, conduct inspections, prepare technical documents, and communicate findings.",
-      "salary": "$82k–$93k/yr",
+      "company": "BGE, Inc",
+      "title": "Environmental Scientist",
+      "location": "Frisco, Texas, United States",
+      "url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
+      "direct_url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
+      "date_posted": "2026-06-25T17:13:32.000Z",
+      "description": "Bachelor's or Master's in environmental science/ecology/biology/geology, 1+ years relevant experience (Phase I/II ESAs, wetlands, ecological surveys), MS Office proficiency, ArcGIS knowledge preferred, strong writing/communication, willingness to travel and perform fieldwork.",
+      "salary": "",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -348,6 +334,20 @@
       "date_posted": "2026-06-24T18:43:25.000Z",
       "description": "Bachelor's in environmental science or related field, 1+ years post-education environmental field experience, GIS and Trimble GPS experience, knowledge of environmental laws, field sampling and data analysis skills, strong communication and safety compliance.",
       "salary": "$77k–$90k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Ri",
+      "title": "ENVIRONMENTAL SCIENTIST II",
+      "location": "Rhode Island or United States",
+      "url": "https://ri.wd5.myworkdayjobs.com/ri/job/Cannon-Building/ENVIRONMENTAL-SCIENTIST-II_JR103206",
+      "direct_url": "https://ri.wd5.myworkdayjobs.com/ri/job/Cannon-Building/ENVIRONMENTAL-SCIENTIST-II_JR103206",
+      "date_posted": "2026-06-25T00:00:00.000Z",
+      "description": "Bachelor's in an environmental/physical/biological science or related field and minimum 2 years environmental science/engineering experience; knowledge of environmental laws/regulations, ability to analyze data, conduct inspections, prepare technical documents, and communicate findings.",
+      "salary": "$82k–$93k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
