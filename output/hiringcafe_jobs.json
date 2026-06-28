@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-28 01:40 UTC",
+  "scraped_at": "2026-06-28 03:02 UTC",
   "total": 53,
   "new_count": 0,
   "jobs": [
@@ -74,20 +74,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Exponent",
-      "title": "Public Health Toxicologist (Ph.D.)",
-      "location": "Austin, Texas, United States",
-      "url": "https://careers-exponent.icims.com/jobs/2485/public-health-toxicologist-%28ph.d.%29/job?in_iframe=1",
-      "direct_url": "https://careers-exponent.icims.com/jobs/2485/public-health-toxicologist-%28ph.d.%29/job?in_iframe=1",
-      "date_posted": "2026-06-19T04:00:00.000Z",
-      "description": "Ph.D. in toxicology/public health or related field, strong human health toxicology and risk assessment expertise, excellent writing and communication, ability to manage multiple projects and work independently or in teams; must be authorized to work in the U.S.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "GSI Environmental Inc.",
       "title": "Senior Risk Assessor/Toxicologist",
       "location": "Houston or Austin or Irvine or San Francisco or Folsom or Olympia or Missoula or Helena or Lakewood or Raleigh or Syracuse",
@@ -99,6 +85,20 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Exponent",
+      "title": "Public Health Toxicologist (Ph.D.)",
+      "location": "Austin, Texas, United States",
+      "url": "https://careers-exponent.icims.com/jobs/2485/public-health-toxicologist-%28ph.d.%29/job?in_iframe=1",
+      "direct_url": "https://careers-exponent.icims.com/jobs/2485/public-health-toxicologist-%28ph.d.%29/job?in_iframe=1",
+      "date_posted": "2026-06-19T04:00:00.000Z",
+      "description": "Ph.D. in toxicology/public health or related field, strong human health toxicology and risk assessment expertise, excellent writing and communication, ability to manage multiple projects and work independently or in teams; must be authorized to work in the U.S.",
+      "salary": "",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
       "ats": "HiringCafe"
     },
     {
@@ -298,20 +298,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "BGE, Inc",
-      "title": "Environmental Scientist",
-      "location": "Frisco, Texas, United States",
-      "url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
-      "direct_url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
-      "date_posted": "2026-06-25T17:13:32.000Z",
-      "description": "Bachelor's or Master's in environmental science/ecology/biology/geology, 1+ years relevant experience (Phase I/II ESAs, wetlands, ecological surveys), MS Office proficiency, ArcGIS knowledge preferred, strong writing/communication, willingness to travel and perform fieldwork.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Arcadis",
       "title": "Environmental Scientist",
       "location": "Bluefield, Virginia, United States",
@@ -320,6 +306,20 @@
       "date_posted": "2026-06-15T13:57:24.000Z",
       "description": "Bachelor's in Geology or Environmental Science required. Primarily field work (95–100%), experience with remediation sampling, H&S focus, valid clean driver’s license, pass background and drug tests; 40-hour HAZWOPER preferred; MS Office proficiency.",
       "salary": "$50k–$75k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "BGE, Inc",
+      "title": "Environmental Scientist",
+      "location": "Frisco, Texas, United States",
+      "url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
+      "direct_url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
+      "date_posted": "2026-06-25T17:13:32.000Z",
+      "description": "Bachelor's or Master's in environmental science/ecology/biology/geology, 1+ years relevant experience (Phase I/II ESAs, wetlands, ecological surveys), MS Office proficiency, ArcGIS knowledge preferred, strong writing/communication, willingness to travel and perform fieldwork.",
+      "salary": "",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -410,20 +410,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "QK",
-      "title": "Senior Environmental Scientist",
-      "location": "Clovis, California, United States",
-      "url": "https://qk.breezy.hr/p/ed244794392a-senior-environmental-scientist",
-      "direct_url": "https://qk.breezy.hr/p/ed244794392a-senior-environmental-scientist",
-      "date_posted": "2026-06-24T19:55:12.571Z",
-      "description": "Bachelor's or Master's in a related field, 8+ years environmental consulting experience, strong knowledge of CEQA/NEPA/ESA/CWA and wetland delineations, project management, technical report writing, and valid driver's license.",
-      "salary": "$105k–$120k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Johnson, Mirmiran & Thompson, Inc.",
       "title": "Senior Environmental Scientist",
       "location": "Jacksonville, Florida, United States",
@@ -432,6 +418,20 @@
       "date_posted": "2026-06-05T18:16:04.721Z",
       "description": "Conduct environmental investigations, wetland impact analyses and permitting, ecological assessment/restoration, field data collection and sampling, GIS/GPS mapping, technical report writing, and project management/business development support.",
       "salary": "",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "QK",
+      "title": "Senior Environmental Scientist",
+      "location": "Clovis, California, United States",
+      "url": "https://qk.breezy.hr/p/ed244794392a-senior-environmental-scientist",
+      "direct_url": "https://qk.breezy.hr/p/ed244794392a-senior-environmental-scientist",
+      "date_posted": "2026-06-24T19:55:12.571Z",
+      "description": "Bachelor's or Master's in a related field, 8+ years environmental consulting experience, strong knowledge of CEQA/NEPA/ESA/CWA and wetland delineations, project management, technical report writing, and valid driver's license.",
+      "salary": "$105k–$120k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -477,6 +477,20 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Freeport-McMoRan",
+      "title": "Environmental Scientist II",
+      "location": "Phoenix or Tucson",
+      "url": "https://talent.fmjobs.com/careers/job/42580930",
+      "direct_url": "https://talent.fmjobs.com/careers/job/42580930",
+      "date_posted": "2026-06-24T15:41:01.000Z",
+      "description": "Bachelor's in related field plus 3 years' environmental experience OR Master's plus 1 year. Certifications such as HAZWOPER, Method 9, DOT, EMS Auditor, asbestos, water treatment operator, or CHMM may be required. Willingness to travel and perform fieldwork; project management and data analysis experience preferred.",
+      "salary": "$88k–$120k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
       "ats": "HiringCafe"
     },
     {
@@ -670,20 +684,6 @@
       "date_posted": "2026-06-16T00:00:00.000Z",
       "description": "Working knowledge of nuclear physics, radioactive materials handling, internal dosimetry, radiation detection and calibration, dose and shielding calculations, knowledge of Utah Radiation Control rules and US NRC regs, and strong oral/written communication skills.",
       "salary": "$53k–$109k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Freeport-McMoRan",
-      "title": "Environmental Scientist II",
-      "location": "Phoenix or Tucson",
-      "url": "https://talent.fmjobs.com/careers/job/42580930",
-      "direct_url": "https://talent.fmjobs.com/careers/job/42580930",
-      "date_posted": "2026-06-24T15:41:01.000Z",
-      "description": "Bachelor's in related field plus 3 years' environmental experience OR Master's plus 1 year. Certifications such as HAZWOPER, Method 9, DOT, EMS Auditor, asbestos, water treatment operator, or CHMM may be required. Willingness to travel and perform fieldwork; project management and data analysis experience preferred.",
-      "salary": "$88k–$120k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "Telecommute eligible",
