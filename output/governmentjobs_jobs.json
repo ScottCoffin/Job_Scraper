@@ -1,15 +1,24 @@
 {
-  "scraped_at": "2026-06-29 17:17 UTC",
-  "total": 9,
-  "new_count": 4,
+  "scraped_at": "2026-06-30 17:09 UTC",
+  "total": 11,
+  "new_count": 5,
   "jobs": [
     {
-      "company": "Los Angeles County Metropolitan Transportation Authority (CA)",
-      "title": "SENIOR ENVIRONMENTAL SPECIALIST (ENVIRONMENTAL COMPLIANCE)",
-      "location": "Los Angeles, CA",
-      "url": "https://www.governmentjobs.com/jobs/5390949-0/senior-environmental-specialist-environmental-compliance",
+      "company": "County of Mendocino",
+      "title": "Environmental Health Specialist I",
+      "location": "Ukiah, CA",
+      "url": "https://www.governmentjobs.com/jobs/5390864-0/environmental-health-specialist-i",
       "date_posted": "",
-      "salary": "$95,056.00 - $142,521.60 Annually",
+      "salary": "$60,403.20 - $73,403.20 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Mendocino",
+      "title": "Environmental Health Specialist II",
+      "location": "Ukiah, CA",
+      "url": "https://www.governmentjobs.com/jobs/5390899-0/environmental-health-specialist-ii",
+      "date_posted": "",
+      "salary": "$66,601.60 - $80,932.80 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -31,12 +40,21 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "San Bernardino County",
-      "title": "Environmental Health Specialist III - Childhood Lead Poisoning Prevention Program",
-      "location": "Throughout San Bernardino County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5305664-0/environmental-health-specialist-iii-childhood-lead-poisoning-prevention-program",
+      "company": "City of Eureka",
+      "title": "Water Quality Supervisor",
+      "location": "WWTP - 4301 Hilfiker Lane Eureka CA 95501, CA",
+      "url": "https://www.governmentjobs.com/jobs/5392061-0/water-quality-supervisor",
       "date_posted": "",
-      "salary": "$76,918.40 - $111,155.20 Annually",
+      "salary": "$69,300.00 - $84,228.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Bay Area Air District",
+      "title": "Air Quality Specialist I/II - Field Inspector",
+      "location": "San Francisco, CA",
+      "url": "https://www.governmentjobs.com/jobs/5380198-0/air-quality-specialist-i-ii-field-inspector",
+      "date_posted": "",
+      "salary": "$103,401.49 - $138,567.88 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -46,24 +64,6 @@
       "url": "https://www.governmentjobs.com/jobs/145523-1/air-quality-permit-coordinator-administrative-specialist-1",
       "date_posted": "",
       "salary": "$3,797.00 - $5,190.00 Monthly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "San Bernardino County",
-      "title": "Hazardous Materials Specialist I (Fire District)",
-      "location": "Throughout San Bernardino County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5379168-0/hazardous-materials-specialist-i-fire-district",
-      "date_posted": "",
-      "salary": "$73,486.40 - $98,737.60 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "San Bernardino County",
-      "title": "Hazardous Materials Specialist II (Fire District)",
-      "location": "Throughout San Bernardino County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5379179-0/hazardous-materials-specialist-ii-fire-district",
-      "date_posted": "",
-      "salary": "$77,209.60 - $103,812.80 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -83,9 +83,7 @@
       "date_posted": "",
       "salary": "$83,408.00 - $111,758.40 Annually",
       "ats": "NEOGOV"
-    }
-  ],
-  "new_jobs": [
+    },
     {
       "company": "Los Angeles County Metropolitan Transportation Authority (CA)",
       "title": "SENIOR ENVIRONMENTAL SPECIALIST (ENVIRONMENTAL COMPLIANCE)",
@@ -96,30 +94,59 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "San Bernardino County",
-      "title": "Environmental Health Specialist III - Childhood Lead Poisoning Prevention Program",
-      "location": "Throughout San Bernardino County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5305664-0/environmental-health-specialist-iii-childhood-lead-poisoning-prevention-program",
+      "company": "County of Napa",
+      "title": "Senior Environmental Health Specialist",
+      "location": "Napa, CA",
+      "url": "https://www.governmentjobs.com/jobs/5381149-0/senior-environmental-health-specialist",
       "date_posted": "",
-      "salary": "$76,918.40 - $111,155.20 Annually",
+      "salary": "$109,428.80 - $130,936.00 Annually",
+      "ats": "NEOGOV"
+    }
+  ],
+  "new_jobs": [
+    {
+      "company": "County of Mendocino",
+      "title": "Environmental Health Specialist I",
+      "location": "Ukiah, CA",
+      "url": "https://www.governmentjobs.com/jobs/5390864-0/environmental-health-specialist-i",
+      "date_posted": "",
+      "salary": "$60,403.20 - $73,403.20 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "San Bernardino County",
-      "title": "Hazardous Materials Specialist I (Fire District)",
-      "location": "Throughout San Bernardino County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5379168-0/hazardous-materials-specialist-i-fire-district",
+      "company": "County of Mendocino",
+      "title": "Environmental Health Specialist II",
+      "location": "Ukiah, CA",
+      "url": "https://www.governmentjobs.com/jobs/5390899-0/environmental-health-specialist-ii",
       "date_posted": "",
-      "salary": "$73,486.40 - $98,737.60 Annually",
+      "salary": "$66,601.60 - $80,932.80 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "San Bernardino County",
-      "title": "Hazardous Materials Specialist II (Fire District)",
-      "location": "Throughout San Bernardino County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5379179-0/hazardous-materials-specialist-ii-fire-district",
+      "company": "City of Eureka",
+      "title": "Water Quality Supervisor",
+      "location": "WWTP - 4301 Hilfiker Lane Eureka CA 95501, CA",
+      "url": "https://www.governmentjobs.com/jobs/5392061-0/water-quality-supervisor",
       "date_posted": "",
-      "salary": "$77,209.60 - $103,812.80 Annually",
+      "salary": "$69,300.00 - $84,228.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Bay Area Air District",
+      "title": "Air Quality Specialist I/II - Field Inspector",
+      "location": "San Francisco, CA",
+      "url": "https://www.governmentjobs.com/jobs/5380198-0/air-quality-specialist-i-ii-field-inspector",
+      "date_posted": "",
+      "salary": "$103,401.49 - $138,567.88 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Napa",
+      "title": "Senior Environmental Health Specialist",
+      "location": "Napa, CA",
+      "url": "https://www.governmentjobs.com/jobs/5381149-0/senior-environmental-health-specialist",
+      "date_posted": "",
+      "salary": "$109,428.80 - $130,936.00 Annually",
       "ats": "NEOGOV"
     }
   ]
