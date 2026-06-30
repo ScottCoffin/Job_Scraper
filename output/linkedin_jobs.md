@@ -1,9 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-06-30 02:36 UTC*
+*Last updated: 2026-06-30 03:36 UTC*
 
 **1 new role(s)** since last run · 1 total in last 1h
 
-### [Risk Assessment Associate (Youth AI Safety Institute)](https://www.linkedin.com/jobs/view/4422667487/) — Common Sense Media
-- 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $30.00–$38.00 per hour
+### [Scientist I, Investigative Toxicology](https://www.linkedin.com/jobs/view/4434185857/) — Revolution Medicines
+- 📍 **Location:** San Francisco Bay Area
+- 💰 **Salary:** $119,000 - $149,000 USD
 - 🕒 **Posted:** 2026-06-30
