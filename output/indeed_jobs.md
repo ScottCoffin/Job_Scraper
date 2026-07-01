@@ -1,6 +1,11 @@
 # 🟦 Indeed — Environmental / Toxicology Roles
-*Last updated: 2026-07-01 17:29 UTC*
+*Last updated: 2026-07-01 18:28 UTC*
 
-**0 new role(s)** since last run · 3 total in last 24h
+**1 new role(s)** since last run · 4 total in last 24h
 
-No new roles since the last run.
+### [Hazardous Materials Specialist I/II/III (Open & Promotional)](https://www.indeed.com/viewjob?jk=3c96e91ce247e5eb) — County of San Mateo
+- 📍 **Location:** San Mateo, CA, US
+- 💰 **Salary:** $7959–$12k/mo
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-07-01
