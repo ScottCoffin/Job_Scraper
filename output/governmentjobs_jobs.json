@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-30 17:09 UTC",
-  "total": 11,
-  "new_count": 5,
+  "scraped_at": "2026-07-01 17:12 UTC",
+  "total": 14,
+  "new_count": 4,
   "jobs": [
     {
       "company": "County of Mendocino",
@@ -27,7 +27,7 @@
       "location": "Lake County, CA",
       "url": "https://www.governmentjobs.com/jobs/5389197-0/environmental-health-specialist-supervisor-i-ii",
       "date_posted": "",
-      "salary": "$80,142.40 - $102,356.80 Annually",
+      "salary": "$82,950.40 - $105,934.40 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -37,15 +37,6 @@
       "url": "https://www.governmentjobs.com/jobs/5363001-0/environmental-health-specialist-iii-hazardous-materials-division-26472306hmd",
       "date_posted": "",
       "salary": "$94,286.40 - $115,814.40 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Eureka",
-      "title": "Water Quality Supervisor",
-      "location": "WWTP - 4301 Hilfiker Lane Eureka CA 95501, CA",
-      "url": "https://www.governmentjobs.com/jobs/5392061-0/water-quality-supervisor",
-      "date_posted": "",
-      "salary": "$69,300.00 - $84,228.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -64,6 +55,51 @@
       "url": "https://www.governmentjobs.com/jobs/145523-1/air-quality-permit-coordinator-administrative-specialist-1",
       "date_posted": "",
       "salary": "$3,797.00 - $5,190.00 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Bay Area Air District",
+      "title": "PRINCIPAL AIR QUALITY SPECIALIST",
+      "location": "San Francisco, CA",
+      "url": "https://www.governmentjobs.com/jobs/5395242-0/principal-air-quality-specialist",
+      "date_posted": "",
+      "salary": "$138,567.88 - $168,430.13 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Eureka",
+      "title": "Water Quality Supervisor",
+      "location": "WWTP - 4301 Hilfiker Lane Eureka CA 95501, CA",
+      "url": "https://www.governmentjobs.com/jobs/5392061-0/water-quality-supervisor",
+      "date_posted": "",
+      "salary": "$69,300.00 - $84,228.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "San Bernardino County",
+      "title": "Hazardous Materials Specialist I (Fire District)",
+      "location": "Throughout San Bernardino County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5379168-0/hazardous-materials-specialist-i-fire-district",
+      "date_posted": "",
+      "salary": "$73,486.40 - $98,737.60 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "San Bernardino County",
+      "title": "Hazardous Materials Specialist II (Fire District)",
+      "location": "Throughout San Bernardino County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5379179-0/hazardous-materials-specialist-ii-fire-district",
+      "date_posted": "",
+      "salary": "$77,209.60 - $103,812.80 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of San Mateo",
+      "title": "Hazardous Materials Specialist I/II/III (Open & Promotional)",
+      "location": "San Mateo, CA",
+      "url": "https://www.governmentjobs.com/jobs/5391892-0/hazardous-materials-specialist-i-ii-iii-open-promotional",
+      "date_posted": "",
+      "salary": "$7,959.47 - $12,367.33 Monthly",
       "ats": "NEOGOV"
     },
     {
@@ -92,61 +128,43 @@
       "date_posted": "",
       "salary": "$95,056.00 - $142,521.60 Annually",
       "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Napa",
-      "title": "Senior Environmental Health Specialist",
-      "location": "Napa, CA",
-      "url": "https://www.governmentjobs.com/jobs/5381149-0/senior-environmental-health-specialist",
-      "date_posted": "",
-      "salary": "$109,428.80 - $130,936.00 Annually",
-      "ats": "NEOGOV"
     }
   ],
   "new_jobs": [
     {
-      "company": "County of Mendocino",
-      "title": "Environmental Health Specialist I",
-      "location": "Ukiah, CA",
-      "url": "https://www.governmentjobs.com/jobs/5390864-0/environmental-health-specialist-i",
-      "date_posted": "",
-      "salary": "$60,403.20 - $73,403.20 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Mendocino",
-      "title": "Environmental Health Specialist II",
-      "location": "Ukiah, CA",
-      "url": "https://www.governmentjobs.com/jobs/5390899-0/environmental-health-specialist-ii",
-      "date_posted": "",
-      "salary": "$66,601.60 - $80,932.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Eureka",
-      "title": "Water Quality Supervisor",
-      "location": "WWTP - 4301 Hilfiker Lane Eureka CA 95501, CA",
-      "url": "https://www.governmentjobs.com/jobs/5392061-0/water-quality-supervisor",
-      "date_posted": "",
-      "salary": "$69,300.00 - $84,228.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
       "company": "Bay Area Air District",
-      "title": "Air Quality Specialist I/II - Field Inspector",
+      "title": "PRINCIPAL AIR QUALITY SPECIALIST",
       "location": "San Francisco, CA",
-      "url": "https://www.governmentjobs.com/jobs/5380198-0/air-quality-specialist-i-ii-field-inspector",
+      "url": "https://www.governmentjobs.com/jobs/5395242-0/principal-air-quality-specialist",
       "date_posted": "",
-      "salary": "$103,401.49 - $138,567.88 Annually",
+      "salary": "$138,567.88 - $168,430.13 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "County of Napa",
-      "title": "Senior Environmental Health Specialist",
-      "location": "Napa, CA",
-      "url": "https://www.governmentjobs.com/jobs/5381149-0/senior-environmental-health-specialist",
+      "company": "San Bernardino County",
+      "title": "Hazardous Materials Specialist I (Fire District)",
+      "location": "Throughout San Bernardino County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5379168-0/hazardous-materials-specialist-i-fire-district",
       "date_posted": "",
-      "salary": "$109,428.80 - $130,936.00 Annually",
+      "salary": "$73,486.40 - $98,737.60 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "San Bernardino County",
+      "title": "Hazardous Materials Specialist II (Fire District)",
+      "location": "Throughout San Bernardino County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5379179-0/hazardous-materials-specialist-ii-fire-district",
+      "date_posted": "",
+      "salary": "$77,209.60 - $103,812.80 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of San Mateo",
+      "title": "Hazardous Materials Specialist I/II/III (Open & Promotional)",
+      "location": "San Mateo, CA",
+      "url": "https://www.governmentjobs.com/jobs/5391892-0/hazardous-materials-specialist-i-ii-iii-open-promotional",
+      "date_posted": "",
+      "salary": "$7,959.47 - $12,367.33 Monthly",
       "ats": "NEOGOV"
     }
   ]
