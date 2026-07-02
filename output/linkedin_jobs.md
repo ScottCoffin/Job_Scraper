@@ -1,6 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-02 02:34 UTC*
+*Last updated: 2026-07-02 03:36 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4436151788/) — Southland Search Group
+- 📍 **Location:** Los Angeles, CA
+- 💰 **Salary:** $88,000.00/yr - $110,000.00/yr
+- 🕒 **Posted:** 2026-07-02
