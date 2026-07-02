@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-02 18:59 UTC",
+  "scraped_at": "2026-07-02 19:03 UTC",
   "total": 4,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Unknown",
@@ -76,24 +76,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Cambridge Healthcare Services",
-      "title": "Director of Risk Assessment",
-      "location": "Buena Park, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=30ec142545629017",
-      "direct_url": "https://jobs.apploi.com/view/1460294?utm_campaign=integration&utm_medium=job-board-feed&utm_source=indeed-apply-feed",
-      "company_url": "https://www.indeed.com/cmp/Cambridge-Healthcare-Services",
-      "date_posted": "2026-07-02",
-      "description": "**Position Summary**\n\n\nThe Director of Risk Assessment will report directly to the General Counsel and play a crucial role in managing and mitigating risks within our long\\-term care facilities across California. This position requires a highly skilled and experienced professional with a strong background in nursing administration and a deep understanding of state regulations and standards.\n\n**Essential Duties and Responsibilities:**\n\n* Collaborate with the General Counsel to prepare legal analyses of clinical records.\n* Conduct comprehensive risk assessments and develop strategies to mitigate potential risks.\n* Ensure compliance with California Department of Public Health (CDPH) regulations and standards.\n* Oversee and evaluate staffing standards to ensure optimal care and compliance with state requirements.\n* Travel to various facilities throughout California to conduct on\\-site assessments and provide support.\n* Understand and apply workers' compensation standards and regulations to minimize liabilities.\n* Provide training and guidance to staff on risk management practices and regulatory compliance.\n\n**Qualifications**\n\n* Registered Nurse (RN) or Licensed Nurse (LN) credentials.\n* Minimum of 5 years of experience in the long\\-term care industry.\n* Proven experience in nursing administration within California.\n* In\\-depth knowledge of staffing standards and regulations in California.\n* Ability to assist General Counsel with legal analysis of clinical records.\n* Willingness to travel extensively within California.\n* Thorough understanding of workers' compensation standards and CDPH regulations.\n\n**Skills and Competencies**\n\n* Strong analytical and problem\\-solving skills.\n* Excellent communication and interpersonal abilities.\n* Detail\\-oriented with a high level of accuracy.\n* Ability to work independently and as part of a team.\n* Proficient in using relevant software and tools for risk assessment and compliance tracking.\n\n **Working Conditions**\n\n* May encounter frequent interruptions.\n* May be involved with residents, family, and government agencies.\n* May be requested to work beyond scheduled working hours at times.\n* Is subject to call\\-back during emergency conditions (e.g., severe weather, evacuation, post\\-disaster, etc.)\n* May be subjected to odors, dust, disinfectants, tobacco smoking or air contaminants.\n* May be exposed to infectious waste, diseases, conditions, etc., including TB and the AIDS and Hepatitis B\n* viruses.\n* May be exposed to or handle hazardous chemicals.\n\n **Physical Requirements**\n\n* Must be able to move intermittently throughout the day.\n* Working throughout the nursing areas\n* Must be able to lift up to 25 pounds, lifting more weight up to 100 pounds requires assistance.\n* Ability to read fine print on tablet, progress notes and/or medical labels.",
-      "salary": "$165k–$180k/yr",
-      "salary_source": "direct_data",
-      "salary_currency": "USD",
-      "job_type": "fulltime",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
