@@ -1,11 +1,17 @@
 # ☕ HiringCafe — Environmental / Toxicology Roles
-*Last updated: 2026-07-02 22:05 UTC*
+*Last updated: 2026-07-03 00:03 UTC*
 
-**1 new role(s)** since last run · 70 total in last 30d
+**2 new role(s)** since last run · 70 total in last 30d
 
-### [Environmental Scientist III](https://www.governmentjobs.com/careers/kingcounty/jobs/5395640) — King County, WA
-- 📍 **Location:** Tukwila or Seattle or Renton or Bellevue or North Seattle
-- 💰 **Salary:** $118k–$143k/yr
-- **Work mode:** On-site
+### [Predictive Toxicologist](https://inotivco.wd5.myworkdayjobs.com/ext/job/RTP-NC/Predictive-Toxicologist_JR101525) — Inotivco
+- 📍 **Location:** Research Triangle Park, North Carolina, United States
+- **Work mode:** Telecommute eligible
 - **Job type:** Full Time
-- 🕒 **Posted:** 2026-07-02T18:22:02.000Z
+- 🕒 **Posted:** 2026-07-02T00:00:00.000Z
+
+### [Dealer Audit Risk Assessment Lead - Warranty](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Remote---United-States/Dealer-Audit-Risk-Assessment-Lead---Warranty_JR-202610585) — Generalmotors
+- 📍 **Location:** United States or Atlanta or Austin or Detroit or Warren or Pontiac or Milford or Mountain View
+- 💰 **Salary:** $88k–$141k/yr
+- **Work mode:** Telecommute eligible
+- **Job type:** Full Time
+- 🕒 **Posted:** 2026-07-02T00:00:00.000Z
