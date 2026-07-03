@@ -1,8 +1,14 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-03 05:35 UTC*
+*Last updated: 2026-07-03 16:54 UTC*
 
-**1 new role(s)** since last run · 2 total in last 1h
+**2 new role(s)** since last run · 2 total in last 1h
 
-### [Regional Waste Behaviour Change and Environmental Health Coordinator](https://www.linkedin.com/jobs/view/4435421143/) — North West Queensland Regional Organisation of Councils
-- 📍 **Location:** Cloncurry, Queensland, Australia
+### [Environmental Specialist](https://www.linkedin.com/jobs/view/4427689533/) — SpaceX
+- 📍 **Location:** Hawthorne, CA
+- 💰 **Salary:** $33.00 – $39.00/hour
+- 🕒 **Posted:** 2026-07-03
+
+### [Air Quality & Noise Department Manager - Environmental Services (Multiple Locations)](https://www.linkedin.com/jobs/view/4416576160/) — Burns & McDonnell
+- 📍 **Location:** San Diego, CA
+- 💰 **Salary:** $150,000.00-400,000.00
 - 🕒 **Posted:** 2026-07-03
