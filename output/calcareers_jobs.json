@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-03 17:44 UTC",
+  "scraped_at": "2026-07-04 17:17 UTC",
   "total": 12,
   "new_count": 0,
   "jobs": [
@@ -9,18 +9,6 @@
       "location": "Riverside County",
       "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=520546",
       "date_posted": "2026-06-05",
-      "salary": "$4418.00 - $9321.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "Department of Transportation",
-      "title": "Environmental Scientist (Biologist)",
-      "location": "San Joaquin County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=521506",
-      "date_posted": "2026-06-12",
       "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
@@ -124,6 +112,18 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
+      "company": "Department of Parks & Recreation",
+      "title": "ENVIRONMENTAL SCIENTIST",
+      "location": "Alameda County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=522744",
+      "date_posted": "2026-06-29",
+      "salary": "$4418.00 - $9321.00",
+      "ats": "CalCareers",
+      "telework": "In Office",
+      "job_type": "12 Month Limited Term - Full Time",
+      "work_arrangement": "On-site"
+    },
+    {
       "company": "State Air Resources Board",
       "title": "STAFF AIR POLLUTION SPECIALIST",
       "location": "United States",
@@ -136,16 +136,16 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "Department of Toxic Substances Control",
+      "company": "Department of Resources Recycling & Recovery",
       "title": "Senior Environmental Scientist (Specialist)",
-      "location": "Alameda County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=523304",
-      "date_posted": "2026-07-02",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=518460",
+      "date_posted": "2026-06-26",
       "salary": "$7820.00 - $10732.00",
       "ats": "CalCareers",
-      "telework": "In Office",
+      "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
-      "work_arrangement": "On-site"
+      "work_arrangement": "Telecommute eligible"
     }
   ],
   "new_jobs": []
