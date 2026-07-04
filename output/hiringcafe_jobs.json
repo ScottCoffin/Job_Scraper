@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-04 04:33 UTC",
-  "total": 71,
-  "new_count": 1,
+  "scraped_at": "2026-07-04 18:00 UTC",
+  "total": 70,
+  "new_count": 0,
   "jobs": [
     {
       "company": "State of Washington",
@@ -200,20 +200,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "APTIM",
-      "title": "Environmental Scientist",
-      "location": "Houma, Louisiana, United States",
-      "url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
-      "direct_url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
-      "date_posted": "2026-06-27T04:08:25.228Z",
-      "description": "Bachelor's in environmental science or related field, relevant environmental field experience, valid driver's license and watercraft/trailering experience, ability to lift 30–50 lbs, and strong written and verbal communication skills.",
-      "salary": "$48k–$54k/yr",
-      "job_type": "Part Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Stantec",
       "title": "Environmental Scientist",
       "location": "Buffalo, New York, United States",
@@ -228,15 +214,15 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Handex Consulting & Remediation",
+      "company": "APTIM",
       "title": "Environmental Scientist",
-      "location": "Tampa or Florida",
-      "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4295005",
-      "direct_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4295005",
-      "date_posted": "2026-06-30T17:34:17.000Z",
-      "description": "Bachelor's in geology/environmental science/hydrogeology/engineering (or equivalent), 0-2 years environmental field experience, OSHA 40-hour HAZWOPER (preferred), TWIC card (preferred), Microsoft Office proficiency, and field sampling/monitoring skills.",
-      "salary": "",
-      "job_type": "Full Time",
+      "location": "Houma, Louisiana, United States",
+      "url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
+      "direct_url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
+      "date_posted": "2026-06-27T04:08:25.228Z",
+      "description": "Bachelor's in environmental science or related field, relevant environmental field experience, valid driver's license and watercraft/trailering experience, ability to lift 30–50 lbs, and strong written and verbal communication skills.",
+      "salary": "$48k–$54k/yr",
+      "job_type": "Part Time",
       "is_remote": false,
       "work_arrangement": "On-site",
       "ats": "HiringCafe"
@@ -253,6 +239,20 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Handex Consulting & Remediation",
+      "title": "Environmental Scientist",
+      "location": "Tampa or Florida",
+      "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4295005",
+      "direct_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4295005",
+      "date_posted": "2026-06-30T17:34:17.000Z",
+      "description": "Bachelor's in geology/environmental science/hydrogeology/engineering (or equivalent), 0-2 years environmental field experience, OSHA 40-hour HAZWOPER (preferred), TWIC card (preferred), Microsoft Office proficiency, and field sampling/monitoring skills.",
+      "salary": "",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
       "ats": "HiringCafe"
     },
     {
@@ -816,20 +816,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Cognizant",
-      "title": "GRC-Risk Assessment",
-      "location": "United States",
-      "url": "https://cognizant.taleo.net/careersection/lateral/jobdetail.ftl?job=00069164714&lang=en",
-      "direct_url": "https://cognizant.taleo.net/careersection/lateral/jobdetail.ftl?job=00069164714&lang=en",
-      "date_posted": "2026-06-04T05:27:12.395Z",
-      "description": "9+ years experience in business operations or similar; advanced Microsoft Excel, Microsoft SharePoint, and Jira skills; hands-on risk assessment experience; strong written and verbal communication; hybrid day-shift work experience.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Stantec",
       "title": "Environmental Scientist",
       "location": "Honolulu, Hawaii, United States",
@@ -998,20 +984,5 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "HDR",
-      "title": "Senior Environmental Scientist",
-      "location": "Seattle or Gig Harbor or Everett or Bellevue or Olympia",
-      "url": "https://hdr.referrals.selectminds.com/jobs/senior-environmental-scientist-43878",
-      "direct_url": "https://hdr.referrals.selectminds.com/jobs/senior-environmental-scientist-43878",
-      "date_posted": "2026-06-08T12:00:00.000Z",
-      "description": "Bachelor's in environmental science, 10 years environmental planning/compliance experience, NEPA and EIS expertise, technical field and writing skills, MS Office proficiency, GPS/GIS field experience; PWS preferred.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    }
-  ]
+  "new_jobs": []
 }
