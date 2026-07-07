@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-06 18:22 UTC",
-  "total": 9,
-  "new_count": 0,
+  "scraped_at": "2026-07-07 18:23 UTC",
+  "total": 10,
+  "new_count": 1,
   "jobs": [
     {
       "company": "County of Mendocino",
@@ -50,6 +50,15 @@
     },
     {
       "company": "Bay Area Air District",
+      "title": "Air Quality Specialist I/II - Field Inspector",
+      "location": "San Francisco, CA",
+      "url": "https://www.governmentjobs.com/jobs/5380198-0/air-quality-specialist-i-ii-field-inspector",
+      "date_posted": "",
+      "salary": "$103,401.49 - $138,567.88 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Bay Area Air District",
       "title": "PRINCIPAL AIR QUALITY SPECIALIST",
       "location": "San Francisco, CA",
       "url": "https://www.governmentjobs.com/jobs/5395242-0/principal-air-quality-specialist",
@@ -85,5 +94,15 @@
       "ats": "NEOGOV"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Bay Area Air District",
+      "title": "Air Quality Specialist I/II - Field Inspector",
+      "location": "San Francisco, CA",
+      "url": "https://www.governmentjobs.com/jobs/5380198-0/air-quality-specialist-i-ii-field-inspector",
+      "date_posted": "",
+      "salary": "$103,401.49 - $138,567.88 Annually",
+      "ats": "NEOGOV"
+    }
+  ]
 }
