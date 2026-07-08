@@ -1,8 +1,26 @@
 {
-  "scraped_at": "2026-07-05 16:37 UTC",
+  "scraped_at": "2026-07-08 17:03 UTC",
   "total": 7,
-  "new_count": 0,
+  "new_count": 4,
   "jobs": [
+    {
+      "company": "Federal Transit Administration",
+      "title": "Supervisory Environmental Protection Specialist - Direct Hire-SME",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/875413900",
+      "date_posted": "2026-07-07",
+      "salary": "Starting at $169,279 Per year (GS 15)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Environmental Protection Agency",
+      "title": "Environmental Protection Specialist",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/875211000",
+      "date_posted": "2026-07-06",
+      "salary": "Starting at $131,009 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
     {
       "company": "United States Army Installation Management Command",
       "title": "Supervisory Environmental Specialist",
@@ -22,39 +40,21 @@
       "ats": "USAJOBS"
     },
     {
-      "company": "Defense Logistics Agency",
-      "title": "Environmental Protection Specialist",
-      "location": "Battle Creek, Michigan",
-      "url": "https://www.usajobs.gov/job/874442800",
-      "date_posted": "2026-06-25",
-      "salary": "Starting at $89,508 Per year (GS 12)",
+      "company": "Air Force Materiel Command",
+      "title": "FIREFIGHTER (HAZARDOUS MATERIALS OPERATIONS) - DIRECT HIRE AUTHORITY",
+      "location": "Eglin AFB, Florida",
+      "url": "https://www.usajobs.gov/job/875504600",
+      "date_posted": "2026-07-08",
+      "salary": "Starting at $45,409 Per year (GS 6)",
       "ats": "USAJOBS"
     },
     {
-      "company": "United States Army Installation Management Command",
-      "title": "Environmental Protection Specialist",
-      "location": "Silver Spring, Maryland",
-      "url": "https://www.usajobs.gov/job/874083500",
-      "date_posted": "2026-06-24",
-      "salary": "Starting at $85,447 Per year (GS 11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Federal Aviation Administration",
-      "title": "Environmental Protection Specialist",
-      "location": "Singapore, Singapore",
-      "url": "https://www.usajobs.gov/job/873325900",
-      "date_posted": "2026-06-17",
-      "salary": "Starting at $53,528 Per year (FV G-I)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Consumer Product Safety Commission",
-      "title": "Director for Hazard Identification",
-      "location": "Bethesda, Maryland",
-      "url": "https://www.usajobs.gov/job/872968600",
-      "date_posted": "2026-06-12",
-      "salary": "Starting at $151,661 Per year (ES 00)",
+      "company": "National Oceanic and Atmospheric Administration",
+      "title": "Environmental Scientist / Research Environmental Scientist",
+      "location": "Oxford, Maryland",
+      "url": "https://www.usajobs.gov/job/875386200",
+      "date_posted": "2026-07-07",
+      "salary": "Starting at $74,678 Per year (ZP 3-4)",
       "ats": "USAJOBS"
     },
     {
@@ -67,5 +67,42 @@
       "ats": "USAJOBS"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Federal Transit Administration",
+      "title": "Supervisory Environmental Protection Specialist - Direct Hire-SME",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/875413900",
+      "date_posted": "2026-07-07",
+      "salary": "Starting at $169,279 Per year (GS 15)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Environmental Protection Agency",
+      "title": "Environmental Protection Specialist",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/875211000",
+      "date_posted": "2026-07-06",
+      "salary": "Starting at $131,009 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Air Force Materiel Command",
+      "title": "FIREFIGHTER (HAZARDOUS MATERIALS OPERATIONS) - DIRECT HIRE AUTHORITY",
+      "location": "Eglin AFB, Florida",
+      "url": "https://www.usajobs.gov/job/875504600",
+      "date_posted": "2026-07-08",
+      "salary": "Starting at $45,409 Per year (GS 6)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "National Oceanic and Atmospheric Administration",
+      "title": "Environmental Scientist / Research Environmental Scientist",
+      "location": "Oxford, Maryland",
+      "url": "https://www.usajobs.gov/job/875386200",
+      "date_posted": "2026-07-07",
+      "salary": "Starting at $74,678 Per year (ZP 3-4)",
+      "ats": "USAJOBS"
+    }
+  ]
 }
