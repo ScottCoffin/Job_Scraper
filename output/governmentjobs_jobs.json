@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-08 17:53 UTC",
-  "total": 9,
-  "new_count": 0,
+  "scraped_at": "2026-07-09 18:12 UTC",
+  "total": 15,
+  "new_count": 6,
   "jobs": [
     {
       "company": "County of Mendocino",
@@ -58,6 +58,15 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "Bay Area Air District",
+      "title": "Air Quality Specialist I/II - Field Inspector",
+      "location": "San Francisco, CA",
+      "url": "https://www.governmentjobs.com/jobs/5380198-0/air-quality-specialist-i-ii-field-inspector",
+      "date_posted": "",
+      "salary": "$103,401.49 - $138,567.88 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "San Bernardino County",
       "title": "Hazardous Materials Specialist I (Fire District)",
       "location": "Throughout San Bernardino County, CA",
@@ -83,7 +92,107 @@
       "date_posted": "",
       "salary": "$7,959.47 - $12,367.33 Monthly",
       "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Dublin (CA)",
+      "title": "Environmental Specialist",
+      "location": "Dublin, CA 94568",
+      "url": "https://www.governmentjobs.com/jobs/5384758-0/environmental-specialist",
+      "date_posted": "",
+      "salary": "$120,164.30 - $150,233.82 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Sacramento",
+      "title": "Environmental Specialist IV",
+      "location": "Sacramento, CA",
+      "url": "https://www.governmentjobs.com/jobs/5398391-0/environmental-specialist-iv",
+      "date_posted": "",
+      "salary": "$127,263.60 - $140,313.60 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Sacramento Area Sewer District (CA)",
+      "title": "Environmental Specialist I/II",
+      "location": "Sacramento, CA",
+      "url": "https://www.governmentjobs.com/jobs/4870355-0/environmental-specialist-i-ii",
+      "date_posted": "",
+      "salary": "$83,408.00 - $111,758.40 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "LA METRO",
+      "title": "SENIOR ENVIRONMENTAL SPECIALIST (ENVIRONMENTAL COMPLIANCE)",
+      "location": "Los Angeles, CA",
+      "url": "https://www.governmentjobs.com/jobs/145960-1/senior-environmental-specialist-environmental-compliance",
+      "date_posted": "",
+      "salary": "",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Los Angeles County Metropolitan Transportation Authority (CA)",
+      "title": "SENIOR ENVIRONMENTAL SPECIALIST (ENVIRONMENTAL COMPLIANCE)",
+      "location": "Los Angeles, CA",
+      "url": "https://www.governmentjobs.com/jobs/5390949-0/senior-environmental-specialist-environmental-compliance",
+      "date_posted": "",
+      "salary": "$99,819.20 - $149,656.00 Annually",
+      "ats": "NEOGOV"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Bay Area Air District",
+      "title": "Air Quality Specialist I/II - Field Inspector",
+      "location": "San Francisco, CA",
+      "url": "https://www.governmentjobs.com/jobs/5380198-0/air-quality-specialist-i-ii-field-inspector",
+      "date_posted": "",
+      "salary": "$103,401.49 - $138,567.88 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Dublin (CA)",
+      "title": "Environmental Specialist",
+      "location": "Dublin, CA 94568",
+      "url": "https://www.governmentjobs.com/jobs/5384758-0/environmental-specialist",
+      "date_posted": "",
+      "salary": "$120,164.30 - $150,233.82 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Sacramento",
+      "title": "Environmental Specialist IV",
+      "location": "Sacramento, CA",
+      "url": "https://www.governmentjobs.com/jobs/5398391-0/environmental-specialist-iv",
+      "date_posted": "",
+      "salary": "$127,263.60 - $140,313.60 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Sacramento Area Sewer District (CA)",
+      "title": "Environmental Specialist I/II",
+      "location": "Sacramento, CA",
+      "url": "https://www.governmentjobs.com/jobs/4870355-0/environmental-specialist-i-ii",
+      "date_posted": "",
+      "salary": "$83,408.00 - $111,758.40 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "LA METRO",
+      "title": "SENIOR ENVIRONMENTAL SPECIALIST (ENVIRONMENTAL COMPLIANCE)",
+      "location": "Los Angeles, CA",
+      "url": "https://www.governmentjobs.com/jobs/145960-1/senior-environmental-specialist-environmental-compliance",
+      "date_posted": "",
+      "salary": "",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Los Angeles County Metropolitan Transportation Authority (CA)",
+      "title": "SENIOR ENVIRONMENTAL SPECIALIST (ENVIRONMENTAL COMPLIANCE)",
+      "location": "Los Angeles, CA",
+      "url": "https://www.governmentjobs.com/jobs/5390949-0/senior-environmental-specialist-environmental-compliance",
+      "date_posted": "",
+      "salary": "$99,819.20 - $149,656.00 Annually",
+      "ats": "NEOGOV"
+    }
+  ]
 }
