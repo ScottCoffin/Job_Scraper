@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-09 00:07 UTC",
-  "total": 67,
-  "new_count": 0,
+  "scraped_at": "2026-07-09 04:50 UTC",
+  "total": 70,
+  "new_count": 4,
   "jobs": [
     {
       "company": "State of Washington",
@@ -15,6 +15,20 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Medline",
+      "title": "Toxicologist R&D",
+      "location": "Illinois, United States",
+      "url": "https://medline.wd5.myworkdayjobs.com/medline/job/REMOTE--Illinois/Toxicologist-R-D_R2613453",
+      "direct_url": "https://medline.wd5.myworkdayjobs.com/medline/job/REMOTE--Illinois/Toxicologist-R-D_R2613453",
+      "date_posted": "2026-07-08T00:00:00.000Z",
+      "description": "Bachelor's in toxicology/pharmacology,5+ years toxicology experience in medical device or related industry,knowledge of ISO 10993/18562/14971,FDA/EU MDR,biocompatibility,chemical characterization;DABT preferred.",
+      "salary": "$101k–$152k/yr",
+      "job_type": "Full Time",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
       "ats": "HiringCafe"
     },
     {
@@ -186,6 +200,20 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "GHD",
+      "title": "Environmental Scientist",
+      "location": "Golden, Colorado, United States",
+      "url": "https://ejov.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/27565",
+      "direct_url": "https://ejov.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/27565",
+      "date_posted": "2026-07-08T18:21:42.000Z",
+      "description": "Bachelor's in environmental engineering, geology, or environmental science; 3–6 years experience with project management and emergency response; experience in air monitoring, environmental sampling, ICS, SCAT, GIS, and client management.",
+      "salary": "$69k–$115k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "Whitestone Associates, Inc.",
       "title": "Environmental Scientist",
       "location": "Pittsburgh, Pennsylvania, United States",
@@ -194,6 +222,20 @@
       "date_posted": "2026-06-16T16:06:30.000Z",
       "description": "Bachelor's in environmental science/engineering/geology, 1+ years environmental consulting experience, field sampling and site assessment skills, strong analytical and communication skills, ability to manage multiple projects.",
       "salary": "$60k–$85k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Stantec",
+      "title": "Environmental Scientist",
+      "location": "Buffalo, New York, United States",
+      "url": "https://stantec.jobs/buffalo-ny/environmental-scientist/3FF8CE4A1CF34667A738931B38223E4D/job/",
+      "direct_url": "https://stantec.jobs/buffalo-ny/environmental-scientist/3FF8CE4A1CF34667A738931B38223E4D/job/",
+      "date_posted": "2026-06-25T13:03:00.000Z",
+      "description": "Bachelor's in an environmental discipline, 5+ years environmental field experience including wetland delineations, proficiency with GIS and GPS, Microsoft Office skills, physical stamina for remote fieldwork, strong communication and technical writing.",
+      "salary": "$73k–$106k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -209,20 +251,6 @@
       "description": "Bachelor's in environmental science or related field, relevant environmental field experience, valid driver's license and watercraft/trailering experience, ability to lift 30–50 lbs, and strong written and verbal communication skills.",
       "salary": "$48k–$54k/yr",
       "job_type": "Part Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Stantec",
-      "title": "Environmental Scientist",
-      "location": "Buffalo, New York, United States",
-      "url": "https://stantec.jobs/buffalo-ny/environmental-scientist/3FF8CE4A1CF34667A738931B38223E4D/job/",
-      "direct_url": "https://stantec.jobs/buffalo-ny/environmental-scientist/3FF8CE4A1CF34667A738931B38223E4D/job/",
-      "date_posted": "2026-06-25T13:03:00.000Z",
-      "description": "Bachelor's in an environmental discipline, 5+ years environmental field experience including wetland delineations, proficiency with GIS and GPS, Microsoft Office skills, physical stamina for remote fieldwork, strong communication and technical writing.",
-      "salary": "$73k–$106k/yr",
-      "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
       "ats": "HiringCafe"
@@ -452,6 +480,20 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "Freeport McMoRan Inc.",
+      "title": "Chief Environmental Scientist",
+      "location": "Morenci, Arizona, United States",
+      "url": "https://jobs.fcx.com/job/Morenci-Chief-Environmental-Scientist-AZ-85540/1406931400/",
+      "direct_url": "https://jobs.fcx.com/job/Morenci-Chief-Environmental-Scientist-AZ-85540/1406931400/",
+      "date_posted": "2026-07-08T00:00:00.000Z",
+      "description": "Bachelor's in environmental or related science with 7 years' experience OR Master's with 5 years; strong knowledge of environmental regulations, permitting, air/water quality, and project leadership.",
+      "salary": "$112k–$160k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "Canacre",
       "title": "Senior Environmental Scientist",
       "location": "Raleigh, North Carolina, United States",
@@ -508,17 +550,17 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "GHD",
-      "title": "Senior Environmental Scientist",
-      "location": "Phoenix, Arizona, United States",
-      "url": "https://ejov.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/26447",
-      "direct_url": "https://ejov.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/26447",
-      "date_posted": "2026-07-07T16:24:13.000Z",
-      "description": "8+ years environmental consulting experience with contamination investigation/remediation, project management, regulatory knowledge, report preparation, team supervision, and strong analytical and communication skills.",
-      "salary": "",
+      "company": "Moore Engineering, Inc.",
+      "title": "Environmental Scientist I",
+      "location": "Plymouth or Saint Cloud or Minnesota or South Dakota or North Dakota or Iowa or Colorado",
+      "url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/94bf816a-6c0f-40c0-8bc1-e9dbe4e258f2/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
+      "direct_url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/94bf816a-6c0f-40c0-8bc1-e9dbe4e258f2/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
+      "date_posted": "2026-07-01T18:47:25.002Z",
+      "description": "Bachelor's in biology/ecology/environmental sciences, 3+ years relevant experience, plant ID, GIS proficiency, knowledge of federal and MN/ND/SD wetland regulations, valid driver’s license and insurable.",
+      "salary": "$71k–$97k/yr",
       "job_type": "Full Time",
       "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
+      "work_arrangement": "On-site",
       "ats": "HiringCafe"
     },
     {
@@ -529,20 +571,6 @@
       "direct_url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/52ddab16-c6b6-4884-85f0-a111cb4367f8/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
       "date_posted": "2026-07-01T18:47:25.002Z",
       "description": "Bachelor's in biology/ecology/environmental science, 3+ years relevant experience, plant ID, GIS experience, knowledge of MN/ND/SD and federal wetland regulations, valid driver's license, insurable.",
-      "salary": "$71k–$97k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Moore Engineering, Inc.",
-      "title": "Environmental Scientist I",
-      "location": "Plymouth or Saint Cloud or Minnesota or South Dakota or North Dakota or Iowa or Colorado",
-      "url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/94bf816a-6c0f-40c0-8bc1-e9dbe4e258f2/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
-      "direct_url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/94bf816a-6c0f-40c0-8bc1-e9dbe4e258f2/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
-      "date_posted": "2026-07-01T18:47:25.002Z",
-      "description": "Bachelor's in biology/ecology/environmental sciences, 3+ years relevant experience, plant ID, GIS proficiency, knowledge of federal and MN/ND/SD wetland regulations, valid driver’s license and insurable.",
       "salary": "$71k–$97k/yr",
       "job_type": "Full Time",
       "is_remote": false,
@@ -774,6 +802,20 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "Tetra Tech",
+      "title": "Ecotoxicology Expert in Owings Mills, Maryland, United States",
+      "location": "Owings Mills or United States",
+      "url": "https://tetratech.referrals.selectminds.com/jobs/ecotoxicology-expert-55556",
+      "direct_url": "https://tetratech.referrals.selectminds.com/jobs/ecotoxicology-expert-55556",
+      "date_posted": "2026-07-08T17:03:19.831Z",
+      "description": "PhD in ecology/biology/toxicology, proficiency in aquatic toxicology and risk assessment, strong report writing and independent research skills, experience reviewing technical literature, Microsoft Excel/Word proficiency.",
+      "salary": "",
+      "job_type": "Part Time",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "Stantec",
       "title": "Environmental Scientist",
       "location": "Honolulu, Hawaii, United States",
@@ -942,5 +984,62 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Medline",
+      "title": "Toxicologist R&D",
+      "location": "Illinois, United States",
+      "url": "https://medline.wd5.myworkdayjobs.com/medline/job/REMOTE--Illinois/Toxicologist-R-D_R2613453",
+      "direct_url": "https://medline.wd5.myworkdayjobs.com/medline/job/REMOTE--Illinois/Toxicologist-R-D_R2613453",
+      "date_posted": "2026-07-08T00:00:00.000Z",
+      "description": "Bachelor's in toxicology/pharmacology,5+ years toxicology experience in medical device or related industry,knowledge of ISO 10993/18562/14971,FDA/EU MDR,biocompatibility,chemical characterization;DABT preferred.",
+      "salary": "$101k–$152k/yr",
+      "job_type": "Full Time",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "GHD",
+      "title": "Environmental Scientist",
+      "location": "Golden, Colorado, United States",
+      "url": "https://ejov.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/27565",
+      "direct_url": "https://ejov.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/27565",
+      "date_posted": "2026-07-08T18:21:42.000Z",
+      "description": "Bachelor's in environmental engineering, geology, or environmental science; 3–6 years experience with project management and emergency response; experience in air monitoring, environmental sampling, ICS, SCAT, GIS, and client management.",
+      "salary": "$69k–$115k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Freeport McMoRan Inc.",
+      "title": "Chief Environmental Scientist",
+      "location": "Morenci, Arizona, United States",
+      "url": "https://jobs.fcx.com/job/Morenci-Chief-Environmental-Scientist-AZ-85540/1406931400/",
+      "direct_url": "https://jobs.fcx.com/job/Morenci-Chief-Environmental-Scientist-AZ-85540/1406931400/",
+      "date_posted": "2026-07-08T00:00:00.000Z",
+      "description": "Bachelor's in environmental or related science with 7 years' experience OR Master's with 5 years; strong knowledge of environmental regulations, permitting, air/water quality, and project leadership.",
+      "salary": "$112k–$160k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Tetra Tech",
+      "title": "Ecotoxicology Expert in Owings Mills, Maryland, United States",
+      "location": "Owings Mills or United States",
+      "url": "https://tetratech.referrals.selectminds.com/jobs/ecotoxicology-expert-55556",
+      "direct_url": "https://tetratech.referrals.selectminds.com/jobs/ecotoxicology-expert-55556",
+      "date_posted": "2026-07-08T17:03:19.831Z",
+      "description": "PhD in ecology/biology/toxicology, proficiency in aquatic toxicology and risk assessment, strong report writing and independent research skills, experience reviewing technical literature, Microsoft Excel/Word proficiency.",
+      "salary": "",
+      "job_type": "Part Time",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "ats": "HiringCafe"
+    }
+  ]
 }
