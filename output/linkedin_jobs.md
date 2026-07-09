@@ -1,13 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-09 04:44 UTC*
+*Last updated: 2026-07-09 05:25 UTC*
 
-**2 new role(s)** since last run · 2 total in last 1h
+**1 new role(s)** since last run · 3 total in last 1h
 
-### [Radiation and Environ Safety Hazardous Materials Coordinator](https://www.linkedin.com/jobs/view/4435629640/) — Cedars-Sinai
-- 📍 **Location:** Los Angeles, CA
-- 💰 **Salary:** $42.86/hr - $66.43/hr
-- 🕒 **Posted:** 2026-07-09
-
-### [Environmental Health Officer](https://www.linkedin.com/jobs/view/4438570650/) — Indigo Shire Council
-- 📍 **Location:** Beechworth, Victoria, Australia
+### [Drinking Water & Reuse Project Manager](https://www.linkedin.com/jobs/view/4438570689/) — Jacobs
+- 📍 **Location:** Irvine, CA
+- 💰 **Salary:** $154,700.00/yr - $212,000.00/yr
 - 🕒 **Posted:** 2026-07-09
