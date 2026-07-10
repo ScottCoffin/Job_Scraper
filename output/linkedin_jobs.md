@@ -1,13 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-10 22:25 UTC*
+*Last updated: 2026-07-10 23:24 UTC*
 
-**2 new role(s)** since last run · 2 total in last 1h
+**1 new role(s)** since last run · 3 total in last 1h
 
-### [Toxicology Director](https://www.linkedin.com/jobs/view/4429982477/) — Proclinical Staffing
-- 📍 **Location:** San Francisco Bay Area
-- 🕒 **Posted:** 2026-07-10
-
-### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4438353798/) — Rosendin
-- 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $80,000.00/yr - $95,000.00/yr
+### [Project Manager 3 - Watershed Planning](https://www.linkedin.com/jobs/view/4439381022/) — Clean Water Services
+- 📍 **Location:** Hillsboro, OR
+- 💰 **Salary:** $48.83/hr - $61.04/hr
 - 🕒 **Posted:** 2026-07-10
