@@ -1,8 +1,17 @@
 {
-  "scraped_at": "2026-07-08 17:03 UTC",
+  "scraped_at": "2026-07-10 17:22 UTC",
   "total": 7,
-  "new_count": 4,
+  "new_count": 1,
   "jobs": [
+    {
+      "company": "Lyndon B. Johnson Space Center",
+      "title": "Public Notice - Environmental Protection Specialist (Direct Hire)",
+      "location": "Las Cruces, New Mexico",
+      "url": "https://www.usajobs.gov/job/875985000",
+      "date_posted": "2026-07-10",
+      "salary": "Starting at $61,722 Per year (GS 9-14)",
+      "ats": "USAJOBS"
+    },
     {
       "company": "Federal Transit Administration",
       "title": "Supervisory Environmental Protection Specialist - Direct Hire-SME",
@@ -40,15 +49,6 @@
       "ats": "USAJOBS"
     },
     {
-      "company": "Air Force Materiel Command",
-      "title": "FIREFIGHTER (HAZARDOUS MATERIALS OPERATIONS) - DIRECT HIRE AUTHORITY",
-      "location": "Eglin AFB, Florida",
-      "url": "https://www.usajobs.gov/job/875504600",
-      "date_posted": "2026-07-08",
-      "salary": "Starting at $45,409 Per year (GS 6)",
-      "ats": "USAJOBS"
-    },
-    {
       "company": "National Oceanic and Atmospheric Administration",
       "title": "Environmental Scientist / Research Environmental Scientist",
       "location": "Oxford, Maryland",
@@ -69,39 +69,12 @@
   ],
   "new_jobs": [
     {
-      "company": "Federal Transit Administration",
-      "title": "Supervisory Environmental Protection Specialist - Direct Hire-SME",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov/job/875413900",
-      "date_posted": "2026-07-07",
-      "salary": "Starting at $169,279 Per year (GS 15)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Environmental Protection Agency",
-      "title": "Environmental Protection Specialist",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov/job/875211000",
-      "date_posted": "2026-07-06",
-      "salary": "Starting at $131,009 Per year (GS 14)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Air Force Materiel Command",
-      "title": "FIREFIGHTER (HAZARDOUS MATERIALS OPERATIONS) - DIRECT HIRE AUTHORITY",
-      "location": "Eglin AFB, Florida",
-      "url": "https://www.usajobs.gov/job/875504600",
-      "date_posted": "2026-07-08",
-      "salary": "Starting at $45,409 Per year (GS 6)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "National Oceanic and Atmospheric Administration",
-      "title": "Environmental Scientist / Research Environmental Scientist",
-      "location": "Oxford, Maryland",
-      "url": "https://www.usajobs.gov/job/875386200",
-      "date_posted": "2026-07-07",
-      "salary": "Starting at $74,678 Per year (ZP 3-4)",
+      "company": "Lyndon B. Johnson Space Center",
+      "title": "Public Notice - Environmental Protection Specialist (Direct Hire)",
+      "location": "Las Cruces, New Mexico",
+      "url": "https://www.usajobs.gov/job/875985000",
+      "date_posted": "2026-07-10",
+      "salary": "Starting at $61,722 Per year (GS 9-14)",
       "ats": "USAJOBS"
     }
   ]
