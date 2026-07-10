@@ -1,8 +1,36 @@
 {
-  "scraped_at": "2026-07-10 00:02 UTC",
-  "total": 68,
-  "new_count": 0,
+  "scraped_at": "2026-07-10 04:49 UTC",
+  "total": 72,
+  "new_count": 5,
   "jobs": [
+    {
+      "company": "Jj",
+      "title": "Principal Toxicologist",
+      "location": "Raritan or Cincinnati",
+      "url": "https://jj.wd5.myworkdayjobs.com/displacedemployees/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130",
+      "direct_url": "https://jj.wd5.myworkdayjobs.com/displacedemployees/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130",
+      "date_posted": "2026-07-09T00:00:00.000Z",
+      "description": "Advanced degree in toxicology, 6+ years industry medical device experience, 8–10 years toxicology/biocompatibility experience, GLP/regulatory familiarity, ISO 10993/13485/14971 knowledge, lab animal and material degradation experience.",
+      "salary": "$117k–$201k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Johnson & Johnson",
+      "title": "Principal Toxicologist",
+      "location": "Cincinnati or Raritan",
+      "url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
+      "direct_url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
+      "date_posted": "2026-07-09T00:00:00.000Z",
+      "description": "Advanced degree (MS or PhD) in toxicology or related field, 6+ years industry experience in medical devices, 8+ years toxicology/biocompatibility experience, ISO 10993 knowledge, regulated environment and audit support experience.",
+      "salary": "$117k–$201k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
     {
       "company": "Medline",
       "title": "Toxicologist R&D",
@@ -15,6 +43,20 @@
       "job_type": "Full Time",
       "is_remote": true,
       "work_arrangement": "Remote in-state eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Jj",
+      "title": "Principal Toxicologist",
+      "location": "Raritan or Cincinnati",
+      "url": "https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130-1",
+      "direct_url": "https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130-1",
+      "date_posted": "2026-07-09T00:00:00.000Z",
+      "description": "Advanced degree in toxicology or related field, 6+ years medical device industry experience, 8–10 years toxicology/biocompatibility experience, regulatory and ISO knowledge, GLP experience, strong communication and leadership skills.",
+      "salary": "$117k–$201k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
       "ats": "HiringCafe"
     },
     {
@@ -130,20 +172,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "SNA International",
-      "title": "Analytical Toxicologist 1 (AT1) -Human Performance/Postmortem",
-      "location": "Dover, Delaware, United States",
-      "url": "https://jobs.jobvite.com/snainternational/job/oKEnAfw5?nl=1&fr=true",
-      "direct_url": "https://jobs.jobvite.com/snainternational/job/oKEnAfw5?nl=1&fr=true",
-      "date_posted": "2026-06-23T12:00:00.000Z",
-      "description": "Bench-level forensic toxicology analyst performing GC/MS, LC/MS, tandem MS, sample extractions, spectrophotometric analyses, chain-of-custody, instrument calibration, SOP evaluation, record keeping; B.S. or M.S. in a science field; U.S. citizenship and ability to complete a NAC-I background check.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "UTMB Health",
       "title": "Medical Toxicologist TDH Poison Center (Per Diem < 20 hours/week)",
       "location": "Galveston, Texas, United States",
@@ -211,6 +239,20 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Tetra Tech",
+      "title": "Environmental Scientist",
+      "location": "Rancho Cordova or Oakland",
+      "url": "https://tetratech.referrals.selectminds.com/jobs/environmental-scientist-55577",
+      "direct_url": "https://tetratech.referrals.selectminds.com/jobs/environmental-scientist-55577",
+      "date_posted": "2026-07-09T23:26:54.910Z",
+      "description": "BS in environmental or physical sciences,2+ years environmental industry experience,practical field sampling experience,multimedia sampling,ability to travel and work outdoors,valid driver's license required.",
+      "salary": "$70k–$80k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
       "ats": "HiringCafe"
     },
     {
@@ -900,6 +942,20 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "Consolidated Engineering Laboratories (CEL)",
+      "title": "Environmental Scientist 1",
+      "location": "Redmond or Moclips",
+      "url": "http://celabs.hrmdirect.com/employment/view.php?req=3757595",
+      "direct_url": "http://celabs.hrmdirect.com/employment/view.php?req=3757595",
+      "date_posted": "2026-07-08T03:00:00.000Z",
+      "description": "Bachelor's degree in environmental or related field, 0–5 years experience, CESCL duties, willingness for in-water work and occasional long days/nights/weekends, valid driver's license, proficiency with Microsoft Excel, Bluebeam, and GIS.",
+      "salary": "$62k–$75k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "Verdantas",
       "title": "Environmental Scientist III",
       "location": "Tampa or Florida or United States",
@@ -956,5 +1012,76 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Jj",
+      "title": "Principal Toxicologist",
+      "location": "Raritan or Cincinnati",
+      "url": "https://jj.wd5.myworkdayjobs.com/displacedemployees/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130",
+      "direct_url": "https://jj.wd5.myworkdayjobs.com/displacedemployees/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130",
+      "date_posted": "2026-07-09T00:00:00.000Z",
+      "description": "Advanced degree in toxicology, 6+ years industry medical device experience, 8–10 years toxicology/biocompatibility experience, GLP/regulatory familiarity, ISO 10993/13485/14971 knowledge, lab animal and material degradation experience.",
+      "salary": "$117k–$201k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Johnson & Johnson",
+      "title": "Principal Toxicologist",
+      "location": "Cincinnati or Raritan",
+      "url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
+      "direct_url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
+      "date_posted": "2026-07-09T00:00:00.000Z",
+      "description": "Advanced degree (MS or PhD) in toxicology or related field, 6+ years industry experience in medical devices, 8+ years toxicology/biocompatibility experience, ISO 10993 knowledge, regulated environment and audit support experience.",
+      "salary": "$117k–$201k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Jj",
+      "title": "Principal Toxicologist",
+      "location": "Raritan or Cincinnati",
+      "url": "https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130-1",
+      "direct_url": "https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130-1",
+      "date_posted": "2026-07-09T00:00:00.000Z",
+      "description": "Advanced degree in toxicology or related field, 6+ years medical device industry experience, 8–10 years toxicology/biocompatibility experience, regulatory and ISO knowledge, GLP experience, strong communication and leadership skills.",
+      "salary": "$117k–$201k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Tetra Tech",
+      "title": "Environmental Scientist",
+      "location": "Rancho Cordova or Oakland",
+      "url": "https://tetratech.referrals.selectminds.com/jobs/environmental-scientist-55577",
+      "direct_url": "https://tetratech.referrals.selectminds.com/jobs/environmental-scientist-55577",
+      "date_posted": "2026-07-09T23:26:54.910Z",
+      "description": "BS in environmental or physical sciences,2+ years environmental industry experience,practical field sampling experience,multimedia sampling,ability to travel and work outdoors,valid driver's license required.",
+      "salary": "$70k–$80k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Consolidated Engineering Laboratories (CEL)",
+      "title": "Environmental Scientist 1",
+      "location": "Redmond or Moclips",
+      "url": "http://celabs.hrmdirect.com/employment/view.php?req=3757595",
+      "direct_url": "http://celabs.hrmdirect.com/employment/view.php?req=3757595",
+      "date_posted": "2026-07-08T03:00:00.000Z",
+      "description": "Bachelor's degree in environmental or related field, 0–5 years experience, CESCL duties, willingness for in-water work and occasional long days/nights/weekends, valid driver's license, proficiency with Microsoft Excel, Bluebeam, and GIS.",
+      "salary": "$62k–$75k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    }
+  ]
 }
