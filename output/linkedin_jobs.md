@@ -1,23 +1,14 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-10 17:17 UTC*
+*Last updated: 2026-07-10 18:54 UTC*
 
-**4 new role(s)** since last run · 4 total in last 1h
+**2 new role(s)** since last run · 2 total in last 1h
 
-### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4436612347/) — Hydranautics - A Nitto Group Company
-- 📍 **Location:** Oceanside, CA
+### [Environmental Health Specialist I-II-III - Consumer Protection Programs](https://www.linkedin.com/jobs/view/4376567852/) — County of San Mateo
+- 📍 **Location:** San Mateo County, CA
+- 💰 **Salary:** $7,579.87/mo - $11,778.00/mo
 - 🕒 **Posted:** 2026-07-10
 
-### [Staff Air Pollution Specialist](https://www.linkedin.com/jobs/view/4439314537/) — California Air Resources Board
-- 📍 **Location:** California, United States
-- 💰 **Salary:** $10,521.00/mo - $13,173.00/mo
-- 🕒 **Posted:** 2026-07-10
-
-### [Air Quality Project Manager](https://www.linkedin.com/jobs/view/4411419053/) — Alliance Technical Group
-- 📍 **Location:** Los Angeles, CA
-- 💰 **Salary:** $80k - $130k annually
-- 🕒 **Posted:** 2026-07-10
-
-### [Lead Environmental Specialist/Planner (QSD/QSP) Menlo Park and Encinitas, California](https://www.linkedin.com/jobs/view/4436615181/) — Insignia Environmental
-- 📍 **Location:** California, United States
-- 💰 **Salary:** $70,000.00/yr - $95,000.00/yr
+### [Assistant Water Resources Specialist I/II (Limited Term)](https://www.linkedin.com/jobs/view/4438329917/) — Valley Water
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $118,060.80 - $151,049.60 Annually
 - 🕒 **Posted:** 2026-07-10
