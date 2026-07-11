@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-11 19:06 UTC",
+  "scraped_at": "2026-07-11 20:43 UTC",
   "total": 67,
   "new_count": 0,
   "jobs": [
@@ -214,20 +214,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Whitestone Associates, Inc.",
-      "title": "Environmental Scientist",
-      "location": "Pittsburgh, Pennsylvania, United States",
-      "url": "https://job-boards.greenhouse.io/whitestoneassociatesinc/jobs/4283822009",
-      "direct_url": "https://job-boards.greenhouse.io/whitestoneassociatesinc/jobs/4283822009",
-      "date_posted": "2026-06-16T16:06:30.000Z",
-      "description": "Bachelor's in environmental science/engineering/geology, 1+ years environmental consulting experience, field sampling and site assessment skills, strong analytical and communication skills, ability to manage multiple projects.",
-      "salary": "$60k–$85k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Tetra Tech",
       "title": "Environmental Scientist",
       "location": "Rancho Cordova or Oakland",
@@ -242,15 +228,15 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "APTIM",
+      "company": "Whitestone Associates, Inc.",
       "title": "Environmental Scientist",
-      "location": "Houma, Louisiana, United States",
-      "url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
-      "direct_url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
-      "date_posted": "2026-06-27T04:08:25.228Z",
-      "description": "Bachelor's in environmental science or related field, relevant environmental field experience, valid driver's license and watercraft/trailering experience, ability to lift 30–50 lbs, and strong written and verbal communication skills.",
-      "salary": "$48k–$54k/yr",
-      "job_type": "Part Time",
+      "location": "Pittsburgh, Pennsylvania, United States",
+      "url": "https://job-boards.greenhouse.io/whitestoneassociatesinc/jobs/4283822009",
+      "direct_url": "https://job-boards.greenhouse.io/whitestoneassociatesinc/jobs/4283822009",
+      "date_posted": "2026-06-16T16:06:30.000Z",
+      "description": "Bachelor's in environmental science/engineering/geology, 1+ years environmental consulting experience, field sampling and site assessment skills, strong analytical and communication skills, ability to manage multiple projects.",
+      "salary": "$60k–$85k/yr",
+      "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
       "ats": "HiringCafe"
@@ -265,6 +251,20 @@
       "description": "Bachelor's in an environmental discipline, 5+ years environmental field experience including wetland delineations, proficiency with GIS and GPS, Microsoft Office skills, physical stamina for remote fieldwork, strong communication and technical writing.",
       "salary": "$73k–$106k/yr",
       "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "APTIM",
+      "title": "Environmental Scientist",
+      "location": "Houma, Louisiana, United States",
+      "url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
+      "direct_url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
+      "date_posted": "2026-06-27T04:08:25.228Z",
+      "description": "Bachelor's in environmental science or related field, relevant environmental field experience, valid driver's license and watercraft/trailering experience, ability to lift 30–50 lbs, and strong written and verbal communication skills.",
+      "salary": "$48k–$54k/yr",
+      "job_type": "Part Time",
       "is_remote": false,
       "work_arrangement": "On-site",
       "ats": "HiringCafe"
@@ -410,20 +410,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "BGE, Inc",
-      "title": "Environmental Scientist",
-      "location": "Frisco, Texas, United States",
-      "url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
-      "direct_url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
-      "date_posted": "2026-06-25T17:13:32.000Z",
-      "description": "Bachelor's or Master's in environmental science/ecology/biology/geology, 1+ years relevant experience (Phase I/II ESAs, wetlands, ecological surveys), MS Office proficiency, ArcGIS knowledge preferred, strong writing/communication, willingness to travel and perform fieldwork.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Arcadis",
       "title": "Environmental Scientist",
       "location": "Bluefield, Virginia, United States",
@@ -446,6 +432,20 @@
       "date_posted": "2026-07-06T14:10:25.000Z",
       "description": "Bachelor's degree in a related science/engineering field, 5+ years environmental field and compliance experience, strong technical writing, field sampling, project planning, safety plan development, Microsoft Office skills, valid driver's license, 40-hour HAZWOPER.",
       "salary": "$85k–$95k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "BGE, Inc",
+      "title": "Environmental Scientist",
+      "location": "Frisco, Texas, United States",
+      "url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
+      "direct_url": "https://job-boards.greenhouse.io/bgeinc/jobs/5282386008",
+      "date_posted": "2026-06-25T17:13:32.000Z",
+      "description": "Bachelor's or Master's in environmental science/ecology/biology/geology, 1+ years relevant experience (Phase I/II ESAs, wetlands, ecological surveys), MS Office proficiency, ArcGIS knowledge preferred, strong writing/communication, willingness to travel and perform fieldwork.",
+      "salary": "",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
