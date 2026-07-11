@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-10 17:22 UTC",
-  "total": 7,
-  "new_count": 1,
+  "scraped_at": "2026-07-11 16:29 UTC",
+  "total": 5,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Lyndon B. Johnson Space Center",
@@ -19,24 +19,6 @@
       "url": "https://www.usajobs.gov/job/875413900",
       "date_posted": "2026-07-07",
       "salary": "Starting at $169,279 Per year (GS 15)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Environmental Protection Agency",
-      "title": "Environmental Protection Specialist",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov/job/875211000",
-      "date_posted": "2026-07-06",
-      "salary": "Starting at $131,009 Per year (GS 14)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "United States Army Installation Management Command",
-      "title": "Supervisory Environmental Specialist",
-      "location": "Yuma Proving Ground, Arizona",
-      "url": "https://www.usajobs.gov/job/874979700",
-      "date_posted": "2026-07-01",
-      "salary": "Starting at $106,437 Per year (GS 13)",
       "ats": "USAJOBS"
     },
     {
@@ -67,15 +49,5 @@
       "ats": "USAJOBS"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Lyndon B. Johnson Space Center",
-      "title": "Public Notice - Environmental Protection Specialist (Direct Hire)",
-      "location": "Las Cruces, New Mexico",
-      "url": "https://www.usajobs.gov/job/875985000",
-      "date_posted": "2026-07-10",
-      "salary": "Starting at $61,722 Per year (GS 9-14)",
-      "ats": "USAJOBS"
-    }
-  ]
+  "new_jobs": []
 }
