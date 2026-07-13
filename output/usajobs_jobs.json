@@ -1,8 +1,26 @@
 {
-  "scraped_at": "2026-07-12 16:31 UTC",
-  "total": 5,
-  "new_count": 0,
+  "scraped_at": "2026-07-13 17:33 UTC",
+  "total": 7,
+  "new_count": 2,
   "jobs": [
+    {
+      "company": "Environmental Protection Agency",
+      "title": "Biologist/Entomologist/Toxicologist/Physical Scientist/Chemist",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/876163500",
+      "date_posted": "2026-07-13",
+      "salary": "Starting at $61,722 Per year (GS 9)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Commander, Navy Installations Command",
+      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
+      "location": "Fallon, Nevada",
+      "url": "https://www.usajobs.gov/job/875816500",
+      "date_posted": "2026-07-13",
+      "salary": "Starting at $74,972 Per year (GS 11)",
+      "ats": "USAJOBS"
+    },
     {
       "company": "Lyndon B. Johnson Space Center",
       "title": "Public Notice - Environmental Protection Specialist (Direct Hire)",
@@ -49,5 +67,24 @@
       "ats": "USAJOBS"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Environmental Protection Agency",
+      "title": "Biologist/Entomologist/Toxicologist/Physical Scientist/Chemist",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/876163500",
+      "date_posted": "2026-07-13",
+      "salary": "Starting at $61,722 Per year (GS 9)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Commander, Navy Installations Command",
+      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
+      "location": "Fallon, Nevada",
+      "url": "https://www.usajobs.gov/job/875816500",
+      "date_posted": "2026-07-13",
+      "salary": "Starting at $74,972 Per year (GS 11)",
+      "ats": "USAJOBS"
+    }
+  ]
 }
