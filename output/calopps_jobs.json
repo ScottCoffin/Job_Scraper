@@ -1,8 +1,17 @@
 {
-  "scraped_at": "2026-07-14 17:35 UTC",
-  "total": 1,
-  "new_count": 0,
+  "scraped_at": "2026-07-15 17:40 UTC",
+  "total": 2,
+  "new_count": 1,
   "jobs": [
+    {
+      "company": "Marin Municipal Water District",
+      "title": "Watershed Aide (Fisheries)",
+      "location": "Northern Bay Area",
+      "url": "https://www.calopps.org/marin-municipal-water-district/job-20758936",
+      "date_posted": "",
+      "salary": "$26.48-$30.56 Hourly",
+      "ats": "CalOpps"
+    },
     {
       "company": "Valley Water",
       "title": "Assistant Water Resources Specialist I/II (Limited Term)",
@@ -13,5 +22,15 @@
       "ats": "CalOpps"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Marin Municipal Water District",
+      "title": "Watershed Aide (Fisheries)",
+      "location": "Northern Bay Area",
+      "url": "https://www.calopps.org/marin-municipal-water-district/job-20758936",
+      "date_posted": "",
+      "salary": "$26.48-$30.56 Hourly",
+      "ats": "CalOpps"
+    }
+  ]
 }
