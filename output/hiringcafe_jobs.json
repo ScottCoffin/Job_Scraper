@@ -1,8 +1,22 @@
 {
-  "scraped_at": "2026-07-15 18:04 UTC",
-  "total": 65,
-  "new_count": 1,
+  "scraped_at": "2026-07-15 20:06 UTC",
+  "total": 66,
+  "new_count": 2,
   "jobs": [
+    {
+      "company": "Johnson & Johnson",
+      "title": "Principal Toxicologist",
+      "location": "Cincinnati or Raritan",
+      "url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
+      "direct_url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
+      "date_posted": "2026-07-09T00:00:00.000Z",
+      "description": "Advanced degree (MS or PhD) in toxicology or related field, 6+ years industry experience in medical devices, 8+ years toxicology/biocompatibility experience, ISO 10993 knowledge, regulated environment and audit support experience.",
+      "salary": "$117k–$201k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
     {
       "company": "Jj",
       "title": "Principal Toxicologist",
@@ -18,17 +32,17 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Johnson & Johnson",
-      "title": "Principal Toxicologist",
-      "location": "Cincinnati or Raritan",
-      "url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
-      "direct_url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
-      "date_posted": "2026-07-09T00:00:00.000Z",
-      "description": "Advanced degree (MS or PhD) in toxicology or related field, 6+ years industry experience in medical devices, 8+ years toxicology/biocompatibility experience, ISO 10993 knowledge, regulated environment and audit support experience.",
-      "salary": "$117k–$201k/yr",
+      "company": "Medline",
+      "title": "Toxicologist R&D",
+      "location": "Illinois, United States",
+      "url": "https://medline.wd5.myworkdayjobs.com/medline/job/REMOTE--Illinois/Toxicologist-R-D_R2613453",
+      "direct_url": "https://medline.wd5.myworkdayjobs.com/medline/job/REMOTE--Illinois/Toxicologist-R-D_R2613453",
+      "date_posted": "2026-07-08T00:00:00.000Z",
+      "description": "Bachelor's in toxicology/pharmacology,5+ years toxicology experience in medical device or related industry,knowledge of ISO 10993/18562/14971,FDA/EU MDR,biocompatibility,chemical characterization;DABT preferred.",
+      "salary": "$101k–$152k/yr",
       "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
       "ats": "HiringCafe"
     },
     {
@@ -57,20 +71,6 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "Telecommute eligible",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Medline",
-      "title": "Toxicologist R&D",
-      "location": "Illinois, United States",
-      "url": "https://medline.wd5.myworkdayjobs.com/medline/job/REMOTE--Illinois/Toxicologist-R-D_R2613453",
-      "direct_url": "https://medline.wd5.myworkdayjobs.com/medline/job/REMOTE--Illinois/Toxicologist-R-D_R2613453",
-      "date_posted": "2026-07-08T00:00:00.000Z",
-      "description": "Bachelor's in toxicology/pharmacology,5+ years toxicology experience in medical device or related industry,knowledge of ISO 10993/18562/14971,FDA/EU MDR,biocompatibility,chemical characterization;DABT preferred.",
-      "salary": "$101k–$152k/yr",
-      "job_type": "Full Time",
-      "is_remote": true,
-      "work_arrangement": "Remote in-state eligible",
       "ats": "HiringCafe"
     },
     {
@@ -158,6 +158,20 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "Madrigalpharma",
+      "title": "Associate Director, Study Toxicologist",
+      "location": "Conshohocken, Pennsylvania, United States",
+      "url": "https://madrigalpharma.wd501.myworkdayjobs.com/madrigal/job/PA---Conshohocken---Office/Associate-Director--Study-Toxicologist_JR_000807-1",
+      "direct_url": "https://madrigalpharma.wd501.myworkdayjobs.com/madrigal/job/PA---Conshohocken---Office/Associate-Director--Study-Toxicologist_JR_000807-1",
+      "date_posted": "2026-07-15T00:00:00.000Z",
+      "description": "PhD in toxicology/pharmacology/DMPK,10+ years pharmaceutical/biotech nonclinical development experience, CRO study management, protocol/report review, strong communication and multitasking skills.",
+      "salary": "$178k–$218k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "State of Michigan, MI",
       "title": "Toxicologist 9-P11/12 - Hazardous Waste Program",
       "location": "Lansing, Michigan, United States",
@@ -203,6 +217,20 @@
       "company": "UTMB Health",
       "title": "Medical Toxicologist TDH Poison Center (Per Diem < 20 hours/week)",
       "location": "Galveston, Texas, United States",
+      "url": "https://aa083.referrals.selectminds.com/jobs/medical-toxicologist-tdh-poison-center-per-diem-%3C-20-hours-week-34663",
+      "direct_url": "https://aa083.referrals.selectminds.com/jobs/medical-toxicologist-tdh-poison-center-per-diem-%3C-20-hours-week-34663",
+      "date_posted": "2026-07-03T04:49:13.190Z",
+      "description": "MD/DO required; active Texas medical license; board certified or board eligible in medical toxicology; provides remote toxicology consultation and clinical oversight for poison center.",
+      "salary": "",
+      "job_type": "Part Time, Temporary",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "UTMB Health",
+      "title": "Medical Toxicologist TDH Poison Center (Per Diem < 20 hours/week)",
+      "location": "Galveston, Texas, United States",
       "url": "https://aa083.taleo.net/careersection/ajb/jobdetail.ftl?job=2603836&lang=en",
       "direct_url": "https://aa083.taleo.net/careersection/ajb/jobdetail.ftl?job=2603836&lang=en",
       "date_posted": "2026-07-02T16:39:17.000Z",
@@ -242,20 +270,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Whitestone Associates, Inc.",
-      "title": "Environmental Scientist",
-      "location": "Pittsburgh, Pennsylvania, United States",
-      "url": "https://job-boards.greenhouse.io/whitestoneassociatesinc/jobs/4283822009",
-      "direct_url": "https://job-boards.greenhouse.io/whitestoneassociatesinc/jobs/4283822009",
-      "date_posted": "2026-06-16T16:06:30.000Z",
-      "description": "Bachelor's in environmental science/engineering/geology, 1+ years environmental consulting experience, field sampling and site assessment skills, strong analytical and communication skills, ability to manage multiple projects.",
-      "salary": "$60k–$85k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Tetra Tech",
       "title": "Environmental Scientist",
       "location": "Rancho Cordova or Oakland",
@@ -270,15 +284,15 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "APTIM",
+      "company": "Whitestone Associates, Inc.",
       "title": "Environmental Scientist",
-      "location": "Houma, Louisiana, United States",
-      "url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
-      "direct_url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
-      "date_posted": "2026-06-27T04:08:25.228Z",
-      "description": "Bachelor's in environmental science or related field, relevant environmental field experience, valid driver's license and watercraft/trailering experience, ability to lift 30–50 lbs, and strong written and verbal communication skills.",
-      "salary": "$48k–$54k/yr",
-      "job_type": "Part Time",
+      "location": "Pittsburgh, Pennsylvania, United States",
+      "url": "https://job-boards.greenhouse.io/whitestoneassociatesinc/jobs/4283822009",
+      "direct_url": "https://job-boards.greenhouse.io/whitestoneassociatesinc/jobs/4283822009",
+      "date_posted": "2026-06-16T16:06:30.000Z",
+      "description": "Bachelor's in environmental science/engineering/geology, 1+ years environmental consulting experience, field sampling and site assessment skills, strong analytical and communication skills, ability to manage multiple projects.",
+      "salary": "$60k–$85k/yr",
+      "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
       "ats": "HiringCafe"
@@ -298,6 +312,20 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "APTIM",
+      "title": "Environmental Scientist",
+      "location": "Houma, Louisiana, United States",
+      "url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
+      "direct_url": "https://myjobs.adp.com/aptim-professional-careers/cx/job-details?reqId=5001205709206",
+      "date_posted": "2026-06-27T04:08:25.228Z",
+      "description": "Bachelor's in environmental science or related field, relevant environmental field experience, valid driver's license and watercraft/trailering experience, ability to lift 30–50 lbs, and strong written and verbal communication skills.",
+      "salary": "$48k–$54k/yr",
+      "job_type": "Part Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "Handex Consulting & Remediation",
       "title": "Environmental Scientist",
       "location": "Tampa or Florida",
@@ -306,20 +334,6 @@
       "date_posted": "2026-06-30T17:34:17.000Z",
       "description": "Bachelor's in geology/environmental science/hydrogeology/engineering (or equivalent), 0-2 years environmental field experience, OSHA 40-hour HAZWOPER (preferred), TWIC card (preferred), Microsoft Office proficiency, and field sampling/monitoring skills.",
       "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "State of Nevada (NV)",
-      "title": "ENVIRONMENTAL SCIENTIST 3 - PART TIME",
-      "location": "Carson City, Nevada, United States",
-      "url": "https://www.governmentjobs.com/careers/nv/jobs/5388532",
-      "direct_url": "https://www.governmentjobs.com/careers/nv/jobs/5388532",
-      "date_posted": "2026-06-24T22:35:07.000Z",
-      "description": "Bachelor's in physical/natural resource/life sciences or engineering + 3 years environmental experience, OR HS + 5 years experience, OR 1 year as Environmental Scientist 2 in Nevada; valid driver\\u0002s license required.",
-      "salary": "$67k–$100k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -916,17 +930,31 @@
   ],
   "new_jobs": [
     {
-      "company": "Apex Companies",
-      "title": "Scientist 1 – Water Quality – Northern Wyoming",
-      "location": "Gillette, Wyoming, United States",
-      "url": "https://job-boards.greenhouse.io/apexcompanies/jobs/5351083008",
-      "direct_url": "https://job-boards.greenhouse.io/apexcompanies/jobs/5351083008",
-      "date_posted": "2026-07-15T13:17:40.000Z",
-      "description": "BS in environmental science or related field, 0–3 years field sampling/inspection experience, valid driver’s license, ability to lift 70 lbs, Microsoft Office proficiency, pass drug/alcohol screening.",
-      "salary": "",
+      "company": "Madrigalpharma",
+      "title": "Associate Director, Study Toxicologist",
+      "location": "Conshohocken, Pennsylvania, United States",
+      "url": "https://madrigalpharma.wd501.myworkdayjobs.com/madrigal/job/PA---Conshohocken---Office/Associate-Director--Study-Toxicologist_JR_000807-1",
+      "direct_url": "https://madrigalpharma.wd501.myworkdayjobs.com/madrigal/job/PA---Conshohocken---Office/Associate-Director--Study-Toxicologist_JR_000807-1",
+      "date_posted": "2026-07-15T00:00:00.000Z",
+      "description": "PhD in toxicology/pharmacology/DMPK,10+ years pharmaceutical/biotech nonclinical development experience, CRO study management, protocol/report review, strong communication and multitasking skills.",
+      "salary": "$178k–$218k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "UTMB Health",
+      "title": "Medical Toxicologist TDH Poison Center (Per Diem < 20 hours/week)",
+      "location": "Galveston, Texas, United States",
+      "url": "https://aa083.referrals.selectminds.com/jobs/medical-toxicologist-tdh-poison-center-per-diem-%3C-20-hours-week-34663",
+      "direct_url": "https://aa083.referrals.selectminds.com/jobs/medical-toxicologist-tdh-poison-center-per-diem-%3C-20-hours-week-34663",
+      "date_posted": "2026-07-03T04:49:13.190Z",
+      "description": "MD/DO required; active Texas medical license; board certified or board eligible in medical toxicology; provides remote toxicology consultation and clinical oversight for poison center.",
+      "salary": "",
+      "job_type": "Part Time, Temporary",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
       "ats": "HiringCafe"
     }
   ]
