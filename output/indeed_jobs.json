@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-17 21:23 UTC",
+  "scraped_at": "2026-07-17 21:36 UTC",
   "total": 4,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Rippling",
@@ -76,24 +76,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Rippling",
-      "title": "Director, Toxicology",
-      "location": "Palo Alto, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=7b9e67594a2be4a5",
-      "direct_url": "https://ats.rippling.com/evommune/jobs/e58c6c43-04ef-469d-aa29-6da8ada04962?jobSite=Indeed",
-      "company_url": "https://www.indeed.com/cmp/Rippling-9",
-      "date_posted": "2026-07-17",
-      "description": "**About Evommune, Inc.**\n\n\nEvommune, Inc. (NYSE: EVMN) is a clinical\\-stage biotechnology company focused on developing innovative therapies for immune\\-mediated inflammatory diseases. Headquartered in Palo Alto, California, with additional operations in New York, NY, Evommune is advancing a differentiated pipeline designed to address the underlying drivers of disease.\n\n\nOur scientific approach integrates deep immunology expertise with disciplined clinical development to deliver potentially best\\-in\\-class therapies for patients with significant unmet medical need. For more information, visit www.Evommune.com.\n\n **Work Location:** This hybrid position is currently expected to be in the office two days per week, with the option to work remotely up to three days per week. Occasional additional onsite presence may be required based on business needs or operational priorities.\n\n **Our Core Values**\n\n\nBefore we dive into the specifics of the role, it's important to highlight the core values that are integral to being a member of the Evommune team. Our values are not just words; they shape our culture, guide our decision\\-making, and define what it means to be part of our team.\n\n* **Together We Win**: We champion teamwork, celebrating every achievement as a shared success.\n* **Guided by Insight**: We make data\\-driven decisions, using our collective experience to shape the future of our business.\n* **Every Day Matters**: We act with urgency to bring transformative therapies to patients by being nimble, decisive, and effective.\n* **Driven By Excellence**: We set a high bar and hold ourselves accountable to deliver exceptional results in everything we do.\n* **Empowered To Act**: We invest in our team and value transparency, fostering trust and a sense of ownership.\n\n\nWe seek individuals who resonate with these principles, as they are essential for thriving in our collaborative, innovative, and dynamic work environment.\n\n **The Position**\n\n\nEvommune is seeking an experienced and highly motivated PhD Toxicologist to join the company as Director, Toxicology.\n\n\nThis individual will provide toxicology strategy and executional support across Evommune’s development programs. The Director will serve as the toxicology representative on cross\\-functional program teams and will be responsible for the design, oversight, interpretation, and reporting of nonclinical safety studies supporting candidate selection, regulatory submissions, and clinical development.\n\n\nThe successful candidate will bring strong scientific judgment, hands\\-on experience managing outsourced toxicology studies, and a solid understanding of regulatory expectations for nonclinical safety assessment. This is a highly collaborative, individual\\-contributor role that requires both strategic thinking and operational execution in a fast\\-paced biotechnology environment.\n\n**Key Responsibilities**\n\n* Develop and execute nonclinical toxicology strategies for assigned development programs.\n* Serve as the toxicology representative on cross\\-functional program teams.\n* Provide scientific guidance on nonclinical safety risks, study design, and program advancement.\n* Design, oversee, interpret, and report exploratory, IND\\-enabling, and clinical\\-stage toxicology studies.\n* Manage external contract research organizations, consultants, study directors, and other scientific partners.\n* Review and approve study protocols, amendments, data, and final reports.\n* Ensure studies are conducted in accordance with GLP requirements, applicable regulations, and relevant scientific guidance.\n* Integrate toxicology findings with pharmacology, pharmacokinetic, bioanalytical, and clinical data.\n* Identify potential safety risks and recommend appropriate mitigation and monitoring strategies.\n* Support the preparation of nonclinical sections of regulatory submissions, including pre\\-IND briefing packages, INDs, clinical trial applications, investigator brochures, and responses to health authority questions.\n* Contribute to regulatory meeting preparation and participate in health authority interactions, as appropriate.\n* Partner closely with colleagues in Research, DMPK, Translational Sciences, Clinical Development, Regulatory Affairs, CMC, and Program Management.\n* Monitor evolving scientific and regulatory expectations related to nonclinical safety assessment.\n* Support due diligence, portfolio evaluation, and other scientific activities as needed.\n\n**Qualifications**\n\n* PhD, DVM, or equivalent advanced degree in toxicology, pharmacology, pathology, immunology, or a related scientific discipline.\n* Typically 10 or more years of relevant experience in biotechnology, pharmaceutical development, or a related environment.\n* Demonstrated expertise in the nonclinical safety assessment of small molecules. Experience with biologics is a plus.\n* Experience designing and overseeing IND\\-enabling toxicology programs and supporting first\\-in\\-human clinical development.\n* Strong working knowledge of GLP requirements and relevant FDA, ICH, EMA, and other global regulatory guidance.\n* Experience preparing nonclinical sections of regulatory submissions and responding to health authority questions.\n* Demonstrated ability to interpret complex toxicology findings and communicate their relevance to clinical development and patient safety.\n* Strong experience managing CROs, consultants, study directors, and external scientific partners.\n* Ability to operate effectively in a lean organization and manage multiple programs and priorities simultaneously.\n* Excellent scientific writing, presentation, communication, and influencing skills.\n* Strong interpersonal skills and demonstrated success working within multidisciplinary development teams.\n\n**Preferred Qualifications**\n\n* Experience supporting small molecule programs.\n* Board certification in toxicology, such as DABT.\n* Experience in immunology, inflammation, dermatology, or immune\\-mediated diseases.\n* Experience supporting programs fr",
-      "salary": "$226k–$280k/yr",
-      "salary_source": "direct_data",
-      "salary_currency": "USD",
-      "job_type": "fulltime",
-      "is_remote": true,
-      "work_arrangement": "Remote in-state eligible",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
