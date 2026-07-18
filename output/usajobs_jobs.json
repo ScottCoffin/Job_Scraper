@@ -1,24 +1,15 @@
 {
-  "scraped_at": "2026-07-17 16:46 UTC",
-  "total": 11,
-  "new_count": 4,
+  "scraped_at": "2026-07-18 16:31 UTC",
+  "total": 10,
+  "new_count": 1,
   "jobs": [
     {
-      "company": "Environmental Protection Agency",
-      "title": "Biologist/Entomologist/Toxicologist/Physical Scientist/Chemist",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov/job/876163500",
-      "date_posted": "2026-07-13",
-      "salary": "Starting at $61,722 Per year (GS 9)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Commander, Navy Installations Command",
-      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
-      "location": "San Clemente Naval Reserve Island, California",
-      "url": "https://www.usajobs.gov/job/876271900",
+      "company": "Food and Drug Administration",
+      "title": "Toxicologist",
+      "location": "Silver Spring, Maryland",
+      "url": "https://www.usajobs.gov/job/877110500",
       "date_posted": "2026-07-17",
-      "salary": "Starting at $87,061 Per year (GS 11)",
+      "salary": "Starting at $121,785 Per year (RC 00)",
       "ats": "USAJOBS"
     },
     {
@@ -105,39 +96,12 @@
   ],
   "new_jobs": [
     {
-      "company": "Commander, Navy Installations Command",
-      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
-      "location": "San Clemente Naval Reserve Island, California",
-      "url": "https://www.usajobs.gov/job/876271900",
+      "company": "Food and Drug Administration",
+      "title": "Toxicologist",
+      "location": "Silver Spring, Maryland",
+      "url": "https://www.usajobs.gov/job/877110500",
       "date_posted": "2026-07-17",
-      "salary": "Starting at $87,061 Per year (GS 11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Veterans Health Administration",
-      "title": "Environmental Protection Specialist",
-      "location": "Battle Creek, Michigan",
-      "url": "https://www.usajobs.gov/job/876835500",
-      "date_posted": "2026-07-17",
-      "salary": "Starting at $74,678 Per year (GS 11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Commander, Navy Installations Command",
-      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
-      "location": "San Clemente Naval Reserve Island, California",
-      "url": "https://www.usajobs.gov/job/876808800",
-      "date_posted": "2026-07-17",
-      "salary": "Starting at $71,957 Per year (GS 9-11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Military Treatment Facilities under DHA",
-      "title": "Risk Assessment Specialist",
-      "location": "Bethesda, Maryland",
-      "url": "https://www.usajobs.gov/job/876649400",
-      "date_posted": "2026-07-17",
-      "salary": "Starting at $102,415 Per year (GS 12)",
+      "salary": "Starting at $121,785 Per year (RC 00)",
       "ats": "USAJOBS"
     }
   ]
