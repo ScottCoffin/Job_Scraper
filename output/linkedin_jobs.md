@@ -1,9 +1,14 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-18 04:34 UTC*
+*Last updated: 2026-07-18 16:21 UTC*
 
-**1 new role(s)** since last run · 1 total in last 1h
+**2 new role(s)** since last run · 2 total in last 1h
 
-### [Environmental Protection Specialist](https://www.linkedin.com/jobs/view/4442420700/) — U.S. Department of Veterans Affairs
-- 📍 **Location:** Palo Alto, CA
-- 💰 **Salary:** $63,081.00/yr - $121,371.00/yr
+### [Principal Environmental Risk Assessor](https://www.linkedin.com/jobs/view/4424645582/) — Geosyntec Consultants
+- 📍 **Location:** Walnut Creek, CA
+- 💰 **Salary:** $156,115/year - $218,560/year
+- 🕒 **Posted:** 2026-07-18
+
+### [Project Architect (Water Quality and R&D Labs)](https://www.linkedin.com/jobs/view/4414298138/) — Jacobs
+- 📍 **Location:** Los Angeles, CA
+- 💰 **Salary:** $143,000.00/yr - $184,900.00/yr
 - 🕒 **Posted:** 2026-07-18
