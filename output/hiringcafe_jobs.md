@@ -1,10 +1,11 @@
 # ☕ HiringCafe — Environmental / Toxicology Roles
-*Last updated: 2026-07-19 22:49 UTC*
+*Last updated: 2026-07-19 23:54 UTC*
 
 **1 new role(s)** since last run · 68 total in last 30d
 
-### [Environmental Scientist](https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c68fe53878018fee54f4bd039e&id=8a7887a89efb878a019f194c8dae636b&source=&lang=en) — Cedarville Engineering Group
-- 📍 **Location:** Pottstown, Pennsylvania, United States
+### [Environmental Scientist](https://careers.trccompanies.com/jobs/26283?lang=en-us) — TRC Companies, Inc.
+- 📍 **Location:** Houston, Texas, United States
+- 💰 **Salary:** $55k–$60k/yr
 - **Work mode:** On-site
 - **Job type:** Full Time
-- 🕒 **Posted:** 2026-06-30T16:11:15.000Z
+- 🕒 **Posted:** 2026-07-16T12:35:16.000Z
