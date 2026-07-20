@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-07-20 06:43 UTC",
-  "total": 67,
+  "scraped_at": "2026-07-20 18:51 UTC",
+  "total": 66,
   "new_count": 0,
   "jobs": [
     {
@@ -32,20 +32,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Yagroup",
-      "title": "Senior Toxicologist",
-      "location": "United States",
-      "url": "https://jobs.dayforcehcm.com/en-US/yagroup/candidateportal/jobs/1286",
-      "direct_url": "https://jobs.dayforcehcm.com/en-US/yagroup/candidateportal/jobs/1286",
-      "date_posted": "2026-07-15T04:00:00.000Z",
-      "description": "DABT required, 10+ years toxicology experience with litigation support, strong technical writing and communication, experience evaluating laboratory and exposure data, and degree in toxicology or related field (or equivalent experience).",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": true,
-      "work_arrangement": "Remote in-state eligible",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Jj",
       "title": "Principal Toxicologist",
       "location": "Raritan or Cincinnati",
@@ -57,6 +43,20 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Yagroup",
+      "title": "Senior Toxicologist",
+      "location": "United States",
+      "url": "https://jobs.dayforcehcm.com/en-US/yagroup/candidateportal/jobs/1286",
+      "direct_url": "https://jobs.dayforcehcm.com/en-US/yagroup/candidateportal/jobs/1286",
+      "date_posted": "2026-07-15T04:00:00.000Z",
+      "description": "DABT required, 10+ years toxicology experience with litigation support, strong technical writing and communication, experience evaluating laboratory and exposure data, and degree in toxicology or related field (or equivalent experience).",
+      "salary": "",
+      "job_type": "Full Time",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
       "ats": "HiringCafe"
     },
     {
@@ -326,20 +326,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Penncolor",
-      "title": "Environmental Scientist",
-      "location": "Pittsburgh, Pennsylvania, United States",
-      "url": "https://penncolor.wd5.myworkdayjobs.com/penn-environmental-remediation/job/Pittsburgh-PA/Environmental-Scientist_JR-821",
-      "direct_url": "https://penncolor.wd5.myworkdayjobs.com/penn-environmental-remediation/job/Pittsburgh-PA/Environmental-Scientist_JR-821",
-      "date_posted": "2026-07-16T00:00:00.000Z",
-      "description": "Bachelors in environmental or related field, 4+ years environmental consulting/regulatory experience, wetland/stream delineation experience, permit preparation knowledge, WPIT or PWS or ability to obtain, strong communication skills.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Omega Technical Services",
       "title": "Environmental Scientist",
       "location": "Idaho Falls, Idaho, United States",
@@ -348,6 +334,20 @@
       "date_posted": "2026-07-17T15:31:34.000Z",
       "description": "5+ years supporting environmental remediation, site characterization, waste management or restoration; technical writing; environmental and radiological analyses; DOE clearance eligibility; US citizenship and pre-employment screening required.",
       "salary": "$150k–$190k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Penncolor",
+      "title": "Environmental Scientist",
+      "location": "Pittsburgh, Pennsylvania, United States",
+      "url": "https://penncolor.wd5.myworkdayjobs.com/penn-environmental-remediation/job/Pittsburgh-PA/Environmental-Scientist_JR-821",
+      "direct_url": "https://penncolor.wd5.myworkdayjobs.com/penn-environmental-remediation/job/Pittsburgh-PA/Environmental-Scientist_JR-821",
+      "date_posted": "2026-07-16T00:00:00.000Z",
+      "description": "Bachelors in environmental or related field, 4+ years environmental consulting/regulatory experience, wetland/stream delineation experience, permit preparation knowledge, WPIT or PWS or ability to obtain, strong communication skills.",
+      "salary": "",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -480,14 +480,14 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Environmental Compliance Consultants",
+      "company": "Kansas Department of Agriculture",
       "title": "Environmental Scientist",
-      "location": "Anchorage, Alaska, United States",
-      "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4306613",
-      "direct_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4306613",
-      "date_posted": "2026-07-06T14:10:25.000Z",
-      "description": "Bachelor's degree in a related science/engineering field, 5+ years environmental field and compliance experience, strong technical writing, field sampling, project planning, safety plan development, Microsoft Office skills, valid driver's license, 40-hour HAZWOPER.",
-      "salary": "$85k–$95k/yr",
+      "location": "Garden City, Kansas, United States",
+      "url": "https://jobs.sok.ks.gov/psc/sokhrprdcg/APPLICANT/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=221964&PostingSeq=1&SiteId=1",
+      "direct_url": "https://jobs.sok.ks.gov/psc/sokhrprdcg/APPLICANT/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=221964&PostingSeq=1&SiteId=1",
+      "date_posted": "2026-07-14T12:00:00.000Z",
+      "description": "Four years experience in environmental/physical/biological/math/engineering or equivalent combination; valid Class C driver's license; ability to lift 35 lbs; capable of long outdoor field work; Kansas Tax Clearance Certificate required post-offer.",
+      "salary": "$55k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -508,14 +508,14 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Kansas Department of Agriculture",
+      "company": "Environmental Compliance Consultants",
       "title": "Environmental Scientist",
-      "location": "Garden City, Kansas, United States",
-      "url": "https://jobs.sok.ks.gov/psc/sokhrprdcg/APPLICANT/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=221964&PostingSeq=1&SiteId=1",
-      "direct_url": "https://jobs.sok.ks.gov/psc/sokhrprdcg/APPLICANT/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=221964&PostingSeq=1&SiteId=1",
-      "date_posted": "2026-07-14T12:00:00.000Z",
-      "description": "Four years experience in environmental/physical/biological/math/engineering or equivalent combination; valid Class C driver's license; ability to lift 35 lbs; capable of long outdoor field work; Kansas Tax Clearance Certificate required post-offer.",
-      "salary": "$55k/yr",
+      "location": "Anchorage, Alaska, United States",
+      "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4306613",
+      "direct_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4306613",
+      "date_posted": "2026-07-06T14:10:25.000Z",
+      "description": "Bachelor's degree in a related science/engineering field, 5+ years environmental field and compliance experience, strong technical writing, field sampling, project planning, safety plan development, Microsoft Office skills, valid driver's license, 40-hour HAZWOPER.",
+      "salary": "$85k–$95k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -659,20 +659,6 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Vantage Point Solutions",
-      "title": "Environmental Scientist- Senior Environmental Permitter",
-      "location": "Rapid City, South Dakota, United States",
-      "url": "https://vantage-point-solutions-inc.breezy.hr/p/dc66f397e980-environmental-scientist-senior-environmental-permitter",
-      "direct_url": "https://vantage-point-solutions-inc.breezy.hr/p/dc66f397e980-environmental-scientist-senior-environmental-permitter",
-      "date_posted": "2026-07-13T20:36:28.992Z",
-      "description": "Bachelor's degree in a related field, experience with federal/state environmental permitting, strong writing and organizational skills, valid US driver’s license, ability to travel <10%, ability to work independently and supervise staff.",
-      "salary": "$62k–$71k/yr",
-      "job_type": "Full Time",
-      "is_remote": true,
-      "work_arrangement": "Remote in-state eligible",
       "ats": "HiringCafe"
     },
     {
