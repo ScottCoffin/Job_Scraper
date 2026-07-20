@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-07-19 17:12 UTC",
-  "total": 6,
+  "scraped_at": "2026-07-20 18:15 UTC",
+  "total": 7,
   "new_count": 0,
   "jobs": [
     {
@@ -52,6 +52,18 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
+      "company": "Department of Resources Recycling & Recovery",
+      "title": "Environmental Scientist",
+      "location": "Los Angeles County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=523419",
+      "date_posted": "2026-07-20",
+      "salary": "$4418.00 - $9321.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
       "company": "Department of Fish and Wildlife",
       "title": "Environmental Scientist",
       "location": "Sacramento County",
@@ -64,12 +76,12 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "Department of Resources Recycling & Recovery",
-      "title": "Senior Environmental Scientist (Specialist)",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=524688",
-      "date_posted": "2026-07-16",
-      "salary": "$7820.00 - $10732.00",
+      "company": "Department of Pesticide Regulation",
+      "title": "Environmental Scientist",
+      "location": "Orange County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=525317",
+      "date_posted": "2026-07-20",
+      "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
