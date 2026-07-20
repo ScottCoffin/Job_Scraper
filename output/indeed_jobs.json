@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-20 20:53 UTC",
+  "scraped_at": "2026-07-20 20:55 UTC",
   "total": 5,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "California Department of Pesticide Regulation",
@@ -94,24 +94,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "aptim",
-      "title": "Environmental Scientist",
-      "location": "Salem, OR, US",
-      "url": "https://www.indeed.com/viewjob?jk=93e56327a5ab734c",
-      "direct_url": "https://recruiting.adp.com/srccsh/public/RTI.home?r=5001212494806&c=1149111&d=Professional&rb=INDEED&idUnique=5001212494806",
-      "company_url": "https://www.indeed.com/cmp/Aptim",
-      "date_posted": "2026-07-20",
-      "description": "**Job Overview:**\n\n\n\nAPTIM Environmental \\& Infrastructure, LLC is seeking a mid\\-level Environmental Scientist on a full\\-time basis to work remotely from Oregon to participate in a variety of environmental compliance tasks in support of environmental compliance and permitting review programs. The successful candidate will prepare technical and compliance reports and review reports completed by other personnel, and lead training of other staff members. Assist in preparation of proposals, budgets, vendor/subcontractor selection, and other contract related items. Conduct technical and regulatory analyses and review analyses of junior personnel. Perform diverse fieldwork, possibly including sampling inspections and audits. Apply expertise to both standard and unique situations, ensuring environmental standards are met across projects. Be expected to maintain current knowledge of environmental regulations and emerging developments. This role requires both independent work and collaboration with multidisciplinary teams to ensure compliance and provide clients with practical, science\\-based solutions. Responsibilities may also include supervising junior staff and participating in leadership development opportunities. This position will primarily be remote but may also require travel to client facilities, conduct environmental compliance reviews/audits and/or gather related data.\n\n\n**Key Responsibilities/Accountabilities:**\n\n\n* Executing and managing various work scopes, while meeting project schedules and budgets.\n* Collection and interpretation/evaluation of scientific data.\n* Executes field work within project schedule and budgetary goals and supervises subcontractors.\n* Use various environmental databases and software to research project/site requirements and document the results in a technical report.\n* Work independently and as part of a project team and be able to adjust to changing conditions or client requirements. Supervises junior staff on more complex work tasks.\n* Adheres to established health and safety policies and procedures and executes work in a safe and conscientious manner.\n* Understands technical concepts, evaluation results, plans, reports, and ensures conformance to applicable technical standards.\n* Interfacing with client personnel at a corporate and facility level.\n* Has in\\-depth experience, knowledge, and skills in own discipline.\n* Flexible and willing to support other projects as needed.\n* Drafts technical documents for regulatory agencies and private clients.\n* Providing training, guidance and oversight to junior staff.\n* Applies knowledge and skills to more complex situations.\n* Build and maintain successful client relationships.\n* Work with clients to evaluate proposed projects for anticipated impacts, define type of environmental requirements needed and prepare proposals.\n* Communications with regulatory agencies.\n* Time management to ensure a quality product is prepared to meet project deadlines.\n* Applies knowledge and skills to a wide range of standard and nonstandard situations.\n* Following defined processes explicitly while also being able to identify and accommodate new or changing scenarios as well as developing processes for new activities.\n* Prior experience or training regarding environmental compliance and related federal and state environmental regulations required.\n* Experience with auditing is preferred.\n\n\n**Basic Qualifications:**\n\n\n* Bachelor's degree in environmental science, a core science (such as geology, chemistry, physics, or biology), engineering, or related area required.\n* Related work experience of 4\\-6 years.\n* Must have strong written and oral communication skills.\n* Must have strong organizational skills.\n* Strong computer skills required. Must have demonstrated strength and proficiency with Microsoft applications such as MS Excel, MS Word, SharePoint Online, and ability to learn other software applications.\n* May be asked to work in the field and travel to complete work.\n\n\n**About APTIM**\n\n\n\nAPTIM enhances the quality of the environment, wellbeing of people, resilience of communities, and opportunity for employees to make a difference, not just a living. A leading professional solutions firm, we specialize in environmental, sustainability, resilience, and infrastructure solutions. Our team of experts provide these integrated solutions for forward\\-thinking government agencies, commercial and industrial clients, and energy customers. Together, we create sustainable and resilient communities for all.\n\n\n\nWhat you can expect from APTIM:\n\n\n* Work that is worthy of your time and talent\n* Respect and flexibility to live a full life at work and at home\n* Dogged determination to deliver for our clients and communities\n* A voice in making our company better\n* Investment into your personal and professional development\n\n\nAs of the date of this posting, a good faith estimate of the current pay range for this position is $80,000 to $85,000 per year. Compensation depends on several factors including: experience, education, key skills, geographic location of the position, client requirements, external market competitiveness, and internal equity among other employees within APTIM.\n\n\n**Employee Benefits**\n\n\nAPTIM Environmental \\& Infrastructure, llp committed to providing an extensive range of benefits that protect and promote the health and financial well\\-being of our employees and their families through the APTIM Benefits Marketplace https://aptim.makeityoursource.com/.\n\n\n* Medical, vision, and dental insurance: Through the marketplace, our employees can choose benefits from five metallic levels and several carriers to find the right benefits that work for them in their location.\n* Company paid and optional Life insurance\n* Short\\-term and long\\-term disability insurance\n* Accident, Critical Illness, and Hospital Indemnity coverage\n* Paid holidays, vacation, and sick leave (eligibility based on company policy and applicable law)\n* 401(k) APTIM of",
-      "salary": "$80k–$85k/yr",
-      "salary_source": "direct_data",
-      "salary_currency": "USD",
-      "job_type": "fulltime",
-      "is_remote": true,
-      "work_arrangement": "Remote in-state eligible",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
