@@ -1,6 +1,9 @@
 # 🇺🇸 USAJOBS — Federal Environmental / Toxicology Roles
-*Last updated: 2026-07-19 16:29 UTC*
+*Last updated: 2026-07-20 17:03 UTC*
 
-**0 new role(s)** since last run · 10 total in current USAJOBS postings
+**1 new role(s)** since last run · 11 total in current USAJOBS postings
 
-No new federal roles since the last run.
+### [Environmental Protection Specialist](https://www.usajobs.gov/job/877134900) — Bureau of Prisons/Federal Prison System
+- 📍 **Location:** Texarkana, Texas
+- 💰 **Salary:** Starting at $74,678 Per year (GS 11)
+- 🕒 **Posted:** 2026-07-20
