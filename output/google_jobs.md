@@ -1,20 +1,33 @@
 # 🔎 Google Jobs — Environmental / Toxicology Roles
-*Last updated: 2026-07-20 05:23 UTC*
+*Last updated: 2026-07-20 18:34 UTC*
 
-**3 new role(s)** since last run · 3 total in last 24h
+**5 new role(s)** since last run · 5 total in last 24h
 
-### [Medical Toxicology Physician Assistant](https://jobmesh.io/job/e0b706fd-ae66-4d62-9fd8-4549b2d105de?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — DirectShifts
-- 📍 **Location:** Novato, CA
+### [Risk Assessment Analyst - Youth AI Safety Institute](https://www.linkedin.com/jobs/view/risk-assessment-analyst-youth-ai-safety-institute-at-redwood-ar-4442588045?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Redwood AR
+- 📍 **Location:** San Francisco, CA
 - **Job type:** Full-time
 - 🕒 **Posted:** 2026-07-20
 
-### [Environmental Scientist](https://www.linkedin.com/jobs/view/environmental-scientist-at-calrecycle-4442520108?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — CalRecycle
-- 📍 **Location:** Sacramento, CA
-- 💰 **Salary:** 4,418–9,321 a month
+### [Principal Toxicologist; Ph.D](https://www.learn4good.com/jobs/irvine/california/science/5300821766/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Exponent
+- 📍 **Location:** Irvine, CA
+- 💰 **Salary:** 200K–300K a year
 - **Job type:** Full-time
 - 🕒 **Posted:** 2026-07-20
 
-### [Environmental scientist at California Governor's Office of Emergency Services Los Angeles, CA](https://www.hayakawa.ne.jp/job-library/job/environmental-scientist-at-california-governors-office-of-emergency-services-los-angeles-ca-bFBpdjMxTnlEZVR2T3JST2pTR0V4dEt1MVE9PQ==?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — California Governor's Office of Emergency Services
+### [Entry-Level Environmental Scientist: NEPA & Field Data](https://www.learn4good.com/jobs/san-jose/california/science/5300298231/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — LAUKOA
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** 55K–75K a year
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-07-20
+
+### [Entry-Level Environmental Scientist: NEPA & Field Data](https://www.learn4good.com/jobs/los-angeles/california/science/5300257536/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — LAUKOA
 - 📍 **Location:** Los Angeles, CA
+- 💰 **Salary:** 55K–75K a year
+- **Job type:** Full-time
+- 🕒 **Posted:** 2026-07-20
+
+### [Lead Civil & Environmental Remediation Consultant](https://www.jobleads.com/us/job/lead-civil-environmental-remediation-consultant--portland--e350407b3ec7788ae19c3156f0e4bc055?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — ERM
+- 📍 **Location:** Portland, OR
+- 💰 **Salary:** 103K–133K a year
 - **Job type:** Full-time
 - 🕒 **Posted:** 2026-07-20
