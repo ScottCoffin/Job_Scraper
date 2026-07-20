@@ -1,9 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-20 16:55 UTC*
+*Last updated: 2026-07-20 19:17 UTC*
 
 **1 new role(s)** since last run · 1 total in last 1h
 
-### [Scientist I, Eurofins Drinking Water and Wastewater West, West Sacramento, CA](https://www.linkedin.com/jobs/view/4442724986/) — Eurofins Environment Testing (USA)
-- 📍 **Location:** West Sacramento, CA
-- 💰 **Salary:** $22.20/hr - $27.00/hr
+### [Environmental Scientist](https://www.linkedin.com/jobs/view/4442768824/) — CalRecycle
+- 📍 **Location:** Los Angeles, CA
+- 💰 **Salary:** $4,418.00/mo - $9,321.00/mo
 - 🕒 **Posted:** 2026-07-20
