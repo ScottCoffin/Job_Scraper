@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-20 18:22 UTC",
-  "total": 7,
-  "new_count": 6,
+  "scraped_at": "2026-07-21 17:47 UTC",
+  "total": 11,
+  "new_count": 4,
   "jobs": [
     {
       "company": "LA METRO",
@@ -40,6 +40,24 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "City of Naples",
+      "title": "Water Quality Project Manager",
+      "location": "295 Riverside Circle Naples, FL",
+      "url": "https://www.governmentjobs.com/jobs/5402120-0/water-quality-project-manager",
+      "date_posted": "",
+      "salary": "$90,402.00 - $140,123.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "East Bay Municipal Utility District",
+      "title": "Superintendent of Water Treatment/Distribution/Systems Water Quality (System Water Quality)",
+      "location": "Oakland, CA",
+      "url": "https://www.governmentjobs.com/jobs/5381810-0/superintendent-of-water-treatment-distribution-systems-water-quality-system-wate",
+      "date_posted": "",
+      "salary": "$191,664.00 - $221,892.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "Regional Government Services",
       "title": "Air Quality Specialist I for the Feather River Air Quality Management District",
       "location": "Yuba City, CA",
@@ -65,61 +83,61 @@
       "date_posted": "",
       "salary": "$7,959.47 - $12,367.33 Monthly",
       "ats": "NEOGOV"
+    },
+    {
+      "company": "Carlsbad, City of (CA)",
+      "title": "Environmental Specialist I",
+      "location": "Carlsbad, CA",
+      "url": "https://www.governmentjobs.com/jobs/5407714-0/environmental-specialist-i",
+      "date_posted": "",
+      "salary": "$69,721.60 - $84,822.40 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Sacramento",
+      "title": "Environmental Specialist IV",
+      "location": "Sacramento, CA",
+      "url": "https://www.governmentjobs.com/jobs/5398391-0/environmental-specialist-iv",
+      "date_posted": "",
+      "salary": "$127,263.60 - $140,313.60 Annually",
+      "ats": "NEOGOV"
     }
   ],
   "new_jobs": [
     {
-      "company": "LA METRO",
-      "title": "SENIOR ENVIRONMENTAL SPECIALIST (ENVIRONMENTAL COMPLIANCE)",
-      "location": "Los Angeles, CA",
-      "url": "https://www.governmentjobs.com/jobs/145960-1/senior-environmental-specialist-environmental-compliance",
+      "company": "City of Naples",
+      "title": "Water Quality Project Manager",
+      "location": "295 Riverside Circle Naples, FL",
+      "url": "https://www.governmentjobs.com/jobs/5402120-0/water-quality-project-manager",
       "date_posted": "",
-      "salary": "",
+      "salary": "$90,402.00 - $140,123.00 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "County of Sonoma (CA)",
-      "title": "Environmental Health Specialist I",
-      "location": "Santa Rosa, CA",
-      "url": "https://www.governmentjobs.com/jobs/5404181-0/environmental-health-specialist-i",
+      "company": "East Bay Municipal Utility District",
+      "title": "Superintendent of Water Treatment/Distribution/Systems Water Quality (System Water Quality)",
+      "location": "Oakland, CA",
+      "url": "https://www.governmentjobs.com/jobs/5381810-0/superintendent-of-water-treatment-distribution-systems-water-quality-system-wate",
       "date_posted": "",
-      "salary": "$96,111.88 - $116,836.98 Annually",
+      "salary": "$191,664.00 - $221,892.00 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "County of Sonoma (CA)",
-      "title": "Environmental Health Specialist II",
-      "location": "Santa Rosa, CA",
-      "url": "https://www.governmentjobs.com/jobs/5404187-0/environmental-health-specialist-ii",
+      "company": "Carlsbad, City of (CA)",
+      "title": "Environmental Specialist I",
+      "location": "Carlsbad, CA",
+      "url": "https://www.governmentjobs.com/jobs/5407714-0/environmental-specialist-i",
       "date_posted": "",
-      "salary": "$103,938.58 - $126,333.37 Annually",
+      "salary": "$69,721.60 - $84,822.40 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "Kern County",
-      "title": "Environmental Health Specialist-In Training",
-      "location": "Bakersfield, CA",
-      "url": "https://www.governmentjobs.com/jobs/5413929-0/environmental-health-specialist-in-training",
+      "company": "County of Sacramento",
+      "title": "Environmental Specialist IV",
+      "location": "Sacramento, CA",
+      "url": "https://www.governmentjobs.com/jobs/5398391-0/environmental-specialist-iv",
       "date_posted": "",
-      "salary": "$4,701.62 - $5,618.88 Monthly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Regional Government Services",
-      "title": "Air Quality Specialist I for the Feather River Air Quality Management District",
-      "location": "Yuba City, CA",
-      "url": "https://www.governmentjobs.com/jobs/5410101-0/air-quality-specialist-i-for-the-feather-river-air-quality-management-district",
-      "date_posted": "",
-      "salary": "$67,056.00 - $85,584.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Bay Area Air District",
-      "title": "PRINCIPAL AIR QUALITY SPECIALIST",
-      "location": "San Francisco, CA",
-      "url": "https://www.governmentjobs.com/jobs/5395242-0/principal-air-quality-specialist",
-      "date_posted": "",
-      "salary": "$138,567.88 - $168,430.13 Annually",
+      "salary": "$127,263.60 - $140,313.60 Annually",
       "ats": "NEOGOV"
     }
   ]
