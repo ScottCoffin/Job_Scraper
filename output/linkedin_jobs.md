@@ -1,14 +1,18 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-21 22:23 UTC*
+*Last updated: 2026-07-21 23:22 UTC*
 
-**2 new role(s)** since last run · 2 total in last 1h
+**3 new role(s)** since last run · 3 total in last 1h
 
-### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4443563830/) — SPECTRAFORCE
-- 📍 **Location:** Palmdale, CA
-- 💰 **Salary:** $65.00/hr - $65.00/hr
+### [ENVIRONMENTAL SCIENTIST](https://www.linkedin.com/jobs/view/4443590049/) — Caltrans
+- 📍 **Location:** San Bernardino County, CA
+- 💰 **Salary:** $4,418.00/mo - $9,321.00/mo
 - 🕒 **Posted:** 2026-07-21
 
-### [Senior Water Resources Project Manager](https://www.linkedin.com/jobs/view/4442695790/) — Brown and Caldwell
-- 📍 **Location:** Portland, OR
-- 💰 **Salary:** $117,000 - $159,000
+### [Air Pollution Specialist](https://www.linkedin.com/jobs/view/4443592095/) — California Air Resources Board
+- 📍 **Location:** Sacramento, CA
+- 💰 **Salary:** $5,918.00/mo - $11,455.00/mo
+- 🕒 **Posted:** 2026-07-21
+
+### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4442911349/) — American Lithium Energy (ALE)
+- 📍 **Location:** San Diego Metropolitan Area
 - 🕒 **Posted:** 2026-07-21
