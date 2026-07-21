@@ -1,9 +1,9 @@
 # 🇺🇸 USAJOBS — Federal Environmental / Toxicology Roles
-*Last updated: 2026-07-20 17:03 UTC*
+*Last updated: 2026-07-21 16:58 UTC*
 
-**1 new role(s)** since last run · 11 total in current USAJOBS postings
+**1 new role(s)** since last run · 12 total in current USAJOBS postings
 
-### [Environmental Protection Specialist](https://www.usajobs.gov/job/877134900) — Bureau of Prisons/Federal Prison System
-- 📍 **Location:** Texarkana, Texas
-- 💰 **Salary:** Starting at $74,678 Per year (GS 11)
-- 🕒 **Posted:** 2026-07-20
+### [Supervisory Environmental Scientist](https://www.usajobs.gov/job/877179500) — National Oceanic and Atmospheric Administration
+- 📍 **Location:** Silver Spring, Maryland
+- 💰 **Salary:** Starting at $169,279 Per year (ZP 5)
+- 🕒 **Posted:** 2026-07-21

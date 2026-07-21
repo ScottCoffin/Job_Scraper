@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-07-20 17:03 UTC",
-  "total": 11,
+  "scraped_at": "2026-07-21 16:58 UTC",
+  "total": 12,
   "new_count": 1,
   "jobs": [
     {
@@ -94,6 +94,15 @@
       "ats": "USAJOBS"
     },
     {
+      "company": "National Oceanic and Atmospheric Administration",
+      "title": "Supervisory Environmental Scientist",
+      "location": "Silver Spring, Maryland",
+      "url": "https://www.usajobs.gov/job/877179500",
+      "date_posted": "2026-07-21",
+      "salary": "Starting at $169,279 Per year (ZP 5)",
+      "ats": "USAJOBS"
+    },
+    {
       "company": "Air Force Materiel Command",
       "title": "Subject Matter Specialist (Air Quality) - DIRECT HIRE AUTHORITY",
       "location": "Kelly AFB, Texas",
@@ -105,12 +114,12 @@
   ],
   "new_jobs": [
     {
-      "company": "Bureau of Prisons/Federal Prison System",
-      "title": "Environmental Protection Specialist",
-      "location": "Texarkana, Texas",
-      "url": "https://www.usajobs.gov/job/877134900",
-      "date_posted": "2026-07-20",
-      "salary": "Starting at $74,678 Per year (GS 11)",
+      "company": "National Oceanic and Atmospheric Administration",
+      "title": "Supervisory Environmental Scientist",
+      "location": "Silver Spring, Maryland",
+      "url": "https://www.usajobs.gov/job/877179500",
+      "date_posted": "2026-07-21",
+      "salary": "Starting at $169,279 Per year (ZP 5)",
       "ats": "USAJOBS"
     }
   ]
