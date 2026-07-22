@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-07-22 20:10 UTC",
-  "total": 71,
+  "scraped_at": "2026-07-22 22:02 UTC",
+  "total": 70,
   "new_count": 1,
   "jobs": [
     {
@@ -312,6 +312,20 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "State Water Resources Control Board",
+      "title": "Environmental Scientist",
+      "location": "San Luis Obispo County, California, United States",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=482161",
+      "direct_url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=482161",
+      "date_posted": "2026-07-08T12:00:00.000Z",
+      "description": "Must meet the Environmental Scientist class minimum qualifications and possess list/transfer/reinstatement eligibility; may require driving and credential evaluation for foreign degrees.",
+      "salary": "$53k–$112k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "State of Nevada (NV)",
       "title": "ENVIRONMENTAL SCIENTIST 3",
       "location": "Reno, Nevada, United States",
@@ -578,20 +592,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Freeport McMoRan Inc.",
-      "title": "Chief Environmental Scientist",
-      "location": "Morenci, Arizona, United States",
-      "url": "https://jobs.fcx.com/job/Morenci-Chief-Environmental-Scientist-AZ-85540/1406931400/",
-      "direct_url": "https://jobs.fcx.com/job/Morenci-Chief-Environmental-Scientist-AZ-85540/1406931400/",
-      "date_posted": "2026-07-08T00:00:00.000Z",
-      "description": "Bachelor's in environmental or related science with 7 years' experience OR Master's with 5 years; strong knowledge of environmental regulations, permitting, air/water quality, and project leadership.",
-      "salary": "$112k–$160k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "HDR",
       "title": "Environmental Scientist 2",
       "location": "Bellevue, Washington, United States",
@@ -662,20 +662,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "True-environmental",
-      "title": "Associate Environmental Scientist",
-      "location": "Florham Park, New Jersey, United States",
-      "url": "https://jobs.lever.co/true-environmental/96d4fbd4-2b46-4ade-a626-c1ed7f01b842",
-      "direct_url": "https://jobs.lever.co/true-environmental/96d4fbd4-2b46-4ade-a626-c1ed7f01b842",
-      "date_posted": "2026-07-21T17:18:57.933Z",
-      "description": "BS in environmental field, valid driver's license, ability to perform field sampling and site investigations, strong writing and quantitative skills, respirator use, pass drug testing.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Energy & Environment Cabinet | Department for Natural Resources",
       "title": "Environmental Scientist III",
       "location": "Location Varies, Kentucky, United States",
@@ -690,14 +676,14 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Vistal",
-      "title": "Environmental Scientist I",
-      "location": "Plymouth or Saint Cloud or Minnesota or South Dakota or North Dakota or Iowa or Colorado",
-      "url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/52ddab16-c6b6-4884-85f0-a111cb4367f8/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
-      "direct_url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/52ddab16-c6b6-4884-85f0-a111cb4367f8/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
-      "date_posted": "2026-07-01T18:47:25.002Z",
-      "description": "Bachelor's in biology/ecology/environmental science, 3+ years relevant experience, plant ID, GIS experience, knowledge of MN/ND/SD and federal wetland regulations, valid driver's license, insurable.",
-      "salary": "$71k–$97k/yr",
+      "company": "True-environmental",
+      "title": "Associate Environmental Scientist",
+      "location": "Florham Park, New Jersey, United States",
+      "url": "https://jobs.lever.co/true-environmental/96d4fbd4-2b46-4ade-a626-c1ed7f01b842",
+      "direct_url": "https://jobs.lever.co/true-environmental/96d4fbd4-2b46-4ade-a626-c1ed7f01b842",
+      "date_posted": "2026-07-21T17:18:57.933Z",
+      "description": "BS in environmental field, valid driver's license, ability to perform field sampling and site investigations, strong writing and quantitative skills, respirator use, pass drug testing.",
+      "salary": "",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -711,6 +697,20 @@
       "direct_url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/94bf816a-6c0f-40c0-8bc1-e9dbe4e258f2/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
       "date_posted": "2026-07-01T18:47:25.002Z",
       "description": "Bachelor's in biology/ecology/environmental sciences, 3+ years relevant experience, plant ID, GIS proficiency, knowledge of federal and MN/ND/SD wetland regulations, valid driver’s license and insurable.",
+      "salary": "$71k–$97k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Vistal",
+      "title": "Environmental Scientist I",
+      "location": "Plymouth or Saint Cloud or Minnesota or South Dakota or North Dakota or Iowa or Colorado",
+      "url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/52ddab16-c6b6-4884-85f0-a111cb4367f8/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
+      "direct_url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/52ddab16-c6b6-4884-85f0-a111cb4367f8/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
+      "date_posted": "2026-07-01T18:47:25.002Z",
+      "description": "Bachelor's in biology/ecology/environmental science, 3+ years relevant experience, plant ID, GIS experience, knowledge of MN/ND/SD and federal wetland regulations, valid driver's license, insurable.",
       "salary": "$71k–$97k/yr",
       "job_type": "Full Time",
       "is_remote": false,
@@ -900,17 +900,17 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Environmental Science Associates",
-      "title": "Water Quality Environmental Scientist (Junior-Level)",
-      "location": "Orlando or Tampa",
-      "url": "https://job-boards.greenhouse.io/environmentalscienceassociates/jobs/5225852008",
-      "direct_url": "https://job-boards.greenhouse.io/environmentalscienceassociates/jobs/5225852008",
-      "date_posted": "2026-07-15T19:39:25.000Z",
-      "description": "Bachelor's degree in ecology/environmental science/hydrology,2+ years professional experience,water quality and watershed data analysis,QA/QC,statistical programming (R or SAS),GIS skills,and valid driver's license.",
-      "salary": "",
+      "company": "Freeport McMoRan Inc.",
+      "title": "Chief Environmental Scientist",
+      "location": "Morenci, Arizona, United States",
+      "url": "https://jobs.fcx.com/job/Morenci-Chief-Environmental-Scientist-AZ-85540/1406931400/",
+      "direct_url": "https://jobs.fcx.com/job/Morenci-Chief-Environmental-Scientist-AZ-85540/1406931400/",
+      "date_posted": "2026-07-08T00:00:00.000Z",
+      "description": "Bachelor's in environmental or related science with 7 years' experience OR Master's with 5 years; strong knowledge of environmental regulations, permitting, air/water quality, and project leadership.",
+      "salary": "$112k–$160k/yr",
       "job_type": "Full Time",
       "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
+      "work_arrangement": "On-site",
       "ats": "HiringCafe"
     },
     {
@@ -982,35 +982,21 @@
       "is_remote": false,
       "work_arrangement": "Telecommute eligible",
       "ats": "HiringCafe"
-    },
-    {
-      "company": "Cedarville Engineering Group",
-      "title": "Environmental Scientist",
-      "location": "Pottstown, Pennsylvania, United States",
-      "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c68fe53878018fee54f4bd039e&id=8a7887a89efb878a019f194c8dae636b&source=&lang=en",
-      "direct_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c68fe53878018fee54f4bd039e&id=8a7887a89efb878a019f194c8dae636b&source=&lang=en",
-      "date_posted": "2026-06-30T16:11:15.000Z",
-      "description": "Bachelor's degree required; OSHA certifications for fieldwork (HAZWOPER, OSHA 10/30/40) and valid driver's license required; must pass federal background check; ~25% travel; experience with field sampling and technical writing preferred; training provided.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
     }
   ],
   "new_jobs": [
     {
-      "company": "Cedarville Engineering Group",
+      "company": "State Water Resources Control Board",
       "title": "Environmental Scientist",
-      "location": "Pottstown, Pennsylvania, United States",
-      "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c68fe53878018fee54f4bd039e&id=8a7887a89efb878a019f194c8dae636b&source=&lang=en",
-      "direct_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c68fe53878018fee54f4bd039e&id=8a7887a89efb878a019f194c8dae636b&source=&lang=en",
-      "date_posted": "2026-06-30T16:11:15.000Z",
-      "description": "Bachelor's degree required; OSHA certifications for fieldwork (HAZWOPER, OSHA 10/30/40) and valid driver's license required; must pass federal background check; ~25% travel; experience with field sampling and technical writing preferred; training provided.",
-      "salary": "",
+      "location": "San Luis Obispo County, California, United States",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=482161",
+      "direct_url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=482161",
+      "date_posted": "2026-07-08T12:00:00.000Z",
+      "description": "Must meet the Environmental Scientist class minimum qualifications and possess list/transfer/reinstatement eligibility; may require driving and credential evaluation for foreign degrees.",
+      "salary": "$53k–$112k/yr",
       "job_type": "Full Time",
       "is_remote": false,
-      "work_arrangement": "On-site",
+      "work_arrangement": "Telecommute eligible",
       "ats": "HiringCafe"
     }
   ]
