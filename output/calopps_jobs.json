@@ -1,8 +1,17 @@
 {
-  "scraped_at": "2026-07-21 17:47 UTC",
-  "total": 1,
-  "new_count": 0,
+  "scraped_at": "2026-07-22 17:43 UTC",
+  "total": 2,
+  "new_count": 1,
   "jobs": [
+    {
+      "company": "San Mateo County",
+      "title": "Hazardous Materials Specialist I/II/III (Open & Promotional)",
+      "location": "San Francisco/Peninsula",
+      "url": "https://www.calopps.org/san-mateo-county/job-20761157",
+      "date_posted": "",
+      "salary": "$7,959.47-$12,367.33 Monthly",
+      "ats": "CalOpps"
+    },
     {
       "company": "Marin Municipal Water District",
       "title": "Watershed Aide (Fisheries)",
@@ -13,5 +22,15 @@
       "ats": "CalOpps"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "San Mateo County",
+      "title": "Hazardous Materials Specialist I/II/III (Open & Promotional)",
+      "location": "San Francisco/Peninsula",
+      "url": "https://www.calopps.org/san-mateo-county/job-20761157",
+      "date_posted": "",
+      "salary": "$7,959.47-$12,367.33 Monthly",
+      "ats": "CalOpps"
+    }
+  ]
 }
