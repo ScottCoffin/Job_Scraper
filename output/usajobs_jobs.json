@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-21 16:58 UTC",
-  "total": 12,
-  "new_count": 1,
+  "scraped_at": "2026-07-22 16:58 UTC",
+  "total": 9,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Food and Drug Administration",
@@ -67,33 +67,6 @@
       "ats": "USAJOBS"
     },
     {
-      "company": "Federal Transit Administration",
-      "title": "Supervisory Environmental Protection Specialist - Direct Hire-SME",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov/job/875413900",
-      "date_posted": "2026-07-07",
-      "salary": "Starting at $169,279 Per year (GS 15)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Air Force Materiel Command",
-      "title": "ENVIRONMENTAL PROTECTION SPECIALIST-DIRECT HIRE AUTHORITY",
-      "location": "Arnold AFB, Tennessee",
-      "url": "https://www.usajobs.gov/job/874475700",
-      "date_posted": "2026-06-30",
-      "salary": "Starting at $89,508 Per year (NH 3)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Military Treatment Facilities under DHA",
-      "title": "Risk Assessment Specialist",
-      "location": "Bethesda, Maryland",
-      "url": "https://www.usajobs.gov/job/876649400",
-      "date_posted": "2026-07-17",
-      "salary": "Starting at $102,415 Per year (GS 12)",
-      "ats": "USAJOBS"
-    },
-    {
       "company": "National Oceanic and Atmospheric Administration",
       "title": "Supervisory Environmental Scientist",
       "location": "Silver Spring, Maryland",
@@ -112,15 +85,5 @@
       "ats": "USAJOBS"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "National Oceanic and Atmospheric Administration",
-      "title": "Supervisory Environmental Scientist",
-      "location": "Silver Spring, Maryland",
-      "url": "https://www.usajobs.gov/job/877179500",
-      "date_posted": "2026-07-21",
-      "salary": "Starting at $169,279 Per year (ZP 5)",
-      "ats": "USAJOBS"
-    }
-  ]
+  "new_jobs": []
 }
