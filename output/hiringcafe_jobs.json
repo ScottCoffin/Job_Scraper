@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-23 18:11 UTC",
+  "scraped_at": "2026-07-23 20:10 UTC",
   "total": 74,
-  "new_count": 2,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Department of Health and Human Services",
@@ -1040,34 +1040,5 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Johnson & Johnson",
-      "title": "Principal Toxicologist",
-      "location": "Cincinnati or Raritan",
-      "url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
-      "direct_url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
-      "date_posted": "2026-07-09T00:00:00.000Z",
-      "description": "Advanced degree (MS or PhD) in toxicology or related field, 6+ years industry experience in medical devices, 8+ years toxicology/biocompatibility experience, ISO 10993 knowledge, regulated environment and audit support experience.",
-      "salary": "$117k–$201k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "City of El Paso, TX",
-      "title": "Environmental Scientist",
-      "location": "El Paso, Texas, United States",
-      "url": "https://www.governmentjobs.com/careers/elpaso/jobs/5416779",
-      "direct_url": "https://www.governmentjobs.com/careers/elpaso/jobs/5416779",
-      "date_posted": "2026-07-22T15:57:08.000Z",
-      "description": "Bachelor's in natural/physical science, engineering, environmental studies or related plus 2 years environmental experience; valid Texas Class C driver; ability to conduct sampling, inspections, data analysis, reporting, and supervise technical staff.",
-      "salary": "$56k–$84k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    }
-  ]
+  "new_jobs": []
 }
