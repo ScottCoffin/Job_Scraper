@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-23 20:10 UTC",
-  "total": 74,
-  "new_count": 0,
+  "scraped_at": "2026-07-23 22:02 UTC",
+  "total": 75,
+  "new_count": 2,
   "jobs": [
     {
       "company": "Department of Health and Human Services",
@@ -15,34 +15,6 @@
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Johnson & Johnson",
-      "title": "Principal Toxicologist",
-      "location": "Cincinnati or Raritan",
-      "url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
-      "direct_url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
-      "date_posted": "2026-07-09T00:00:00.000Z",
-      "description": "Advanced degree (MS or PhD) in toxicology or related field, 6+ years industry experience in medical devices, 8+ years toxicology/biocompatibility experience, ISO 10993 knowledge, regulated environment and audit support experience.",
-      "salary": "$117k–$201k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Jj",
-      "title": "Principal Toxicologist",
-      "location": "Raritan or Cincinnati",
-      "url": "https://jj.wd5.myworkdayjobs.com/displacedemployees/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130",
-      "direct_url": "https://jj.wd5.myworkdayjobs.com/displacedemployees/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130",
-      "date_posted": "2026-07-09T00:00:00.000Z",
-      "description": "Advanced degree in toxicology, 6+ years industry medical device experience, 8–10 years toxicology/biocompatibility experience, GLP/regulatory familiarity, ISO 10993/13485/14971 knowledge, lab animal and material degradation experience.",
-      "salary": "$117k–$201k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
       "ats": "HiringCafe"
     },
     {
@@ -74,6 +46,48 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "Jj",
+      "title": "Principal Toxicologist",
+      "location": "Raritan or Cincinnati",
+      "url": "https://jj.wd5.myworkdayjobs.com/displacedemployees/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130",
+      "direct_url": "https://jj.wd5.myworkdayjobs.com/displacedemployees/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130",
+      "date_posted": "2026-07-09T00:00:00.000Z",
+      "description": "Advanced degree in toxicology, 6+ years industry medical device experience, 8–10 years toxicology/biocompatibility experience, GLP/regulatory familiarity, ISO 10993/13485/14971 knowledge, lab animal and material degradation experience.",
+      "salary": "$117k–$201k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Johnson & Johnson",
+      "title": "Principal Toxicologist",
+      "location": "Cincinnati or Raritan",
+      "url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
+      "direct_url": "https://www.careers.jnj.com/en/jobs/r-087130/principal-toxicologist/",
+      "date_posted": "2026-07-09T00:00:00.000Z",
+      "description": "Advanced degree (MS or PhD) in toxicology or related field, 6+ years industry experience in medical devices, 8+ years toxicology/biocompatibility experience, ISO 10993 knowledge, regulated environment and audit support experience.",
+      "salary": "$117k–$201k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "Robson Forensic",
+      "title": "Toxicologist - Forensic Expert",
+      "location": "Las Vegas or Irving",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5a21e929-8eba-4a31-b424-4df0f5c82edd&ccId=19000101_000001&jobId=583382&lang=en_US",
+      "direct_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5a21e929-8eba-4a31-b424-4df0f5c82edd&ccId=19000101_000001&jobId=583382&lang=en_US",
+      "date_posted": "2026-07-07T18:11:00.000Z",
+      "description": "Ph.D. in toxicology or related discipline, 5+ years toxicology experience, board certification preferred (ABFT or DABT), membership in toxicology organization, travel ~20% for initial training.",
+      "salary": "",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "Medline",
       "title": "Toxicologist R&D",
       "location": "Illinois, United States",
@@ -102,14 +116,14 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Robson Forensic",
-      "title": "Toxicologist - Forensic Expert",
-      "location": "Las Vegas or Irving",
-      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5a21e929-8eba-4a31-b424-4df0f5c82edd&ccId=19000101_000001&jobId=583382&lang=en_US",
-      "direct_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5a21e929-8eba-4a31-b424-4df0f5c82edd&ccId=19000101_000001&jobId=583382&lang=en_US",
-      "date_posted": "2026-07-07T18:11:00.000Z",
-      "description": "Ph.D. in toxicology or related discipline, 5+ years toxicology experience, board certification preferred (ABFT or DABT), membership in toxicology organization, travel ~20% for initial training.",
-      "salary": "",
+      "company": "Jj",
+      "title": "Principal Toxicologist",
+      "location": "Raritan or Cincinnati",
+      "url": "https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130-1",
+      "direct_url": "https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130-1",
+      "date_posted": "2026-07-09T00:00:00.000Z",
+      "description": "Advanced degree in toxicology or related field, 6+ years medical device industry experience, 8–10 years toxicology/biocompatibility experience, regulatory and ISO knowledge, GLP experience, strong communication and leadership skills.",
+      "salary": "$117k–$201k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "Telecommute eligible",
@@ -130,17 +144,17 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Jj",
-      "title": "Principal Toxicologist",
-      "location": "Raritan or Cincinnati",
-      "url": "https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130-1",
-      "direct_url": "https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/Principal-Toxicologist_R-087130-1",
-      "date_posted": "2026-07-09T00:00:00.000Z",
-      "description": "Advanced degree in toxicology or related field, 6+ years medical device industry experience, 8–10 years toxicology/biocompatibility experience, regulatory and ISO knowledge, GLP experience, strong communication and leadership skills.",
-      "salary": "$117k–$201k/yr",
+      "company": "J.S. Held LLC",
+      "title": "Principal Consulting Toxicologist",
+      "location": "Redmond, Washington, United States",
+      "url": "https://jobs.smartrecruiters.com/JSHeldLLC/744000134223365-principal-consulting-toxicologist",
+      "direct_url": "https://jobs.smartrecruiters.com/JSHeldLLC/744000134223365-principal-consulting-toxicologist",
+      "date_posted": "2026-06-25T10:04:22.093Z",
+      "description": "PhD in toxicology or related field, ~15+ years professional experience with consulting and leadership, testifying expert experience, deep toxicological risk assessment and regulatory expertise, strong business development and communication skills.",
+      "salary": "$150k–$300k/yr",
       "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
       "ats": "HiringCafe"
     },
     {
@@ -172,28 +186,14 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "J.S. Held LLC",
-      "title": "Principal Consulting Toxicologist",
-      "location": "Redmond, Washington, United States",
-      "url": "https://jobs.smartrecruiters.com/JSHeldLLC/744000134223365-principal-consulting-toxicologist",
-      "direct_url": "https://jobs.smartrecruiters.com/JSHeldLLC/744000134223365-principal-consulting-toxicologist",
-      "date_posted": "2026-06-25T10:04:22.093Z",
-      "description": "PhD in toxicology or related field, ~15+ years professional experience with consulting and leadership, testifying expert experience, deep toxicological risk assessment and regulatory expertise, strong business development and communication skills.",
-      "salary": "$150k–$300k/yr",
-      "job_type": "Full Time",
-      "is_remote": true,
-      "work_arrangement": "Remote in-state eligible",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "Msd",
-      "title": "Principal Scientist, Toxicologist/Study Director",
-      "location": "West Point, Pennsylvania, United States",
-      "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/Principal-Scientist--Toxicologist-Study-Director_R404329-1",
-      "direct_url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/Principal-Scientist--Toxicologist-Study-Director_R404329-1",
-      "date_posted": "2026-06-25T00:00:00.000Z",
-      "description": "PhD or DVM with graduate/post-graduate training in toxicology or related field; 8+ years toxicology/study director experience; GLP knowledge; immunology/biologics expertise; strong communication and leadership skills.",
-      "salary": "$173k–$273k/yr",
+      "company": "Madrigalpharma",
+      "title": "Associate Director, Study Toxicologist",
+      "location": "Conshohocken, Pennsylvania, United States",
+      "url": "https://madrigalpharma.wd501.myworkdayjobs.com/madrigal/job/PA---Conshohocken---Office/Associate-Director--Study-Toxicologist_JR_000807-1",
+      "direct_url": "https://madrigalpharma.wd501.myworkdayjobs.com/madrigal/job/PA---Conshohocken---Office/Associate-Director--Study-Toxicologist_JR_000807-1",
+      "date_posted": "2026-07-15T00:00:00.000Z",
+      "description": "PhD in toxicology/pharmacology/DMPK,10+ years pharmaceutical/biotech nonclinical development experience, CRO study management, protocol/report review, strong communication and multitasking skills.",
+      "salary": "$178k–$218k/yr",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -676,6 +676,20 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "GFT.",
+      "title": "Principal Environmental Scientist",
+      "location": "Owings Mills, Maryland, United States",
+      "url": "https://careers-gannettfleming.icims.com/jobs/14446/principal-environmental-scientist/job?in_iframe=1",
+      "direct_url": "https://careers-gannettfleming.icims.com/jobs/14446/principal-environmental-scientist/job?in_iframe=1",
+      "date_posted": "2026-07-23T04:00:00.000Z",
+      "description": "Bachelor's in environmental field, 15 years experience in energy licensing/transmission siting, CPCN and permit coordination, technical writing, regulatory interface with state agencies.",
+      "salary": "$140k–$170k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "Freeport-McMoRan",
       "title": "Chief Environmental Scientist",
       "location": "Morenci, Arizona, United States",
@@ -704,20 +718,6 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "True-environmental",
-      "title": "Associate Environmental Scientist",
-      "location": "Florham Park, New Jersey, United States",
-      "url": "https://jobs.lever.co/true-environmental/96d4fbd4-2b46-4ade-a626-c1ed7f01b842",
-      "direct_url": "https://jobs.lever.co/true-environmental/96d4fbd4-2b46-4ade-a626-c1ed7f01b842",
-      "date_posted": "2026-07-21T17:18:57.933Z",
-      "description": "BS in environmental field, valid driver's license, ability to perform field sampling and site investigations, strong writing and quantitative skills, respirator use, pass drug testing.",
-      "salary": "",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
       "company": "Energy & Environment Cabinet | Department for Natural Resources",
       "title": "Environmental Scientist III",
       "location": "Location Varies, Kentucky, United States",
@@ -732,14 +732,14 @@
       "ats": "HiringCafe"
     },
     {
-      "company": "Vistal",
-      "title": "Environmental Scientist I",
-      "location": "Plymouth or Saint Cloud or Minnesota or South Dakota or North Dakota or Iowa or Colorado",
-      "url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/52ddab16-c6b6-4884-85f0-a111cb4367f8/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
-      "direct_url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/52ddab16-c6b6-4884-85f0-a111cb4367f8/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
-      "date_posted": "2026-07-01T18:47:25.002Z",
-      "description": "Bachelor's in biology/ecology/environmental science, 3+ years relevant experience, plant ID, GIS experience, knowledge of MN/ND/SD and federal wetland regulations, valid driver's license, insurable.",
-      "salary": "$71k–$97k/yr",
+      "company": "True-environmental",
+      "title": "Associate Environmental Scientist",
+      "location": "Florham Park, New Jersey, United States",
+      "url": "https://jobs.lever.co/true-environmental/96d4fbd4-2b46-4ade-a626-c1ed7f01b842",
+      "direct_url": "https://jobs.lever.co/true-environmental/96d4fbd4-2b46-4ade-a626-c1ed7f01b842",
+      "date_posted": "2026-07-21T17:18:57.933Z",
+      "description": "BS in environmental field, valid driver's license, ability to perform field sampling and site investigations, strong writing and quantitative skills, respirator use, pass drug testing.",
+      "salary": "",
       "job_type": "Full Time",
       "is_remote": false,
       "work_arrangement": "On-site",
@@ -1012,6 +1012,20 @@
       "ats": "HiringCafe"
     },
     {
+      "company": "Vistal",
+      "title": "Environmental Scientist I",
+      "location": "Plymouth or Saint Cloud or Minnesota or South Dakota or North Dakota or Iowa or Colorado",
+      "url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/52ddab16-c6b6-4884-85f0-a111cb4367f8/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
+      "direct_url": "https://vistal.rec.pro.ukg.net/MOO1007MOHC/JobBoard/52ddab16-c6b6-4884-85f0-a111cb4367f8/OpportunityDetail?opportunityId=d2ebf17e-a06c-4b60-b4cf-92546f0831a9",
+      "date_posted": "2026-07-01T18:47:25.002Z",
+      "description": "Bachelor's in biology/ecology/environmental science, 3+ years relevant experience, plant ID, GIS experience, knowledge of MN/ND/SD and federal wetland regulations, valid driver's license, insurable.",
+      "salary": "$71k–$97k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
       "company": "Moore Engineering, Inc.",
       "title": "Environmental Scientist I",
       "location": "Plymouth or Saint Cloud or Minnesota or South Dakota or North Dakota or Iowa or Colorado",
@@ -1040,5 +1054,34 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Madrigalpharma",
+      "title": "Associate Director, Study Toxicologist",
+      "location": "Conshohocken, Pennsylvania, United States",
+      "url": "https://madrigalpharma.wd501.myworkdayjobs.com/madrigal/job/PA---Conshohocken---Office/Associate-Director--Study-Toxicologist_JR_000807-1",
+      "direct_url": "https://madrigalpharma.wd501.myworkdayjobs.com/madrigal/job/PA---Conshohocken---Office/Associate-Director--Study-Toxicologist_JR_000807-1",
+      "date_posted": "2026-07-15T00:00:00.000Z",
+      "description": "PhD in toxicology/pharmacology/DMPK,10+ years pharmaceutical/biotech nonclinical development experience, CRO study management, protocol/report review, strong communication and multitasking skills.",
+      "salary": "$178k–$218k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "On-site",
+      "ats": "HiringCafe"
+    },
+    {
+      "company": "GFT.",
+      "title": "Principal Environmental Scientist",
+      "location": "Owings Mills, Maryland, United States",
+      "url": "https://careers-gannettfleming.icims.com/jobs/14446/principal-environmental-scientist/job?in_iframe=1",
+      "direct_url": "https://careers-gannettfleming.icims.com/jobs/14446/principal-environmental-scientist/job?in_iframe=1",
+      "date_posted": "2026-07-23T04:00:00.000Z",
+      "description": "Bachelor's in environmental field, 15 years experience in energy licensing/transmission siting, CPCN and permit coordination, technical writing, regulatory interface with state agencies.",
+      "salary": "$140k–$170k/yr",
+      "job_type": "Full Time",
+      "is_remote": false,
+      "work_arrangement": "Telecommute eligible",
+      "ats": "HiringCafe"
+    }
+  ]
 }
