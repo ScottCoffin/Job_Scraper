@@ -1,8 +1,4 @@
 """
-Environmental / Toxicology Job Scraper — tailored for Dr. Scott Coffin
-(environmental toxicology, risk assessment, exposure science, water quality,
-microplastics/PFAS, and supporting data science), California-wide.
-
 Pipelines (see __main__) include LinkedIn's guest endpoint, JobSpy-backed
 Indeed/Glassdoor, public-sector boards, and a priority-employer sweep
 (allowlist-filtered LinkedIn + optional direct Greenhouse/Workday probes). Each
@@ -47,26 +43,53 @@ HEADERS = {
 
 # ---------------------------------------------------------------------------
 # Config — ALL of a user's search settings live in config.json (edit it by hand
-# or generate it from a CV; see docs/cv-to-config-prompt.md). Everything below
-# falls back to a sensible value if config.json or a key is missing, so the
-# scraper always runs.
+# or generate it from a CV; see docs/cv-to-config-prompt.md). config.example.json
+# (committed, always present) supplies the base values; config.json (personal,
+# gitignored) is deep-merged on top key-by-key, so an older/partial config.json
+# missing a newer key still picks up the example's value for it. There are no
+# separate hardcoded Python defaults to keep in sync — a totally unreadable
+# config is fatal rather than silently scraping nothing.
 # ---------------------------------------------------------------------------
 
+def _read_json(path: str) -> dict | None:
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"  ⚠️  {os.path.basename(path)} not loaded ({e})")
+        return None
+
+
+def _deep_merge(base: dict, override: dict) -> dict:
+    merged = dict(base)
+    for key, value in override.items():
+        if isinstance(value, dict) and isinstance(merged.get(key), dict):
+            merged[key] = _deep_merge(merged[key], value)
+        else:
+            merged[key] = value
+    return merged
+
+
 def _load_config() -> dict:
-    for name in ("config.json", "config.example.json"):
-        path = os.path.join(SCRIPT_DIR, name)
-        try:
-            with open(path, encoding="utf-8") as f:
-                data = json.load(f)
-            if name != "config.json":
-                print(f"  ℹ️  config.json not found; using {name} (copy it to config.json and customize)")
-            return data
-        except FileNotFoundError:
-            continue
-        except (json.JSONDecodeError, OSError) as e:
-            print(f"  ⚠️  {name} not loaded ({e}); trying next")
-    print("  ⚠️  No config file found; using built-in defaults")
-    return {}
+    base = _read_json(os.path.join(SCRIPT_DIR, "config.example.json")) or {}
+    user = _read_json(os.path.join(SCRIPT_DIR, "config.json"))
+    if user is None:
+        if not base:
+            sys.exit(
+                "  ⛔ No usable config found (config.json and config.example.json are "
+                "both missing or unparseable). Copy config.example.json to config.json, "
+                "or fix its JSON syntax, and re-run."
+            )
+        print("  ℹ️  config.json not found; using config.example.json as-is "
+              "(copy it to config.json and customize)")
+        return base
+    if not base:
+        print("  ⚠️  config.example.json not loaded; using config.json only "
+              "(newer optional keys may be missing)")
+        return user
+    return _deep_merge(base, user)
 
 
 CONFIG = _load_config()
@@ -89,53 +112,13 @@ PROFILE_LABEL = re.sub(
     str(_cfg("profile.title", "Job")), flags=re.I).strip() or "Job"
 PROFILE_SUBTITLE = str(_cfg("profile.subtitle", "All locations"))
 
-# Title keywords for Dr. Scott Coffin — environmental/regulatory toxicology,
-# risk assessment, exposure science, water quality, and the data-science work
-# that supports it. A title matches if it contains any of these (case-
-# insensitive). Multi-word phrases match as substrings ("risk assess" hits
-# "Risk Assessor" and "Risk Assessment Scientist"); single tokens are word-
-# bounded, so list FULL words ("toxicologist", not the stem "toxicolog").
-_KEYWORDS_DEFAULT = [
-    # ---- Toxicology (core) ----  (fallback; real list is config.json → keywords.include)
-    "toxicologist", "toxicology", "toxicological",
-    "ecotoxicologist", "ecotoxicology", "ecotoxicolog",
-    "environmental toxicolog", "regulatory toxicolog",
-    "computational toxicolog", "predictive toxicolog",
-    "aquatic toxicolog", "wildlife toxicolog", "research toxicolog",
-    # ---- Risk / exposure / hazard assessment ----
-    "risk assess", "risk assessor", "human health risk",
-    "ecological risk", "exposure scien", "exposure assess",
-    "exposure modeling", "exposure modelling", "hazard assess",
-    "hazard identification", "dose-response", "dose response",
-    "pharmacokinetic", "toxicokinetic", "pbpk",
-    # ---- Environmental science / health / chemistry ----
-    "environmental scien", "environmental health",
-    "environmental chemist", "environmental chemistry",
-    "environmental specialist", "environmental analyst",
-    "environmental protection", "environmental epidemiolog",
-    "environmental data", "environmental monitoring",
-    "environmental assessment", "exposure epidemiolog",
-    # ---- Water / contaminants ----
-    "water quality", "drinking water", "watershed", "water resources",
-    "aquatic scien", "limnolog",
-    "microplastic", "microplastics", "nanoplastic", "nanomaterial",
-    "pfas", "per- and polyfluoro", "emerging contaminant",
-    "contaminant", "pollutant", "air pollution", "water pollution",
-    "air quality", "remediation", "environmental remediation",
-    # ---- Chemical safety / product stewardship / regulatory ----
-    "chemical safety", "chemical risk", "chemical assess",
-    "chemical regulatory", "product steward", "regulatory toxicolog",
-    "hazardous materials", "hazardous waste", "environmental compliance",
-    # ---- Ecotoxicology-adjacent ecology / sustainability ----
-    "ecotoxicolog", "conservation toxicolog",
-]
-KEYWORDS = _cfg("keywords.include", _KEYWORDS_DEFAULT)
-# NOTE: deliberately tight. Generic titles ("Research Scientist", "Senior
-# Scientist", "Data Scientist", "Professor", "Regulatory Affairs") were removed
-# because they pull in pharma/biotech/tech bench roles. Environmental academic,
-# data, and policy roles are still caught via their qualified forms
-# ("Environmental Data Scientist" → "environmental data", "Assistant Professor
-# of Environmental Health" → "environmental health", etc.).
+# Title keywords, from config.json → keywords.include. A title matches if it
+# contains any of these (case-insensitive). See config.example.json for the
+# documented default list and tuning notes (deliberately tight — generic
+# titles like "Research Scientist" or "Professor" are left out because they
+# pull in unrelated roles; qualified forms like "Environmental Data Scientist"
+# still match via "environmental data").
+KEYWORDS = _cfg("keywords.include", [])
 
 # Seconds to wait between API probes — keeps us polite
 REQUEST_DELAY = 0.3
@@ -154,13 +137,7 @@ def _build_title_re(terms: list) -> re.Pattern:
     )
 
 
-_EXCLUDE_DEFAULT = [
-    "intern", "interns", "internship", "co-op", "coop", "trainee", "apprentice", "technician",
-    "research assistant", "lab assistant", "teaching assistant", "undergraduate", "postdoc",
-    "postdoctoral", "work-study", "volunteer", "fellowship", "engineer", "engineering",
-    "ehs", "occupational safety", "occupational health", "health and safety", "health & safety",
-]
-EXCLUDED_SENIORITY_RE = _build_title_re(_cfg("keywords.exclude", _EXCLUDE_DEFAULT))
+EXCLUDED_SENIORITY_RE = _build_title_re(_cfg("keywords.exclude", []))
 
 # Multi-word phrases keep substring semantics; single-word keywords ("mle",
 # "devops") are word-bounded so they can't match inside a word ("Hamlet").
@@ -215,33 +192,11 @@ def is_mle_role_text(title: str, *parts: str) -> bool:
     return bool(_KEYWORD_RE.search(text))
 
 
-# Geographic scope for the curated/legacy ATS path. Primary base is California,
-# extended to Portland & Bend OR and Australia. (The LinkedIn and Indeed watchers
-# geo-filter at the API level — see LINKEDIN_GEOS / INDEED_GEOS.)
-TARGET_LOCATIONS = [
-    "california", ", ca", "remote", "hybrid",
-    # Sacramento region (home base)
-    "sacramento", "davis", "west sacramento", "rancho cordova", "elk grove",
-    "roseville", "folsom", "woodland",
-    # SF Bay Area
-    "bay area", "san francisco", "south san francisco", "oakland", "berkeley",
-    "emeryville", "richmond", "palo alto", "mountain view", "menlo park",
-    "sunnyvale", "santa clara", "san jose", "san mateo", "redwood city",
-    "fremont", "hayward", "concord", "walnut creek", "pleasanton", "livermore",
-    "novato", "san rafael", "vacaville",
-    # Southern California (his PhD / collaborator base)
-    "los angeles", "long beach", "irvine", "costa mesa", "san diego",
-    "riverside", "pasadena", "santa monica", "torrance", "fountain valley",
-    # Central Coast / Valley
-    "santa barbara", "san luis obispo", "fresno", "monterey",
-    # Oregon
-    "portland, or", "portland, oregon", "bend, or", "bend, oregon", "oregon",
-    "beaverton", "hillsboro", "eugene", "salem, or", "corvallis", "redmond, or",
-    # Australia
-    "australia", "sydney", "melbourne", "brisbane", "perth", "adelaide",
-    "canberra", "new south wales", "victoria", "queensland",
-    "western australia", "tasmania",
-]
+# Geographic scope for the curated/legacy ATS path and the NEOGOV board (which
+# is nationwide and needs post-filtering). (The LinkedIn and Indeed watchers
+# geo-filter at the API level — see LINKEDIN_GEOS / INDEED_GEOS.) Config.json →
+# location_filter.terms; case-insensitive substring match on the job location.
+TARGET_LOCATIONS = [str(t).lower() for t in _cfg("location_filter.terms", [])]
 
 
 def is_target_location(location: str) -> bool:
@@ -249,18 +204,6 @@ def is_target_location(location: str) -> bool:
         return False
     loc = location.lower()
     return any(place in loc for place in TARGET_LOCATIONS)
-
-
-def extract_location(job: dict) -> str:
-    loc = job.get("jobLocation", {})
-    if isinstance(loc, list):
-        loc = loc[0] if loc else {}
-    addr = loc.get("address", {})
-    if isinstance(addr, dict):
-        city = addr.get("addressLocality", "")
-        state = addr.get("addressRegion", "")
-        return f"{city}, {state}".strip(", ")
-    return str(addr)
 
 
 def _parse_posted_at(value: str, *, now: datetime | None = None) -> datetime | None:
@@ -374,14 +317,7 @@ def probe_curated_greenhouse(entry: dict) -> list:
     return jobs
 
 
-WORKDAY_SEARCH_TERMS = [
-    "toxicologist",
-    "environmental scientist",
-    "risk assessment",
-    "exposure scientist",
-    "environmental health",
-    "water quality",
-]
+WORKDAY_SEARCH_TERMS = _cfg("search_terms.workday", [])
 
 
 def probe_curated_workday(entry: dict) -> list:
@@ -453,93 +389,10 @@ def scrape_curated_biotechs() -> list:
 
 
 # ---------------------------------------------------------------------------
-# Genentech — custom Phenom ATS, kept as standalone
-# ---------------------------------------------------------------------------
-
-def scrape_genentech():
-    print("🔍 Scraping Genentech...")
-    url = (
-        "https://careers.gene.com/us/en/search-results"
-        "?keywords=machine+learning+engineer&category=Data+Science+%26+AI%2FML"
-    )
-    html = fetch(url)
-    jobs = []
-
-    matches = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.DOTALL)
-    for match in matches:
-        try:
-            data = json.loads(match)
-            items = (
-                data if isinstance(data, list)
-                else data.get("itemListElement", []) if data.get("@type") == "ItemList"
-                else [data]
-            )
-            for item in items:
-                job = item.get("item", item)
-                title = job.get("title", job.get("name", ""))
-                if title and is_mle_role(title):
-                    jobs.append({
-                        "company": "Genentech",
-                        "title": title,
-                        "location": extract_location(job),
-                        "url": job.get("url", "https://careers.gene.com/us/en/c/data-science-ai-ml-jobs"),
-                        "date_posted": job.get("datePosted", ""),
-                        "ats": "Phenom",
-                    })
-        except json.JSONDecodeError:
-            continue
-
-    if not jobs:
-        title_matches = re.findall(r'data-ph-at-job-title-text="([^"]+)"', html)
-        link_matches = re.findall(r'href="(/us/en/job/[^"]+)"', html)
-        for i, title in enumerate(title_matches):
-            if is_mle_role(title):
-                link = link_matches[i] if i < len(link_matches) else ""
-                jobs.append({
-                    "company": "Genentech",
-                    "title": title,
-                    "location": "South San Francisco, CA",
-                    "url": f"https://careers.gene.com{link}" if link else "https://careers.gene.com/us/en/c/data-science-ai-ml-jobs",
-                    "date_posted": "",
-                    "ats": "Phenom",
-                })
-
-    print(f"  ✅ Found {len(jobs)} MLE role(s) at Genentech")
-    return jobs
-
-
-# ---------------------------------------------------------------------------
 # LinkedIn — public guest endpoint, bucketed by recency (broad US-wide net)
 # ---------------------------------------------------------------------------
 
-LINKEDIN_SEARCH_TERMS = _cfg("search_terms.linkedin", [
-    # Toxicology (core)
-    "toxicologist",
-    "environmental toxicologist",
-    "ecotoxicologist",
-    "regulatory toxicologist",
-    "computational toxicology",
-    # Risk / exposure
-    "human health risk assessment",
-    "ecological risk assessment",
-    "exposure scientist",
-    "exposure assessment",
-    # Environmental science / health / chemistry
-    "environmental scientist",
-    "environmental health scientist",
-    "environmental chemist",
-    "environmental epidemiologist",
-    # Water / contaminants
-    "water quality scientist",
-    "microplastics",
-    "PFAS",
-    "emerging contaminants",
-    "air quality scientist",
-    # Chemical safety / stewardship / regulatory
-    "product stewardship",
-    "chemical safety",
-    "environmental data scientist",
-])
+LINKEDIN_SEARCH_TERMS = _cfg("search_terms.linkedin", [])
 
 LINKEDIN_LOOKBACK_SECONDS = 3600          # 1h — every-2h watcher only surfaces the freshest hour
 LINKEDIN_BIOTECH_LOOKBACK_SECONDS = 86400 # 24h — biotech is a daily 8pm PT digest
@@ -548,58 +401,15 @@ LINKEDIN_BIOTECH_LOOKBACK_SECONDS = 86400 # 24h — biotech is a daily 8pm PT di
 # empty geoId lets LinkedIn resolve the location text (verified to work for
 # Bend). All confirmed by probing the guest endpoint. Add a region by finding
 # its geoId (or leaving it blank for a city LinkedIn can resolve).
-LINKEDIN_GEOS = _cfg("locations.linkedin", [
-    {"name": "California",  "location": "California, United States",          "geoId": "102095887"},
-    {"name": "Portland OR", "location": "Portland, Oregon Metropolitan Area", "geoId": "90000079"},
-    {"name": "Bend OR",     "location": "Bend, Oregon, United States",        "geoId": ""},
-    {"name": "Australia",   "location": "Australia",                          "geoId": "101452733"},
-])
+LINKEDIN_GEOS = _cfg("locations.linkedin", [])
 
 # Priority-employer allowlist used by the LinkedIn-side filter to build the
-# daily "Priority Employers" digest (jobs.json). These are organizations whose
-# postings are worth surfacing on their own even on a quiet day: environmental
-# consulting, toxicology/risk firms, research institutes, NGOs, agencies, water
-# utilities, universities, and product-safety teams in industry. Match is case-
-# insensitive on alphanum-stripped names with bidirectional substring matching,
-# so "Ramboll" matches "Ramboll US Corporation". Keep names ~6+ chars to limit
-# incidental substring collisions (avoid bare acronyms like EPA/EWG/ERG/CARB).
-BIOTECH_COMPANY_NAMES = _cfg("employers.priority", [
-    # ---- Environmental / toxicology / risk consulting ----  (fallback; real list in config.json)
-    "Ramboll", "Exponent", "Gradient", "ToxStrategies", "Cardno",
-    "Stantec", "Tetra Tech", "Tetratech", "ICF International",
-    "Abt Associates", "Abt Global", "Eastern Research Group",
-    "Integral Consulting", "Geosyntec", "Arcadis", "AECOM",
-    "Montrose Environmental", "Trinity Consultants", "GHD Group",
-    "Environmental Resources Management", "SLR Consulting",
-    "Wood Environment", "Sciome", "Cardno ChemRisk", "ChemRisk",
-    # ---- Research institutes / nonprofits / NGOs ----
-    "Southern California Coastal Water Research Project", "SCCWRP",
-    "San Francisco Estuary Institute", "Silent Spring Institute",
-    "Environmental Defense Fund", "Natural Resources Defense Council",
-    "Environmental Working Group", "Ocean Conservancy", "Pew Charitable Trusts",
-    "Health Effects Institute", "RTI International", "Battelle",
-    "Green Science Policy Institute", "Defend Our Health",
-    "Moore Institute", "Plastic Pollution Coalition", "5 Gyres",
-    "ChemForward", "Cadmus Group",
-    # ---- Government / agencies (as they appear on LinkedIn) ----
-    "Environmental Protection Agency", "California Environmental Protection",
-    "Office of Environmental Health Hazard", "State Water Resources Control",
-    "California Air Resources Board", "Department of Toxic Substances Control",
-    "National Institute of Environmental Health", "Geological Survey",
-    "Centers for Disease Control", "Food and Drug Administration",
-    "National Oceanic and Atmospheric",
-    # ---- Water utilities / districts ----
-    "East Bay Municipal Utility", "Metropolitan Water District",
-    "Orange County Water District", "San Francisco Public Utilities",
-    "Santa Clara Valley Water",
-    # ---- Universities (research-scientist / faculty) ----
-    "University of California", "Stanford University", "Oregon State University",
-    "Duke University", "San Diego State University", "Arizona State University",
-    # ---- Industry product-safety / stewardship / consumer & chemical ----
-    "Procter & Gamble", "Unilever", "Colgate-Palmolive", "Johnson & Johnson",
-    "Clorox", "Seventh Generation", "Patagonia",
-    "Corteva", "Syngenta", "Dow Chemical", "BASF Corporation",
-])
+# daily "Priority Employers" digest (jobs.json), from config.json →
+# employers.priority. Match is case-insensitive on alphanum-stripped names
+# with bidirectional substring matching, so "Ramboll" matches "Ramboll US
+# Corporation". Keep names ~6+ chars to limit incidental substring collisions
+# (avoid bare acronyms like EPA/EWG/ERG/CARB).
+BIOTECH_COMPANY_NAMES = _cfg("employers.priority", [])
 
 BIOTECH_COMPANY_ALLOWLIST = frozenset(
     re.sub(r'[^a-z0-9]', '', n.lower()) for n in BIOTECH_COMPANY_NAMES
@@ -939,17 +749,8 @@ INDEED_BACKFILL_DAYS = 50  # one-time historical backfill window
 # Indeed geographies. country sets the Indeed domain (USA → indeed.com,
 # Australia → au.indeed.com). Searched per term, so we use a tighter term list
 # than LinkedIn to keep the call count sane (terms × geos jobspy calls).
-INDEED_GEOS = _cfg("locations.indeed", [
-    {"location": "California",   "country": "USA"},
-    {"location": "Portland, OR", "country": "USA"},
-    {"location": "Bend, OR",     "country": "USA"},
-    {"location": "Australia",    "country": "Australia"},
-])
-INDEED_SEARCH_TERMS = _cfg("search_terms.indeed", [
-    "toxicologist", "environmental scientist", "risk assessment",
-    "exposure scientist", "ecotoxicologist", "microplastics",
-    "water quality scientist", "environmental health scientist",
-])
+INDEED_GEOS = _cfg("locations.indeed", [])
+INDEED_SEARCH_TERMS = _cfg("search_terms.indeed", [])
 GLASSDOOR_LOOKBACK_HOURS = 24
 GLASSDOOR_BACKFILL_DAYS = 30
 GLASSDOOR_GEOS = _cfg("locations.glassdoor", INDEED_GEOS)
@@ -1795,11 +1596,7 @@ CALCAREERS_SEARCH_URL = "https://calcareers.ca.gov/CalHRPublic/Search/JobSearchR
 CALCAREERS_TIMEOUT = 30
 
 # Broad CalCareers queries; titles are still gated by is_mle_role() afterward.
-CALCAREERS_TERMS = [
-    "toxicologist", "environmental scientist", "risk assessment",
-    "exposure", "water quality", "microplastics", "hazard",
-    "environmental health", "ecologist",
-]
+CALCAREERS_TERMS = _cfg("search_terms.calcareers", [])
 
 
 def _calcareers_opener():
@@ -1991,11 +1788,7 @@ def save_calcareers_results(jobs: list):
 
 USAJOBS_RESULTS_URL = "https://www.usajobs.gov/Search/Results?hp=public&s=startdate&sd=desc&p=1"
 USAJOBS_SEARCH_URL = "https://www.usajobs.gov/Search/ExecuteSearch"
-USAJOBS_TERMS = [
-    "toxicologist", "environmental protection specialist", "environmental health",
-    "ecotoxicology", "exposure science", "risk assessment",
-    "environmental scientist", "microplastics", "ecologist",
-]
+USAJOBS_TERMS = _cfg("search_terms.usajobs", [])
 USAJOBS_RESULTS_PER_PAGE = 50
 
 
@@ -2084,11 +1877,7 @@ def save_usajobs_results(jobs: list):
 # ---------------------------------------------------------------------------
 
 GOVERNMENTJOBS_BASE = "https://www.governmentjobs.com"
-GOVERNMENTJOBS_TERMS = [
-    "toxicologist", "environmental scientist", "environmental health",
-    "risk assessment", "water quality", "air quality",
-    "hazardous materials", "environmental specialist",
-]
+GOVERNMENTJOBS_TERMS = _cfg("search_terms.governmentjobs", [])
 GOVERNMENTJOBS_DAYS = 21
 GOVERNMENTJOBS_BACKFILL_DAYS = 60  # one-time historical backfill window
 GOVERNMENTJOBS_PAGES = 2
@@ -3041,7 +2830,7 @@ def save_results(jobs: list):
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     lines = [
-        "# 🏛 Fresh Environmental / Toxicology Job Listings (California)",
+        f"# 🏛 Fresh {PROFILE_LABEL} Job Listings ({PROFILE_SUBTITLE})",
         f"*Last updated: {timestamp}*\n",
         f"**{len(jobs)} role(s) posted in the last 24 hours**\n",
     ]
@@ -3218,7 +3007,7 @@ if __name__ == "__main__":
 
     before = len(all_jobs)
     all_jobs = [j for j in all_jobs if is_target_location(j.get("location", ""))]
-    print(f"\n📍 Location filter (California): {before} → {len(all_jobs)} roles")
+    print(f"\n📍 Location filter ({PROFILE_SUBTITLE}): {before} → {len(all_jobs)} roles")
 
     before = len(all_jobs)
     all_jobs = [j for j in all_jobs if is_recent_posting(j)]

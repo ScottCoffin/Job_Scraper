@@ -64,6 +64,25 @@
     "hiring_cafe": [
       "toxicologist", "environmental scientist", "risk assessment", "exposure scientist",
       "ecotoxicologist", "microplastics", "water quality scientist", "environmental health scientist"
+    ],
+    "calcareers": [
+      "toxicologist", "environmental scientist", "risk assessment",
+      "exposure", "water quality", "microplastics", "hazard",
+      "environmental health", "ecologist"
+    ],
+    "usajobs": [
+      "toxicologist", "environmental protection specialist", "environmental health",
+      "ecotoxicology", "exposure science", "risk assessment",
+      "environmental scientist", "microplastics", "ecologist"
+    ],
+    "governmentjobs": [
+      "toxicologist", "environmental scientist", "environmental health",
+      "risk assessment", "water quality", "air quality",
+      "hazardous materials", "environmental specialist"
+    ],
+    "workday": [
+      "toxicologist", "environmental scientist", "risk assessment",
+      "exposure scientist", "environmental health", "water quality"
     ]
   },
 
@@ -100,6 +119,28 @@
     ],
     "hiring_cafe": [
       { "location": "United States" }
+    ]
+  },
+
+  "location_filter": {
+    "_comment": "Case-insensitive substrings matched against a job's location text. Used to post-filter boards that don't support geo-scoping at the API level: the curated direct-ATS sweep, and NEOGOV/GovernmentJobs.com (a nationwide board). Keep this in sync with your locations.* entries above.",
+    "terms": [
+      "california", ", ca", "remote", "hybrid",
+      "sacramento", "davis", "west sacramento", "rancho cordova", "elk grove",
+      "roseville", "folsom", "woodland",
+      "bay area", "san francisco", "south san francisco", "oakland", "berkeley",
+      "emeryville", "richmond", "palo alto", "mountain view", "menlo park",
+      "sunnyvale", "santa clara", "san jose", "san mateo", "redwood city",
+      "fremont", "hayward", "concord", "walnut creek", "pleasanton", "livermore",
+      "novato", "san rafael", "vacaville",
+      "los angeles", "long beach", "irvine", "costa mesa", "san diego",
+      "riverside", "pasadena", "santa monica", "torrance", "fountain valley",
+      "santa barbara", "san luis obispo", "fresno", "monterey",
+      "portland, or", "portland, oregon", "bend, or", "bend, oregon", "oregon",
+      "beaverton", "hillsboro", "eugene", "salem, or", "corvallis", "redmond, or",
+      "australia", "sydney", "melbourne", "brisbane", "perth", "adelaide",
+      "canberra", "new south wales", "victoria", "queensland",
+      "western australia", "tasmania"
     ]
   },
 
