@@ -1,14 +1,14 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-23 18:48 UTC*
+*Last updated: 2026-07-23 20:42 UTC*
 
-**2 new role(s)** since last run · 3 total in last 1h
+**2 new role(s)** since last run · 2 total in last 1h
 
-### [Environmental Specialist](https://www.linkedin.com/jobs/view/4444710090/) — Precision Castparts
-- 📍 **Location:** Garden Grove, CA
-- 💰 **Salary:** $87,500 to $105,000
+### [CLS Toxicology Supervisor](https://www.linkedin.com/jobs/view/4444014724/) — CLS Connect
+- 📍 **Location:** San Diego, CA
+- 💰 **Salary:** $120,000.00/yr - $135,000.00/yr
 - 🕒 **Posted:** 2026-07-23
 
-### [Environmental Compliance Management Professional Senior](https://www.linkedin.com/jobs/view/4416792647/) — County of Santa Barbara
-- 📍 **Location:** Santa Barbara, CA
-- 💰 **Salary:** $108,517.76 - $138,500.96
+### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4444036193/) — Piper Maddox
+- 📍 **Location:** Fresno County, CA
+- 💰 **Salary:** $38.00/hr - $48.00/hr
 - 🕒 **Posted:** 2026-07-23
