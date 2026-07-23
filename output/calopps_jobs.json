@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-22 17:43 UTC",
+  "scraped_at": "2026-07-23 17:49 UTC",
   "total": 2,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "San Mateo County",
@@ -22,15 +22,5 @@
       "ats": "CalOpps"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "San Mateo County",
-      "title": "Hazardous Materials Specialist I/II/III (Open & Promotional)",
-      "location": "San Francisco/Peninsula",
-      "url": "https://www.calopps.org/san-mateo-county/job-20761157",
-      "date_posted": "",
-      "salary": "$7,959.47-$12,367.33 Monthly",
-      "ats": "CalOpps"
-    }
-  ]
+  "new_jobs": []
 }

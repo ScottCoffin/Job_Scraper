@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-22 17:43 UTC",
-  "total": 7,
-  "new_count": 0,
+  "scraped_at": "2026-07-23 17:49 UTC",
+  "total": 8,
+  "new_count": 3,
   "jobs": [
     {
       "company": "County of Sonoma (CA)",
@@ -10,15 +10,6 @@
       "url": "https://www.governmentjobs.com/jobs/5404181-0/environmental-health-specialist-i",
       "date_posted": "",
       "salary": "$96,111.88 - $116,836.98 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Sonoma (CA)",
-      "title": "Environmental Health Specialist II",
-      "location": "Santa Rosa, CA",
-      "url": "https://www.governmentjobs.com/jobs/5404187-0/environmental-health-specialist-ii",
-      "date_posted": "",
-      "salary": "$103,938.58 - $126,333.37 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -31,12 +22,39 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "Regional Government Services",
-      "title": "Air Quality Specialist I for the Feather River Air Quality Management District",
-      "location": "Yuba City, CA",
-      "url": "https://www.governmentjobs.com/jobs/5410101-0/air-quality-specialist-i-for-the-feather-river-air-quality-management-district",
+      "company": "County of Sonoma (CA)",
+      "title": "Environmental Health Specialist II",
+      "location": "Santa Rosa, CA",
+      "url": "https://www.governmentjobs.com/jobs/5404187-0/environmental-health-specialist-ii",
       "date_posted": "",
-      "salary": "$67,056.00 - $85,584.00 Annually",
+      "salary": "$103,938.58 - $126,333.37 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Naples",
+      "title": "Water Quality Project Manager",
+      "location": "295 Riverside Circle Naples, FL",
+      "url": "https://www.governmentjobs.com/jobs/5402120-0/water-quality-project-manager",
+      "date_posted": "",
+      "salary": "$90,402.00 - $140,123.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Oregon Department of Environmental Quality",
+      "title": "Water Quality Regional Manager (Natural Resource Protection and Sustainability Manager 2)",
+      "location": "Bend, OR ; Klamath Falls, OR",
+      "url": "https://www.governmentjobs.com/jobs/147074-1/water-quality-regional-manager-natural-resource-protection-and-sustainability-ma",
+      "date_posted": "",
+      "salary": "$7,537.00 - $11,657.00 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "East Bay Municipal Utility District",
+      "title": "Superintendent of Water Treatment/Distribution/Systems Water Quality (System Water Quality)",
+      "location": "Oakland, CA",
+      "url": "https://www.governmentjobs.com/jobs/5381810-0/superintendent-of-water-treatment-distribution-systems-water-quality-system-wate",
+      "date_posted": "",
+      "salary": "$191,664.00 - $221,892.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -56,16 +74,35 @@
       "date_posted": "",
       "salary": "$127,263.60 - $140,313.60 Annually",
       "ats": "NEOGOV"
-    },
-    {
-      "company": "LA METRO",
-      "title": "SENIOR ENVIRONMENTAL SPECIALIST (ENVIRONMENTAL COMPLIANCE)",
-      "location": "Los Angeles, CA",
-      "url": "https://www.governmentjobs.com/jobs/145960-1/senior-environmental-specialist-environmental-compliance",
-      "date_posted": "",
-      "salary": "",
-      "ats": "NEOGOV"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "City of Naples",
+      "title": "Water Quality Project Manager",
+      "location": "295 Riverside Circle Naples, FL",
+      "url": "https://www.governmentjobs.com/jobs/5402120-0/water-quality-project-manager",
+      "date_posted": "",
+      "salary": "$90,402.00 - $140,123.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Oregon Department of Environmental Quality",
+      "title": "Water Quality Regional Manager (Natural Resource Protection and Sustainability Manager 2)",
+      "location": "Bend, OR ; Klamath Falls, OR",
+      "url": "https://www.governmentjobs.com/jobs/147074-1/water-quality-regional-manager-natural-resource-protection-and-sustainability-ma",
+      "date_posted": "",
+      "salary": "$7,537.00 - $11,657.00 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "East Bay Municipal Utility District",
+      "title": "Superintendent of Water Treatment/Distribution/Systems Water Quality (System Water Quality)",
+      "location": "Oakland, CA",
+      "url": "https://www.governmentjobs.com/jobs/5381810-0/superintendent-of-water-treatment-distribution-systems-water-quality-system-wate",
+      "date_posted": "",
+      "salary": "$191,664.00 - $221,892.00 Annually",
+      "ats": "NEOGOV"
+    }
+  ]
 }
