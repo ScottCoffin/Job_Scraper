@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-22 23:47 UTC",
+  "scraped_at": "2026-07-23 01:19 UTC",
   "total": 14,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Lawrence Berkeley National Laboratory",
@@ -256,24 +256,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Lawrence Berkeley National Laboratory",
-      "title": "Student Assistant, Environmental Compliance",
-      "location": "San Francisco Bay Area, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=d8a3affba57a6db0",
-      "direct_url": "https://jobs.lbl.gov/jobs/student-assistant-environmental-compliance-7548",
-      "company_url": "https://www.indeed.com/cmp/Lawrence-Berkeley-National-Laboratory",
-      "date_posted": "2026-07-22",
-      "description": "Lawrence Berkeley National Laboratory is seeking a motivated **Student Assistant, Environmental Compliance** to join the **Environmental Services Group (ESG)** within the **Environment, Waste \\& Radiation Protection Division**. This is an exciting opportunity to gain real\\-world experience supporting environmental compliance and monitoring programs at a world\\-renowned national laboratory.\n\n  \n\n\n\nAs a Student Assistant, you'll work alongside environmental professionals on meaningful projects that help protect people and the environment. You'll gain hands\\-on experience conducting compliance assessments and inspections, participating in environmental sampling and monitoring, collecting and analyzing data, preparing reports and procedures, and supporting a variety of environmental programs.\n\n  \n\n\n\nWhether you're exploring a career in environmental science, environmental engineering, sustainability, or Environment, Health \\& Safety (EHS), this position provides valuable experience, professional mentorship, and the opportunity to make a meaningful impact while building your resume.\n\n  \n\n\n\n**You will:**\n\n\n* Assist in data collection and provide support for environmental compliance programs, including but not limited to, air quality, hazardous materials management, sanitary sewer, and surface water quality.\n* Assist in preparing regulatory reports including analyzing and summarizing data, writing, editing and QA/QC.\n* Assist with inspections and compliance assessments: collect and maintain inspection records, enter inspection data into various software systems, submit maintenance requests and complete basic stormwater and hazardous material storage inspections.\n* Prepare and maintain spreadsheets to track compliance data.\n* Assist with collection of environmental samples under direct supervision of EH\\&S specialists or technicians.\n* Consolidate, review and edit internal documents including procedures and work instructions.\n* Perform data entry, spreadsheet manipulation and preparing presentation materials.\n\n  \n\n**We are looking for:**\n\n\n* A full time student in at least their Junior year working toward an undergraduate or graduate degree in Environmental Science, Health or Engineering or similar technical degree.\n* Familiarity with environmental laws and regulations and technical aspects of environmental science.\n* Ability to demonstrate effective oral and written communication skills.\n* Ability to enter and manage data in various software systems and prepare graphical presentations.\n\n  \n\n**Additional information:**\n\n\n* **Application date:** Priority consideration will be given to candidates who apply by **August 5, 2026**. Applications will be accepted until the job posting is removed.\n* **Appointment type:** This is a variable 1 year, student assistant appointment with the possibility of renewal based upon satisfactory job performance, continuing availability of funds and ongoing operational needs. The incumbent will work approximately 12 hours per week during the school year and up to 20 hours per week during the summer.\n* **Salary range:** The hourly range for this position is $21\\.40 \\- $50\\.20\\. Pay will be dependent on the current level of education.\n* **Background check:** This position is subject to a background check. Any convictions will be evaluated to determine if they directly relate to the responsibilities and requirements of the position. Having a conviction history will not automatically disqualify an applicant from being considered for employment.\n* **Work modality:** Work will be primarily performed at:Lawrence Berkeley National Lab, 1 Cyclotron Road, Berkeley, CA with occasional telework for data\\-entry projects. A REAL ID or other acceptable form of identification is required to access Berkeley Lab sites (for more information ).\n* **Work authorization:** Candidates must be eligible to work in the U.S. at the time of hire. Visa sponsorship is not available for this position.\n\n  \n\n**Want to learn more about working at Berkeley Lab? Please visit:** **careers.lbl.gov**\n\n  \n\n\n\nEqual Employment Opportunity Employer: The foundation of Berkeley Lab is our Stewardship Values: Team Science, Service, Trust, Innovation, and Respect; and we strive to build community with these shared values and commitments. Berkeley Lab is an Equal Opportunity Employer. We heartily welcome applications from all who could contribute to the Lab's mission of leading scientific discovery, excellence, and professionalism. In support of our rich global community, all qualified applicants will be considered for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, protected veteran status, or other protected categories under State and Federal law.\n\n  \n\n\n\nMisconduct Disclosure Requirement: As a condition of employment, the final candidate who accepts an offer of employment will be required to disclose if they have been subject to any final administrative or judicial decisions within the last seven years determining that they committed any misconduct; or have filed an appeal of a finding of substantiated misconduct with a previous employer. For additional information, .",
-      "salary": "$21–$50/hr",
-      "salary_source": "direct_data",
-      "salary_currency": "USD",
-      "job_type": "",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
