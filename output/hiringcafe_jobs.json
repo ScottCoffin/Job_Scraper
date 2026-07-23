@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-23 22:02 UTC",
+  "scraped_at": "2026-07-23 23:58 UTC",
   "total": 75,
-  "new_count": 2,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Department of Health and Human Services",
@@ -1054,34 +1054,5 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Madrigalpharma",
-      "title": "Associate Director, Study Toxicologist",
-      "location": "Conshohocken, Pennsylvania, United States",
-      "url": "https://madrigalpharma.wd501.myworkdayjobs.com/madrigal/job/PA---Conshohocken---Office/Associate-Director--Study-Toxicologist_JR_000807-1",
-      "direct_url": "https://madrigalpharma.wd501.myworkdayjobs.com/madrigal/job/PA---Conshohocken---Office/Associate-Director--Study-Toxicologist_JR_000807-1",
-      "date_posted": "2026-07-15T00:00:00.000Z",
-      "description": "PhD in toxicology/pharmacology/DMPK,10+ years pharmaceutical/biotech nonclinical development experience, CRO study management, protocol/report review, strong communication and multitasking skills.",
-      "salary": "$178k–$218k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    },
-    {
-      "company": "GFT.",
-      "title": "Principal Environmental Scientist",
-      "location": "Owings Mills, Maryland, United States",
-      "url": "https://careers-gannettfleming.icims.com/jobs/14446/principal-environmental-scientist/job?in_iframe=1",
-      "direct_url": "https://careers-gannettfleming.icims.com/jobs/14446/principal-environmental-scientist/job?in_iframe=1",
-      "date_posted": "2026-07-23T04:00:00.000Z",
-      "description": "Bachelor's in environmental field, 15 years experience in energy licensing/transmission siting, CPCN and permit coordination, technical writing, regulatory interface with state agencies.",
-      "salary": "$140k–$170k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "Telecommute eligible",
-      "ats": "HiringCafe"
-    }
-  ]
+  "new_jobs": []
 }
