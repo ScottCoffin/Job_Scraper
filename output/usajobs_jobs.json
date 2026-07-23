@@ -1,69 +1,114 @@
 {
-  "scraped_at": "2026-06-21 16:20 UTC",
-  "total": 8,
-  "new_count": 8,
+  "scraped_at": "2026-07-23 17:02 UTC",
+  "total": 13,
+  "new_count": 4,
   "jobs": [
     {
-      "company": "Consumer Product Safety Commission",
-      "title": "Pharmacologist/Physiologist/Toxicologist",
-      "location": "Rockville, Maryland",
-      "url": "https://www.usajobs.gov/job/872779100",
-      "date_posted": "2026-06-11",
-      "salary": "Starting at $85,447 Per year (GS 11-13)",
+      "company": "Food and Drug Administration",
+      "title": "Toxicologist",
+      "location": "Silver Spring, Maryland",
+      "url": "https://www.usajobs.gov/job/877110500",
+      "date_posted": "2026-07-17",
+      "salary": "Starting at $121,785 Per year (RC 00)",
       "ats": "USAJOBS"
     },
     {
-      "company": "Defense Logistics Agency",
+      "company": "John F. Kennedy Space Center",
+      "title": "Public Notice - Environmental Protection Specialist (Direct Hire)",
+      "location": "Kennedy Space Center, Florida",
+      "url": "https://www.usajobs.gov/job/877635100",
+      "date_posted": "2026-07-23",
+      "salary": "Starting at $107,228 Per year (GS 13)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Federal Highway Administration",
+      "title": "Environmental Protection Specialist - DIRECT HIRE",
+      "location": "Boise, Idaho",
+      "url": "https://www.usajobs.gov/job/877623000",
+      "date_posted": "2026-07-22",
+      "salary": "Starting at $89,508 Per year (GS 12-13)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Maritime Administration",
+      "title": "Environmental Protection Specialist (Open to both U.S. Citizens and Federal Employees)",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/877612800",
+      "date_posted": "2026-07-22",
+      "salary": "Starting at $121,785 Per year (GS 13-14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Bureau of Prisons/Federal Prison System",
+      "title": "Environmental Protection Specialist",
+      "location": "Texarkana, Texas",
+      "url": "https://www.usajobs.gov/job/877134900",
+      "date_posted": "2026-07-20",
+      "salary": "Starting at $74,678 Per year (GS 11)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Veterans Health Administration",
       "title": "Environmental Protection Specialist",
       "location": "Battle Creek, Michigan",
-      "url": "https://www.usajobs.gov/job/873512600",
-      "date_posted": "2026-06-17",
-      "salary": "Starting at $89,508 Per year (GS 12)",
+      "url": "https://www.usajobs.gov/job/876835500",
+      "date_posted": "2026-07-17",
+      "salary": "Starting at $74,678 Per year (GS 11)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Commander, Navy Installations Command",
+      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
+      "location": "San Clemente Naval Reserve Island, California",
+      "url": "https://www.usajobs.gov/job/876808800",
+      "date_posted": "2026-07-17",
+      "salary": "Starting at $71,957 Per year (GS 9-11)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Commander, Navy Installations Command",
+      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
+      "location": "Naval Station Complex, San Diego, California",
+      "url": "https://www.usajobs.gov/job/876290000",
+      "date_posted": "2026-07-16",
+      "salary": "Starting at $102,246 Per year (GS 12)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Federal Transit Administration",
+      "title": "Supervisory Environmental Protection Specialist  - DIRECT HIRE",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/876492900",
+      "date_posted": "2026-07-14",
+      "salary": "Starting at $169,279 Per year (GS 15)",
       "ats": "USAJOBS"
     },
     {
       "company": "Commander, Navy Installations Command",
       "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
       "location": "Fallon, Nevada",
-      "url": "https://www.usajobs.gov/job/873326400",
-      "date_posted": "2026-06-17",
-      "salary": "Starting at $61,965 Per year (GS 9-11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Federal Aviation Administration",
-      "title": "Environmental Protection Specialist",
-      "location": "Singapore, Singapore",
-      "url": "https://www.usajobs.gov/job/873325900",
-      "date_posted": "2026-06-17",
-      "salary": "Starting at $53,528 Per year (FV G-I)",
+      "url": "https://www.usajobs.gov/job/875816500",
+      "date_posted": "2026-07-13",
+      "salary": "Starting at $74,972 Per year (GS 11)",
       "ats": "USAJOBS"
     },
     {
       "company": "Veterans Health Administration",
-      "title": "Environmental Protection Specialist",
-      "location": "Roseburg, Oregon",
-      "url": "https://www.usajobs.gov/job/873183700",
-      "date_posted": "2026-06-16",
-      "salary": "Starting at $74,678 Per year (GS 11)",
+      "title": "Clinical Laboratory Scientist - Toxicology",
+      "location": "Minneapolis, Minnesota",
+      "url": "https://www.usajobs.gov/job/877606000",
+      "date_posted": "2026-07-22",
+      "salary": "Starting at $70,879 Per year (GS 7-11)",
       "ats": "USAJOBS"
     },
     {
-      "company": "U.S. Marine Corps",
-      "title": "SUPERVISORY ENVIRONMENTAL PROTECTION SPECIALIST",
-      "location": "Camp Pendleton, California",
-      "url": "https://www.usajobs.gov/job/873069200",
-      "date_posted": "2026-06-15",
-      "salary": "Starting at $85,307 Per year (GS 11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Consumer Product Safety Commission",
-      "title": "Director for Hazard Identification",
-      "location": "Bethesda, Maryland",
-      "url": "https://www.usajobs.gov/job/872968600",
-      "date_posted": "2026-06-12",
-      "salary": "Starting at $151,661 Per year (ES 00)",
+      "company": "National Oceanic and Atmospheric Administration",
+      "title": "Supervisory Environmental Scientist",
+      "location": "Silver Spring, Maryland",
+      "url": "https://www.usajobs.gov/job/877179500",
+      "date_posted": "2026-07-21",
+      "salary": "Starting at $169,279 Per year (ZP 5)",
       "ats": "USAJOBS"
     },
     {
@@ -78,75 +123,39 @@
   ],
   "new_jobs": [
     {
-      "company": "Consumer Product Safety Commission",
-      "title": "Pharmacologist/Physiologist/Toxicologist",
-      "location": "Rockville, Maryland",
-      "url": "https://www.usajobs.gov/job/872779100",
-      "date_posted": "2026-06-11",
-      "salary": "Starting at $85,447 Per year (GS 11-13)",
+      "company": "John F. Kennedy Space Center",
+      "title": "Public Notice - Environmental Protection Specialist (Direct Hire)",
+      "location": "Kennedy Space Center, Florida",
+      "url": "https://www.usajobs.gov/job/877635100",
+      "date_posted": "2026-07-23",
+      "salary": "Starting at $107,228 Per year (GS 13)",
       "ats": "USAJOBS"
     },
     {
-      "company": "Defense Logistics Agency",
-      "title": "Environmental Protection Specialist",
-      "location": "Battle Creek, Michigan",
-      "url": "https://www.usajobs.gov/job/873512600",
-      "date_posted": "2026-06-17",
-      "salary": "Starting at $89,508 Per year (GS 12)",
+      "company": "Federal Highway Administration",
+      "title": "Environmental Protection Specialist - DIRECT HIRE",
+      "location": "Boise, Idaho",
+      "url": "https://www.usajobs.gov/job/877623000",
+      "date_posted": "2026-07-22",
+      "salary": "Starting at $89,508 Per year (GS 12-13)",
       "ats": "USAJOBS"
     },
     {
-      "company": "Commander, Navy Installations Command",
-      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
-      "location": "Fallon, Nevada",
-      "url": "https://www.usajobs.gov/job/873326400",
-      "date_posted": "2026-06-17",
-      "salary": "Starting at $61,965 Per year (GS 9-11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Federal Aviation Administration",
-      "title": "Environmental Protection Specialist",
-      "location": "Singapore, Singapore",
-      "url": "https://www.usajobs.gov/job/873325900",
-      "date_posted": "2026-06-17",
-      "salary": "Starting at $53,528 Per year (FV G-I)",
+      "company": "Maritime Administration",
+      "title": "Environmental Protection Specialist (Open to both U.S. Citizens and Federal Employees)",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/877612800",
+      "date_posted": "2026-07-22",
+      "salary": "Starting at $121,785 Per year (GS 13-14)",
       "ats": "USAJOBS"
     },
     {
       "company": "Veterans Health Administration",
-      "title": "Environmental Protection Specialist",
-      "location": "Roseburg, Oregon",
-      "url": "https://www.usajobs.gov/job/873183700",
-      "date_posted": "2026-06-16",
-      "salary": "Starting at $74,678 Per year (GS 11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "U.S. Marine Corps",
-      "title": "SUPERVISORY ENVIRONMENTAL PROTECTION SPECIALIST",
-      "location": "Camp Pendleton, California",
-      "url": "https://www.usajobs.gov/job/873069200",
-      "date_posted": "2026-06-15",
-      "salary": "Starting at $85,307 Per year (GS 11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Consumer Product Safety Commission",
-      "title": "Director for Hazard Identification",
-      "location": "Bethesda, Maryland",
-      "url": "https://www.usajobs.gov/job/872968600",
-      "date_posted": "2026-06-12",
-      "salary": "Starting at $151,661 Per year (ES 00)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Air Force Materiel Command",
-      "title": "Subject Matter Specialist (Air Quality) - DIRECT HIRE AUTHORITY",
-      "location": "Kelly AFB, Texas",
-      "url": "https://www.usajobs.gov/job/872100900",
-      "date_posted": "2026-06-08",
-      "salary": "Starting at $90,823 Per year (NH 3)",
+      "title": "Clinical Laboratory Scientist - Toxicology",
+      "location": "Minneapolis, Minnesota",
+      "url": "https://www.usajobs.gov/job/877606000",
+      "date_posted": "2026-07-22",
+      "salary": "Starting at $70,879 Per year (GS 7-11)",
       "ats": "USAJOBS"
     }
   ]
