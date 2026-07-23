@@ -1,14 +1,19 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-23 20:42 UTC*
+*Last updated: 2026-07-23 22:24 UTC*
 
-**2 new role(s)** since last run · 2 total in last 1h
+**3 new role(s)** since last run · 3 total in last 1h
 
-### [CLS Toxicology Supervisor](https://www.linkedin.com/jobs/view/4444014724/) — CLS Connect
-- 📍 **Location:** San Diego, CA
-- 💰 **Salary:** $120,000.00/yr - $135,000.00/yr
+### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4444020531/) — JT4
+- 📍 **Location:** California, United States
+- 💰 **Salary:** $78,500.00/yr - $109,500.00/yr
 - 🕒 **Posted:** 2026-07-23
 
-### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4444036193/) — Piper Maddox
-- 📍 **Location:** Fresno County, CA
-- 💰 **Salary:** $38.00/hr - $48.00/hr
+### [Environmental Specialist](https://www.linkedin.com/jobs/view/4441650059/) — Triumvirate Environmental
+- 📍 **Location:** Thousand Oaks, CA
+- 💰 **Salary:** $24 USD - $24 USD
+- 🕒 **Posted:** 2026-07-23
+
+### [Associate, Cultural Resources and Tribal Relations, Environmental Compliance & Strategy](https://www.linkedin.com/jobs/view/4444739404/) — Invenergy
+- 📍 **Location:** Portland, OR
+- 💰 **Salary:** $98,000.00 - $118,000.00 USD
 - 🕒 **Posted:** 2026-07-23
