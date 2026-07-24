@@ -1,9 +1,12 @@
 # 🏛 Priority Employers — Environmental / Toxicology Roles
-*Last updated: 2026-07-23 06:25 UTC*
+*Last updated: 2026-07-24 06:20 UTC*
 
-**1 new role(s)** since last run · 1 total in last 24h
+**2 new role(s)** since last run · 2 total in last 24h
 
-### [Environmental Remediation Area Manager](https://www.linkedin.com/jobs/view/4443400487/) — AECOM
-- 📍 **Location:** Oakland, CA
-- 💰 **Salary:** $150000 to $190000
-- 🕒 **Posted:** 2026-07-22
+### [Senior Environmental Scientist - EIA](https://www.linkedin.com/jobs/view/4443830107/) — GHD
+- 📍 **Location:** Karratha, Western Australia, Australia
+- 🕒 **Posted:** 2026-07-23
+
+### [Senior Environmental Scientist - Planning and Environmental Approvals](https://www.linkedin.com/jobs/view/4444400514/) — AECOM
+- 📍 **Location:** Melbourne, Victoria, Australia
+- 🕒 **Posted:** 2026-07-23
