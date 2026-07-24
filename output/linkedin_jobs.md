@@ -1,6 +1,14 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-07-24 03:55 UTC*
+*Last updated: 2026-07-24 04:57 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**2 new role(s)** since last run · 2 total in last 1h
 
-No new roles since the last run.
+### [ENVIRONMENTAL SCIENTIST](https://www.linkedin.com/jobs/view/4444906165/) — Schmidt Marine Technology Partners
+- 📍 **Location:** Orange County, CA
+- 💰 **Salary:** $4,418.00 - $9,321.00 per Month
+- 🕒 **Posted:** 2026-07-24
+
+### [ENVIRONMENTAL SCIENTIST](https://www.linkedin.com/jobs/view/4444788752/) — Schmidt Marine Technology Partners
+- 📍 **Location:** Santa Barbara County, CA
+- 💰 **Salary:** $4,418.00 - $9,321.00 per Month
+- 🕒 **Posted:** 2026-07-24
