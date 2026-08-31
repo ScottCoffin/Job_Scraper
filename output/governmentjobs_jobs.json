@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-08-30 19:20 UTC",
-  "total": 9,
-  "new_count": 0,
+  "scraped_at": "2026-08-31 21:30 UTC",
+  "total": 12,
+  "new_count": 3,
   "jobs": [
     {
       "company": "County of Fresno",
@@ -83,7 +83,62 @@
       "date_posted": "",
       "salary": "$118,643.20 - $177,944.00 Annually",
       "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Santa Rosa",
+      "title": "Environmental Specialist I/II",
+      "location": "MSCS-69 Stony Circle Santa Rosa, CA",
+      "url": "https://www.governmentjobs.com/jobs/5401336-0/environmental-specialist-i-ii",
+      "date_posted": "",
+      "salary": "$94,906.00 - $129,466.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of San Luis Obispo",
+      "title": "Environmental Specialist II/III (Limited Term)",
+      "location": "San Luis Obispo, CA",
+      "url": "https://www.governmentjobs.com/jobs/5441591-0/environmental-specialist-ii-iii-limited-term",
+      "date_posted": "",
+      "salary": "$83,137.60 - $124,009.60 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Folsom",
+      "title": "Senior Environmental Specialist - Recycling",
+      "location": "Folsom, CA",
+      "url": "https://www.governmentjobs.com/jobs/5427827-0/senior-environmental-specialist-recycling",
+      "date_posted": "",
+      "salary": "$81,379.33 - $103,088.89 Annually",
+      "ats": "NEOGOV"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "City of Santa Rosa",
+      "title": "Environmental Specialist I/II",
+      "location": "MSCS-69 Stony Circle Santa Rosa, CA",
+      "url": "https://www.governmentjobs.com/jobs/5401336-0/environmental-specialist-i-ii",
+      "date_posted": "",
+      "salary": "$94,906.00 - $129,466.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of San Luis Obispo",
+      "title": "Environmental Specialist II/III (Limited Term)",
+      "location": "San Luis Obispo, CA",
+      "url": "https://www.governmentjobs.com/jobs/5441591-0/environmental-specialist-ii-iii-limited-term",
+      "date_posted": "",
+      "salary": "$83,137.60 - $124,009.60 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Folsom",
+      "title": "Senior Environmental Specialist - Recycling",
+      "location": "Folsom, CA",
+      "url": "https://www.governmentjobs.com/jobs/5427827-0/senior-environmental-specialist-recycling",
+      "date_posted": "",
+      "salary": "$81,379.33 - $103,088.89 Annually",
+      "ats": "NEOGOV"
+    }
+  ]
 }
