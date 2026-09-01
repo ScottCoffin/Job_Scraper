@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-08-31 21:02 UTC",
-  "total": 9,
-  "new_count": 1,
+  "scraped_at": "2026-09-01 18:47 UTC",
+  "total": 8,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Defense Health Agency",
@@ -67,15 +67,6 @@
       "ats": "USAJOBS"
     },
     {
-      "company": "National Oceanic and Atmospheric Administration",
-      "title": "Environmental Scientist",
-      "location": "Silver Spring, Maryland",
-      "url": "https://www.usajobs.gov/job/881831800",
-      "date_posted": "2026-08-25",
-      "salary": "Starting at $74,678 Per year (ZP 3)",
-      "ats": "USAJOBS"
-    },
-    {
       "company": "Air Force Materiel Command",
       "title": "Subject Matter Specialist (Air Quality) - DIRECT HIRE AUTHORITY",
       "location": "Kelly AFB, Texas",
@@ -85,15 +76,5 @@
       "ats": "USAJOBS"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "U.S. Army Joint Munitions Command",
-      "title": "Environmental Protection Specialist",
-      "location": "Tooele Army Depot, Utah",
-      "url": "https://www.usajobs.gov/job/882557900",
-      "date_posted": "2026-08-31",
-      "salary": "Starting at $50,460 Per year (GS 7-11)",
-      "ats": "USAJOBS"
-    }
-  ]
+  "new_jobs": []
 }
