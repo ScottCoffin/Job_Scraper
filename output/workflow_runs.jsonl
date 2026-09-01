@@ -3373,3 +3373,4 @@
 {"job_count": 72, "run_attempt": "1", "run_id": "33481119003", "timestamp": "2026-09-01T07:14:01Z", "workflow": "hiringcafe"}
 {"job_count": 0, "run_attempt": "1", "run_id": "33488189254", "timestamp": "2026-09-01T08:55:45Z", "workflow": "biotech"}
 {"job_count": 1, "run_attempt": "1", "run_id": "33544219921", "timestamp": "2026-09-01T18:47:17Z", "workflow": "linkedin"}
+{"job_count": 8, "run_attempt": "1", "run_id": "33546157189", "timestamp": "2026-09-01T18:52:54Z", "workflow": "indeed"}
