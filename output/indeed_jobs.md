@@ -1,6 +1,11 @@
 # 🟦 Indeed — Environmental / Toxicology Roles
-*Last updated: 2026-09-02 18:58 UTC*
+*Last updated: 2026-09-02 22:01 UTC*
 
-**0 new role(s)** since last run · 9 total in last 24h
+**1 new role(s)** since last run · 9 total in last 24h
 
-No new roles since the last run.
+### [Academic Remediation Specialist](https://www.indeed.com/viewjob?jk=3c06a99677ef62a3) — Summit College
+- 📍 **Location:** San Bernardino, CA, US
+- 💰 **Salary:** $50–$60/hr
+- **Work mode:** On-site
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-09-02
