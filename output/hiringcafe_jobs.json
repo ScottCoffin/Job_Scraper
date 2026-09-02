@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-02 19:37 UTC",
+  "scraped_at": "2026-09-02 22:20 UTC",
   "total": 18,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Integral Consulting Inc.",
@@ -256,20 +256,5 @@
       "ats": "HiringCafe"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Texas Commission on Environmental Quality",
-      "title": "TCEQ - Toxicologist I",
-      "location": "Austin, Texas, United States",
-      "url": "https://erphcmprd.cpa.texas.gov/psc/candidateportal/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=102979&PostingSeq=1&SiteId=1",
-      "direct_url": "https://erphcmprd.cpa.texas.gov/psc/candidateportal/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=102979&PostingSeq=1&SiteId=1",
-      "date_posted": "2026-08-24T06:38:06.613Z",
-      "description": "Master's in toxicology, pharmacology, or related field plus 2 years' experience, or a doctorate in a related field; requires toxicology knowledge, risk assessment, communication, and technical reporting skills.",
-      "salary": "$73k/yr",
-      "job_type": "Full Time",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "ats": "HiringCafe"
-    }
-  ]
+  "new_jobs": []
 }
