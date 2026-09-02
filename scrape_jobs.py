@@ -198,11 +198,63 @@ def is_mle_role_text(title: str, *parts: str) -> bool:
 # location_filter.terms; case-insensitive substring match on the job location.
 TARGET_LOCATIONS = [str(t).lower() for t in _cfg("location_filter.terms", [])]
 
+# Countries to reject even if a target substring matches (e.g. ", ca" matches
+# "Canada", ", wa" matches "Wales"). LinkedIn's "Remote" geo returns global jobs.
+# Multi-word country names are matched as substrings; single-word names are
+# matched with word boundaries to avoid false positives like "india" matching
+# "Indiana" or "mexico" matching "New Mexico".
+NON_US_COUNTRIES_MULTI = [
+    "united kingdom", "south korea", "south africa", "new zealand",
+    "saudi arabia", "united arab emirates",
+]
+NON_US_COUNTRIES_SINGLE = [
+    "canada", "australia", "uk", "england", "scotland",
+    "wales", "ireland", "germany", "france", "netherlands", "switzerland",
+    "sweden", "norway", "denmark", "finland", "spain", "portugal", "italy",
+    "india", "singapore", "japan", "china", "brazil",
+    "mexico", "argentina", "belgium",
+    "austria", "poland", "czech", "romania", "hungary", "israel",
+    "qatar", "egypt",
+]
+_NON_US_COUNTRY_RE = re.compile(
+    r'\b(?:' + '|'.join(re.escape(c) for c in NON_US_COUNTRIES_SINGLE) + r')\b'
+)
+
+
+# US state full names (lowercased) — used to override country-match false
+# positives like "New Mexico" (contains "mexico") and "Indiana" (contains
+# "india"). Hardcoded because the 50 state names don't change.
+_US_STATE_NAMES = [
+    "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+    "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho",
+    "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana",
+    "maine", "maryland", "massachusetts", "michigan", "minnesota",
+    "mississippi", "missouri", "montana", "nebraska", "nevada",
+    "new hampshire", "new jersey", "new mexico", "new york",
+    "north carolina", "north dakota", "ohio", "oklahoma", "oregon",
+    "pennsylvania", "rhode island", "south carolina", "south dakota",
+    "tennessee", "texas", "utah", "vermont", "virginia", "washington",
+    "west virginia", "wisconsin", "wyoming",
+]
+
 
 def is_target_location(location: str) -> bool:
     if not location:
         return False
     loc = location.lower()
+    # If a US state full name matches, accept immediately — this handles
+    # "New Mexico" (contains "mexico") and "Indiana" (contains "india")
+    # which would otherwise be rejected by the country check below.
+    if any(state in loc for state in _US_STATE_NAMES):
+        return True
+    # Reject non-US countries — prevents ", ca" matching "Canada", etc.
+    # Multi-word countries: substring match (safe, distinctive phrases).
+    if any(country in loc for country in NON_US_COUNTRIES_MULTI):
+        return False
+    # Single-word countries: word-boundary match (prevents "india" matching
+    # "Indiana", "mexico" matching "New Mexico", etc.).
+    if _NON_US_COUNTRY_RE.search(loc):
+        return False
     return any(place in loc for place in TARGET_LOCATIONS)
 
 
@@ -2496,7 +2548,7 @@ def _load_prev_ids(json_path: str) -> set[str]:
     return ids
 
 
-ALL_JOBS_PRUNE_DAYS = 50
+ALL_JOBS_PRUNE_DAYS = 30
 # LinkedIn's guest API reliably supports ~30 days via f_TPR; use this for the
 # one-time historical backfill (--linkedin-backfill) so new users get a full
 # picture without running hourly for weeks.

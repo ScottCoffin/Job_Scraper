@@ -240,7 +240,7 @@ The list is deliberately **tight** for precision: generic titles (`research scie
 | `usajobs_jobs.json` / `.md` / `.html` | USAJOBS watcher | US federal roles matching your configured keywords, with salary, via usajobs.gov |
 | `governmentjobs_jobs.json` / `.md` / `.html` | NEOGOV watcher | State & local-gov roles matching your configured keywords via governmentjobs.com |
 | `calopps_jobs.json` / `.md` / `.html` | CalOpps watcher | California local-agency roles (cities, counties, special districts) via calopps.org |
-| `all_jobs.json` | accumulator | Cumulative 14-day master (feeds the dashboard + triage) |
+| `all_jobs.json` | accumulator | Cumulative 30-day master (feeds the dashboard + triage) |
 | `scores.json` | triage agent | Optional fit verdicts keyed by job URL |
 
 ### CalCareers (California state jobs)
@@ -489,7 +489,7 @@ Paste your CV text into `CANDIDATE_RESUME`. Without these secrets, leave `triage
 │   ├── usajobs_jobs.{json,md,html}
 │   ├── governmentjobs_jobs.{json,md,html}
 │   ├── calopps_jobs.{json,md,html}
-│   ├── all_jobs.json               # Cumulative 14-day master (feeds dashboard + triage)
+│   ├── all_jobs.json               # Cumulative 30-day master (feeds dashboard + triage)
 │   ├── scores.json                 # Triage verdicts (optional)
 │   ├── notified.json               # Push-notification dedup log
 │   └── workflow_runs.jsonl         # CI run audit log
