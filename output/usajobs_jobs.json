@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-01 18:47 UTC",
-  "total": 8,
-  "new_count": 0,
+  "scraped_at": "2026-09-02 18:55 UTC",
+  "total": 9,
+  "new_count": 1,
   "jobs": [
     {
       "company": "Defense Health Agency",
@@ -19,6 +19,15 @@
       "url": "https://www.usajobs.gov/job/881345300",
       "date_posted": "2026-08-19",
       "salary": "Starting at $76,463 Per year (NH 3)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "National Park Service",
+      "title": "Environmental Protection Specialist (Temporary)",
+      "location": "West Glacier, Montana",
+      "url": "https://www.usajobs.gov/job/883109700",
+      "date_posted": "2026-09-01",
+      "salary": "Starting at $29.57 Per hour (GS 9)",
       "ats": "USAJOBS"
     },
     {
@@ -76,5 +85,15 @@
       "ats": "USAJOBS"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "National Park Service",
+      "title": "Environmental Protection Specialist (Temporary)",
+      "location": "West Glacier, Montana",
+      "url": "https://www.usajobs.gov/job/883109700",
+      "date_posted": "2026-09-01",
+      "salary": "Starting at $29.57 Per hour (GS 9)",
+      "ats": "USAJOBS"
+    }
+  ]
 }
