@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-02 00:27 UTC",
+  "scraped_at": "2026-09-02 00:35 UTC",
   "total": 7,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Tetra Tech",
@@ -130,24 +130,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Tetra Tech",
-      "title": "Environmental Scientist/Compliance Specialist (Remote)",
-      "location": "Diamond Bar, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=62367f829ad94483",
-      "direct_url": "https://tetratech.referrals.selectminds.com/jobs/environmental-scientist-compliance-specialist-remote-56653",
-      "company_url": "https://www.indeed.com/cmp/Tetra-Tech",
-      "date_posted": "2026-09-01",
-      "description": "Discover your full potential. At Tetra Tech, we are collaborating with industry\\-leading experts for a sustainable future for our world. We combine consulting and engineering with advanced analytics and technology to solve the world’s most complex challenges. Our innovation hubs across the globe will enable you to share ideas and best practices while growing your professional network. Wherever you are in your career journey, you will benefit from working with world\\-class engineers, scientists, and technical specialists.\n\n  \n\nAt Tetra Tech, we are Leading with Science to solve the world’s most complex challenges. Our industry\\-leading experts in engineering and consulting are committed to driving positive change in communities around the world. For over 50 years, we have been at the forefront of innovation and sustainability. Today we stand as a market leader, offering cutting\\-edge solutions in water, environment, energy, and international development. Our work has improved more than 625 million lives around the world.\n\n  \n\nJoin Tetra Tech to make a real difference. Our work leverages cutting\\-edge technologies, advanced analytics, and the expertise of world\\-class scientists and engineers to create meaningful change around the world. Discover your full potential – join us to advance your career while leaving a lasting legacy.\n\n  \n\nApply today and join the company that is Leading with Science®.\n\n  \n\nTetra Tech is seeking a self\\-motivated, Entry\\-Level Environmental Scientist / Compliance Specialist to support and expand our landfill and air quality compliance services within the solid waste industry. This position is ideal for candidates with a strong interest in air regulations, landfill gas systems, emissions compliance, and environmental data analysis.\n\n\nIn this role, you will support regulatory compliance programs by analyzing field and operational data, interpreting air quality regulations and permit requirements, preparing compliance reports, and assisting with air permitting and emissions calculations. The primary focus areas include landfill gas monitoring, Surface Emissions Monitoring (SEM), Landfill Gas\\-to\\-Energy (LFGTE) Systems, air quality permitting, and compliance with New Source Performance Standards (NSPS) and National Emissions Standards for Hazardous Pollutants (NESHAP) regulations applicable to solid waste facilities.\n\n\nThis position is primarily remote, with limited, as\\-needed travel or occasional site visits. **Only those in PST or MST will be considered.**Candidates must be comfortable working independently with limited supervision while collaborating with project managers, field staff, engineers, and regulatory specialists across geographically dispersed teams.\n\n\nThis position is eligible for our full benefits package including but not limited to Medical, Dental, Vision, Life, AD\\&D, Disability, Flexible Spending Account (FSA), Health Spending Account (HSA), My Flex Time (MFT \\- paid time off), 401K, and an Employee Stock Purchase Plan. The pay range for this position is $55K\\-$75K annually, based on qualifications, location, and experience. **Only those that attach a cover letter will be considered.** The deadline to apply is 09/3/2026\\.\n\n **Your Role**:\n\n* Review, analyze, and interpret landfill air quality and landfill gas monitoring data, including wellfield data, SEM, and air emissions datasets.\n* Compare monitoring and operational data against regulatory standards, permit limits, and NSPS/NESHAP criteria to assess compliance.\n* Prepare environmental compliance reports, including air compliance summaries, monitoring reports, deviation analyses, and regulatory submittals.\n* Support the development and preparation of air quality permit applications, amendments, and renewals, including emission calculations and regulatory compliance demonstrations.\n* Collect, manage, track, and organize large datasets related to air emissions, landfill gas, SEM results, and compliance deadlines.\n* Develop and maintain templates, trackers, and tools to support consistent, accurate, and timely reporting for multiple facilities / landfills.\n* Coordinate with on\\-site operations, technicians, and subcontractors to confirm that monitoring, testing, and system performance meet regulatory and permit requirements.\n* Support Project Managers with deliverables, schedules, and client coordination including procurement of supplies, subcontractor coordination and Work Order development.\n* Contribute to multidisciplinary teams on engineering, permitting, and environmental projects.\n\n **Qualifications**:\n\n* Bachelor's degree in Environmental Science, Environmental Engineering, or a related field.\n* Strong verbal and written communication skills, including technical and regulatory writing.\n* Proficiency in MS Office – specifically Word and Excel.\n* Ability to work independently in a remote environment, demonstrate initiative, and manage multiple priorities with limited supervision.\n* Strong interpersonal skills and ability to collaborate effectively with field staff, engineers, and regulatory agencies.\n* Valid driver’s license.\n* Ability and willingness to perform limited travel as required.\n* Interest and ability in developing technical and leadership skills within the Environmental Compliance field.\n\n\n**Life at Tetra Tech:**  \n\nThe perks of working at Tetra Tech include:\n\n* Comprehensive and market\\-competitive benefits.\n* Merit\\-based financial rewards.\n* Flexibility and company\\-wide commitment to work/life balance.\n* Collaborative team atmosphere that values the contributions of all employees.\n* Learning and development opportunities for ongoing professional growth.\n\n **About Tetra Tech:**  \n\nTetra Tech is the leader in water, environment, and sustainable infrastructure, providing high\\-end consulting and engineering services for projects worldwide. With 25,000 employees working together, Tetra Tech provides clear solutions to complex problems by Leading with Science® to address the en",
-      "salary": "$55k–$75k/yr",
-      "salary_source": "direct_data",
-      "salary_currency": "USD",
-      "job_type": "",
-      "is_remote": true,
-      "work_arrangement": "Remote in-state eligible",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
