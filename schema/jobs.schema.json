@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://job-scraper/schema/jobs.schema.json",
+  "title": "Job Record",
+  "description": "A single scraped job posting. Canonical contract between job-scraper (producer) and downstream consumers. See docs/JOB_SCHEMA.md for full field documentation.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["url", "title", "company", "ats", "first_seen"],
+  "properties": {
+    "url": {
+      "type": "string",
+      "description": "Canonical posting URL. Must be http or https scheme. Primary key.",
+      "pattern": "^https?://",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "description": "Job title as scraped from the listing.",
+      "minLength": 1
+    },
+    "company": {
+      "type": "string",
+      "description": "Employer name.",
+      "minLength": 1
+    },
+    "ats": {
+      "type": "string",
+      "description": "Source label: LinkedIn, Indeed, Glassdoor, ZipRecruiter, GoogleJobs, HiringCafe, CalCareers, CSUCareers, USAJOBS, NEOGOV, CalOpps, Greenhouse, Workday, Priority.",
+      "enum": [
+        "LinkedIn",
+        "Indeed",
+        "Glassdoor",
+        "ZipRecruiter",
+        "GoogleJobs",
+        "HiringCafe",
+        "CalCareers",
+        "CSUCareers",
+        "USAJOBS",
+        "NEOGOV",
+        "CalOpps",
+        "Greenhouse",
+        "Workday",
+        "Priority"
+      ]
+    },
+    "first_seen": {
+      "type": "string",
+      "description": "ISO-8601 UTC timestamp added by the scraper's merge step when a job first enters all_jobs.json.",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location string as scraped (e.g. 'San Francisco, CA', 'Remote'). May be empty."
+    },
+    "date_posted": {
+      "type": "string",
+      "description": "ISO date or relative string (e.g. '2026-08-14', '3 days ago'). Format varies by source."
+    },
+    "salary": {
+      "type": "string",
+      "description": "Raw salary/pay string as scraped. May be empty string."
+    },
+    "description": {
+      "type": "string",
+      "description": "Job description text. Truncated to source-specific max (LinkedIn: 12000 chars; JobSpy boards: 6000 chars). Absent for government board sources."
+    },
+    "direct_url": {
+      "type": "string",
+      "description": "Direct apply URL, when different from url."
+    },
+    "job_type": {
+      "type": "string",
+      "description": "Employment type (e.g. 'full-time', 'contract', 'part-time')."
+    },
+    "is_remote": {
+      "type": "boolean",
+      "description": "Remote signal. true if remote, false if on-site, absent if unknown."
+    },
+    "telework": {
+      "type": "string",
+      "description": "Board-specific telework label (e.g. 'Telecommute eligible'). Used by government boards."
+    },
+    "work_arrangement": {
+      "type": "string",
+      "description": "Normalized work mode derived from is_remote, telework, job_type, and location text. Empty string when undetermined.",
+      "enum": ["On-site", "Remote in-state eligible", "Remote out-of-state eligible", "Telecommute eligible", ""]
+    },
+    "salary_source": {
+      "type": "string",
+      "description": "Where the salary was extracted from (e.g. 'Indeed', 'LinkedIn')."
+    },
+    "salary_currency": {
+      "type": "string",
+      "description": "Currency code (e.g. 'USD')."
+    },
+    "emails": {
+      "type": "string",
+      "description": "Contact email(s) from the listing. Comma-separated if multiple."
+    },
+    "company_url": {
+      "type": "string",
+      "description": "Employer homepage URL."
+    },
+    "duplicate_urls": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Alternate URLs for the same job, accumulated during cross-source duplicate merge."
+    },
+    "feasible": {
+      "type": "boolean",
+      "description": "Triage agent field — whether the job passed feasibility check. Not present in delta files."
+    },
+    "feasibility": {
+      "type": "string",
+      "description": "Triage agent field — verdict: preferred, yes, or no. Not present in delta files.",
+      "enum": ["preferred", "yes", "no"]
+    },
+    "feasibility_error": {
+      "type": "boolean",
+      "description": "Triage agent field — true if the feasibility batch failed. Not present in delta files."
+    }
+  }
+}

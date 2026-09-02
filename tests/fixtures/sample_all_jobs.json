@@ -1,0 +1,133 @@
+{
+  "updated_at": "2026-08-15 12:00 UTC",
+  "jobs": [
+    {
+      "company": "Acme Corp",
+      "title": "Director of Engineering",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400000001/",
+      "date_posted": "2026-08-14",
+      "salary": "",
+      "ats": "LinkedIn",
+      "description": "Lead our engineering team building cloud infrastructure.",
+      "first_seen": "2026-08-14T10:00:00Z",
+      "feasible": true,
+      "feasibility": "preferred"
+    },
+    {
+      "company": "TechFlow",
+      "title": "VP of Engineering",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/4400000002/",
+      "date_posted": "2026-08-14",
+      "salary": "$200k-$300k",
+      "ats": "LinkedIn",
+      "description": "Vice President of Engineering overseeing all product teams.",
+      "first_seen": "2026-08-14T11:00:00Z",
+      "feasible": true,
+      "feasibility": "yes"
+    },
+    {
+      "company": "DataSys",
+      "title": "Head of Engineering",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/4400000003/",
+      "date_posted": "2026-08-13",
+      "salary": "",
+      "ats": "LinkedIn",
+      "description": "Head of Engineering for a remote-first startup.",
+      "first_seen": "2026-08-13T09:00:00Z",
+      "feasible": true,
+      "feasibility": "yes"
+    },
+    {
+      "company": "CloudNine",
+      "title": "Senior Engineering Manager",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/4400000004/",
+      "date_posted": "2026-08-13",
+      "salary": "$180k-$220k",
+      "ats": "LinkedIn",
+      "description": "Manage a team of 15 engineers building our platform.",
+      "first_seen": "2026-08-13T12:00:00Z",
+      "feasible": true,
+      "feasibility": "yes"
+    },
+    {
+      "company": "StartupX",
+      "title": "Director of Platform Engineering",
+      "location": "Seattle, WA",
+      "url": "https://www.linkedin.com/jobs/view/4400000005/",
+      "date_posted": "2026-08-12",
+      "salary": "",
+      "ats": "LinkedIn",
+      "description": "",
+      "first_seen": "2026-08-12T08:00:00Z",
+      "feasible": true,
+      "feasibility": "yes"
+    },
+    {
+      "company": "DevHub",
+      "title": "Director of Infrastructure",
+      "location": "Denver, CO",
+      "url": "https://www.linkedin.com/jobs/view/4400000006/",
+      "date_posted": "2026-08-12",
+      "salary": "",
+      "ats": "LinkedIn",
+      "description": "",
+      "first_seen": "2026-08-12T14:00:00Z",
+      "feasible": true,
+      "feasibility": "yes"
+    },
+    {
+      "company": "NetScale",
+      "title": "VP of Software Engineering",
+      "location": "Boston, MA",
+      "url": "https://www.linkedin.com/jobs/view/4400000007/",
+      "date_posted": "2026-08-11",
+      "salary": "",
+      "ats": "LinkedIn",
+      "description": "",
+      "first_seen": "2026-08-11T10:00:00Z",
+      "feasible": true,
+      "feasibility": "yes"
+    },
+    {
+      "company": "SalesForce",
+      "title": "Director of Sales",
+      "location": "Chicago, IL",
+      "url": "https://www.linkedin.com/jobs/view/4400000008/",
+      "date_posted": "2026-08-11",
+      "salary": "",
+      "ats": "LinkedIn",
+      "description": "Lead the sales team for the Midwest region.",
+      "first_seen": "2026-08-11T16:00:00Z",
+      "feasible": false,
+      "feasibility": "no"
+    },
+    {
+      "company": "HardwareCo",
+      "title": "Director of Hardware Engineering",
+      "location": "Portland, OR",
+      "url": "https://www.linkedin.com/jobs/view/4400000009/",
+      "date_posted": "2026-08-10",
+      "salary": "",
+      "ats": "LinkedIn",
+      "description": "Design and build hardware products.",
+      "first_seen": "2026-08-10T09:00:00Z",
+      "feasible": false,
+      "feasibility": "no"
+    },
+    {
+      "company": "UnknownCo",
+      "title": "Engineering Manager",
+      "location": "Atlanta, GA",
+      "url": "https://www.linkedin.com/jobs/view/4400000010/",
+      "date_posted": "2026-08-10",
+      "salary": "",
+      "ats": "LinkedIn",
+      "description": "",
+      "first_seen": "2026-08-10T11:00:00Z"
+    }
+  ]
+}
