@@ -12,7 +12,7 @@ GitHub Actions pipelines that scrape job boards (LinkedIn, Indeed, Glassdoor, Zi
 # Contributions welcome!
 Found an issue? Please [Open a New Issue](issues/new). The community will do our best to address it!
 
-[Pull requests](./pulls) are highly welcome and encouraged! Much thanks to @Sahil Talwar for making the first improvement through this approach!!
+[Pull requests](./pulls) are highly welcome and encouraged! Much thanks to [Sahil Talwar](https://github.com/sahiltalwar88) for making the first improvement through this approach!!
 
 # Set up your own (full walkthrough) 🚀
 
