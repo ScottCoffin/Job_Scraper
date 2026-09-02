@@ -1,0 +1,36 @@
+{
+  "partition_key": "head_of_engineering_senior_engineering_manager__New_York",
+  "terms": ["Head of Engineering", "Senior Engineering Manager"],
+  "location": "New York, United States",
+  "raw_cards": 990,
+  "hit_cap": true,
+  "jobs": [
+    {
+      "company": "NYC Tech",
+      "title": "Head of Engineering",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/4400000018/",
+      "date_posted": "2026-08-13",
+      "salary": "",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "BrooklynSoft",
+      "title": "Senior Engineering Manager",
+      "location": "Brooklyn, NY",
+      "url": "https://www.linkedin.com/jobs/view/4400000019/",
+      "date_posted": "2026-08-12",
+      "salary": "",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "ManhattanData",
+      "title": "Director of Engineering",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/4400000002/",
+      "date_posted": "2026-08-14",
+      "salary": "",
+      "ats": "LinkedIn"
+    }
+  ]
+}

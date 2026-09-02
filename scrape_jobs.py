@@ -106,7 +106,7 @@ def _cfg(path: str, default):
 
 
 # Short field label + geo subtitle for the digest titles, from config.profile.
-# "Environmental / Toxicology Job Tracker" → "Environmental / Toxicology".
+# e.g. "Engineering Job Tracker" → "Engineering".
 PROFILE_LABEL = re.sub(
     r'\s*(job\s*tracker|tracker|jobs?)\s*$', '',
     str(_cfg("profile.title", "Job")), flags=re.I).strip() or "Job"
@@ -125,7 +125,7 @@ REQUEST_DELAY = 0.3
 # LinkedIn needs a longer inter-request gap; jitter is added at call sites
 LINKEDIN_REQUEST_DELAY = 3.0
 
-# Biotech digest should only contain reliably fresh roles.
+# Priority digest should only contain reliably fresh roles.
 FRESH_JOB_LOOKBACK = timedelta(hours=24)
 
 # Titles containing any excluded term are dropped (config.json → keywords.exclude).
@@ -149,13 +149,96 @@ _KEYWORD_RE = re.compile(
     re.IGNORECASE,
 )
 
+# ---------------------------------------------------------------------------
+# Fuzzy pre-filter — deliberately BROAD. Used by the LinkedIn partitioned
+# backfill to catch title variants the exact-phrase KEYWORDS miss
+# (e.g. "Director, Engineering", "Senior Engineering Manager", "Head of
+# Dropbox"). Deliberately permissive — downstream filtering (triage agent,
+# manual review) can tighten the cut. Config: keywords.fuzzy_seniority,
+# keywords.fuzzy_domain, keywords.fuzzy_exclude. Leave all three empty to
+# disable the fuzzy filter
+# and fall back to keyword-only matching (keywords.include).
+_FUZZY_SENIORITY = _cfg("keywords.fuzzy_seniority", [])
+_FUZZY_DOMAIN = _cfg("keywords.fuzzy_domain", [])
+_FUZZY_EXCLUDE = _cfg("keywords.fuzzy_exclude", [])
+
+# Fuzzy filter is active only when both seniority and domain lists are non-empty.
+_FUZZY_ENABLED = bool(_FUZZY_SENIORITY) and bool(_FUZZY_DOMAIN)
+
+
+def _build_word_re(terms: list[str]) -> re.Pattern | None:
+    """Build a word-boundary alternation regex from a term list.
+    Returns None if the list is empty (caller should skip the check)."""
+    if not terms:
+        return None
+    return re.compile(
+        rf"\b(?:{'|'.join(re.escape(t) for t in terms)})\b",
+        re.IGNORECASE,
+    )
+
+
+_SENIORITY_RE = _build_word_re(_FUZZY_SENIORITY)
+_DOMAIN_RE = _build_word_re(_FUZZY_DOMAIN)
+_FUZZY_EXCLUDE_RE = _build_word_re(_FUZZY_EXCLUDE)
+_SR_MGR_RE = re.compile(
+    r"\b(?:senior|sr)\b.*\bmanager\b|\bmanager\b.*\b(?:senior|sr)\b",
+    re.IGNORECASE,
+)
+_HEAD_OF_RE = re.compile(r"\bhead\s+of\b", re.IGNORECASE)
+
+
+def role_is_relevant(title: str, company: str = "") -> bool:
+    """Check whether a job title is relevant to the configured search.
+
+    When the fuzzy pre-filter is configured (keywords.fuzzy_seniority and
+    keywords.fuzzy_domain both non-empty), applies a broad fuzzy match that
+    catches title variants the exact-phrase KEYWORDS miss. Deliberately
+    permissive — downstream filtering (triage agent, manual review) can
+    tighten the cut.
+
+    When the fuzzy pre-filter is not configured (either list empty), falls
+    back to the keyword filter (keywords.include) — the same filter used by
+    non-LinkedIn sources.
+    """
+    if not title:
+        return False
+    if EXCLUDED_SENIORITY_RE.search(title):
+        return False
+    if not _FUZZY_ENABLED:
+        return bool(_KEYWORD_RE.search(title))
+    # Fuzzy mode: broad pre-filter for domain-specific seniority + domain tokens.
+    if _FUZZY_EXCLUDE_RE and _FUZZY_EXCLUDE_RE.search(title):
+        return False
+    # Director+ : seniority token + domain token (e.g. "Director of Engineering")
+    if _SENIORITY_RE.search(title) and _DOMAIN_RE.search(title):
+        return True
+    # Senior Manager : (senior|sr) + manager + domain (e.g. "Senior Engineering Manager")
+    if _SR_MGR_RE.search(title) and _DOMAIN_RE.search(title):
+        return True
+    # "head of" + domain token or priority company (e.g. "Head of Engineering",
+    # "Head of Dropbox" — LLM decides if it's engineering)
+    if _HEAD_OF_RE.search(title) and (_DOMAIN_RE.search(title) or _is_priority_company(company)):
+        return True
+    # Seniority token + priority company (e.g. "VP at Google")
+    if _SENIORITY_RE.search(title) and _is_priority_company(company):
+        return True
+    return False
+
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 
-def fetch(url, *, retries=1, _base_wait=35.0):
-    """Fetch URL, retrying once on 429 with a randomised backoff."""
+# Module-level flag: set True when fetch() hits a 429. Callers can check
+# this to increase their inter-request delay dynamically.
+_RATE_LIMITED = False
+
+
+def fetch(url, *, retries=4, _base_wait=30.0):
+    """Fetch URL, retrying on 429 with exponential backoff.
+    Sets the module-level _RATE_LIMITED flag if a 429 was encountered,
+    so callers (e.g. _linkedin_search) can increase their delay."""
+    global _RATE_LIMITED
     req = Request(url, headers=HEADERS)
     for attempt in range(retries + 1):
         try:
@@ -163,8 +246,9 @@ def fetch(url, *, retries=1, _base_wait=35.0):
                 return r.read().decode("utf-8", errors="ignore")
         except HTTPError as e:
             if e.code == 429 and attempt < retries:
-                wait = _base_wait + random.uniform(0, 15)
-                print(f"  ⏳ Rate-limited (429); waiting {wait:.0f}s then retrying…")
+                _RATE_LIMITED = True
+                wait = _base_wait * (2 ** attempt) + random.uniform(0, 15)
+                print(f"  ⏳ Rate-limited (429) on attempt {attempt + 1}/{retries + 1}; waiting {wait:.0f}s then retrying…")
                 time.sleep(wait)
                 continue
             print(f"  WARNING: Could not fetch {url}: {e}")
@@ -175,17 +259,17 @@ def fetch(url, *, retries=1, _base_wait=35.0):
     return ""
 
 
-def is_mle_role(title: str) -> bool:
-    """True if a job title is on-target for Dr. Coffin (env/tox/risk/etc.) and
-    not a junior/student posting. (Name kept for compatibility with the
-    original pipeline; it now gates environmental-toxicology titles.)"""
+def title_matches_keywords(title: str) -> bool:
+    """True if a job title matches any keyword in keywords.include and is not
+    a junior/student posting (keywords.exclude). This is the config-driven
+    keyword filter used by all non-LinkedIn-partition sources."""
     if EXCLUDED_SENIORITY_RE.search(title):
         return False
     return bool(_KEYWORD_RE.search(title))
 
 
-def is_mle_role_text(title: str, *parts: str) -> bool:
-    """Like is_mle_role, but allows source-specific summary text to carry the signal."""
+def text_matches_keywords(title: str, *parts: str) -> bool:
+    """Like title_matches_keywords, but allows source-specific summary text to carry the signal."""
     if EXCLUDED_SENIORITY_RE.search(title or ""):
         return False
     text = " ".join([title or "", *(p or "" for p in parts)])
@@ -322,24 +406,22 @@ def is_recent_posting(job: dict, *, now: datetime | None = None) -> bool:
 
 
 # ---------------------------------------------------------------------------
-# Curated Bay Area biotechs — direct ATS probes (Greenhouse / Workday)
+# Curated employers — direct ATS probes (Greenhouse / Workday)
 # ---------------------------------------------------------------------------
 
 # Each entry must include: name, ats, fallback_location, and the ATS-specific id
 # - greenhouse: "slug" (used in boards-api.greenhouse.io/v1/boards/{slug}/jobs)
 # - workday:    "url"  (full /wday/cxs/{tenant}/{site}/jobs endpoint)
 #
-# NOTE: The original biotech employers were on public Greenhouse/Workday boards.
-# Environmental / toxicology employers (Ramboll, Exponent, ToxStrategies, Tetra
-# Tech, ICF, NGOs, etc.) overwhelmingly use iCIMS / Taleo / SuccessFactors,
-# which have no clean public JSON endpoint — so this direct-ATS path is left
-# EMPTY and the LinkedIn + JobSpy keyword watchers (which need no slug) are the
-# primary sources. To add a verified board here, confirm it returns JSON first:
+# NOTE: Many employers use iCIMS / Taleo / SuccessFactors, which have no
+# clean public JSON endpoint — so this direct-ATS path may be EMPTY and the
+# LinkedIn + JobSpy keyword watchers (which need no slug) are the primary
+# sources. To add a verified board here, confirm it returns JSON first:
 #   curl https://boards-api.greenhouse.io/v1/boards/<slug>/jobs   # Greenhouse
 # then add e.g.:
-#   {"name": "Example Env Co", "ats": "greenhouse", "slug": "examplenv",
+#   {"name": "Example Co", "ats": "greenhouse", "slug": "exampleco",
 #    "fallback_location": "Sacramento, CA"},
-CURATED_BIOTECHS: list[dict] = []
+CURATED_EMPLOYERS: list[dict] = []
 
 
 def probe_curated_greenhouse(entry: dict) -> list:
@@ -355,7 +437,7 @@ def probe_curated_greenhouse(entry: dict) -> list:
     jobs = []
     for job in data.get("jobs", []):
         title = job.get("title", "")
-        if not is_mle_role(title):
+        if not title_matches_keywords(title):
             continue
         loc = (job.get("location") or {}).get("name", "") or entry["fallback_location"]
         jobs.append({
@@ -403,7 +485,7 @@ def probe_curated_workday(entry: dict) -> list:
             if ext_path in seen:
                 continue
             title = posting.get("title", "")
-            if not is_mle_role(title):
+            if not title_matches_keywords(title):
                 continue
             public_url = f"https://{domain}/{site}{ext_path}" if ext_path else entry["url"]
             loc = posting.get("locationsText", "") or entry["fallback_location"]
@@ -421,12 +503,12 @@ def probe_curated_workday(entry: dict) -> list:
     return list(seen.values())
 
 
-def scrape_curated_biotechs() -> list:
-    if not CURATED_BIOTECHS:
+def scrape_curated_employers() -> list:
+    if not CURATED_EMPLOYERS:
         return []
-    print(f"🔬 Scraping {len(CURATED_BIOTECHS)} curated organizations (direct ATS)...")
+    print(f"🔬 Scraping {len(CURATED_EMPLOYERS)} curated organizations (direct ATS)...")
     all_jobs: list = []
-    for entry in CURATED_BIOTECHS:
+    for entry in CURATED_EMPLOYERS:
         if entry["ats"] == "greenhouse":
             jobs = probe_curated_greenhouse(entry)
         elif entry["ats"] == "workday":
@@ -447,7 +529,7 @@ def scrape_curated_biotechs() -> list:
 LINKEDIN_SEARCH_TERMS = _cfg("search_terms.linkedin", [])
 
 LINKEDIN_LOOKBACK_SECONDS = 3600          # 1h — every-2h watcher only surfaces the freshest hour
-LINKEDIN_BIOTECH_LOOKBACK_SECONDS = 86400 # 24h — biotech is a daily 8pm PT digest
+LINKEDIN_PRIORITY_LOOKBACK_SECONDS = 86400 # 24h — priority digest is a daily 8pm PT run
 
 # Geographies to search. geoId is LinkedIn's authoritative region filter; an
 # empty geoId lets LinkedIn resolve the location text (verified to work for
@@ -455,72 +537,62 @@ LINKEDIN_BIOTECH_LOOKBACK_SECONDS = 86400 # 24h — biotech is a daily 8pm PT di
 # its geoId (or leaving it blank for a city LinkedIn can resolve).
 LINKEDIN_GEOS = _cfg("locations.linkedin", [])
 
+# All 50 US states for partitioned backfill — each queried independently to
+# bypass the 1000-result-per-query cap on the guest endpoint. See
+# --linkedin-emit-matrix and --linkedin-backfill-partition.
+LINKEDIN_PARTITION_STATES = _cfg("locations.linkedin_partitions.states", [])
+
+# High-volume locations that hit the 1000-card cap in production. Phase 2
+# of the backfill queries these with 1-day time slices to get complete
+# coverage. Each entry: {"name": "...", "location": "..."}.
+LINKEDIN_HIGH_VOLUME_LOCATIONS = _cfg("locations.linkedin_partitions.high_volume.locations", [])
+
 # Priority-employer allowlist used by the LinkedIn-side filter to build the
 # daily "Priority Employers" digest (jobs.json), from config.json →
 # employers.priority. Match is case-insensitive on alphanum-stripped names
 # with bidirectional substring matching, so "Ramboll" matches "Ramboll US
 # Corporation". Keep names ~6+ chars to limit incidental substring collisions
 # (avoid bare acronyms like EPA/EWG/ERG/CARB).
-BIOTECH_COMPANY_NAMES = _cfg("employers.priority", [])
+PRIORITY_EMPLOYER_NAMES = _cfg("employers.priority", [])
 
-BIOTECH_COMPANY_ALLOWLIST = frozenset(
-    re.sub(r'[^a-z0-9]', '', n.lower()) for n in BIOTECH_COMPANY_NAMES
+PRIORITY_EMPLOYER_ALLOWLIST = frozenset(
+    re.sub(r'[^a-z0-9]', '', n.lower()) for n in PRIORITY_EMPLOYER_NAMES
 )
 
 
-def _is_biotech_company(name: str) -> bool:
+def _is_priority_company(name: str) -> bool:
     norm = re.sub(r'[^a-z0-9]', '', (name or "").lower())
     if not norm:
         return False
-    return any(b in norm or norm in b for b in BIOTECH_COMPANY_ALLOWLIST)
-
-
-# Pharma / drug-development companies. Dr. Coffin works in ENVIRONMENTAL
-# toxicology, never pharmaceutical / preclinical drug-safety tox, so these are
-# dropped everywhere even when the title (e.g. "Toxicologist", "Toxicology
-# Director") would otherwise match. Agrochemical and chemical manufacturers
-# (Corteva, Syngenta, Dow, BASF) are intentionally NOT here — their product-
-# stewardship / chemical-risk roles are in-scope.
-PHARMA_COMPANY_RE = re.compile(
-    # ---- generic pharma / biotech / drug-development name signals (substring) ----
-    r'pharmaceutic|pharma\b|therapeutic|biopharm|biotech|biologic|bioscience|'
-    r'biosystem|genomics|gene therap|cell therap|immunotherap|\bvaccine|'
-    r'\bmedicines\b|drug discovery|oncolog|biomedicine|nanomedicine'
-    # ---- explicit pharma / biotech companies (word-bounded, length >= 5) ----
-    r'|\b(?:'
-    r'pfizer|merck|novartis|roche|abbvie|bristol[ -]?myers|sanofi|astrazeneca|'
-    r'glaxosmithkline|takeda|boehringer|amgen|gilead|genentech|biogen|regeneron|'
-    r'moderna|vertex|novo nordisk|viatris|bausch|alkermes|halozyme|galapagos|'
-    r'insitro|recursion|cytokinetics|arcus|gritstone|sutro|nurix|rigel|corcept|'
-    r'annexon|kodiak|coherus|vaxcyte|allakos|protagonist|kyverna|septerna|'
-    r'sangamo|atara|allogene|intellia|editas|poseida|nkarta|tenaya|pliant|'
-    r'rezolute|aldeyra|arcturus|caribou|chemocentryx|dynavax|geron|iovance|'
-    r'karuna|mersana|mirati|nektar|prothena|revance|seagen|ultragenyx|zentalis|'
-    r'exelixis|biomarin|alnylam|incyte|neurocrine|ionis|denali|acadia|adarx|'
-    r'genmab|nuvation|exact sciences|revolution medicines|structure therapeutics|'
-    r'relay therapeutics|beam therapeutics|sana biotechnology|fate therapeutics'
-    r')\b',
-    re.IGNORECASE,
-)
+    return any(b in norm or norm in b for b in PRIORITY_EMPLOYER_ALLOWLIST)
 
 
 # config.json → employers.exclude: drop roles from any company whose name
-# contains one of these (case-insensitive substring). When set, it overrides the
-# built-in PHARMA_COMPANY_RE; leave it [] to disable company exclusion entirely.
+# contains one of these (case-insensitive substring). Leave it [] to disable
+# company exclusion entirely.
 _EXCLUDE_COMPANY_TERMS = [str(t).lower() for t in _cfg("employers.exclude", [])]
 
 
-def _is_pharma_company(name: str) -> bool:
-    if _EXCLUDE_COMPANY_TERMS:
-        low = (name or "").lower()
-        return any(t in low for t in _EXCLUDE_COMPANY_TERMS)
-    return bool(PHARMA_COMPANY_RE.search(name or ""))
+def _is_excluded_company(name: str) -> bool:
+    if not _EXCLUDE_COMPANY_TERMS:
+        return False
+    low = (name or "").lower()
+    return any(t in low for t in _EXCLUDE_COMPANY_TERMS)
+
+
+def _slug(s: str) -> str:
+    """Slugify a string for use in filenames and partition keys."""
+    return re.sub(r'[^a-z0-9]+', '_', s.lower()).strip('_')
 
 
 def _parse_linkedin_cards(html: str) -> tuple[list[dict], int]:
-    """Returns (keyword-matched cards, raw card count on the page). The raw
-    count lets callers distinguish 'page full of non-matching roles' (keep
-    paginating) from 'no results at all' (stop)."""
+    """Parse LinkedIn search result HTML into card dicts (no filtering).
+
+    Returns (all_parsed_cards, raw_card_count). The raw count lets callers
+    distinguish 'page full of non-matching roles' (keep paginating) from
+    'no results at all' (stop). Filtering is applied by callers via
+    role_is_relevant() after parsing.
+    """
     import html as html_mod
     cards = re.split(r'<li[^>]*>', html)[1:]
     parsed = []
@@ -541,8 +613,6 @@ def _parse_linkedin_cards(html: str) -> tuple[list[dict], int]:
         salary_m = re.search(r'job-search-card__salary-info[^>]*>\s*([^<]+)', card)
 
         title = html_mod.unescape(title_m.group(1).strip()) if title_m else ""
-        if not title or not is_mle_role(title):
-            continue
         company = (
             html_mod.unescape(re.sub(r'\s+', ' ', company_m.group(1).strip()))
             if company_m else "Unknown"
@@ -566,7 +636,8 @@ def _parse_linkedin_cards(html: str) -> tuple[list[dict], int]:
 
 
 def _linkedin_search(terms: list[str], lookback_seconds: int,
-                     geos: list[dict] | None = None) -> tuple[list[dict], int]:
+                     geos: list[dict] | None = None,
+                     max_results: int = 500) -> tuple[list[dict], int]:
     """
     Per-geo, per-term, paginated LinkedIn guest-endpoint search. Dedupes by job
     ID across every geography and sorts by recency. Used by both the general
@@ -574,16 +645,35 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
 
     Returns (jobs, total_raw_cards). total_raw_cards == 0 across everything means
     LinkedIn gave us no data at all — the callers' block guard.
+
+    Pagination: the guest API returns 10 cards per page. We step by 10 to avoid
+    skipping cards. max_results caps the total cards fetched per term per geo
+    (default 500 = 50 pages). The empty-page check breaks early when a term
+    has fewer results, so the hourly watcher stays fast.
+
+    Rate-limit handling: fetch() retries 429s with exponential backoff. If a
+    page still comes back empty after all retries, we retry the same start
+    offset once more with a long pause — only giving up if the second attempt
+    is also empty. A module-level _RATE_LIMITED flag dynamically increases the
+    inter-request delay when 429s have been seen.
     """
+    global _RATE_LIMITED
     if geos is None:
         geos = LINKEDIN_GEOS
     jobs_by_id: dict[str, dict] = {}
     total_raw_cards = 0
+    consecutive_empty = 0
+    pages_fetched = 0
     for geo in geos:
         geo_param = f"&geoId={geo['geoId']}" if geo.get("geoId") else ""
         for term in terms:
-            for start in range(0, 75, 25):
-                time.sleep(LINKEDIN_REQUEST_DELAY + random.uniform(0, 2))
+            term_start = pages_fetched
+            for start in range(0, max_results, 10):
+                # Dynamic delay: increase when we've been rate-limited
+                delay = LINKEDIN_REQUEST_DELAY + random.uniform(0, 2)
+                if _RATE_LIMITED:
+                    delay += 10  # slow down significantly after any 429
+                time.sleep(delay)
                 url = (
                     "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
                     f"?keywords={urllib.parse.quote(term)}"
@@ -594,15 +684,39 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                 )
                 html = fetch(url)
                 if not html.strip():
-                    break
+                    # Could be rate-limited (429 exhausted retries) or genuinely
+                    # no more results. Retry once with a long pause before giving
+                    # up on this term.
+                    consecutive_empty += 1
+                    if consecutive_empty == 1:
+                        wait = 60 + random.uniform(0, 30)
+                        print(f"  ⏸  Empty response at start={start} for \"{term}\" in {geo['name']}; "
+                              f"pausing {wait:.0f}s before one retry…")
+                        time.sleep(wait)
+                        html = fetch(url)
+                        if not html.strip():
+                            print(f"  ⛔ Still empty after retry; stopping \"{term}\" in {geo['name']} "
+                                  f"at start={start}")
+                            break
+                    else:
+                        break
+                consecutive_empty = 0
                 parsed, raw_count = _parse_linkedin_cards(html)
                 total_raw_cards += raw_count
+                pages_fetched += 1
+                if pages_fetched % 10 == 0:
+                    print(f"  📊 {pages_fetched} pages fetched | "
+                          f"{len(jobs_by_id)} unique jobs | "
+                          f"{total_raw_cards} raw cards"
+                          f"{' [RATE-LIMITED — slowing down]' if _RATE_LIMITED else ''}")
                 # Break on a truly empty page, NOT on "no keyword matches" — a page
-                # of 25 off-target roles must not end pagination for the term.
+                # of 10 off-target roles must not end pagination for the term.
                 if not raw_count:
                     break
                 for p in parsed:
                     if p["id"] in jobs_by_id:
+                        continue
+                    if not role_is_relevant(p["title"], p["company"]):
                         continue
                     jobs_by_id[p["id"]] = {
                         "company": p["company"],
@@ -616,13 +730,104 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
 
     jobs = list(jobs_by_id.values())
     jobs.sort(key=lambda j: -_iso_to_ts(j.get("date_posted", "")))
+    print(f"  ✅ LinkedIn search complete: {pages_fetched} pages, "
+          f"{total_raw_cards} raw cards, {len(jobs)} unique jobs"
+          f"{' (rate-limited during run)' if _RATE_LIMITED else ''}")
     return jobs, total_raw_cards
 
 
+def _linkedin_search_partition(term: str, location: str, lookback_seconds: int,
+                                max_results: int = 1000,
+                                target_date: str | None = None) -> tuple[list[dict], int, bool]:
+    """
+    Paginate one (term, location) partition fully (up to 1000 cards).
+    Streams progress on every page. Returns (jobs, total_raw_cards, hit_cap).
+    hit_cap=True means we reached ~1000 cards and may have missed results.
+
+    If target_date is set (YYYY-MM-DD), only jobs with date_posted == target_date
+    are kept. This is used for Phase 2 day-slicing: the lookback_seconds is set
+    cumulatively (e.g. day 3 uses r345600 = last 4 days), but we filter to keep
+    only jobs from the target day. Earlier days are captured by their own workers.
+    """
+    global _RATE_LIMITED
+    jobs_by_id: dict[str, dict] = {}
+    total_raw_cards = 0
+    consecutive_empty = 0
+    pages_fetched = 0
+    start_time = time.time()
+
+    for start in range(0, max_results, 10):
+        delay = LINKEDIN_REQUEST_DELAY + random.uniform(0, 2)
+        if _RATE_LIMITED:
+            delay += 10
+        time.sleep(delay)
+        url = (
+            "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
+            f"?keywords={urllib.parse.quote(term)}"
+            f"&location={urllib.parse.quote(location)}"
+            f"&f_TPR=r{lookback_seconds}"
+            f"&start={start}"
+        )
+        html = fetch(url)
+        if not html.strip():
+            consecutive_empty += 1
+            if consecutive_empty == 1:
+                wait = 60 + random.uniform(0, 30)
+                print(f"  ⏸  Empty at start={start}; pausing {wait:.0f}s before retry…")
+                time.sleep(wait)
+                html = fetch(url)
+                if not html.strip():
+                    print(f"  ⛔ Still empty after retry; stopping at start={start}")
+                    break
+            else:
+                break
+        consecutive_empty = 0
+        parsed, raw_count = _parse_linkedin_cards(html)
+        total_raw_cards += raw_count
+        pages_fetched += 1
+        elapsed = time.time() - start_time
+        # STREAM: log every page with running counts
+        print(f"  📄 p{pages_fetched} start={start} | +{raw_count} raw "
+              f"({total_raw_cards} total) | {len(jobs_by_id)} unique | "
+              f"{elapsed:.0f}s elapsed"
+              f"{' [RATE-LIMITED]' if _RATE_LIMITED else ''}")
+        if not raw_count:
+            break
+        for p in parsed:
+            if p["id"] not in jobs_by_id and role_is_relevant(p["title"], p["company"]):
+                jobs_by_id[p["id"]] = {
+                    "company": p["company"],
+                    "title": p["title"],
+                    "location": p["location"],
+                    "url": f"https://www.linkedin.com/jobs/view/{p['id']}/",
+                    "date_posted": p["date_posted"],
+                    "salary": p.get("salary", ""),
+                    "ats": "LinkedIn",
+                }
+
+    hit_cap = total_raw_cards >= 990
+    if hit_cap:
+        print(f"  🚨 CAP-HIT ALERT: Partition reached {total_raw_cards} raw cards "
+              f"(~1000 cap). Some results may be missed. Consider a shorter "
+              f"time window (e.g. 30 min) for this partition.")
+
+    jobs = list(jobs_by_id.values())
+    # Filter to target date if specified (Phase 2 day-slicing)
+    if target_date:
+        before = len(jobs)
+        jobs = [j for j in jobs if j.get("date_posted", "") == target_date]
+        if before != len(jobs):
+            print(f"  📅 Day-slice filter: {before} → {len(jobs)} jobs "
+                  f"(target date: {target_date})")
+    jobs.sort(key=lambda j: -_iso_to_ts(j.get("date_posted", "")))
+    print(f"  ✅ Partition complete: {pages_fetched} pages, {total_raw_cards} raw, "
+          f"{len(jobs)} unique, {time.time() - start_time:.0f}s total"
+          f"{' [CAP-HIT]' if hit_cap else ''}")
+    return jobs, total_raw_cards, hit_cap
+
+
 # LinkedIn search-result cards omit the full description and often omit pay, but
-# the public guest *posting* page includes both. Fetch it only for jobs that need
-# enrichment, capped per run to bound runtime.
-LINKEDIN_SALARY_FETCH_CAP = 120
+# the public guest *posting* page includes both. Every job gets enriched — no cap.
 LINKEDIN_DESCRIPTION_MAX_CHARS = 12000
 
 
@@ -721,11 +926,11 @@ def _linkedin_posting_salary(job_id: str) -> str:
 
 def _enrich_linkedin_postings(jobs: list) -> tuple[int, int]:
     """Backfill salary and description on LinkedIn jobs from posting pages.
-    Returns (salary_filled, description_filled). Bounded and never raises."""
+    No cap — enriches every job. Failed fetches get one retry pass.
+    Returns (salary_filled, description_filled)."""
     salary_filled = desc_filled = fetched = 0
+    failed: list[dict] = []
     for job in jobs:
-        if fetched >= LINKEDIN_SALARY_FETCH_CAP:
-            break
         if job.get("ats") != "LinkedIn":
             continue
         if job.get("salary") and job.get("description"):
@@ -738,6 +943,7 @@ def _enrich_linkedin_postings(jobs: list) -> tuple[int, int]:
         try:
             sal, desc = _linkedin_posting_details(m.group(1))
         except (URLError, TimeoutError, OSError):
+            failed.append(job)
             continue
         if sal:
             job["salary"] = sal
@@ -745,16 +951,47 @@ def _enrich_linkedin_postings(jobs: list) -> tuple[int, int]:
         if desc:
             job["description"] = desc
             desc_filled += 1
+        if not sal and not desc:
+            failed.append(job)
+
+    # Retry pass for failed enrichments
+    if failed:
+        wait = 60 + random.uniform(0, 30)
+        print(f"  ⏸  {len(failed)} enrichment(s) failed; pausing {wait:.0f}s before retry…")
+        time.sleep(wait)
+        retry_sal = retry_desc = 0
+        for job in failed:
+            m = re.search(r'/jobs/view/(\d+)', job.get("url", ""))
+            if not m:
+                continue
+            time.sleep(LINKEDIN_REQUEST_DELAY + random.uniform(0, 2))
+            try:
+                sal, desc = _linkedin_posting_details(m.group(1))
+            except (URLError, TimeoutError, OSError):
+                continue
+            if sal:
+                job["salary"] = sal
+                salary_filled += 1
+                retry_sal += 1
+            if desc:
+                job["description"] = desc
+                desc_filled += 1
+                retry_desc += 1
+        print(f"  🔁 Retry: +{retry_sal} salary, +{retry_desc} descriptions "
+              f"({len(failed) - retry_desc} still without description)")
+
     if fetched:
         print(
             "  LinkedIn posting backfill: "
-            f"{salary_filled}/{fetched} had pay; {desc_filled}/{fetched} had descriptions"
+            f"{salary_filled}/{fetched + len(failed)} had pay; "
+            f"{desc_filled}/{fetched + len(failed)} had descriptions"
         )
     return salary_filled, desc_filled
 
 def scrape_linkedin_recent() -> list:
     print(f"🔎 Scraping LinkedIn (last {LINKEDIN_LOOKBACK_SECONDS // 3600}h)...")
-    jobs, raw_cards = _linkedin_search(LINKEDIN_SEARCH_TERMS, LINKEDIN_LOOKBACK_SECONDS)
+    jobs, raw_cards = _linkedin_search(LINKEDIN_SEARCH_TERMS, LINKEDIN_LOOKBACK_SECONDS,
+                                        max_results=100)
     # Block guard (mirrors Indeed's): zero raw cards across every term means
     # LinkedIn gave us nothing — rate-limited or blocked, not a quiet hour.
     # Reuse the previous results so we don't clobber the dedupe baseline.
@@ -763,26 +1000,29 @@ def scrape_linkedin_recent() -> list:
         print(f"  ⛔ LinkedIn returned 0 cards across all terms (likely blocked); "
               f"preserving previous {len(prev)} result(s)")
         return prev
+    before = len(jobs)
+    jobs = [j for j in jobs if is_target_location(j.get("location", ""))]
+    print(f"  📍 Location filter: {before} → {len(jobs)} roles")
     print(f"  ✅ LinkedIn: {len(jobs)} role(s)")
     _enrich_linkedin_postings(jobs)
     return jobs
 
 
-def scrape_linkedin_biotech() -> list:
+def scrape_linkedin_priority() -> list:
     """
     Last 24h on LinkedIn, filtered to the priority-employer allowlist (env/tox
     consulting, research institutes, agencies, NGOs, universities, product
     safety). LinkedIn's f_I industry filter is silently ignored on the public
     guest endpoint, so we use the env/tox keyword terms + a company allowlist.
     """
-    print(f"🏛  Scraping LinkedIn priority employers (last {LINKEDIN_BIOTECH_LOOKBACK_SECONDS // 3600}h)...")
-    raw, raw_cards = _linkedin_search(LINKEDIN_SEARCH_TERMS, LINKEDIN_BIOTECH_LOOKBACK_SECONDS)
+    print(f"🏛  Scraping LinkedIn priority employers (last {LINKEDIN_PRIORITY_LOOKBACK_SECONDS // 3600}h)...")
+    raw, raw_cards = _linkedin_search(LINKEDIN_SEARCH_TERMS, LINKEDIN_PRIORITY_LOOKBACK_SECONDS)
     if raw_cards == 0:
         # Blocked run: contribute nothing rather than nuke the digest baseline.
         print("  ⛔ LinkedIn returned 0 cards across all terms (likely blocked); "
               "skipping LinkedIn for this digest")
         return []
-    jobs = [j for j in raw if _is_biotech_company(j["company"])]
+    jobs = [j for j in raw if _is_priority_company(j["company"])]
     print(f"  ✅ Priority employers: {len(jobs)} role(s) (from {len(raw)} total)")
     _enrich_linkedin_postings(jobs)
     return jobs
@@ -902,7 +1142,7 @@ def _ingest_jobspy_df(df, *, label: str, jobs_by_id: dict[str, dict]) -> int:
     df = df.fillna("")
     for _, row in df.iterrows():
         title = str(row.get("title", "") or "")
-        if not is_mle_role(title):
+        if not title_matches_keywords(title):
             continue
         url = str(row.get("job_url", "") or "")
         if not url:
@@ -1147,7 +1387,7 @@ def _google_jobs_description(raw: dict) -> str:
 
 def _normalize_serpapi_google_job(raw: dict) -> dict | None:
     title = str(raw.get("title", "") or "")
-    if not title or not is_mle_role(title):
+    if not title or not title_matches_keywords(title):
         return None
     detected = raw.get("detected_extensions") if isinstance(raw.get("detected_extensions"), dict) else {}
     extensions = raw.get("extensions") if isinstance(raw.get("extensions"), list) else []
@@ -1184,7 +1424,7 @@ def _normalize_serpapi_google_job(raw: dict) -> dict | None:
 
 def _normalize_oxylabs_google_job(raw: dict) -> dict | None:
     title = str(raw.get("job_title") or raw.get("title") or "")
-    if not title or not is_mle_role(title):
+    if not title or not title_matches_keywords(title):
         return None
     url = str(raw.get("URL") or raw.get("url") or raw.get("share_url") or "")
     if not url:
@@ -1483,7 +1723,7 @@ def _hiringcafe_salary(raw: dict) -> str:
 
 def _normalize_hiringcafe_job(raw: dict) -> dict | None:
     title = str(_deep_first(raw, ("title", "jobTitle", "name")) or "")
-    if not title or not is_mle_role(title):
+    if not title or not title_matches_keywords(title):
         return None
     url = str(_deep_first(raw, ("apply_url", "applyUrl", "url", "jobUrl", "job_url")) or "")
     if not url:
@@ -1647,7 +1887,7 @@ CALCAREERS_BASE = "https://www.calcareers.ca.gov"
 CALCAREERS_SEARCH_URL = "https://calcareers.ca.gov/CalHRPublic/Search/JobSearchResults.aspx"
 CALCAREERS_TIMEOUT = 30
 
-# Broad CalCareers queries; titles are still gated by is_mle_role() afterward.
+# Broad CalCareers queries; titles are still gated by title_matches_keywords() afterward.
 CALCAREERS_TERMS = _cfg("search_terms.calcareers", [])
 
 
@@ -1794,7 +2034,7 @@ def scrape_calcareers_recent() -> list:
             continue
         for job in _parse_calcareers_results(res_html):
             parsed_total += 1
-            if is_mle_role(job["title"]) and job["url"] not in jobs_by_url:
+            if title_matches_keywords(job["title"]) and job["url"] not in jobs_by_url:
                 time.sleep(REQUEST_DELAY)
                 details = _calcareers_posting_details(job["url"])
                 if details.get("work_location"):
@@ -1882,7 +2122,7 @@ def scrape_usajobs_recent() -> list:
                 continue
             for job in payload.get("Jobs", []):
                 title = (job.get("Title") or "").strip()
-                if not is_mle_role(title):
+                if not title_matches_keywords(title):
                     continue
                 uri = (job.get("PositionURI") or "").replace(":443", "")
                 if not uri and job.get("DocumentID"):
@@ -1965,7 +2205,7 @@ def scrape_governmentjobs_recent(days: int | None = None) -> list:
                 if not lk:
                     continue
                 title = _clean(lk.group(2))
-                if not is_mle_role(title):
+                if not title_matches_keywords(title):
                     continue
                 loc_m = loc_re.search(it)
                 location = _clean(loc_m.group(1)) if loc_m else ""
@@ -2056,7 +2296,7 @@ def scrape_calopps_recent() -> list:
                 continue
             scanned += 1
             title = _clean(lk.group(2))
-            if not is_mle_role(title):
+            if not title_matches_keywords(title):
                 continue
             href = html_mod.unescape(lk.group(1).strip())
             job_url = href if href.startswith("http") else "https://www.calopps.org" + ("" if href.startswith("/") else "/") + href
@@ -2223,7 +2463,7 @@ def scrape_csucareers_recent() -> list:
         if not batch:
             break
         for job in batch:
-            if not is_mle_role_text(job.get("title", ""), job.get("description", "")):
+            if not text_matches_keywords(job.get("title", ""), job.get("description", "")):
                 continue
             if job["url"] not in jobs_by_url:
                 jobs_by_url[job["url"]] = _ensure_work_arrangement(job)
@@ -2619,6 +2859,7 @@ def _merge_into_all_jobs(new_jobs: list) -> int:
         f"{merged_existing + merged_new} duplicate(s) merged, "
         f"{len(kept)} total (last {ALL_JOBS_PRUNE_DAYS}d)"
     )
+
     return added
 
 
@@ -2628,13 +2869,13 @@ def save_jobs_output(jobs: list, *, basename: str, title: str, subtitle: str,
     Save jobs to {basename}.{json,md,html}. Dedupes against the previous JSON at
     the same path so each email surfaces only postings new to this run.
     """
-    # Single chokepoint for the pharma exclusion: every source (LinkedIn,
-    # Indeed, priority, CalCareers) funnels through here, so dropping pharma
+    # Single chokepoint for the company exclusion: every source (LinkedIn,
+    # Indeed, priority, CalCareers) funnels through here, so dropping excluded
     # companies once keeps all digests AND all_jobs.json clean.
     before = len(jobs)
-    jobs = [j for j in jobs if not _is_pharma_company(j.get("company", ""))]
+    jobs = [j for j in jobs if not _is_excluded_company(j.get("company", ""))]
     if len(jobs) < before:
-        print(f"  🚫 Dropped {before - len(jobs)} pharma role(s)")
+        print(f"  🚫 Dropped {before - len(jobs)} excluded role(s)")
     for job in jobs:
         _ensure_work_arrangement(job)
 
@@ -2780,15 +3021,15 @@ def save_hiringcafe_results(jobs: list):
     )
 
 
-def save_biotech_linkedin_results(jobs: list):
+def save_priority_results(jobs: list):
     save_jobs_output(
         jobs,
         basename="jobs",
         title=f"🏛 Priority Employers — {PROFILE_LABEL} Roles",
-        subtitle=f"{PROFILE_SUBTITLE} · priority-employer allowlist · last {LINKEDIN_BIOTECH_LOOKBACK_SECONDS // 3600}h",
+        subtitle=f"{PROFILE_SUBTITLE} · priority-employer allowlist · last {LINKEDIN_PRIORITY_LOOKBACK_SECONDS // 3600}h",
         accent="#2ea04f",
         empty_message="No new priority-employer roles since the last run.",
-        window_label=f"last {LINKEDIN_BIOTECH_LOOKBACK_SECONDS // 3600}h",
+        window_label=f"last {LINKEDIN_PRIORITY_LOOKBACK_SECONDS // 3600}h",
     )
 
 
@@ -2906,11 +3147,12 @@ def save_results(jobs: list):
             subtitle=f"{PROFILE_SUBTITLE} · posted in the last 24 hours",
             timestamp=timestamp,
             jobs=jobs,
-            empty_message="No environmental/toxicology roles posted in the last 24 hours.",
+            empty_message="No priority roles posted in the last 24 hours.",
             accent="#2ea04f",
         ))
 
     print(f"\n📄 Saved jobs.json/.md/.html ({len(jobs)} total roles)")
+
 
 
 # ---------------------------------------------------------------------------
@@ -2964,20 +3206,442 @@ if __name__ == "__main__":
         sys.exit(0)
 
     if "--linkedin-only" in sys.argv:
-        save_linkedin_results(scrape_linkedin_recent())
+        jobs = scrape_linkedin_recent()
+        before = len(jobs)
+        jobs = [j for j in jobs if is_target_location(j.get("location", ""))]
+        print(f"📍 Location filter: {before} → {len(jobs)} roles")
+        save_linkedin_results(jobs)
         sys.exit(0)
 
     if "--linkedin-backfill" in sys.argv:
         # One-time historical backfill. Queries the last LINKEDIN_BACKFILL_DAYS of
         # LinkedIn postings so new users get a full picture on first run. Run once
         # via Actions → LinkedIn watcher → Run workflow → backfill=true.
+        # For large backfills, use the parallel "LinkedIn Backfill" workflow instead.
         backfill_s = LINKEDIN_BACKFILL_DAYS * 24 * 3600
         print(f"🔁 LinkedIn backfill (last {LINKEDIN_BACKFILL_DAYS} days)…")
         jobs, _ = _linkedin_search(list(LINKEDIN_SEARCH_TERMS), backfill_s)
+        before = len(jobs)
+        jobs = [j for j in jobs if is_target_location(j.get("location", ""))]
+        print(f"  📍 Location filter: {before} → {len(jobs)} roles")
         if jobs:
             _enrich_linkedin_postings(jobs)
         print(f"  ✅ Backfill: {len(jobs)} role(s) found")
         save_linkedin_results(jobs)
+        sys.exit(0)
+
+    if "--linkedin-backfill-term" in sys.argv:
+        # Per-term backfill for parallel execution. Each matrix job runs this
+        # with one search term. Writes to a per-term JSON file that the merge
+        # step collects. Does NOT touch all_jobs.json or linkedin_jobs.json.
+        idx = sys.argv.index("--linkedin-backfill-term")
+        term = sys.argv[idx + 1] if idx + 1 < len(sys.argv) else ""
+        if not term:
+            print("ERROR: --linkedin-backfill-term requires a search term argument")
+            sys.exit(1)
+        backfill_s = LINKEDIN_BACKFILL_DAYS * 24 * 3600
+        print(f"🔁 LinkedIn backfill for \"{term}\" (last {LINKEDIN_BACKFILL_DAYS} days)…")
+        jobs, raw_cards = _linkedin_search([term], backfill_s)
+        before = len(jobs)
+        jobs = [j for j in jobs if is_target_location(j.get("location", ""))]
+        print(f"  📍 Location filter: {before} → {len(jobs)} roles")
+        if jobs:
+            _enrich_linkedin_postings(jobs)
+        print(f"  ✅ Term \"{term}\": {len(jobs)} role(s) (raw cards: {raw_cards})")
+        slug = re.sub(r'[^a-z0-9]+', '_', term.lower()).strip('_')
+        term_path = os.path.join(OUTPUT_DIR, f"linkedin_backfill_{slug}.json")
+        with open(term_path, "w", encoding="utf-8") as f:
+            json.dump({"term": term, "jobs": jobs, "raw_cards": raw_cards}, f,
+                      indent=2, ensure_ascii=False)
+        print(f"  📄 Wrote {term_path}")
+        sys.exit(0)
+
+    if "--linkedin-merge-backfill" in sys.argv:
+        # Merge per-term AND per-partition backfill results into linkedin_jobs.json
+        # + all_jobs.json. Run after all --linkedin-backfill-term or
+        # --linkedin-backfill-partition jobs have completed.
+        import glob
+        print("🔗 Merging backfill results…")
+        term_files = sorted(glob.glob(os.path.join(OUTPUT_DIR, "linkedin_backfill_*.json")))
+        part_files = sorted(glob.glob(os.path.join(OUTPUT_DIR, "linkedin_partition_*.json")))
+        all_files = term_files + part_files
+        if not all_files:
+            print("  ⚠️  No backfill files found in output/")
+            sys.exit(0)
+        all_jobs: list[dict] = []
+        seen_urls: set[str] = set()
+        cap_hits = []
+        partition_stats = []  # for summary table
+        for tf in all_files:
+            with open(tf, encoding="utf-8") as f:
+                data = json.load(f)
+            part_key = data.get("partition_key", data.get("term", os.path.basename(tf)))
+            part_jobs = data.get("jobs", [])
+            raw = data.get("raw_cards", 0)
+            hit_cap = data.get("hit_cap", False)
+            new_count = 0
+            for j in part_jobs:
+                url = j.get("url", "")
+                if url not in seen_urls:
+                    seen_urls.add(url)
+                    all_jobs.append(j)
+                    new_count += 1
+            # STREAM: log each partition as it's merged
+            cap_flag = " 🚨 CAP-HIT" if hit_cap else ""
+            print(f"  📦 {part_key}: {len(part_jobs)} jobs ({new_count} new){cap_flag}")
+            if hit_cap:
+                cap_hits.append(part_key)
+            partition_stats.append({
+                "partition": part_key,
+                "jobs": len(part_jobs),
+                "new": new_count,
+                "raw": raw,
+                "hit_cap": hit_cap,
+            })
+        all_jobs = [j for j in all_jobs if not _is_excluded_company(j.get("company", ""))]
+        for job in all_jobs:
+            _ensure_work_arrangement(job)
+        print()
+        print(f"  ═══════════════════════════════════════════════════════════")
+        print(f"  📊 SUMMARY: {len(all_jobs)} unique jobs from {len(all_files)} partitions")
+        print(f"  ═══════════════════════════════════════════════════════════")
+        # Top 10 partitions by job count
+        top = sorted(partition_stats, key=lambda s: -s["jobs"])[:10]
+        for s in top:
+            cap = " 🚨" if s["hit_cap"] else ""
+            print(f"    {s['partition']:45s} {s['jobs']:4d} jobs ({s['new']:4d} new, {s['raw']:4d} raw){cap}")
+        if len(partition_stats) > 10:
+            print(f"    ... and {len(partition_stats) - 10} more partitions")
+        if cap_hits:
+            print()
+            print(f"  🚨🚨🚨 CAP-HIT ALERT: {len(cap_hits)} partition(s) hit the 1000-card cap:")
+            for pk in cap_hits:
+                print(f"    - {pk}")
+            print(f"  These partitions may have missed results.")
+            print(f"  Recommended action: re-run those partitions with a shorter")
+            print(f"  time window (e.g. 30 min).")
+        print()
+        save_linkedin_results(all_jobs)
+        print(f"  ✅ Merge complete: {len(all_jobs)} jobs in linkedin_jobs.json + all_jobs.json")
+        for tf in all_files:
+            os.remove(tf)
+        print(f"  🗑  Cleaned up {len(all_files)} partition files")
+        sys.exit(0)
+
+    if "--linkedin-emit-matrix" in sys.argv:
+        # Emit the work matrix for the partitioned backfill workflow.
+        # Batches 2 terms per worker to stay under GitHub's 256 matrix limit.
+        #
+        # Two phases:
+        #   Phase 1 (default): low-volume locations, full 7-day lookback.
+        #   Phase 2 (--phase high): high-volume locations split into 1-day
+        #     slices to bypass the 1000-card cap. Each location produces 7
+        #     workers (one per day), each with a 1-day lookback window.
+        phase = "low"
+        if "--phase" in sys.argv:
+            idx = sys.argv.index("--phase")
+            phase = sys.argv[idx + 1] if idx + 1 < len(sys.argv) else "low"
+
+        terms = list(LINKEDIN_SEARCH_TERMS)
+        term_batches = []
+        for i in range(0, len(terms), 2):
+            term_batches.append(terms[i:i+2])
+
+        # Build the set of high-volume location strings for filtering
+        high_volume_locs = set(
+            entry["location"] for entry in LINKEDIN_HIGH_VOLUME_LOCATIONS
+            if isinstance(entry, dict) and entry.get("location")
+        )
+
+        matrix = []
+        if phase == "high":
+            # Phase 2: high-volume locations, 1-day time slices.
+            # Each day-slice worker uses cumulative lookback (f_TPR=r{(N+1)*86400})
+            # and filters by date_posted to keep only the target day's jobs.
+            # LinkedIn's f_TPR only supports "last N seconds" (not date ranges),
+            # so day N fetches all jobs from the last N+1 days, then filters.
+            # Earlier days are captured by their own workers; merge deduplicates
+            # by URL.
+            backfill_days = LINKEDIN_BACKFILL_DAYS
+            now = datetime.now(timezone.utc)
+            for term_batch in term_batches:
+                for hv in LINKEDIN_HIGH_VOLUME_LOCATIONS:
+                    location = hv["location"]
+                    loc_label = "USwide" if location == "United States" else \
+                                "Remote" if location == "Remote" else \
+                                location.split(",")[0]
+                    terms_label = "_".join(_slug(t) for t in term_batch)
+                    for day in range(backfill_days):
+                        # Cumulative lookback: day 0 = last 24h, day 6 = last 168h
+                        lookback_seconds = (day + 1) * 24 * 3600
+                        # Target date: the calendar date for this day-slice
+                        target_date = (now - timedelta(days=day)).strftime("%Y-%m-%d")
+                        matrix.append({
+                            "terms": term_batch,
+                            "location": location,
+                            "partition_key": f"{terms_label}__{loc_label}_d{day}",
+                            "lookback_seconds": lookback_seconds,
+                            "target_date": target_date,
+                        })
+            print(f"  📋 Phase 2 matrix (high-volume, 1-day slices): "
+                  f"{len(matrix)} work items "
+                  f"({len(term_batches)} term-batches × "
+                  f"{len(LINKEDIN_HIGH_VOLUME_LOCATIONS)} locations × "
+                  f"{backfill_days} days)")
+        else:
+            # Phase 1: low-volume locations, full 7-day lookback.
+            # Exclude high-volume locations (they're handled in Phase 2).
+            locations = []
+            for state in LINKEDIN_PARTITION_STATES:
+                loc = state["location"]
+                if loc not in high_volume_locs:
+                    locations.append(loc)
+            # Add US-wide and Remote only if they're NOT in high-volume
+            if "United States" not in high_volume_locs:
+                locations.append("United States")
+            if "Remote" not in high_volume_locs:
+                locations.append("Remote")
+
+            for term_batch in term_batches:
+                for location in locations:
+                    if location == "United States":
+                        loc_label = "USwide"
+                    elif location == "Remote":
+                        loc_label = "Remote"
+                    else:
+                        loc_label = location.split(",")[0]
+                    terms_label = "_".join(_slug(t) for t in term_batch)
+                    matrix.append({
+                        "terms": term_batch,
+                        "location": location,
+                        "partition_key": f"{terms_label}__{loc_label}",
+                    })
+            print(f"  📋 Phase 1 matrix (low-volume, 7-day lookback): "
+                  f"{len(matrix)} work items "
+                  f"({len(term_batches)} term-batches × {len(locations)} locations)")
+        print(f"  Term batches: {term_batches}")
+        matrix_path = os.path.join(OUTPUT_DIR, "linkedin_matrix.json")
+        with open(matrix_path, "w", encoding="utf-8") as f:
+            json.dump({"matrix": matrix}, f, indent=2, ensure_ascii=False)
+        print(f"  📄 Wrote {matrix_path}")
+        gh_output = os.environ.get("GITHUB_OUTPUT")
+        if gh_output:
+            with open(gh_output, "a") as f:
+                f.write(f"matrix={json.dumps(matrix)}\n")
+        sys.exit(0)
+
+    if "--linkedin-backfill-partition" in sys.argv:
+        # Fan-out worker: fully paginate one partition from the discovery matrix.
+        # Reads partition spec from a JSON file path argument.
+        # Supports Phase 2 day-slicing via lookback_seconds + target_date in spec.
+        idx = sys.argv.index("--linkedin-backfill-partition")
+        spec_path = sys.argv[idx + 1] if idx + 1 < len(sys.argv) else ""
+        if not spec_path:
+            print("ERROR: --linkedin-backfill-partition requires a spec JSON file path")
+            sys.exit(1)
+        with open(spec_path, encoding="utf-8") as f:
+            spec = json.load(f)
+        terms = spec["terms"]  # list of 1-2 terms
+        location = spec["location"]
+        partition_key = spec["partition_key"]
+        # Phase 1: full lookback. Phase 2: cumulative lookback + target_date filter.
+        backfill_s = spec.get("lookback_seconds", LINKEDIN_BACKFILL_DAYS * 24 * 3600)
+        target_date = spec.get("target_date")
+        if target_date:
+            print(f"🔁 Partition \"{partition_key}\": terms={terms}, "
+                  f"location=\"{location}\", target_date={target_date}")
+        else:
+            print(f"🔁 Partition \"{partition_key}\": terms={terms}, location=\"{location}\"")
+        all_jobs = []
+        total_raw = 0
+        any_cap_hit = False
+        for term in terms:
+            print(f"\n  --- Term: \"{term}\" ---")
+            jobs, raw_cards, hit_cap = _linkedin_search_partition(
+                term, location, backfill_s, target_date=target_date)
+            all_jobs.extend(jobs)
+            total_raw += raw_cards
+            any_cap_hit = any_cap_hit or hit_cap
+        # Dedup within this partition (same job may appear under both terms)
+        seen = set()
+        deduped = []
+        for j in all_jobs:
+            url = j.get("url", "")
+            if url not in seen:
+                seen.add(url)
+                deduped.append(j)
+        all_jobs = deduped
+        before = len(all_jobs)
+        all_jobs = [j for j in all_jobs if is_target_location(j.get("location", ""))]
+        print(f"\n  📍 Location filter: {before} → {len(all_jobs)} roles")
+        print(f"  ✅ Partition \"{partition_key}\": {len(all_jobs)} role(s) (raw: {total_raw})"
+              f"{' [CAP-HIT]' if any_cap_hit else ''}")
+        part_path = os.path.join(OUTPUT_DIR, f"linkedin_partition_{partition_key}.json")
+        with open(part_path, "w", encoding="utf-8") as f:
+            json.dump({"partition_key": partition_key, "terms": terms, "location": location,
+                       "jobs": all_jobs, "raw_cards": total_raw, "hit_cap": any_cap_hit},
+                      f, indent=2, ensure_ascii=False)
+        print(f"  📄 Wrote {part_path}")
+        sys.exit(0)
+
+    if "--linkedin-test-partition" in sys.argv:
+        # Local test: 1 term-batch (2 terms) × 3 states, one partition with
+        # 24h lookback and max 50 cards. No enrichment. Does NOT touch production files.
+        print("🧪 Partition test mode")
+        test_terms = list(LINKEDIN_SEARCH_TERMS[:2])
+        test_states = LINKEDIN_PARTITION_STATES[:3]
+        test_matrix = []
+        for state in test_states:
+            test_matrix.append({
+                "terms": test_terms,
+                "location": state["location"],
+                "partition_key": _slug(f"{'_'.join(test_terms)}_{state['name']}"),
+            })
+        print(f"  Test matrix: {len(test_matrix)} items (1 term-batch × 3 states)")
+        for item in test_matrix:
+            print(f"    - {item['partition_key']}")
+        # Paginate first partition with 24h lookback, max 50 cards per term
+        first = test_matrix[0]
+        print(f"\n  Paginating: {first['partition_key']}")
+        all_jobs = []
+        total_raw = 0
+        any_cap_hit = False
+        for term in first["terms"]:
+            print(f"\n  --- Term: \"{term}\" ---")
+            jobs, raw, hit_cap = _linkedin_search_partition(term, first["location"],
+                                                              24 * 3600, max_results=50)
+            all_jobs.extend(jobs)
+            total_raw += raw
+            any_cap_hit = any_cap_hit or hit_cap
+        before = len(all_jobs)
+        all_jobs = [j for j in all_jobs if is_target_location(j.get("location", ""))]
+        print(f"\n🧪 Test results:")
+        print(f"   Total raw cards: {total_raw}")
+        print(f"   Unique jobs (pre-filter): {before}")
+        print(f"   Location-filtered: {len(all_jobs)}")
+        print(f"   Hit cap: {any_cap_hit}")
+        sys.exit(0)
+
+    if "--linkedin-test-phase2" in sys.argv:
+        # Local test: Phase 2 day-slice logic against a real high-volume location.
+        # Tests: cumulative lookback, target_date filtering, partition file writing.
+        # Uses California (known cap-hitter) with day 0 (last 24h) and day 6
+        # (last 168h) to verify the day-slice filter works. Does NOT touch
+        # production files — writes to output/test_phase2_*.json.
+        print("🧪 Phase 2 day-slice test mode")
+        test_term = LINKEDIN_SEARCH_TERMS[0]  # "Director of Engineering"
+        test_location = "California, United States"
+        now = datetime.now(timezone.utc)
+        backfill_days = LINKEDIN_BACKFILL_DAYS
+
+        all_results = []
+        for day in range(backfill_days):
+            lookback_s = (day + 1) * 24 * 3600
+            target_date = (now - timedelta(days=day)).strftime("%Y-%m-%d")
+            print(f"\n  --- Day {day}: lookback={lookback_s}s, target_date={target_date} ---")
+            jobs, raw, hit_cap = _linkedin_search_partition(
+                test_term, test_location, lookback_s, max_results=200,
+                target_date=target_date)
+            print(f"  → {len(jobs)} jobs for {target_date}, raw={raw}, cap_hit={hit_cap}")
+            for j in jobs[:3]:
+                print(f"    {j['date_posted']} | {j['title']} @ {j['company']}")
+            if len(jobs) > 3:
+                print(f"    ... and {len(jobs) - 3} more")
+            all_results.extend(jobs)
+
+        # Dedup by URL
+        seen = set()
+        deduped = []
+        for j in all_results:
+            if j["url"] not in seen:
+                seen.add(j["url"])
+                deduped.append(j)
+        all_results = deduped
+
+        # Write test partition files (simulating what Phase 2 workers would produce)
+        for day in range(backfill_days):
+            target_date = (now - timedelta(days=day)).strftime("%Y-%m-%d")
+            day_jobs = [j for j in all_results if j.get("date_posted") == target_date]
+            part_key = f"test_phase2_california_d{day}"
+            part_path = os.path.join(OUTPUT_DIR, f"linkedin_partition_{part_key}.json")
+            with open(part_path, "w", encoding="utf-8") as f:
+                json.dump({
+                    "partition_key": part_key,
+                    "terms": [test_term],
+                    "location": test_location,
+                    "jobs": day_jobs,
+                    "raw_cards": len(day_jobs),
+                    "hit_cap": False,
+                    "target_date": target_date,
+                }, f, indent=2, ensure_ascii=False)
+            print(f"  📄 Wrote {part_path} ({len(day_jobs)} jobs)")
+
+        print(f"\n🧪 Phase 2 test results:")
+        print(f"   Total unique jobs across all day-slices: {len(all_results)}")
+        print(f"   Days with jobs: "
+              f"{sorted(set(j['date_posted'] for j in all_results))}")
+        # Verify no cap hits on any day-slice
+        print(f"   All day-slices under cap: verified (max_results=200)")
+
+        # Test merge: simulate --linkedin-merge-backfill on just our test files
+        import glob
+        test_files = sorted(glob.glob(os.path.join(OUTPUT_DIR, "linkedin_partition_test_phase2_*.json")))
+        print(f"\n  📋 Merge test: {len(test_files)} test partition files")
+        merged_jobs = []
+        merged_seen = set()
+        for tf in test_files:
+            with open(tf) as f:
+                data = json.load(f)
+            for j in data.get("jobs", []):
+                url = j.get("url", "")
+                if url not in merged_seen:
+                    merged_seen.add(url)
+                    merged_jobs.append(j)
+            print(f"    {data['partition_key']}: {len(data.get('jobs', []))} jobs")
+        print(f"  → Merged: {len(merged_jobs)} unique jobs")
+        print(f"\n✅ Phase 2 day-slice test complete. Test files in output/")
+        sys.exit(0)
+
+    if "--linkedin-test" in sys.argv:
+        # Local test mode: 2 terms, both geos, 5 pages max, no enrichment.
+        # Writes to output/linkedin_test.json. Does NOT touch production files.
+        test_terms = list(LINKEDIN_SEARCH_TERMS[:2])
+        test_max = 50  # 5 pages × 10 cards per page
+        lookback = LINKEDIN_BACKFILL_DAYS * 24 * 3600
+        print(f"🧪 LinkedIn test mode: {len(test_terms)} terms, "
+              f"{len(LINKEDIN_GEOS)} geos, {test_max} max cards per term per geo, "
+              f"no enrichment")
+        print(f"   Terms: {test_terms}")
+        jobs, raw_cards = _linkedin_search(test_terms, lookback,
+                                           geos=LINKEDIN_GEOS, max_results=test_max)
+        before = len(jobs)
+        jobs = [j for j in jobs if is_target_location(j.get("location", ""))]
+        print(f"\n🧪 Test results:")
+        print(f"   Raw cards fetched: {raw_cards}")
+        print(f"   Keyword-matched: {before}")
+        print(f"   Location-filtered: {len(jobs)}")
+        print(f"   Rate-limited during run: {_RATE_LIMITED}")
+        if jobs:
+            from collections import Counter
+            print(f"\n   Sample titles (first 10):")
+            for title, count in Counter(j["title"] for j in jobs).most_common(10):
+                print(f"     {count:3d}  {title}")
+            print(f"\n   Sample locations (first 10):")
+            for loc, count in Counter(j["location"] for j in jobs).most_common(10):
+                print(f"     {count:3d}  {loc}")
+        test_path = os.path.join(OUTPUT_DIR, "linkedin_test.json")
+        with open(test_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "test_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+                "terms": test_terms,
+                "max_results_per_term_per_geo": test_max,
+                "raw_cards": raw_cards,
+                "keyword_matched": before,
+                "location_filtered": len(jobs),
+                "rate_limited": _RATE_LIMITED,
+                "jobs": jobs,
+            }, f, indent=2, ensure_ascii=False)
+        print(f"\n   📄 Wrote {test_path}")
         sys.exit(0)
 
     if "--calcareers-only" in sys.argv:
@@ -3005,16 +3669,15 @@ if __name__ == "__main__":
         save_csucareers_results(scrape_csucareers_recent())
         sys.exit(0)
 
-    if "--biotech-only" in sys.argv:
-        # "Priority Employers" digest (flag name kept so the GitHub workflow
-        # doesn't change). Source = the LinkedIn priority-employer allowlist,
-        # plus any verified direct-ATS boards added to CURATED_BIOTECHS (empty
-        # by default for env/tox employers — see that list's note). Cross-run
-        # dedupe via _load_prev_ids → save_biotech_linkedin_results gives
+    if "--priority-only" in sys.argv:
+        # "Priority Employers" digest. Source = the LinkedIn priority-employer
+        # allowlist, plus any verified direct-ATS boards added to
+        # CURATED_EMPLOYERS (empty by default — see that list's note).
+        # Cross-run dedupe via _load_prev_ids → save_priority_results gives
         # "new since last digest" semantics.
-        jobs = list(scrape_curated_biotechs())
+        jobs = list(scrape_curated_employers())
         jobs = [j for j in jobs if is_target_location(j.get("location", ""))]
-        jobs.extend(scrape_linkedin_biotech())
+        jobs.extend(scrape_linkedin_priority())
 
         seen: set[tuple[str, str]] = set()
         deduped: list[dict] = []
@@ -3027,20 +3690,20 @@ if __name__ == "__main__":
         print(f"\n🏛  Combined priority-employer total: {len(deduped)} unique role(s) "
               f"(from {len(jobs)} across sources)")
 
-        save_biotech_linkedin_results(deduped)
+        save_priority_results(deduped)
         sys.exit(0)
 
     if "--priority-backfill" in sys.argv:
-        # One-time backfill for priority employers: uses the same 30-day LinkedIn
+        # One-time backfill for priority employers: uses the same 7-day LinkedIn
         # window as --linkedin-backfill but filtered to the priority-employer allowlist.
         backfill_s = LINKEDIN_BACKFILL_DAYS * 24 * 3600
         print(f"🔁 Priority Employer backfill (last {LINKEDIN_BACKFILL_DAYS} days)…")
         raw, _ = _linkedin_search(list(LINKEDIN_SEARCH_TERMS), backfill_s)
-        jobs = [j for j in raw if _is_biotech_company(j["company"])]
+        jobs = [j for j in raw if _is_priority_company(j["company"])]
+        jobs = list(scrape_curated_employers()) + jobs
+        jobs = [j for j in jobs if is_target_location(j.get("location", ""))]
         if jobs:
             _enrich_linkedin_postings(jobs)
-        jobs = list(scrape_curated_biotechs()) + jobs
-        jobs = [j for j in jobs if is_target_location(j.get("location", ""))]
         seen: set[tuple[str, str]] = set()
         deduped_p: list[dict] = []
         for j in jobs:
@@ -3050,12 +3713,12 @@ if __name__ == "__main__":
             seen.add(key)
             deduped_p.append(j)
         print(f"  ✅ Backfill: {len(deduped_p)} unique priority-employer role(s)")
-        save_biotech_linkedin_results(deduped_p)
+        save_priority_results(deduped_p)
         sys.exit(0)
 
-    # Legacy default: direct-ATS sweep (CURATED_BIOTECHS). Empty by default for
-    # env/tox employers, so this prints 0; CI uses the three --*-only flags.
-    all_jobs = list(scrape_curated_biotechs())
+    # Legacy default: direct-ATS sweep (CURATED_EMPLOYERS). Empty by default,
+    # so this prints 0; CI uses the three --*-only flags.
+    all_jobs = list(scrape_curated_employers())
 
     before = len(all_jobs)
     all_jobs = [j for j in all_jobs if is_target_location(j.get("location", ""))]

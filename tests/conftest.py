@@ -19,10 +19,30 @@ def fixtures_dir():
 
 
 @pytest.fixture
+def linkedin_search_results_html():
+    """Real LinkedIn search results HTML (5 pages, 50 cards) from California."""
+    path = FIXTURES_DIR / "linkedin_search_results_california_5pages.html"
+    return path.read_text(encoding="utf-8")
+
+
+@pytest.fixture
+def linkedin_job_posting_html():
+    """Real LinkedIn job posting detail page HTML."""
+    path = FIXTURES_DIR / "linkedin_job_posting_detail_page.html"
+    return path.read_text(encoding="utf-8")
+
+
+@pytest.fixture
 def sample_all_jobs():
     """Synthetic all_jobs.json with 10 jobs for merge tests."""
     path = FIXTURES_DIR / "sample_all_jobs.json"
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+@pytest.fixture
+def sample_partition_files():
+    """List of 3 synthetic LinkedIn partition JSON file paths."""
+    return sorted((FIXTURES_DIR / "sample_linkedin_partitions").glob("*.json"))
 
 
 @pytest.fixture

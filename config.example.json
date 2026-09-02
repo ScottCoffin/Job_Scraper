@@ -32,7 +32,11 @@
       "research assistant", "lab assistant", "teaching assistant", "undergraduate", "postdoc",
       "postdoctoral", "work-study", "volunteer", "fellowship", "engineer", "engineering",
       "ehs", "occupational safety", "occupational health", "health and safety", "health & safety"
-    ]
+    ],
+    "_fuzzy_comment": "Optional fuzzy pre-filter for LinkedIn title matching. When both fuzzy_seniority and fuzzy_domain are non-empty, role_is_relevant() uses these instead of the exact-phrase keywords.include filter. Catches title variants like 'Director, Engineering' when searching for 'Engineering Director'. Leave all three empty to use keyword-only matching.",
+    "fuzzy_seniority": [],
+    "fuzzy_domain": [],
+    "fuzzy_exclude": []
   },
 
   "search_terms": {
@@ -119,7 +123,15 @@
     ],
     "hiring_cafe": [
       { "location": "United States" }
-    ]
+    ],
+    "_linkedin_partitions_comment": "Optional. Used by --linkedin-emit-matrix / --linkedin-backfill-partition for parallel backfill. Each state gets one matrix worker per search term. High-volume states can be day-sliced to work around LinkedIn's ~1000 result/query cap. Leave empty to use single-run backfill (--linkedin-backfill).",
+    "linkedin_partitions": {
+      "states": [],
+      "high_volume": {
+        "locations": [],
+        "day_slices": true
+      }
+    }
   },
 
   "location_filter": {

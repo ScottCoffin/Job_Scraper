@@ -1,0 +1,54 @@
+{
+  "partition_key": "director_of_engineering_vp_of_engineering__California",
+  "terms": ["Director of Engineering", "VP of Engineering"],
+  "location": "California, United States",
+  "raw_cards": 500,
+  "hit_cap": false,
+  "jobs": [
+    {
+      "company": "Acme Corp",
+      "title": "Director of Engineering",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400000001/",
+      "date_posted": "2026-08-14",
+      "salary": "",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "TechFlow",
+      "title": "VP of Engineering",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400000002/",
+      "date_posted": "2026-08-14",
+      "salary": "",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "CloudScale",
+      "title": "Director of Platform Engineering",
+      "location": "Oakland, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400000011/",
+      "date_posted": "2026-08-13",
+      "salary": "",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Pfizer",
+      "title": "Director of Engineering",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400000012/",
+      "date_posted": "2026-08-13",
+      "salary": "",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "DataHub",
+      "title": "Senior Engineering Manager",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400000013/",
+      "date_posted": "2026-08-12",
+      "salary": "",
+      "ats": "LinkedIn"
+    }
+  ]
+}
