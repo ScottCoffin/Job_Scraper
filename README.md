@@ -9,6 +9,10 @@ GitHub Actions pipelines that scrape job boards (LinkedIn, Indeed, Glassdoor, Zi
 > This repo ships configured for **environmental / toxicology** roles (Dr. Scott Coffin's field — [scottcoff.in](https://scottcoff.in)) as a worked example, and began as [Ernesto Diaz](https://github.com/ernestod1998)'s Bay Area ML-engineer scraper. The walkthrough below sets up your own copy from scratch.
 
 ------------------------------------------------------------------------
+# Contributions welcome!
+Found an issue? Please [Open a New Issue](issues/new). The community will do our best to address it!
+
+[Pull requests](./pulls) are highly welcome and encouraged! Much thanks to @Sahil Talwar for making the first improvement through this approach!!
 
 # Set up your own (full walkthrough) 🚀
 
