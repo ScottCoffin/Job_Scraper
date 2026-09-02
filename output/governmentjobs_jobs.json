@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-01 19:25 UTC",
-  "total": 11,
-  "new_count": 2,
+  "scraped_at": "2026-09-02 19:25 UTC",
+  "total": 14,
+  "new_count": 4,
   "jobs": [
     {
       "company": "County of Mendocino",
@@ -40,12 +40,12 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "City of Watsonville",
-      "title": "Water Quality Chemist",
-      "location": "City of Watsonville, CA",
-      "url": "https://www.governmentjobs.com/jobs/5454844-0/water-quality-chemist",
+      "company": "County of Los Angeles",
+      "title": "ENVIRONMENTAL HEALTH SPECIALIST III / EMERGENCY APPOINTMENT HOMELESSNESS",
+      "location": "Los Angeles County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5405382-0/environmental-health-specialist-iii-emergency-appointment-homelessness",
       "date_posted": "",
-      "salary": "$86,881.60 - $116,438.40 Annually",
+      "salary": "$77,181.84 - $104,006.16 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -67,6 +67,33 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "City of Watsonville",
+      "title": "Water Quality Chemist",
+      "location": "City of Watsonville, CA",
+      "url": "https://www.governmentjobs.com/jobs/5454844-0/water-quality-chemist",
+      "date_posted": "",
+      "salary": "$86,881.60 - $116,438.40 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Santa Margarita Water District",
+      "title": "Water Quality and Regulatory Manager",
+      "location": "92688, CA",
+      "url": "https://www.governmentjobs.com/jobs/5457810-0/water-quality-and-regulatory-manager",
+      "date_posted": "",
+      "salary": "",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Palo Alto",
+      "title": "Water Quality Plant Manager of Maintenance Operations",
+      "location": "Palo Alto, CA",
+      "url": "https://www.governmentjobs.com/jobs/5425173-0/water-quality-plant-manager-of-maintenance-operations",
+      "date_posted": "",
+      "salary": "$118,643.20 - $177,944.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "City of El Cerrito",
       "title": "ENVIRONMENTAL SPECIALIST",
       "location": "El Cerrito, CA",
@@ -76,21 +103,21 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "County of Sacramento",
+      "title": "Environmental Specialist III",
+      "location": "Sacramento, CA",
+      "url": "https://www.governmentjobs.com/jobs/4967720-0/environmental-specialist-iii",
+      "date_posted": "",
+      "salary": "$103,105.44 - $125,321.76 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "City of Santa Rosa",
       "title": "Environmental Specialist I/II",
       "location": "MSCS-69 Stony Circle Santa Rosa, CA",
       "url": "https://www.governmentjobs.com/jobs/5401336-0/environmental-specialist-i-ii",
       "date_posted": "",
       "salary": "$94,906.00 - $129,466.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Brevard County Board of County Commissioners",
-      "title": "Associate Environmental Specialist (23394)",
-      "location": "Melbourne, FL",
-      "url": "https://www.governmentjobs.com/jobs/148696-1/associate-environmental-specialist-23394",
-      "date_posted": "",
-      "salary": "",
       "ats": "NEOGOV"
     },
     {
@@ -105,21 +132,39 @@
   ],
   "new_jobs": [
     {
-      "company": "City of El Cerrito",
-      "title": "ENVIRONMENTAL SPECIALIST",
-      "location": "El Cerrito, CA",
-      "url": "https://www.governmentjobs.com/jobs/5448541-0/environmental-specialist",
+      "company": "County of Los Angeles",
+      "title": "ENVIRONMENTAL HEALTH SPECIALIST III / EMERGENCY APPOINTMENT HOMELESSNESS",
+      "location": "Los Angeles County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5405382-0/environmental-health-specialist-iii-emergency-appointment-homelessness",
       "date_posted": "",
-      "salary": "$81,744.00 - $99,360.00 Annually",
+      "salary": "$77,181.84 - $104,006.16 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "Brevard County Board of County Commissioners",
-      "title": "Associate Environmental Specialist (23394)",
-      "location": "Melbourne, FL",
-      "url": "https://www.governmentjobs.com/jobs/148696-1/associate-environmental-specialist-23394",
+      "company": "Santa Margarita Water District",
+      "title": "Water Quality and Regulatory Manager",
+      "location": "92688, CA",
+      "url": "https://www.governmentjobs.com/jobs/5457810-0/water-quality-and-regulatory-manager",
       "date_posted": "",
       "salary": "",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Palo Alto",
+      "title": "Water Quality Plant Manager of Maintenance Operations",
+      "location": "Palo Alto, CA",
+      "url": "https://www.governmentjobs.com/jobs/5425173-0/water-quality-plant-manager-of-maintenance-operations",
+      "date_posted": "",
+      "salary": "$118,643.20 - $177,944.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Sacramento",
+      "title": "Environmental Specialist III",
+      "location": "Sacramento, CA",
+      "url": "https://www.governmentjobs.com/jobs/4967720-0/environmental-specialist-iii",
+      "date_posted": "",
+      "salary": "$103,105.44 - $125,321.76 Annually",
       "ats": "NEOGOV"
     }
   ]
