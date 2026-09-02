@@ -1,14 +1,13 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-09-02 00:26 UTC*
+*Last updated: 2026-09-02 04:53 UTC*
 
 **2 new role(s)** since last run · 2 total in last 1h
 
-### [Air Pollution Specialist](https://www.linkedin.com/jobs/view/4462077317/) — California Air Resources Board
-- 📍 **Location:** Riverside County, CA
-- 💰 **Salary:** $5,918.00/mo - $11,455.00/mo
-- 🕒 **Posted:** 2026-09-01
+### [Director, Enterprise Risk, Investigations & Remediation US Corporate Compliance Operations](https://www.linkedin.com/jobs/view/4460930715/) — BioSpace
+- 📍 **Location:** San Rafael, CA
+- 🕒 **Posted:** 2026-09-02
 
-### [Environmental Assessment Officer](https://www.linkedin.com/jobs/view/4459557976/) — Yarra Ranges Council
-- 📍 **Location:** Lilydale, Victoria, Australia
-- 💰 **Salary:** $49.81/hr - A$54.29/hr
-- 🕒 **Posted:** 2026-09-01
+### [Team Leader Environmental Health](https://www.linkedin.com/jobs/view/4460934395/) — Redland City Council
+- 📍 **Location:** Greater Brisbane Area
+- 💰 **Salary:** $118,666.78/yr - A$125,907.88/yr
+- 🕒 **Posted:** 2026-09-02
