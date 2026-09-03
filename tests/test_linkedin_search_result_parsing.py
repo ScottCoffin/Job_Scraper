@@ -2,7 +2,7 @@
 
 Uses ca_raw_5pages.html (50 real cards from California) saved from a
 previous scraping session. Tests parsing structure only — filtering is
-applied by callers (role_is_relevant) and tested in tests/local/.
+applied by callers (role_is_relevant).
 """
 from scrape_jobs import _parse_linkedin_cards
 

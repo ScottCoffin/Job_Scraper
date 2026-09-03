@@ -1,7 +1,7 @@
 """Test that --linkedin-backfill-partition does NOT call _enrich_linkedin_postings.
 
-This is the key behavior change — enrichment is deferred to job-hunter's
-fetch_jds.py. A regression here would re-introduce the 1-hour enrichment delay.
+This is the key behavior change — enrichment is deferred to the downstream
+pipeline. A regression here would re-introduce the enrichment delay.
 """
 from unittest.mock import patch, MagicMock
 
@@ -24,9 +24,8 @@ def test_enrichment_not_called_on_partition_jobs():
     with patch("scrape_jobs._enrich_linkedin_postings") as mock_enrich:
         # Simulate what the partition CLI mode does: just save jobs without enriching
         # The code at line ~3463 says:
-        #   # Enrichment (JD fetching) is deferred to the job-hunter pipeline.
-        #   # The scraper only discovers and filters jobs; JDs are fetched only
-        #   # for jobs that pass the LLM feasibility check.
+        #   # Enrichment (JD fetching) is deferred to the downstream pipeline.
+        #   # The scraper only discovers and filters jobs; JDs are fetched later.
         # So enrichment should NOT be called
         pass
 

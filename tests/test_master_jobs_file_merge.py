@@ -26,12 +26,12 @@ def test_merge_adds_new_jobs(tmp_output_dir, sample_all_jobs):
     assert added == 2
 
 
-def test_preserves_feasible_true_tag(tmp_output_dir, sample_all_jobs):
-    """Existing feasible:true tag must be preserved when merging a duplicate."""
+def test_preserves_existing_fields_on_duplicate(tmp_output_dir, sample_all_jobs):
+    """Existing downstream fields (bookmarked, notes) must be preserved when merging a duplicate."""
     path = tmp_output_dir / "all_jobs.json"
     path.write_text(json.dumps(sample_all_jobs, separators=(",", ":")))
 
-    # Merge a job that duplicates an existing feasible:true job
+    # Merge a job that duplicates an existing bookmarked job
     new_jobs = [
         {"url": "https://www.linkedin.com/jobs/view/4400000001/",
          "company": "Acme Corp", "title": "Director of Engineering",
@@ -41,12 +41,12 @@ def test_preserves_feasible_true_tag(tmp_output_dir, sample_all_jobs):
 
     data = json.loads(path.read_text())
     job = next(j for j in data["jobs"] if j["url"] == "https://www.linkedin.com/jobs/view/4400000001/")
-    assert job.get("feasible") is True
-    assert job.get("feasibility") == "preferred"
+    assert job.get("bookmarked") is True
+    assert job.get("notes") == "preferred"
 
 
-def test_preserves_feasible_false_tag(tmp_output_dir, sample_all_jobs):
-    """Existing feasible:false tag must be preserved when merging a duplicate."""
+def test_preserves_false_tag_on_duplicate(tmp_output_dir, sample_all_jobs):
+    """Existing false-valued downstream fields must be preserved when merging a duplicate."""
     path = tmp_output_dir / "all_jobs.json"
     path.write_text(json.dumps(sample_all_jobs, separators=(",", ":")))
 
@@ -59,8 +59,8 @@ def test_preserves_feasible_false_tag(tmp_output_dir, sample_all_jobs):
 
     data = json.loads(path.read_text())
     job = next(j for j in data["jobs"] if j["url"] == "https://www.linkedin.com/jobs/view/4400000008/")
-    assert job.get("feasible") is False
-    assert job.get("feasibility") == "no"
+    assert job.get("bookmarked") is False
+    assert job.get("notes") == "no"
 
 
 def test_sets_first_seen_on_new_jobs(tmp_output_dir, sample_all_jobs):

@@ -11,8 +11,8 @@
       "ats": "LinkedIn",
       "description": "Lead our engineering team building cloud infrastructure.",
       "first_seen": "2026-08-14T10:00:00Z",
-      "feasible": true,
-      "feasibility": "preferred"
+      "bookmarked": true,
+      "notes": "preferred"
     },
     {
       "company": "TechFlow",
@@ -24,8 +24,8 @@
       "ats": "LinkedIn",
       "description": "Vice President of Engineering overseeing all product teams.",
       "first_seen": "2026-08-14T11:00:00Z",
-      "feasible": true,
-      "feasibility": "yes"
+      "bookmarked": true,
+      "notes": "yes"
     },
     {
       "company": "DataSys",
@@ -37,8 +37,8 @@
       "ats": "LinkedIn",
       "description": "Head of Engineering for a remote-first startup.",
       "first_seen": "2026-08-13T09:00:00Z",
-      "feasible": true,
-      "feasibility": "yes"
+      "bookmarked": true,
+      "notes": "yes"
     },
     {
       "company": "CloudNine",
@@ -50,8 +50,8 @@
       "ats": "LinkedIn",
       "description": "Manage a team of 15 engineers building our platform.",
       "first_seen": "2026-08-13T12:00:00Z",
-      "feasible": true,
-      "feasibility": "yes"
+      "bookmarked": true,
+      "notes": "yes"
     },
     {
       "company": "StartupX",
@@ -63,8 +63,8 @@
       "ats": "LinkedIn",
       "description": "",
       "first_seen": "2026-08-12T08:00:00Z",
-      "feasible": true,
-      "feasibility": "yes"
+      "bookmarked": true,
+      "notes": "yes"
     },
     {
       "company": "DevHub",
@@ -76,8 +76,8 @@
       "ats": "LinkedIn",
       "description": "",
       "first_seen": "2026-08-12T14:00:00Z",
-      "feasible": true,
-      "feasibility": "yes"
+      "bookmarked": true,
+      "notes": "yes"
     },
     {
       "company": "NetScale",
@@ -89,8 +89,8 @@
       "ats": "LinkedIn",
       "description": "",
       "first_seen": "2026-08-11T10:00:00Z",
-      "feasible": true,
-      "feasibility": "yes"
+      "bookmarked": true,
+      "notes": "yes"
     },
     {
       "company": "SalesForce",
@@ -102,8 +102,8 @@
       "ats": "LinkedIn",
       "description": "Lead the sales team for the Midwest region.",
       "first_seen": "2026-08-11T16:00:00Z",
-      "feasible": false,
-      "feasibility": "no"
+      "bookmarked": false,
+      "notes": "no"
     },
     {
       "company": "HardwareCo",
@@ -115,8 +115,8 @@
       "ats": "LinkedIn",
       "description": "Design and build hardware products.",
       "first_seen": "2026-08-10T09:00:00Z",
-      "feasible": false,
-      "feasibility": "no"
+      "bookmarked": false,
+      "notes": "no"
     },
     {
       "company": "UnknownCo",
