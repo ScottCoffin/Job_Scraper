@@ -1,6 +1,11 @@
 # 🟦 Indeed — Environmental / Toxicology Roles
-*Last updated: 2026-09-03 00:44 UTC*
+*Last updated: 2026-09-03 05:13 UTC*
 
-**0 new role(s)** since last run · 6 total in last 24h
+**1 new role(s)** since last run · 6 total in last 24h
 
-No new roles since the last run.
+### [Geologist or Environmental Scientist](https://www.indeed.com/viewjob?jk=5757dfc49e05b580) — Sustainment & Restoration Services
+- 📍 **Location:** Walnut Creek, CA, US
+- 💰 **Salary:** $70k–$75k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-09-02
