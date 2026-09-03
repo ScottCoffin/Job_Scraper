@@ -1,12 +1,10 @@
-"""Test that --linkedin-merge-backfill handles mixed Phase 1 + Phase 2 files.
+"""Test that _linkedin_merge_backfill_files handles mixed Phase 1 + Phase 2 files.
 
 Phase 1 partition files have plain partition keys (e.g. "terms__California").
 Phase 2 partition files have day-suffixed keys (e.g. "terms__California_d0").
 The merge must correctly deduplicate by URL across both types.
 """
 import json
-import os
-import shutil
 
 import scrape_jobs
 
@@ -38,13 +36,11 @@ def _make_job(url, date_posted="2026-08-15"):
 
 def test_merge_mixed_phase1_and_phase2_files(tmp_output_dir):
     """Merge should handle both Phase 1 (no _d suffix) and Phase 2 (_d{N}) files."""
-    # Phase 1 file (Alabama)
     _make_partition(
         tmp_output_dir / "linkedin_partition_alabama.json",
         "terms__Alabama",
         [_make_job("https://www.linkedin.com/jobs/view/1001/")],
     )
-    # Phase 2 files (California day 0 and day 1)
     _make_partition(
         tmp_output_dir / "linkedin_partition_california_d0.json",
         "terms__California_d0",
@@ -56,21 +52,8 @@ def test_merge_mixed_phase1_and_phase2_files(tmp_output_dir):
         [_make_job("https://www.linkedin.com/jobs/view/2002/")],
     )
 
-    # Simulate the merge glob pattern
-    import glob
-    all_files = sorted(glob.glob(str(tmp_output_dir / "linkedin_partition_*.json")))
-    assert len(all_files) == 3
-
-    all_jobs = []
-    seen_urls = set()
-    for tf in all_files:
-        with open(tf) as f:
-            data = json.load(f)
-        for j in data.get("jobs", []):
-            url = j.get("url", "")
-            if url not in seen_urls:
-                seen_urls.add(url)
-                all_jobs.append(j)
+    all_jobs, stats, cap_hits = scrape_jobs._linkedin_merge_backfill_files(
+        str(tmp_output_dir))
 
     assert len(all_jobs) == 3
     urls = {j["url"] for j in all_jobs}
@@ -95,18 +78,8 @@ def test_merge_deduplicates_across_day_slices(tmp_output_dir):
         [shared_job, _make_job("https://www.linkedin.com/jobs/view/3003/")],
     )
 
-    import glob
-    all_files = sorted(glob.glob(str(tmp_output_dir / "linkedin_partition_*.json")))
-    all_jobs = []
-    seen_urls = set()
-    for tf in all_files:
-        with open(tf) as f:
-            data = json.load(f)
-        for j in data.get("jobs", []):
-            url = j.get("url", "")
-            if url not in seen_urls:
-                seen_urls.add(url)
-                all_jobs.append(j)
+    all_jobs, stats, cap_hits = scrape_jobs._linkedin_merge_backfill_files(
+        str(tmp_output_dir))
 
     # 3 unique jobs (shared job appears in both files but should be deduped)
     assert len(all_jobs) == 3
@@ -127,22 +100,8 @@ def test_merge_handles_cap_hit_in_phase2_file(tmp_output_dir):
         hit_cap=False,
     )
 
-    import glob
-    all_files = sorted(glob.glob(str(tmp_output_dir / "linkedin_partition_*.json")))
-    all_jobs = []
-    seen_urls = set()
-    cap_hits = []
-    for tf in all_files:
-        with open(tf) as f:
-            data = json.load(f)
-        hit_cap = data.get("hit_cap", False)
-        for j in data.get("jobs", []):
-            url = j.get("url", "")
-            if url not in seen_urls:
-                seen_urls.add(url)
-                all_jobs.append(j)
-        if hit_cap:
-            cap_hits.append(data.get("partition_key", ""))
+    all_jobs, stats, cap_hits = scrape_jobs._linkedin_merge_backfill_files(
+        str(tmp_output_dir))
 
     assert len(all_jobs) == 2
     assert len(cap_hits) == 1
@@ -159,19 +118,7 @@ def test_merge_phase2_only_files(tmp_output_dir):
                        date_posted=f"2026-08-{15-day:02d}")],
         )
 
-    import glob
-    all_files = sorted(glob.glob(str(tmp_output_dir / "linkedin_partition_*.json")))
-    assert len(all_files) == 7
-
-    all_jobs = []
-    seen_urls = set()
-    for tf in all_files:
-        with open(tf) as f:
-            data = json.load(f)
-        for j in data.get("jobs", []):
-            url = j.get("url", "")
-            if url not in seen_urls:
-                seen_urls.add(url)
-                all_jobs.append(j)
+    all_jobs, stats, cap_hits = scrape_jobs._linkedin_merge_backfill_files(
+        str(tmp_output_dir))
 
     assert len(all_jobs) == 7  # one unique job per day-slice

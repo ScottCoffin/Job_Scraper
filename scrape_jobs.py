@@ -3155,6 +3155,55 @@ def save_results(jobs: list):
 
 
 
+def _linkedin_merge_backfill_files(output_dir: str) -> tuple[list[dict], list[dict], list[str]]:
+    """Merge per-term and per-partition backfill JSON files into a single job list.
+
+    Globs ``linkedin_backfill_*.json`` and ``linkedin_partition_*.json`` from
+    output_dir, deduplicates by URL, filters excluded companies, and normalizes
+    work_arrangement on each job.
+
+    Returns (all_jobs, partition_stats, cap_hits) where:
+    - all_jobs: deduplicated, filtered, work-arrangement-normalized job list
+    - partition_stats: list of dicts with per-partition summary info
+    - cap_hits: list of partition keys that hit the 1000-card cap
+    """
+    import glob
+    term_files = sorted(glob.glob(os.path.join(output_dir, "linkedin_backfill_*.json")))
+    part_files = sorted(glob.glob(os.path.join(output_dir, "linkedin_partition_*.json")))
+    all_files = term_files + part_files
+    all_jobs: list[dict] = []
+    seen_urls: set[str] = set()
+    cap_hits: list[str] = []
+    partition_stats: list[dict] = []
+    for tf in all_files:
+        with open(tf, encoding="utf-8") as f:
+            data = json.load(f)
+        part_key = data.get("partition_key", data.get("term", os.path.basename(tf)))
+        part_jobs = data.get("jobs", [])
+        raw = data.get("raw_cards", 0)
+        hit_cap = data.get("hit_cap", False)
+        new_count = 0
+        for j in part_jobs:
+            url = j.get("url", "")
+            if url not in seen_urls:
+                seen_urls.add(url)
+                all_jobs.append(j)
+                new_count += 1
+        if hit_cap:
+            cap_hits.append(part_key)
+        partition_stats.append({
+            "partition": part_key,
+            "jobs": len(part_jobs),
+            "new": new_count,
+            "raw": raw,
+            "hit_cap": hit_cap,
+        })
+    all_jobs = [j for j in all_jobs if not _is_excluded_company(j.get("company", ""))]
+    for job in all_jobs:
+        _ensure_work_arrangement(job)
+    return all_jobs, partition_stats, cap_hits
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -3268,39 +3317,10 @@ if __name__ == "__main__":
         if not all_files:
             print("  ⚠️  No backfill files found in output/")
             sys.exit(0)
-        all_jobs: list[dict] = []
-        seen_urls: set[str] = set()
-        cap_hits = []
-        partition_stats = []  # for summary table
-        for tf in all_files:
-            with open(tf, encoding="utf-8") as f:
-                data = json.load(f)
-            part_key = data.get("partition_key", data.get("term", os.path.basename(tf)))
-            part_jobs = data.get("jobs", [])
-            raw = data.get("raw_cards", 0)
-            hit_cap = data.get("hit_cap", False)
-            new_count = 0
-            for j in part_jobs:
-                url = j.get("url", "")
-                if url not in seen_urls:
-                    seen_urls.add(url)
-                    all_jobs.append(j)
-                    new_count += 1
-            # STREAM: log each partition as it's merged
-            cap_flag = " 🚨 CAP-HIT" if hit_cap else ""
-            print(f"  📦 {part_key}: {len(part_jobs)} jobs ({new_count} new){cap_flag}")
-            if hit_cap:
-                cap_hits.append(part_key)
-            partition_stats.append({
-                "partition": part_key,
-                "jobs": len(part_jobs),
-                "new": new_count,
-                "raw": raw,
-                "hit_cap": hit_cap,
-            })
-        all_jobs = [j for j in all_jobs if not _is_excluded_company(j.get("company", ""))]
-        for job in all_jobs:
-            _ensure_work_arrangement(job)
+        all_jobs, partition_stats, cap_hits = _linkedin_merge_backfill_files(OUTPUT_DIR)
+        for s in partition_stats:
+            cap_flag = " 🚨 CAP-HIT" if s["hit_cap"] else ""
+            print(f"  📦 {s['partition']}: {s['jobs']} jobs ({s['new']} new){cap_flag}")
         print()
         print(f"  ═══════════════════════════════════════════════════════════")
         print(f"  📊 SUMMARY: {len(all_jobs)} unique jobs from {len(all_files)} partitions")

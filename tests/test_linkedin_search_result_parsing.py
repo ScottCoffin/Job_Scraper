@@ -1,17 +1,18 @@
-"""Test _parse_linkedin_cards with real LinkedIn HTML.
+"""Test _parse_linkedin_cards with real + synthetic LinkedIn HTML.
 
-Uses ca_raw_5pages.html (50 real cards from California) saved from a
-previous scraping session. Tests parsing structure only — filtering is
-applied by callers (role_is_relevant).
+Uses 1 real LinkedIn card (kept for reference to verify parsing against
+actual markup) plus 4 synthetic cards testing edge cases (salary, plain-text
+company, empty location, non-job card). Filtering is applied by callers
+(role_is_relevant).
 """
 from scrape_jobs import _parse_linkedin_cards
 
 
-def test_parses_50_raw_cards(linkedin_search_results_html):
-    """Real HTML should contain 50 raw cards."""
+def test_parses_raw_cards(linkedin_search_results_html):
+    """Fixture should contain 4 job cards (1 real + 3 synthetic with URNs)."""
     jobs, raw_count = _parse_linkedin_cards(linkedin_search_results_html)
-    assert raw_count == 50
-    assert len(jobs) == 50  # all cards parsed, no filtering at this layer
+    assert raw_count == 4
+    assert len(jobs) == 4  # all cards with URNs parsed, no filtering at this layer
 
 
 def test_parsed_jobs_have_required_fields(linkedin_search_results_html):

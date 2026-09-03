@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- 1 real LinkedIn card (lines 3-121) kept for reference to verify parsing
+     against actual LinkedIn markup. The 4 synthetic cards below test field
+     extraction and edge cases (missing salary, missing company link, etc.)
+     without the ~119 lines of tracking pixels and boilerplate per real card. -->
+
+      <li>
+    
+
+    
+    
+    
+      <div class="base-card relative w-full hover:no-underline focus:no-underline
+        base-card--link
+         base-search-card base-search-card--link job-search-card" data-entity-urn="urn:li:jobPosting:4434160560" data-impression-id="jobs-search-result-0" data-reference-id="7I5t91tvbx28woeV+X3zdA==" data-tracking-id="BY23cC4GlNld1Jumk94etA==" data-column="1" data-row="1">
+        
+
+        <a class="base-card__full-link absolute top-0 right-0 bottom-0 left-0 p-0 z-[2] outline-offset-[4px]" href="https://www.linkedin.com/jobs/view/director-of-engineering-at-hivewatch-4434160560?position=1&amp;pageNum=0&amp;refId=7I5t91tvbx28woeV%2BX3zdA%3D%3D&amp;trackingId=BY23cC4GlNld1Jumk94etA%3D%3D" data-tracking-control-name="public_jobs_jserp-result_search-card" data-tracking-client-ingraph data-tracking-will-navigate>
+          
+          <span class="sr-only">
+              
+        
+        Director of Engineering
+      
+      
+          </span>
+        </a>
+
+      
+        
+    <div class="search-entity-media">
+        
+      <img class="artdeco-entity-image artdeco-entity-image--square-4
+          " data-delayed-url="https://media.licdn.com/dms/image/v2/D560BAQGFNHhYGnzV1w/company-logo_100_100/B56Z0ayYfoGYAU-/0/1774270908655/hivewatchsecurity_logo?e=2147483647&amp;v=beta&amp;t=6CRDaCZY63ySy-CZD_n6p4RVmeyKd6Ktoh5wL1VkCT8" data-ghost-classes="artdeco-entity-image--ghost" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/6puxblwmhnodu6fjircz4dn4h" alt>
+  
+    </div>
+  
+
+        <div class="base-search-card__info">
+          <h3 class="base-search-card__title">
+            
+        Director of Engineering
+      
+          </h3>
+
+            <h4 class="base-search-card__subtitle">
+              
+          <a class="hidden-nested-link" data-tracking-client-ingraph data-tracking-control-name="public_jobs_jserp-result_job-search-card-subtitle" data-tracking-will-navigate href="https://www.linkedin.com/company/hivewatchsecurity?trk=public_jobs_jserp-result_job-search-card-subtitle">
+            HiveWatch
+          </a>
+      
+            </h4>
+
+          <div class="base-search-card__metadata">
+            
+      <span class="job-search-card__location">
+        
+        Remote, CA
+      
+      </span>
+      
+    <time class="job-search-card__listdate" datetime="2026-08-14">
+<!---->      
+    
+    
+    
+    
+
+      2 days ago
+  
+          </time>
+
+<!---->      
+            </div>
+        </div>
+<!---->      
+    
+      </div>
+  
+  
+  
+  
+      </li>
+
+<!-- Synthetic card 2: with salary info -->
+<li>
+  <div class="base-card base-search-card job-search-card" data-entity-urn="urn:li:jobPosting:4450828702">
+    <a class="base-card__full-link" href="/jobs/view/4450828702/">
+      <span class="sr-only">VP of Engineering</span>
+    </a>
+    <h3 class="base-search-card__title">VP of Engineering</h3>
+    <h4 class="base-search-card__subtitle">
+      <a href="/company/techcorp">TechCorp</a>
+    </h4>
+    <span class="job-search-card__location">San Francisco, CA</span>
+    <span class="job-search-card__salary-info">$200k - $250k</span>
+    <time datetime="2026-08-14"></time>
+  </div>
+</li>
+
+<!-- Synthetic card 3: company without link (plain text) -->
+<li>
+  <div class="base-card base-search-card job-search-card" data-entity-urn="urn:li:jobPosting:4433464465">
+    <a class="base-card__full-link" href="/jobs/view/4433464465/">
+      <span class="sr-only">Head of Engineering</span>
+    </a>
+    <h3 class="base-search-card__title">Head of Engineering</h3>
+    <h4 class="base-search-card__subtitle">StartupX</h4>
+    <span class="job-search-card__location">New York, NY</span>
+    <time datetime="2026-08-13"></time>
+  </div>
+</li>
+
+<!-- Synthetic card 4: empty location -->
+<li>
+  <div class="base-card base-search-card job-search-card" data-entity-urn="urn:li:jobPosting:4451101700">
+    <a class="base-card__full-link" href="/jobs/view/4451101700/">
+      <span class="sr-only">Senior Engineering Manager</span>
+    </a>
+    <h3 class="base-search-card__title">Senior Engineering Manager</h3>
+    <h4 class="base-search-card__subtitle">
+      <a href="/company/cloudnine">CloudNine</a>
+    </h4>
+    <span class="job-search-card__location"></span>
+    <time datetime="2026-08-13"></time>
+  </div>
+</li>
+
+<!-- Synthetic card 5: non-job card (should be skipped) -->
+<li>
+  <div class="some-other-card">Not a job card</div>
+</li>
