@@ -1,0 +1,54 @@
+{
+  "partition_key": "director_of_engineering_vp_of_engineering__Texas",
+  "terms": ["Director of Engineering", "VP of Engineering"],
+  "location": "Texas, United States",
+  "raw_cards": 300,
+  "hit_cap": false,
+  "jobs": [
+    {
+      "company": "Acme Corp",
+      "title": "Director of Engineering",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4400000001/",
+      "date_posted": "2026-08-14",
+      "salary": "",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "LoneStar Tech",
+      "title": "VP of Engineering",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/4400000014/",
+      "date_posted": "2026-08-13",
+      "salary": "",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "DallasSoft",
+      "title": "Director of Engineering",
+      "location": "Dallas, TX",
+      "url": "https://www.linkedin.com/jobs/view/4400000015/",
+      "date_posted": "2026-08-12",
+      "salary": "",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "HoustonData",
+      "title": "Head of Engineering",
+      "location": "Houston, TX",
+      "url": "https://www.linkedin.com/jobs/view/4400000016/",
+      "date_posted": "2026-08-12",
+      "salary": "",
+      "ats": "LinkedIn"
+    },
+    {
+      "company": "Genentech",
+      "title": "Director of Engineering",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/4400000017/",
+      "date_posted": "2026-08-11",
+      "salary": "",
+      "ats": "LinkedIn"
+    }
+  ]
+}

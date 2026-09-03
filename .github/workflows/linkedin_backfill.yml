@@ -1,0 +1,242 @@
+name: LinkedIn Backfill (Parallel)
+
+# Two-phase partitioned backfill to bypass LinkedIn's 1000-result-per-query cap:
+#
+# Phase 1 (low-volume): locations × search terms, 7-day lookback.
+#   These locations have fewer than ~1000 results per week, so a single query
+#   captures everything.
+#
+# Phase 2 (high-volume): high-volume locations × search terms × 7 days,
+#   1-day slices. Each worker queries with a cumulative lookback (f_TPR=r{(N+1)*86400})
+#   and filters by date_posted to keep only the target day's jobs. This ensures
+#   each worker's result set stays well under the 1000-card cap.
+#
+# Worker counts are determined by config.json → locations.linkedin_partitions
+# and search_terms.linkedin. If linkedin_partitions is empty, the workflow
+# falls back to single-run backfill (--linkedin-backfill).
+#
+# Both phases run sequentially (Phase 2 starts after Phase 1 merge completes).
+# Each phase: emit-matrix → fan-out (parallel) → merge + commit.
+#
+# Trigger manually via Actions → "LinkedIn Backfill (Parallel)" → Run workflow.
+on:
+  workflow_dispatch:
+
+jobs:
+  # ─── Phase 1: Low-volume locations ────────────────────────────────────────
+  emit-matrix-phase1:
+    name: Emit matrix (Phase 1 — low-volume)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      matrix: ${{ steps.emit.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Write config.json from secret
+        run: echo "$CONFIG_JSON" > config.json
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+      - name: Emit Phase 1 work matrix
+        id: emit
+        run: python scrape_jobs.py --linkedin-emit-matrix --phase low
+      - name: Upload matrix (debugging)
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-matrix-phase1
+          path: output/linkedin_matrix.json
+          retention-days: 1
+
+  fanout-phase1:
+    name: Phase 1 — ${{ matrix.partition.partition_key }}
+    needs: emit-matrix-phase1
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        partition: ${{ fromJson(needs.emit-matrix-phase1.outputs.matrix) }}
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Write config.json from secret
+        run: echo "$CONFIG_JSON" > config.json
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+      - name: Write partition spec
+        run: echo '${{ toJSON(matrix.partition) }}' > output/partition_spec.json
+      - name: Scrape partition
+        run: python scrape_jobs.py --linkedin-backfill-partition output/partition_spec.json
+      - name: Upload partition results
+        uses: actions/upload-artifact@v4
+        with:
+          name: linkedin-partition-${{ matrix.partition.partition_key }}
+          path: output/linkedin_partition_*.json
+          retention-days: 1
+
+  merge-phase1:
+    name: Merge Phase 1 + commit
+    needs: fanout-phase1
+    runs-on: ubuntu-latest
+    concurrency:
+      group: job-scraper-commit-push
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Write config.json from secret
+        run: echo "$CONFIG_JSON" > config.json
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+      - name: Download all Phase 1 artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: linkedin-partition-*
+          merge-multiple: true
+          path: output/
+      - name: Sync to latest origin/main before merge
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+      - name: Merge partition results
+        run: python scrape_jobs.py --linkedin-merge-backfill
+      - name: Commit Phase 1 results
+        if: vars.ENABLE_DATA_COMMITS == 'true'
+        run: |
+          git config user.name  "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add -f output/linkedin_jobs.json output/linkedin_jobs.md output/linkedin_jobs.html output/all_jobs.json output/deltas/
+          git diff --cached --quiet || git commit -m "chore: linkedin backfill phase 1 [$(date -u '+%Y-%m-%d %H:%MZ')]"
+          git pull --rebase -X theirs origin main
+          git push
+
+  # ─── Phase 2: High-volume locations (1-day slices) ───────────────────────
+  emit-matrix-phase2:
+    name: Emit matrix (Phase 2 — high-volume day slices)
+    needs: merge-phase1
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      matrix: ${{ steps.emit.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Write config.json from secret
+        run: echo "$CONFIG_JSON" > config.json
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+      - name: Emit Phase 2 work matrix
+        id: emit
+        run: python scrape_jobs.py --linkedin-emit-matrix --phase high
+      - name: Upload matrix (debugging)
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-matrix-phase2
+          path: output/linkedin_matrix.json
+          retention-days: 1
+
+  fanout-phase2:
+    name: Phase 2 — ${{ matrix.partition.partition_key }}
+    needs: emit-matrix-phase2
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        partition: ${{ fromJson(needs.emit-matrix-phase2.outputs.matrix) }}
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Write config.json from secret
+        run: echo "$CONFIG_JSON" > config.json
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+      - name: Write partition spec
+        run: echo '${{ toJSON(matrix.partition) }}' > output/partition_spec.json
+      - name: Scrape partition (day slice)
+        run: python scrape_jobs.py --linkedin-backfill-partition output/partition_spec.json
+      - name: Upload partition results
+        uses: actions/upload-artifact@v4
+        with:
+          name: linkedin-partition-${{ matrix.partition.partition_key }}
+          path: output/linkedin_partition_*.json
+          retention-days: 1
+
+  merge-phase2:
+    name: Merge Phase 2 + commit
+    needs: fanout-phase2
+    runs-on: ubuntu-latest
+    concurrency:
+      group: job-scraper-commit-push
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Write config.json from secret
+        run: echo "$CONFIG_JSON" > config.json
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+      - name: Download all Phase 2 artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: linkedin-partition-*
+          merge-multiple: true
+          path: output/
+      - name: Sync to latest origin/main before merge
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+      - name: Merge partition results
+        run: python scrape_jobs.py --linkedin-merge-backfill
+      - name: Record workflow run
+        run: |
+          python - <<'EOF'
+          import json
+          import os
+          from datetime import datetime, timezone
+
+          with open("output/linkedin_jobs.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          entry = {
+              "workflow": "linkedin-backfill-2phase",
+              "timestamp": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+              "job_count": int(data.get("total", 0)),
+              "run_id": os.environ.get("GITHUB_RUN_ID", ""),
+              "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT", ""),
+          }
+
+          with open("output/workflow_runs.jsonl", "a", encoding="utf-8") as f:
+              f.write(json.dumps(entry, sort_keys=True) + "\n")
+          EOF
+      - name: Commit Phase 2 results
+        if: vars.ENABLE_DATA_COMMITS == 'true'
+        run: |
+          git config user.name  "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add -f output/linkedin_jobs.json output/linkedin_jobs.md output/linkedin_jobs.html output/workflow_runs.jsonl output/all_jobs.json output/notified.json output/deltas/
+          git diff --cached --quiet || git commit -m "chore: linkedin backfill phase 2 (high-volume day slices) [$(date -u '+%Y-%m-%d %H:%MZ')]"
+          git pull --rebase -X theirs origin main
+          git push
