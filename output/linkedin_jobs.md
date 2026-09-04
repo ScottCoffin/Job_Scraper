@@ -1,13 +1,13 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-09-03 21:55 UTC*
+*Last updated: 2026-09-04 00:19 UTC*
 
 **2 new role(s)** since last run · 2 total in last 1h
 
-### [Manager of Water Resources and Supply Strategy](https://www.linkedin.com/jobs/view/4463129423/) — H2O America
-- 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $191,018.00 - $233,466.00
-- 🕒 **Posted:** 2026-09-03
+### [Environmental Specialist I](https://www.linkedin.com/jobs/view/4463139892/) — Veolia | North America
+- 📍 **Location:** Hillsboro, OR
+- 🕒 **Posted:** 2026-09-04
 
-### [Toxicology Director](https://www.linkedin.com/jobs/view/4429982477/) — Proclinical Staffing
-- 📍 **Location:** San Francisco Bay Area
+### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4438353798/) — Rosendin
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $80,000.00/yr - $95,000.00/yr
 - 🕒 **Posted:** 2026-09-03
