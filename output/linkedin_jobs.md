@@ -1,9 +1,13 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-09-05 00:19 UTC*
+*Last updated: 2026-09-05 01:27 UTC*
 
-**1 new role(s)** since last run · 5 total in last 1h
+**2 new role(s)** since last run · 2 total in last 1h
 
-### [Onsite Resource Specialist (Natural Resource Specialist 3 – Environmental Health Specialist / Natural Resource Specialist 3 – Underfill)](https://www.linkedin.com/jobs/view/4463665547/) — State of Oregon
-- 📍 **Location:** Salem, OR
-- 💰 **Salary:** $5,712.00/mo - $8,757.00/mo
-- 🕒 **Posted:** 2026-09-04
+### [Environmental Specialist](https://www.linkedin.com/jobs/view/4463675254/) — CDMS
+- 📍 **Location:** Long Beach, CA
+- 🕒 **Posted:** 2026-09-05
+
+### [Environmental Scientist II](https://www.linkedin.com/jobs/view/4462340795/) — HydroGeoLogic, Inc.
+- 📍 **Location:** Pleasanton, CA
+- 💰 **Salary:** $73,512.00/yr - $106,593.00/yr
+- 🕒 **Posted:** 2026-09-05
