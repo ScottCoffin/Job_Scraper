@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-05 18:20 UTC",
+  "scraped_at": "2026-09-06 18:20 UTC",
   "total": 14,
-  "new_count": 2,
+  "new_count": 0,
   "jobs": [
     {
       "company": "County of Riverside",
@@ -13,21 +13,21 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "County of Mendocino",
-      "title": "Environmental Health Manager",
-      "location": "Ukiah, CA",
-      "url": "https://www.governmentjobs.com/jobs/5461125-0/environmental-health-manager",
-      "date_posted": "",
-      "salary": "$97,032.00 - $117,936.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
       "company": "County of Fresno",
       "title": "ENVIRONMENTAL HEALTH AIDE",
       "location": "Fresno County, CA",
       "url": "https://www.governmentjobs.com/jobs/5463618-0/environmental-health-aide",
       "date_posted": "",
       "salary": "$46,306.00 - $59,098.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Mendocino",
+      "title": "Environmental Health Manager",
+      "location": "Ukiah, CA",
+      "url": "https://www.governmentjobs.com/jobs/5461125-0/environmental-health-manager",
+      "date_posted": "",
+      "salary": "$97,032.00 - $117,936.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -130,24 +130,5 @@
       "ats": "NEOGOV"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "County of Monterey",
-      "title": "Environmental Health Specialist IV",
-      "location": "Salinas, CA",
-      "url": "https://www.governmentjobs.com/jobs/5451489-0/environmental-health-specialist-iv",
-      "date_posted": "",
-      "salary": "$8,129.33 - $11,097.49 Monthly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Detroit",
-      "title": "Environmental Health Specialist II/I (Health & Wellness Department)",
-      "location": "Michigan, MI",
-      "url": "https://www.governmentjobs.com/jobs/5466356-0/environmental-health-specialist-ii-i-health-wellness-department",
-      "date_posted": "",
-      "salary": "$59,085.00 - $76,751.00 Annually",
-      "ats": "NEOGOV"
-    }
-  ]
+  "new_jobs": []
 }
