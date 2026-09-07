@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-09-06 18:20 UTC",
-  "total": 14,
+  "scraped_at": "2026-09-07 19:59 UTC",
+  "total": 12,
   "new_count": 0,
   "jobs": [
     {
@@ -103,30 +103,12 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "City of Santa Rosa",
-      "title": "Environmental Specialist I/II",
-      "location": "MSCS-69 Stony Circle Santa Rosa, CA",
-      "url": "https://www.governmentjobs.com/jobs/5401336-0/environmental-specialist-i-ii",
-      "date_posted": "",
-      "salary": "$94,906.00 - $129,466.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
       "company": "Brevard County Board of County Commissioners",
       "title": "Associate Environmental Specialist (23394)",
       "location": "Melbourne, FL",
       "url": "https://www.governmentjobs.com/jobs/148696-1/associate-environmental-specialist-23394",
       "date_posted": "",
       "salary": "",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Folsom",
-      "title": "Senior Environmental Specialist - Recycling",
-      "location": "Folsom, CA",
-      "url": "https://www.governmentjobs.com/jobs/5427827-0/senior-environmental-specialist-recycling",
-      "date_posted": "",
-      "salary": "$81,379.33 - $103,088.89 Annually",
       "ats": "NEOGOV"
     }
   ],
