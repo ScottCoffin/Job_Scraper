@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-05 17:32 UTC",
+  "scraped_at": "2026-09-07 19:21 UTC",
   "total": 9,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Defense Health Agency",
@@ -85,15 +85,5 @@
       "ats": "USAJOBS"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "National Park Service",
-      "title": "Environmental Protection Specialist",
-      "location": "Baker, Nevada",
-      "url": "https://www.usajobs.gov/job/883228700",
-      "date_posted": "2026-09-03",
-      "salary": "Starting at $61,722 Per year (GS 9-11)",
-      "ats": "USAJOBS"
-    }
-  ]
+  "new_jobs": []
 }
