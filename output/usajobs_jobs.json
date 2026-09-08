@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-07 19:21 UTC",
+  "scraped_at": "2026-09-08 18:56 UTC",
   "total": 9,
-  "new_count": 0,
+  "new_count": 1,
   "jobs": [
     {
       "company": "Defense Health Agency",
@@ -22,21 +22,21 @@
       "ats": "USAJOBS"
     },
     {
+      "company": "Bureau of Prisons/Federal Prison System",
+      "title": "Environmental Protection Specialist",
+      "location": "Atlanta, Georgia",
+      "url": "https://www.usajobs.gov/job/883706600",
+      "date_posted": "2026-09-08",
+      "salary": "Starting at $78,972 Per year (GS 11)",
+      "ats": "USAJOBS"
+    },
+    {
       "company": "National Park Service",
       "title": "Environmental Protection Specialist",
       "location": "Baker, Nevada",
       "url": "https://www.usajobs.gov/job/883228700",
       "date_posted": "2026-09-03",
       "salary": "Starting at $61,722 Per year (GS 9-11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "National Park Service",
-      "title": "Environmental Protection Specialist (Temporary)",
-      "location": "West Glacier, Montana",
-      "url": "https://www.usajobs.gov/job/883109700",
-      "date_posted": "2026-09-01",
-      "salary": "Starting at $29.57 Per hour (GS 9)",
       "ats": "USAJOBS"
     },
     {
@@ -85,5 +85,15 @@
       "ats": "USAJOBS"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Bureau of Prisons/Federal Prison System",
+      "title": "Environmental Protection Specialist",
+      "location": "Atlanta, Georgia",
+      "url": "https://www.usajobs.gov/job/883706600",
+      "date_posted": "2026-09-08",
+      "salary": "Starting at $78,972 Per year (GS 11)",
+      "ats": "USAJOBS"
+    }
+  ]
 }
