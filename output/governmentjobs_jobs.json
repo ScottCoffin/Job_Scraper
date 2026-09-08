@@ -1,26 +1,8 @@
 {
-  "scraped_at": "2026-09-07 19:59 UTC",
-  "total": 12,
-  "new_count": 0,
+  "scraped_at": "2026-09-08 19:26 UTC",
+  "total": 13,
+  "new_count": 2,
   "jobs": [
-    {
-      "company": "County of Riverside",
-      "title": "Associate Environmental Specialist (Regulatory and Environmental Planner)",
-      "location": "Riverside",
-      "url": "https://www.governmentjobs.com/jobs/5468118-0/associate-environmental-specialist-regulatory-and-environmental-planner",
-      "date_posted": "",
-      "salary": "$86,740.16 - $132,980.74 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Fresno",
-      "title": "ENVIRONMENTAL HEALTH AIDE",
-      "location": "Fresno County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5463618-0/environmental-health-aide",
-      "date_posted": "",
-      "salary": "$46,306.00 - $59,098.00 Annually",
-      "ats": "NEOGOV"
-    },
     {
       "company": "County of Mendocino",
       "title": "Environmental Health Manager",
@@ -55,6 +37,15 @@
       "url": "https://www.governmentjobs.com/jobs/5466356-0/environmental-health-specialist-ii-i-health-wellness-department",
       "date_posted": "",
       "salary": "$59,085.00 - $76,751.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Los Angeles",
+      "title": "ENVIRONMENTAL HEALTH SPECIALIST III / EMERGENCY APPOINTMENT HOMELESSNESS",
+      "location": "Los Angeles County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5405382-0/environmental-health-specialist-iii-emergency-appointment-homelessness",
+      "date_posted": "",
+      "salary": "$77,181.84 - $104,006.16 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -103,6 +94,15 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "County of Riverside",
+      "title": "Associate Environmental Specialist (Regulatory and Environmental Planner)",
+      "location": "Riverside",
+      "url": "https://www.governmentjobs.com/jobs/5468118-0/associate-environmental-specialist-regulatory-and-environmental-planner",
+      "date_posted": "",
+      "salary": "$86,740.16 - $132,980.74 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "Brevard County Board of County Commissioners",
       "title": "Associate Environmental Specialist (23394)",
       "location": "Melbourne, FL",
@@ -110,7 +110,35 @@
       "date_posted": "",
       "salary": "",
       "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Folsom",
+      "title": "Senior Environmental Specialist - Recycling",
+      "location": "Folsom, CA",
+      "url": "https://www.governmentjobs.com/jobs/5427827-0/senior-environmental-specialist-recycling",
+      "date_posted": "",
+      "salary": "$81,379.33 - $103,088.89 Annually",
+      "ats": "NEOGOV"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "County of Los Angeles",
+      "title": "ENVIRONMENTAL HEALTH SPECIALIST III / EMERGENCY APPOINTMENT HOMELESSNESS",
+      "location": "Los Angeles County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5405382-0/environmental-health-specialist-iii-emergency-appointment-homelessness",
+      "date_posted": "",
+      "salary": "$77,181.84 - $104,006.16 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Folsom",
+      "title": "Senior Environmental Specialist - Recycling",
+      "location": "Folsom, CA",
+      "url": "https://www.governmentjobs.com/jobs/5427827-0/senior-environmental-specialist-recycling",
+      "date_posted": "",
+      "salary": "$81,379.33 - $103,088.89 Annually",
+      "ats": "NEOGOV"
+    }
+  ]
 }
