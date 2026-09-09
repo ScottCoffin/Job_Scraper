@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-09 05:04 UTC",
+  "scraped_at": "2026-09-09 05:22 UTC",
   "total": 3,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Teichert Construction",
@@ -58,24 +58,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Teichert Construction",
-      "title": "Air Quality Specialist",
-      "location": "Sacramento, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=fe9782a900ada30d",
-      "direct_url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25806&siteid=5117&PageType=JobDetails&jobid=861655",
-      "company_url": "https://www.indeed.com/cmp/Teichert-Construction-1",
-      "date_posted": "2026-09-08",
-      "description": "**Purpose**\n  \n\nThe Air Quality Specialist / Engineer is responsible for preparing and submitting air quality permit applications for Teichert Materials stationary and portable equipment operations across California and western Nevada. The primary focus of this role is permitting: compiling emissions data for reporting, quantifying source emissions, preparing Authority to Construct (ATC) and Permit to Operate (PTO) applications, and managing them through district review to issuance.\n  \n\n  \n\nThis role serves as the company's technical resource for New Source Review, Best Available Control Technology (BACT) and toxics evaluations, CARB portable equipment (PERP) registration, and coordination with local air districts, the Nevada Division of Environmental Protection (NDEP), and Northern Nevada Public Health. The Air Quality Specialist / Engineer supports facility\\- and equipment\\-level compliance, tracks permit conditions and renewal deadlines, and drives regulatory readiness and risk mitigation across the Teichert Family of Companies.\n  \n\n  \n\n**Focus \\& Scope**\n  \n\n*Essential duties and responsibilities, i.e. those which are basic, necessary, and an integral part of the job, are indicated below:*\n  \n\n  \n\n**Air Quality Permitting and Regulatory Analysis**\n\n\n* Prepare, submit, and manage complete and technically defensible air quality permit applications for new, modified, relocated, stationary, and portable equipment and sources, including Authority to Construct (ATC), Permit to Operate (PTO), and applicable portable equipment registrations.\n\n\n* Quantify source\\-specific emissions, including NOx, SOx, CO, VOC, PM/PM10/PM2\\.5, and toxic air contaminants, using applicable regulatory methodologies, emission factors, and accepted calculation methods.\n\n\n* Evaluate projects, facilities, and equipment to determine applicable permitting requirements, including exemptions, New Source Review, Best Available Control Technology (BACT), offsets, air toxics requirements, and other federal, state, and local regulatory requirements.\n\n\n* Review draft permit conditions prior to ATC issuance, and negotiate practical, enforceable condition language with district permit engineers to minimize operational and compliance burden while meeting air quality standards.\n\n\n* Manage permit applications through agency review and issuance, including responding to completeness determinations, deficiency notices, and technical inquiries; evaluating proposed permit conditions; and working with regulatory agencies to establish practical and enforceable permit requirements.\n\n\n* Coordinate air quality permitting with California Environmental Quality Act (CEQA) review and other regulatory processes when applicable.\n\n\n**Regulatory Compliance and Reporting**\n* Maintain and administer air quality permits, registrations, compliance obligations, and regulatory deadlines for Company operations, including permit and registration renewals, monitoring, recordkeeping, emissions inventories, testing, and reporting requirements.\n\n\n* Prepare and submit required air quality regulatory reports and inventories, including applicable criteria pollutant and toxic air contaminant reporting, CARB Criteria and Toxics Reporting (CTR), greenhouse gas reporting, and AB 2588 Air Toxics “Hot Spots” reporting.\n\n\n* Administer applicable AB 2588 requirements, including toxic air contaminant emissions inventories, prioritization and risk screening, and coordination of required health risk assessments, public notifications, or risk\\-reduction activities.\n\n\n* Coordinate and oversee source (stack) testing for stationary equipment — scheduling required tests with certified testing firms, preparing and submitting source test protocols for district approval, coordinating district witnessing, and reviewing test reports for compliance with permit conditions and applicable emission limits.\n\n\n* Monitor facility and equipment compliance with applicable permit conditions and regulatory requirements, including fuel usage, throughput, hours of operation, emission limits, monitoring, recordkeeping, and reporting obligations; identify compliance risks and coordinate appropriate corrective actions.\n\n\n**Technical Evaluation and Field Support**\n* Regularly access and evaluate active materials facilities, plants, equipment areas, and project sites to conduct source evaluations, obtain equipment and operational information, observe operating conditions, and support permitting and compliance activities (approximately 30% of work time, with the remaining time performing office\\-based permitting, analysis, and reporting functions). Site conditions may include uneven terrain, stairs or elevated areas, heavy moving equipment, dust, noise, and outdoor weather conditions.\n\n\n* Conduct or coordinate on\\-site evaluations of Company facilities, equipment, and project sites to identify applicable air quality permitting and compliance requirements and obtain technical and operational information necessary to support regulatory determinations, applications, and reporting.\n\n\n* Coordinate required source testing and other compliance evaluations, including test planning, regulatory agency coordination, review of technical results, and identification and resolution of potential compliance issues.\n\n\n* Provide technical guidance to operations, equipment, environmental, and project teams regarding air quality permitting and compliance requirements so regulatory considerations can be addressed during project planning, equipment acquisition or relocation, installation, and ongoing operations.\n\n\n**Agency and Organizational Representation**\n* Serve as a Company technical representative and liaison with local Air Pollution Control Districts and Air Quality Management Districts, the California Air Resources Board (CARB), Nevada Division of Environmental Protection (NDEP), Northern Nevada Public Health (NNPH), consultants, testing firms, vendors, and other external parties regarding air quality permitting and ",
-      "salary": "$108k–$150k/yr",
-      "salary_source": "direct_data",
-      "salary_currency": "USD",
-      "job_type": "",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "RMaxey@teichert.com",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
