@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-09 19:19 UTC",
-  "total": 12,
-  "new_count": 4,
+  "scraped_at": "2026-09-10 19:09 UTC",
+  "total": 14,
+  "new_count": 5,
   "jobs": [
     {
       "company": "County of Mendocino",
@@ -19,24 +19,6 @@
       "url": "https://www.governmentjobs.com/jobs/5451489-0/environmental-health-specialist-iv",
       "date_posted": "",
       "salary": "$8,129.33 - $11,097.49 Monthly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Lake",
-      "title": "Environmental Health Specialist I/II/Senior",
-      "location": "Lake County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5462563-0/environmental-health-specialist-i-ii-senior",
-      "date_posted": "",
-      "salary": "$60,174.40 - $93,641.60 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Detroit",
-      "title": "Environmental Health Specialist II/I (Health & Wellness Department)",
-      "location": "Michigan, MI",
-      "url": "https://www.governmentjobs.com/jobs/5466356-0/environmental-health-specialist-ii-i-health-wellness-department",
-      "date_posted": "",
-      "salary": "$59,085.00 - $76,751.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -58,21 +40,30 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "County of Santa Clara",
+      "title": "Senior Environmental Health Specialist",
+      "location": "Throughout the County of Santa Clara, CA",
+      "url": "https://www.governmentjobs.com/jobs/5452512-0/senior-environmental-health-specialist",
+      "date_posted": "",
+      "salary": "$125,440.64 - $151,925.28 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "St. Louis County",
+      "title": "Environmental Healthy Homes Representative",
+      "location": "Berkeley Mo. 63134, MO",
+      "url": "https://www.governmentjobs.com/jobs/5466689-0/environmental-healthy-homes-representative",
+      "date_posted": "",
+      "salary": "",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "City of Burbank",
       "title": "WATER QUALITY ANALYST",
       "location": "Burbank, CA",
       "url": "https://www.governmentjobs.com/jobs/5454494-0/water-quality-analyst",
       "date_posted": "",
       "salary": "$102,750.44 - $141,642.54 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Corvallis",
-      "title": "Water Quality Analyst",
-      "location": "City of Corvallis, OR",
-      "url": "https://www.governmentjobs.com/jobs/5455854-0/water-quality-analyst",
-      "date_posted": "",
-      "salary": "$32.88 - $41.81 Hourly",
       "ats": "NEOGOV"
     },
     {
@@ -91,6 +82,33 @@
       "url": "https://www.governmentjobs.com/jobs/149374-1/air-quality-specialist-i-ii",
       "date_posted": "",
       "salary": "$6,782.53 - $8,469.07 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Bay Area Air District",
+      "title": "Senior Air Quality Specialist (Regulatory Development)",
+      "location": "San Francisco, CA",
+      "url": "https://www.governmentjobs.com/jobs/5477091-0/senior-air-quality-specialist-regulatory-development",
+      "date_posted": "",
+      "salary": "$133,533.57 - $162,310.88 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Orange",
+      "title": "HAZARDOUS MATERIALS SPECIALIST I",
+      "location": "Santa Ana, CA",
+      "url": "https://www.governmentjobs.com/jobs/5477314-0/hazardous-materials-specialist-i",
+      "date_posted": "",
+      "salary": "$63,044.80 - $84,968.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Orange",
+      "title": "HAZARDOUS MATERIALS SPECIALIST II",
+      "location": "Santa Ana, CA",
+      "url": "https://www.governmentjobs.com/jobs/5477352-0/hazardous-materials-specialist-ii",
+      "date_posted": "",
+      "salary": "$76,190.40 - $102,731.20 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -114,39 +132,48 @@
   ],
   "new_jobs": [
     {
-      "company": "County of Los Angeles",
-      "title": "ENVIRONMENTAL HEALTH SPECIALIST II / EMERGENCY APPOINTMENT HOMELESSNESS",
-      "location": "Los Angeles County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5405359-0/environmental-health-specialist-ii-emergency-appointment-homelessness",
+      "company": "County of Santa Clara",
+      "title": "Senior Environmental Health Specialist",
+      "location": "Throughout the County of Santa Clara, CA",
+      "url": "https://www.governmentjobs.com/jobs/5452512-0/senior-environmental-health-specialist",
       "date_posted": "",
-      "salary": "$74,012.88 - $94,477.20 Annually",
+      "salary": "$125,440.64 - $151,925.28 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "Placer County",
-      "title": "Air Quality Specialist I/II",
-      "location": "Auburn, CA",
-      "url": "https://www.governmentjobs.com/jobs/149374-1/air-quality-specialist-i-ii",
+      "company": "St. Louis County",
+      "title": "Environmental Healthy Homes Representative",
+      "location": "Berkeley Mo. 63134, MO",
+      "url": "https://www.governmentjobs.com/jobs/5466689-0/environmental-healthy-homes-representative",
       "date_posted": "",
-      "salary": "$6,782.53 - $8,469.07 Monthly",
+      "salary": "",
       "ats": "NEOGOV"
     },
     {
-      "company": "County of Mendocino",
-      "title": "Hazardous Materials Operations Specialist",
-      "location": "Ukiah, CA",
-      "url": "https://www.governmentjobs.com/jobs/5473934-0/hazardous-materials-operations-specialist",
+      "company": "Bay Area Air District",
+      "title": "Senior Air Quality Specialist (Regulatory Development)",
+      "location": "San Francisco, CA",
+      "url": "https://www.governmentjobs.com/jobs/5477091-0/senior-air-quality-specialist-regulatory-development",
       "date_posted": "",
-      "salary": "$70,345.60 - $85,488.00 Annually",
+      "salary": "$133,533.57 - $162,310.88 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "City of Sunnyvale",
-      "title": "Senior Hazardous Materials Inspector",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.governmentjobs.com/jobs/5468792-0/senior-hazardous-materials-inspector",
+      "company": "County of Orange",
+      "title": "HAZARDOUS MATERIALS SPECIALIST I",
+      "location": "Santa Ana, CA",
+      "url": "https://www.governmentjobs.com/jobs/5477314-0/hazardous-materials-specialist-i",
       "date_posted": "",
-      "salary": "$77.19 - $98.51 Hourly",
+      "salary": "$63,044.80 - $84,968.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Orange",
+      "title": "HAZARDOUS MATERIALS SPECIALIST II",
+      "location": "Santa Ana, CA",
+      "url": "https://www.governmentjobs.com/jobs/5477352-0/hazardous-materials-specialist-ii",
+      "date_posted": "",
+      "salary": "$76,190.40 - $102,731.20 Annually",
       "ats": "NEOGOV"
     }
   ]

@@ -1,7 +1,27 @@
 {
-  "scraped_at": "2026-09-09 19:19 UTC",
-  "total": 0,
-  "new_count": 0,
-  "jobs": [],
-  "new_jobs": []
+  "scraped_at": "2026-09-10 19:09 UTC",
+  "total": 1,
+  "new_count": 1,
+  "jobs": [
+    {
+      "company": "Sunnyvale",
+      "title": "Senior Hazardous Materials Inspector",
+      "location": "South Bay",
+      "url": "https://www.calopps.org/sunnyvale/job-20775453",
+      "date_posted": "",
+      "salary": "$77.19-$98.51 Hourly",
+      "ats": "CalOpps"
+    }
+  ],
+  "new_jobs": [
+    {
+      "company": "Sunnyvale",
+      "title": "Senior Hazardous Materials Inspector",
+      "location": "South Bay",
+      "url": "https://www.calopps.org/sunnyvale/job-20775453",
+      "date_posted": "",
+      "salary": "$77.19-$98.51 Hourly",
+      "ats": "CalOpps"
+    }
+  ]
 }

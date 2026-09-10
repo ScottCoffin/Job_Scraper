@@ -1,6 +1,8 @@
 # 🏛 CalOpps — California Local-Agency Environmental / Toxicology Roles
-*Last updated: 2026-09-09 19:19 UTC*
+*Last updated: 2026-09-10 19:09 UTC*
 
-**0 new role(s)** since last run · 0 total in recent CalOpps postings
+**1 new role(s)** since last run · 1 total in recent CalOpps postings
 
-No new CalOpps roles since the last run.
+### [Senior Hazardous Materials Inspector](https://www.calopps.org/sunnyvale/job-20775453) — Sunnyvale
+- 📍 **Location:** South Bay
+- 💰 **Salary:** $77.19-$98.51 Hourly
