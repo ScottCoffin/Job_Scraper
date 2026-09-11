@@ -32,6 +32,12 @@ jobs:
 
     permissions:
       contents: write
+      # Upstream may add/change files under .github/workflows/ (e.g. new
+      # watcher workflows). Pushing those requires this extra scope — without
+      # it GitHub rejects the push with "refusing to allow a GitHub App to
+      # create or update workflow ... without `workflows` permission",
+      # even though contents:write is already granted.
+      workflows: write
 
     steps:
       - name: Checkout repo
