@@ -1,11 +1,10 @@
 # 🟦 Indeed — Environmental / Toxicology Roles
-*Last updated: 2026-09-11 21:22 UTC*
+*Last updated: 2026-09-11 23:33 UTC*
 
-**1 new role(s)** since last run · 4 total in last 24h
+**1 new role(s)** since last run · 5 total in last 24h
 
-### [ENVIRONMENTAL SCIENTIST](https://www.indeed.com/viewjob?jk=2475fadf9783070b) — DEPARTMENT OF FISH AND WILDLIFE
-- 📍 **Location:** CA, US
-- 💰 **Salary:** $4418–$9321/mo
+### [Principal Environmental Specialist – Project Design & Development - Public Works (5644)](https://www.indeed.com/viewjob?jk=c163d428bf2db668) — City and County of San Francisco
+- 📍 **Location:** San Francisco, CA, US
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-09-11
