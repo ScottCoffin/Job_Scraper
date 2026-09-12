@@ -1,20 +1,8 @@
 {
-  "scraped_at": "2026-09-11 19:08 UTC",
-  "total": 15,
+  "scraped_at": "2026-09-12 18:19 UTC",
+  "total": 14,
   "new_count": 0,
   "jobs": [
-    {
-      "company": "Department of Water Resources",
-      "title": "Environmental Scientist",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=530112",
-      "date_posted": "2026-09-10",
-      "salary": "$4418.00 - $9321.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
     {
       "company": "Department of Toxic Substances Control",
       "title": "Environmental Scientist",
@@ -40,11 +28,23 @@
       "work_arrangement": "On-site"
     },
     {
-      "company": "Department of Resources Recycling & Recovery",
+      "company": "Department of Water Resources",
       "title": "Environmental Scientist",
       "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=522430",
-      "date_posted": "2026-08-31",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=530112",
+      "date_posted": "2026-09-10",
+      "salary": "$4418.00 - $9321.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
+      "company": "State Water Resources Control Board",
+      "title": "Environmental Scientist",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=530436",
+      "date_posted": "2026-09-09",
       "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
@@ -64,28 +64,16 @@
       "work_arrangement": "On-site"
     },
     {
-      "company": "State Water Resources Control Board",
+      "company": "Department of Resources Recycling & Recovery",
       "title": "Environmental Scientist",
-      "location": "San Diego County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=528311",
-      "date_posted": "2026-08-12",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=522430",
+      "date_posted": "2026-08-31",
       "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
       "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "Department of Water Resources",
-      "title": "Environmental Scientist",
-      "location": "Tehama County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=528436",
-      "date_posted": "2026-08-20",
-      "salary": "$4418.00 - $9321.00",
-      "ats": "CalCareers",
-      "telework": "In Office",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "On-site"
     },
     {
       "company": "Department of Fish and Wildlife",
@@ -112,12 +100,12 @@
       "work_arrangement": "On-site"
     },
     {
-      "company": "State Water Resources Control Board",
-      "title": "Attorney V, Water Quality",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=529788",
-      "date_posted": "2026-08-26",
-      "salary": "$12659.00 - $16883.00",
+      "company": "Department of Cannabis Control",
+      "title": "Environmental Scientist",
+      "location": "Los Angeles County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=530686",
+      "date_posted": "2026-09-09",
+      "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
@@ -125,11 +113,11 @@
     },
     {
       "company": "State Water Resources Control Board",
-      "title": "Environmental Scientist",
+      "title": "Attorney V, Water Quality",
       "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=530436",
-      "date_posted": "2026-09-09",
-      "salary": "$4418.00 - $9321.00",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=529788",
+      "date_posted": "2026-08-26",
+      "salary": "$12659.00 - $16883.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
