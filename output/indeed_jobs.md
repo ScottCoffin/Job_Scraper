@@ -1,10 +1,10 @@
 # 🟦 Indeed — Environmental / Toxicology Roles
-*Last updated: 2026-09-11 23:33 UTC*
+*Last updated: 2026-09-12 01:36 UTC*
 
-**1 new role(s)** since last run · 5 total in last 24h
+**1 new role(s)** since last run · 6 total in last 24h
 
-### [Principal Environmental Specialist – Project Design & Development - Public Works (5644)](https://www.indeed.com/viewjob?jk=c163d428bf2db668) — City and County of San Francisco
-- 📍 **Location:** San Francisco, CA, US
+### [Senior Environmental Specialist](https://www.indeed.com/viewjob?jk=508658f0c85e2d8b) — Golden State Water Company
+- 📍 **Location:** Anaheim, CA, US
+- 💰 **Salary:** $119k–$167k/yr
 - **Work mode:** On-site
-- **Job type:** fulltime
 - 🕒 **Posted:** 2026-09-11
