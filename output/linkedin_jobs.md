@@ -1,6 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-09-12 06:02 UTC*
+*Last updated: 2026-09-12 17:58 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Associate or Full Professor of Environmental Science and Policy and Program Director, Tenured, Augus](https://www.linkedin.com/jobs/view/4465409969/) — CHEManager International
+- 📍 **Location:** Orange, CA
+- 💰 **Salary:** $105,000 - $125,000
+- 🕒 **Posted:** 2026-09-12
