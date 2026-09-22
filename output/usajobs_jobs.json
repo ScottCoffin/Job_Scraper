@@ -1,15 +1,24 @@
 {
-  "scraped_at": "2026-09-08 18:56 UTC",
-  "total": 9,
-  "new_count": 1,
+  "scraped_at": "2026-09-22 19:11 UTC",
+  "total": 5,
+  "new_count": 3,
   "jobs": [
     {
       "company": "Defense Health Agency",
-      "title": "TOXICOLOGIST (FORENSIC)",
-      "location": "Dover AFB, Delaware",
-      "url": "https://www.usajobs.gov/job/882264900",
-      "date_posted": "2026-08-29",
-      "salary": "Starting at $138,595 Per year (GS 14)",
+      "title": "INTERDISCIPLINARY-BIOLOGIST/TOXICOLOGIST",
+      "location": "Aberdeen Proving Ground, Maryland",
+      "url": "https://www.usajobs.gov/job/884733100",
+      "date_posted": "2026-09-18",
+      "salary": "Starting at $85,447 Per year (GS 11-12)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Defense Health Agency",
+      "title": "SUPERVISORY INTERDISCIPLINARY-BIOLOGIST/TOXICOLOGIST",
+      "location": "Aberdeen Proving Ground, Maryland",
+      "url": "https://www.usajobs.gov/job/884350400",
+      "date_posted": "2026-09-16",
+      "salary": "Starting at $143,913 Per year (GS 14)",
       "ats": "USAJOBS"
     },
     {
@@ -18,61 +27,16 @@
       "location": "Kelly AFB, Texas",
       "url": "https://www.usajobs.gov/job/881345300",
       "date_posted": "2026-08-19",
-      "salary": "Starting at $76,463 Per year (NH 3)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Bureau of Prisons/Federal Prison System",
-      "title": "Environmental Protection Specialist",
-      "location": "Atlanta, Georgia",
-      "url": "https://www.usajobs.gov/job/883706600",
-      "date_posted": "2026-09-08",
-      "salary": "Starting at $78,972 Per year (GS 11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "National Park Service",
-      "title": "Environmental Protection Specialist",
-      "location": "Baker, Nevada",
-      "url": "https://www.usajobs.gov/job/883228700",
-      "date_posted": "2026-09-03",
-      "salary": "Starting at $61,722 Per year (GS 9-11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "U.S. Army Joint Munitions Command",
-      "title": "Environmental Protection Specialist",
-      "location": "Tooele Army Depot, Utah",
-      "url": "https://www.usajobs.gov/job/882557900",
-      "date_posted": "2026-08-31",
-      "salary": "Starting at $50,460 Per year (GS 7-11)",
+      "salary": "Starting at $90,823 Per year (NH 3)",
       "ats": "USAJOBS"
     },
     {
       "company": "Federal Highway Administration",
-      "title": "Supervisory Environmental Protection Specialist - DIRECT HIRE",
-      "location": "Lakewood, Colorado",
-      "url": "https://www.usajobs.gov/job/881730100",
-      "date_posted": "2026-08-24",
-      "salary": "Starting at $118,675 Per year (GS 13)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "U.S. Marine Corps",
-      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
-      "location": "Twentynine Palms, California",
-      "url": "https://www.usajobs.gov/job/881433100",
-      "date_posted": "2026-08-21",
-      "salary": "Starting at $71,957 Per year (GS 9-11)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "U.S. Marine Corps",
-      "title": "ENVIRONMENTAL PROTECTION SPECIALIST",
-      "location": "Twentynine Palms, California",
-      "url": "https://www.usajobs.gov/job/881455200",
-      "date_posted": "2026-08-21",
-      "salary": "Starting at $71,957 Per year (GS 9-11)",
+      "title": "Environmental Protection Specialist - Direct Hire",
+      "location": "Albany, New York",
+      "url": "https://www.usajobs.gov/job/884564700",
+      "date_posted": "2026-09-15",
+      "salary": "Starting at $92,344 Per year (GS 12)",
       "ats": "USAJOBS"
     },
     {
@@ -87,12 +51,30 @@
   ],
   "new_jobs": [
     {
-      "company": "Bureau of Prisons/Federal Prison System",
-      "title": "Environmental Protection Specialist",
-      "location": "Atlanta, Georgia",
-      "url": "https://www.usajobs.gov/job/883706600",
-      "date_posted": "2026-09-08",
-      "salary": "Starting at $78,972 Per year (GS 11)",
+      "company": "Defense Health Agency",
+      "title": "INTERDISCIPLINARY-BIOLOGIST/TOXICOLOGIST",
+      "location": "Aberdeen Proving Ground, Maryland",
+      "url": "https://www.usajobs.gov/job/884733100",
+      "date_posted": "2026-09-18",
+      "salary": "Starting at $85,447 Per year (GS 11-12)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Defense Health Agency",
+      "title": "SUPERVISORY INTERDISCIPLINARY-BIOLOGIST/TOXICOLOGIST",
+      "location": "Aberdeen Proving Ground, Maryland",
+      "url": "https://www.usajobs.gov/job/884350400",
+      "date_posted": "2026-09-16",
+      "salary": "Starting at $143,913 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Federal Highway Administration",
+      "title": "Environmental Protection Specialist - Direct Hire",
+      "location": "Albany, New York",
+      "url": "https://www.usajobs.gov/job/884564700",
+      "date_posted": "2026-09-15",
+      "salary": "Starting at $92,344 Per year (GS 12)",
       "ats": "USAJOBS"
     }
   ]
