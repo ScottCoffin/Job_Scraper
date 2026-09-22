@@ -1,9 +1,8 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-09-21 23:34 UTC*
+*Last updated: 2026-09-22 02:02 UTC*
 
 **1 new role(s)** since last run · 1 total in last 1h
 
-### [ENVIRONMENTAL SCIENTIST](https://www.linkedin.com/jobs/view/4468180234/) — Caltrans
-- 📍 **Location:** Oakland, CA
-- 💰 **Salary:** $4,418.00/mo - $9,321.00/mo
-- 🕒 **Posted:** 2026-09-21
+### [Water Agency Senior Environmental Specialist - Tribal Liaison](https://www.linkedin.com/jobs/view/4470229287/) — County of Sonoma
+- 📍 **Location:** Santa Rosa, CA
+- 🕒 **Posted:** 2026-09-22
