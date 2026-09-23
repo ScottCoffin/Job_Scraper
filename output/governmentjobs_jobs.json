@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-22 19:46 UTC",
-  "total": 11,
-  "new_count": 6,
+  "scraped_at": "2026-09-23 19:41 UTC",
+  "total": 6,
+  "new_count": 0,
   "jobs": [
     {
       "company": "El Paso County (CO)",
@@ -49,114 +49,14 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "County of Orange",
-      "title": "HAZARDOUS MATERIALS SPECIALIST I",
-      "location": "Santa Ana, CA",
-      "url": "https://www.governmentjobs.com/jobs/5477314-0/hazardous-materials-specialist-i",
-      "date_posted": "",
-      "salary": "$64,937.60 - $87,526.40 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Orange",
-      "title": "HAZARDOUS MATERIALS SPECIALIST II",
-      "location": "Santa Ana, CA",
-      "url": "https://www.governmentjobs.com/jobs/5477352-0/hazardous-materials-specialist-ii",
-      "date_posted": "",
-      "salary": "$78,478.40 - $105,809.60 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Mendocino",
-      "title": "Hazardous Materials Operations Specialist",
-      "location": "Ukiah, CA",
-      "url": "https://www.governmentjobs.com/jobs/5473934-0/hazardous-materials-operations-specialist",
-      "date_posted": "",
-      "salary": "$70,345.60 - $85,488.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Sunnyvale",
-      "title": "Senior Hazardous Materials Inspector",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.governmentjobs.com/jobs/5468792-0/senior-hazardous-materials-inspector",
-      "date_posted": "",
-      "salary": "$77.19 - $98.51 Hourly",
-      "ats": "NEOGOV"
-    },
-    {
       "company": "City of Oceanside",
       "title": "Watershed Protection Specialist I",
       "location": "Oceanside, CA",
       "url": "https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i",
       "date_posted": "",
       "salary": "$71,820.00 - $96,288.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Sacramento",
-      "title": "Environmental Specialist III",
-      "location": "Sacramento, CA",
-      "url": "https://www.governmentjobs.com/jobs/4967720-0/environmental-specialist-iii",
-      "date_posted": "",
-      "salary": "$103,105.44 - $125,321.76 Annually",
       "ats": "NEOGOV"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "El Paso County (CO)",
-      "title": "Environmental Health Specialist I/II",
-      "location": "Colorado Springs, CO",
-      "url": "https://www.governmentjobs.com/jobs/5488555-0/environmental-health-specialist-i-ii",
-      "date_posted": "",
-      "salary": "",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Santa Clara",
-      "title": "Senior Environmental Health Specialist",
-      "location": "Throughout the County of Santa Clara, CA",
-      "url": "https://www.governmentjobs.com/jobs/5452512-0/senior-environmental-health-specialist",
-      "date_posted": "",
-      "salary": "$125,440.64 - $151,925.28 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Placer County",
-      "title": "Air Quality Specialist I/II",
-      "location": "Auburn, CA",
-      "url": "https://www.governmentjobs.com/jobs/149374-1/air-quality-specialist-i-ii",
-      "date_posted": "",
-      "salary": "$6,782.53 - $8,469.07 Monthly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Bay Area Air District",
-      "title": "Senior Air Quality Specialist (Regulatory Development)",
-      "location": "San Francisco, CA",
-      "url": "https://www.governmentjobs.com/jobs/5477091-0/senior-air-quality-specialist-regulatory-development",
-      "date_posted": "",
-      "salary": "$133,533.57 - $162,310.88 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Oceanside",
-      "title": "Watershed Protection Specialist I",
-      "location": "Oceanside, CA",
-      "url": "https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i",
-      "date_posted": "",
-      "salary": "$71,820.00 - $96,288.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Sacramento",
-      "title": "Environmental Specialist III",
-      "location": "Sacramento, CA",
-      "url": "https://www.governmentjobs.com/jobs/4967720-0/environmental-specialist-iii",
-      "date_posted": "",
-      "salary": "$103,105.44 - $125,321.76 Annually",
-      "ats": "NEOGOV"
-    }
-  ]
+  "new_jobs": []
 }
