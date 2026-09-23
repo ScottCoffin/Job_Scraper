@@ -1,32 +1,38 @@
 # 🔎 Google Jobs — Environmental / Toxicology Roles
-*Last updated: 2026-09-23 19:51 UTC*
+*Last updated: 2026-09-23 23:13 UTC*
 
-**8 new role(s)** since last run · 8 total in last 24h
+**11 new role(s)** since last run · 13 total in last 24h
 
-### [ENVIRONMENTAL SCIENTIST](https://www.linkedin.com/jobs/view/environmental-scientist-at-caltrans-4470640199?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Caltrans
-- 📍 **Location:** San Luis Obispo, CA
-- 🕒 **Posted:** 4,418–9,321 a month
-
-### [Environmental Scientist - Flexible Field & Lab Testing](https://www.jobleads.com/us/job/environmental-scientist-flexible-field-lab-testing--anderson--ea20eb84a4ccd0f977fcc45e4e4e9fde3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — PEL Laboratories
-- 📍 **Location:** Anderson, CA
-
-### [Water Agency Senior Environmental Specialist - Tribal Liaison](https://www.careersingovernment.com/job/3077340/water-agency-senior-environmental-specialist-tribal-liaison/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Sonoma County, CA
-- 📍 **Location:** California
-
-### [Environmental Compliance Specialist](https://www.linkedin.com/jobs/view/environmental-compliance-specialist-at-pinnacle-recruitment-4468015871?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Pinnacle Recruitment
-- 📍 **Location:** California
+### [Environmental Health Specialist](https://www.ziprecruiter.com/c/FORENSIC-ANALYTICAL-CONSULTING-SERVICES-INC/Job/Environmental-Health-Specialist/-in-Citrus-Heights,CA?jid=fd52d942c3b408cc&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — FORENSIC ANALYTICAL CONSULTING SERVICES INC
+- 📍 **Location:** Citrus Heights, CA
 - 🕒 **Posted:** 2026-09-23
 
-### [Environmental Health Specialist I-II-III - Consumer Protection Programs (Open & Promotional)](https://www.governmentjobs.com/jobs/4973314-0/environmental-health-specialist-i-ii-iii-consumer-protection-programs-open-p?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — County of San Mateo
-- 📍 **Location:** California
-- 🕒 **Posted:** 7,579.87–11,778.00 a month
+### [Junior Clinical Documentation & Pulmonology Environmental Health Scientist for Insurance](https://listingspulse.shop/epigrapher-jobs-in-valparaiso-province?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Wesborough Windgrove Recruitment
+- 📍 **Location:** California City, CA
 
-### [Construction Associate Environmental Specialist- Solar](https://www.mortenson.com/careers/solar-group/construction-associate-environmental-specialist-solar-23009?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Mortenson
-- 📍 **Location:** California
+### [Ecotoxicologist (Ph.D.)](https://www.linkedin.com/jobs/view/ecotoxicologist-ph-d-at-exponent-4439496112?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Exponent
+- 📍 **Location:** Natick, MA
 
-### [Environmental Specialist I/II](https://jobs.cwea.org/jobs/583338478-environmental-specialist-i-ii-at-city-of-santa-rosa?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — City of Santa Rosa
-- 📍 **Location:** California
-- 🕒 **Posted:** 2026-08-24
+### [Ecotoxicologist](https://lazyapply.com/company/exponent-inc/jobs/ecotoxicologist-natick-office?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Exponent Inc.
+- 📍 **Location:** Natick, MA
 
-### [Environmental Science Officer](https://www.monster.com/job-openings/environmental-science-officer-portland-or--f2e6e4c0-eea0-4272-acb4-3aa902de44cb?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — United States Army
-- 📍 **Location:** Portland, OR
+### [Senior Ecotoxicologist](https://www.linkedin.com/jobs/view/senior-ecotoxicologist-at-huntsman-corporation-4460506726?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Huntsman Corporation
+- 📍 **Location:** The Woodlands, TX
+
+### [Environmental Scientist - Ecotoxicologist](https://www.simplyhired.com/job/9BI79mY6pEFsrIRco9Zt5Ls2kzkFt0ZMI1Mr55LiM1qo1AcNETLtpw?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Research Planning, Inc. (RPI)
+- 📍 **Location:** Charleston, SC
+
+### [Ecotoxicologist (PhD) — Data-Driven Environmental Scientist](https://www.terra.do/climate-jobs/job-board/Ecotoxicologist--PhD----Data-Driven-Environmental-Scientist-Exponent-8408086/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Exponent
+- 📍 **Location:** Natick, MA
+
+### [Senior Ecotoxicologist](https://www.ziprecruiter.com/c/huntsman/Job/Senior-Ecotoxicologist/-in-Houston,TX?jid=da9c38f00da7ffee&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Huntsman
+- 📍 **Location:** Anywhere
+
+### [Senior Ecotoxicologist — Remote Environmental Risk Expert](https://www.jobleads.com/us/job/senior-ecotoxicologist-remote-environmental-risk-expert--town-center--e6451ea3f83a66c9c56c73bf60adf9f1f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Huntsman
+- 📍 **Location:** Texas
+
+### [Senior Ecotoxicologist](https://www.jobleads.com/us/job/senior-ecotoxicologist--northern--e60bbbf2978831e7f0da8699f759b89c1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Huntsman
+- 📍 **Location:** Eastern, KY
+
+### [Senior Ecotoxicologist](https://us.trabajo.org/job-5380-f7b9586e1837c4108d20873b59da3cd3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) — Huntsman Corp
+- 📍 **Location:** Shenandoah, TX
