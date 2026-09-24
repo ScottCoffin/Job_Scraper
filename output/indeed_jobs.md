@@ -1,16 +1,11 @@
 # 🟦 Indeed — Environmental / Toxicology Roles
-*Last updated: 2026-09-24 01:00 UTC*
+*Last updated: 2026-09-24 06:45 UTC*
 
-**2 new role(s)** since last run · 6 total in last 24h
+**1 new role(s)** since last run · 4 total in last 24h
 
-### [Senior Technical Project Manager – Chlorinated Solvent Remediation](https://www.indeed.com/viewjob?jk=be6b851dad66b4c6) — Apex Companies, LLC
-- 📍 **Location:** Pleasant Hill, CA, US
-- 💰 **Salary:** $175k–$200k/yr
+### [Lecturer Pool - Department of Environmental Science, Policy, and Management - Rausser College of Natural Resources](https://www.indeed.com/viewjob?jk=afa5d474b28222b3) — University of California Berkeley
+- 📍 **Location:** Berkeley, CA, US
+- 💰 **Salary:** $74k–$208k/yr
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-09-23
-
-### [Senior Environmental Health Officer](https://au.indeed.com/viewjob?jk=56c0e90fb5108793) — Queensland Government
-- 📍 **Location:** Brisbane, QLD, AU
-- **Work mode:** On-site
-- **Job type:** temporary
+- **Job type:** parttime, fulltime
 - 🕒 **Posted:** 2026-09-23
