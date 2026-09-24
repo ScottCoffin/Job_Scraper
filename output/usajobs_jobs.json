@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-22 19:11 UTC",
+  "scraped_at": "2026-09-24 19:29 UTC",
   "total": 5,
-  "new_count": 3,
+  "new_count": 1,
   "jobs": [
     {
       "company": "Defense Health Agency",
@@ -13,21 +13,21 @@
       "ats": "USAJOBS"
     },
     {
-      "company": "Defense Health Agency",
-      "title": "SUPERVISORY INTERDISCIPLINARY-BIOLOGIST/TOXICOLOGIST",
-      "location": "Aberdeen Proving Ground, Maryland",
-      "url": "https://www.usajobs.gov/job/884350400",
-      "date_posted": "2026-09-16",
-      "salary": "Starting at $143,913 Per year (GS 14)",
-      "ats": "USAJOBS"
-    },
-    {
       "company": "Air Force Materiel Command",
       "title": "Risk Assessor/Toxicologist Interdisciplinary (Environmental) - DIRECT HIRE AUTHORITY",
       "location": "Kelly AFB, Texas",
       "url": "https://www.usajobs.gov/job/881345300",
       "date_posted": "2026-08-19",
       "salary": "Starting at $90,823 Per year (NH 3)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Animal and Plant Health Inspection Service",
+      "title": "Environmental Protection Specialist",
+      "location": "Fort Collins, Colorado",
+      "url": "https://www.usajobs.gov/job/885826600",
+      "date_posted": "2026-09-23",
+      "salary": "Starting at $89,508 Per year (GS 12)",
       "ats": "USAJOBS"
     },
     {
@@ -51,30 +51,12 @@
   ],
   "new_jobs": [
     {
-      "company": "Defense Health Agency",
-      "title": "INTERDISCIPLINARY-BIOLOGIST/TOXICOLOGIST",
-      "location": "Aberdeen Proving Ground, Maryland",
-      "url": "https://www.usajobs.gov/job/884733100",
-      "date_posted": "2026-09-18",
-      "salary": "Starting at $85,447 Per year (GS 11-12)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Defense Health Agency",
-      "title": "SUPERVISORY INTERDISCIPLINARY-BIOLOGIST/TOXICOLOGIST",
-      "location": "Aberdeen Proving Ground, Maryland",
-      "url": "https://www.usajobs.gov/job/884350400",
-      "date_posted": "2026-09-16",
-      "salary": "Starting at $143,913 Per year (GS 14)",
-      "ats": "USAJOBS"
-    },
-    {
-      "company": "Federal Highway Administration",
-      "title": "Environmental Protection Specialist - Direct Hire",
-      "location": "Albany, New York",
-      "url": "https://www.usajobs.gov/job/884564700",
-      "date_posted": "2026-09-15",
-      "salary": "Starting at $92,344 Per year (GS 12)",
+      "company": "Animal and Plant Health Inspection Service",
+      "title": "Environmental Protection Specialist",
+      "location": "Fort Collins, Colorado",
+      "url": "https://www.usajobs.gov/job/885826600",
+      "date_posted": "2026-09-23",
+      "salary": "Starting at $89,508 Per year (GS 12)",
       "ats": "USAJOBS"
     }
   ]
