@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-23 19:41 UTC",
-  "total": 6,
-  "new_count": 0,
+  "scraped_at": "2026-09-24 20:00 UTC",
+  "total": 7,
+  "new_count": 4,
   "jobs": [
     {
       "company": "El Paso County (CO)",
@@ -13,12 +13,12 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "County of Santa Clara",
-      "title": "Senior Environmental Health Specialist",
-      "location": "Throughout the County of Santa Clara, CA",
-      "url": "https://www.governmentjobs.com/jobs/5452512-0/senior-environmental-health-specialist",
+      "company": "County of San Mateo",
+      "title": "Environmental Health Specialist IV - Solid Waste and Body Art Programs (Open & Promotional)",
+      "location": "County of San Mateo, CA",
+      "url": "https://www.governmentjobs.com/jobs/5458928-0/environmental-health-specialist-iv-solid-waste-and-body-art-programs-open-pr",
       "date_posted": "",
-      "salary": "$125,440.64 - $151,925.28 Annually",
+      "salary": "$10,684.27 - $13,351.87 Monthly",
       "ats": "NEOGOV"
     },
     {
@@ -40,23 +40,69 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "Bay Area Air District",
-      "title": "Senior Air Quality Specialist (Regulatory Development)",
-      "location": "San Francisco, CA",
-      "url": "https://www.governmentjobs.com/jobs/5477091-0/senior-air-quality-specialist-regulatory-development",
+      "company": "County of Orange",
+      "title": "HAZARDOUS MATERIALS SPECIALIST I",
+      "location": "Santa Ana, CA",
+      "url": "https://www.governmentjobs.com/jobs/5477314-0/hazardous-materials-specialist-i",
       "date_posted": "",
-      "salary": "$133,533.57 - $162,310.88 Annually",
+      "salary": "$64,937.60 - $87,526.40 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "City of Oceanside",
-      "title": "Watershed Protection Specialist I",
-      "location": "Oceanside, CA",
-      "url": "https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i",
+      "company": "County of Orange",
+      "title": "HAZARDOUS MATERIALS SPECIALIST II",
+      "location": "Santa Ana, CA",
+      "url": "https://www.governmentjobs.com/jobs/5477352-0/hazardous-materials-specialist-ii",
       "date_posted": "",
-      "salary": "$71,820.00 - $96,288.00 Annually",
+      "salary": "$78,478.40 - $105,809.60 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Sunnyvale",
+      "title": "Senior Hazardous Materials Inspector",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.governmentjobs.com/jobs/5468792-0/senior-hazardous-materials-inspector",
+      "date_posted": "",
+      "salary": "$77.19 - $98.51 Hourly",
       "ats": "NEOGOV"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "County of San Mateo",
+      "title": "Environmental Health Specialist IV - Solid Waste and Body Art Programs (Open & Promotional)",
+      "location": "County of San Mateo, CA",
+      "url": "https://www.governmentjobs.com/jobs/5458928-0/environmental-health-specialist-iv-solid-waste-and-body-art-programs-open-pr",
+      "date_posted": "",
+      "salary": "$10,684.27 - $13,351.87 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Orange",
+      "title": "HAZARDOUS MATERIALS SPECIALIST I",
+      "location": "Santa Ana, CA",
+      "url": "https://www.governmentjobs.com/jobs/5477314-0/hazardous-materials-specialist-i",
+      "date_posted": "",
+      "salary": "$64,937.60 - $87,526.40 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Orange",
+      "title": "HAZARDOUS MATERIALS SPECIALIST II",
+      "location": "Santa Ana, CA",
+      "url": "https://www.governmentjobs.com/jobs/5477352-0/hazardous-materials-specialist-ii",
+      "date_posted": "",
+      "salary": "$78,478.40 - $105,809.60 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Sunnyvale",
+      "title": "Senior Hazardous Materials Inspector",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.governmentjobs.com/jobs/5468792-0/senior-hazardous-materials-inspector",
+      "date_posted": "",
+      "salary": "$77.19 - $98.51 Hourly",
+      "ats": "NEOGOV"
+    }
+  ]
 }
