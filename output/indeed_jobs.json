@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-24 06:45 UTC",
+  "scraped_at": "2026-09-24 06:47 UTC",
   "total": 4,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "University of California Berkeley",
@@ -76,24 +76,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "University of California Berkeley",
-      "title": "Lecturer Pool - Department of Environmental Science, Policy, and Management - Rausser College of Natural Resources",
-      "location": "Berkeley, CA, US",
-      "url": "https://www.indeed.com/viewjob?jk=afa5d474b28222b3",
-      "direct_url": "https://apptrkr.com/9850489",
-      "company_url": "https://www.indeed.com/cmp/University-of-California-Berkeley",
-      "date_posted": "2026-09-23",
-      "description": "**Position overview Salary range:** The UC academic salary scales set the minimum pay at appointment. See the current Unit 18 Pre\\-Six Lecturer Salary Scale . The current full\\-time salary range for this position is $73,817–$207,711\\. Percent time: Appointments are typically part\\-time. Anticipated start: Positions usually start in January, various times throughout the summer and August. Review timeline: Applications will be accepted and reviewed for any department needs through September 23, 2027\\. Applicants are considered for positions as needs arise; the existence of this applicant pool does not guarantee that a position is available. Applications are typically reviewed for fall course needs in April/May, spring course needs in October/November, and summer session course needs in January/February. Position duration: Varied and may be renewable based on need, funding, and performance. Application Window\n  \n**Open date:** September 23, 2026\n  \n**Next review date:** Wednesday, Oct 7, 2026 at 11:59pm (Pacific Time)\n  \nApply by this date to ensure full consideration by the committee.\n  \n**Final date:** Thursday, Sep 23, 2027 at 11:59pm (Pacific Time)\n  \nApplications will continue to be accepted until this date, but those received after the review date will only be considered if the position has not yet been filled. Position description\n  \nThe Department of Environmental Science, Policy, and Management (ESPM) in the Rausser College of Natural Resources at the University of California, Berkeley invites applications for a one\\-year pool of qualified temporary lecturers to teach courses with a focus area of Environmental Science, Policy, and Management. When a need arises, we seek lecturers who can teach/co\\-teach lecture, seminar, and/or laboratory courses in environmental science, policy, and management, both at the undergraduate and graduate levels.\n  \nESPM is committed to creating an inclusive environment, one that is supportive of all individuals, regardless of background.\n  \nApplicants must be authorized to work in the United States at the time of hire. Visa sponsorship is not available for this position.\n  \n  \n\n**General Duties:**  \n\nIn addition to teaching responsibilities, general duties include holding office hours, assigning grades, preparing course materials (e.g., syllabus), and maintaining a course website.\n  \n**Labor Contract :** https://ucnet.universityofcalifornia.edu/labor/bargaining\\-units/ix/index.html Qualifications Basic qualifications (required at time of application)\n  \nAdvanced degree, or enrolled in an advanced degree program, at the time of application Additional qualifications (required at time of start)\n  \nAdvanced degree required by the start date of the position. Preferred qualifications\n  \nThe completion of a Ph.D. or equivalent international degree\n  \nDocumented experience in teaching one of the biological sciences at the college level is strongly preferred.\n  \nAbility to support the success of all students through inclusive curriculum, classroom environment, and pedagogy. Application Requirements Document requirements\n  \n  \n\nCover Letter/ Statement of Teaching \\- 1\\-2 page cover letter. Please discuss any prior teaching experience, teaching approach, and future teaching interests. This can include, for example, specific efforts, accomplishments, and future plans to support the success of all students through inclusive curriculum, classroom environment, and pedagogy.\n  \n  \n\nCurriculum Vitae \\- Your most recently updated C.V. Reference requirements\n  \n**3 required (contact information only) Apply link:** https://aprecruit.berkeley.edu/JPF05548\n  \n**Help contact:** nlowy@berkeley.edu About UC Berkeley\n  \nUC Berkeley is committed to diversity, equity, inclusion, and belonging in our public mission of research, teaching, and service, consistent with UC Regents Policy 4400 and University of California Academic Personnel policy ( APM 210 1\\-d ). These values are embedded in our Principles of Community , which reflect our passion for critical inquiry, debate, discovery and innovation, and our deep commitment to contributing to a better world. Every member of the UC Berkeley community has a role in sustaining a safe, caring and humane environment in which these values can thrive.\n  \nThe University of California, Berkeley is an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, or protected veteran status.\n  \nFor more information, please refer to the University of California's Affirmative Action and Nondiscrimination in Employment Policy and the University of California's Anti\\-Discrimination Policy .\n  \nIn searches when letters of reference are required all letters will be treated as confidential per University of California policy and California state law. Please refer potential referees, including when letters are provided via a third party (i.e., dossier service or career center), to the UC Berkeley statement of confidentiality prior to submitting their letter.\n  \nAs a University employee, you will be required to comply with all applicable University policies and/or collective bargaining agreements, as may be amended from time to time. Federal, state, or local government directives may impose additional requirements.\n  \nUnless stated otherwise, unambiguously, in the position description, this position does not include sponsorship of a new consular H\\-1B visa petition that would require payment of the $100,000 supplemental fee.\n  \nAs a condition of employment, the finalist will be required to disclose if they are subject to any final administrative or judicial decisions within the last seven years determining that they committed any misconduct.\n  \n“Misconduct” means any violation of the policies or laws governing conduct at the applicant's previous place of employment, including, but not limited to, violatio",
-      "salary": "$74k–$208k/yr",
-      "salary_source": "direct_data",
-      "salary_currency": "USD",
-      "job_type": "parttime, fulltime",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "nlowy@berkeley.edu",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
