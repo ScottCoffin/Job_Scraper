@@ -1,6 +1,13 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-09-25 20:00 UTC*
+*Last updated: 2026-09-25 22:43 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**2 new role(s)** since last run · 2 total in last 1h
 
-No new roles since the last run.
+### [Environmental Specialist](https://www.linkedin.com/jobs/view/4470713546/) — CDMS
+- 📍 **Location:** Long Beach, CA
+- 💰 **Salary:** $80,000-$130,000
+- 🕒 **Posted:** 2026-09-25
+
+### [Environmental Specialist](https://www.linkedin.com/jobs/view/4470721242/) — CDMS
+- 📍 **Location:** Pleasanton, CA
+- 🕒 **Posted:** 2026-09-25
