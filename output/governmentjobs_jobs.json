@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-24 20:00 UTC",
-  "total": 7,
-  "new_count": 4,
+  "scraped_at": "2026-09-25 20:02 UTC",
+  "total": 6,
+  "new_count": 2,
   "jobs": [
     {
       "company": "El Paso County (CO)",
@@ -31,30 +31,12 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "Placer County",
-      "title": "Air Quality Specialist I/II",
-      "location": "Auburn, CA",
-      "url": "https://www.governmentjobs.com/jobs/149374-1/air-quality-specialist-i-ii",
+      "company": "City of Palo Alto",
+      "title": "Hazardous Materials Inspector",
+      "location": "Palo Alto, CA",
+      "url": "https://www.governmentjobs.com/jobs/5489592-0/hazardous-materials-inspector",
       "date_posted": "",
-      "salary": "$6,782.53 - $8,469.07 Monthly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Orange",
-      "title": "HAZARDOUS MATERIALS SPECIALIST I",
-      "location": "Santa Ana, CA",
-      "url": "https://www.governmentjobs.com/jobs/5477314-0/hazardous-materials-specialist-i",
-      "date_posted": "",
-      "salary": "$64,937.60 - $87,526.40 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Orange",
-      "title": "HAZARDOUS MATERIALS SPECIALIST II",
-      "location": "Santa Ana, CA",
-      "url": "https://www.governmentjobs.com/jobs/5477352-0/hazardous-materials-specialist-ii",
-      "date_posted": "",
-      "salary": "$78,478.40 - $105,809.60 Annually",
+      "salary": "$176,113.60 - $234,457.60 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -64,44 +46,35 @@
       "url": "https://www.governmentjobs.com/jobs/5468792-0/senior-hazardous-materials-inspector",
       "date_posted": "",
       "salary": "$77.19 - $98.51 Hourly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Oceanside",
+      "title": "Watershed Protection Specialist I",
+      "location": "Oceanside, CA",
+      "url": "https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i",
+      "date_posted": "",
+      "salary": "$71,820.00 - $96,288.00 Annually",
       "ats": "NEOGOV"
     }
   ],
   "new_jobs": [
     {
-      "company": "County of San Mateo",
-      "title": "Environmental Health Specialist IV - Solid Waste and Body Art Programs (Open & Promotional)",
-      "location": "County of San Mateo, CA",
-      "url": "https://www.governmentjobs.com/jobs/5458928-0/environmental-health-specialist-iv-solid-waste-and-body-art-programs-open-pr",
+      "company": "City of Palo Alto",
+      "title": "Hazardous Materials Inspector",
+      "location": "Palo Alto, CA",
+      "url": "https://www.governmentjobs.com/jobs/5489592-0/hazardous-materials-inspector",
       "date_posted": "",
-      "salary": "$10,684.27 - $13,351.87 Monthly",
+      "salary": "$176,113.60 - $234,457.60 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "County of Orange",
-      "title": "HAZARDOUS MATERIALS SPECIALIST I",
-      "location": "Santa Ana, CA",
-      "url": "https://www.governmentjobs.com/jobs/5477314-0/hazardous-materials-specialist-i",
+      "company": "City of Oceanside",
+      "title": "Watershed Protection Specialist I",
+      "location": "Oceanside, CA",
+      "url": "https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i",
       "date_posted": "",
-      "salary": "$64,937.60 - $87,526.40 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Orange",
-      "title": "HAZARDOUS MATERIALS SPECIALIST II",
-      "location": "Santa Ana, CA",
-      "url": "https://www.governmentjobs.com/jobs/5477352-0/hazardous-materials-specialist-ii",
-      "date_posted": "",
-      "salary": "$78,478.40 - $105,809.60 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Sunnyvale",
-      "title": "Senior Hazardous Materials Inspector",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.governmentjobs.com/jobs/5468792-0/senior-hazardous-materials-inspector",
-      "date_posted": "",
-      "salary": "$77.19 - $98.51 Hourly",
+      "salary": "$71,820.00 - $96,288.00 Annually",
       "ats": "NEOGOV"
     }
   ]
