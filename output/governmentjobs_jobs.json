@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-25 20:02 UTC",
+  "scraped_at": "2026-09-26 19:14 UTC",
   "total": 6,
-  "new_count": 2,
+  "new_count": 1,
   "jobs": [
     {
       "company": "El Paso County (CO)",
@@ -22,12 +22,12 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "City of Palo Alto",
-      "title": "Senior Operator - Regional Water Quality Control Plant (Multiple Positions)",
-      "location": "Palo Alto, CA",
-      "url": "https://www.governmentjobs.com/jobs/5481782-0/senior-operator-regional-water-quality-control-plant-multiple-positions",
+      "company": "Placer County",
+      "title": "Air Quality Specialist I/II",
+      "location": "Auburn, CA",
+      "url": "https://www.governmentjobs.com/jobs/149374-1/air-quality-specialist-i-ii",
       "date_posted": "",
-      "salary": "$126,256.00 - $154,440.00 Annually",
+      "salary": "$6,782.53 - $8,469.07 Monthly",
       "ats": "NEOGOV"
     },
     {
@@ -60,21 +60,12 @@
   ],
   "new_jobs": [
     {
-      "company": "City of Palo Alto",
-      "title": "Hazardous Materials Inspector",
-      "location": "Palo Alto, CA",
-      "url": "https://www.governmentjobs.com/jobs/5489592-0/hazardous-materials-inspector",
+      "company": "Placer County",
+      "title": "Air Quality Specialist I/II",
+      "location": "Auburn, CA",
+      "url": "https://www.governmentjobs.com/jobs/149374-1/air-quality-specialist-i-ii",
       "date_posted": "",
-      "salary": "$176,113.60 - $234,457.60 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Oceanside",
-      "title": "Watershed Protection Specialist I",
-      "location": "Oceanside, CA",
-      "url": "https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i",
-      "date_posted": "",
-      "salary": "$71,820.00 - $96,288.00 Annually",
+      "salary": "$6,782.53 - $8,469.07 Monthly",
       "ats": "NEOGOV"
     }
   ]

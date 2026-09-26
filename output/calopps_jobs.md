@@ -1,5 +1,5 @@
 # 🏛 CalOpps — California Local-Agency Environmental / Toxicology Roles
-*Last updated: 2026-09-25 20:02 UTC*
+*Last updated: 2026-09-26 19:14 UTC*
 
 **0 new role(s)** since last run · 2 total in recent CalOpps postings
 
