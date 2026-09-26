@@ -12,6 +12,11 @@ name: Sync from upstream
 # .gitattributes also marks config.json and scoring_profile.json as merge=ours
 # for belt-and-suspenders protection.
 #
+# output/ is per-repo scraped data, never code, and always stays exactly as
+# this fork has it. So do this workflow and the script it runs: upstream
+# edits to them are never merged in, so they can't break future syncs. The merge logic lives in scripts/sync-upstream.sh so it
+# can also be run by hand from a local clone.
+#
 # The fork will show "N commits ahead, M commits behind" in GitHub's UI — that
 # is expected and harmless. Use this workflow (not the "Sync fork" UI button)
 # to stay current; the button offers "Discard N commits" which would delete
@@ -25,6 +30,10 @@ on:
     - cron: "0 6 * * 1"   # Mondays 06:00 UTC — weekly check for improvements
   workflow_dispatch:        # or run manually any time via Actions tab
 
+concurrency:
+  group: job-scraper-commit-push
+  cancel-in-progress: false
+
 jobs:
   sync:
     name: Merge upstream code improvements
@@ -32,57 +41,21 @@ jobs:
 
     permissions:
       contents: write
-      # Upstream may add/change files under .github/workflows/ (e.g. new
-      # watcher workflows). Pushing those requires this extra scope — without
-      # it GitHub rejects the push with "refusing to allow a GitHub App to
-      # create or update workflow ... without `workflows` permission",
-      # even though contents:write is already granted.
-      workflows: write
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # The default GITHUB_TOKEN can never push changes under
+          # .github/workflows/, and upstream updates often touch them. Add a
+          # SYNC_TOKEN secret (fine-grained PAT on this repo with Contents and
+          # Workflows read/write) so those syncs can push. Without it, syncs
+          # that don't touch workflows still work.
+          token: ${{ secrets.SYNC_TOKEN || github.token }}
 
       - name: Merge from upstream
         run: |
           git config user.name  "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git remote add upstream https://github.com/ScottCoffin/Job_Scraper.git
-          git fetch upstream main
-
-          # Back up personal files before the merge in case any edge case
-          # in the merge machinery drops them (e.g. upstream once tracked then
-          # deleted config.json — that delete is in upstream's history and can
-          # surface as a modify/delete conflict even with -X ours).
-          cp config.json /tmp/_config.json 2>/dev/null || true
-          cp scoring_profile.json /tmp/_scoring_profile.json 2>/dev/null || true
-
-          # Merge upstream code. -X ours resolves any conflict by keeping this
-          # fork's version. config.json and scoring_profile.json are also marked
-          # merge=ours in .gitattributes for file-level protection.
-          git merge upstream/main --no-edit -X ours \
-            -m "chore: sync from upstream [$(date -u '+%Y-%m-%d')]"
-
-          # Unconditionally restore personal files from the pre-merge snapshot.
-          # If the merge preserved them correctly this is a no-op (diff is clean).
-          # If they were dropped or altered, this puts them back.
-          restored=0
-          if [ -f /tmp/_config.json ]; then
-            cp /tmp/_config.json config.json
-            git add -f config.json
-            restored=1
-          fi
-          if [ -f /tmp/_scoring_profile.json ]; then
-            cp /tmp/_scoring_profile.json scoring_profile.json
-            git add -f scoring_profile.json
-            restored=1
-          fi
-          if [ "$restored" = "1" ]; then
-            git diff --cached --quiet \
-              || git commit -m "chore: restore personal config after upstream sync"
-          fi
-
-          git push origin main
-          echo "✅ Synced successfully."
+          bash scripts/sync-upstream.sh
