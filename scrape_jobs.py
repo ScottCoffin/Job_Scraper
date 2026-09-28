@@ -2789,19 +2789,121 @@ def _load_prev_ids(json_path: str) -> set[str]:
 
 
 ALL_JOBS_PRUNE_DAYS = 30
+# Delta files and manifest lines older than this are pruned on each run.
+# Consumers needing historical data beyond this window should use all_jobs.json.
+DELTA_PRUNE_DAYS = 30
 # LinkedIn's guest API reliably supports ~30 days via f_TPR; use this for the
 # one-time historical backfill (--linkedin-backfill) so new users get a full
 # picture without running hourly for weeks.
 LINKEDIN_BACKFILL_DAYS = 30
 
 
-def _merge_into_all_jobs(new_jobs: list) -> int:
+def _write_delta(added_jobs: list[dict], updated_jobs: list[dict],
+                 source: str, run_at: str) -> None:
+    """Write a per-run delta file and append to the manifest.
+
+    Delta file: output/deltas/<timestamp>_<source>.json
+    Manifest:   output/deltas/index.jsonl (append-only, pruned at DELTA_PRUNE_DAYS)
+
+    Skipped silently if both added and updated are empty (nothing changed).
+    """
+    if not added_jobs and not updated_jobs:
+        return
+
+    deltas_dir = os.path.join(OUTPUT_DIR, "deltas")
+    os.makedirs(deltas_dir, exist_ok=True)
+
+    # Filename: sanitize timestamp for filesystem safety (replace : with -)
+    safe_ts = run_at.replace(":", "-")
+    filename = f"{safe_ts}_{source}.json"
+    delta_path = os.path.join(deltas_dir, filename)
+
+    # Handle same-second collisions (rare — concurrency group serializes runs,
+    # but two could finish/start within the same second). Append a counter.
+    if os.path.exists(delta_path):
+        counter = 2
+        while os.path.exists(os.path.join(deltas_dir, f"{safe_ts}_{source}_{counter}.json")):
+            counter += 1
+        filename = f"{safe_ts}_{source}_{counter}.json"
+        delta_path = os.path.join(deltas_dir, filename)
+
+    delta = {
+        "run_at": run_at,
+        "source": source,
+        "added": added_jobs,
+        "updated": updated_jobs,
+    }
+    with open(delta_path, "w", encoding="utf-8") as f:
+        json.dump(delta, f, separators=(",", ":"), ensure_ascii=False)
+
+    # Append to manifest (after delta file is written — see docs/JOB_SCHEMA.md
+    # on atomicity: an orphaned delta file without a manifest line is harmless;
+    # the consumer just won't see it and the next full sync catches those jobs).
+    manifest_path = os.path.join(deltas_dir, "index.jsonl")
+    entry = {
+        "run_at": run_at,
+        "file": filename,
+        "source": source,
+        "added": len(added_jobs),
+        "updated": len(updated_jobs),
+    }
+    with open(manifest_path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, separators=(",", ":")) + "\n")
+
+    _prune_deltas(deltas_dir, run_at)
+
+    print(f"  📦 Delta: {filename} (+{len(added_jobs)} added, "
+          f"{len(updated_jobs)} updated)")
+
+
+def _prune_deltas(deltas_dir: str, now_iso: str) -> None:
+    """Delete delta files and manifest lines older than DELTA_PRUNE_DAYS."""
+    manifest_path = os.path.join(deltas_dir, "index.jsonl")
+    if not os.path.exists(manifest_path):
+        return
+
+    cutoff_dt = datetime.strptime(now_iso, "%Y-%m-%dT%H:%M:%SZ") - timedelta(days=DELTA_PRUNE_DAYS)
+    cutoff = cutoff_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    kept_lines = []
+    pruned = 0
+    with open(manifest_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                entry = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if entry.get("run_at", "") < cutoff:
+                # Delete the delta file
+                delta_path = os.path.join(deltas_dir, entry.get("file", ""))
+                if os.path.exists(delta_path):
+                    os.remove(delta_path)
+                pruned += 1
+            else:
+                kept_lines.append(line)
+
+    if pruned > 0:
+        with open(manifest_path, "w", encoding="utf-8") as f:
+            for line in kept_lines:
+                f.write(line + "\n")
+        print(f"  📦 Pruned {pruned} delta(s) older than {DELTA_PRUNE_DAYS}d")
+
+
+def _merge_into_all_jobs(new_jobs: list, source: str | None = None) -> int:
     """
     Maintain all_jobs.json — a cumulative, URL/content-deduped master of every role the
     scrapers surface, each stamped with first_seen. The per-source JSONs are
     rolling windows that overwrite every run (LinkedIn keeps only ~1h), so this
     master is what the triage agent and the dashboard's Rank tab read to see
     everything from the last ALL_JOBS_PRUNE_DAYS days. Returns count added.
+
+    If source is provided (e.g. "linkedin"), a per-run delta file is written to
+    output/deltas/ capturing jobs added and enriched this run. See
+    docs/JOB_SCHEMA.md for the delta format. If source is None, no delta is
+    produced (backward-compatible for non-LinkedIn sources).
     """
     path = os.path.join(OUTPUT_DIR, "all_jobs.json")
     try:
@@ -2829,6 +2931,8 @@ def _merge_into_all_jobs(new_jobs: list) -> int:
     added = 0
     enriched = enriched_existing
     merged_new = 0
+    delta_added: list[dict] = []
+    delta_updated: list[dict] = []
     for j in new_jobs:
         url = j.get("url")
         ident = _job_identity(url or "")
@@ -2841,10 +2945,16 @@ def _merge_into_all_jobs(new_jobs: list) -> int:
             entries.append(entry)
             index_entry(entry)
             added += 1
+            if source:
+                delta_added.append(entry)
         elif existing is not None:
+            before_enriched = enriched
             enriched += _merge_duplicate_job(existing, j)
             index_entry(existing)
             merged_new += 1
+            # Only include in delta_updated if description or salary was backfilled
+            if source and enriched > before_enriched:
+                delta_updated.append(dict(existing))
 
     cutoff = (now - timedelta(days=ALL_JOBS_PRUNE_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
     kept = [j for j in entries if j.get("first_seen", stamp) >= cutoff]
@@ -2860,14 +2970,21 @@ def _merge_into_all_jobs(new_jobs: list) -> int:
         f"{len(kept)} total (last {ALL_JOBS_PRUNE_DAYS}d)"
     )
 
+    if source:
+        _write_delta(delta_added, delta_updated, source, stamp)
+
     return added
 
 
 def save_jobs_output(jobs: list, *, basename: str, title: str, subtitle: str,
-                     accent: str, empty_message: str, window_label: str):
+                     accent: str, empty_message: str, window_label: str,
+                     source: str | None = None):
     """
     Save jobs to {basename}.{json,md,html}. Dedupes against the previous JSON at
     the same path so each email surfaces only postings new to this run.
+
+    If source is provided (e.g. "linkedin"), a per-run delta file is written to
+    output/deltas/ capturing jobs added and enriched this run.
     """
     # Single chokepoint for the company exclusion: every source (LinkedIn,
     # Indeed, priority, CalCareers) funnels through here, so dropping excluded
@@ -2891,7 +3008,7 @@ def save_jobs_output(jobs: list, *, basename: str, title: str, subtitle: str,
     try:
         # Merge the full current source window, not only brand-new notifications:
         # existing sparse LinkedIn records can gain salary/description later.
-        _merge_into_all_jobs(jobs)
+        _merge_into_all_jobs(jobs, source=source)
     except Exception as e:
         print(f"  ⚠️  all_jobs.json accumulator failed (non-fatal): {e}")
 
@@ -2958,6 +3075,7 @@ def save_linkedin_results(jobs: list):
         accent="#3b82f6",
         empty_message="No new roles since the last run.",
         window_label=f"last {LINKEDIN_LOOKBACK_SECONDS // 3600}h",
+        source="linkedin",
     )
 
 

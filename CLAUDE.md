@@ -16,7 +16,7 @@ Designed to be forked. No server. No paid services required (AI triage is option
 | `scrape_jobs.py` | Main scraper. Dispatched by all watcher workflows. |
 | `triage_agent.py` | Claude API fit-scoring agent. Run by `triage.yml`. |
 | `triage.html` | The dashboard. Pure client-side JS; reads `output/*.json` at page-load time. |
-| `output/` | All scraped data (gitignored upstream). `all_jobs.json` = 14-day rolling master. |
+| `output/` | All scraped data (gitignored upstream). `all_jobs.json` = 14-day rolling master. `deltas/` = per-run LinkedIn delta files for downstream tools (format: `docs/JOB_SCHEMA.md`). |
 
 ## Workflow architecture
 
@@ -84,6 +84,7 @@ python eval_triage.py
 2. Add a corresponding `--sourcename` flag to `scrape_jobs.py`.
 3. The watcher should write to `output/SOURCENAME_jobs.json` (and `.md`/`.html`).
 4. `triage.html` discovers output files at runtime — no changes needed to the dashboard unless adding new fields.
+5. Optional: to publish per-run delta files for the source, pass `source="sourcename"` to `save_jobs_output()` and stage `output/deltas/` in the workflow's commit step (guarded, as in `linkedin_watch.yml`). See `docs/JOB_SCHEMA.md`.
 
 ## Secrets vs variables
 

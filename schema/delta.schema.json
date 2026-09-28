@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://job-scraper/schema/delta.schema.json",
+  "title": "Delta File",
+  "description": "Per-run snapshot of what changed in a single scraper run. Lives at output/deltas/<timestamp>_<source>.json. See docs/JOB_SCHEMA.md for full documentation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["run_at", "source", "added", "updated"],
+  "properties": {
+    "run_at": {
+      "type": "string",
+      "description": "ISO-8601 UTC timestamp of the scraper run that produced this delta.",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    },
+    "source": {
+      "type": "string",
+      "description": "Lowercase source identifier passed to save_jobs_output(source=...), e.g. \"linkedin\". Also the filename suffix. Not the same as the ats label on job records (\"LinkedIn\").",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "added": {
+      "type": "array",
+      "description": "Jobs newly added to all_jobs.json this run (got a new first_seen timestamp). Each entry is a full job record.",
+      "items": { "$ref": "jobs.schema.json" }
+    },
+    "updated": {
+      "type": "array",
+      "description": "Existing jobs that were enriched this run (gained description, salary, or other backfilled fields). Each entry is the full updated job record.",
+      "items": { "$ref": "jobs.schema.json" }
+    }
+  }
+}
