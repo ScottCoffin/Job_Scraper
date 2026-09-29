@@ -19,6 +19,9 @@
 #   - config.json / scoring_profile.json are restored from a pre-merge backup.
 #   - Any remaining conflict outside output/ is a real code conflict: the
 #     script stops without committing or pushing.
+#   - If the merge leaves names undefined in a .py file (upstream changed code
+#     this fork customized, and -X ours mixed the two), it also stops. Needs
+#     pyflakes; skipped with a warning if it isn't installed.
 #
 # Why merge and not rebase: upstream once tracked and later deleted
 # config.json. A rebase replays that delete and wipes the fork's config.
@@ -106,6 +109,38 @@ if [ -n "$unmerged" ]; then
   err "Unexpected conflicts outside output/ — resolve manually, then commit and push:"
   echo "$unmerged"
   exit 1
+fi
+
+# Half-merge check. -X ours keeps this fork's side of each conflicting hunk,
+# so if the fork customized code that upstream also changed, the result can
+# mix the two: e.g. upstream's new function body calling a parameter the
+# fork's kept signature never defines. That still parses, and often fails
+# only at runtime (sometimes inside a try/except, silently). Compare pyflakes'
+# undefined-name findings in each changed .py file before and after the merge.
+PY=${PYTHON:-python3}
+# Run pyflakes from a neutral directory: Python puts the working directory on
+# sys.path, so a repo file like code.py would shadow the stdlib module.
+pyflakes() { (cd "$backup" && "$PY" -m pyflakes "$@"); }
+if pyflakes --version >/dev/null 2>&1; then
+  undefined_names() { # $1 = git object prefix (HEAD: or : for the index)
+    local f
+    for f in $changed_py; do
+      git cat-file -e "$1$f" 2>/dev/null || continue
+      git show "$1$f" | pyflakes 2>&1 \
+        | grep -E "undefined name|invalid syntax|SyntaxError" \
+        | sed -E "s/^<stdin>:[0-9]+:([0-9]+:)? /$f: /" || true
+    done | sort -u
+  }
+  changed_py=$(git diff --cached --name-only --diff-filter=AM HEAD -- '*.py')
+  introduced=$(comm -13 <(undefined_names HEAD:) <(undefined_names :))
+  if [ -n "$introduced" ]; then
+    err "Merging upstream would break this fork's code: upstream changed code this fork has customized, and the merge left names undefined. Nothing was committed or pushed. Merge upstream by hand and resolve these:"
+    echo "$introduced"
+    git merge --abort
+    exit 1
+  fi
+else
+  echo "Warning: pyflakes not installed; skipping the half-merge check (pip install pyflakes)."
 fi
 
 git commit --no-edit -q -m "$SYNC_MSG"

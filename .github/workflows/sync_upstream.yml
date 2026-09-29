@@ -54,6 +54,16 @@ jobs:
           # that don't touch workflows still work.
           token: ${{ secrets.SYNC_TOKEN || github.token }}
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install merge checker
+        # scripts/sync-upstream.sh uses pyflakes to refuse merges that leave
+        # names undefined in code this fork has customized.
+        run: pip install pyflakes
+
       - name: Merge from upstream
         run: |
           git config user.name  "${{ github.actor }}"

@@ -81,7 +81,7 @@ class Repos:
 
 
 BASE_FILES = {
-    "code.py": "base\n",
+    "code.py": "VALUE = 'base'\n",
     "output/all_jobs.json": "base\n",
     "output/deltas/d1.json": "base\n",
     "output/workflow_runs.jsonl": "base\n",
@@ -117,7 +117,7 @@ def test_output_stays_exactly_as_fork_has_it(repos):
         "output/upstream_deletes.json": "fork\n",
     }, remove=["output/fork_deletes.json"])
     commit(repos.upstream, "upstream scrape + code", {
-        "code.py": "upstream\n",
+        "code.py": "VALUE = 'upstream'\n",
         "output/all_jobs.json": "upstream\n",              # both sides modified
         "output/deltas/d1.json": "upstream\n",
         "output/workflow_runs.jsonl": "base\nupstream run\n",
@@ -131,7 +131,7 @@ def test_output_stays_exactly_as_fork_has_it(repos):
 
     assert result.returncode == 0, result.stdout + result.stderr
     assert git(repos.origin, "rev-parse", "main:output") == fork_output
-    assert repos.show("code.py") == "upstream"
+    assert repos.show("code.py") == "VALUE = 'upstream'"
     assert git(repos.origin, "rev-parse", "main^2") == git(repos.upstream, "rev-parse", "main")
 
 
@@ -189,7 +189,7 @@ def test_already_up_to_date_is_a_no_op(repos):
 
 
 def test_code_conflict_outside_output_stops_without_pushing(repos):
-    repos.fork_commit("fork edits code", {"code.py": "fork\n"})
+    repos.fork_commit("fork edits code", {"code.py": "VALUE = 'fork'\n"})
     commit(repos.upstream, "upstream deletes code", remove=["code.py"])
     before = repos.origin_head()
 
@@ -201,9 +201,38 @@ def test_code_conflict_outside_output_stops_without_pushing(repos):
     assert repos.origin_head() == before
 
 
+def test_half_merged_code_stops_without_pushing(repos):
+    """A fork's customized signature + upstream's new body can leave names undefined.
+
+    -X ours keeps the fork's side of the conflicting signature line while the
+    upstream body lines merge in cleanly. Seen in a real fork of this repo.
+    """
+    pytest.importorskip("pyflakes")
+    base = "def merge(jobs):\n    total = 0\n    for j in jobs:\n        total += 1\n    return total\n"
+    commit(repos.upstream, "base merge()", {"lib.py": base})
+    git(repos.fork, "pull", "-q", "--no-rebase", "origin", "main")
+    git(repos.fork, "fetch", "-q", str(repos.upstream), "main")
+    git(repos.fork, "merge", "-q", "--no-edit", "FETCH_HEAD")
+    repos.fork_commit("fork customizes signature",
+                      {"lib.py": base.replace("def merge(jobs):", "def merge(jobs, *, groups=None):")})
+    commit(repos.upstream, "upstream adds source", {"lib.py": (
+        base.replace("def merge(jobs):", "def merge(jobs, source=None):")
+            .replace("        total += 1\n", "        total += 1\n        if source:\n            print(source)\n"))})
+    before = repos.origin_head()
+
+    result = repos.sync()
+
+    assert result.returncode != 0
+    assert "would break this fork's code" in result.stderr
+    assert "lib.py: undefined name 'source'" in result.stdout
+    assert repos.origin_head() == before
+    assert subprocess.run(["git", "rev-parse", "-q", "--verify", "MERGE_HEAD"],
+                          cwd=repos.fork, capture_output=True).returncode != 0
+
+
 def test_refuses_to_run_with_uncommitted_changes(repos):
     """Resetting output/ would silently discard local edits."""
-    commit(repos.upstream, "upstream code", {"code.py": "upstream\n"})
+    commit(repos.upstream, "upstream code", {"code.py": "VALUE = 'upstream'\n"})
     (repos.fork / "output" / "all_jobs.json").write_text("unsaved\n")
     before = repos.origin_head()
 
@@ -218,12 +247,12 @@ def test_refuses_to_run_with_uncommitted_changes(repos):
 def test_existing_upstream_remote_is_repointed(repos):
     """Local clones often already have an `upstream` remote; UPSTREAM_URL must win."""
     git(repos.fork, "remote", "add", "upstream", "https://example.invalid/stale.git")
-    commit(repos.upstream, "upstream code", {"code.py": "upstream\n"})
+    commit(repos.upstream, "upstream code", {"code.py": "VALUE = 'upstream'\n"})
 
     result = repos.sync()
 
     assert result.returncode == 0, result.stdout + result.stderr
-    assert repos.show("code.py") == "upstream"
+    assert repos.show("code.py") == "VALUE = 'upstream'"
 
 
 def test_workflow_permission_refusal_explains_sync_token(repos):
@@ -236,7 +265,7 @@ def test_workflow_permission_refusal_explains_sync_token(repos):
         "exit 1\n"
     )
     hook.chmod(0o755)
-    commit(repos.upstream, "upstream code", {"code.py": "upstream\n"})
+    commit(repos.upstream, "upstream code", {"code.py": "VALUE = 'upstream'\n"})
 
     result = repos.sync()
 
@@ -248,6 +277,7 @@ def test_workflow_runs_the_script_safely():
     """Guard the workflow wiring the script depends on."""
     text = WORKFLOW.read_text()
     assert "bash scripts/sync-upstream.sh" in text
+    assert "pip install pyflakes" in text  # enables the half-merge check
     assert "token: ${{ secrets.SYNC_TOKEN || github.token }}" in text
     # Commit workflows must share this group or they race on output/ (see CLAUDE.md rule 6)
     assert re.search(r"^concurrency:\n\s+group: job-scraper-commit-push$", text, re.M)
