@@ -41,10 +41,10 @@ The delta file is written before its manifest line. If a run dies in between, th
 ### Consuming deltas
 
 1. Fetch `output/deltas/index.jsonl`.
-2. Track which `run_at` values you have already processed.
-3. For each new line, fetch `output/deltas/<file>`.
+2. Track which `file` values you have already processed. (Not `run_at`: two runs finishing in the same second share a `run_at` and get separate files, the second with a `_2` suffix.)
+3. For each line whose `file` you haven't processed, fetch `output/deltas/<file>`.
 4. Upsert every job in `added` and `updated` into your store, keyed by `url` (both arrays hold full records).
-5. Record the `run_at` as processed.
+5. Record the `file` as processed.
 6. On a cold start, or if you have been away longer than 30 days, do one full sync from `output/all_jobs.json` first, then switch to deltas.
 
 ## Job record fields

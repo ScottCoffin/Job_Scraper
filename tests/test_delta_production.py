@@ -367,3 +367,24 @@ class TestDeltaMatchesSchema:
         registry = referencing.Registry().with_resource(
             "jobs.schema.json", referencing.Resource.from_contents(jobs_schema))
         jsonschema.Draft202012Validator(delta_schema, registry=registry).validate(delta)
+
+
+class TestConsumingDeltas:
+    """Following docs/JOB_SCHEMA.md's consumption steps must never miss a job."""
+
+    def test_documented_consumer_gets_every_job_from_same_second_runs(self, tmp_output_dir):
+        run_at = "2026-08-31T14:00:00Z"
+        _write_delta([_make_job("https://example.com/first")], [], "linkedin", run_at)
+        _write_delta([_make_job("https://example.com/second")], [], "linkedin", run_at)
+
+        # The documented consumer: track processed `file` values, upsert by url.
+        processed, store = set(), {}
+        for line in _read_manifest(tmp_output_dir):
+            if line["file"] in processed:
+                continue
+            delta = _read_delta(tmp_output_dir, line["file"])
+            for job in delta["added"] + delta["updated"]:
+                store[job["url"]] = job
+            processed.add(line["file"])
+
+        assert set(store) == {"https://example.com/first", "https://example.com/second"}
