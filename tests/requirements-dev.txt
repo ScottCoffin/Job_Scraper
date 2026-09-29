@@ -1,2 +1,3 @@
 pytest>=8.0
 jsonschema>=4.18  # schema tests; includes referencing
+pyflakes  # sync-upstream.sh half-merge check
