@@ -72,6 +72,16 @@ def _deep_merge(base: dict, override: dict) -> dict:
     return merged
 
 
+# LinkedIn backfills send hundreds to thousands of searches. Unlike the hourly
+# watcher, they never fall back to config.example.json's search terms: on
+# someone else's search they only fill your data with jobs you don't want
+# and burn through LinkedIn rate limits and Actions minutes.
+LINKEDIN_BACKFILL_FLAGS = {
+    "--linkedin-backfill", "--linkedin-backfill-partition", "--linkedin-backfill-term",
+    "--linkedin-emit-matrix", "--linkedin-merge-backfill",
+}
+
+
 def _load_config() -> dict:
     base = _read_json(os.path.join(SCRIPT_DIR, "config.example.json")) or {}
     user = _read_json(os.path.join(SCRIPT_DIR, "config.json"))
@@ -82,8 +92,9 @@ def _load_config() -> dict:
                 "both missing or unparseable). Copy config.example.json to config.json, "
                 "or fix its JSON syntax, and re-run."
             )
-        print("  ℹ️  config.json not found; using config.example.json as-is "
-              "(copy it to config.json and customize)")
+        if not LINKEDIN_BACKFILL_FLAGS & set(sys.argv):  # backfills refuse instead
+            print("  ℹ️  config.json not found; using config.example.json as-is "
+                  "(copy it to config.json and customize)")
         return base
     if not base:
         print("  ⚠️  config.example.json not loaded; using config.json only "
@@ -93,15 +104,6 @@ def _load_config() -> dict:
 
 
 CONFIG = _load_config()
-
-# LinkedIn backfills send hundreds to thousands of searches. Unlike the hourly
-# watcher, they never fall back to config.example.json's search terms: on
-# someone else's search they only fill your data with jobs you don't want
-# and burn through LinkedIn rate limits and Actions minutes.
-LINKEDIN_BACKFILL_FLAGS = {
-    "--linkedin-backfill", "--linkedin-backfill-partition", "--linkedin-backfill-term",
-    "--linkedin-emit-matrix", "--linkedin-merge-backfill",
-}
 
 
 def _require_own_linkedin_search() -> None:
