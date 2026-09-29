@@ -16,7 +16,8 @@
 #     handle.
 #   - This script and sync_upstream.yml also stay exactly as this fork has
 #     them, so an upstream edit can never break future syncs.
-#   - config.json / scoring_profile.json are restored from a pre-merge backup.
+#   - config.json / scoring_profile.json, if this fork tracks them, are restored
+#     from a pre-merge backup. Untracked copies are left alone.
 #   - Any remaining conflict outside output/ is a real code conflict: the
 #     script stops without committing or pushing.
 #   - If the merge leaves names undefined in a .py file (upstream changed code
@@ -60,8 +61,11 @@ git fetch upstream main
 
 backup=$(mktemp -d)
 trap 'rm -rf "$backup"' EXIT
+# Only files this fork tracks: an untracked config.json (kept out of the repo,
+# e.g. in the CONFIG_JSON secret) can't be touched by the merge, and adding it
+# here would commit and push a personal file.
 for f in config.json scoring_profile.json; do
-  [ -f "$f" ] && cp "$f" "$backup/$f"
+  git cat-file -e "HEAD:$f" 2>/dev/null && [ -f "$f" ] && cp "$f" "$backup/$f"
 done
 
 SYNC_MSG="chore: sync from upstream [$(date -u '+%Y-%m-%d')]"

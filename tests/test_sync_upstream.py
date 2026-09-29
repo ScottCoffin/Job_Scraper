@@ -230,6 +230,52 @@ def test_half_merged_code_stops_without_pushing(repos):
                           cwd=repos.fork, capture_output=True).returncode != 0
 
 
+def _untrack_config(repos):
+    """Make the fork keep config.json out of git, as forks using the CONFIG_JSON secret do."""
+    git(repos.fork, "rm", "-q", "--cached", "config.json")
+    (repos.fork / ".gitignore").write_text("config.json\n")
+    git(repos.fork, "add", ".gitignore")
+    git(repos.fork, "commit", "-q", "-m", "fork: config.json lives in the CONFIG_JSON secret")
+    git(repos.fork, "push", "-q", "origin", "main")
+    (repos.fork / "config.json").write_text('{"personal": true}\n')
+
+
+def test_untracked_personal_config_is_never_pushed(repos):
+    _untrack_config(repos)
+    commit(repos.upstream, "upstream code", {"code.py": "VALUE = 'upstream'\n"})
+
+    result = repos.sync()
+
+    assert result.returncode == 0, result.stdout + result.stderr
+    assert repos.show("code.py") == "VALUE = 'upstream'"
+    assert not repos.exists("config.json")
+    assert (repos.fork / "config.json").read_text() == '{"personal": true}\n'
+
+
+def test_untracked_personal_config_survives_a_stopped_sync(repos):
+    """A sync that stops on half-merged code must not delete local personal files."""
+    pytest.importorskip("pyflakes")
+    _untrack_config(repos)
+    base = "def merge(jobs):\n    total = 0\n    for j in jobs:\n        total += 1\n    return total\n"
+    commit(repos.upstream, "base merge()", {"lib.py": base})
+    git(repos.fork, "fetch", "-q", str(repos.upstream), "main")
+    git(repos.fork, "merge", "-q", "--no-edit", "FETCH_HEAD")
+    (repos.fork / "lib.py").write_text(base.replace("def merge(jobs):", "def merge(jobs, *, groups=None):"))
+    git(repos.fork, "commit", "-q", "-am", "fork customizes signature")  # no -f: config.json stays untracked
+    git(repos.fork, "push", "-q", "origin", "main")
+    commit(repos.upstream, "upstream adds source", {"lib.py": (
+        base.replace("def merge(jobs):", "def merge(jobs, source=None):")
+            .replace("        total += 1\n", "        total += 1\n        if source:\n            print(source)\n"))})
+    before = repos.origin_head()
+
+    result = repos.sync()
+
+    assert result.returncode != 0
+    assert repos.origin_head() == before
+    assert not repos.exists("config.json")
+    assert (repos.fork / "config.json").read_text() == '{"personal": true}\n'
+
+
 def test_refuses_to_run_with_uncommitted_changes(repos):
     """Resetting output/ would silently discard local edits."""
     commit(repos.upstream, "upstream code", {"code.py": "VALUE = 'upstream'\n"})
