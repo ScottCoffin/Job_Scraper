@@ -49,6 +49,9 @@ jobs:
           PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
           PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
           NOTIFY_MIN_FIT: ${{ vars.NOTIFY_MIN_FIT }}
+          # The 30-day backfill refuses config.example.json's searches unless
+          # this is true (see README → "LinkedIn backfill").
+          ALLOW_EXAMPLE_CONFIG: ${{ vars.ALLOW_EXAMPLE_CONFIG }}
 
       - name: Record workflow run
         run: |

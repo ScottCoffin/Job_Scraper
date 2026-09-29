@@ -94,6 +94,44 @@ def _load_config() -> dict:
 
 CONFIG = _load_config()
 
+# LinkedIn backfills send hundreds to thousands of searches. Unlike the hourly
+# watcher, they never fall back to config.example.json's search terms: on
+# someone else's search they only fill your data with jobs you don't want
+# and burn through LinkedIn rate limits and Actions minutes.
+LINKEDIN_BACKFILL_FLAGS = {
+    "--linkedin-backfill", "--linkedin-backfill-partition", "--linkedin-backfill-term",
+    "--linkedin-emit-matrix", "--linkedin-merge-backfill",
+}
+
+
+def _require_own_linkedin_search() -> None:
+    """Exit unless config.json sets its own search_terms.linkedin.
+
+    The repository variable ALLOW_EXAMPLE_CONFIG=true opts in to running the
+    example's searches on purpose (e.g. in the repo the example came from).
+    """
+    if os.environ.get("ALLOW_EXAMPLE_CONFIG", "").strip().lower() == "true":
+        return
+    user = _read_json(os.path.join(SCRIPT_DIR, "config.json"))
+    example = _read_json(os.path.join(SCRIPT_DIR, "config.example.json")) or {}
+    terms = ((user or {}).get("search_terms") or {}).get("linkedin")
+    example_terms = (example.get("search_terms") or {}).get("linkedin")
+    if user is None:
+        problem = "config.json is missing or isn't valid JSON (is the CONFIG_JSON secret set?)"
+    elif not terms:
+        problem = "config.json doesn't set search_terms.linkedin"
+    elif terms == example_terms:
+        problem = "config.json's search_terms.linkedin are still the example's"
+    else:
+        return
+    sys.exit(
+        f"  ⛔ Refusing to run a LinkedIn backfill: {problem}.\n"
+        "     A backfill sends hundreds of LinkedIn searches; run on someone else's search it only\n"
+        "     fills your data with jobs you don't want. Put your own search_terms.linkedin in\n"
+        "     config.json or the CONFIG_JSON secret (README → 'LinkedIn backfill'). To run the\n"
+        "     example's searches on purpose, set the repository variable ALLOW_EXAMPLE_CONFIG=true."
+    )
+
 
 def _cfg(path: str, default):
     """Nested config lookup by dotted path; returns default if absent/empty."""
@@ -3209,6 +3247,9 @@ def _linkedin_merge_backfill_files(output_dir: str) -> tuple[list[dict], list[di
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
+    if LINKEDIN_BACKFILL_FLAGS & set(sys.argv):
+        _require_own_linkedin_search()
+
     if "--indeed-only" in sys.argv:
         save_indeed_results(scrape_indeed_recent())
         sys.exit(0)
@@ -3440,6 +3481,13 @@ if __name__ == "__main__":
                   f"{len(matrix)} work items "
                   f"({len(term_batches)} term-batches × {len(locations)} locations)")
         print(f"  Term batches: {term_batches}")
+        if len(matrix) > 256:
+            sys.exit(
+                f"  ⛔ This phase needs {len(matrix)} parallel jobs; GitHub allows at most 256 in one\n"
+                "     job list. Use fewer search_terms.linkedin (2 per job) or fewer locations in\n"
+                "     locations.linkedin_partitions (states for Phase 1; high_volume.locations × "
+                f"{LINKEDIN_BACKFILL_DAYS} days for Phase 2)."
+            )
         matrix_path = os.path.join(OUTPUT_DIR, "linkedin_matrix.json")
         with open(matrix_path, "w", encoding="utf-8") as f:
             json.dump({"matrix": matrix}, f, indent=2, ensure_ascii=False)

@@ -87,15 +87,15 @@ Want it on a custom domain (like `you.com/jobs`)? See [Managing a custom domain]
 
 ## Step 5 — Run it the first time
 
-In the **Actions** tab, open each watcher and click **Run workflow**. Afterwards they run automatically on their schedule — this first manual run seeds your dataset.
+In the **Actions** tab, open each watcher and click **Run workflow**, **one at a time**: wait for each run to finish before starting the next. The watchers share a lock so they never write your data at the same time, and GitHub **cancels** runs that pile up waiting for it. Afterwards they run automatically on their schedule — this first manual run seeds your dataset. (`scripts/setup.sh` can do this for you, one at a time.)
 
 **One-time historical backfill (recommended for new setups):**
 
-Several watchers have a `backfill` toggle in the "Run workflow" dialog that pulls a longer historical window to give you a full initial picture:
+Several watchers have a `backfill` toggle in the "Run workflow" dialog that pulls a longer historical window to give you a full initial picture. Run them one at a time, like above. For LinkedIn, use the separate **LinkedIn Backfill (Parallel)** workflow — see [LinkedIn backfill](#linkedin-backfill) below.
 
 | Watcher | Default window | Backfill window |
 |---|---|---|
-| **LinkedIn Watcher** | last 1 hour | last 30 days |
+| **LinkedIn Watcher** | last 1 hour | last 30 days — use [LinkedIn Backfill (Parallel)](#linkedin-backfill) instead |
 | **Indeed Watcher** | last 24 hours | last 50 days |
 | **Glassdoor Watcher** | last 24 hours | last 30 days; scheduled runs are opt-in |
 | **ZipRecruiter Watcher** | last 24 hours | last 30 days |
@@ -107,6 +107,33 @@ Several watchers have a `backfill` toggle in the "Run workflow" dialog that pull
 To use: **Actions → [Watcher name] → Run workflow → check "One-time backfill" → Run workflow**.
 
 **No backfill needed** for **CalCareers**, **USAJOBS**, and **CalOpps** — these sources return all current open listings on every run, so a single normal run is already a full snapshot.
+
+### LinkedIn backfill
+
+LinkedIn is the biggest source, so its 30-day backfill has its own workflow, **LinkedIn Backfill (Parallel)**. It splits the work into many small jobs that run side by side on GitHub, then merges and commits the results. (The LinkedIn Watcher's own "One-time backfill" checkbox does the same 30 days in a single job; LinkedIn's rate limits usually keep it running until GitHub's 6-hour job limit cancels it, with nothing saved.)
+
+**Before you run it**
+
+1. **Use your own search.** A backfill sends hundreds of LinkedIn searches, so it **refuses to run** on `config.example.json`'s searches: your `config.json` must set its own `search_terms.linkedin`. Either:
+   - commit your `config.json` to your repo (Step 2), or
+   - keep it out of the repo and store it as the `CONFIG_JSON` secret: run `bash scripts/export-config-secret.sh` and paste the output into **Settings → Secrets and variables → Actions → New repository secret** named `CONFIG_JSON`. If the secret is set, it is used instead of a committed `config.json`.
+
+   The only exception: to deliberately run the example's searches (in the repo they came from, say), add the repository **variable** `ALLOW_EXAMPLE_CONFIG` = `true`.
+2. **`ENABLE_DATA_COMMITS=true`** (Step 4), or nothing gets saved.
+3. **Check the size.** Each job searches 2 of your `search_terms.linkedin` in one location:
+   - **Phase 1** runs (number of search terms ÷ 2, rounded up) × (the states in `locations.linkedin_partitions.states`, plus US-wide and Remote) jobs, each covering all 30 days.
+   - **Phase 2** runs only if you list `locations.linkedin_partitions.high_volume.locations` — places with so many jobs that one search hits LinkedIn's 1,000-result cap. Each gets (search terms ÷ 2) × 30 one-day jobs. Leave it empty unless you need it.
+   - GitHub allows at most **256** jobs per phase. If your config needs more, the run stops before searching and tells you what to trim.
+4. **Budget your Actions minutes.** With the example config (21 search terms, US-wide and Remote) Phase 1 is 22 jobs: about **50 minutes** start to finish, but about **470 runner minutes** in total. That's free on a public repo; a private repo on GitHub's free plan gets 2,000 minutes a month.
+
+**Run it**
+
+1. Make sure no other watcher is running or queued (they share the lock).
+2. **Actions → LinkedIn Backfill (Parallel) → Run workflow → Run workflow.**
+3. Watch it in the Actions tab: **Emit matrix** lists the jobs, the **Phase 1 —** jobs search, then **Merge Phase 1 + commit** saves the results. If you have no high-volume locations, Phase 2's search jobs are skipped and **Merge Phase 2 + commit** just records the run.
+4. When it's done, hard-refresh your `…/triage.html`.
+
+Run it once when you set up. After that the hourly LinkedIn Watcher keeps you current.
 
 Give it 1–2 minutes per watcher, then open your `…/triage.html` URL. 🎉 Hard-refresh (ctrl+R) after each scrape to see new jobs.
 

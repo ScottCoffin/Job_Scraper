@@ -8,7 +8,7 @@
 #   4. Sets ENABLE_DATA_COMMITS=true (the variable that makes scrapers save results)
 #   5. Optionally sets Pushover notification secrets
 #   6. Optionally sets Anthropic API key for AI fit-scoring
-#   7. Optionally triggers a first-time backfill run on all watchers
+#   7. Optionally triggers a first-time backfill on each watcher, one at a time
 #
 # Requirements:
 #   gh CLI (https://cli.github.com) installed and authenticated
@@ -204,40 +204,57 @@ fi
 step "First-time backfill (optional)"
 
 info "A backfill seeds your dataset with 30–61 days of historical listings."
-info "Recommended for new setups — takes ~5 minutes for all watchers."
+info "Watchers run one at a time: they share a lock, and GitHub cancels runs that"
+info "queue up behind it. Keep this window open until they finish (a few minutes each)."
+info "LinkedIn uses the 'LinkedIn Backfill (Parallel)' workflow, started last; it needs"
+info "your own search_terms.linkedin in config.json (README → 'LinkedIn backfill')."
 TRIGGER=$(ask "Run backfill now? [y/N]:")
 
+# Trigger a workflow and wait for its run to finish.
+run_and_wait() { # workflow file, then extra `gh workflow run` args
+  local wf=$1; shift
+  local before id
+  before=$(gh run list -w "$wf" -L 1 --json databaseId -q '.[0].databaseId // 0' 2>/dev/null || echo 0)
+  if ! gh workflow run "$wf" "$@" 2>/dev/null; then
+    info "  – Skipped: $wf (not found or workflow disabled)"
+    return 0
+  fi
+  id=$before
+  for _ in $(seq 1 24); do
+    sleep 5
+    id=$(gh run list -w "$wf" -L 1 --json databaseId -q '.[0].databaseId // 0' 2>/dev/null || echo "$before")
+    [ "$id" != "$before" ] && break
+  done
+  if [ "$id" = "$before" ]; then
+    warn "  $wf: triggered, but its run didn't appear; check the Actions tab."
+    return 0
+  fi
+  info "  … $wf running (run $id)"
+  if gh run watch "$id" --exit-status >/dev/null 2>&1; then
+    ok "  $wf finished"
+  else
+    warn "  $wf didn't succeed; check the Actions tab."
+  fi
+}
+
 if [[ "${TRIGGER,,}" =~ ^y ]]; then
-  declare -A WATCHERS=(
-    ["linkedin_watch.yml"]="backfill"
-    ["indeed_watch.yml"]="backfill"
-    ["ziprecruiter_watch.yml"]="backfill"
-    ["hiringcafe_watch.yml"]="backfill"
-    ["localgov_watch.yml"]="backfill"
-    ["scrape_jobs.yml"]="backfill"
-  )
-  # These don't have a backfill toggle — normal run is a full snapshot
-  NO_BACKFILL_WATCHERS=("calcareers_watch.yml" "usajobs_watch.yml")
-
-  for wf in "${!WATCHERS[@]}"; do
-    if gh workflow run "$wf" --field backfill=true 2>/dev/null; then
-      info "  ✓ Triggered: $wf (with backfill)"
-    else
-      info "  – Skipped: $wf (not found or workflow disabled)"
-    fi
+  for wf in indeed_watch.yml ziprecruiter_watch.yml hiringcafe_watch.yml localgov_watch.yml scrape_jobs.yml; do
+    run_and_wait "$wf" --field backfill=true
+  done
+  # These don't have a backfill toggle — a normal run is a full snapshot
+  for wf in calcareers_watch.yml usajobs_watch.yml; do
+    run_and_wait "$wf"
   done
 
-  for wf in "${NO_BACKFILL_WATCHERS[@]}"; do
-    if gh workflow run "$wf" 2>/dev/null; then
-      info "  ✓ Triggered: $wf (full snapshot)"
-    else
-      info "  – Skipped: $wf"
-    fi
-  done
-
-  ok "Backfill runs triggered. Monitor progress in the Actions tab."
+  # LinkedIn: the parallel backfill takes about an hour, so start it and move on.
+  if gh workflow run linkedin_backfill.yml 2>/dev/null; then
+    ok "Started LinkedIn Backfill (Parallel). It takes about an hour; watch it in the Actions tab."
+  else
+    info "  – Skipped: linkedin_backfill.yml (not found or workflow disabled)"
+  fi
 else
-  info "Skipped. Trigger manually: Actions → [Watcher] → Run workflow → check 'One-time backfill'."
+  info "Skipped. To run later, one at a time: Actions → [Watcher] → Run workflow → check"
+  info "'One-time backfill'. For LinkedIn: Actions → LinkedIn Backfill (Parallel) → Run workflow."
 fi
 
 # ── Summary ─────────────────────────────────────────────────────────────────────
