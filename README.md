@@ -245,6 +245,7 @@ The list is deliberately **tight** for precision: generic titles (`research scie
 | `governmentjobs_jobs.json` / `.md` / `.html` | NEOGOV watcher | State & local-gov roles matching your configured keywords via governmentjobs.com |
 | `calopps_jobs.json` / `.md` / `.html` | CalOpps watcher | California local-agency roles (cities, counties, special districts) via calopps.org |
 | `all_jobs.json` | accumulator | Cumulative 30-day master (feeds the dashboard + triage) |
+| `deltas/<timestamp>_linkedin.json` + `deltas/index.jsonl` | LinkedIn watcher | Per-run "what changed" files for downstream tools, 30-day retention — see [`docs/JOB_SCHEMA.md`](docs/JOB_SCHEMA.md) |
 | `scores.json` | triage agent | Optional fit verdicts keyed by job URL |
 
 ### CalCareers (California state jobs)
@@ -496,8 +497,10 @@ Paste your CV text into `CANDIDATE_RESUME`. Without these secrets, leave `triage
 │   ├── all_jobs.json               # Cumulative 30-day master (feeds dashboard + triage)
 │   ├── scores.json                 # Triage verdicts (optional)
 │   ├── notified.json               # Push-notification dedup log
+│   ├── deltas/                     # Per-run LinkedIn delta files + index.jsonl manifest
 │   └── workflow_runs.jsonl         # CI run audit log
 ├── docs/
+│   ├── JOB_SCHEMA.md               # Data contract: job records + delta files
 │   ├── cv-to-config-prompt.md      # LLM prompt to generate config.json from a CV
 │   └── triage.gif                  # Dashboard demo
 └── .github/workflows/

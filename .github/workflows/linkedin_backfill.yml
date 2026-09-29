@@ -116,7 +116,10 @@ jobs:
         run: |
           git config user.name  "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add -f output/linkedin_jobs.json output/linkedin_jobs.md output/linkedin_jobs.html output/all_jobs.json output/deltas/
+          git add -f output/linkedin_jobs.json output/linkedin_jobs.md output/linkedin_jobs.html output/all_jobs.json
+          # output/deltas/ only exists once a run has written a delta; a
+          # missing pathspec would make git add (and this step) fail.
+          if [ -d output/deltas ]; then git add -f output/deltas/; fi
           git diff --cached --quiet || git commit -m "chore: linkedin backfill phase 1 [$(date -u '+%Y-%m-%d %H:%MZ')]"
           git pull --rebase -X theirs origin main
           git push
@@ -236,7 +239,10 @@ jobs:
         run: |
           git config user.name  "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add -f output/linkedin_jobs.json output/linkedin_jobs.md output/linkedin_jobs.html output/workflow_runs.jsonl output/all_jobs.json output/notified.json output/deltas/
+          git add -f output/linkedin_jobs.json output/linkedin_jobs.md output/linkedin_jobs.html output/workflow_runs.jsonl output/all_jobs.json output/notified.json
+          # output/deltas/ only exists once a run has written a delta; a
+          # missing pathspec would make git add (and this step) fail.
+          if [ -d output/deltas ]; then git add -f output/deltas/; fi
           git diff --cached --quiet || git commit -m "chore: linkedin backfill phase 2 (high-volume day slices) [$(date -u '+%Y-%m-%d %H:%MZ')]"
           git pull --rebase -X theirs origin main
           git push

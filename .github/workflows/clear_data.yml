@@ -64,6 +64,13 @@ jobs:
           with open("output/notified.json", "w", encoding="utf-8") as f:
               json.dump({"ids": []}, f)
           print("✅ output/notified.json cleared")
+
+          # Delta files + manifest
+          import shutil
+          deltas_dir = "output/deltas"
+          if os.path.isdir(deltas_dir):
+              shutil.rmtree(deltas_dir)
+          print("✅ output/deltas/ cleared")
           EOF
 
       - name: Commit and push cleared data
@@ -77,6 +84,8 @@ jobs:
             output/google_jobs.json output/hiringcafe_jobs.json \
             output/calcareers_jobs.json output/usajobs_jobs.json \
             output/governmentjobs_jobs.json output/calopps_jobs.json
+          # Stage delta directory deletions (git add -A picks up removed files)
+          git add -A output/deltas/ 2>/dev/null || true
           git diff --cached --quiet \
             && echo "Nothing to clear (output already empty)." \
             || git commit -m "chore: clear all job data [$(date -u '+%Y-%m-%d %H:%MZ')]"
