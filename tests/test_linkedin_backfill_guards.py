@@ -39,8 +39,7 @@ def emit(scraper_dir, *args, config=None, env=None):
         (scraper_dir / "config.json").write_text(text, encoding="utf-8")
     gh_output = scraper_dir / "gh_output"
     gh_output.write_text("")
-    run_env = {k: v for k, v in os.environ.items() if k != "ALLOW_EXAMPLE_CONFIG"}
-    run_env.update({"GITHUB_OUTPUT": str(gh_output), **(env or {})})
+    run_env = {**os.environ, "GITHUB_OUTPUT": str(gh_output), **(env or {})}
     result = subprocess.run(
         [sys.executable, "scrape_jobs.py", "--linkedin-emit-matrix", *args],
         cwd=scraper_dir, env=run_env, capture_output=True, text=True, timeout=60)
@@ -52,7 +51,6 @@ def emit(scraper_dir, *args, config=None, env=None):
     (None, "config.json is missing or isn't valid JSON"),
     ("\n", "config.json is missing or isn't valid JSON"),  # empty CONFIG_JSON secret
     ({"keywords": {"include": ["data"]}}, "doesn't set search_terms.linkedin"),
-    (EXAMPLE, "still the example's"),
 ])
 def test_backfill_refuses_without_own_search(scraper_dir, config, reason):
     result, matrix = emit(scraper_dir, config=config)
@@ -73,8 +71,9 @@ def test_backfill_runs_with_own_search(scraper_dir):
     assert {tuple(m["terms"]) for m in matrix} == {tuple(OWN_TERMS[:2]), tuple(OWN_TERMS[2:])}
 
 
-def test_example_config_allowed_only_by_explicit_opt_in(scraper_dir):
-    result, matrix = emit(scraper_dir, env={"ALLOW_EXAMPLE_CONFIG": "true"})
+def test_example_copied_into_config_json_is_used(scraper_dir):
+    """Copying config.example.json to config.json is a deliberate choice, so it runs."""
+    result, matrix = emit(scraper_dir, config=EXAMPLE)
 
     assert result.returncode == 0, result.stderr
     assert matrix and matrix[0]["terms"] == EXAMPLE["search_terms"]["linkedin"][:2]
@@ -97,13 +96,23 @@ def test_matrix_over_github_limit_stops_before_searching(scraper_dir):
     assert matrix is None
 
 
-def test_backfill_workflow_wiring():
-    text = (REPO_ROOT / ".github" / "workflows" / "linkedin_backfill.yml").read_text()
-    # An empty secret must not overwrite a committed config.json
-    assert 'echo "$CONFIG_JSON" > config.json\n' not in text.replace(
-        'then echo "$CONFIG_JSON" > config.json; fi', "")
-    assert text.count('if [ -n "$CONFIG_JSON" ]; then echo "$CONFIG_JSON" > config.json; fi') == 6
-    assert "ALLOW_EXAMPLE_CONFIG: ${{ vars.ALLOW_EXAMPLE_CONFIG }}" in text
-    # Empty Phase 2 is skipped, and the Phase 2 merge still records the run
-    assert "if: needs.emit-matrix-phase2.outputs.matrix != '[]'" in text
-    assert "needs.fanout-phase2.result == 'skipped'" in text
+def _config_steps():
+    import yaml
+    wf = yaml.safe_load((REPO_ROOT / ".github" / "workflows" / "linkedin_backfill.yml").read_text())
+    return [step["run"] for job in wf["jobs"].values() for step in job["steps"]
+            if step.get("name") == "Write config.json from secret"]
+
+
+@pytest.mark.parametrize("secret, expected", [
+    ("", "committed"),              # secret not set: keep the committed config.json
+    ('{"from": "secret"}', "secret"),  # secret set: it wins
+])
+def test_backfill_config_step_keeps_committed_config_unless_secret_set(tmp_path, secret, expected):
+    steps = _config_steps()
+    assert steps, "linkedin_backfill.yml has no 'Write config.json from secret' steps"
+    for run in steps:
+        config = tmp_path / "config.json"
+        config.write_text('{"from": "committed"}')
+        subprocess.run(["bash", "-eo", "pipefail", "-c", run], cwd=tmp_path, check=True,
+                       env={**os.environ, "CONFIG_JSON": secret})
+        assert json.loads(config.read_text())["from"] == expected

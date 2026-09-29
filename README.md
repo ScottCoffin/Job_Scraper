@@ -114,11 +114,9 @@ LinkedIn is the biggest source, so its 30-day backfill has its own workflow, **L
 
 **Before you run it**
 
-1. **Use your own search.** A backfill sends hundreds of LinkedIn searches, so it **refuses to run** on `config.example.json`'s searches: your `config.json` must set its own `search_terms.linkedin`. Either:
+1. **Set your search in `config.json`.** A backfill sends hundreds of LinkedIn searches, so it **never falls back** to `config.example.json`: it refuses to run unless your `config.json` sets `search_terms.linkedin` itself. Either:
    - commit your `config.json` to your repo (Step 2), or
    - keep it out of the repo and store it as the `CONFIG_JSON` secret: run `bash scripts/export-config-secret.sh` and paste the output into **Settings → Secrets and variables → Actions → New repository secret** named `CONFIG_JSON`. If the secret is set, it is used instead of a committed `config.json`.
-
-   The only exception: to deliberately run the example's searches (in the repo they came from, say), add the repository **variable** `ALLOW_EXAMPLE_CONFIG` = `true`.
 2. **`ENABLE_DATA_COMMITS=true`** (Step 4), or nothing gets saved.
 3. **Check the size.** Each job searches 2 of your `search_terms.linkedin` in one location:
    - **Phase 1** runs (number of search terms ÷ 2, rounded up) × (the states in `locations.linkedin_partitions.states`, plus US-wide and Remote) jobs, each covering all 30 days.

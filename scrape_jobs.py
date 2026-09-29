@@ -107,31 +107,24 @@ CONFIG = _load_config()
 
 
 def _require_own_linkedin_search() -> None:
-    """Exit unless config.json sets its own search_terms.linkedin.
+    """Exit unless config.json itself sets search_terms.linkedin.
 
-    The repository variable ALLOW_EXAMPLE_CONFIG=true opts in to running the
-    example's searches on purpose (e.g. in the repo the example came from).
+    config.json is layered over config.example.json, so without this check a
+    missing config.json, or one without search_terms.linkedin, would silently
+    run the example's searches.
     """
-    if os.environ.get("ALLOW_EXAMPLE_CONFIG", "").strip().lower() == "true":
-        return
     user = _read_json(os.path.join(SCRIPT_DIR, "config.json"))
-    example = _read_json(os.path.join(SCRIPT_DIR, "config.example.json")) or {}
-    terms = ((user or {}).get("search_terms") or {}).get("linkedin")
-    example_terms = (example.get("search_terms") or {}).get("linkedin")
     if user is None:
         problem = "config.json is missing or isn't valid JSON (is the CONFIG_JSON secret set?)"
-    elif not terms:
+    elif not ((user.get("search_terms") or {}).get("linkedin")):
         problem = "config.json doesn't set search_terms.linkedin"
-    elif terms == example_terms:
-        problem = "config.json's search_terms.linkedin are still the example's"
     else:
         return
     sys.exit(
         f"  ⛔ Refusing to run a LinkedIn backfill: {problem}.\n"
-        "     A backfill sends hundreds of LinkedIn searches; run on someone else's search it only\n"
-        "     fills your data with jobs you don't want. Put your own search_terms.linkedin in\n"
-        "     config.json or the CONFIG_JSON secret (README → 'LinkedIn backfill'). To run the\n"
-        "     example's searches on purpose, set the repository variable ALLOW_EXAMPLE_CONFIG=true."
+        "     A backfill sends hundreds of LinkedIn searches, so it never falls back to\n"
+        "     config.example.json's searches. Put your search_terms.linkedin in config.json or\n"
+        "     the CONFIG_JSON secret (README → 'LinkedIn backfill')."
     )
 
 

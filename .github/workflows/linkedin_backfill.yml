@@ -22,11 +22,6 @@ name: LinkedIn Backfill (Parallel)
 on:
   workflow_dispatch:
 
-env:
-  # Backfills refuse to run on config.example.json's searches unless this
-  # repository variable is set to true (see README → "LinkedIn backfill").
-  ALLOW_EXAMPLE_CONFIG: ${{ vars.ALLOW_EXAMPLE_CONFIG }}
-
 jobs:
   # ─── Phase 1: Low-volume locations ────────────────────────────────────────
   emit-matrix-phase1:
