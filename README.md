@@ -32,9 +32,19 @@ Your personal config (`config.json`, `scoring_profile.json`) and all scraped dat
 
 ### Staying up to date
 
-Enable the **`sync_upstream.yml`** workflow in your repo (**Actions → Sync from upstream → Enable workflow**) and it rebases new code improvements every Monday.
+Enable the **`sync_upstream.yml`** workflow in your repo (**Actions → Sync from upstream → Enable workflow**) and it merges new code improvements every Monday. Your `output/` data, `config.json` and `scoring_profile.json` always stay exactly as your fork has them.
 
-> **Use the workflow, not the GitHub "Sync fork" button.** Because your fork has commits upstream doesn't (your `config.json`, your scraped data), GitHub's built-in button shows "Discard N commits" — which would delete your config. The `sync_upstream.yml` workflow handles this correctly by rebasing your commits on top of upstream. The button is safe only before you've committed any personalization.
+> **Use the workflow, not the GitHub "Sync fork" button.** Because your fork has commits upstream doesn't (your `config.json`, your scraped data), GitHub's built-in button shows "Discard N commits" — which would delete your config. The `sync_upstream.yml` workflow handles this correctly by merging upstream into your fork (see [`scripts/sync-upstream.sh`](scripts/sync-upstream.sh)). The button is safe only before you've committed any personalization.
+
+**Add a `SYNC_TOKEN` secret** so syncs that include workflow-file changes can push. GitHub never lets the default Actions token change files under `.github/workflows/`, and upstream updates often do. Create a [fine-grained personal access token](https://github.com/settings/personal-access-tokens/new) scoped to your fork with **Contents: Read and write** and **Workflows: Read and write**, then save it as the repository secret `SYNC_TOKEN`. Without it, those syncs fail with "Push refused".
+
+**If a sync fails**, run it from a local clone instead; it pushes with your own GitHub login:
+
+```bash
+bash scripts/sync-upstream.sh
+```
+
+> The sync never changes your copy of `sync_upstream.yml` or `scripts/sync-upstream.sh`, so a bad upstream edit can't break your syncs. To pick up a newer version of either, copy it from this repo by hand.
 
 > Always pull from `https://github.com/ScottCoffin/Job_Scraper` — never from someone else's personal fork.
 

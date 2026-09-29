@@ -1,4 +1,8 @@
-workflow_runs.jsonl merge=union
+# All scraped output data (including output/deltas/ and the workflow_runs.jsonl
+# audit log) is per-repo and always keeps the fork's version on merge.
+# sync_upstream.yml defines the "ours" driver and also resets output/ to the
+# fork's tree after merging; this attribute is belt-and-suspenders.
+output/** merge=ours
 
 # Fork-owner personal files — always keep the fork's version on any merge.
 # This is belt-and-suspenders: these files are gitignored upstream (so upstream

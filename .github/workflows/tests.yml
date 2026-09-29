@@ -4,11 +4,15 @@ on:
   push:
     paths:
       - "scrape_jobs.py"
+      - "scripts/sync-upstream.sh"
+      - ".github/workflows/sync_upstream.yml"
       - "tests/**"
       - ".github/workflows/tests.yml"
   pull_request:
     paths:
       - "scrape_jobs.py"
+      - "scripts/sync-upstream.sh"
+      - ".github/workflows/sync_upstream.yml"
       - "tests/**"
   workflow_dispatch:
 
