@@ -96,6 +96,18 @@ def test_matrix_over_github_limit_stops_before_searching(scraper_dir):
     assert matrix is None
 
 
+def test_oversized_phase2_stops_before_phase1_searches(scraper_dir):
+    """Phase 1 runs first, so an oversized Phase 2 must be caught at the very first step."""
+    high_volume = {"locations": [{"name": f"City {i}", "location": f"City {i}, United States"}
+                                 for i in range(5)], "day_slices": True}
+    # 3 terms -> 2 batches; 2 x 5 locations x 30 days = 300 Phase 2 jobs
+    result, matrix = emit(scraper_dir, config=own_config(high_volume=high_volume))
+
+    assert result.returncode != 0
+    assert "Phase 2 needs 300" in result.stderr
+    assert matrix is None
+
+
 def _config_steps():
     import yaml
     wf = yaml.safe_load((REPO_ROOT / ".github" / "workflows" / "linkedin_backfill.yml").read_text())

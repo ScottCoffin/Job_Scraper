@@ -210,23 +210,25 @@ info "LinkedIn uses the 'LinkedIn Backfill (Parallel)' workflow, started last; i
 info "your own search_terms.linkedin in config.json (README → 'LinkedIn backfill')."
 TRIGGER=$(ask "Run backfill now? [y/N]:")
 
-# Trigger a workflow and wait for its run to finish.
+# Trigger a workflow and wait for the run it started to finish.
 run_and_wait() { # workflow file, then extra `gh workflow run` args
   local wf=$1; shift
-  local before id
-  before=$(gh run list -w "$wf" -L 1 --json databaseId -q '.[0].databaseId // 0' 2>/dev/null || echo 0)
+  local before id=""
+  # Only manually dispatched runs, so a scheduled run of the same workflow
+  # starting at the same moment is never mistaken for ours.
+  dispatched_runs() { gh run list -w "$wf" --event workflow_dispatch -L 20 --json databaseId -q '.[].databaseId' 2>/dev/null; }
+  before=$(dispatched_runs || true)
   if ! gh workflow run "$wf" "$@" 2>/dev/null; then
     info "  – Skipped: $wf (not found or workflow disabled)"
     return 0
   fi
-  id=$before
-  for _ in $(seq 1 24); do
+  for _ in $(seq 1 60); do
     sleep 5
-    id=$(gh run list -w "$wf" -L 1 --json databaseId -q '.[0].databaseId // 0' 2>/dev/null || echo "$before")
-    [ "$id" != "$before" ] && break
+    id=$(dispatched_runs | grep -vxF -f <(printf '%s\n' "$before") | head -1 || true)
+    [ -n "$id" ] && break
   done
-  if [ "$id" = "$before" ]; then
-    warn "  $wf: triggered, but its run didn't appear; check the Actions tab."
+  if [ -z "$id" ]; then
+    warn "  $wf: triggered, but its run didn't appear within 5 minutes; check the Actions tab."
     return 0
   fi
   info "  … $wf running (run $id)"

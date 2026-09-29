@@ -114,14 +114,12 @@ LinkedIn is the biggest source, so its 30-day backfill has its own workflow, **L
 
 **Before you run it**
 
-1. **Set your search in `config.json`.** A backfill sends hundreds of LinkedIn searches, so it **never falls back** to `config.example.json`: it refuses to run unless your `config.json` sets `search_terms.linkedin` itself. Either:
-   - commit your `config.json` to your repo (Step 2), or
-   - keep it out of the repo and store it as the `CONFIG_JSON` secret: run `bash scripts/export-config-secret.sh` and paste the output into **Settings → Secrets and variables → Actions → New repository secret** named `CONFIG_JSON`. If the secret is set, it is used instead of a committed `config.json`.
+1. **Commit your `config.json` with your own `search_terms.linkedin`** (Step 2). A backfill sends hundreds of LinkedIn searches, so it **never falls back** to `config.example.json`: it refuses to run unless your `config.json` sets `search_terms.linkedin` itself. (To use the example's searches, copy `config.example.json` to `config.json`.)
 2. **`ENABLE_DATA_COMMITS=true`** (Step 4), or nothing gets saved.
 3. **Check the size.** Each job searches 2 of your `search_terms.linkedin` in one location:
    - **Phase 1** runs (number of search terms ÷ 2, rounded up) × (the states in `locations.linkedin_partitions.states`, plus US-wide and Remote) jobs, each covering all 30 days.
    - **Phase 2** runs only if you list `locations.linkedin_partitions.high_volume.locations` — places with so many jobs that one search hits LinkedIn's 1,000-result cap. Each gets (search terms ÷ 2) × 30 one-day jobs. Leave it empty unless you need it.
-   - GitHub allows at most **256** jobs per phase. If your config needs more, the run stops before searching and tells you what to trim.
+   - GitHub allows at most **256** jobs per phase. If either phase would need more, the run stops before any searching and tells you what to trim.
 4. **Budget your Actions minutes.** With the example config (21 search terms, US-wide and Remote) Phase 1 is 22 jobs: about **50 minutes** start to finish, but about **470 runner minutes** in total. That's free on a public repo; a private repo on GitHub's free plan gets 2,000 minutes a month.
 
 **Run it**

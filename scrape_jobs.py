@@ -115,7 +115,7 @@ def _require_own_linkedin_search() -> None:
     """
     user = _read_json(os.path.join(SCRIPT_DIR, "config.json"))
     if user is None:
-        problem = "config.json is missing or isn't valid JSON (is the CONFIG_JSON secret set?)"
+        problem = "config.json is missing or isn't valid JSON"
     elif not ((user.get("search_terms") or {}).get("linkedin")):
         problem = "config.json doesn't set search_terms.linkedin"
     else:
@@ -123,8 +123,8 @@ def _require_own_linkedin_search() -> None:
     sys.exit(
         f"  ⛔ Refusing to run a LinkedIn backfill: {problem}.\n"
         "     A backfill sends hundreds of LinkedIn searches, so it never falls back to\n"
-        "     config.example.json's searches. Put your search_terms.linkedin in config.json or\n"
-        "     the CONFIG_JSON secret (README → 'LinkedIn backfill')."
+        "     config.example.json's searches. Commit a config.json that sets your own\n"
+        "     search_terms.linkedin (README → Step 2 and 'LinkedIn backfill')."
     )
 
 
@@ -3476,12 +3476,20 @@ if __name__ == "__main__":
                   f"{len(matrix)} work items "
                   f"({len(term_batches)} term-batches × {len(locations)} locations)")
         print(f"  Term batches: {term_batches}")
-        if len(matrix) > 256:
+        # GitHub allows at most 256 jobs per matrix. Check both phases here, so
+        # an oversized Phase 2 stops the run before Phase 1 does any searching.
+        phase_sizes = {
+            "Phase 1": len(matrix) if phase != "high" else None,
+            "Phase 2": len(term_batches) * len(LINKEDIN_HIGH_VOLUME_LOCATIONS) * LINKEDIN_BACKFILL_DAYS,
+        }
+        too_big = {name: n for name, n in phase_sizes.items() if n and n > 256}
+        if too_big:
+            sizes = ", ".join(f"{name} needs {n}" for name, n in too_big.items())
             sys.exit(
-                f"  ⛔ This phase needs {len(matrix)} parallel jobs; GitHub allows at most 256 in one\n"
-                "     job list. Use fewer search_terms.linkedin (2 per job) or fewer locations in\n"
-                "     locations.linkedin_partitions (states for Phase 1; high_volume.locations × "
-                f"{LINKEDIN_BACKFILL_DAYS} days for Phase 2)."
+                f"  ⛔ Too many parallel jobs ({sizes}); GitHub allows at most 256 per phase.\n"
+                "     Use fewer search_terms.linkedin (2 per job), or fewer locations in\n"
+                "     locations.linkedin_partitions: states (Phase 1), or high_volume.locations\n"
+                f"     (Phase 2 runs each one for {LINKEDIN_BACKFILL_DAYS} days)."
             )
         matrix_path = os.path.join(OUTPUT_DIR, "linkedin_matrix.json")
         with open(matrix_path, "w", encoding="utf-8") as f:
