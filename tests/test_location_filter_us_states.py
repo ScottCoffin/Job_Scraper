@@ -22,12 +22,14 @@ US_STATES = [
 ]
 
 
-# International locations that must be rejected
+# International locations that must be rejected. (No Australian ones: the
+# example config targets Australia, and a country named in
+# location_filter.terms is kept; see test_location_filter_targeted_countries.py.)
 INTERNATIONAL = [
     "London, United Kingdom",
     "Cardiff, Wales",
     "Toronto, Canada",
-    "Sydney, Australia",
+    "Madrid, Spain",
     "Berlin, Germany",
     "Tokyo, Japan",
     "Mumbai, India",

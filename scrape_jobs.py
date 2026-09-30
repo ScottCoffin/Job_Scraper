@@ -333,9 +333,26 @@ NON_US_COUNTRIES_SINGLE = [
     "austria", "poland", "czech", "romania", "hungary", "israel",
     "qatar", "egypt",
 ]
+def _targeted_country(country: str) -> bool:
+    """True if location_filter.terms name this country as a whole word."""
+    pattern = re.compile(r"\b" + re.escape(country) + r"\b")
+    return any(pattern.search(term) for term in TARGET_LOCATIONS)
+
+
+# Countries are rejected unless the user targets them in location_filter.terms
+# (e.g. "australia"), so a search outside the US works when asked for.
+# A location naming a targeted country skips country rejection entirely, so
+# regions inside it that are also on the list ("New South Wales, Australia",
+# "England, United Kingdom") aren't dropped.
+_TARGETED_COUNTRIES = [c for c in NON_US_COUNTRIES_MULTI + NON_US_COUNTRIES_SINGLE if _targeted_country(c)]
+_TARGETED_COUNTRY_RE = re.compile(
+    r'\b(?:' + '|'.join(re.escape(c) for c in _TARGETED_COUNTRIES) + r')\b'
+) if _TARGETED_COUNTRIES else None
+_REJECTED_COUNTRIES_MULTI = [c for c in NON_US_COUNTRIES_MULTI if not _targeted_country(c)]
+_REJECTED_COUNTRIES_SINGLE = [c for c in NON_US_COUNTRIES_SINGLE if not _targeted_country(c)]
 _NON_US_COUNTRY_RE = re.compile(
-    r'\b(?:' + '|'.join(re.escape(c) for c in NON_US_COUNTRIES_SINGLE) + r')\b'
-)
+    r'\b(?:' + '|'.join(re.escape(c) for c in _REJECTED_COUNTRIES_SINGLE) + r')\b'
+) if _REJECTED_COUNTRIES_SINGLE else None
 
 
 # US state full names (lowercased) — used to override country-match false
@@ -364,13 +381,16 @@ def is_target_location(location: str) -> bool:
     # which would otherwise be rejected by the country check below.
     if any(state in loc for state in _US_STATE_NAMES):
         return True
+    # A country the user targets: only their location terms decide.
+    if _TARGETED_COUNTRY_RE and _TARGETED_COUNTRY_RE.search(loc):
+        return any(place in loc for place in TARGET_LOCATIONS)
     # Reject non-US countries — prevents ", ca" matching "Canada", etc.
     # Multi-word countries: substring match (safe, distinctive phrases).
-    if any(country in loc for country in NON_US_COUNTRIES_MULTI):
+    if any(country in loc for country in _REJECTED_COUNTRIES_MULTI):
         return False
     # Single-word countries: word-boundary match (prevents "india" matching
     # "Indiana", "mexico" matching "New Mexico", etc.).
-    if _NON_US_COUNTRY_RE.search(loc):
+    if _NON_US_COUNTRY_RE and _NON_US_COUNTRY_RE.search(loc):
         return False
     return any(place in loc for place in TARGET_LOCATIONS)
 

@@ -110,7 +110,15 @@ To use: **Actions → [Watcher name] → Run workflow → check "One-time backfi
 
 ### LinkedIn backfill
 
-LinkedIn is the biggest source, so its 30-day backfill has its own workflow, **LinkedIn Backfill (Parallel)**. It splits the work into many small jobs that run side by side on GitHub, then merges and commits the results. (The LinkedIn Watcher's own "One-time backfill" checkbox does the same 30 days in a single job; LinkedIn's rate limits usually keep it running until GitHub's 6-hour job limit cancels it, with nothing saved.)
+LinkedIn is the biggest source, so its 30-day backfill has its own workflow, **LinkedIn Backfill (Parallel)**. It splits the work into many small jobs that run side by side on GitHub, then merges and commits the results. There are two ways to backfill LinkedIn:
+
+| | **LinkedIn Backfill (Parallel)** (recommended) | **LinkedIn Watcher** with "One-time backfill" ticked |
+|---|---|---|
+| Where | **US only**: the states in `locations.linkedin_partitions.states`, plus US-wide and Remote | **Anywhere** in `locations.linkedin` |
+| How | Many small jobs side by side; high-volume places split into one-day slices | One job, one search per term and location |
+| Limits | GitHub allows at most 256 jobs per phase | Each search returns at most ~1,000 results, so busy places get cut off; LinkedIn rate-limits long runs, and GitHub stops any job after 6 hours, losing everything unsaved. Keep the list of places short. |
+
+**Outside the US**, use the Watcher's checkbox, and make sure each country is in `location_filter.terms` (for example `"australia"`). The location filter drops postings in a built-in list of non-US countries (so that `", ca"` for California can't match Canada) unless you name the country there.
 
 **Before you run it**
 
