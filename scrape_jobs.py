@@ -72,6 +72,16 @@ def _deep_merge(base: dict, override: dict) -> dict:
     return merged
 
 
+# LinkedIn backfills send hundreds to thousands of searches. Unlike the hourly
+# watcher, they never fall back to config.example.json's search terms: on
+# someone else's search they only fill your data with jobs you don't want
+# and burn through LinkedIn rate limits and Actions minutes.
+LINKEDIN_BACKFILL_FLAGS = {
+    "--linkedin-backfill", "--linkedin-backfill-partition", "--linkedin-backfill-term",
+    "--linkedin-emit-matrix", "--linkedin-merge-backfill",
+}
+
+
 def _load_config() -> dict:
     base = _read_json(os.path.join(SCRIPT_DIR, "config.example.json")) or {}
     user = _read_json(os.path.join(SCRIPT_DIR, "config.json"))
@@ -82,8 +92,9 @@ def _load_config() -> dict:
                 "both missing or unparseable). Copy config.example.json to config.json, "
                 "or fix its JSON syntax, and re-run."
             )
-        print("  ℹ️  config.json not found; using config.example.json as-is "
-              "(copy it to config.json and customize)")
+        if not LINKEDIN_BACKFILL_FLAGS & set(sys.argv):  # backfills refuse instead
+            print("  ℹ️  config.json not found; using config.example.json as-is "
+                  "(copy it to config.json and customize)")
         return base
     if not base:
         print("  ⚠️  config.example.json not loaded; using config.json only "
@@ -93,6 +104,28 @@ def _load_config() -> dict:
 
 
 CONFIG = _load_config()
+
+
+def _require_own_linkedin_search() -> None:
+    """Exit unless config.json itself sets search_terms.linkedin.
+
+    config.json is layered over config.example.json, so without this check a
+    missing config.json, or one without search_terms.linkedin, would silently
+    run the example's searches.
+    """
+    user = _read_json(os.path.join(SCRIPT_DIR, "config.json"))
+    if user is None:
+        problem = "config.json is missing or isn't valid JSON"
+    elif not ((user.get("search_terms") or {}).get("linkedin")):
+        problem = "config.json doesn't set search_terms.linkedin"
+    else:
+        return
+    sys.exit(
+        f"  ⛔ Refusing to run a LinkedIn backfill: {problem}.\n"
+        "     A backfill sends hundreds of LinkedIn searches, so it never falls back to\n"
+        "     config.example.json's searches. Commit a config.json that sets your own\n"
+        "     search_terms.linkedin (README → Step 2 and 'LinkedIn backfill')."
+    )
 
 
 def _cfg(path: str, default):
@@ -300,9 +333,26 @@ NON_US_COUNTRIES_SINGLE = [
     "austria", "poland", "czech", "romania", "hungary", "israel",
     "qatar", "egypt",
 ]
+def _targeted_country(country: str) -> bool:
+    """True if location_filter.terms name this country as a whole word."""
+    pattern = re.compile(r"\b" + re.escape(country) + r"\b")
+    return any(pattern.search(term) for term in TARGET_LOCATIONS)
+
+
+# Countries are rejected unless the user targets them in location_filter.terms
+# (e.g. "australia"), so a search outside the US works when asked for.
+# A location naming a targeted country skips country rejection entirely, so
+# regions inside it that are also on the list ("New South Wales, Australia",
+# "England, United Kingdom") aren't dropped.
+_TARGETED_COUNTRIES = [c for c in NON_US_COUNTRIES_MULTI + NON_US_COUNTRIES_SINGLE if _targeted_country(c)]
+_TARGETED_COUNTRY_RE = re.compile(
+    r'\b(?:' + '|'.join(re.escape(c) for c in _TARGETED_COUNTRIES) + r')\b'
+) if _TARGETED_COUNTRIES else None
+_REJECTED_COUNTRIES_MULTI = [c for c in NON_US_COUNTRIES_MULTI if not _targeted_country(c)]
+_REJECTED_COUNTRIES_SINGLE = [c for c in NON_US_COUNTRIES_SINGLE if not _targeted_country(c)]
 _NON_US_COUNTRY_RE = re.compile(
-    r'\b(?:' + '|'.join(re.escape(c) for c in NON_US_COUNTRIES_SINGLE) + r')\b'
-)
+    r'\b(?:' + '|'.join(re.escape(c) for c in _REJECTED_COUNTRIES_SINGLE) + r')\b'
+) if _REJECTED_COUNTRIES_SINGLE else None
 
 
 # US state full names (lowercased) — used to override country-match false
@@ -331,13 +381,16 @@ def is_target_location(location: str) -> bool:
     # which would otherwise be rejected by the country check below.
     if any(state in loc for state in _US_STATE_NAMES):
         return True
+    # A country the user targets: only their location terms decide.
+    if _TARGETED_COUNTRY_RE and _TARGETED_COUNTRY_RE.search(loc):
+        return any(place in loc for place in TARGET_LOCATIONS)
     # Reject non-US countries — prevents ", ca" matching "Canada", etc.
     # Multi-word countries: substring match (safe, distinctive phrases).
-    if any(country in loc for country in NON_US_COUNTRIES_MULTI):
+    if any(country in loc for country in _REJECTED_COUNTRIES_MULTI):
         return False
     # Single-word countries: word-boundary match (prevents "india" matching
     # "Indiana", "mexico" matching "New Mexico", etc.).
-    if _NON_US_COUNTRY_RE.search(loc):
+    if _NON_US_COUNTRY_RE and _NON_US_COUNTRY_RE.search(loc):
         return False
     return any(place in loc for place in TARGET_LOCATIONS)
 
@@ -3209,6 +3262,9 @@ def _linkedin_merge_backfill_files(output_dir: str) -> tuple[list[dict], list[di
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
+    if LINKEDIN_BACKFILL_FLAGS & set(sys.argv):
+        _require_own_linkedin_search()
+
     if "--indeed-only" in sys.argv:
         save_indeed_results(scrape_indeed_recent())
         sys.exit(0)
@@ -3440,6 +3496,21 @@ if __name__ == "__main__":
                   f"{len(matrix)} work items "
                   f"({len(term_batches)} term-batches × {len(locations)} locations)")
         print(f"  Term batches: {term_batches}")
+        # GitHub allows at most 256 jobs per matrix. Check both phases here, so
+        # an oversized Phase 2 stops the run before Phase 1 does any searching.
+        phase_sizes = {
+            "Phase 1": len(matrix) if phase != "high" else None,
+            "Phase 2": len(term_batches) * len(LINKEDIN_HIGH_VOLUME_LOCATIONS) * LINKEDIN_BACKFILL_DAYS,
+        }
+        too_big = {name: n for name, n in phase_sizes.items() if n and n > 256}
+        if too_big:
+            sizes = ", ".join(f"{name} needs {n}" for name, n in too_big.items())
+            sys.exit(
+                f"  ⛔ Too many parallel jobs ({sizes}); GitHub allows at most 256 per phase.\n"
+                "     Use fewer search_terms.linkedin (2 per job), or fewer locations in\n"
+                "     locations.linkedin_partitions: states (Phase 1), or high_volume.locations\n"
+                f"     (Phase 2 runs each one for {LINKEDIN_BACKFILL_DAYS} days)."
+            )
         matrix_path = os.path.join(OUTPUT_DIR, "linkedin_matrix.json")
         with open(matrix_path, "w", encoding="utf-8") as f:
             json.dump({"matrix": matrix}, f, indent=2, ensure_ascii=False)

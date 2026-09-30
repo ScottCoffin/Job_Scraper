@@ -37,7 +37,9 @@ jobs:
         with:
           python-version: "3.11"
       - name: Write config.json from secret
-        run: echo "$CONFIG_JSON" > config.json
+        # Only when the secret is set: an empty secret would overwrite a committed
+        # config.json with a blank file.
+        run: if [ -n "$CONFIG_JSON" ]; then echo "$CONFIG_JSON" > config.json; fi
         env:
           CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
       - name: Emit Phase 1 work matrix
@@ -66,7 +68,9 @@ jobs:
         with:
           python-version: "3.11"
       - name: Write config.json from secret
-        run: echo "$CONFIG_JSON" > config.json
+        # Only when the secret is set: an empty secret would overwrite a committed
+        # config.json with a blank file.
+        run: if [ -n "$CONFIG_JSON" ]; then echo "$CONFIG_JSON" > config.json; fi
         env:
           CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
       - name: Write partition spec
@@ -95,7 +99,9 @@ jobs:
         with:
           python-version: "3.11"
       - name: Write config.json from secret
-        run: echo "$CONFIG_JSON" > config.json
+        # Only when the secret is set: an empty secret would overwrite a committed
+        # config.json with a blank file.
+        run: if [ -n "$CONFIG_JSON" ]; then echo "$CONFIG_JSON" > config.json; fi
         env:
           CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
       - name: Download all Phase 1 artifacts
@@ -136,7 +142,9 @@ jobs:
         with:
           python-version: "3.11"
       - name: Write config.json from secret
-        run: echo "$CONFIG_JSON" > config.json
+        # Only when the secret is set: an empty secret would overwrite a committed
+        # config.json with a blank file.
+        run: if [ -n "$CONFIG_JSON" ]; then echo "$CONFIG_JSON" > config.json; fi
         env:
           CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
       - name: Emit Phase 2 work matrix
@@ -152,6 +160,9 @@ jobs:
   fanout-phase2:
     name: Phase 2 — ${{ matrix.partition.partition_key }}
     needs: emit-matrix-phase2
+    # Skip when no high-volume locations are configured: GitHub fails the
+    # whole run on a matrix with no entries.
+    if: needs.emit-matrix-phase2.outputs.matrix != '[]'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -165,7 +176,9 @@ jobs:
         with:
           python-version: "3.11"
       - name: Write config.json from secret
-        run: echo "$CONFIG_JSON" > config.json
+        # Only when the secret is set: an empty secret would overwrite a committed
+        # config.json with a blank file.
+        run: if [ -n "$CONFIG_JSON" ]; then echo "$CONFIG_JSON" > config.json; fi
         env:
           CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
       - name: Write partition spec
@@ -181,7 +194,13 @@ jobs:
 
   merge-phase2:
     name: Merge Phase 2 + commit
-    needs: fanout-phase2
+    needs: [emit-matrix-phase2, fanout-phase2]
+    # Also runs when Phase 2 had no work (fanout skipped), to record the run.
+    # The artifacts pattern still matches Phase 1's partitions; re-merging them
+    # is a no-op because merges dedupe by URL.
+    if: >-
+      !cancelled() && needs.emit-matrix-phase2.result == 'success' &&
+      (needs.fanout-phase2.result == 'success' || needs.fanout-phase2.result == 'skipped')
     runs-on: ubuntu-latest
     concurrency:
       group: job-scraper-commit-push
@@ -194,7 +213,9 @@ jobs:
         with:
           python-version: "3.11"
       - name: Write config.json from secret
-        run: echo "$CONFIG_JSON" > config.json
+        # Only when the secret is set: an empty secret would overwrite a committed
+        # config.json with a blank file.
+        run: if [ -n "$CONFIG_JSON" ]; then echo "$CONFIG_JSON" > config.json; fi
         env:
           CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
       - name: Download all Phase 2 artifacts
