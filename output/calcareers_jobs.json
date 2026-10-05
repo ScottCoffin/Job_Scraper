@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-10-04 19:34 UTC",
-  "total": 13,
+  "scraped_at": "2026-10-05 22:35 UTC",
+  "total": 14,
   "new_count": 0,
   "jobs": [
     {
@@ -64,16 +64,28 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "Department of Fish and Wildlife",
+      "company": "State Water Resources Control Board",
       "title": "Environmental Scientist",
-      "location": "Sonoma County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533917",
-      "date_posted": "2026-09-30",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533633",
+      "date_posted": "2026-09-29",
       "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
-      "telework": "In Office",
+      "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
-      "work_arrangement": "On-site"
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
+      "company": "Department of Water Resources",
+      "title": "Environmental Scientist",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=527904",
+      "date_posted": "2026-10-05",
+      "salary": "$4418.00 - $9321.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
     },
     {
       "company": "Department of Food & Agriculture",
@@ -100,11 +112,11 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "State Water Resources Control Board",
-      "title": "ENVIRONMENTAL SCIENTIST",
+      "company": "Department of Pesticide Regulation",
+      "title": "Environmental Scientist",
       "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532712",
-      "date_posted": "2026-09-23",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532666",
+      "date_posted": "2026-09-18",
       "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
@@ -112,11 +124,11 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "Department of Pesticide Regulation",
-      "title": "Environmental Scientist",
+      "company": "State Water Resources Control Board",
+      "title": "ENVIRONMENTAL SCIENTIST",
       "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532666",
-      "date_posted": "2026-09-18",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532712",
+      "date_posted": "2026-09-23",
       "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
