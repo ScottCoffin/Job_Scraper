@@ -1,16 +1,12 @@
 # 🏛 NEOGOV — State & Local Government Environmental / Toxicology Roles
-*Last updated: 2026-10-04 19:40 UTC*
+*Last updated: 2026-10-05 22:41 UTC*
 
-**3 new role(s)** since last run · 9 total in recent GovernmentJobs postings
+**2 new role(s)** since last run · 8 total in recent GovernmentJobs postings
 
-### [Environmental Specialist (Quality Assurance/Sampling)](https://www.governmentjobs.com/jobs/5487457-0/environmental-specialist-quality-assurance-sampling) — Orange County Sanitation District
-- 📍 **Location:** CA 92708, CA
-- 💰 **Salary:** $110,718.40 - $134,617.60 Annually
+### [Environmental Health Specialist IV - Solid Waste and Body Art Programs (Open & Promotional)](https://www.governmentjobs.com/jobs/5458928-0/environmental-health-specialist-iv-solid-waste-and-body-art-programs-open-pr) — County of San Mateo
+- 📍 **Location:** County of San Mateo, CA
+- 💰 **Salary:** $10,684.27 - $13,351.87 Monthly
 
-### [Watershed Protection Specialist I](https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i) — City of Oceanside
-- 📍 **Location:** Oceanside, CA
-- 💰 **Salary:** $71,820.00 - $96,288.00 Annually
-
-### [Environmental Compliance Specialist I/II](https://www.governmentjobs.com/jobs/5488659-0/environmental-compliance-specialist-i-ii) — City of Roseville (CA)
-- 📍 **Location:** Roseville
-- 💰 **Salary:** $31.77 - $49.17 Hourly
+### [Environmental Compliance Specialist](https://www.governmentjobs.com/jobs/5497492-0/environmental-compliance-specialist) — State of Iowa
+- 📍 **Location:** Manchester - 52057 - Delaware County, IA
+- 💰 **Salary:** $54,350.40 - $81,972.80 Annually
