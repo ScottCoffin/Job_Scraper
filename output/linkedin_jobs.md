@@ -1,6 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-10-06 09:26 UTC*
+*Last updated: 2026-10-06 10:38 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [(Senior) Environmental Scientist / (Senior) Industrial Hygienist](https://www.linkedin.com/jobs/view/4476180068/) — J.S. Held LLC
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $110,000 - $165,000
+- 🕒 **Posted:** 2026-10-06
