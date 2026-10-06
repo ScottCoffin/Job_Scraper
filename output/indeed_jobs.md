@@ -1,24 +1,24 @@
 # 🟦 Indeed — Environmental / Toxicology Roles
-*Last updated: 2026-10-05 22:18 UTC*
+*Last updated: 2026-10-06 02:36 UTC*
 
-**3 new role(s)** since last run · 3 total in last 24h
+**3 new role(s)** since last run · 6 total in last 24h
 
-### [ENVIRONMENTAL SCIENTIST](https://www.indeed.com/viewjob?jk=5baec30f2fc3105c) — DEPARTMENT OF WATER RESOURCES
-- 📍 **Location:** CA, US
-- 💰 **Salary:** $4418–$9321/mo
+### [Environmental Scientist](https://www.indeed.com/viewjob?jk=0e2d2139fafae4c0) — AGEISS Inc.
+- 📍 **Location:** Concord, CA, US
+- 💰 **Salary:** $85k–$100k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-05
 
-### [Associate Environmental Specialist](https://www.indeed.com/viewjob?jk=409520f12ab506c5) — San Diego County Regional Airport Authority
-- 📍 **Location:** San Diego, CA, US
-- 💰 **Salary:** $78k–$124k/yr
+### [Associate Specialist, Department of Environmental Science & Policy](https://www.indeed.com/viewjob?jk=39db0be240a2b66d) — UC Davis
+- 📍 **Location:** Davis, CA, US
+- 💰 **Salary:** $78k–$91k/yr
 - **Work mode:** On-site
-- **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-05
 
-### [Operational Environmental Compliance Project Manager (Hybrid)](https://www.indeed.com/viewjob?jk=34e48ff5cb7558dc) — Tetra Tech
-- 📍 **Location:** Portland, OR, US
-- 💰 **Salary:** $95k–$130k/yr
+### [Senior Scientist Toxicology](https://www.indeed.com/viewjob?jk=b85559b2df4e7469) — The Clorox Company
+- 📍 **Location:** Pleasanton, CA, US
+- 💰 **Salary:** $91k–$210k/yr
 - **Work mode:** On-site
+- **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-05
