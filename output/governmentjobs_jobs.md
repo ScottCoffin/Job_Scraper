@@ -1,12 +1,12 @@
 # 🏛 NEOGOV — State & Local Government Environmental / Toxicology Roles
-*Last updated: 2026-10-05 22:41 UTC*
+*Last updated: 2026-10-06 21:01 UTC*
 
-**2 new role(s)** since last run · 8 total in recent GovernmentJobs postings
+**2 new role(s)** since last run · 4 total in recent GovernmentJobs postings
 
-### [Environmental Health Specialist IV - Solid Waste and Body Art Programs (Open & Promotional)](https://www.governmentjobs.com/jobs/5458928-0/environmental-health-specialist-iv-solid-waste-and-body-art-programs-open-pr) — County of San Mateo
-- 📍 **Location:** County of San Mateo, CA
-- 💰 **Salary:** $10,684.27 - $13,351.87 Monthly
+### [Hazardous Materials Inspector](https://www.governmentjobs.com/jobs/5489592-0/hazardous-materials-inspector) — City of Palo Alto
+- 📍 **Location:** Palo Alto, CA
+- 💰 **Salary:** $176,113.60 - $234,457.60 Annually
 
-### [Environmental Compliance Specialist](https://www.governmentjobs.com/jobs/5497492-0/environmental-compliance-specialist) — State of Iowa
-- 📍 **Location:** Manchester - 52057 - Delaware County, IA
-- 💰 **Salary:** $54,350.40 - $81,972.80 Annually
+### [Hazardous Materials Inspector III](https://www.governmentjobs.com/jobs/5488484-0/hazardous-materials-inspector-iii) — City of San Diego
+- 📍 **Location:** City of San Diego, CA
+- 💰 **Salary:** $102,294.40 - $123,988.80 Annually
