@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-10-06 21:01 UTC",
-  "total": 4,
-  "new_count": 2,
+  "scraped_at": "2026-10-07 21:20 UTC",
+  "total": 8,
+  "new_count": 4,
   "jobs": [
     {
       "company": "County of Sonoma (CA)",
@@ -38,25 +38,79 @@
       "date_posted": "",
       "salary": "$102,294.40 - $123,988.80 Annually",
       "ats": "NEOGOV"
+    },
+    {
+      "company": "Orange County Sanitation District",
+      "title": "Environmental Specialist (Quality Assurance/Sampling)",
+      "location": "CA 92708, CA",
+      "url": "https://www.governmentjobs.com/jobs/5487457-0/environmental-specialist-quality-assurance-sampling",
+      "date_posted": "",
+      "salary": "$110,718.40 - $134,617.60 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "City of Oceanside",
+      "title": "Watershed Protection Specialist I",
+      "location": "Oceanside, CA",
+      "url": "https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i",
+      "date_posted": "",
+      "salary": "$71,820.00 - $96,288.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "State of Iowa",
+      "title": "Environmental Compliance Specialist",
+      "location": "Manchester - 52057 - Delaware County, IA",
+      "url": "https://www.governmentjobs.com/jobs/5497492-0/environmental-compliance-specialist",
+      "date_posted": "",
+      "salary": "$54,350.40 - $81,972.80 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "San Bernardino County",
+      "title": "Supervising Environmental Health Specialist",
+      "location": "Throughout San Bernardino County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5499492-0/supervising-environmental-health-specialist",
+      "date_posted": "",
+      "salary": "$93,329.60 - $131,664.00 Annually",
+      "ats": "NEOGOV"
     }
   ],
   "new_jobs": [
     {
-      "company": "City of Palo Alto",
-      "title": "Hazardous Materials Inspector",
-      "location": "Palo Alto, CA",
-      "url": "https://www.governmentjobs.com/jobs/5489592-0/hazardous-materials-inspector",
+      "company": "Orange County Sanitation District",
+      "title": "Environmental Specialist (Quality Assurance/Sampling)",
+      "location": "CA 92708, CA",
+      "url": "https://www.governmentjobs.com/jobs/5487457-0/environmental-specialist-quality-assurance-sampling",
       "date_posted": "",
-      "salary": "$176,113.60 - $234,457.60 Annually",
+      "salary": "$110,718.40 - $134,617.60 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "City of San Diego",
-      "title": "Hazardous Materials Inspector III",
-      "location": "City of San Diego, CA",
-      "url": "https://www.governmentjobs.com/jobs/5488484-0/hazardous-materials-inspector-iii",
+      "company": "City of Oceanside",
+      "title": "Watershed Protection Specialist I",
+      "location": "Oceanside, CA",
+      "url": "https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i",
       "date_posted": "",
-      "salary": "$102,294.40 - $123,988.80 Annually",
+      "salary": "$71,820.00 - $96,288.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "State of Iowa",
+      "title": "Environmental Compliance Specialist",
+      "location": "Manchester - 52057 - Delaware County, IA",
+      "url": "https://www.governmentjobs.com/jobs/5497492-0/environmental-compliance-specialist",
+      "date_posted": "",
+      "salary": "$54,350.40 - $81,972.80 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "San Bernardino County",
+      "title": "Supervising Environmental Health Specialist",
+      "location": "Throughout San Bernardino County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5499492-0/supervising-environmental-health-specialist",
+      "date_posted": "",
+      "salary": "$93,329.60 - $131,664.00 Annually",
       "ats": "NEOGOV"
     }
   ]
