@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-10-07 21:20 UTC",
-  "total": 8,
-  "new_count": 4,
+  "scraped_at": "2026-10-09 20:57 UTC",
+  "total": 7,
+  "new_count": 3,
   "jobs": [
     {
       "company": "County of Sonoma (CA)",
@@ -10,6 +10,15 @@
       "url": "https://www.governmentjobs.com/jobs/5459203-0/water-agency-environmental-specialist-i-environmental-compliance",
       "date_posted": "",
       "salary": "$96,007.52 - $116,711.75 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Mendocino",
+      "title": "Environmental Health Manager",
+      "location": "Ukiah, CA",
+      "url": "https://www.governmentjobs.com/jobs/5502861-0/environmental-health-manager",
+      "date_posted": "",
+      "salary": "$97,032.00 - $117,936.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -40,77 +49,50 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "Orange County Sanitation District",
-      "title": "Environmental Specialist (Quality Assurance/Sampling)",
-      "location": "CA 92708, CA",
-      "url": "https://www.governmentjobs.com/jobs/5487457-0/environmental-specialist-quality-assurance-sampling",
+      "company": "County of Mendocino",
+      "title": "Hazardous Materials Operations Specialist",
+      "location": "Ukiah, CA",
+      "url": "https://www.governmentjobs.com/jobs/5502826-0/hazardous-materials-operations-specialist",
       "date_posted": "",
-      "salary": "$110,718.40 - $134,617.60 Annually",
+      "salary": "$70,345.60 - $85,488.00 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "City of Oceanside",
-      "title": "Watershed Protection Specialist I",
-      "location": "Oceanside, CA",
-      "url": "https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i",
+      "company": "Ventura County",
+      "title": "Environmental Health Specialist I/II/III - Hazardous Materials/CUPA",
+      "location": "Ventura and may require travel throughout Ventura County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5463471-0/environmental-health-specialist-i-ii-iii-hazardous-materials-cupa",
       "date_posted": "",
-      "salary": "$71,820.00 - $96,288.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "State of Iowa",
-      "title": "Environmental Compliance Specialist",
-      "location": "Manchester - 52057 - Delaware County, IA",
-      "url": "https://www.governmentjobs.com/jobs/5497492-0/environmental-compliance-specialist",
-      "date_posted": "",
-      "salary": "$54,350.40 - $81,972.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "San Bernardino County",
-      "title": "Supervising Environmental Health Specialist",
-      "location": "Throughout San Bernardino County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5499492-0/supervising-environmental-health-specialist",
-      "date_posted": "",
-      "salary": "$93,329.60 - $131,664.00 Annually",
+      "salary": "$60,368.09 - $111,745.42 Annually",
       "ats": "NEOGOV"
     }
   ],
   "new_jobs": [
     {
-      "company": "Orange County Sanitation District",
-      "title": "Environmental Specialist (Quality Assurance/Sampling)",
-      "location": "CA 92708, CA",
-      "url": "https://www.governmentjobs.com/jobs/5487457-0/environmental-specialist-quality-assurance-sampling",
+      "company": "County of Mendocino",
+      "title": "Environmental Health Manager",
+      "location": "Ukiah, CA",
+      "url": "https://www.governmentjobs.com/jobs/5502861-0/environmental-health-manager",
       "date_posted": "",
-      "salary": "$110,718.40 - $134,617.60 Annually",
+      "salary": "$97,032.00 - $117,936.00 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "City of Oceanside",
-      "title": "Watershed Protection Specialist I",
-      "location": "Oceanside, CA",
-      "url": "https://www.governmentjobs.com/jobs/5485464-0/watershed-protection-specialist-i",
+      "company": "County of Mendocino",
+      "title": "Hazardous Materials Operations Specialist",
+      "location": "Ukiah, CA",
+      "url": "https://www.governmentjobs.com/jobs/5502826-0/hazardous-materials-operations-specialist",
       "date_posted": "",
-      "salary": "$71,820.00 - $96,288.00 Annually",
+      "salary": "$70,345.60 - $85,488.00 Annually",
       "ats": "NEOGOV"
     },
     {
-      "company": "State of Iowa",
-      "title": "Environmental Compliance Specialist",
-      "location": "Manchester - 52057 - Delaware County, IA",
-      "url": "https://www.governmentjobs.com/jobs/5497492-0/environmental-compliance-specialist",
+      "company": "Ventura County",
+      "title": "Environmental Health Specialist I/II/III - Hazardous Materials/CUPA",
+      "location": "Ventura and may require travel throughout Ventura County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5463471-0/environmental-health-specialist-i-ii-iii-hazardous-materials-cupa",
       "date_posted": "",
-      "salary": "$54,350.40 - $81,972.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "San Bernardino County",
-      "title": "Supervising Environmental Health Specialist",
-      "location": "Throughout San Bernardino County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5499492-0/supervising-environmental-health-specialist",
-      "date_posted": "",
-      "salary": "$93,329.60 - $131,664.00 Annually",
+      "salary": "$60,368.09 - $111,745.42 Annually",
       "ats": "NEOGOV"
     }
   ]
