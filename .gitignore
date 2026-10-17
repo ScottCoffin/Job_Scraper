@@ -19,3 +19,9 @@ scoring_profile.json
 # "git add -f output/<file>" to commit their own results.
 output/*
 !output/.gitkeep
+
+# Local marketing digest environment, private previews and delivery ledger
+.venv/
+.wheels/
+.digest/
+.pytest_cache/

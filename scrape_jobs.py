@@ -131,6 +131,8 @@ FRESH_JOB_LOOKBACK = timedelta(hours=24)
 # Titles containing any excluded term are dropped (config.json → keywords.exclude).
 # Single tokens are word-bounded; multi-word phrases match as substrings.
 def _build_title_re(terms: list) -> re.Pattern:
+    if not terms:
+        return re.compile(r"(?!)")  # Empty exclusions must not reject every title.
     return re.compile(
         "|".join(re.escape(t) if (" " in t or "&" in t) else rf"\b{re.escape(t)}\b" for t in terms),
         re.IGNORECASE,
@@ -339,6 +341,10 @@ def is_target_location(location: str) -> bool:
     # "Indiana", "mexico" matching "New Mexico", etc.).
     if _NON_US_COUNTRY_RE.search(loc):
         return False
+    # State abbreviations require city/comma context, not substrings (CA != Canada).
+    codes = "AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC"
+    if re.search(r",\s*(?:" + "|".join(codes.split()) + r")\b", location):
+        return True
     return any(place in loc for place in TARGET_LOCATIONS)
 
 
@@ -637,7 +643,9 @@ def _parse_linkedin_cards(html: str) -> tuple[list[dict], int]:
 
 def _linkedin_search(terms: list[str], lookback_seconds: int,
                      geos: list[dict] | None = None,
-                     max_results: int = 500) -> tuple[list[dict], int]:
+                     max_results: int = 500, *, strict: bool = False,
+                     health: dict | None = None,
+                     filter_titles: bool = True) -> tuple[list[dict], int]:
     """
     Per-geo, per-term, paginated LinkedIn guest-endpoint search. Dedupes by job
     ID across every geography and sorts by recency. Used by both the general
@@ -657,6 +665,11 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
     is also empty. A module-level _RATE_LIMITED flag dynamically increases the
     inter-request delay when 429s have been seen.
     """
+    # Digest mode: no stale fallback, bounded fetch without retry/backoff, and
+    # explicit query health. Legacy watchers retain their existing behavior.
+    if health is None:
+        health = {}
+    health.update(attempted=0, succeeded=0, failed=0, capped=0, raw=0)
     global _RATE_LIMITED
     if geos is None:
         geos = LINKEDIN_GEOS
@@ -666,6 +679,7 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
     pages_fetched = 0
     for geo in geos:
         geo_param = f"&geoId={geo['geoId']}" if geo.get("geoId") else ""
+        remote_param = "&f_WT=2" if geo.get("remote") else ""
         for term in terms:
             term_start = pages_fetched
             for start in range(0, max_results, 10):
@@ -678,11 +692,15 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                     "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
                     f"?keywords={urllib.parse.quote(term)}"
                     f"&location={urllib.parse.quote(geo['location'])}"
-                    f"{geo_param}"
+                    f"{geo_param}{remote_param}"
                     f"&f_TPR=r{lookback_seconds}"
                     f"&start={start}"
                 )
-                html = fetch(url)
+                health["attempted"] += 1
+                html = fetch(url, retries=0) if strict else fetch(url)
+                if strict and not html.strip():
+                    health["failed"] += 1
+                    break
                 if not html.strip():
                     # Could be rate-limited (429 exhausted retries) or genuinely
                     # no more results. Retry once with a long pause before giving
@@ -703,6 +721,11 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                 consecutive_empty = 0
                 parsed, raw_count = _parse_linkedin_cards(html)
                 total_raw_cards += raw_count
+                health["raw"] += raw_count
+                # Empty / unrecognized HTML is not proof of a successful zero.
+                health["succeeded" if raw_count else "failed"] += 1
+                if raw_count and start + 10 >= max_results:
+                    health["capped"] += 1
                 pages_fetched += 1
                 if pages_fetched % 10 == 0:
                     print(f"  📊 {pages_fetched} pages fetched | "
@@ -713,10 +736,14 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                 # of 10 off-target roles must not end pagination for the term.
                 if not raw_count:
                     break
+                if strict:
+                    parsed = parsed[:min(10, max_results - start)]
                 for p in parsed:
                     if p["id"] in jobs_by_id:
+                        if geo.get("remote"):
+                            jobs_by_id[p["id"]]["remote_query"] = True
                         continue
-                    if not role_is_relevant(p["title"], p["company"]):
+                    if filter_titles and not role_is_relevant(p["title"], p["company"]):
                         continue
                     jobs_by_id[p["id"]] = {
                         "company": p["company"],
@@ -726,6 +753,8 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                         "date_posted": p["date_posted"],
                         "salary": p.get("salary", ""),
                         "ats": "LinkedIn",
+                        # Search filter is evidence of remote, not worldwide eligibility.
+                        "remote_query": bool(geo.get("remote")),
                     }
 
     jobs = list(jobs_by_id.values())
@@ -1133,7 +1162,8 @@ def _ensure_work_arrangement(job: dict) -> dict:
     return job
 
 
-def _ingest_jobspy_df(df, *, label: str, jobs_by_id: dict[str, dict]) -> int:
+def _ingest_jobspy_df(df, *, label: str, jobs_by_id: dict[str, dict],
+                      filter_titles: bool = True) -> int:
     """Normalize a JobSpy dataframe into this repo's jobs_by_id dict. Returns raw row count."""
     if df is None or df.empty:
         return 0
@@ -1142,7 +1172,7 @@ def _ingest_jobspy_df(df, *, label: str, jobs_by_id: dict[str, dict]) -> int:
     df = df.fillna("")
     for _, row in df.iterrows():
         title = str(row.get("title", "") or "")
-        if not title_matches_keywords(title):
+        if filter_titles and not title_matches_keywords(title):
             continue
         url = str(row.get("job_url", "") or "")
         if not url:
@@ -1179,17 +1209,31 @@ def _ingest_jobspy_df(df, *, label: str, jobs_by_id: dict[str, dict]) -> int:
             "emails": str(row.get("emails", "") or ""),
             "ats": label,
         })
+        if not filter_titles:
+            # Digest retains raw evidence, not the dashboard's inferred eligibility.
+            jobs_by_id[ident]["work_arrangement"] = str(row.get("work_arrangement", "") or "")
+            amounts = [str(row.get(k)) for k in ("min_amount", "max_amount")
+                       if row.get(k) not in (None, "")]
+            jobs_by_id[ident]["salary"] = " ".join(filter(None, [
+                str(row.get("currency", "") or ""), "–".join(amounts),
+                str(row.get("interval", "") or "")])) if amounts else ""
     return raw_rows
 
 
 def _scrape_jobspy_board(*, label: str, site_name: str, geos: list, terms: list,
                          hours_old: int, prev_basename: str,
-                         results_wanted: int = 50) -> list:
+                         results_wanted: int = 50, strict: bool = False,
+                         health: dict | None = None,
+                         filter_titles: bool = True) -> list:
     """Scrape one JobSpy-supported board and normalize rows into this repo's schema."""
+    if health is None:
+        health = {}
+    health.update(attempted=0, succeeded=0, failed=0, capped=0, raw=0)
     print(f"🟦 Scraping {label} (last {hours_old}h)...")
     try:
         from jobspy import scrape_jobs as jobspy_scrape
     except ImportError:
+        health["failed"] += 1
         print(f"  ⚠️  python-jobspy not installed; skipping {label}")
         return []
 
@@ -1199,6 +1243,7 @@ def _scrape_jobspy_board(*, label: str, site_name: str, geos: list, terms: list,
     raw_rows = 0
     for geo in geos:
       for term in terms:
+        health["attempted"] += 1
         time.sleep(REQUEST_DELAY)  # throttle: back-to-back calls invite blocking on CI IPs
         try:
             # JobSpy gotcha: hours_old / is_remote / job_type / easy_apply
@@ -1212,16 +1257,23 @@ def _scrape_jobspy_board(*, label: str, site_name: str, geos: list, terms: list,
                 hours_old=hours_old,
                 country_indeed=geo.get("country", "USA"),
                 enforce_annual_salary=False,
-                proxies=_jobspy_proxies(),
-                user_agent=_jobspy_user_agent(),
+                proxies=None if strict else _jobspy_proxies(),
+                user_agent=None if strict else _jobspy_user_agent(),
                 verbose=0,
             )
         except Exception as e:
             errored_terms += 1
+            health["failed"] += 1
             print(f"  ⚠️  {label} ({geo['location']} · {term!r}): {e}")
             continue
         ok_terms += 1
-        raw_rows += _ingest_jobspy_df(df, label=label, jobs_by_id=jobs_by_id)
+        count = _ingest_jobspy_df(df, label=label, jobs_by_id=jobs_by_id,
+                                  filter_titles=filter_titles)
+        raw_rows += count
+        health["raw"] += count
+        health["succeeded" if count else "failed"] += 1
+        if count >= results_wanted:
+            health["capped"] += 1
     jobs = list(jobs_by_id.values())
     print(
         f"  📊 {label}: {len(geos)}×{len(terms)} queries → "
@@ -1234,7 +1286,7 @@ def _scrape_jobspy_board(*, label: str, site_name: str, geos: list, terms: list,
     # which is a legitimate empty result. On a no-data run, reuse the previous results
     # so we don't clobber the dedupe baseline (and the dashboard's source column) with
     # an empty file; the saver then reports 0 new (all already seen).
-    if raw_rows == 0:
+    if raw_rows == 0 and not strict:
         prev = _load_prev_jobs(os.path.join(OUTPUT_DIR, f"{prev_basename}.json"))
         print(
             f"  ⛔ {label} returned 0 rows across all terms (likely blocked); "

@@ -1,0 +1,185 @@
+{
+  "profile": {
+    "title": "Marketing Job Tracker",
+    "subtitle": "USA or explicitly remote; eligibility restrictions retained",
+    "emoji": "\ud83d\udce3"
+  },
+  "keywords": {
+    "include": [
+      "marketing",
+      "SEO",
+      "search engine optimization",
+      "paid media",
+      "paid search",
+      "social media",
+      "demand generation",
+      "brand manager",
+      "brand strategist",
+      "CRM manager",
+      "CRM specialist",
+      "lifecycle manager",
+      "email campaign"
+    ],
+    "exclude": [],
+    "fuzzy_seniority": [],
+    "fuzzy_domain": [],
+    "fuzzy_exclude": []
+  },
+  "search_terms": {
+    "linkedin": [
+      "marketing",
+      "SEO",
+      "paid media",
+      "paid search",
+      "social media",
+      "demand generation",
+      "brand manager",
+      "CRM marketing"
+    ],
+    "indeed": [
+      "marketing",
+      "SEO",
+      "paid media",
+      "paid search",
+      "social media",
+      "demand generation",
+      "brand manager",
+      "CRM marketing"
+    ],
+    "glassdoor": [],
+    "ziprecruiter": [],
+    "google_jobs": [],
+    "hiring_cafe": [],
+    "calcareers": [],
+    "usajobs": [],
+    "governmentjobs": [],
+    "workday": []
+  },
+  "locations": {
+    "linkedin": [
+      {
+        "name": "USA",
+        "location": "United States",
+        "geoId": "103644278"
+      },
+      {
+        "name": "Remote discovery (no country geoId)",
+        "location": "Worldwide",
+        "geoId": "",
+        "remote": true
+      }
+    ],
+    "indeed": [
+      {
+        "location": "United States",
+        "country": "USA"
+      },
+      {
+        "location": "Remote",
+        "country": "USA"
+      },
+      {
+        "location": "Remote",
+        "country": "UK"
+      },
+      {
+        "location": "Remote",
+        "country": "India"
+      }
+    ],
+    "glassdoor": [],
+    "ziprecruiter": [],
+    "google_jobs": [],
+    "hiring_cafe": [],
+    "linkedin_partitions": {
+      "states": [],
+      "high_volume": {
+        "locations": [],
+        "day_slices": true
+      }
+    }
+  },
+  "location_filter": {
+    "terms": [
+      "united states",
+      "usa",
+      "remote"
+    ]
+  },
+  "google_jobs": {
+    "queries": [],
+    "serpapi_api_key": "",
+    "oxylabs_username": "",
+    "oxylabs_password": ""
+  },
+  "jobspy": {
+    "proxies": [],
+    "user_agent": ""
+  },
+  "hiring_cafe": {
+    "max_pages": 3
+  },
+  "employers": {
+    "priority": [],
+    "exclude": []
+  },
+  "priority_topics": {
+    "terms": []
+  },
+  "role_categories": {
+    "terms": [
+      [
+        "Marketing",
+        "marketing"
+      ],
+      [
+        "SEO / Paid media",
+        "seo|paid media|paid search"
+      ],
+      [
+        "Social / Demand generation",
+        "social media|demand generation"
+      ],
+      [
+        "Brand / CRM",
+        "brand|crm"
+      ]
+    ]
+  },
+  "notify": {
+    "min_fit": 75,
+    "weekly_digest": {
+      "enabled": false,
+      "days": 7
+    }
+  },
+  "_README": "Marketing digest configuration. All seniorities; no employer preferences. See docs/MARKETING_DIGEST_SETUP.md. Digest reads this file directly (no environmental-template fallback).",
+  "marketing_digest": {
+    "sources": [
+      "linkedin",
+      "indeed"
+    ],
+    "lookback_hours": 24,
+    "max_results_per_query": 20,
+    "source_timeout_seconds": 420,
+    "date_only_policy": "conservative_utc",
+    "query_family_reference": [
+      "marketing",
+      "growth marketing",
+      "product marketing",
+      "brand marketing",
+      "content marketing",
+      "performance marketing",
+      "digital marketing",
+      "email marketing",
+      "lifecycle marketing",
+      "CRM marketing",
+      "SEO",
+      "paid media",
+      "paid search",
+      "social media",
+      "demand generation",
+      "marketing operations"
+    ]
+  }
+}

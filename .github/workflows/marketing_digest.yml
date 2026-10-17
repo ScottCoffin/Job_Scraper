@@ -1,0 +1,145 @@
+name: Daily Marketing Email Digest
+
+on:
+  schedule:
+    # Proposed editable default, not the user's timezone preference.
+    - cron: '17 8 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview only; never connect to SMTP'
+        type: boolean
+        default: true
+      lookback_hours:
+        description: 'Optional positive hours override; blank uses variable/config'
+        type: string
+        default: ''
+      initialize_state:
+        description: 'Explicitly allow first live run with no ledger (may repeat jobs after eviction)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: marketing-email-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'workflow_dispatch' || vars.ENABLE_MARKETING_EMAIL_DIGEST == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install isolated dependencies
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install -r requirements-marketing.txt
+
+      - name: Offline tests before any delivery
+        run: .venv/bin/python -m pytest tests/test_marketing_digest.py -q
+
+      - name: Restore sent identities (no addresses or job contents)
+        id: ledger
+        uses: actions/cache/restore@v4
+        with:
+          path: .digest/state/sent.json
+          key: marketing-sent-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            marketing-sent-v1-
+
+      - name: Validate and prepare run mode
+        id: mode
+        env:
+          EVENT: ${{ github.event_name }}
+          INPUT_DRY: ${{ inputs.dry_run }}
+          LIVE_APPROVED: ${{ vars.MARKETING_EMAIL_SEND_APPROVED }}
+          INPUT_HOURS: ${{ inputs.lookback_hours }}
+          VARIABLE_HOURS: ${{ vars.MARKETING_LOOKBACK_HOURS }}
+        run: |
+          .venv/bin/python - <<'PY'
+          import os
+          from marketing_digest import load_config
+          hours = os.environ['INPUT_HOURS'] or os.environ['VARIABLE_HOURS']
+          config = load_config('config.json', hours)
+          send = os.environ['EVENT'] == 'schedule' or os.environ['INPUT_DRY'] == 'false'
+          if send and os.environ['LIVE_APPROVED'] != 'true':
+              raise SystemExit('Live email requires MARKETING_EMAIL_SEND_APPROVED=true after review/approval')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              out.write(f"send={'true' if send else 'false'}\n")
+              out.write(f"hours={config['marketing_digest']['lookback_hours']}\n")
+          PY
+
+      - name: Dry-run preview (no SMTP secrets supplied)
+        if: steps.mode.outputs.send == 'false'
+        env:
+          HOURS: ${{ steps.mode.outputs.hours }}
+        run: .venv/bin/python marketing_digest.py --dry-run --lookback-hours "$HOURS"
+
+      - name: Send only after user approval
+        id: delivery
+        if: steps.mode.outputs.send == 'true'
+        env:
+          HOURS: ${{ steps.mode.outputs.hours }}
+          INITIALIZE: ${{ inputs.initialize_state }}
+          SMTP_HOST: ${{ vars.SMTP_HOST }}
+          SMTP_PORT: ${{ vars.SMTP_PORT }}
+          SMTP_SECURITY: ${{ vars.SMTP_SECURITY }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: |
+          args=(--send --lookback-hours "$HOURS")
+          if [ "$INITIALIZE" = 'true' ]; then args+=(--initialize-state); fi
+          .venv/bin/python marketing_digest.py "${args[@]}"
+
+      - name: Persist accepted delivery ledger
+        id: persist
+        if: steps.delivery.outcome == 'success'
+        uses: actions/cache/save@v4
+        with:
+          path: .digest/state/sent.json
+          key: marketing-sent-v1-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Confirm ledger was saved
+        if: steps.delivery.outcome == 'success' && steps.persist.outcome == 'success'
+        id: confirm
+        uses: actions/cache/restore@v4
+        with:
+          path: .digest/state/sent.json
+          key: marketing-sent-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          lookup-only: true
+
+      - name: Flag accepted email without durable cache
+        if: >-
+          always() && steps.delivery.outcome == 'success' &&
+          (steps.persist.outcome != 'success' || steps.confirm.outputs.cache-hit != 'true')
+        run: |
+          echo '::error::SMTP accepted but ledger persistence was not confirmed. Duplicates possible; inspect before retrying.'
+          exit 1
+
+      - name: Upload preview only (not email addresses, ledger, or raw source rows)
+        if: success() && steps.mode.outputs.send == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: marketing-digest-preview-${{ github.run_id }}
+          retention-days: 3
+          if-no-files-found: error
+          include-hidden-files: true
+          path: |
+            .digest/preview/digest.txt
+            .digest/preview/digest.html
+            .digest/preview/jobs.csv
+            .digest/preview/health.json
