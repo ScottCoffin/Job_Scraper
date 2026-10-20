@@ -1,1399 +1,1248 @@
 # 🟦 Indeed — Marketing Roles
-*Last updated: 2026-10-19 23:58 UTC*
+*Last updated: 2026-10-20 19:51 UTC*
 
-**210 new role(s)** since last run · 210 total in last 24h
+**191 new role(s)** since last run · 243 total in last 24h
 
-### [Senior Digital Marketing Specialist](https://www.indeed.com/viewjob?jk=c506767c7d56c826) — STI Federal
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $100k–$115k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Automotive Marketing Director](https://www.indeed.com/viewjob?jk=863d38b9a80b8fa1) — Experience Development Center
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $65k–$110k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Managing Principal – Executive Marketing & Communications Advisor](https://www.indeed.com/viewjob?jk=e0133355310203cf) — BETA Systems International
-- 📍 **Location:** Winston-Salem, NC, USA
+### [Digital Marketing Specialist](https://www.indeed.com/viewjob?jk=2bb9deaace62387f) — Total Spine
+- 📍 **Location:** Melbourne, FL, USA
+- 💰 **Salary:** $48k–$52k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing Lead](https://www.indeed.com/viewjob?jk=e994cfd46a4eecba) — The Ceramic Shop
-- 📍 **Location:** Norristown, PA, USA
-- 💰 **Salary:** $52k–$63k/yr
+### [Director of Marketing](https://www.indeed.com/viewjob?jk=77825ea63243491b) — The Center for Responsive Schools
+- 📍 **Location:** Turners Falls, MA, USA
+- 💰 **Salary:** $123k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Director of Marketing](https://www.indeed.com/viewjob?jk=555317fcbcd577cc) — Cybersheath
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $140k–$175k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing, Social Media & Creative Coordinator](https://www.indeed.com/viewjob?jk=f561b70db3002d1a) — Engrave-A-Crete
-- 📍 **Location:** Mansfield, MO, USA
-- 💰 **Salary:** $24–$28/hr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Vice President of Marketing](https://www.indeed.com/viewjob?jk=15ea146b1c772f00) — Skirball Cultural Center
-- 📍 **Location:** Los Angeles, CA, USA
-- 💰 **Salary:** $175k–$185k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=705f4ee8c6f2d9c0) — Mt Ashland Ski Area
-- 📍 **Location:** Ashland, OR, USA
-- 💰 **Salary:** $20–$22/hr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing & Media Manager](https://www.indeed.com/viewjob?jk=928cbce798525e0e) — Deadwood Chamber of Commerce & Visitors Bureau
-- 📍 **Location:** Deadwood, SD, USA
-- 💰 **Salary:** $50k–$65k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Director, Marketing & Communications](https://www.indeed.com/viewjob?jk=d42483bb0d01a78c) — Rhino
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $145k–$185k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Specialist](https://www.indeed.com/viewjob?jk=79f5da46e1e9833a) — BeMobile
-- 📍 **Location:** Grand Forks, ND, USA
-- 💰 **Salary:** $17–$20/hr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing Manager](https://www.indeed.com/viewjob?jk=72943cb8797a327f) — SCONZA CANDY CO
-- 📍 **Location:** Oakdale, CA, USA
+### [Marketing Director for RGL Group](https://www.indeed.com/viewjob?jk=e6ebfb347e409fb6) — V/O Med Spa
+- 📍 **Location:** East Northport, NY, USA
 - 💰 **Salary:** $85k–$110k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Director, Marketing (Workforce Development)](https://www.indeed.com/viewjob?jk=7b3fa7316fd4e4b1) — SME
-- 📍 **Location:** Southfield, MI, USA
-- 💰 **Salary:** $122k–$150k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Lead](https://www.indeed.com/viewjob?jk=2a5184cd491cdc19) — Chick-fil-A Restaurants
-- 📍 **Location:** Clinton Township, MI, USA
-- **Work mode:** On-site
-- **Job type:** parttime, fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Home Health Marketing Liaison](https://www.indeed.com/viewjob?jk=dadac8d6793998ab) — Primamed Health Services
-- 📍 **Location:** Bakersfield, CA, USA
-- 💰 **Salary:** $17.50–$18/hr
+### [Content Marketing Manager](https://www.indeed.com/viewjob?jk=9f656713798198ed) — Carenet Health
+- 📍 **Location:** San Antonio, TX, USA
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing Manager - New Opening](https://www.indeed.com/viewjob?jk=0446a29d212d19f2) — TVG
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $100k–$110k/yr
+### [Multimedia Marketing Specialist](https://www.indeed.com/viewjob?jk=fe52c64c48a7deae) — Manthei Construction
+- 📍 **Location:** Charlevoix, MI, USA
 - **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing Lead, Digital](https://www.indeed.com/viewjob?jk=07d2b67a3be2b59c) — Bluebird Fiber
-- 📍 **Location:** Kansas City, MO, USA
+### [Digital Marketing Manager](https://www.indeed.com/viewjob?jk=bb1424c1feb8b8b6) — Rack Industries
+- 📍 **Location:** Boca Raton, FL, USA
+- 💰 **Salary:** $60k–$100k/yr
 - **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Digital Marketing Assistant](https://www.indeed.com/viewjob?jk=7ce18a3b66ab2e32) — Block 15 Brewing Company
-- 📍 **Location:** Corvallis, OR, USA
-- 💰 **Salary:** $19–$21/hr
-- **Work mode:** On-site
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [Senior Marketing Lead, Growth Marketing](https://www.indeed.com/viewjob?jk=53849c4e6e4814dd) — Bluebird Fiber
-- 📍 **Location:** Kansas City, MO, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media and Marketing Manager](https://www.indeed.com/viewjob?jk=64cc3ec1f931c9e3) — Gaither Music Group
-- 📍 **Location:** Brentwood, TN, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing Specialist](https://www.indeed.com/viewjob?jk=122594841dfac507) — Wagner's Outdoor Outfitters
-- 📍 **Location:** Casper, WY, USA
-- 💰 **Salary:** $47k–$57k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Director of Marketing](https://www.indeed.com/viewjob?jk=f5cd8d5cb22c51e2) — Art Academy of Cincinnati
-- 📍 **Location:** Cincinnati, OH, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Automation & Operations Specialist](https://www.indeed.com/viewjob?jk=591ea3887043a177) — CONMED
-- 📍 **Location:** Utica, NY, USA
-- 💰 **Salary:** $75k–$118k/yr
+### [Amazon & E-commerce Marketing Manager](https://www.indeed.com/viewjob?jk=869b96770e883029) — Basic Research, LLC
+- 📍 **Location:** Sandy, UT, USA
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Social Media Manager](https://www.indeed.com/viewjob?jk=35c73fc8123e87a5) — E8 Productions, LLC
-- 📍 **Location:** Fort Lauderdale, FL, USA
-- 💰 **Salary:** $1600/mo
-- **Work mode:** On-site
-- **Job type:** parttime, internship
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Associate](https://www.indeed.com/viewjob?jk=fffefddb1a217540) — West Highlands Auto Repair
-- 📍 **Location:** Wheat Ridge, CO, USA
-- 💰 **Salary:** $18–$22/hr
-- **Work mode:** On-site
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [Demand Generation Manager](https://www.indeed.com/viewjob?jk=547234419d1fdbb6) — Cybersheath
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $90k–$125k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-10-19
-
-### [Sr. Social Media Manager](https://www.indeed.com/viewjob?jk=a720a8fd453685a0) — Blazy Susan
-- 📍 **Location:** Denver, CO, USA
-- 💰 **Salary:** $100k–$150k/yr
+### [FRC - Marketing Strategist](https://www.indeed.com/viewjob?jk=7e163c23ee2b3e6d) — Grant Cardone Enterprises
+- 📍 **Location:** Aventura, FL, USA
+- 💰 **Salary:** $150k–$200k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing Production Director](https://www.indeed.com/viewjob?jk=f88e8d796ab0689a) — Two Circles
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $100k–$150k/yr
+### [Social Media Coordinator](https://www.indeed.com/viewjob?jk=70826c9f5de7d8d4) — Allen Media Group
+- 📍 **Location:** Culver City, CA, USA
+- 💰 **Salary:** $23.24–$28.60/hr
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
 
-### [Social Media & Performance Marketing Manager](https://www.indeed.com/viewjob?jk=7b268da7654e15d6) — Flip It Factory
-- 📍 **Location:** Jenks, OK, USA
+### [Marketing Specialist](https://www.indeed.com/viewjob?jk=aecfcf1ecdaf5feb) — Showboat Hotel & Island Waterpark
+- 📍 **Location:** Atlantic City, NJ, USA
 - 💰 **Salary:** $60k–$75k/yr
 - **Work mode:** On-site
-- **Job type:** fulltime, contract
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
 
-### [Director of Marketing](https://www.indeed.com/viewjob?jk=83691df3ad47218f) — Monarch Casino Resort Spa
-- 📍 **Location:** Black Hawk, CO, USA
-- 💰 **Salary:** $140k/yr
+### [Performance Marketing Manager](https://www.indeed.com/viewjob?jk=0eeb58bbfdb47630) — Pattern
+- 📍 **Location:** Omaha, NE, USA
+- 💰 **Salary:** $115k–$130k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Fractional Marketing Manager](https://www.indeed.com/viewjob?jk=75e8ced6ced20085) — American Stage
-- 📍 **Location:** Saint Petersburg, FL, USA
-- 💰 **Salary:** $65–$75/hr
+### [Digital Marketing Coordinator](https://www.indeed.com/viewjob?jk=b0a8a0cef06f03d2) — NORTHWEST SPECIAL RECREATION ASSN
+- 📍 **Location:** Rolling Meadows, IL, USA
+- 💰 **Salary:** $46k–$50k/yr
 - **Work mode:** On-site
-- **Job type:** contract
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
 
-### [Omnichannel Marketing Manager](https://www.indeed.com/viewjob?jk=c4a3a327bbeb45d0) — Elanco
+### [Marketing Coordinator - ProGreen](https://www.indeed.com/viewjob?jk=846cd225dd72db06) — PlayCore
+- 📍 **Location:** Daniel Island, SC, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media & Brand Marketing Manager](https://www.indeed.com/viewjob?jk=531cf21e3f9516b0) — Co-Dough LLC
+- 📍 **Location:** Newport, RI, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Marketing Specialist](https://www.indeed.com/viewjob?jk=281e9aafafb0dd79) — BENQ AMERICA CORP
+- 📍 **Location:** Plano, TX, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Account Manager, Supply](https://www.indeed.com/viewjob?jk=27ae704a63861cc5) — Classic Vacations
+- 📍 **Location:** Richmond, VA, USA
+- 💰 **Salary:** $70k–$85k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=fa7fe0ba8b7f0a76) — Universal 1 Credit Union
+- 📍 **Location:** Dayton, OH, USA
+- 💰 **Salary:** $21.29–$31.93/hr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Brand Management & Marketing Manager](https://www.indeed.com/viewjob?jk=b2e95274580821bf) — Hard Rock International
+- 📍 **Location:** Davie, FL, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Orangetheory Fitness Marketing & Social](https://www.indeed.com/viewjob?jk=ab37fd1e0dc12ef5) — Orangetheoryfitness Santa Rosa
+- 📍 **Location:** Santa Rosa, CA, USA
+- 💰 **Salary:** $20–$25/hr
+- **Work mode:** On-site
+- **Job type:** parttime, fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Manager – Temporary](https://www.indeed.com/viewjob?jk=8399bafc8dc21335) — Boochcraft
+- 📍 **Location:** Chula Vista, CA, USA
+- 💰 **Salary:** $75k–$85k/yr
+- **Work mode:** On-site
+- **Job type:** temporary
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Director](https://www.indeed.com/viewjob?jk=7599653f210129f8) — Lake Wales Wellness and Rehabilitation Center
+- 📍 **Location:** Lake Wales, FL, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Manager](https://www.indeed.com/viewjob?jk=b947736c118b04e1) — Omada Holdings LLC
+- 📍 **Location:** Boise, ID, USA
+- 💰 **Salary:** $55k–$75k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=feaa4c0060eb1eb7) — HealthWorks Medical
+- 📍 **Location:** Paducah, KY, USA
+- 💰 **Salary:** $55k–$65k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Paid Social Media Manager](https://www.indeed.com/viewjob?jk=a51cc7bb95d82760) — Economist Group
+- 📍 **Location:** New York, NY, USA
+- 💰 **Salary:** $105k–$135k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Generalist](https://www.indeed.com/viewjob?jk=bbda170f57dba01d) — Newton Motor Group
+- 📍 **Location:** Gallatin, TN, USA
+- 💰 **Salary:** $40k–$50k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=d5791173763aebf1) — AAA Hoosier Motor Club
 - 📍 **Location:** Indianapolis, IN, USA
 - **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing/Sales Executive](https://www.indeed.com/viewjob?jk=bbad9b6fedd033b4) — Skidaway Island Neighbors Magazine
-- 📍 **Location:** Brookhaven, GA, USA
-- 💰 **Salary:** $70k–$100k/yr
+### [Social Media Coordinator](https://www.indeed.com/viewjob?jk=c806fa6bf7641e2b) — The Feast of Friends
+- 📍 **Location:** Las Vegas, NV, USA
+- 💰 **Salary:** $18.39–$20.37/hr
+- **Work mode:** On-site
+- **Job type:** parttime, contract
+- 🕒 **Posted:** 2026-10-20
+
+### [Growth Marketing Director](https://www.indeed.com/viewjob?jk=3af54cce23d872d9) — Unicity International Inc
+- 📍 **Location:** Provo, UT, USA
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Sr. Growth Marketing Manager](https://www.indeed.com/viewjob?jk=1fec08ddddee0231) — FourKites
-- 📍 **Location:** Chicago, IL, USA
-- 💰 **Salary:** $115k–$140k/yr
+### [Social Media Strategist and Web Developer](https://www.indeed.com/viewjob?jk=e7377b88efd0a6cd) — America's Home Health Services
+- 📍 **Location:** Elkins Park, PA, USA
+- 💰 **Salary:** $40–$50/hr
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing & Communications Assistant](https://www.indeed.com/viewjob?jk=94637d3e3a8a4cbf) — Kennedys
-- 📍 **Location:** Berkeley Heights, NJ, USA
-- 💰 **Salary:** $51k–$55k/yr
+### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=0d3e02a69a61e361) — Affiliated Engineers, Inc
+- 📍 **Location:** Gainesville, FL, USA
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
 
-### [Manager, Marketing Communications, LAC](https://www.indeed.com/viewjob?jk=b704c8d62eb22adb) — Restaurant Brands International
+### [Entertainment Marketing Manager- Miami, FL (Onsite)](https://www.indeed.com/viewjob?jk=8b7c8006d6fb5fec) — Loud and Live Inc
 - 📍 **Location:** Miami, FL, USA
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-19
 
-### [Marketing & Content Coordinator](https://www.indeed.com/viewjob?jk=58241cbde3550140) — Assured Services Inc.
-- 📍 **Location:** Burtonsville, MD, USA
-- 💰 **Salary:** $20–$30/hr
+### [Area Leader of Marketing - Santa Clarita/Valencia](https://www.indeed.com/viewjob?jk=e6655ee46ad87241) — Raising Cane's
+- 📍 **Location:** Valencia, CA, USA
+- 💰 **Salary:** $95k–$115k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-19
 
-### [Tourism Marketing Coordinator](https://www.indeed.com/viewjob?jk=62d8e4580d77c101) — Clarion County Economic Development Corporation
-- 📍 **Location:** Clarion, PA, USA
-- 💰 **Salary:** $40k–$48k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Vice President, Marketing and Communications](https://www.indeed.com/viewjob?jk=dc7de794db9ff379) — Merakey
-- 📍 **Location:** Lafayette Hill, PA, USA
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Sales Specialist](https://www.indeed.com/viewjob?jk=2e4932eb95762c6b) — Skidaway Island Neighbors Magazine
-- 📍 **Location:** Stonecrest, GA, USA
-- 💰 **Salary:** $70k–$100k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing & Communications Director](https://www.indeed.com/viewjob?jk=00ced665044dadb8) — Border Bank
-- 📍 **Location:** Thief River Falls, MN, USA
-- 💰 **Salary:** $110k–$150k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Senior SEO Specialist](https://www.indeed.com/viewjob?jk=a0da5948e21e3c3b) — the gud agency
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $7600–$21k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [SEO, Google Maps Ranking & AI Marketing Coach Remote](https://www.indeed.com/viewjob?jk=de1dc35b3eb354a3) — turbo cooling and heating experts llc
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $400–$700/wk
-- **Work mode:** Remote in-state eligible
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing Specialist (Venues)](https://www.indeed.com/viewjob?jk=786c4b40e0ff0159) — CRVA
-- 📍 **Location:** Charlotte, NC, USA
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media Strategist](https://www.indeed.com/viewjob?jk=f786bcf21e218646) — Green Closet Creative
-- 📍 **Location:** Sycamore, IL, USA
-- 💰 **Salary:** $35k–$42k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Web Developer and Marketing Support](https://www.indeed.com/viewjob?jk=5135f3f2a2faac34) — Diversity Nexus
+### [Senior Technical SEO & AEO Manager](https://www.indeed.com/viewjob?jk=3a80b11b969ea654) — Law Offices of Spar & Bernstein, P.C.
 - 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $50–$55/hr
-- **Work mode:** On-site
-- **Job type:** contract
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing & Content Manager Freelance | Independent Contractor (1099) | Part-Time](https://www.indeed.com/viewjob?jk=605d69284383af8d) — Ring it On Events
-- 📍 **Location:** Kissimmee, FL, USA
-- 💰 **Salary:** $240/wk
-- **Work mode:** On-site
-- **Job type:** temporary, parttime, contract
-- 🕒 **Posted:** 2026-10-19
-
-### [Vice President of Marketing | Baltimore, MD (Hybrid)](https://www.indeed.com/viewjob?jk=37465caa730dc467) — Atlantic Health Strategies
-- 📍 **Location:** Baltimore, MD, USA
-- 💰 **Salary:** $175k–$200k/yr
+- 💰 **Salary:** $110k–$140k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing Coordinator: Multi-Brand Ecommerce & Digital (Hybrid/Local)](https://www.indeed.com/viewjob?jk=68143876cfb4a4ea) — MJ Cobalt
-- 📍 **Location:** CT, USA
-- 💰 **Salary:** $20–$28/hr
-- **Work mode:** On-site
-- **Job type:** parttime, fulltime, contract
-- 🕒 **Posted:** 2026-10-19
-
-### [Trade Show & Events Marketing Specialist, Edema - 1476](https://www.indeed.com/viewjob?jk=6a4d557428e5b6ac) — SP Associates
-- 📍 **Location:** Fayetteville, NC, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Advanced Paid Search Media Specialist](https://www.indeed.com/viewjob?jk=9f4e0eabc66993b3) — Allen & Gerritsen
-- 📍 **Location:** Boston, MA, USA
-- 💰 **Salary:** $65k–$70k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing & Business Development Specialist](https://www.indeed.com/viewjob?jk=946395c5e389ea37) — Geater Machining & Manufacturing, Co.
-- 📍 **Location:** Independence, IA, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing Specialist](https://www.indeed.com/viewjob?jk=3080ee4941c77d78) — Law Office of Bryan Fagan
-- 📍 **Location:** Houston, TX, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=6e8a18dbd5b4fa21) — Farbman Group
-- 📍 **Location:** Farmington Hills, MI, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing Specialist](https://www.indeed.com/viewjob?jk=318b7f2b1f46a55b) — Barron Equipment & Overhead Doors
-- 📍 **Location:** Davenport, IA, USA
-- 💰 **Salary:** $17–$20/hr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Associate Director, Paid Search](https://www.indeed.com/viewjob?jk=3d712936c4c9b0fb) — Allen & Gerritsen
-- 📍 **Location:** Boston, MA, USA
-- 💰 **Salary:** $95k–$110k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Specialist](https://www.indeed.com/viewjob?jk=91204e20841d75c9) — Churchill Downs Inc.
-- 📍 **Location:** Miami Gardens, FL, USA
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Senior Account & Marketing Strategist](https://www.indeed.com/viewjob?jk=b678495b781063aa) — Fangorn Media
+### [Social Media Content Creator](https://www.indeed.com/viewjob?jk=1da5c1aae4afac48) — A Friendly Shoulder
 - 📍 **Location:** Remote, USA
-- 💰 **Salary:** $75k–$100k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Commission-Based Real Estate Agent – Work with Investors + Get Trained in AI Marketing & SEO](https://www.indeed.com/viewjob?jk=18e975cc451c34ca) — Graystone Investment Group
-- 📍 **Location:** Tampa, FL, USA
-- 💰 **Salary:** $1/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Manager](https://www.indeed.com/viewjob?jk=a9edc517e1b06aba) — Kisling, Nestico & Redick
-- 📍 **Location:** Fairlawn, OH, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media & Content Coordinator](https://www.indeed.com/viewjob?jk=8dd36e82121c4e8a) — SHASTA INDUSTRIES
-- 📍 **Location:** Scottsdale, AZ, USA
-- 💰 **Salary:** $25–$35/hr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media Content Creator](https://www.indeed.com/viewjob?jk=4a83e0f4911f2c8b) — Arch City Detail
-- 📍 **Location:** High Ridge, MO, USA
-- 💰 **Salary:** $18–$22/hr
-- **Work mode:** On-site
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [Paid Media Specialist (Part-Time)](https://www.indeed.com/viewjob?jk=c5cfbe94c71133c2) — UTTR
-- 📍 **Location:** Remote, USA
-- **Work mode:** Remote in-state eligible
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Sales Representative](https://www.indeed.com/viewjob?jk=55eca838922f2005) — KANSAS SECURED TITLE, INC.
-- 📍 **Location:** Wichita, KS, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital & Media Marketing Specialist](https://www.indeed.com/viewjob?jk=6ff7f06b5e075c65) — Galaxy Media
-- 📍 **Location:** Syracuse, NY, USA
-- 💰 **Salary:** $35k–$55k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Part-time Content Creator + Social Media Manager (Housing Included)](https://www.indeed.com/viewjob?jk=0c02a947f5d1fc22) — Educational Housing Services
-- 📍 **Location:** Brooklyn, NY, USA
-- 💰 **Salary:** $25/hr
-- **Work mode:** On-site
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital & Product Marketing Specialist](https://www.indeed.com/viewjob?jk=0189e196e5250a8b) — Capital Credit Union
-- 📍 **Location:** Green Bay, WI, USA
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media Specialist / Graphic Designer / Marketing Assistant](https://www.indeed.com/viewjob?jk=d87e9b20f949abd9) — Zarzaur Law, P.A.
-- 📍 **Location:** Pensacola, FL, USA
-- 💰 **Salary:** $20–$30/hr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Growth Marketing Manager](https://www.indeed.com/viewjob?jk=6e6a7041208d6cbd) — Numa
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $120k–$150k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-10-19
-
-### [Senior Marketing Manager](https://www.indeed.com/viewjob?jk=c8ed37003e442eda) — Trackvia
-- 📍 **Location:** Denver, CO, USA
-- 💰 **Salary:** $120k–$135k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Director of Performance Marketing](https://www.indeed.com/viewjob?jk=798389b21ab81c90) — Empower Brands
-- 📍 **Location:** Richmond, VA, USA
-- 💰 **Salary:** $150k–$175k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing & Content Manager — Automotive (5-Store Dealer Group)](https://www.indeed.com/viewjob?jk=51f2c7d6682f6500) — AutoSmart Chevrolet
-- 📍 **Location:** Lima, OH, USA
-- 💰 **Salary:** $36k–$60k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=3439c05cfb190269) — Kalamazoo X-Ray Sales/Data Guardian
-- 📍 **Location:** Portage, MI, USA
-- 💰 **Salary:** $50k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Director, Product Marketing & Commercial Enablement](https://www.indeed.com/viewjob?jk=9e38a9b4c58eace9) — Cornerstone Building Brands
-- 📍 **Location:** Houston, TX, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Assistant](https://www.indeed.com/viewjob?jk=363745fa037f4f44) — Pedro
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $26.34–$31.72/hr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Coordinator - Construction](https://www.indeed.com/viewjob?jk=2f873b28d53584b4) — PNG Builders
-- 📍 **Location:** Irwindale, CA, USA
-- 💰 **Salary:** $66k–$105k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Franchise Development Marketing Manager](https://www.indeed.com/viewjob?jk=4852ef4115daf750) — Fortidia US
-- 📍 **Location:** Lakewood, CO, USA
-- 💰 **Salary:** $100k–$115k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Growth Marketing Specialist-Temporary](https://www.indeed.com/viewjob?jk=7f3a8ae17bd63762) — Foundry
-- 📍 **Location:** Boston, MA, USA
-- 💰 **Salary:** $70k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** temporary, parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [Senior Director, Growth Marketing](https://www.indeed.com/viewjob?jk=34a8d70327ba2534) — hyperQUAKE
-- 📍 **Location:** Cincinnati, OH, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Content & Growth Marketing Specialist (Bilingual English & Mandarin)](https://www.indeed.com/viewjob?jk=b0de5174c71f5af2) — First cover, Inc
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $40k–$58k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [SEO Copywriter, Medical Aesthetics](https://www.indeed.com/viewjob?jk=891b549dcd8811c2) — Bios Wellness Clinics 
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $75k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Vice President of Marketing](https://www.indeed.com/viewjob?jk=dab96ba7770870de) — CELLA
-- 📍 **Location:** San Diego, CA, USA
-- 💰 **Salary:** $170k–$210k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Director of Social Media Operations - Remote](https://www.indeed.com/viewjob?jk=99cdaa00708eeae0) — UnitedHealth Group
-- 📍 **Location:** Boston, MA, USA
-- 💰 **Salary:** $135k–$231k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media Coordinator Assistant Intern](https://www.indeed.com/viewjob?jk=df986c6fbd85db3f) — 3:5 Creative[s] Agency +Studio
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $1–$5/yr
+- 💰 **Salary:** $8/hr
 - **Work mode:** Remote in-state eligible
 - **Job type:** parttime, internship
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Social Media Assistant](https://www.indeed.com/viewjob?jk=009ee45a7f57b9e2) — LM Restaurant Group
-- 📍 **Location:** Chicago, IL, USA
-- 💰 **Salary:** $20/hr
+### [Technical SEO Specialist](https://www.indeed.com/viewjob?jk=72e1a24b52c31fed) — Dynamix
+- 📍 **Location:** Kennesaw, GA, USA
 - **Work mode:** On-site
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
 
-### [Social Media & Content Marketing Specialist – Beauty & Wellness Industry.](https://www.indeed.com/viewjob?jk=1e53033e44d8493c) — New Image Day & Med Spa
-- 📍 **Location:** Ogden, UT, USA
-- 💰 **Salary:** $14/hr
+### [Search Engine Optimization Specialist](https://www.indeed.com/viewjob?jk=9b3ac0fc0cb34eb1) — Amber Field Media
+- 📍 **Location:** Dayton, OH, USA
+- 💰 **Salary:** $78k–$82k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Marketing Data Analyst](https://www.indeed.com/viewjob?jk=86cf74b5e238f9b5) — Matrix Service Company
+- 📍 **Location:** Tulsa, OK, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [SEO Strategist](https://www.indeed.com/viewjob?jk=b8aa9708ffbf0ed3) — FINN Partners
+- 📍 **Location:** Remote, USA
+- 💰 **Salary:** $70k–$85k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Freelance Marketing Copywriter](https://www.indeed.com/viewjob?jk=d3349eff3a80ce2a) — Zora Digital
+- 📍 **Location:** Detroit, MI, USA
+- 💰 **Salary:** $50–$100/hr
+- **Work mode:** On-site
+- **Job type:** parttime, contract
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media Manager](https://www.indeed.com/viewjob?jk=8381692fd7cbf970) — JW Outdoor Living
+- 📍 **Location:** Boca Raton, FL, USA
+- 💰 **Salary:** $20k/yr
 - **Work mode:** On-site
 - **Job type:** parttime, fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Part-Time IT & Digital Marketing Assistant](https://www.indeed.com/viewjob?jk=94f3162d8db8426c) — Rutherford Painting & Remodeling
-- 📍 **Location:** Carrollton, TX, USA
-- 💰 **Salary:** $16–$23/hr
-- **Work mode:** On-site
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [Volunteer Engagement and Marketing Coordinator](https://www.indeed.com/viewjob?jk=13d5e27864c7a75d) — Bemidji Community Food Shelf
-- 📍 **Location:** Bemidji, MN, USA
-- 💰 **Salary:** $19–$22/hr
+### [Vice President of Digital Growth Marketing](https://www.indeed.com/viewjob?jk=4307a04fd890ea67) — CreditAssociates
+- 📍 **Location:** Plano, TX, USA
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Social Media Specialist](https://www.indeed.com/viewjob?jk=3cd94cfd7745a6ac) — Tints Polish
-- 📍 **Location:** St. Louis, MO, USA
-- 💰 **Salary:** $175/mo
+### [SEO Editor](https://www.indeed.com/viewjob?jk=b4d8feb4618c5fe7) — Dealmoon
+- 📍 **Location:** Richardson, TX, USA
 - **Work mode:** On-site
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Social Media Assistant](https://www.indeed.com/viewjob?jk=f55ff83ad123d5a7) — Land and Lake Kitchen
-- 📍 **Location:** Chicago, IL, USA
+### [Marketing Director](https://www.indeed.com/viewjob?jk=7ec2c0de122191b3) — Sera Dining LLC
+- 📍 **Location:** Elk Grove Village, IL, USA
+- 💰 **Salary:** $21–$25/hr
+- **Work mode:** On-site
+- **Job type:** parttime, contract
+- 🕒 **Posted:** 2026-10-20
+
+### [Paid Media Manager](https://www.indeed.com/viewjob?jk=b6ec30401abf38cc) — Axon
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $108k–$172k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Content & SEO Specialist](https://www.indeed.com/viewjob?jk=bcd4fb62cafb7cb0) — My Office Apps Inc
+- 📍 **Location:** Irvine, CA, USA
+- 💰 **Salary:** $30–$42/hr
+- **Work mode:** On-site
+- **Job type:** parttime, contract
+- 🕒 **Posted:** 2026-10-20
+
+### [Director, B2B Growth Marketing (Hybrid)](https://www.indeed.com/viewjob?jk=de8312d882a0d241) — OpenTable
+- 📍 **Location:** New York, NY, USA
+- 💰 **Salary:** $185k–$205k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media Marketing Manager - Remote](https://www.indeed.com/viewjob?jk=44fd8b83c52d3604) — DrHouse
+- 📍 **Location:** Jackson, MS, USA
+- **Work mode:** Remote in-state eligible
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
+
+### [Director, Marketing Operations](https://www.indeed.com/viewjob?jk=495dee063574a2e3) — Diversified
+- 📍 **Location:** Remote, USA
+- 💰 **Salary:** $140k–$155k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=dd7a58b42d83c91a) — Mossy Oak Properties Mozark Real Estate
+- 📍 **Location:** Poplar Bluff, MO, USA
+- 💰 **Salary:** $20–$24/hr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Digital Marketing Manager](https://www.indeed.com/viewjob?jk=fbc3b32f10f083a3) — Quality Sports Training LLC
+- 📍 **Location:** West Chester, OH, USA
 - 💰 **Salary:** $20/hr
 - **Work mode:** On-site
+- **Job type:** parttime, fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Paid Media Lead](https://www.indeed.com/viewjob?jk=96df7d22ca7b6e11) — Clients Blackbox
+- 📍 **Location:** College Station, TX, USA
+- 💰 **Salary:** $90k–$125k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Digital Marketing & Social Media Specialist](https://www.indeed.com/viewjob?jk=dbd1578f339e8e51) — Diamond Dental
+- 📍 **Location:** Newtown, CT, USA
+- 💰 **Salary:** $20–$25/hr
+- **Work mode:** On-site
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
+
+### [Paid Media Manager](https://www.indeed.com/viewjob?jk=6565fd8a5108c871) — Axon
+- 📍 **Location:** Scottsdale, AZ, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media/Event Associate](https://www.indeed.com/viewjob?jk=8224dc1b179d9def) — Ampa Events
+- 📍 **Location:** Henrico, VA, USA
+- 💰 **Salary:** $45k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media Manager](https://www.indeed.com/viewjob?jk=65dd4b371f29f7f0) — Ney Media
+- 📍 **Location:** California City, CA, USA
+- 💰 **Salary:** $62k–$83k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Coordinator, Social Media](https://www.indeed.com/viewjob?jk=67c06f2f7e2d5f34) — [solidcore]
+- 📍 **Location:** Arlington, VA, USA
+- 💰 **Salary:** $59k–$64k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media & Content Coordinator](https://www.indeed.com/viewjob?jk=0ac8f99321d0295c) — Diggity Solutions
+- 📍 **Location:** Neosho, MO, USA
+- 💰 **Salary:** $18–$22/hr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-19
+
+### [Social Media & Content Marketing Specialist](https://www.indeed.com/viewjob?jk=20729fe82d789c45) — Modena Allergy + Asthma
+- 📍 **Location:** San Diego, CA, USA
+- 💰 **Salary:** $65k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-19
+
+### [Websites & Ecommerce Marketing Specialist](https://www.indeed.com/viewjob?jk=33ed6b6d677a1364) — Monin Gourmet Flavorings
+- 📍 **Location:** Clearwater, FL, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Manager](https://www.indeed.com/viewjob?jk=6c8b183a1e5f60ed) — Clinton Auto Group
+- 📍 **Location:** Clinton, IA, USA
+- 💰 **Salary:** $50k–$75k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Digital Marketing Specialist (Remote)](https://www.indeed.com/viewjob?jk=6262f033992d0447) — NRTC
+- 📍 **Location:** Remote, USA
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Associate Manager, Paid Marketing, DDfB](https://www.indeed.com/viewjob?jk=82870522f7c7c83c) — DoorDash
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $109k–$160k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Marketing Manager](https://www.indeed.com/viewjob?jk=8c657ba0c19dff49) — Agosto Aquisitions
+- 📍 **Location:** Elma, NY, USA
+- 💰 **Salary:** $110k–$140k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Ecommerce Marketing Manager](https://www.indeed.com/viewjob?jk=3e8b2afdd6e345b9) — Camco Manufacturing Inc.
+- 📍 **Location:** Greensboro, NC, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Associate Director of Marketing for Digital Communications Platforms](https://www.indeed.com/viewjob?jk=10425ca3f508eb14) — University of Vermont Foundation
+- 📍 **Location:** Burlington, VT, USA
+- 💰 **Salary:** $65k–$75k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media Coordinator](https://www.indeed.com/viewjob?jk=31916fcd499fc57e) — Air & Drain Works
+- 📍 **Location:** San Antonio, TX, USA
+- 💰 **Salary:** $16–$19/hr
+- **Work mode:** On-site
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
+
+### [Graphic Designer - Social Media and Digital Content](https://www.indeed.com/viewjob?jk=48cc9655044200c8) — South College
+- 📍 **Location:** Knoxville, TN, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Job Title: Part-Time Marketing Specialist (Remote / Flexible Hours)](https://www.indeed.com/viewjob?jk=bfc9682e5d070029) — Lake Erie Variety / La Bella Vita
+- 📍 **Location:** Erie, PA, USA
+- 💰 **Salary:** $15–$18/hr
+- **Work mode:** Remote in-state eligible
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Assistant](https://www.indeed.com/viewjob?jk=ad71981a99a80a5d) — Community First Bank
+- 📍 **Location:** Platteville, WI, USA
+- **Work mode:** On-site
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Content Specialist](https://www.indeed.com/viewjob?jk=1bca7bb7d38acd02) — WALDORF COLLEGE
+- 📍 **Location:** Forest City, IA, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Director of Marketing and Communications](https://www.indeed.com/viewjob?jk=b4ba9317c0fbd636) — Akron Area YMCA
+- 📍 **Location:** Akron, OH, USA
+- 💰 **Salary:** $70k–$75k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Creative Video Editor & Social Media Manager](https://www.indeed.com/viewjob?jk=c92898d9d54ca0a5) — Law Offices of Spar & Bernstein, P.C.
+- 📍 **Location:** New York, NY, USA
+- 💰 **Salary:** $75k–$85k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [VP, Marketing Distribution](https://www.indeed.com/viewjob?jk=fdedcc4e60c4a05a) — Kemper
+- 📍 **Location:** Birmingham, AL, USA
+- 💰 **Salary:** $191k–$336k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media Specialist](https://www.indeed.com/viewjob?jk=e96185d88844c438) — Rice Thief
+- 📍 **Location:** Long Island City, NY, USA
+- 💰 **Salary:** $1000–$2000/mo
+- **Work mode:** On-site
+- **Job type:** parttime, contract
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Director for RGL Group](https://www.indeed.com/viewjob?jk=81a2f4df47b5ac43) — V/O Med Spa
+- 📍 **Location:** Patchogue, NY, USA
+- 💰 **Salary:** $85k–$110k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Part-time Social Media Content Creator](https://www.indeed.com/viewjob?jk=b2f0e8f0c66a8545) — Little Learner Children's Academy
+- 📍 **Location:** Plainfield, IL, USA
+- 💰 **Salary:** $20–$25/hr
+- **Work mode:** On-site
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing - Marketing Coordinator](https://www.indeed.com/viewjob?jk=c2c20570a76f393c) — Broulims Supermarkets Inc
+- 📍 **Location:** Rigby, ID, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media Assistant](https://www.indeed.com/viewjob?jk=43134cc3a0454046) — Indy Clover Braintree
+- 📍 **Location:** Braintree, MA, USA
+- 💰 **Salary:** $16–$17/hr
+- **Work mode:** On-site
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media & Content Strategist](https://www.indeed.com/viewjob?jk=b887b7a9c4e59fc5) — All American Home Care
+- 📍 **Location:** Philadelphia, PA, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Photo Studio Assistant/ Social media Specialist](https://www.indeed.com/viewjob?jk=468c40ccc011cf02) — Bravo Talent Management Agency
+- 📍 **Location:** South Barrington, IL, USA
+- 💰 **Salary:** $15–$25/hr
+- **Work mode:** On-site
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media & Marketing Coordinator](https://www.indeed.com/viewjob?jk=fb0e0a7f56578756) — The Sweet Spot
+- 📍 **Location:** Pigeon Forge, TN, USA
+- 💰 **Salary:** $16/hr
+- **Work mode:** On-site
 - **Job type:** parttime
 - 🕒 **Posted:** 2026-10-19
 
-### [Photographer / Social Media](https://www.indeed.com/viewjob?jk=24116703bfeed6ca) — Steakyard Dallas 
-- 📍 **Location:** Dallas, TX, USA
-- 💰 **Salary:** $2000/mo
+### [Vice President, Marketing](https://www.indeed.com/viewjob?jk=30dd0dcbd2eebd0c) — Blitzy
+- 📍 **Location:** Cambridge, MA, USA
+- 💰 **Salary:** $300k–$375k/yr
 - **Work mode:** On-site
-- **Job type:** contract
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
 
-### [Sr Social Media Specialist (Contract)](https://www.indeed.com/viewjob?jk=fc695368b415a36b) — Mindbody
+### [Director, Marketing Operations](https://www.indeed.com/viewjob?jk=3fd6484cf7f0d770) — Diversified
 - 📍 **Location:** Remote, USA
-- **Work mode:** Remote in-state eligible
-- **Job type:** contract
-- 🕒 **Posted:** 2026-10-19
-
-### [Food & Restaurant Content Creator (LA-Based, Social Media Focus)](https://www.indeed.com/viewjob?jk=554fe54c77f9a052) — social medusa
-- 📍 **Location:** Culver City, CA, USA
-- 💰 **Salary:** $30–$60/hr
-- **Work mode:** On-site
-- **Job type:** contract
-- 🕒 **Posted:** 2026-10-19
-
-### [Street Content Creator / On-Camera Host (Social Media)](https://www.indeed.com/viewjob?jk=510b916c0284f7c8) — DialTale
-- 📍 **Location:** Arlington, VA, USA
-- 💰 **Salary:** $40/hr
-- **Work mode:** On-site
-- **Job type:** contract
-- 🕒 **Posted:** 2026-10-19
-
-### [Website Design and Marketing Materials Freelancer](https://www.indeed.com/viewjob?jk=e13b8540246fcef4) — Chestnut Health Systems
-- 📍 **Location:** Elgin, IL, USA
-- **Work mode:** On-site
-- **Job type:** contract
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Specialist](https://www.indeed.com/viewjob?jk=04eabcc6c060e5a2) — Cypher Learning INC
-- 📍 **Location:** Plano, TX, USA
+- 💰 **Salary:** $140k–$155k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Demand Generation Specialist](https://www.indeed.com/viewjob?jk=0814af994c320d1c) — Clients Blackbox
+### [Senior Director, Growth & Demand Marketing](https://www.indeed.com/viewjob?jk=bffec74bce8299a1) — Wrike
+- 📍 **Location:** Dallas, TX, USA
+- 💰 **Salary:** $278k–$350k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Director of Product Marketing](https://www.indeed.com/viewjob?jk=7eff6c2457980c87) — Sitecore
+- 📍 **Location:** Washington, DC, USA
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Director, B2B Growth Marketing (Hybrid)](https://www.indeed.com/viewjob?jk=7f9ea606ffa8ff06) — OpenTable
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $185k–$205k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Demand Generation Manager](https://www.indeed.com/viewjob?jk=3be4b186c8616d2b) — Versaterm
+- 📍 **Location:** Mesa, AZ, USA
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Manager Partner & Field Marketing](https://www.indeed.com/viewjob?jk=38aca4034c2945e6) — Hireology
+- 📍 **Location:** Chicago, IL, USA
+- 💰 **Salary:** $110k–$120k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Demand Generation Manager](https://www.indeed.com/viewjob?jk=b72732be45ef806e) — Clients Blackbox
 - 📍 **Location:** College Station, TX, USA
-- 💰 **Salary:** $65k–$90k/yr
+- 💰 **Salary:** $90k–$125k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Senior Field Marketing Manager](https://www.indeed.com/viewjob?jk=fb8b32da38816b90) — Siteimprove
-- 📍 **Location:** Minneapolis, MN, USA
-- 💰 **Salary:** $100k–$125k/yr
+### [Content Marketing Strategist](https://www.indeed.com/viewjob?jk=98428347c183c292) — AxisCare
+- 📍 **Location:** Waco, TX, USA
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Corporate Director of Digital Marketing](https://www.indeed.com/viewjob?jk=fd9e3d6d81ad5c46) — TPG Hotels & Resorts
+- 📍 **Location:** McKinney, TX, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Technical Marketing Leader](https://www.indeed.com/viewjob?jk=58701d82947bdd9c) — Matrix Adhesives
+- 📍 **Location:** Westerville, OH, USA
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Head of Growth Marketing](https://www.indeed.com/viewjob?jk=8e876e5754920e6f) — Slate Auto
-- 📍 **Location:** Troy, MI, USA
-- 💰 **Salary:** $141k–$233k/yr
+### [Product Marketing Manager - Hedge Funds](https://www.indeed.com/viewjob?jk=173bba5ccbd34aa8) — Clearwater Analytics (CWAN)
+- 📍 **Location:** New York, NY, USA
+- 💰 **Salary:** $102k–$144k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Senior Manager, Integrated Marketing](https://www.indeed.com/viewjob?jk=bff989bc216f0281) — The Cigna Group
-- 📍 **Location:** Bloomfield, CT, USA
+### [Digital Marketing Director, Growth and Performance](https://www.indeed.com/viewjob?jk=b77f58474c6c56d0) — Hazelden Betty Ford
+- 📍 **Location:** Center City, MN, USA
+- 💰 **Salary:** $134k–$195k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Marketing Manager-Car Care](https://www.indeed.com/viewjob?jk=3bf8a7dddb84309f) — AAA Club Alliance
+- 📍 **Location:** Wilmington, DE, USA
+- 💰 **Salary:** $80k–$119k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Marketing Manager](https://www.indeed.com/viewjob?jk=8aa139ef955e7379) — Ecolab
+- 📍 **Location:** Saint Paul, MN, USA
+- 💰 **Salary:** $134k–$201k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Analyst](https://www.indeed.com/viewjob?jk=eba43814a5541e5f) — Homes of America
+- 📍 **Location:** Remote, USA
+- 💰 **Salary:** $45k–$50k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Growth Marketing Campaign Manager, US](https://www.indeed.com/viewjob?jk=2fef7fac076ce193) — BD
+- 📍 **Location:** San Diego, CA, USA
+- 💰 **Salary:** $115k–$184k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Director / Vice President of Marketing – Healthcare Payer Solutions](https://www.indeed.com/viewjob?jk=2fd156816525cd7b) — BHM Healthcare Solutions
+- 📍 **Location:** Tampa, FL, USA
+- 💰 **Salary:** $95k–$155k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Sales Automation & Growth Marketing Specialist (HubSpot)](https://www.indeed.com/viewjob?jk=9e688ab7d439c65c) — Block equity group
+- 📍 **Location:** Manhattan, NY, USA
+- 💰 **Salary:** $80k–$100k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Ops](https://www.indeed.com/viewjob?jk=3d299d3cfc7fbe8b) — Parallel Web Systems
+- 📍 **Location:** San Francisco Bay Area, CA, USA
+- 💰 **Salary:** $150k–$300k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Chief Marketing Officer](https://www.indeed.com/viewjob?jk=c98c70423f1fcd8e) — First Rate Inc
+- 📍 **Location:** Arlington, TX, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Marketing Specialist](https://www.indeed.com/viewjob?jk=58f897f07bd885a3) — Hollstadt Consulting
+- 📍 **Location:** MN, USA
+- 💰 **Salary:** $33.91/hr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Manager, Integrated Marketing](https://www.indeed.com/viewjob?jk=cdaa4f9a5afa253a) — The Cigna Group
+- 📍 **Location:** St. Louis, MO, USA
 - 💰 **Salary:** $123k–$206k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-19
 
-### [Executive Director, Travel Management and Advisory Marketing](https://www.indeed.com/viewjob?jk=ea18c9b87a37a775) — JPMorganChase
-- 📍 **Location:** Wilmington, DE, USA
-- 💰 **Salary:** $171k–$265k/yr
+### [Marketing Manager](https://www.indeed.com/viewjob?jk=f534ab0772575f2b) — Texas Wood Supply
+- 📍 **Location:** Donna, TX, USA
+- 💰 **Salary:** $50k–$60k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Brand and Marketing Specialist](https://www.indeed.com/viewjob?jk=dd91c892a44c9312) — LifeStraw
+- 📍 **Location:** Baltimore, MD, USA
+- 💰 **Salary:** $65k–$80k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Sr. Manager, Marketing - Healthcare](https://www.indeed.com/viewjob?jk=6fd5dae7c26f6604) — Blackbaud
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $117k–$158k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Product Marketing Manager](https://www.indeed.com/viewjob?jk=302e4bd8aee6c0a1) — Biamp Systems
-- 📍 **Location:** Beaverton, OR, USA
+### [Brand Manager - Pallas Textiles](https://www.indeed.com/viewjob?jk=32125151fb82d8c8) — KI
+- 📍 **Location:** Green Bay, WI, USA
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Solution Campaign Marketing Director – NorAm](https://www.indeed.com/viewjob?jk=2e245d0e1151ace9) — FICO
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $116k–$182k/yr
-- **Work mode:** Remote in-state eligible
+### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=485be96d9f373e6e) — Miskiri Hospitality Group
+- 📍 **Location:** Washington, DC, USA
+- **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Senior Demand Generation Manager](https://www.indeed.com/viewjob?jk=61a88e542b0f1793) — SolarWinds
+### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=c16ac34eacf105d2) — papis pizza
+- 📍 **Location:** Baltimore, MD, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Coordinator](https://www.indeed.com/viewjob?jk=0d1886d3b5b5cd54) — Bayou Kitchen
+- 📍 **Location:** Gates Mills, OH, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Proposal Specialist](https://www.indeed.com/viewjob?jk=2e99de3145cb9cab) — Labella Associates
+- 📍 **Location:** Columbia, SC, USA
+- 💰 **Salary:** $50k–$85k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Director of Sales & Marketing](https://www.indeed.com/viewjob?jk=62421172ddfdd199) — Blue Horse Mgmt Inc
+- 📍 **Location:** Urbandale, IA, USA
+- 💰 **Salary:** $80k–$90k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Brand Manager](https://www.indeed.com/viewjob?jk=585de06b906d54a7) — New York Hemp Oil
+- 📍 **Location:** Cortland, NY, USA
+- 💰 **Salary:** $65k–$85k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media & Marketing Coordinator](https://www.indeed.com/viewjob?jk=0472ccb89361b289) — InSeng Taekwondo LLC
+- 📍 **Location:** Boulder, CO, USA
+- 💰 **Salary:** $20–$40/hr
+- **Work mode:** On-site
+- **Job type:** parttime, internship
+- 🕒 **Posted:** 2026-10-20
+
+### [Director of Sales & Marketing / Physical Therapist](https://www.indeed.com/viewjob?jk=ee87d5a850e11a24) — Peak Performance Physical Therapy
+- 📍 **Location:** Lansing, MI, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Director of Marketing and Communications](https://www.indeed.com/viewjob?jk=6059a286baaafd4b) — The Gow School
+- 📍 **Location:** South Wales, NY, USA
+- 💰 **Salary:** $90k–$105k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Leased Retail Brand Manager- Bloomingdale's Roosevelt Field](https://www.indeed.com/viewjob?jk=a15630b8fa18ff90) — Rodd and Gunn
+- 📍 **Location:** Garden City, NY, USA
+- 💰 **Salary:** $30–$31/hr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Director of Growth and Digital Marketing](https://www.indeed.com/viewjob?jk=3db2d3218e924aca) — Uchi Restaurants
 - 📍 **Location:** Austin, TX, USA
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
 
-### [Product Marketing Manager](https://www.indeed.com/viewjob?jk=6f16d38cec770386) — Avalon Administrative Services LLC
-- 📍 **Location:** Tampa, FL, USA
+### [Specialist, Marketing Mgmt](https://www.indeed.com/viewjob?jk=a5437cf291b334f8) — Nationwide Mutual Insurance Company
+- 📍 **Location:** Columbus, OH, USA
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Demand Generation Manager](https://www.indeed.com/viewjob?jk=2c111fc2e3426cea) — FullSteam LLC
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $90k–$104k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+### [Adjunct Assistant Professor of Marketing](https://www.indeed.com/viewjob?jk=fb97a087aa4fd60c) — Thomas More University
+- 📍 **Location:** Crestview Hills, KY, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
 
-### [Product Marketing Manager, Cloud AI, Gemini Enterprise](https://www.indeed.com/viewjob?jk=bc57f23abeefd273) — Google
-- 📍 **Location:** Seattle, WA, USA
-- 💰 **Salary:** $141k–$205k/yr
+### [Brand Manager, Key Accounts](https://www.indeed.com/viewjob?jk=96811c710c5e8bfa) — McCain Foods
+- 📍 **Location:** Oakbrook Terrace, IL, USA
+- 💰 **Salary:** $98k–$130k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Executive Director, Marketing Strategy & Partnerships](https://www.indeed.com/viewjob?jk=7f504eb91c703f51) — Camgian
+### [Brand Manager, Away From Home Innovation - Condiments & Sauces](https://www.indeed.com/viewjob?jk=8c9c75e8b540d08c) — Kraft Heinz
+- 📍 **Location:** Chicago, IL, USA
+- 💰 **Salary:** $121k–$151k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Brand Manager](https://www.indeed.com/viewjob?jk=ba7a1538fbed731e) — Odyssey Consulting
 - 📍 **Location:** Huntsville, AL, USA
 - **Work mode:** On-site
 - **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Amazon Brand Manager](https://www.indeed.com/viewjob?jk=5c305290d98e891c) — Commerce Ink
+- 📍 **Location:** Irvine, CA, USA
+- 💰 **Salary:** $65k–$80k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Cnslt](https://www.indeed.com/viewjob?jk=a39854e87de6271a) — Consumers Energy
+- 📍 **Location:** Jackson, MI, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Coordinator - Starborn](https://www.indeed.com/viewjob?jk=9ae1af7293dac739) — PrimeSource Building Products
+- 📍 **Location:** Edison, NJ, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-20
+
+### [Director, Marketing](https://www.indeed.com/viewjob?jk=0f65269a6e76a8e4) — Sage Freight
+- 📍 **Location:** Franklin, TN, USA
+- **Work mode:** On-site
 - 🕒 **Posted:** 2026-10-19
 
-### [VP, Marketing](https://www.indeed.com/viewjob?jk=7e0641add7071fdb) — Commerce
-- 📍 **Location:** Austin, TX, USA
+### [Back Office Support – Sales & Marketing Operations](https://www.indeed.com/viewjob?jk=0e754a5a59a35819) — Lucas Nuelle
+- 📍 **Location:** Williamsburg, VA, USA
+- 💰 **Salary:** $17/hr
+- **Work mode:** On-site
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
+
+### [Lifecycle Marketing Manager](https://www.indeed.com/viewjob?jk=311ef0ef609684f0) — Block
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $135k–$203k/yr
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [VP, Marketing and Growth](https://www.indeed.com/viewjob?jk=d345783a78ceb195) — Securitas
-- 📍 **Location:** Parsippany-Troy Hills, NJ, USA
+### [Marketing Analytics & Operations Specialist](https://www.indeed.com/viewjob?jk=a101bdfb805dc1c1) — ValvTechnologies
+- 📍 **Location:** Houston, TX, USA
 - **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Strategist, Demand Generation and Performance Marketing](https://www.indeed.com/viewjob?jk=5cc3b69814d0b501) — Northern Trust Corp.
-- 📍 **Location:** Chicago, IL, USA
-- 💰 **Salary:** $115k–$195k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Manager](https://www.indeed.com/viewjob?jk=e9eccfcf609a2d6c) — Blast Cleaning Technologies, Inc.
-- 📍 **Location:** West Allis, WI, USA
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Senior Marketing Manager](https://www.indeed.com/viewjob?jk=c541e1cd3bed3eb6) — Sprig
+### [Lifecycle Marketing Manager](https://www.indeed.com/viewjob?jk=be5c7fea3787d7bd) — Block
 - 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $175k–$200k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Product Demand - Marketing Senior Manager](https://www.indeed.com/viewjob?jk=8b4dbf33fa56bd89) — Verizon
-- 📍 **Location:** Basking Ridge, NJ, USA
-- 💰 **Salary:** $105k–$201k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [SaaS Enterprise Global Media Marketing- NY](https://www.indeed.com/viewjob?jk=46547b8363e3b929) — DXC Technology
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $96k–$178k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Director, Demand Generation: Public Sector & Expanding Markets](https://www.indeed.com/viewjob?jk=704036dc656dad48) — Foundant Technologies
-- 📍 **Location:** Remote, USA
+- 💰 **Salary:** $135k–$203k/yr
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Integrated Marketing Manager II - Power Utilities](https://www.indeed.com/viewjob?jk=d0386f986b1d9f24) — nVent
-- 📍 **Location:** Solon, OH, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Trade Association Partnerships Marketing Manager](https://www.indeed.com/viewjob?jk=89b3c68df09a370d) — Amrize
-- 📍 **Location:** Chicago, IL, USA
-- 💰 **Salary:** $110k–$160k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Director of Partner Product Marketing](https://www.indeed.com/viewjob?jk=b15fa02dd9da67ff) — Okta
-- 📍 **Location:** Bellevue, WA, USA
-- 💰 **Salary:** $176k–$297k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Demand Generation Manager](https://www.indeed.com/viewjob?jk=2be5e7c74316d516) — IQware
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $90k–$104k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Senior Marketing Manager](https://www.indeed.com/viewjob?jk=dcc517c4581c1afc) — Icon Media Direct
-- 📍 **Location:** Van Nuys, CA, USA
-- 💰 **Salary:** $75k–$100k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Program Manager, Marketing & Growth](https://www.indeed.com/viewjob?jk=f25e4ee0475c1797) — University of Colorado
-- 📍 **Location:** Aurora, CO, USA
-- 💰 **Salary:** $65k–$87k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Portfolio Marketing Manager](https://www.indeed.com/viewjob?jk=590d9764a8b27c44) — Rockwell Automation
-- 📍 **Location:** Milwaukee, WI, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Specialist Technical Marketing](https://www.indeed.com/viewjob?jk=434dbe34e4c6359f) — Rio Tinto
-- 📍 **Location:** Chicago, IL, USA
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Director, Paid Marketing & MarTech](https://www.indeed.com/viewjob?jk=07e8fe6112daa0f4) — Ecoshield Pest Solutions
-- 📍 **Location:** West Valley City, UT, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Assistant Brand Manager, Marketing](https://www.indeed.com/viewjob?jk=d50abf614edbdee2) — Blue Nile
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $115k–$130k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Associate Field Marketing Manager, Emerging - Dunkin' - Georgia](https://www.indeed.com/viewjob?jk=52c8d380e22ee208) — Inspire Brands
-- 📍 **Location:** Atlanta, GA, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Brand Marketing Manager, Proprietary Brands](https://www.indeed.com/viewjob?jk=c9155ba82d4d50f7) — Highline Warren
-- 📍 **Location:** Memphis, TN, USA
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Manager - NYC](https://www.indeed.com/viewjob?jk=7e965f54b79930d2) — Tarisio
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $90k–$115k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Director of Marketing - Brand Events | Hybrid - Schaumburg, IL](https://www.indeed.com/viewjob?jk=e66a3e9e943e4d69) — Perdoceo Education Corporation
-- 📍 **Location:** Schaumburg, IL, USA
-- 💰 **Salary:** $100k–$140k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Manager, Marketing - Recruitment Marketing Manager](https://www.indeed.com/viewjob?jk=c1a978edeacc0658) — Walmart
-- 📍 **Location:** Bentonville, AR, USA
-- 💰 **Salary:** $80k–$155k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Sr. Associate Brand Manager](https://www.indeed.com/viewjob?jk=8b4d6857b4db62c3) — GALLO
-- 📍 **Location:** Modesto, CA, USA
-- 💰 **Salary:** $103k–$155k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Brand and Growth Marketing Manager - Utah Residents Only](https://www.indeed.com/viewjob?jk=f4ca979390cdb117) — Marketing.Storage
-- 📍 **Location:** UT, USA
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Director of Marketing and Communications - Ashbrook Center](https://www.indeed.com/viewjob?jk=6dc2e8fb480a6d60) — Ashland University
-- 📍 **Location:** Ashland, OH, USA
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Director, Enrollment Communications and Marketing (Limited to UConn Employees)](https://www.indeed.com/viewjob?jk=9baf1fd2a2958547) — University of Connecticut
-- 📍 **Location:** Storrs, CT, USA
-- 💰 **Salary:** $125k–$145k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Sr. Manager, Marketing and Brand Strategy](https://www.indeed.com/viewjob?jk=4ea4fbf8ce901293) — University of Utah
-- 📍 **Location:** Salt Lake City, UT, USA
-- 💰 **Salary:** $80k–$92k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Staff Software Engineer (Marketing Platforms)](https://www.indeed.com/viewjob?jk=2df7d9efede98d0e) — Nubank
-- 📍 **Location:** Miami, FL, USA
+### [Staff Software Engineer (Marketing Platforms)](https://www.indeed.com/viewjob?jk=6340f9f6a7e0dbb7) — Nubank
+- 📍 **Location:** VA, USA
 - 💰 **Salary:** $230.40–$288/day
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-19
 
-### [Marketing Enablement Platform Engineer](https://www.indeed.com/viewjob?jk=26ba939799dd2e43) — Princess
-- 📍 **Location:** Miami, FL, USA
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Performance Creative Strategist, University Communication and Marketing](https://www.indeed.com/viewjob?jk=80b45fb7452177a8) — Lipscomb University
-- 📍 **Location:** Nashville, TN, USA
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-19
-
-### [Senior Analyst, Decision Science (Client Marketing)](https://www.indeed.com/viewjob?jk=0ca1161fefa25629) — TopDog Law
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $105k–$129k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Vice President of Sales and Marketing](https://www.indeed.com/viewjob?jk=d85555c767b1611b) — Prime Group
-- 📍 **Location:** Hollywood, FL, USA
-- 💰 **Salary:** $185k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Medical Marketing & Communications Specialist](https://www.indeed.com/viewjob?jk=8d00060ffe6e5bf4) — DocDelta
-- 📍 **Location:** Remote, USA
-- **Work mode:** Remote in-state eligible
-- **Job type:** contract
-- 🕒 **Posted:** 2026-10-19
-
-### [Community Liaison - Marketing Pro (Senior Living / Care)](https://www.indeed.com/viewjob?jk=207835a05edd6d18) — Owl Be There
-- 📍 **Location:** Charlotte, NC, USA
-- 💰 **Salary:** $70k–$110k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Director, Marketing](https://www.indeed.com/viewjob?jk=2384f2d5021f7c23) — pmvpharma
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $195k–$250k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Designer - Brand & Marketing (Contract to Perm)](https://www.indeed.com/viewjob?jk=279ae293011cb104) — Assured Allies
-- 📍 **Location:** Remote, USA
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Senior Product Marketing Manager, Field Enablement](https://www.indeed.com/viewjob?jk=187ccebb7d41eb3f) — Nerdio
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $130k–$150k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media Specialist](https://www.indeed.com/viewjob?jk=efb071457a81cf0c) — Prep Network
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $60k–$70k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing Specialist - Remote](https://www.indeed.com/viewjob?jk=17abbff36ee76f07) — CELLA
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $30–$37/hr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime, contract
-- 🕒 **Posted:** 2026-10-19
-
-### [SEO/SEM Marketing Specialist](https://www.indeed.com/viewjob?jk=0a74a099f7a2bf8e) — Instrumental Group
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $69k–$84k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Valnet | Performance Marketing Specialist - Auto](https://www.indeed.com/viewjob?jk=67f9bf7ba4640aaf) — Valnet Inc.
-- 📍 **Location:** Remote, USA
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Acquisition Marketing Manager](https://www.indeed.com/viewjob?jk=3760f90cfc174f29) — Clients Blackbox
-- 📍 **Location:** Wichita Falls, TX, USA
-- 💰 **Salary:** $65k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Acquisition Marketing Strategist](https://www.indeed.com/viewjob?jk=817c2b2445a471f0) — Clients Blackbox
-- 📍 **Location:** College Station, TX, USA
-- 💰 **Salary:** $65k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Growth Marketing Manager](https://www.indeed.com/viewjob?jk=ba7a5235f8729f94) — Clients Blackbox
-- 📍 **Location:** College Station, TX, USA
-- 💰 **Salary:** $65k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Performance Marketing Strategist](https://www.indeed.com/viewjob?jk=803b525b55a68782) — Clients Blackbox
-- 📍 **Location:** Round Rock, TX, USA
-- 💰 **Salary:** $65k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Growth Marketing Strategist](https://www.indeed.com/viewjob?jk=2cb7dab15b9e8485) — Clients Blackbox
-- 📍 **Location:** College Station, TX, USA
-- 💰 **Salary:** $65k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Performance Marketing Manager](https://www.indeed.com/viewjob?jk=184eae5bc2c59680) — Clients Blackbox
-- 📍 **Location:** San Angelo, TX, USA
-- 💰 **Salary:** $65k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Performance Marketing Specialist](https://www.indeed.com/viewjob?jk=8ae4739e973659c4) — Clients Blackbox
-- 📍 **Location:** Killeen, TX, USA
-- 💰 **Salary:** $65k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Paid Media Specialist](https://www.indeed.com/viewjob?jk=d3cf8a08293f0edc) — Clients Blackbox
-- 📍 **Location:** San Angelo, TX, USA
-- 💰 **Salary:** $65k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Financial Services Marketing Manager](https://www.indeed.com/viewjob?jk=99d8c4b3a27414ff) — Clients Blackbox
-- 📍 **Location:** Wichita Falls, TX, USA
-- 💰 **Salary:** $65k–$90k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Growth Marketing Analyst](https://www.indeed.com/viewjob?jk=068c9382153773a3) — Think Sensory
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $50k–$58k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media Associate](https://www.indeed.com/viewjob?jk=60ed888a36c56b25) — Kiva.org
-- 📍 **Location:** Portland, OR, USA
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Asst./Assoc. Copywriter, Creative Marketing - A&F Co. (Remote)](https://www.indeed.com/viewjob?jk=c45059e2006efdd0) — Abercrombie & Fitch
-- 📍 **Location:** Remote, USA
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing & Publicity Associate - YA](https://www.indeed.com/viewjob?jk=9a8cb94a8b0e390a) — Sourcebooks, Inc.
-- 📍 **Location:** Naperville, IL, USA
-- 💰 **Salary:** $23.25–$25.96/hr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Manager, Paid Search](https://www.indeed.com/viewjob?jk=a8aa511040f4bd7c) — Real Chemistry
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $60k–$80k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-10-19
-
-### [Student / Entry-Level Sales & Marketing Ambassador (Remote)](https://www.indeed.com/viewjob?jk=9e86504228d25d3d) — NATALIE MUKUNDU (PTY) LTD
-- 📍 **Location:** Remote, USA
-- 💰 **Salary:** $1256/mo
+### [Job Title: Part-Time Marketing Specialist (Remote / Flexible Hours)](https://www.indeed.com/viewjob?jk=c8e8fcafc252f88e) — Lake Erie Variety / La Bella Vita
+- 📍 **Location:** Erie, PA, USA
+- 💰 **Salary:** $15–$18/hr
 - **Work mode:** Remote in-state eligible
 - **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing & Proposal Coordinator](https://www.indeed.com/viewjob?jk=e0cc11c3188df5ce) — Connico
+### [Marketing Account Manager, Supply](https://www.indeed.com/viewjob?jk=4c4e67d73f23bc7f) — Classic Vacations
+- 📍 **Location:** Jefferson City, MO, USA
+- 💰 **Salary:** $70k–$85k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Marketing Operations Analyst](https://www.indeed.com/viewjob?jk=c80cfe2952b8fda5) — Smarsh
 - 📍 **Location:** Remote, USA
-- 💰 **Salary:** $55k–$70k/yr
+- 💰 **Salary:** $106k–$141k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Email Marketing Operations Assistant](https://www.indeed.com/viewjob?jk=6e3861d5b08c8b2c) — Decentralized Masters
+- 📍 **Location:** Miami, FL, USA
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Healthcare Marketing Coordinator & Executive Support - Remote](https://www.indeed.com/viewjob?jk=cc275008244f7cf3) — DrHouse
+- 📍 **Location:** Charleston, WV, USA
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Director, Marketing Operations](https://www.indeed.com/viewjob?jk=10e6540e94bc94c9) — Diversified
+- 📍 **Location:** Chicago, IL, USA
+- 💰 **Salary:** $140k–$155k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [HCP Personal Marketing Lead - Movement Disorders](https://www.indeed.com/viewjob?jk=64469110e5890489) — Praxis Precision Medicines, Inc.
+- 📍 **Location:** Boston, MA, USA
+- 💰 **Salary:** $190k–$214k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Operations Manager (Remote)](https://www.indeed.com/viewjob?jk=ae62672a12f21c54) — FCT
+- 📍 **Location:** Santa Ana, CA, USA
+- 💰 **Salary:** $98k–$130k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Paid Media Strategist](https://www.indeed.com/viewjob?jk=91f025ed9cb961c7) — Clients Blackbox
+- 📍 **Location:** Tyler, TX, USA
+- 💰 **Salary:** $90k–$125k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Paid Media Manager](https://www.indeed.com/viewjob?jk=b3d8b18abba713a5) — Clients Blackbox
+- 📍 **Location:** College Station, TX, USA
+- 💰 **Salary:** $90k–$125k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Growth Marketing Lead](https://www.indeed.com/viewjob?jk=54d323439bbe88c9) — Clients Blackbox
+- 📍 **Location:** College Station, TX, USA
+- 💰 **Salary:** $90k–$125k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Sales Development & Marketing Manager](https://www.indeed.com/viewjob?jk=fac663ecbb642212) — Airline Hydraulics Corporation
+- 📍 **Location:** Pittsburgh, PA, USA
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Manager](https://www.indeed.com/viewjob?jk=9ce713fd19de5655) — GO Car Wash
+- 📍 **Location:** Greenwood Village, CO, USA
+- 💰 **Salary:** $80k–$95k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-10-20
+
+### [Technical Marketing, Growth Manager](https://www.indeed.com/viewjob?jk=bebd0819ec752a3f) — Rootstock Software
+- 📍 **Location:** Remote, USA
+- 💰 **Salary:** $110k–$1200k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [E-Commerce Marketing Specialist](https://www.indeed.com/viewjob?jk=1576901e57da5758) — trueCABLE
+- 📍 **Location:** Remote, USA
+- 💰 **Salary:** $65k–$75k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Director, Demand Generation](https://www.indeed.com/viewjob?jk=16b391c2afb9e2ed) — KPA
+- 📍 **Location:** Lafayette, CO, USA
+- 💰 **Salary:** $150k–$180k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Performance Marketing Manager](https://www.indeed.com/viewjob?jk=c7235d6bacc7f236) — Clients Blackbox
+- 📍 **Location:** College Station, TX, USA
+- 💰 **Salary:** $90k–$125k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Social Media Manager](https://www.indeed.com/viewjob?jk=f86d870d3cfb80cb) — ALEXIE OF ATHENS
+- 📍 **Location:** Los Angeles, CA, USA
+- **Work mode:** Remote in-state eligible
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
+
+### [High-Ticket Marketing Lead](https://www.indeed.com/viewjob?jk=4fa49c9df96a833c) — Clients Blackbox
+- 📍 **Location:** College Station, TX, USA
+- 💰 **Salary:** $90k–$125k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Acquisition Marketing Manager](https://www.indeed.com/viewjob?jk=9f92769b973d7c54) — Clients Blackbox
+- 📍 **Location:** College Station, TX, USA
+- 💰 **Salary:** $90k–$125k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Growth Marketing Lead](https://www.indeed.com/viewjob?jk=169765f5cb600c87) — Clients Blackbox
+- 📍 **Location:** San Angelo, TX, USA
+- 💰 **Salary:** $90k–$125k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Campaign Specialist](https://www.indeed.com/viewjob?jk=bc2de476d8fb47cd) — The N2 Company
+- 📍 **Location:** Remote, USA
+- 💰 **Salary:** $50k–$60k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-10-20
+
+### [Head of Growth & Marketing](https://www.indeed.com/viewjob?jk=7795c56cbff92461) — High Camp
+- 📍 **Location:** Denver, CO, USA
+- 💰 **Salary:** $170k–$210k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** contract
+- 🕒 **Posted:** 2026-10-20
+
+### [Paid Media Strategist](https://www.indeed.com/viewjob?jk=fdf27fc25ce4bd47) — RevSpark Media
+- 📍 **Location:** Remote, USA
+- 💰 **Salary:** $2500–$3500/mo
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Acquisition Marketing Strategist](https://www.indeed.com/viewjob?jk=40bfe1cc22bb3147) — Clients Blackbox
+- 📍 **Location:** San Angelo, TX, USA
+- 💰 **Salary:** $65k–$90k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-19
 
-### [Senior Social Media Manager](https://www.indeed.com/viewjob?jk=10bb85e8d8a2e206) — Commerce
+### [Performance Marketing Strategist](https://www.indeed.com/viewjob?jk=0334fcb1f37557f6) — Clients Blackbox
+- 📍 **Location:** Frisco, TX, USA
+- 💰 **Salary:** $65k–$90k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-19
+
+### [Social Media Associate](https://www.indeed.com/viewjob?jk=b588460947550a5d) — Kiva.org
+- 📍 **Location:** Remote, USA
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-19
+
+### [Senior Social Media Manager](https://www.indeed.com/viewjob?jk=2a6cbb9e90dc5c35) — Commerce
 - 📍 **Location:** Remote, USA
 - 💰 **Salary:** $110k–$150k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Product Marketing Manager](https://www.indeed.com/viewjob?jk=3f46ff8eca70ba23) — Avalon Administrative Services LLC
-- 📍 **Location:** Tampa, FL, USA
+### [Volunteer Director of Social Media](https://www.indeed.com/viewjob?jk=ca56509a829c64a9) — Redeem These Ashes
+- 📍 **Location:** Remote, USA
+- 💰 **Salary:** $2–$33/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** internship
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Demand Generation Manager](https://www.indeed.com/viewjob?jk=d75abbcfbb99cac2) — Clients Blackbox
+- 📍 **Location:** San Angelo, TX, USA
+- 💰 **Salary:** $90k–$125k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing Manager](https://uk.indeed.com/viewjob?jk=0681a6f88677cc66) — Lifetime Group
+### [Lifecycle Marketing Manager](https://www.indeed.com/viewjob?jk=6f9a830a9222cf30) — Block
+- 📍 **Location:** Chicago, IL, USA
+- 💰 **Salary:** $135k–$203k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Operations Manager (Remote)](https://www.indeed.com/viewjob?jk=02304c8a1b916558) — FCT
+- 📍 **Location:** Washington, DC, USA
+- 💰 **Salary:** $98k–$130k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Marketing Executive - Active Neuro](https://uk.indeed.com/viewjob?jk=7df953506128a778) — Active Care Group
 - 📍 **Location:** Remote, UK
-- 💰 **Salary:** $50k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Graduate Growth Marketing Manager (Performance Marketing)](https://uk.indeed.com/viewjob?jk=40291920805b6950) — Revolut
+### [Solutions Marketing Manager](https://uk.indeed.com/viewjob?jk=9ec097deb4ce409e) — GraphAware
 - 📍 **Location:** Remote, UK
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Freelance Social Media Manager & generational lead](https://uk.indeed.com/viewjob?jk=7491a15129518f29) — JasminesDreamyDecor
+### [Operations Manager (Marketing Agency)](https://uk.indeed.com/viewjob?jk=669adebf9b9680df) — Strive Online
 - 📍 **Location:** Remote, UK
-- 💰 **Salary:** $350/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [Associate Director - Field Marketing](https://in.indeed.com/viewjob?jk=4ab6b85c49cc762c) — Sprinto
-- 📍 **Location:** Remote, India
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media Manager](https://in.indeed.com/viewjob?jk=84c1ee374d1c2204) — Digital Neighbour
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $22k–$30k/mo
+- 💰 **Salary:** $40k–$50k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing & Business Development Executive](https://in.indeed.com/viewjob?jk=907df4d1f821091f) — Tara Base
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $30k–$45k/mo
+### [Sales and Marketing Intern](https://uk.indeed.com/viewjob?jk=ac9ae49a00d63476) — Astreon Ai Group
+- 📍 **Location:** Remote, UK
+- 💰 **Salary:** $500/mo
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** internship
+- 🕒 **Posted:** 2026-10-20
 
-### [Marketing Lead Generation Manager](https://in.indeed.com/viewjob?jk=af343e01ae22797f) — Cirkle Studio pvt. ltd.
+### [Global Employer Brand Manager of Digital Activation and Channels](https://uk.indeed.com/viewjob?jk=2c74538ac6e45474) — ABB
+- 📍 **Location:** Remote, UK
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-10-20
+
+### [Digital marketing](https://in.indeed.com/viewjob?jk=e10a5d9a2b30c1cb) — The moment makers
 - 📍 **Location:** Remote, India
-- 💰 **Salary:** $50k–$100k/mo
+- 💰 **Salary:** $10k–$31k/mo
 - **Work mode:** Remote in-state eligible
 - **Job type:** parttime, fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Ecommerce Marketing Executive](https://in.indeed.com/viewjob?jk=bf31d3cb775f9adc) — Tic Tac Toe Footwear
+### [Marketing and Communication Manager](https://in.indeed.com/viewjob?jk=1d21068b4ffda861) — SGH Management India Pvt Ltd
 - 📍 **Location:** Remote, India
-- 💰 **Salary:** $15k–$20k/mo
+- 💰 **Salary:** $60k–$100k/mo
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Influencer Marketing Manager](https://in.indeed.com/viewjob?jk=2b843f1343c3c46b) — FOURDY
+### [Digital Marketing Manager](https://in.indeed.com/viewjob?jk=c008b659147b4684) — Locals Grow
+- 📍 **Location:** Remote, India
+- 💰 **Salary:** $20k–$35k/mo
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Tele Marketing Executive](https://in.indeed.com/viewjob?jk=fae7b4768ae3d889) — Tele Marketing Executive
 - 📍 **Location:** Remote, India
 - 💰 **Salary:** $15k–$25k/mo
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** parttime, fulltime
+- 🕒 **Posted:** 2026-10-20
 
-### [Sales and Marketing Manager](https://in.indeed.com/viewjob?jk=c84a73265e90da9f) — SAN LAK SERVICES PRIVATE LIMITED
+### [Digital marketing specialist (lead generation)](https://in.indeed.com/viewjob?jk=d1d98c0fa4471190) — Qutechs
 - 📍 **Location:** Remote, India
-- 💰 **Salary:** $25k–$50k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing Intern](https://in.indeed.com/viewjob?jk=81ea2b300433f7f2) — Vheelfix
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $1000–$2000/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime, internship
-- 🕒 **Posted:** 2026-10-19
-
-### [Performance Marketing Executive](https://in.indeed.com/viewjob?jk=9a3c2110d79cda54) — Brand Mender
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $15k–$20k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Sales and Marketing Intern](https://in.indeed.com/viewjob?jk=a497ea08ce014dc2) — green nova agro
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $1000–$4000/mo
 - **Work mode:** Remote in-state eligible
 - **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [DIGITAL MARKETING EXECUTIVE Remote (INDIA)](https://in.indeed.com/viewjob?jk=6f1a465106d65b15) — Zyus EduTech UAE
+### [Tele marketing executive](https://in.indeed.com/viewjob?jk=4bfe75a99dd9444c) — L S ENTERPRISES
 - 📍 **Location:** Remote, India
-- 💰 **Salary:** $10k–$15k/mo
+- 💰 **Salary:** $8000–$24k/mo
+- **Work mode:** Remote in-state eligible
+- **Job type:** parttime, fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Senior Digital Marketing Specialist | Google Ads, SEO & Meta Ads | Remote](https://in.indeed.com/viewjob?jk=37af0b58c653c0b3) — HAPPY HOME IMPROVEMENT CONCEPTS
+- 📍 **Location:** Remote, India
+- 💰 **Salary:** $66k–$76k/mo
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [REMOTE DIGITAL MARKETING INTERNSHIP](https://in.indeed.com/viewjob?jk=f373707fc7266bab) — ResultPrep
+### [Social Media Marketing Intern](https://in.indeed.com/viewjob?jk=6b5bc31f4c0e0939) — Luxe Element Studio (OPC) Private Limited
 - 📍 **Location:** Remote, India
+- 💰 **Salary:** $3000/mo
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime, internship
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-20
 
-### [Performance Marketing Manager](https://in.indeed.com/viewjob?jk=4775f1e27608a99a) — buzzcrewz Marketing L.L.P
+### [Digital marketing intern](https://in.indeed.com/viewjob?jk=fafa3da8d25e20f6) — Cornixe
+- 📍 **Location:** Remote, India
+- 💰 **Salary:** $2000–$15k/mo
+- **Work mode:** Remote in-state eligible
+- **Job type:** internship
+- 🕒 **Posted:** 2026-10-20
+
+### [Digital Marketing Intern](https://in.indeed.com/viewjob?jk=b45bbed4ff70ca2d) — Cornixe Edutech Private Limited
 - 📍 **Location:** Remote, India
 - 💰 **Salary:** $15k/mo
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** parttime, internship
+- 🕒 **Posted:** 2026-10-20
 
-### [Head of Marketing and Business Development](https://in.indeed.com/viewjob?jk=cd2abe27373eee52) — Hipstersg India Private Limited
+### [Sales and Marketing Internship](https://in.indeed.com/viewjob?jk=6ce89cb5b94d5746) — green nova agro
 - 📍 **Location:** Remote, India
-- 💰 **Salary:** $24k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Ecommerce Marketing Intern](https://in.indeed.com/viewjob?jk=af55bb2fac72bd18) — Tic Tac Toe Footwear
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $10k–$15k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime, internship
-- 🕒 **Posted:** 2026-10-19
-
-### [AI Social Media Content Intern](https://in.indeed.com/viewjob?jk=73363646bbd6b60c) — Tic Tac Toe Footwear
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $8000–$10k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime, internship
-- 🕒 **Posted:** 2026-10-19
-
-### [Ecommerce Marketing Executive](https://in.indeed.com/viewjob?jk=c446009ae1103134) — Allo Innoware
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $15k–$20k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Sales and Marketing Intern](https://in.indeed.com/viewjob?jk=6d166fc60d441e7d) — UnchaAi
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $5000/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media Intern](https://in.indeed.com/viewjob?jk=34e473f45c54228a) — DeepshiTech Private Limited
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $5000–$10k/mo
+- 💰 **Salary:** $1000/mo
 - **Work mode:** Remote in-state eligible
 - **Job type:** internship
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [newspaper marketing Head](https://in.indeed.com/viewjob?jk=61d6e87974cbd229) — Neta Govinda
+### [Sales & Marketing Operations Manager](https://in.indeed.com/viewjob?jk=45bfc90efea50c8c) — Firework
 - 📍 **Location:** Remote, India
-- 💰 **Salary:** $21k–$40k/mo
 - **Work mode:** Remote in-state eligible
-- **Job type:** parttime, fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Social Media Manager](https://in.indeed.com/viewjob?jk=3d13c3473fd88667) — WebReak Global
+### [DIGITAL MARKETING](https://in.indeed.com/viewjob?jk=61d6ca63a411c9fa) — ResultPrep
 - 📍 **Location:** Remote, India
-- 💰 **Salary:** $11k–$20k/mo
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime, contract
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** fulltime, internship
+- 🕒 **Posted:** 2026-10-20
 
-### [Email Marketing intern](https://in.indeed.com/viewjob?jk=f6e967a15772d439) — DeepshiTech Private Limited
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $5000–$10k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** internship
-- 🕒 **Posted:** 2026-10-19
-
-### [Sales and Marketing Intern](https://in.indeed.com/viewjob?jk=9dab0beea9785789) — Endiviox
+### [Sales and Marketing Intern](https://in.indeed.com/viewjob?jk=227fa2feca4febef) — Edvionix
 - 📍 **Location:** Remote, India
 - 💰 **Salary:** $1000–$10k/mo
 - **Work mode:** Remote in-state eligible
-- **Job type:** internship
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** parttime, internship
+- 🕒 **Posted:** 2026-10-20
 
-### [Sales and marketing intern](https://in.indeed.com/viewjob?jk=83cdd2e4d4d909e4) — Edvionix
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $1000–$10k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** internship
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing Intern](https://in.indeed.com/viewjob?jk=b65fe96a6a564690) — DeepshiTech Private Limited
+### [Social Media Intern](https://in.indeed.com/viewjob?jk=cac57269062d1b69) — Joblance
 - 📍 **Location:** Remote, India
 - 💰 **Salary:** $5000–$10k/mo
 - **Work mode:** Remote in-state eligible
-- **Job type:** internship
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** fulltime, internship
+- 🕒 **Posted:** 2026-10-20
 
-### [Social Media Executive](https://in.indeed.com/viewjob?jk=4c3f15b93b0f9849) — Pulse Business
+### [Digital- social media expert & Admin- Work from Home](https://in.indeed.com/viewjob?jk=bd7d046790a43732) — Linguistic school of PTE & NAATI
+- 📍 **Location:** Remote, India
+- 💰 **Salary:** $6000/mo
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [SEO Specialist](https://in.indeed.com/viewjob?jk=0638a90fb0f65613) — SEO Hiring
+- 📍 **Location:** Remote, India
+- 💰 **Salary:** $20k/mo
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
+
+### [Tech Intern – AI Sales & Marketing Automation](https://in.indeed.com/viewjob?jk=faf239b0e7c8884c) — Oraya Labs
+- 📍 **Location:** Remote, India
+- 💰 **Salary:** $12k/mo
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime, internship
+- 🕒 **Posted:** 2026-10-20
+
+### [Performance Marketing Executive - Meta & Google Ads](https://in.indeed.com/viewjob?jk=364ee6c3b0e87988) — Digital Amigos
 - 📍 **Location:** Remote, India
 - 💰 **Salary:** $10k–$15k/mo
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Ecommerce Marketing Intern](https://in.indeed.com/viewjob?jk=07653f304cbe2911) — Allo Innoware
+### [SEO Executive (AI SEO & Growth)](https://in.indeed.com/viewjob?jk=cc4e2d89835558e6) — Imprint Staff
 - 📍 **Location:** Remote, India
-- 💰 **Salary:** $10k–$15k/mo
+- 💰 **Salary:** $25k–$35k/mo
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime, internship
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-20
 
-### [SEO Internship](https://in.indeed.com/viewjob?jk=63ff21ac12e4bc83) — LZYCRAZY PVT. LTD
+### [Social Media Executive](https://in.indeed.com/viewjob?jk=1a7c444d91cd87fb) — Prateek enterprise
 - 📍 **Location:** Remote, India
-- 💰 **Salary:** $5000/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** parttime, fulltime, contract, volunteer, internship
-- 🕒 **Posted:** 2026-10-19
-
-### [Influencer Marketing Intern](https://in.indeed.com/viewjob?jk=ed8057538b65c9c2) — Ramayani Group of Companies
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $10k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** internship
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing Intern](https://in.indeed.com/viewjob?jk=0707bfc26c08e941) — CORNIXE
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $2000–$26k/mo
+- 💰 **Salary:** $8000–$16k/mo
 - **Work mode:** Remote in-state eligible
 - **Job type:** parttime, fulltime
-- 🕒 **Posted:** 2026-10-19
+- 🕒 **Posted:** 2026-10-20
 
-### [Newsletter & Digital Marketing Executive (Founding Team)](https://in.indeed.com/viewjob?jk=72ecbaa856dda686) — k'LAH'ng Digest
+### [Social Media Executive](https://in.indeed.com/viewjob?jk=a417ef27629d2ace) — DEVLOPMENT CENTER GRUGRAM
 - 📍 **Location:** Remote, India
 - 💰 **Salary:** $10k/mo
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime, contract, internship
-- 🕒 **Posted:** 2026-10-19
-
-### [AI Social Media Content Intern](https://in.indeed.com/viewjob?jk=b4e11238152ef870) — Allo Innoware
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $8000–$10k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime, internship
-- 🕒 **Posted:** 2026-10-19
-
-### [Marketing](https://in.indeed.com/viewjob?jk=c91443111096102b) — VICTORYCRAFT_18
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $1500–$3000/wk
-- **Work mode:** Remote in-state eligible
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [SEO Intern](https://in.indeed.com/viewjob?jk=ca98db13abe137e4) — DeepshiTech Private Limited
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $5000–$10k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** internship
-- 🕒 **Posted:** 2026-10-19
-
-### [Digital Marketing Analyst](https://in.indeed.com/viewjob?jk=40172df07d5dd8d0) — Cornixe
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $3000–$15k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** parttime, fulltime, contract, volunteer, internship
-- 🕒 **Posted:** 2026-10-19
-
-### [SEO Intern (GEO and AEO) - Work from Home](https://in.indeed.com/viewjob?jk=e80f7adea8795e63) — The Wedding Curator
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $5000–$10k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** internship
-- 🕒 **Posted:** 2026-10-19
-
-### [Social Media Manager](https://in.indeed.com/viewjob?jk=00b12ae88978996b) — eeraN Creations
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $10k–$12k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-10-19
-
-### [Sales &Marketing Intern-IT](https://in.indeed.com/viewjob?jk=57beb521d7de282e) — Kerahire
-- 📍 **Location:** Remote, India
-- 💰 **Salary:** $5000–$40k/mo
-- **Work mode:** Remote in-state eligible
-- **Job type:** parttime, fulltime, contract, internship
-- 🕒 **Posted:** 2026-10-19
+- **Job type:** parttime, fulltime
+- 🕒 **Posted:** 2026-10-20
