@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-10-11 20:25 UTC",
+  "scraped_at": "2026-10-20 20:00 UTC",
   "total": 9,
-  "new_count": 4,
+  "new_count": 0,
   "jobs": [
     {
       "company": "County of Sonoma (CA)",
@@ -85,42 +85,5 @@
       "ats": "NEOGOV"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "City of Palo Alto",
-      "title": "Hazardous Materials Inspector",
-      "location": "Palo Alto, CA",
-      "url": "https://www.governmentjobs.com/jobs/5489592-0/hazardous-materials-inspector",
-      "date_posted": "",
-      "salary": "$176,113.60 - $234,457.60 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of San Diego",
-      "title": "Hazardous Materials Inspector III",
-      "location": "City of San Diego, CA",
-      "url": "https://www.governmentjobs.com/jobs/5488484-0/hazardous-materials-inspector-iii",
-      "date_posted": "",
-      "salary": "$102,294.40 - $123,988.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Mendocino",
-      "title": "Hazardous Materials Operations Specialist",
-      "location": "Ukiah, CA",
-      "url": "https://www.governmentjobs.com/jobs/5502826-0/hazardous-materials-operations-specialist",
-      "date_posted": "",
-      "salary": "$70,345.60 - $85,488.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Ventura County",
-      "title": "Environmental Health Specialist I/II/III - Hazardous Materials/CUPA",
-      "location": "Ventura and may require travel throughout Ventura County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5463471-0/environmental-health-specialist-i-ii-iii-hazardous-materials-cupa",
-      "date_posted": "",
-      "salary": "$60,368.09 - $111,745.42 Annually",
-      "ats": "NEOGOV"
-    }
-  ]
+  "new_jobs": []
 }
