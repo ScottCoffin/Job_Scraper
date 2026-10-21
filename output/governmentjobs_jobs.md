@@ -1,5 +1,5 @@
 # 🏛 NEOGOV — State & Local Government Marketing Roles
-*Last updated: 2026-10-20 20:00 UTC*
+*Last updated: 2026-10-21 20:12 UTC*
 
 **0 new role(s)** since last run · 9 total in recent GovernmentJobs postings
 
