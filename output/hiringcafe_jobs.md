@@ -1,5 +1,5 @@
 # ☕ HiringCafe — Marketing Roles
-*Last updated: 2026-10-21 09:06 UTC*
+*Last updated: 2026-10-21 20:26 UTC*
 
 **0 new role(s)** since last run · 18 total in last 30d
 
