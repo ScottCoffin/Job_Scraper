@@ -1,72 +1,197 @@
 {
   "profile": {
-    "title": "Marketing Job Tracker",
-    "subtitle": "USA or explicitly remote; eligibility restrictions retained",
-    "emoji": "\ud83d\udce3"
+    "title": "Early-Career Software & AI Job Tracker",
+    "subtitle": "United States · Dallas · Austin · Boston · Remote",
+    "emoji": "💻"
   },
   "keywords": {
     "include": [
-      "marketing",
-      "SEO",
-      "search engine optimization",
-      "paid media",
-      "paid search",
-      "social media",
-      "demand generation",
-      "brand manager",
-      "brand strategist",
-      "CRM manager",
-      "CRM specialist",
-      "lifecycle manager",
-      "email campaign"
+      "software engineer",
+      "software developer",
+      "software development engineer",
+      "software applications engineer",
+      "software application engineer",
+      "engineer software",
+      "software programmer",
+      "systems software",
+      "backend engineer",
+      "back-end engineer",
+      "backend developer",
+      "back-end developer",
+      "platform engineer",
+      "infrastructure engineer",
+      "cloud engineer",
+      "cloud software",
+      "distributed systems engineer",
+      "python developer",
+      "java developer",
+      "full stack engineer",
+      "full-stack engineer",
+      "full stack developer",
+      "full-stack developer",
+      "machine learning engineer",
+      "machine learning developer",
+      "ml engineer",
+      "ai engineer",
+      "ai developer",
+      "ai/ml engineer",
+      "applied ai engineer",
+      "generative ai engineer",
+      "agentic ai engineer",
+      "llm engineer",
+      "intelligent automation",
+      "automation software engineer",
+      "data engineer",
+      "data scientist",
+      "research engineer",
+      "algorithm engineer",
+      "computer vision engineer",
+      "nlp engineer",
+      "deep learning engineer"
     ],
-    "exclude": [],
+    "exclude": [
+      "internship",
+      "intern",
+      "co-op",
+      "coop",
+      "trainee",
+      "apprentice",
+      "undergraduate",
+      "senior",
+      "sr.",
+      "staff",
+      "principal",
+      "distinguished",
+      "director",
+      "manager",
+      "engineering lead",
+      "tech lead",
+      "technical lead",
+      "chief",
+      "vice president",
+      "sales engineer",
+      "support engineer",
+      "solutions architect",
+      "enterprise architect",
+      "faculty",
+      "professor",
+      "postdoctoral",
+      "postdoc"
+    ],
     "fuzzy_seniority": [],
     "fuzzy_domain": [],
     "fuzzy_exclude": []
   },
   "search_terms": {
     "linkedin": [
-      "marketing",
-      "SEO",
-      "paid media",
-      "paid search",
-      "social media",
-      "demand generation",
-      "brand manager",
-      "CRM marketing"
+      "software engineer new grad",
+      "entry level software engineer",
+      "software engineer I",
+      "software engineer II",
+      "software development engineer",
+      "backend software engineer",
+      "systems software engineer",
+      "platform software engineer",
+      "AI engineer",
+      "machine learning engineer",
+      "applied AI engineer",
+      "AI/ML engineer",
+      "agentic AI engineer",
+      "intelligent automation engineer",
+      "LLM engineer",
+      "data engineer",
+      "python software engineer",
+      "graduate software engineer"
     ],
     "indeed": [
-      "marketing",
-      "SEO",
-      "paid media",
-      "paid search",
-      "social media",
-      "demand generation",
-      "brand manager",
-      "CRM marketing"
+      "software engineer",
+      "software development engineer",
+      "backend software engineer",
+      "systems software engineer",
+      "AI engineer",
+      "machine learning engineer",
+      "data engineer",
+      "intelligent automation engineer"
     ],
-    "glassdoor": [],
-    "ziprecruiter": [],
-    "google_jobs": [],
-    "hiring_cafe": [],
-    "calcareers": [],
-    "usajobs": [],
-    "governmentjobs": [],
-    "workday": []
+    "glassdoor": [
+      "software engineer",
+      "software development engineer",
+      "backend software engineer",
+      "systems software engineer",
+      "AI engineer",
+      "machine learning engineer",
+      "data engineer",
+      "intelligent automation engineer"
+    ],
+    "ziprecruiter": [
+      "software engineer",
+      "software development engineer",
+      "backend software engineer",
+      "systems software engineer",
+      "AI engineer",
+      "machine learning engineer",
+      "data engineer",
+      "intelligent automation engineer"
+    ],
+    "google_jobs": [
+      "software engineer",
+      "software development engineer",
+      "backend software engineer",
+      "systems software engineer",
+      "AI engineer",
+      "machine learning engineer",
+      "data engineer",
+      "intelligent automation engineer"
+    ],
+    "hiring_cafe": [
+      "software engineer",
+      "software development engineer",
+      "backend software engineer",
+      "systems software engineer",
+      "AI engineer",
+      "machine learning engineer",
+      "data engineer",
+      "intelligent automation engineer"
+    ],
+    "calcareers": [
+      "software engineer",
+      "information technology",
+      "computer scientist",
+      "data engineer",
+      "machine learning"
+    ],
+    "usajobs": [
+      "software engineer",
+      "computer scientist",
+      "software developer",
+      "data engineer",
+      "artificial intelligence"
+    ],
+    "governmentjobs": [
+      "software engineer",
+      "software developer",
+      "data engineer",
+      "machine learning"
+    ],
+    "workday": [
+      "software engineer",
+      "backend software engineer",
+      "machine learning engineer",
+      "AI engineer",
+      "data engineer"
+    ]
   },
   "locations": {
     "linkedin": [
       {
-        "name": "USA",
+        "name": "United States",
         "location": "United States",
         "geoId": "103644278"
       },
       {
-        "name": "Remote discovery (no country geoId)",
-        "location": "Worldwide",
-        "geoId": "",
-        "remote": true
+        "name": "Remote US",
+        "location": "Remote, United States",
+        "geoId": ""
       }
     ],
     "indeed": [
@@ -75,22 +200,77 @@
         "country": "USA"
       },
       {
-        "location": "Remote",
+        "location": "Dallas, TX",
         "country": "USA"
       },
       {
-        "location": "Remote",
-        "country": "UK"
+        "location": "Austin, TX",
+        "country": "USA"
       },
       {
-        "location": "Remote",
-        "country": "India"
+        "location": "Boston, MA",
+        "country": "USA"
       }
     ],
-    "glassdoor": [],
-    "ziprecruiter": [],
-    "google_jobs": [],
-    "hiring_cafe": [],
+    "glassdoor": [
+      {
+        "location": "United States",
+        "country": "USA"
+      },
+      {
+        "location": "Dallas, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Austin, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Boston, MA",
+        "country": "USA"
+      }
+    ],
+    "ziprecruiter": [
+      {
+        "location": "United States",
+        "country": "USA"
+      },
+      {
+        "location": "Dallas, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Austin, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Boston, MA",
+        "country": "USA"
+      }
+    ],
+    "google_jobs": [
+      {
+        "location": "United States",
+        "country": "USA"
+      },
+      {
+        "location": "Dallas, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Austin, TX",
+        "country": "USA"
+      },
+      {
+        "location": "Boston, MA",
+        "country": "USA"
+      }
+    ],
+    "hiring_cafe": [
+      {
+        "location": "United States"
+      }
+    ],
     "linkedin_partitions": {
       "states": [],
       "high_volume": {
@@ -102,8 +282,42 @@
   "location_filter": {
     "terms": [
       "united states",
-      "usa",
-      "remote"
+      "remote",
+      "hybrid",
+      "texas",
+      ", tx",
+      "dallas",
+      "plano",
+      "frisco",
+      "richardson",
+      "irving",
+      "austin",
+      "round rock",
+      "massachusetts",
+      ", ma",
+      "boston",
+      "cambridge",
+      "california",
+      ", ca",
+      "bay area",
+      "san francisco",
+      "san jose",
+      "san diego",
+      "los angeles",
+      "washington",
+      "seattle",
+      "north carolina",
+      "raleigh",
+      "durham",
+      "new york",
+      "chicago",
+      "colorado",
+      "denver",
+      "arizona",
+      "phoenix",
+      "virginia",
+      "atlanta",
+      "georgia"
     ]
   },
   "google_jobs": {
@@ -120,29 +334,88 @@
     "max_pages": 3
   },
   "employers": {
-    "priority": [],
+    "priority": [
+      "Dell Technologies",
+      "Micron Technology",
+      "Intuit",
+      "Hewlett Packard Enterprise",
+      "MathWorks",
+      "Rivian",
+      "ASML",
+      "AbbVie",
+      "Axcelis",
+      "Planview",
+      "SHI International",
+      "IBM",
+      "Cisco",
+      "Capital One",
+      "ServiceNow",
+      "NVIDIA",
+      "Microsoft",
+      "Amazon",
+      "Intel",
+      "Oracle",
+      "Boston Dynamics"
+    ],
     "exclude": []
   },
   "priority_topics": {
-    "terms": []
+    "terms": [
+      [
+        "Agentic AI & LLMs",
+        "agentic[\\s-]?ai|multi[\\s-]?agent|large language model|\\bllm\\b|generative[\\s-]?ai"
+      ],
+      [
+        "Backend & APIs",
+        "backend|back[\\s-]?end|microservice|fastapi|rest[\\s-]?api"
+      ],
+      [
+        "Machine Learning",
+        "machine learning|deep learning|pytorch|tensorflow|\\bml\\b"
+      ],
+      [
+        "Distributed Systems",
+        "distributed systems|cloud native|kubernetes|infrastructure automation"
+      ],
+      [
+        "Intelligent Automation",
+        "intelligent automation|orchestration|autonomous agents"
+      ]
+    ]
   },
   "role_categories": {
     "terms": [
       [
-        "Marketing",
-        "marketing"
+        "Agentic AI / LLM",
+        "agentic|generative[\\s-]?ai|\\bllm\\b|autonomous agents"
       ],
       [
-        "SEO / Paid media",
-        "seo|paid media|paid search"
+        "Machine Learning / AI",
+        "machine learning|deep learning|artificial intelligence|\\bai\\b|\\bml\\b|computer vision|\\bnlp\\b"
       ],
       [
-        "Social / Demand generation",
-        "social media|demand generation"
+        "Backend / Platform",
+        "backend|back[\\s-]?end|platform|distributed|cloud software"
       ],
       [
-        "Brand / CRM",
-        "brand|crm"
+        "Systems / Infrastructure",
+        "systems|infrastructure|cloud engineer|site reliability"
+      ],
+      [
+        "Data Engineering / Science",
+        "data engineer|data scientist|data platform"
+      ],
+      [
+        "Full Stack / Applications",
+        "full[\\s-]?stack|applications|application engineer|developer"
+      ],
+      [
+        "Software Engineering",
+        "software engineer|software development|engineer software"
+      ],
+      [
+        "Automation",
+        "automat|orchestration"
       ]
     ]
   },
@@ -152,34 +425,6 @@
       "enabled": false,
       "days": 7
     }
-  },
-  "_README": "Marketing digest configuration. All seniorities; no employer preferences. See docs/MARKETING_DIGEST_SETUP.md. Digest reads this file directly (no environmental-template fallback).",
-  "marketing_digest": {
-    "sources": [
-      "linkedin",
-      "indeed"
-    ],
-    "lookback_hours": 24,
-    "max_results_per_query": 20,
-    "source_timeout_seconds": 420,
-    "date_only_policy": "conservative_utc",
-    "query_family_reference": [
-      "marketing",
-      "growth marketing",
-      "product marketing",
-      "brand marketing",
-      "content marketing",
-      "performance marketing",
-      "digital marketing",
-      "email marketing",
-      "lifecycle marketing",
-      "CRM marketing",
-      "SEO",
-      "paid media",
-      "paid search",
-      "social media",
-      "demand generation",
-      "marketing operations"
-    ]
   }
 }
+
