@@ -1,5 +1,5 @@
-# 🟧 ZipRecruiter — Marketing Roles
-*Last updated: 2026-10-22 23:29 UTC*
+# 🟧 ZipRecruiter — Environmental / Toxicology Roles
+*Last updated: 2026-10-23 05:08 UTC*
 
 **0 new role(s)** since last run · 0 total in last 24h
 
