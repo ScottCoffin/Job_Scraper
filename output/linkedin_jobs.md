@@ -1,761 +1,450 @@
 # 🔥 LinkedIn — Marketing Roles
-*Last updated: 2026-10-22 19:37 UTC*
+*Last updated: 2026-10-22 22:39 UTC*
 
-**168 new role(s)** since last run · 168 total in last 1h
+**100 new role(s)** since last run · 101 total in last 1h
 
-### [Director of Brand Marketing](https://www.linkedin.com/jobs/view/4481383662/) — Bask and Lather Co
-- 📍 **Location:** Yonkers, NY
-- 💰 **Salary:** $160,000–$180,000,
+### [Senior Marketing Manager - Cell Discovery](https://www.linkedin.com/jobs/view/4481600774/) — Lonza
+- 📍 **Location:** Durham, NC
+- 💰 **Salary:** $132,100 to $148,650
 - 🕒 **Posted:** 2026-10-22
 
-### [Brand Marketing Manager, Outbound Marketing, Amazon Devices](https://www.linkedin.com/jobs/view/4473982708/) — Amazon
-- 📍 **Location:** Seattle, WA
+### [Social Media & Digital Marketing Manager](https://www.linkedin.com/jobs/view/4481608513/) — Brassica
+- 📍 **Location:** Columbus, Ohio Metropolitan Area
+- 💰 **Salary:** $80,000.00/yr - $100,000.00/yr
 - 🕒 **Posted:** 2026-10-22
 
-### [Director of Marketing](https://www.linkedin.com/jobs/view/4473977571/) — Entelligence
-- 📍 **Location:** Houston, TX
+### [Manager, Federal Marketing](https://www.linkedin.com/jobs/view/4481399903/) — KPMG US
+- 📍 **Location:** McLean, VA
 - 🕒 **Posted:** 2026-10-22
 
-### [Marketing Specialist](https://www.linkedin.com/jobs/view/4481387406/) — Roylo Partners
-- 📍 **Location:** Dallas, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Brand Marketing Manager - VIDEO GAMES](https://www.linkedin.com/jobs/view/4480073004/) — CyberCoders
-- 📍 **Location:** Austin, TX
-- 💰 **Salary:** $100,000.00/yr - $115,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Manager](https://www.linkedin.com/jobs/view/4480077015/) — Wahlburgers
+### [Senior Manager, Marketing - Hakkasan Nightclub Las Vegas](https://www.linkedin.com/jobs/view/4472808661/) — Tao Group Hospitality
 - 📍 **Location:** Las Vegas, NV
 - 🕒 **Posted:** 2026-10-22
 
-### [Junior Marketing Associate](https://www.linkedin.com/jobs/view/4479429964/) — Crown Legacy
-- 📍 **Location:** Milwaukee, WI
+### [Associate Director, Marketing Performance & Audience Strategy](https://www.linkedin.com/jobs/view/4481601820/) — KPMG US
+- 📍 **Location:** Knoxville, TN
+- 💰 **Salary:** $136000 - $259000 K
 - 🕒 **Posted:** 2026-10-22
 
-### [Marketing Specialist](https://www.linkedin.com/jobs/view/4481393176/) — Roylo Partners
-- 📍 **Location:** Birmingham, AL
+### [Growth Marketing Associate](https://www.linkedin.com/jobs/view/4480452434/) — ThredUp
+- 📍 **Location:** Oakland, CA
 - 🕒 **Posted:** 2026-10-22
 
-### [Senior Product Marketing Manager, Signals and Identity, Amazon Ads](https://www.linkedin.com/jobs/view/4473974925/) — Amazon
-- 📍 **Location:** Seattle, WA
+### [Digital Marketing Lead](https://www.linkedin.com/jobs/view/4475129847/) — Monterra Credit Union
+- 📍 **Location:** Redwood City, CA
+- 💰 **Salary:** $50.48/hr - $57.69/hr
 - 🕒 **Posted:** 2026-10-22
 
-### [Marketing Manager, News](https://www.linkedin.com/jobs/view/4392469592/) — The Daily Wire
-- 📍 **Location:** Nashville, TN
+### [Digital Marketing Specialist](https://www.linkedin.com/jobs/view/4480089068/) — TriStarr
+- 📍 **Location:** Lancaster, PA
+- 💰 **Salary:** $70,000.00/yr - $80,000.00/yr
 - 🕒 **Posted:** 2026-10-22
 
-### [Marketing Associate](https://www.linkedin.com/jobs/view/4459366148/) — CAZ Investments
-- 📍 **Location:** Houston, TX
+### [Product Marketing Manager](https://www.linkedin.com/jobs/view/4480517756/) — Base44
+- 📍 **Location:** New York, United States
+- 💰 **Salary:** $175,000.00/yr - $200,000.00/yr
 - 🕒 **Posted:** 2026-10-22
 
-### [Region Marketing Director - Florida and North Carolina Region](https://www.linkedin.com/jobs/view/4472927556/) — M/I Homes, Inc.
-- 📍 **Location:** Tampa, FL
+### [Director, Marketing & Advertising](https://www.linkedin.com/jobs/view/4479159801/) — Endicott College
+- 📍 **Location:** Beverly, MA
+- 💰 **Salary:** $90,000–$100,000
 - 🕒 **Posted:** 2026-10-22
 
-### [Marketing Manager](https://www.linkedin.com/jobs/view/4481380752/) — Virbac
-- 📍 **Location:** Westlake, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Specialist](https://www.linkedin.com/jobs/view/4477409501/) — AGIA Affinity
-- 📍 **Location:** Phoenix, AZ
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr. Partner Marketing Manager, AI , NAMER Partner Marketing](https://www.linkedin.com/jobs/view/4473993046/) — Amazon Web Services (AWS)
-- 📍 **Location:** Seattle, WA
-- 🕒 **Posted:** 2026-10-22
-
-### [Director, Strategic Marketing & Client Pursuits](https://www.linkedin.com/jobs/view/4465344259/) — SSOE Group
-- 📍 **Location:** Nashville, TN
-- 🕒 **Posted:** 2026-10-22
-
-### [Region Marketing Director - Florida and North Carolina Region](https://www.linkedin.com/jobs/view/4472937094/) — M/I Homes, Inc.
-- 📍 **Location:** Sarasota, FL
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Content & SEO Marketing Manager](https://www.linkedin.com/jobs/view/4456745038/) — Focus Partners
-- 📍 **Location:** St Louis, MO
-- 💰 **Salary:** $85,000–$107,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Brand Manager](https://www.linkedin.com/jobs/view/4481385616/) — Raven Creative
-- 📍 **Location:** Houston, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr. Marketing Consultant](https://www.linkedin.com/jobs/view/4473997187/) — LPL Financial
-- 📍 **Location:** Fort Mill, SC
-- 💰 **Salary:** $76,838.00 - $128,132.00
-- 🕒 **Posted:** 2026-10-22
-
-### [Director of Marketing](https://www.linkedin.com/jobs/view/4464690548/) — Unity Environmental University
-- 📍 **Location:** New Gloucester, ME
-- 🕒 **Posted:** 2026-10-22
-
-### [Field Marketing Manager, Surgical - East](https://www.linkedin.com/jobs/view/4465619094/) — KARL STORZ North America
-- 📍 **Location:** Boston, MA
-- 💰 **Salary:** $92,300.00/yr - $120,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Paid Search Strategist](https://www.linkedin.com/jobs/view/4454911857/) — Razorfish
-- 📍 **Location:** Miami, FL
-- 💰 **Salary:** USD $60,800.00 - USD $80,000.00/Annually
-- 🕒 **Posted:** 2026-10-22
-
-### [Principal Partner Marketing Manager - Compute, AI & SUP Partner Marketing](https://www.linkedin.com/jobs/view/4473990086/) — Amazon Web Services (AWS)
-- 📍 **Location:** Seattle, WA
-- 🕒 **Posted:** 2026-10-22
-
-### [Director of Digital Marketing](https://www.linkedin.com/jobs/view/4469753568/) — Find Great People | FGP
-- 📍 **Location:** Greenville, SC
-- 💰 **Salary:** $110,000.00/yr - $115,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr. Marketing Consultant](https://www.linkedin.com/jobs/view/4474100111/) — LPL Financial
-- 📍 **Location:** Tempe, AZ
-- 💰 **Salary:** $76,838.00 - $128,132.00
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing & Promotions Representative](https://www.linkedin.com/jobs/view/4478688939/) — NorthCrest Capital Inc.
-- 📍 **Location:** Baltimore, MD
-- 🕒 **Posted:** 2026-10-22
-
-### [Entry Level Marketing](https://www.linkedin.com/jobs/view/4478901250/) — NorthCrest Capital Inc.
-- 📍 **Location:** Towson, MD
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Manager](https://www.linkedin.com/jobs/view/4480060957/) — Mortenson
-- 📍 **Location:** Charlotte, NC
-- 💰 **Salary:** $92,300 - $138,500
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr. Partner Marketing Manager](https://www.linkedin.com/jobs/view/4465390477/) — Dialpad
-- 📍 **Location:** Denver, CO
-- 💰 **Salary:** $124,500—$157,500 USD
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing and Outreach Specialist](https://www.linkedin.com/jobs/view/4473945523/) — San José State University
-- 📍 **Location:** San Jose, CA
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Coordinator](https://www.linkedin.com/jobs/view/4481398013/) — Galaxy Desserts
-- 📍 **Location:** Richmond, CA
-- 💰 **Salary:** $28.00–$32.00 per hour
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Product Marketing Manager, AI Security](https://www.linkedin.com/jobs/view/4462534972/) — Palo Alto Networks
+### [Senior Product Marketing Manager, Cloud Security](https://www.linkedin.com/jobs/view/4480071948/) — Palo Alto Networks
 - 📍 **Location:** Santa Clara, CA
-- 💰 **Salary:** $155,000.00 - $252,000.00/yr
+- 💰 **Salary:** $167,300.00 - $270,600.00/yr
 - 🕒 **Posted:** 2026-10-22
 
-### [Product Marketing Manager](https://www.linkedin.com/jobs/view/4474153711/) — Eon.io
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $155,000 - $190,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Manager, Product Marketing - Video Reach Solutions](https://www.linkedin.com/jobs/view/4465348777/) — Samsung Electronics America
-- 📍 **Location:** New York City Metropolitan Area
-- 🕒 **Posted:** 2026-10-22
-
-### [Multifamily Marketing & Digital Coordinator](https://www.linkedin.com/jobs/view/4480073088/) — MountainCreek Properties Management
-- 📍 **Location:** Pittsburgh, PA
-- 💰 **Salary:** $55,000.00/yr - $65,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Social Media and Marketing Manager](https://www.linkedin.com/jobs/view/4473974803/) — Northstar Travel Group
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $80,000.00/yr - $85,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Product Marketing Manager](https://www.linkedin.com/jobs/view/4459629920/) — CloudZero
-- 📍 **Location:** Boston, MA
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr. Director, Product & Technology Marketing— Custom Cloud & XPU Solutions](https://www.linkedin.com/jobs/view/4434812457/) — Marvell Technology
-- 📍 **Location:** San Diego, CA
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr Associate, Marketing Tech & Automation](https://www.linkedin.com/jobs/view/4465121111/) — Home Chef
-- 📍 **Location:** Chicago, IL
-- 💰 **Salary:** $75,000 USD - $80,000 USD
-- 🕒 **Posted:** 2026-10-22
-
-### [AI Marketing Automation Specialist](https://www.linkedin.com/jobs/view/4480055789/) — WellnessLiving
-- 📍 **Location:** Boca Raton, FL
-- 💰 **Salary:** $65,000 to $80,000 per year
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Manager - Retirement Plan Services](https://www.linkedin.com/jobs/view/4472383648/) — SWBC
-- 📍 **Location:** Austin, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Communications Manager](https://www.linkedin.com/jobs/view/4438231932/) — InflexionPoint
-- 📍 **Location:** New Jersey, United States
-- 💰 **Salary:** $80,000 - $95,000 per year
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Product Marketing Manager](https://www.linkedin.com/jobs/view/4474199209/) — Microsoft
-- 📍 **Location:** Redmond, WA
-- 💰 **Salary:** USD $106,400 - $203,600 per year
-- 🕒 **Posted:** 2026-10-22
-
-### [Multifamily Marketing & Digital Coordinator](https://www.linkedin.com/jobs/view/4480058836/) — MountainCreek Properties Management
-- 📍 **Location:** Morgantown, WV
-- 💰 **Salary:** $55,000.00/yr - $65,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Field Marketing Manager, Head & Neck](https://www.linkedin.com/jobs/view/4463070507/) — KARL STORZ North America
-- 📍 **Location:** El Segundo, CA
-- 💰 **Salary:** $92,300.00/yr - $120,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [SVP, Global Marketing](https://www.linkedin.com/jobs/view/4461331642/) — TUMI
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $325,000.00/yr - $350,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Assistant Brand Manager](https://www.linkedin.com/jobs/view/4477887663/) — Golden Pet Brands
-- 📍 **Location:** El Segundo, CA
-- 💰 **Salary:** $88,000-$110,000,
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing and Promotions Associate](https://www.linkedin.com/jobs/view/4479443302/) — Crown Legacy
-- 📍 **Location:** Milwaukee, WI
-- 🕒 **Posted:** 2026-10-22
-
-### [Brand Manager, White Claw](https://www.linkedin.com/jobs/view/4465382453/) — Mark Anthony Group
-- 📍 **Location:** Chicago, IL
-- 💰 **Salary:** $100,000 to $135,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Manager, Channel Marketing - Annuities (Product Marketing)](https://www.linkedin.com/jobs/view/4472620952/) — Aegon
-- 📍 **Location:** United States
-- 💰 **Salary:** $110,000 - $125,000 annually
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Director, AMER Field Marketing](https://www.linkedin.com/jobs/view/4472629430/) — Chainguard
-- 📍 **Location:** United States
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Brand Manager](https://www.linkedin.com/jobs/view/4462700609/) — Golden Pet Brands
-- 📍 **Location:** Los Angeles, CA
-- 💰 **Salary:** $128,000-$180,000,
-- 🕒 **Posted:** 2026-10-22
-
-### [Brand Manager, White Claw](https://www.linkedin.com/jobs/view/4465356302/) — Mark Anthony Brands Inc.
-- 📍 **Location:** Chicago, IL
-- 💰 **Salary:** $100,000 to $135,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Global Brand Manager, Craft Whiskies](https://www.linkedin.com/jobs/view/4465819759/) — Campari Group
-- 📍 **Location:** New York, United States
-- 💰 **Salary:** $101,175-134,900
-- 🕒 **Posted:** 2026-10-22
-
-### [Retail Marketing Associate-Entry Level](https://www.linkedin.com/jobs/view/4479428804/) — Ace Development Group
-- 📍 **Location:** Greenville-Spartanburg-Anderson, South Carolina Area
-- 🕒 **Posted:** 2026-10-22
-
-### [Associate Brand Manager, US Retail](https://www.linkedin.com/jobs/view/4464663949/) — McCain Foods
-- 📍 **Location:** Oakbrook Terrace, IL
-- 💰 **Salary:** $81,600.00 - $108,900.00
-- 🕒 **Posted:** 2026-10-22
-
-### [Entry Level Marketing](https://www.linkedin.com/jobs/view/4478691819/) — Vanguard Dynamics
-- 📍 **Location:** Columbia, MD
-- 🕒 **Posted:** 2026-10-22
-
-### [Director of Paid Search, EDU](https://www.linkedin.com/jobs/view/4472572525/) — Zeta Global
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $120,000-$140,000,
-- 🕒 **Posted:** 2026-10-22
-
-### [Social Media Specialist](https://www.linkedin.com/jobs/view/4481388355/) — Dutch Bros Coffee
-- 📍 **Location:** Tempe, AZ
-- 🕒 **Posted:** 2026-10-22
-
-### [Digital Marketing Specialist](https://www.linkedin.com/jobs/view/4481386723/) — TELEX Business Support Services Inc.
-- 📍 **Location:** Home, KS
-- 🕒 **Posted:** 2026-10-22
-
-### [Search Engine Marketing Manager](https://www.linkedin.com/jobs/view/4480074123/) — WinIt
-- 📍 **Location:** New York City Metropolitan Area
-- 🕒 **Posted:** 2026-10-22
-
-### [Customer Marketing Specialist](https://www.linkedin.com/jobs/view/4481390507/) — Soni
-- 📍 **Location:** Boca Raton, FL
-- 💰 **Salary:** $40.00/hr - $50.00/hr
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Digital Marketing Manager, Associations](https://www.linkedin.com/jobs/view/4481397031/) — RemoteHunter
-- 📍 **Location:** United States
-- 🕒 **Posted:** 2026-10-22
-
-### [Associate Director, Marketing & Account Strategy](https://www.linkedin.com/jobs/view/4472645388/) — Hearst Magazines
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $101,000–$103,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Paid Media Strategist](https://www.linkedin.com/jobs/view/4481384573/) — RemoteHunter
-- 📍 **Location:** United States
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Wellness Brand Ambassador - Full Time](https://www.linkedin.com/jobs/view/4480075057/) — Sun Tan City
-- 📍 **Location:** Durham, NC
-- 💰 **Salary:** $12.00/hr - $16.00/hr
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Wellness Brand Ambassador - Full Time](https://www.linkedin.com/jobs/view/4480070325/) — Sun Tan City
-- 📍 **Location:** Raleigh, NC
-- 💰 **Salary:** $12.00/hr - $16.00/hr
-- 🕒 **Posted:** 2026-10-22
-
-### [AI Search & SEO Specialist](https://www.linkedin.com/jobs/view/4473930246/) — Renesas Electronics
-- 📍 **Location:** Austin, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Associate Director, Search Engine Optimization](https://www.linkedin.com/jobs/view/4464977230/) — Digitas North America
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** USD $97,375.00 - USD $155,961.00/Annually
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior SEO Manager](https://www.linkedin.com/jobs/view/4469075455/) — Coursera
-- 📍 **Location:** United States
-- 💰 **Salary:** $149,600 to $187,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Digital Marketing Manager & Content Production Lead](https://www.linkedin.com/jobs/view/4437733660/) — Related Ross
-- 📍 **Location:** West Palm Beach, FL
-- 🕒 **Posted:** 2026-10-22
-
-### [2027 Summer Intern - Marketing Communications](https://www.linkedin.com/jobs/view/4479423752/) — The Hartford
-- 📍 **Location:** Wayne, PA
-- 💰 **Salary:** $20.00 - $25.00
-- 🕒 **Posted:** 2026-10-22
-
-### [Part-Time Marketing Strategist & Growth Partner](https://www.linkedin.com/jobs/view/4481384662/) — The Blue Sock
-- 📍 **Location:** Irvine, CA
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Director](https://www.linkedin.com/jobs/view/4475489957/) — DB Roberts
-- 📍 **Location:** Wilmington, MA
-- 🕒 **Posted:** 2026-10-22
-
-### [Digital Marketing Intern- Spring 2027](https://www.linkedin.com/jobs/view/4472633618/) — AtriCure, Inc.
-- 📍 **Location:** Minnetonka, MN
-- 🕒 **Posted:** 2026-10-22
-
-### [Social Media Manager](https://www.linkedin.com/jobs/view/4480068647/) — Central Point Partners
-- 📍 **Location:** San Diego, CA
-- 🕒 **Posted:** 2026-10-22
-
-### [Search Engine Optimization (SEO) Specialist](https://www.linkedin.com/jobs/view/4480078147/) — Air Apps
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-22
-
-### [Search Engine Optimization (SEO) Specialist](https://www.linkedin.com/jobs/view/4480072432/) — Air Apps
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-22
-
-### [Search Engine Optimization (SEO) Specialist](https://www.linkedin.com/jobs/view/4480064752/) — Air Apps
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-22
-
-### [Search Engine Optimization (SEO) Specialist](https://www.linkedin.com/jobs/view/4480066713/) — Air Apps
-- 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $60K - $100K
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Data & AI Assistant](https://www.linkedin.com/jobs/view/4480073093/) — Mister Sparky Electric
-- 📍 **Location:** Lowell, AR
-- 🕒 **Posted:** 2026-10-22
-
-### [Director, Performance Marketing](https://www.linkedin.com/jobs/view/4455361744/) — Cboe Global Markets
-- 📍 **Location:** Chicago, IL
-- 💰 **Salary:** $187,000-$242,000,
-- 🕒 **Posted:** 2026-10-22
-
-### [Director, Paid Media](https://www.linkedin.com/jobs/view/4470628908/) — Samsung Electronics America
-- 📍 **Location:** Plano, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Analyst, Paid Media](https://www.linkedin.com/jobs/view/4464107841/) — EverQuote
-- 📍 **Location:** Cambridge, MA
-- 💰 **Salary:** $90,000 - $115,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Growth Marketing Manager](https://www.linkedin.com/jobs/view/4480076306/) — TalentHop
-- 📍 **Location:** United States
-- 💰 **Salary:** $110,000 to $170,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Lead Paid Search Strategist](https://www.linkedin.com/jobs/view/4482093983/) — 829 Studios
-- 📍 **Location:** United States
-- 💰 **Salary:** $90,000-$110,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Manager – Integrated Marketing, B2B & B2C](https://www.linkedin.com/jobs/view/4441553242/) — Analog Devices
-- 📍 **Location:** Wilmington, MA
-- 💰 **Salary:** $157,080 to $227,460
-- 🕒 **Posted:** 2026-10-22
-
-### [Demand Generation Marketer](https://www.linkedin.com/jobs/view/4471629116/) — Fourth
-- 📍 **Location:** Austin, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Associate](https://www.linkedin.com/jobs/view/4481398382/) — Finch Brands
-- 📍 **Location:** Philadelphia, PA
-- 🕒 **Posted:** 2026-10-22
-
-### [Social Media Coordinator](https://www.linkedin.com/jobs/view/4481398248/) — Wharton-Smith, Inc.
-- 📍 **Location:** Sanford, FL
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Manager](https://www.linkedin.com/jobs/view/4481393479/) — Core America
-- 📍 **Location:** Endicott, NY
-- 🕒 **Posted:** 2026-10-22
-
-### [Public Relations & Social Media Specialist](https://www.linkedin.com/jobs/view/4481602217/) — Liberty Dogs™
-- 📍 **Location:** Reno, NV
-- 💰 **Salary:** $70,000 - $85,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr. Brand Manager (Summer's Eve)](https://www.linkedin.com/jobs/view/4463890412/) — Prestige Consumer Healthcare
-- 📍 **Location:** Tarrytown, NY
-- 💰 **Salary:** $160,000 - $185,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Marketing Specialist (Hybrid in CA)](https://www.linkedin.com/jobs/view/4473916458/) — First American
-- 📍 **Location:** Santa Ana, CA
-- 💰 **Salary:** $85,000.00 - $113,300.00 Annually
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Specialist](https://www.linkedin.com/jobs/view/4481395477/) — TekWissen ®
-- 📍 **Location:** St Louis, MO
-- 💰 **Salary:** $30.00/hr - $34.00/hr
-- 🕒 **Posted:** 2026-10-22
-
-### [Digital Marketing Specialist](https://www.linkedin.com/jobs/view/4480062858/) — Philips
-- 📍 **Location:** Cambridge, MA
-- 💰 **Salary:** $70.00/hr - $85.00/hr
-- 🕒 **Posted:** 2026-10-22
-
-### [Manager, Financial Advisor Client Marketing](https://www.linkedin.com/jobs/view/4398637104/) — Northern Trust
-- 📍 **Location:** Chicago, IL
-- 💰 **Salary:** $137,400 - 240,400
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Manager, Integrated Marketing](https://www.linkedin.com/jobs/view/4481388684/) — NielsenIQ
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $114,800 -$129,146
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Specialist](https://www.linkedin.com/jobs/view/4459548872/) — Taylor Corporation
-- 📍 **Location:** White Bear Lake, MN
-- 💰 **Salary:** $60,000 - $65,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Manager, Integrated Marketing](https://www.linkedin.com/jobs/view/4465157808/) — SimpliSafe
-- 📍 **Location:** Boston, MA
-- 💰 **Salary:** $141,000 - $188,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Financial Analysis Manager - Marketing Finance](https://www.linkedin.com/jobs/view/4465360466/) — Sophos
-- 📍 **Location:** United States
-- 💰 **Salary:** $110,000 to $183,000
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing/GTM Intern(Commision basis)](https://www.linkedin.com/jobs/view/4482066092/) — OpenBiz
-- 📍 **Location:** Los Angeles, CA
-- 🕒 **Posted:** 2026-10-22
-
-### [Social Media Intern](https://www.linkedin.com/jobs/view/4478751903/) — LMCU
-- 📍 **Location:** Grand Rapids, MI
-- 🕒 **Posted:** 2026-10-22
-
-### [Social Media and Content Marketing Manager](https://www.linkedin.com/jobs/view/4481397338/) — Crawford Group
-- 📍 **Location:** United States
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Marketing Manager - Specification Brand Engagement & Partnerships](https://www.linkedin.com/jobs/view/4453861220/) — Lutron Electronics
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $165,000.00/yr - $205,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Creative Director | Growth Marketing & Performance Creative](https://www.linkedin.com/jobs/view/4481383957/) — Aquent
-- 📍 **Location:** United States
-- 💰 **Salary:** $120,000.00/yr - $150,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Social Media Videographer / Photographer / Editor](https://www.linkedin.com/jobs/view/4481399357/) — Social Habit Marketing
-- 📍 **Location:** Houston, TX
-- 💰 **Salary:** $45,000–$60,000 per year
-- 🕒 **Posted:** 2026-10-22
-
-### [Freelance Social Media & Content Creator](https://www.linkedin.com/jobs/view/4481395444/) — BEL KAZAN
-- 📍 **Location:** Los Angeles, CA
-- 💰 **Salary:** $35–$50/hour
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Coordinator](https://www.linkedin.com/jobs/view/4481136909/) — RTTX Construction
-- 📍 **Location:** Dallas, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr. Director, Product & Technology Marketing— Optical & Data Center Systems](https://www.linkedin.com/jobs/view/4434819305/) — Marvell Technology
-- 📍 **Location:** San Diego, CA
-- 🕒 **Posted:** 2026-10-22
-
-### [Partner Marketing Specialist - (Contractor)](https://www.linkedin.com/jobs/view/4480079142/) — TalentHop
-- 📍 **Location:** United States
-- 🕒 **Posted:** 2026-10-22
-
-### [Brand Marketing Assistant](https://www.linkedin.com/jobs/view/4481210131/) — Ascend Marketing
-- 📍 **Location:** Riverside, CA
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing, Product Brand Marketing Director](https://www.linkedin.com/jobs/view/4481605157/) — Castle Biosciences, Inc.
-- 📍 **Location:** Friendswood, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Growth Marketing Specialist (213896)](https://www.linkedin.com/jobs/view/4481391716/) — Skill
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $30.00/hr - $35.00/hr
-- 🕒 **Posted:** 2026-10-22
-
-### [Social Media Marketing Specialist](https://www.linkedin.com/jobs/view/4480063830/) — SoTalent
-- 📍 **Location:** United States
-- 💰 **Salary:** $60,000.00/yr - $65,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [B2B Channel Marketing Manager](https://www.linkedin.com/jobs/view/4471142258/) — Samsung Electronics America
-- 📍 **Location:** Plano, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Product Operations & Strategy Manager (Entertainment Marketing) - TikTok](https://www.linkedin.com/jobs/view/4481388748/) — TikTok
-- 📍 **Location:** Los Angeles, CA
-- 💰 **Salary:** $102600 - $198360 annually
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr. Business Development & Marketing Coordinator](https://www.linkedin.com/jobs/view/4437425650/) — DLA Piper
-- 📍 **Location:** Baltimore, MD
-- 💰 **Salary:** $37.49 - $48.74 per hour
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr. Business Development & Marketing Coordinator](https://www.linkedin.com/jobs/view/4437418883/) — DLA Piper
-- 📍 **Location:** Reston, VA
-- 💰 **Salary:** $37.49 - $48.74 per hour
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Marketing Coordinator](https://www.linkedin.com/jobs/view/4481382907/) — HDR
-- 📍 **Location:** Folsom, CA
-- 💰 **Salary:** $70,304.00 - $98,375.00 annually
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Event Assistant](https://www.linkedin.com/jobs/view/4481207141/) — Valora Rise
-- 📍 **Location:** Cincinnati, OH
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Customer Marketing Specialist](https://www.linkedin.com/jobs/view/4481605168/) — RemoteHunter
-- 📍 **Location:** United States
-- 💰 **Salary:** $93,000.00/yr - $128,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Head of Design & Marketing](https://www.linkedin.com/jobs/view/4452850986/) — EMERGING BLUE
-- 📍 **Location:** Brooklyn, NY
-- 💰 **Salary:** $65,000 - $75,000 per year
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Manager, Customer Growth & Field Engagement (Spanish Fluency Required)](https://www.linkedin.com/jobs/view/4475803908/) — QXO
-- 📍 **Location:** Coppell, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Coordinator](https://www.linkedin.com/jobs/view/4481392556/) — Calculated Hire
-- 📍 **Location:** Columbus, OH
-- 💰 **Salary:** $22.00/hr - $27.00/hr
-- 🕒 **Posted:** 2026-10-22
-
-### [Sr. Corporate BD & Marketing Specialist](https://www.linkedin.com/jobs/view/4437430264/) — DLA Piper
-- 📍 **Location:** Palo Alto, CA
-- 💰 **Salary:** $96,418 - $127,757 per year
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Product Marketing Manager - Enterprise SaaS](https://www.linkedin.com/jobs/view/4480068637/) — Creative Circle
-- 📍 **Location:** Edina, MN
-- 💰 **Salary:** $130,000.00/yr - $140,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Product Marketing Manager - Solutions and Services](https://www.linkedin.com/jobs/view/4480075352/) — Creative Circle
-- 📍 **Location:** Edina, MN
-- 💰 **Salary:** $130,000.00/yr - $140,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Marketing Coordinator](https://www.linkedin.com/jobs/view/4481399181/) — HDR
-- 📍 **Location:** Sacramento, CA
-- 💰 **Salary:** $70,304.00 - $98,375.00 annually
-- 🕒 **Posted:** 2026-10-22
-
-### [Director, Product Marketing & Commercialization](https://www.linkedin.com/jobs/view/4464106545/) — Wolters Kluwer
-- 📍 **Location:** Chicago, IL
-- 💰 **Salary:** $151,700.00 - $270,950.00 USD
-- 🕒 **Posted:** 2026-10-22
-
-### [Product Marketing Manager - Nutraceuticals](https://www.linkedin.com/jobs/view/4470908696/) — Univar Solutions
-- 📍 **Location:** Indianapolis, IN
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Product Marketing Manager, Signals and Identity, Amazon Ads](https://www.linkedin.com/jobs/view/4473984430/) — Amazon
-- 📍 **Location:** New York, United States
-- 🕒 **Posted:** 2026-10-22
-
-### [Operations and Marketing Analyst](https://www.linkedin.com/jobs/view/4482743551/) — Reagan Consulting, Inc.
-- 📍 **Location:** Atlanta, GA
-- 🕒 **Posted:** 2026-10-22
-
-### [Marketing Manager](https://www.linkedin.com/jobs/view/4481388797/) — Metropolitan Air Technology
-- 📍 **Location:** United States
-- 🕒 **Posted:** 2026-10-22
-
-### [Global Marketing Manager](https://www.linkedin.com/jobs/view/4480080056/) — Vestacy
-- 📍 **Location:** Parsippany, NJ
-- 💰 **Salary:** $141,000 - $176,000 annually
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Product Marketing Manager - Specialty surfactants](https://www.linkedin.com/jobs/view/4473537712/) — Univar Solutions
-- 📍 **Location:** Murfreesboro, TN
-- 🕒 **Posted:** 2026-10-22
-
-### [Head of Marketing](https://www.linkedin.com/jobs/view/4481391859/) — NU Advisory Partners
-- 📍 **Location:** United States
-- 🕒 **Posted:** 2026-10-22
-
-### [Field Marketing Specialist](https://www.linkedin.com/jobs/view/4480079111/) — Aston Carter
-- 📍 **Location:** Medford, OR
-- 💰 **Salary:** $26.00 - $27.00/hr
-- 🕒 **Posted:** 2026-10-22
-
-### [Associate Brand Manager, Elmer's + Prismacolor](https://www.linkedin.com/jobs/view/4473989434/) — Newell Brands
-- 📍 **Location:** Atlanta, GA
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Product Marketing Manager (Appliances) - Plano, TX (Onsite)](https://www.linkedin.com/jobs/view/4473962973/) — Samsung Electronics America
-- 📍 **Location:** Plano, TX
-- 🕒 **Posted:** 2026-10-22
-
-### [Brand Manager III](https://www.linkedin.com/jobs/view/4481392625/) — Akkodis
-- 📍 **Location:** United States
-- 💰 **Salary:** $80- $85 per hour
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Product Marketing Manager - Solutions and Services](https://www.linkedin.com/jobs/view/4480080142/) — Creative Circle
-- 📍 **Location:** Chicago, IL
-- 💰 **Salary:** $130,000.00/yr - $140,000.00/yr
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior Product Marketing Manager - Specialty surfactants](https://www.linkedin.com/jobs/view/4473538791/) — Univar Solutions
-- 📍 **Location:** Greensburg, IN
-- 🕒 **Posted:** 2026-10-22
-
-### [Product Marketing Manager](https://www.linkedin.com/jobs/view/4481607122/) — Tech Spectrum AI Solutions
-- 📍 **Location:** United States
-- 🕒 **Posted:** 2026-10-22
-
-### [Digital Marketing Senior Consultant](https://www.linkedin.com/jobs/view/4482159225/) — Truist
+### [Marketing Lead - East](https://www.linkedin.com/jobs/view/4481604571/) — TEGNA
 - 📍 **Location:** Charlotte, NC
 - 🕒 **Posted:** 2026-10-22
 
-### [Manager, Global Marketing (IT Channel Enablement)](https://www.linkedin.com/jobs/view/4472584273/) — Shure
-- 📍 **Location:** Niles, IL
-- 💰 **Salary:** $103,900 to $176,700
+### [Head of Growth Marketing](https://www.linkedin.com/jobs/view/4480085401/) — Rho
+- 📍 **Location:** New York, NY
 - 🕒 **Posted:** 2026-10-22
 
-### [Product Marketing Engineer](https://www.linkedin.com/jobs/view/4368796242/) — OMNIVISION
-- 📍 **Location:** Santa Clara, CA
-- 💰 **Salary:** $139,235 - $145,000
+### [Product Marketing Manager - Medical](https://www.linkedin.com/jobs/view/4469356464/) — IPG Medical
+- 📍 **Location:** Marlborough, MA
 - 🕒 **Posted:** 2026-10-22
 
-### [Marketing Integrations Specialist](https://www.linkedin.com/jobs/view/4463510814/) — Colliers Engineering & Design
-- 📍 **Location:** San Antonio, TX
+### [Specialist, Product Marketing](https://www.linkedin.com/jobs/view/4480084592/) — TalentHop
+- 📍 **Location:** United States
+- 💰 **Salary:** $80,000 to $90,000
 - 🕒 **Posted:** 2026-10-22
 
-### [Manager, CRM/Lifecycle Marketing](https://www.linkedin.com/jobs/view/4473292974/) — Daily Mail US
+### [Marketing Technology Strategist (Remote)](https://www.linkedin.com/jobs/view/4481281158/) — Direct Development
+- 📍 **Location:** Springfield, VA
+- 🕒 **Posted:** 2026-10-22
+
+### [Field Marketing Specialist](https://www.linkedin.com/jobs/view/4481611536/) — Niktor LLC
+- 📍 **Location:** United States
+- 🕒 **Posted:** 2026-10-22
+
+### [Field Marketing Manager](https://www.linkedin.com/jobs/view/4480080602/) — Mitratech
+- 📍 **Location:** Texas City, TX
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Assistant](https://www.linkedin.com/jobs/view/4481609436/) — Hollinden | growth without guesswork
+- 📍 **Location:** Houston, TX
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Automation Specialist](https://www.linkedin.com/jobs/view/4481619144/) — PacBio
+- 📍 **Location:** Menlo Park, CA
+- 💰 **Salary:** $128,800.00/yr - $193,200.00/yr
+- 🕒 **Posted:** 2026-10-22
+
+### [Head of North America Commercial Marketing](https://www.linkedin.com/jobs/view/4481608458/) — S&P Global
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $194,000 to $220,000
+- 🕒 **Posted:** 2026-10-22
+
+### [Campaign Marketing Manager](https://www.linkedin.com/jobs/view/4480078600/) — TalentHop
+- 📍 **Location:** United States
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Coordinator](https://www.linkedin.com/jobs/view/4481622032/) — Gilsanz Murray Steficek
 - 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $110,000.00/yr - $140,000.00/yr
+- 💰 **Salary:** $55,000 - $66,000
 - 🕒 **Posted:** 2026-10-22
 
-### [Digital Marketing Senior Consultant](https://www.linkedin.com/jobs/view/4482138896/) — Truist
-- 📍 **Location:** Atlanta, GA
+### [Social Media Strategy Manager](https://www.linkedin.com/jobs/view/4479537686/) — Baker Hughes
+- 📍 **Location:** Houston, TX
 - 🕒 **Posted:** 2026-10-22
 
-### [Director of Marketing](https://www.linkedin.com/jobs/view/4481387591/) — Commodore Perry Federal Credit Union
-- 📍 **Location:** Oak Harbor, OH
+### [Entry Level Marketing Representative](https://www.linkedin.com/jobs/view/4480072876/) — Smart Edge, Inc.
+- 📍 **Location:** Brookfield, WI
 - 🕒 **Posted:** 2026-10-22
 
-### [Senior Product Marketing Manager - Solutions and Services](https://www.linkedin.com/jobs/view/4480064771/) — Creative Circle
-- 📍 **Location:** Centennial, CO
-- 💰 **Salary:** $130,000.00/yr - $140,000.00/yr
+### [B2B Content Marketing & Sales Coordinator](https://www.linkedin.com/jobs/view/4481601776/) — Beckmann Collaborative LLC
+- 📍 **Location:** Leander, TX
 - 🕒 **Posted:** 2026-10-22
 
-### [Senior Manager, Event Marketing Operations](https://www.linkedin.com/jobs/view/4480577161/) — TheGuarantors
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $125,000 - $140,000 annually
-- 🕒 **Posted:** 2026-10-22
-
-### [Content Marketing Coordinator](https://www.linkedin.com/jobs/view/4481609064/) — Locala
-- 📍 **Location:** New York, NY
+### [Content Marketing Coordinator](https://www.linkedin.com/jobs/view/4481603772/) — Locala
+- 📍 **Location:** New York, United States
 - 💰 **Salary:** $65,000-85,000
 - 🕒 **Posted:** 2026-10-22
 
-### [Marketing Operations Specialist - A&F Co.](https://www.linkedin.com/jobs/view/4452819289/) — Abercrombie & Fitch Co.
-- 📍 **Location:** Columbus, OH
+### [Director of Sales and Marketing](https://www.linkedin.com/jobs/view/4477863940/) — Hilton Scottsdale Resort & Villas
+- 📍 **Location:** Scottsdale, AZ
 - 🕒 **Posted:** 2026-10-22
 
-### [Senior Marketing Coordinator](https://www.linkedin.com/jobs/view/4481604053/) — HDR
-- 📍 **Location:** Walnut Creek, CA
-- 💰 **Salary:** $70,304.00 - $98,375.00 annually
+### [Social Media Strategy Manager](https://www.linkedin.com/jobs/view/4479552186/) — Baker Hughes
+- 📍 **Location:** Austin, TX
 - 🕒 **Posted:** 2026-10-22
 
-### [Product Marketing Senior Specialist](https://www.linkedin.com/jobs/view/4453384683/) — Samsung Electronics America
-- 📍 **Location:** Plano, TX
+### [Senior Director of Sales & Marketing](https://www.linkedin.com/jobs/view/4481608578/) — The Wellness Group
+- 📍 **Location:** Richardson, TX
 - 🕒 **Posted:** 2026-10-22
 
-### [Marketing Representative](https://www.linkedin.com/jobs/view/4479875846/) — Vacatia
-- 📍 **Location:** Las Vegas, NV
-- 🕒 **Posted:** 2026-10-22
-
-### [Senior SEO Content Writer](https://www.linkedin.com/jobs/view/4481384841/) — RemoteHunter
+### [Marketing Operations Specialist](https://www.linkedin.com/jobs/view/4472045481/) — Talkdesk
 - 📍 **Location:** United States
-- 💰 **Salary:** $55,000.00/yr - $60,000.00/yr
+- 💰 **Salary:** $86,000 - $144,000
 - 🕒 **Posted:** 2026-10-22
 
-### [Search Engine Optimization (SEO) Specialist](https://www.linkedin.com/jobs/view/4480070568/) — Air Apps
+### [Sr. Digital Marketing Experience Strategist](https://www.linkedin.com/jobs/view/4448879178/) — Primary Talent Partners
+- 📍 **Location:** United States
+- 💰 **Salary:** $80.00/hr - $95.00/hr
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Technology Specialist](https://www.linkedin.com/jobs/view/4478972366/) — Cencora
+- 📍 **Location:** United, PA
+- 💰 **Salary:** $62,400 - 97,900
+- 🕒 **Posted:** 2026-10-22
+
+### [Email Marketing Manager](https://www.linkedin.com/jobs/view/4481611479/) — 24 Seven Talent
+- 📍 **Location:** United States
+- 💰 **Salary:** $50.00/hr - $65.00/hr
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Campaign Analyst](https://www.linkedin.com/jobs/view/4481396936/) — XChange Software Inc
+- 📍 **Location:** Maryland, United States
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Operations Coordinator](https://www.linkedin.com/jobs/view/4481613376/) — Locala
+- 📍 **Location:** New York, United States
+- 💰 **Salary:** $65,000-85,000
+- 🕒 **Posted:** 2026-10-22
+
+### [Entry-Level Sales and Marketing Associate](https://www.linkedin.com/jobs/view/4481622007/) — Overflow Enterprises Inc
+- 📍 **Location:** Omaha, NE
+- 💰 **Salary:** $52,000.00/yr - $62,000.00/yr
+- 🕒 **Posted:** 2026-10-22
+
+### [VP of Product Marketing](https://www.linkedin.com/jobs/view/4480087478/) — Upwind-shi
+- 📍 **Location:** United States
+- 🕒 **Posted:** 2026-10-22
+
+### [Sales And Marketing Specialist](https://www.linkedin.com/jobs/view/4481398585/) — Ann M Smith Insurance Agency INC
+- 📍 **Location:** Edmond, OK
+- 🕒 **Posted:** 2026-10-22
+
+### [Entry Level Sales and Marketing Associate](https://www.linkedin.com/jobs/view/4480093042/) — Smart Edge, Inc.
+- 📍 **Location:** Milwaukee, WI
+- 🕒 **Posted:** 2026-10-22
+
+### [AWS Partner Marketing Manager-AWS Must](https://www.linkedin.com/jobs/view/4481347607/) — Trilyon, Inc.
+- 📍 **Location:** Seattle, WA
+- 🕒 **Posted:** 2026-10-22
+
+### [Event Sales & Marketing Agent for San Diego County (Full-time) - $18.57/hr + Training Pay* + $2,000 Sign-On* Potential](https://www.linkedin.com/jobs/view/4481158523/) — Hyatt Vacation Ownership
+- 📍 **Location:** San Marcos, CA
+- 🕒 **Posted:** 2026-10-22
+
+### [OAL MARKETING SALES REP](https://www.linkedin.com/jobs/view/4481617117/) — State of Arkansas
+- 📍 **Location:** Lonoke, AR
+- 💰 **Salary:** $47,397 - $70,148
+- 🕒 **Posted:** 2026-10-22
+
+### [OAL MARKETING SALES REP](https://www.linkedin.com/jobs/view/4481395986/) — State of Arkansas
+- 📍 **Location:** Bentonville, AR
+- 💰 **Salary:** $47,397 - $70,148
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Specialist](https://www.linkedin.com/jobs/view/4470033382/) — HydroJug
+- 📍 **Location:** Ogden, UT
+- 🕒 **Posted:** 2026-10-22
+
+### [Digital Marketing & Growth Specialist](https://www.linkedin.com/jobs/view/4481615359/) — Ovation Travel Group
+- 📍 **Location:** New York, NY
+- 🕒 **Posted:** 2026-10-22
+
+### [Digital Marketing Manager](https://www.linkedin.com/jobs/view/4480081795/) — SoTalent
+- 📍 **Location:** United States
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Director of Digital Marketing](https://www.linkedin.com/jobs/view/4480085622/) — SOA Resolve
+- 📍 **Location:** United States
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Manager](https://www.linkedin.com/jobs/view/4481612521/) — Karbone
+- 📍 **Location:** New York, NY
+- 🕒 **Posted:** 2026-10-22
+
+### [Digital Marketing Analyst](https://www.linkedin.com/jobs/view/4481621088/) — Pacer Group
+- 📍 **Location:** Georgia, United States
+- 🕒 **Posted:** 2026-10-22
+
+### [Web Developer (Marketing Sites)](https://www.linkedin.com/jobs/view/4478955029/) — Blue Coding
+- 📍 **Location:** United States
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Strategist](https://www.linkedin.com/jobs/view/4480078815/) — Giving Home Health Care
+- 📍 **Location:** Austin, TX
+- 💰 **Salary:** $100.00/yr - $115.00/yr
+- 🕒 **Posted:** 2026-10-22
+
+### [Platform Marketing Lead](https://www.linkedin.com/jobs/view/4480087538/) — TalentHop
+- 📍 **Location:** United States
+- 💰 **Salary:** $115,000 - $165,000
+- 🕒 **Posted:** 2026-10-22
+
+### [Social Media Coordinator](https://www.linkedin.com/jobs/view/4480076199/) — BaseCamp Franchising
+- 📍 **Location:** Salt Lake City, UT
+- 💰 **Salary:** $60,000.00/yr - $70,000.00/yr
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Campaign Manager, Life Sciences](https://www.linkedin.com/jobs/view/4480093222/) — TalentHop
+- 📍 **Location:** United States
+- 💰 **Salary:** $85,000—$110,000 USD
+- 🕒 **Posted:** 2026-10-22
+
+### [Regional Event Marketing Manager](https://www.linkedin.com/jobs/view/4481613461/) — Englert Inc
+- 📍 **Location:** Boise, ID
+- 🕒 **Posted:** 2026-10-22
+
+### [Regional Event Marketing Manager](https://www.linkedin.com/jobs/view/4481617314/) — Englert Inc
+- 📍 **Location:** Des Moines, IA
+- 🕒 **Posted:** 2026-10-22
+
+### [Social Media Manager](https://www.linkedin.com/jobs/view/4481605910/) — I3 INFOTEK INC
+- 📍 **Location:** Phoenix, AZ
+- 🕒 **Posted:** 2026-10-22
+
+### [Director, Portfolio Strategy & Product Marketing](https://www.linkedin.com/jobs/view/4481614472/) — Tidal Vision
+- 📍 **Location:** Bellingham, WA
+- 🕒 **Posted:** 2026-10-22
+
+### [Manager, NA Social Media – Fenty Beauty](https://www.linkedin.com/jobs/view/4445787852/) — Kendo Brands, Inc.
 - 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $108,300.00/yr - $135,500.00/yr
 - 🕒 **Posted:** 2026-10-22
 
-### [Marketing Specialist II - Jacksonville, FL](https://www.linkedin.com/jobs/view/4481611018/) — VetJobs
-- 📍 **Location:** Jacksonville, FL
+### [NYC — Marketing & Entrepreneurship Intern | FILLED](https://www.linkedin.com/jobs/view/4481621148/) — FILLED
+- 📍 **Location:** New York City Metropolitan Area
 - 🕒 **Posted:** 2026-10-22
 
-### [Marketing Director](https://www.linkedin.com/jobs/view/4481607165/) — Integrity House
-- 📍 **Location:** Newark, NJ
-- 💰 **Salary:** $75,000 – $85,000 annually
+### [Graduate Assistant in Alumni Engagement and Marketing & Communications](https://www.linkedin.com/jobs/view/4481606909/) — Carroll University
+- 📍 **Location:** Waukesha, WI
 - 🕒 **Posted:** 2026-10-22
 
-### [Social Media Coordinator (Bilingual English/Spanish)](https://www.linkedin.com/jobs/view/4480069653/) — Mia Aesthetics
-- 📍 **Location:** Denver, CO
+### [Marketing Trainee](https://www.linkedin.com/jobs/view/4478230438/) — Rad Marketing Agency
+- 📍 **Location:** Scottsdale, AZ
 - 🕒 **Posted:** 2026-10-22
 
-### [Social Media Manager](https://www.linkedin.com/jobs/view/4481602308/) — Haystack
+### [Senior CRM Marketing Manager](https://www.linkedin.com/jobs/view/4481368758/) — Trulieve
+- 📍 **Location:** Tallahassee, FL
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Affiliate Marketing Manager](https://www.linkedin.com/jobs/view/4480089397/) — TalentHop
 - 📍 **Location:** United States
-- 💰 **Salary:** $85,000 – $100,000,
+- 💰 **Salary:** $72,000 to $80,000
 - 🕒 **Posted:** 2026-10-22
 
-### [Director, Marketing](https://www.linkedin.com/jobs/view/4480078233/) — Infor
-- 📍 **Location:** Atlanta, GA
+### [Freelance Marketing Coordinator (ABM) - Content Syndication](https://www.linkedin.com/jobs/view/4480099014/) — Creative Circle
+- 📍 **Location:** United States
+- 💰 **Salary:** $30.00/hr - $40.00/hr
 - 🕒 **Posted:** 2026-10-22
 
-### [Digital Marketing Manager](https://www.linkedin.com/jobs/view/4481399423/) — Tech Spectrum AI Solutions
+### [Regional Event Marketing Manager](https://www.linkedin.com/jobs/view/4481607695/) — Englert Inc
+- 📍 **Location:** Muskego, WI
+- 🕒 **Posted:** 2026-10-22
+
+### [Regional Event Marketing Manager](https://www.linkedin.com/jobs/view/4481607696/) — Englert Inc
+- 📍 **Location:** Lake Oswego, OR
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Influencer Marketing Manager (CPG)](https://www.linkedin.com/jobs/view/4480086559/) — TalentHop
+- 📍 **Location:** United States
+- 💰 **Salary:** $100,000-110,000
+- 🕒 **Posted:** 2026-10-22
+
+### [Social Media Coordinator](https://www.linkedin.com/jobs/view/4481623117/) — Aether Films
+- 📍 **Location:** El Segundo, CA
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Assistant – Immediate Start](https://www.linkedin.com/jobs/view/4480087587/) — Bocatti Experience
+- 📍 **Location:** San Antonio, TX
+- 💰 **Salary:** $18.00/hr - $29.00/hr
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Coordinator](https://www.linkedin.com/jobs/view/4480069611/) — SSi People
+- 📍 **Location:** Beaverton, OR
+- 🕒 **Posted:** 2026-10-22
+
+### [Associate Manager, Influencer Marketing](https://www.linkedin.com/jobs/view/4480087496/) — TalentHop
 - 📍 **Location:** United States
 - 🕒 **Posted:** 2026-10-22
 
-### [Internal Assistant Product Marketing Manager](https://www.linkedin.com/jobs/view/4481605192/) — JJ Food Service Limited
-- 📍 **Location:** Enfield, CT
+### [Director of Cloud Marketing](https://www.linkedin.com/jobs/view/4481604798/) — VAST Data
+- 📍 **Location:** New York, NY
+- 🕒 **Posted:** 2026-10-22
+
+### [Director, Channel & Field Marketing](https://www.linkedin.com/jobs/view/4480099046/) — 8x8
+- 📍 **Location:** California, United States
+- 💰 **Salary:** $173,200.00 - $259,800.00
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Events Manager](https://www.linkedin.com/jobs/view/4481601939/) — Machina Labs
+- 📍 **Location:** Chatsworth, CA
+- 💰 **Salary:** $110,000 - $140,000
+- 🕒 **Posted:** 2026-10-22
+
+### [Global Product Marketing Lead](https://www.linkedin.com/jobs/view/4460061825/) — Waymo
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $249,000—$307,000 USD
+- 🕒 **Posted:** 2026-10-22
+
+### [Global Product Marketing Lead](https://www.linkedin.com/jobs/view/4460067604/) — Waymo
+- 📍 **Location:** Mountain View, CA
+- 💰 **Salary:** $249,000—$307,000 USD
+- 🕒 **Posted:** 2026-10-22
+
+### [Customer Marketing Lead](https://www.linkedin.com/jobs/view/4478172505/) — Airlines Reporting Corporation (ARC)
+- 📍 **Location:** Louisville, KY
+- 🕒 **Posted:** 2026-10-22
+
+### [Customer Marketing Lead](https://www.linkedin.com/jobs/view/4478179048/) — Airlines Reporting Corporation (ARC)
+- 📍 **Location:** Tampa, FL
+- 🕒 **Posted:** 2026-10-22
+
+### [Vice President of Marketing](https://www.linkedin.com/jobs/view/4480086576/) — Novem Invest
+- 📍 **Location:** United States
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Marketing Specialist](https://www.linkedin.com/jobs/view/4480079781/) — DENSO in North America
+- 📍 **Location:** Long Beach, CA
+- 💰 **Salary:** $81,000 - $101,000
+- 🕒 **Posted:** 2026-10-22
+
+### [Lifecycle Marketing Manager](https://www.linkedin.com/jobs/view/4480086566/) — TalentHop
+- 📍 **Location:** United States
+- 💰 **Salary:** $105,000 to $120,000 per year
+- 🕒 **Posted:** 2026-10-22
+
+### [Customer Marketing Lead](https://www.linkedin.com/jobs/view/4478169491/) — Airlines Reporting Corporation (ARC)
+- 📍 **Location:** Arlington, VA
+- 🕒 **Posted:** 2026-10-22
+
+### [(USA) Senior Manager, Product Marketing](https://www.linkedin.com/jobs/view/4480087567/) — Sam’s Club Connect
+- 📍 **Location:** San Bruno, CA
+- 💰 **Salary:** $90,000.00/yr - $234,000.00/yr
+- 🕒 **Posted:** 2026-10-22
+
+### [Product Marketing Lead](https://www.linkedin.com/jobs/view/4481607842/) — dYdX
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $120,000 to $170,000 USD
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Marketing Manager](https://www.linkedin.com/jobs/view/4481607932/) — NYU Langone Health
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $84,577.92 - $124,800.00 Annually
+- 🕒 **Posted:** 2026-10-22
+
+### [Director - Marketing and Communications](https://www.linkedin.com/jobs/view/4481629034/) — NYU Langone Health
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $152,240.27 - $229,320.00 Annually
+- 🕒 **Posted:** 2026-10-22
+
+### [Database Marketing Operations Analyst (SAS Programmer)](https://www.linkedin.com/jobs/view/4480099059/) — Wise Skulls
+- 📍 **Location:** Houston, TX
+- 🕒 **Posted:** 2026-10-22
+
+### [Marketing Support Coordinator](https://www.linkedin.com/jobs/view/4480600013/) — Affinity Development Group
+- 📍 **Location:** Reno, OH
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Marketing Project Manager | $110K-$120K Base + Bonus Total Comp $135K + Remote | Inc. 5000 Award-Winning, High-Growth Coaching Company](https://www.linkedin.com/jobs/view/4480075952/) — TalentHop
+- 📍 **Location:** United States
+- 💰 **Salary:** $110K-$120K
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Marketing Manager](https://www.linkedin.com/jobs/view/4481608853/) — NYU Langone Health
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $84,577.92 - $124,800.00 Annually
+- 🕒 **Posted:** 2026-10-22
+
+### [Entry-Level Marketing](https://www.linkedin.com/jobs/view/4478230443/) — GEM Marketing Agency
+- 📍 **Location:** Tucson, AZ
+- 🕒 **Posted:** 2026-10-22
+
+### [Entry Level Marketing](https://www.linkedin.com/jobs/view/4478232266/) — Rad Marketing Agency
+- 📍 **Location:** Chandler, AZ
+- 🕒 **Posted:** 2026-10-22
+
+### [Entry-Level Brand Marketing Representative](https://www.linkedin.com/jobs/view/4478231318/) — GEM Marketing Agency
+- 📍 **Location:** Oro Valley, AZ
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Marketing Manager](https://www.linkedin.com/jobs/view/4481610817/) — NYU Langone Health
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $84,577.92 - $124,800.00 Annually
+- 🕒 **Posted:** 2026-10-22
+
+### [BU Category Marketing Manager - Foodservice Poultry](https://www.linkedin.com/jobs/view/4480096203/) — Tyson Foods
+- 📍 **Location:** Springdale, AR
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Manager, Digital and Web Marketing](https://www.linkedin.com/jobs/view/4481605976/) — GALLO
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $151,000 - $226,600
+- 🕒 **Posted:** 2026-10-22
+
+### [Senior Associate, Customer Lifecycle Marketing](https://www.linkedin.com/jobs/view/4481605980/) — Merkle
+- 📍 **Location:** Colorado, United States
+- 💰 **Salary:** $68,000-$85,000
+- 🕒 **Posted:** 2026-10-22
+
+### [Coordinator III, Marketing and Outreach](https://www.linkedin.com/jobs/view/4481617536/) — Lone Star College
+- 📍 **Location:** McKinney, TX
+- 💰 **Salary:** $48,152 - $55,375
 - 🕒 **Posted:** 2026-10-22
