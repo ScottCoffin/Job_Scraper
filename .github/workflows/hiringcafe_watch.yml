@@ -1,7 +1,10 @@
 name: HiringCafe Watcher
 
 on:
-  # Direct-employer listings from HiringCafe's public SSR search pages.
+  # KNOWN UPSTREAM BLOCK (verified 2026-10-22): the legacy public SSR route
+  # redirects to hiringcafe.com and returns a Cloudflare 403 challenge to this
+  # non-browser client. Runs preserve the last successful snapshot. See README
+  # before enabling, replacing, or attempting to work around this source.
   schedule:
     - cron: "57 16-23,0-3 * * *"
   workflow_dispatch:

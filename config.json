@@ -1,69 +1,256 @@
 {
+  "_README": "ONE config file drives the whole tracker (scraper + dashboard). Edit it by hand, or generate it from your CV using docs/cv-to-config-prompt.md. After editing, commit it and re-run the workflows. All matching is case-insensitive substring on the JOB TITLE unless noted.",
   "profile": {
-    "title": "Marketing Job Tracker",
-    "subtitle": "USA or explicitly remote; eligibility restrictions retained",
-    "emoji": "\ud83d\udce3"
+    "title": "Environmental / Toxicology Job Tracker",
+    "subtitle": "California · Oregon · Australia",
+    "emoji": "🧪"
   },
   "keywords": {
+    "_comment": "A job TITLE is kept if it contains any of these. Use full words; multi-word phrases match as substrings.",
     "include": [
-      "marketing",
-      "SEO",
-      "search engine optimization",
-      "paid media",
-      "paid search",
-      "social media",
-      "demand generation",
-      "brand manager",
-      "brand strategist",
-      "CRM manager",
-      "CRM specialist",
-      "lifecycle manager",
-      "email campaign"
+      "toxicologist",
+      "toxicology",
+      "toxicological",
+      "ecotoxicologist",
+      "ecotoxicology",
+      "ecotoxicolog",
+      "environmental toxicolog",
+      "regulatory toxicolog",
+      "computational toxicolog",
+      "predictive toxicolog",
+      "aquatic toxicolog",
+      "wildlife toxicolog",
+      "research toxicolog",
+      "risk assess",
+      "risk assessor",
+      "human health risk",
+      "ecological risk",
+      "exposure scien",
+      "exposure assess",
+      "exposure modeling",
+      "exposure modelling",
+      "hazard assess",
+      "hazard identification",
+      "dose-response",
+      "dose response",
+      "pharmacokinetic",
+      "toxicokinetic",
+      "pbpk",
+      "environmental scien",
+      "environmental health",
+      "environmental chemist",
+      "environmental chemistry",
+      "environmental specialist",
+      "environmental analyst",
+      "environmental protection",
+      "environmental epidemiolog",
+      "environmental data",
+      "environmental monitoring",
+      "environmental assessment",
+      "exposure epidemiolog",
+      "water quality",
+      "drinking water",
+      "watershed",
+      "water resources",
+      "aquatic scien",
+      "limnolog",
+      "microplastic",
+      "microplastics",
+      "nanoplastic",
+      "nanomaterial",
+      "pfas",
+      "per- and polyfluoro",
+      "emerging contaminant",
+      "contaminant",
+      "pollutant",
+      "air pollution",
+      "water pollution",
+      "air quality",
+      "remediation",
+      "environmental remediation",
+      "chemical safety",
+      "chemical risk",
+      "chemical assess",
+      "chemical regulatory",
+      "product steward",
+      "hazardous materials",
+      "hazardous waste",
+      "environmental compliance",
+      "conservation toxicolog"
     ],
-    "exclude": [],
+    "_exclude_comment": "Titles containing any of these are dropped (junior/off-field roles).",
+    "exclude": [
+      "intern",
+      "interns",
+      "internship",
+      "co-op",
+      "coop",
+      "trainee",
+      "apprentice",
+      "technician",
+      "research assistant",
+      "lab assistant",
+      "teaching assistant",
+      "undergraduate",
+      "postdoc",
+      "postdoctoral",
+      "work-study",
+      "volunteer",
+      "fellowship",
+      "engineer",
+      "engineering",
+      "ehs",
+      "occupational safety",
+      "occupational health",
+      "health and safety",
+      "health & safety"
+    ],
+    "_fuzzy_comment": "Optional fuzzy pre-filter for LinkedIn title matching. When both fuzzy_seniority and fuzzy_domain are non-empty, role_is_relevant() uses these instead of the exact-phrase keywords.include filter. Catches title variants like 'Director, Engineering' when searching for 'Engineering Director'. Leave all three empty to use keyword-only matching.",
     "fuzzy_seniority": [],
     "fuzzy_domain": [],
     "fuzzy_exclude": []
   },
   "search_terms": {
+    "_comment": "Queries sent to the job boards' search boxes. Broader than 'keywords' (which then filters the titles).",
     "linkedin": [
-      "marketing",
-      "SEO",
-      "paid media",
-      "paid search",
-      "social media",
-      "demand generation",
-      "brand manager",
-      "CRM marketing"
+      "toxicologist",
+      "environmental toxicologist",
+      "ecotoxicologist",
+      "regulatory toxicologist",
+      "computational toxicology",
+      "human health risk assessment",
+      "ecological risk assessment",
+      "exposure scientist",
+      "exposure assessment",
+      "environmental scientist",
+      "environmental health scientist",
+      "environmental chemist",
+      "environmental epidemiologist",
+      "water quality scientist",
+      "microplastics",
+      "PFAS",
+      "emerging contaminants",
+      "air quality scientist",
+      "product stewardship",
+      "chemical safety",
+      "environmental data scientist"
     ],
     "indeed": [
-      "marketing",
-      "SEO",
-      "paid media",
-      "paid search",
-      "social media",
-      "demand generation",
-      "brand manager",
-      "CRM marketing"
+      "toxicologist",
+      "environmental scientist",
+      "risk assessment",
+      "exposure scientist",
+      "ecotoxicologist",
+      "microplastics",
+      "water quality scientist",
+      "environmental health scientist"
     ],
-    "glassdoor": [],
-    "ziprecruiter": [],
-    "google_jobs": [],
-    "hiring_cafe": [],
-    "calcareers": [],
-    "usajobs": [],
-    "governmentjobs": [],
-    "workday": []
+    "glassdoor": [
+      "toxicologist",
+      "environmental scientist",
+      "risk assessment",
+      "exposure scientist",
+      "ecotoxicologist",
+      "microplastics",
+      "water quality scientist",
+      "environmental health scientist"
+    ],
+    "ziprecruiter": [
+      "toxicologist",
+      "environmental scientist",
+      "risk assessment",
+      "exposure scientist",
+      "ecotoxicologist",
+      "microplastics",
+      "water quality scientist",
+      "environmental health scientist"
+    ],
+    "google_jobs": [
+      "toxicologist",
+      "environmental scientist",
+      "risk assessment",
+      "exposure scientist",
+      "ecotoxicologist",
+      "microplastics",
+      "water quality scientist",
+      "environmental health scientist"
+    ],
+    "hiring_cafe": [
+      "toxicologist",
+      "environmental scientist",
+      "risk assessment",
+      "exposure scientist",
+      "ecotoxicologist",
+      "microplastics",
+      "water quality scientist",
+      "environmental health scientist"
+    ],
+    "calcareers": [
+      "toxicologist",
+      "environmental scientist",
+      "risk assessment",
+      "exposure",
+      "water quality",
+      "microplastics",
+      "hazard",
+      "environmental health",
+      "ecologist"
+    ],
+    "usajobs": [
+      "toxicologist",
+      "environmental protection specialist",
+      "environmental health",
+      "ecotoxicology",
+      "exposure science",
+      "risk assessment",
+      "environmental scientist",
+      "microplastics",
+      "ecologist"
+    ],
+    "governmentjobs": [
+      "toxicologist",
+      "environmental scientist",
+      "environmental health",
+      "risk assessment",
+      "water quality",
+      "air quality",
+      "hazardous materials",
+      "environmental specialist"
+    ],
+    "workday": [
+      "toxicologist",
+      "environmental scientist",
+      "risk assessment",
+      "exposure scientist",
+      "environmental health",
+      "water quality"
+    ]
   },
   "locations": {
+    "_comment": "LinkedIn needs a geoId (find via the guest endpoint; leave blank to let LinkedIn resolve the text). JobSpy-backed boards such as Indeed, Glassdoor, ZipRecruiter, and Google Jobs need a location + country (USA, Australia, Canada, GB...). locations.hiring_cafe is retained for compatibility, but the legacy HiringCafe route is currently blocked upstream by a Cloudflare challenge. The map auto-fits to wherever the jobs are.",
     "linkedin": [
       {
-        "name": "USA",
-        "location": "United States",
-        "geoId": "103644278"
+        "name": "California",
+        "location": "California, United States",
+        "geoId": "102095887"
       },
       {
-        "name": "Remote discovery (no country geoId)",
+        "name": "Portland OR",
+        "location": "Portland, Oregon Metropolitan Area",
+        "geoId": "90000079"
+      },
+      {
+        "name": "Bend OR",
+        "location": "Bend, Oregon, United States",
+        "geoId": ""
+      },
+      {
+        "name": "Australia",
+        "location": "Australia",
+        "geoId": "101452733"
+      },
+      {
+        "name": "Remote discovery",
         "location": "Worldwide",
         "geoId": "",
         "remote": true
@@ -71,26 +258,82 @@
     ],
     "indeed": [
       {
-        "location": "United States",
+        "location": "California",
         "country": "USA"
       },
       {
-        "location": "Remote",
+        "location": "Portland, OR",
         "country": "USA"
       },
       {
-        "location": "Remote",
-        "country": "UK"
+        "location": "Bend, OR",
+        "country": "USA"
+      },
+      {
+        "location": "Australia",
+        "country": "Australia"
       },
       {
         "location": "Remote",
-        "country": "India"
+        "country": "USA"
       }
     ],
-    "glassdoor": [],
-    "ziprecruiter": [],
-    "google_jobs": [],
-    "hiring_cafe": [],
+    "glassdoor": [
+      {
+        "location": "California",
+        "country": "USA"
+      },
+      {
+        "location": "Portland, OR",
+        "country": "USA"
+      },
+      {
+        "location": "Bend, OR",
+        "country": "USA"
+      },
+      {
+        "location": "Australia",
+        "country": "Australia"
+      }
+    ],
+    "ziprecruiter": [
+      {
+        "location": "California",
+        "country": "USA"
+      },
+      {
+        "location": "Portland, OR",
+        "country": "USA"
+      },
+      {
+        "location": "Bend, OR",
+        "country": "USA"
+      }
+    ],
+    "google_jobs": [
+      {
+        "location": "California",
+        "country": "USA"
+      },
+      {
+        "location": "Portland, OR",
+        "country": "USA"
+      },
+      {
+        "location": "Bend, OR",
+        "country": "USA"
+      },
+      {
+        "location": "Australia",
+        "country": "Australia"
+      }
+    ],
+    "hiring_cafe": [
+      {
+        "location": "United States"
+      }
+    ],
+    "_linkedin_partitions_comment": "Optional. Used by --linkedin-emit-matrix / --linkedin-backfill-partition for parallel backfill. Each state gets one matrix worker per search term. High-volume states can be day-sliced to work around LinkedIn's ~1000 result/query cap. Leave empty to use single-run backfill (--linkedin-backfill).",
     "linkedin_partitions": {
       "states": [],
       "high_volume": {
@@ -100,86 +343,277 @@
     }
   },
   "location_filter": {
+    "_comment": "Case-insensitive substrings matched against a job's location text. Used to post-filter boards that don't support geo-scoping at the API level: the curated direct-ATS sweep, and NEOGOV/GovernmentJobs.com (a nationwide board). Keep this in sync with your locations.* entries above.",
     "terms": [
-      "united states",
-      "usa",
-      "remote"
+      "california",
+      ", ca",
+      "remote",
+      "hybrid",
+      "sacramento",
+      "davis",
+      "west sacramento",
+      "rancho cordova",
+      "elk grove",
+      "roseville",
+      "folsom",
+      "woodland",
+      "bay area",
+      "san francisco",
+      "south san francisco",
+      "oakland",
+      "berkeley",
+      "emeryville",
+      "richmond",
+      "palo alto",
+      "mountain view",
+      "menlo park",
+      "sunnyvale",
+      "santa clara",
+      "san jose",
+      "san mateo",
+      "redwood city",
+      "fremont",
+      "hayward",
+      "concord",
+      "walnut creek",
+      "pleasanton",
+      "livermore",
+      "novato",
+      "san rafael",
+      "vacaville",
+      "los angeles",
+      "long beach",
+      "irvine",
+      "costa mesa",
+      "san diego",
+      "riverside",
+      "pasadena",
+      "santa monica",
+      "torrance",
+      "fountain valley",
+      "santa barbara",
+      "san luis obispo",
+      "fresno",
+      "monterey",
+      "portland, or",
+      "portland, oregon",
+      "bend, or",
+      "bend, oregon",
+      "oregon",
+      "beaverton",
+      "hillsboro",
+      "eugene",
+      "salem, or",
+      "corvallis",
+      "redmond, or",
+      "australia",
+      "sydney",
+      "melbourne",
+      "brisbane",
+      "perth",
+      "adelaide",
+      "canberra",
+      "new south wales",
+      "victoria",
+      "queensland",
+      "western australia",
+      "tasmania"
     ]
   },
   "google_jobs": {
+    "_comment": "Optional exact Google Jobs queries. Leave empty to auto-build queries such as '<term> jobs near <location> since yesterday' from search_terms.google_jobs and locations.google_jobs. If the free JobSpy path is blocked, set SERPAPI_API_KEY or OXYLABS_USERNAME/OXYLABS_PASSWORD as GitHub Actions secrets for an API fallback.",
     "queries": [],
     "serpapi_api_key": "",
     "oxylabs_username": "",
     "oxylabs_password": ""
   },
   "jobspy": {
+    "_comment": "Optional. Prefer JOBSPY_PROXIES as a GitHub Actions secret/env var for private proxy credentials. Use only if JobSpy-backed boards are blocked.",
     "proxies": [],
     "user_agent": ""
   },
   "hiring_cafe": {
+    "_comment": "Legacy setting retained for compatibility. As of 2026-10-22, HiringCafe redirects /jobs/<query> to hiringcafe.com and returns a Cloudflare 403 challenge to this non-browser client. max_pages cannot fix the block; see README before enabling or replacing this source.",
     "max_pages": 3
   },
   "employers": {
-    "priority": [],
-    "exclude": []
+    "_priority_comment": "Optional. Companies worth a daily 'priority' digest even on a quiet day (case-insensitive substring match on the company name). Leave [] to disable.",
+    "priority": [
+      "Ramboll",
+      "Exponent",
+      "Gradient",
+      "ToxStrategies",
+      "Cardno",
+      "Stantec",
+      "Tetra Tech",
+      "ICF International",
+      "Abt Associates",
+      "Eastern Research Group",
+      "Integral Consulting",
+      "Geosyntec",
+      "Arcadis",
+      "AECOM",
+      "Montrose Environmental",
+      "Trinity Consultants",
+      "GHD Group",
+      "Environmental Resources Management",
+      "SLR Consulting",
+      "Wood Environment",
+      "Sciome",
+      "ChemRisk",
+      "Southern California Coastal Water Research Project",
+      "SCCWRP",
+      "San Francisco Estuary Institute",
+      "Silent Spring Institute",
+      "Environmental Defense Fund",
+      "Natural Resources Defense Council",
+      "Environmental Working Group",
+      "Ocean Conservancy",
+      "Pew Charitable Trusts",
+      "Health Effects Institute",
+      "RTI International",
+      "Battelle",
+      "Green Science Policy Institute",
+      "Defend Our Health",
+      "Moore Institute",
+      "Environmental Protection Agency",
+      "California Environmental Protection",
+      "Office of Environmental Health Hazard",
+      "State Water Resources Control",
+      "California Air Resources Board",
+      "Department of Toxic Substances Control",
+      "National Institute of Environmental Health",
+      "Geological Survey",
+      "Procter & Gamble",
+      "Unilever",
+      "Corteva",
+      "Syngenta",
+      "Dow Chemical",
+      "BASF Corporation"
+    ],
+    "_exclude_comment": "Optional. Drop roles from these companies even if the title matches (case-insensitive substring). Used here to remove pharma/drug-development.",
+    "exclude": [
+      "pharmaceutical",
+      "pharma ",
+      "therapeutics",
+      "biopharma",
+      "biotech",
+      "biologics",
+      "biosciences",
+      "genomics",
+      "oncolog",
+      "biomedicine",
+      "genentech",
+      "gilead",
+      "pfizer",
+      "merck",
+      "novartis",
+      "abbvie",
+      "regeneron",
+      "moderna",
+      "biogen",
+      "sanofi",
+      "astrazeneca",
+      "takeda",
+      "biomarin",
+      "alnylam",
+      "incyte",
+      "exelixis",
+      "neurocrine",
+      "ionis",
+      "denali",
+      "acadia",
+      "adarx",
+      "genmab",
+      "galapagos",
+      "insitro",
+      "recursion",
+      "cytokinetics",
+      "vertex pharm",
+      "bristol-myers",
+      "bristol myers"
+    ]
   },
   "priority_topics": {
-    "terms": []
-  },
-  "role_categories": {
+    "_comment": "Optional. Roles touching these get a gold ★ + a 'Priority topics' filter on the dashboard. [name, regex] pairs.",
     "terms": [
       [
-        "Marketing",
-        "marketing"
+        "microplastics",
+        "microplastic|nanoplastic|microfiber"
       ],
       [
-        "SEO / Paid media",
-        "seo|paid media|paid search"
+        "ecotoxicology",
+        "ecotoxicolog"
       ],
       [
-        "Social / Demand generation",
-        "social media|demand generation"
+        "endocrine-disrupting chemicals",
+        "endocrine[\\s-]?disrupt|\\bedcs?\\b"
       ],
       [
-        "Brand / CRM",
-        "brand|crm"
+        "R / Shiny",
+        "\\brshiny\\b|\\br[\\s-]?shiny\\b|shiny\\s*(?:app|dashboard|server)|\\bshiny\\b"
+      ]
+    ]
+  },
+  "role_categories": {
+    "_comment": "Dashboard 'Role' filter buckets, applied top-to-bottom to each title. [name, regex] pairs.",
+    "terms": [
+      [
+        "Toxicology",
+        "toxicolog"
+      ],
+      [
+        "Risk/Exposure",
+        "risk assess|exposure|hazard|dose.response|pharmacokinetic|toxicokinetic"
+      ],
+      [
+        "Water",
+        "water|drinking water|watershed|aquatic|marine|limnolog"
+      ],
+      [
+        "Contaminants",
+        "microplastic|nanoplastic|pfas|contaminant|pollution|remediation"
+      ],
+      [
+        "Environmental Health",
+        "environmental health|epidemiolog|public health"
+      ],
+      [
+        "Environmental Science",
+        "environmental|ecolog|sustainab|conservation|chemist"
+      ],
+      [
+        "Policy/Regulatory",
+        "policy|regulatory|stewardship|registration|reach\\b|affairs"
+      ],
+      [
+        "Data Science",
+        "data scien|data analyst|biostatistic|informatic"
+      ],
+      [
+        "Academic",
+        "professor|faculty|lecturer"
       ]
     ]
   },
   "notify": {
+    "_comment": "Pushover phone alerts (optional; needs PUSHOVER_TOKEN/USER secrets). Notify when a new role is a priority-topic OR scores at/above min_fit.",
     "min_fit": 75,
     "weekly_digest": {
+      "_comment": "Optional weekly Pushover brief. Prefer enabling via the WEEKLY_DIGEST_PUSHOVER repository variable so forks stay quiet by default.",
       "enabled": false,
       "days": 7
     }
   },
-  "_README": "Marketing digest configuration. All seniorities; no employer preferences. See docs/MARKETING_DIGEST_SETUP.md. Digest reads this file directly (no environmental-template fallback).",
   "marketing_digest": {
+    "_comment": "Operational settings for the optional marketing digest workflow. Searches use this config's restored terms and locations.",
     "sources": [
       "linkedin",
       "indeed"
     ],
     "lookback_hours": 24,
     "max_results_per_query": 20,
-    "source_timeout_seconds": 420,
-    "date_only_policy": "conservative_utc",
-    "query_family_reference": [
-      "marketing",
-      "growth marketing",
-      "product marketing",
-      "brand marketing",
-      "content marketing",
-      "performance marketing",
-      "digital marketing",
-      "email marketing",
-      "lifecycle marketing",
-      "CRM marketing",
-      "SEO",
-      "paid media",
-      "paid search",
-      "social media",
-      "demand generation",
-      "marketing operations"
-    ]
+    "source_timeout_seconds": 180,
+    "date_only_policy": "conservative_utc"
   }
 }

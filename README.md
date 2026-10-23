@@ -110,7 +110,7 @@ Several watchers have a `backfill` toggle in the "Run workflow" dialog that pull
 | **Glassdoor Watcher** | last 24 hours | last 30 days; scheduled runs are opt-in |
 | **ZipRecruiter Watcher** | last 24 hours | last 30 days |
 | **Google Jobs Watcher** | last 24 hours | last 30 days |
-| **HiringCafe Watcher** | last 30 days | last 61 days |
+| **HiringCafe Watcher** | last 30 days, stale-preserving | last 61 days; **currently blocked by HiringCafe's Cloudflare challenge** |
 | **Priority Employer Digest** | last 24 hours | last 30 days |
 | **Local & State Gov Watcher (NEOGOV)** | last 21 days | last 60 days |
 
@@ -236,9 +236,13 @@ Uses JobSpy's Google Jobs adapter first, which keeps this repo free of paid prox
 
 If JobSpy returns zero raw rows across every query, the watcher can fall back to structured Google Jobs APIs. Add either `SERPAPI_API_KEY` or both `OXYLABS_USERNAME` and `OXYLABS_PASSWORD` as GitHub Actions secrets. The Oxylabs fallback follows their Google Jobs API pattern: `q`, `ibp=htl;jobs`, `hl`, and `gl` in the Google URL plus rendered parsing instructions. Output goes to `google_jobs.json`, `google_jobs.md`, and `google_jobs.html`, deduped against the previous run. Runs at :37 PT.
 
-### 7. HiringCafe watcher — hourly, last 30d
+### 7. HiringCafe watcher (currently blocked; previous results preserved)
 
-Searches HiringCafe's public SSR `/jobs/<query>` pages for direct-from-employer listings, because the old unauthenticated API endpoint now returns 401/405. Configure with `search_terms.hiring_cafe` and cap pagination with `hiring_cafe.max_pages` in `config.json`. The public SEO route currently defaults to United States results. If HiringCafe returns no rows or errors for every page, the scraper preserves the previous `hiringcafe_jobs.*` files instead of wiping the dashboard source.
+> **Known upstream breakage (verified 2026-10-22):** HiringCafe redirects the former `https://hiring.cafe/jobs/<query>` route to `hiringcafe.com`, where requests from the Python standard-library client and GitHub-hosted runners receive HTTP 403 with `Cf-Mitigated: challenge`. This happens before the scraper can read the page, so changing search terms, pagination, the hostname, or ordinary request headers does not fix it. An all-error run deliberately preserves the previous `hiringcafe_jobs.*` files instead of erasing the dashboard source.
+
+HiringCafe now documents an unauthenticated [ChatGPT MCP search endpoint](https://hiringcafe.com/documentation/hiringcafe-chatgpt-app), but describes it as intended for normal conversational search and says heavy automated use is unsupported. It is therefore **not** treated here as a drop-in replacement for this frequently scheduled multi-query watcher. HiringCafe's [terms and conditions](https://hiringcafe.com/terms-and-conditions) also restrict copying and redistribution; downstream maintainers should review those terms and obtain permission or an approved data-access arrangement before publishing automated results. Do not add browser-challenge bypasses, session cookies, stealth browsers, or proxy rotation as a workaround.
+
+Until a permitted integration is available, disable the **HiringCafe Watcher** in the repository's Actions settings if you do not want repeated stale-preserving runs. The code remains available for manual diagnostics and for a future approved route. Configure its historical query set with `search_terms.hiring_cafe` and `hiring_cafe.max_pages` in `config.json`.
 
 ## Keywords Matched
 
@@ -265,7 +269,7 @@ The list is deliberately **tight** for precision: generic titles (`research scie
 -   **LinkedIn** — `locations.linkedin`: each is a `location` + LinkedIn `geoId`. Leave `geoId` blank to let LinkedIn resolve the text (works for most cities/metros), or fill in the numeric id for tighter filtering. A geoId reference table is in [`docs/cv-to-config-prompt.md`](docs/cv-to-config-prompt.md).
 -   **Indeed / Glassdoor / ZipRecruiter** — each takes a `location` + `country` (`USA`, `Australia`, `GB`, `Canada`, …). Glassdoor falls back to Indeed locations if omitted; ZipRecruiter defaults to the US Indeed locations.
 -   **Google Jobs** — `locations.google_jobs` is used to build the full `google_search_term` text JobSpy requires; advanced users can bypass auto-building with `google_jobs.queries`.
--   **HiringCafe** — currently uses HiringCafe's public US SEO search route; page depth is capped by `hiring_cafe.max_pages`.
+-   **HiringCafe** — the legacy public US SEO route is currently blocked by a Cloudflare challenge. Existing results are preserved; see the [known upstream breakage](#7-hiringcafe-watcher-currently-blocked-previous-results-preserved) before enabling or replacing this source.
 -   **USAJOBS** is nationwide US (federal); **NEOGOV** is filtered to your configured locations; **CalCareers** and **CalOpps** are California-only boards by nature (disable them if you're not searching California).
 -   The map and dashboard auto-fit to wherever your jobs are.
 
@@ -279,7 +283,7 @@ The list is deliberately **tight** for precision: generic titles (`research scie
 | `glassdoor_jobs.json` / `.md` / `.html` | Glassdoor watcher | Glassdoor-sourced roles in your locations, last 24h, deduped |
 | `ziprecruiter_jobs.json` / `.md` / `.html` | ZipRecruiter watcher | ZipRecruiter-sourced roles in your locations, last 24h, deduped |
 | `google_jobs.json` / `.md` / `.html` | Google Jobs watcher | Google Jobs roles in your locations, last 24h, deduped |
-| `hiringcafe_jobs.json` / `.md` / `.html` | HiringCafe watcher | Direct-employer roles from HiringCafe, last 30d, guarded |
+| `hiringcafe_jobs.json` / `.md` / `.html` | HiringCafe watcher | Last successful HiringCafe snapshot; stale-preserved while the public route returns 403 |
 | `calcareers_jobs.json` / `.md` / `.html` | CalCareers watcher | California state civil-service roles (calcareers.ca.gov) |
 | `csucareers_jobs.json` / `.md` / `.html` | CSU Careers watcher | California State University systemwide roles (csucareers.calstate.edu) |
 | `usajobs_jobs.json` / `.md` / `.html` | USAJOBS watcher | US federal roles matching your configured keywords, with salary, via usajobs.gov |
@@ -357,7 +361,7 @@ python scrape_jobs.py --indeed-only          # general Indeed, last 24h
 python scrape_jobs.py --glassdoor-only       # general Glassdoor, last 24h
 python scrape_jobs.py --ziprecruiter-only    # general ZipRecruiter, last 24h
 python scrape_jobs.py --google-jobs-only     # Google Jobs, last 24h
-python scrape_jobs.py --hiringcafe-only      # HiringCafe, last 30d
+python scrape_jobs.py --hiringcafe-only      # HiringCafe diagnostic; public route currently returns 403
 python scrape_jobs.py --usajobs-only         # US federal jobs (usajobs.gov, no API key)
 python scrape_jobs.py --governmentjobs-only  # state/local gov (NEOGOV)
 python scrape_jobs.py --calopps-only         # California local agencies (calopps.org)
@@ -551,7 +555,7 @@ Paste your CV text into `CANDIDATE_RESUME`. Without these secrets, leave `triage
     ├── glassdoor_watch.yml         # Hourly :07 PT — Glassdoor (last 24h)
     ├── ziprecruiter_watch.yml      # Hourly :27 PT — ZipRecruiter (last 24h)
     ├── google_jobs_watch.yml       # Hourly :37 PT — Google Jobs (last 24h)
-    ├── hiringcafe_watch.yml        # Hourly :57 PT — HiringCafe (last 30d)
+    ├── hiringcafe_watch.yml        # HiringCafe (currently blocked upstream; preserves prior snapshot)
     ├── calcareers_watch.yml        # Daily — CalCareers (California state jobs)
     ├── usajobs_watch.yml           # Daily — USAJOBS (federal jobs, no API key)
     ├── localgov_watch.yml          # Daily — NEOGOV + CalOpps (state & local gov)
@@ -564,6 +568,6 @@ Paste your CV text into `CANDIDATE_RESUME`. Without these secrets, leave `triage
 
 ## Tuning the search
 
-Everything you'd adjust lives in [**`config.json`**](config.json) (no code edits) — the scraper and dashboard both read it: - `keywords.include` — title-match terms · `keywords.exclude` — titles to drop. - `search_terms.*` — queries sent to LinkedIn, Indeed, Glassdoor, ZipRecruiter, Google Jobs, HiringCafe, CalCareers, USAJOBS, GovernmentJobs/NEOGOV, and any curated Workday boards. - `locations.*` — LinkedIn `geoId`, JobSpy `location` + `country`, and Google query location text. - `location_filter.terms` — substrings used to post-filter boards (curated direct-ATS sweep, NEOGOV) that don't support geo-scoping at the API level. - `google_jobs.queries` — optional exact Google Jobs search-box strings; Google Jobs API fallback credentials should be stored as GitHub Actions secrets. - `jobspy` — optional proxies/user-agent for blocked JobSpy-backed boards; prefer GitHub Actions secrets for proxy credentials. - `hiring_cafe` — optional page-depth guardrail. - `employers.priority` (allowlist for the digest) / `employers.exclude` (drop). - `priority_topics` (⭐ highlights) · `role_categories` (Role-filter buckets) · `profile` (dashboard + digest branding).
+Everything you'd adjust lives in [**`config.json`**](config.json) (no code edits) — the scraper and dashboard both read it: - `keywords.include` — title-match terms · `keywords.exclude` — titles to drop. - `search_terms.*` — queries sent to LinkedIn, Indeed, Glassdoor, ZipRecruiter, Google Jobs, HiringCafe, CalCareers, USAJOBS, GovernmentJobs/NEOGOV, and any curated Workday boards. - `locations.*` — LinkedIn `geoId`, JobSpy `location` + `country`, and Google query location text. - `location_filter.terms` — substrings used to post-filter boards (curated direct-ATS sweep, NEOGOV) that don't support geo-scoping at the API level. - `google_jobs.queries` — optional exact Google Jobs search-box strings; Google Jobs API fallback credentials should be stored as GitHub Actions secrets. - `jobspy` — optional proxies/user-agent for blocked JobSpy-backed boards; prefer GitHub Actions secrets for proxy credentials. - `hiring_cafe` — retained for the currently blocked legacy route; changing it will not solve the upstream 403. - `employers.priority` (allowlist for the digest) / `employers.exclude` (drop). - `priority_topics` (⭐ highlights) · `role_categories` (Role-filter buckets) · `profile` (dashboard + digest branding).
 
 Generate the whole file from your CV with [`docs/cv-to-config-prompt.md`](docs/cv-to-config-prompt.md), or edit it by hand (every key is commented).

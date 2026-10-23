@@ -24,8 +24,44 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 @pytest.fixture
-def config():
-    return m.load_config(ROOT / 'config.json')
+def marketing_config_path(tmp_path):
+    """A synthetic marketing profile, independent of the owner's config.json."""
+    payload = {
+        'keywords': {
+            'include': ['marketing', 'SEO', 'paid media', 'paid search', 'social media',
+                        'demand generation', 'brand manager', 'brand strategist',
+                        'CRM manager', 'CRM specialist', 'lifecycle manager', 'email campaign'],
+            'exclude': [],
+        },
+        'search_terms': {'linkedin': ['marketing'], 'indeed': ['marketing']},
+        'locations': {
+            'linkedin': [
+                {'name': 'USA', 'location': 'United States', 'geoId': '103644278'},
+                {'name': 'Remote', 'location': 'Worldwide', 'geoId': '', 'remote': True},
+            ],
+            'indeed': [
+                {'location': 'United States', 'country': 'USA'},
+                {'location': 'Remote', 'country': 'USA'},
+                {'location': 'Remote', 'country': 'UK'},
+                {'location': 'Remote', 'country': 'India'},
+            ],
+        },
+        'marketing_digest': {
+            'sources': ['linkedin', 'indeed'],
+            'lookback_hours': 24,
+            'max_results_per_query': 20,
+            'source_timeout_seconds': 420,
+            'date_only_policy': 'conservative_utc',
+        },
+    }
+    path = tmp_path / 'marketing-test-config.json'
+    path.write_text(json.dumps(payload), encoding='utf-8')
+    return path
+
+
+@pytest.fixture
+def config(marketing_config_path):
+    return m.load_config(marketing_config_path)
 
 
 @pytest.fixture
@@ -70,8 +106,6 @@ def test_configurable_exclusion(config):
     assert not m.matches_title('Marketing Director', config)
     assert m.matches_title('Marketing Intern', config)
     assert not s._build_title_re([]).search('Marketing intern')
-    assert s.role_is_relevant('Marketing Intern')
-    assert not s._EXCLUDE_COMPANY_TERMS
 
 
 @pytest.mark.parametrize('loc,remote,expected', [
@@ -254,8 +288,8 @@ def synthetic_card(title='Marketing Intern', location='Remote - UK only', ident=
 
 
 @pytest.mark.parametrize('hours',[24,48,72,1.5])
-def test_overrides_reach_queries_and_remote_searches(config, hours, monkeypatch):
-    config = m.load_config(ROOT/'config.json',hours)
+def test_overrides_reach_queries_and_remote_searches(config, marketing_config_path, hours, monkeypatch):
+    config = m.load_config(marketing_config_path, hours)
     config['search_terms'] = {'linkedin':['marketing'], 'indeed':['marketing']}
     urls, calls = [], []
     monkeypatch.setattr(s.time, 'sleep', lambda _:None)
@@ -312,9 +346,9 @@ def test_query_failure_is_partial(config, monkeypatch):
     assert r['status']=='partial' and r['health']['failed']>0
 
 
-def test_worker_timeout_is_unavailable(config,tmp_path,monkeypatch):
+def test_worker_timeout_is_unavailable(config,marketing_config_path,tmp_path,monkeypatch):
     monkeypatch.setattr(m.subprocess,'run',Mock(side_effect=subprocess.TimeoutExpired('synthetic',1)))
-    collected=m.collect(config,ROOT/'config.json',tmp_path)
+    collected=m.collect(config,marketing_config_path,tmp_path)
     assert all(r['status']=='unavailable' for r in collected)
 
 
@@ -397,18 +431,18 @@ def test_timestamp_from_jobspy_preserved(config,monkeypatch):
     assert m.collect_source('indeed',config)['jobs'][0]['date_posted']=='2026-10-17T10:30:00+01:00'
 
 
-def test_main_dry_run_never_reads_environment(config,job,tmp_path,monkeypatch):
+def test_main_dry_run_never_reads_environment(config,marketing_config_path,job,tmp_path,monkeypatch):
     # Exercise the CLI control path, not just rendering; fake collection only.
     monkeypatch.setattr(m,'collect',lambda *a: results({**job,'date_posted':(datetime.now(timezone.utc)-timedelta(minutes=1)).isoformat()}))
     monkeypatch.setattr(m,'smtp_settings',Mock(side_effect=AssertionError('Dry-run must not read SMTP settings')))
-    monkeypatch.setattr(m.sys,'argv',['marketing_digest.py','--dry-run','--config',str(ROOT/'config.json'),
+    monkeypatch.setattr(m.sys,'argv',['marketing_digest.py','--dry-run','--config',str(marketing_config_path),
                                     '--state',str(tmp_path/'sent'),'--output',str(tmp_path/'preview')])
     m.main()
     assert 'Marketing intern' in (tmp_path/'preview/digest.html').read_text()
     assert not (tmp_path/'sent').exists()
 
 
-def test_collection_command_propagates_override(config,tmp_path,monkeypatch):
+def test_collection_command_propagates_override(config,marketing_config_path,tmp_path,monkeypatch):
     config['marketing_digest']['lookback_hours']=72
     commands=[]
     def fake(cmd,**kw):
@@ -417,7 +451,7 @@ def test_collection_command_propagates_override(config,tmp_path,monkeypatch):
         Path(cmd[cmd.index('--worker-output')+1]).write_text(json.dumps(
             {'source':source,'status':'ok','jobs':[]}))
     monkeypatch.setattr(m.subprocess,'run',fake)
-    m.collect(config,ROOT/'config.json',tmp_path)
+    m.collect(config,marketing_config_path,tmp_path)
     assert all(cmd[cmd.index('--lookback-hours')+1]=='72' for cmd,kw in commands)
     assert all(kw['timeout']==420 for cmd,kw in commands)
 

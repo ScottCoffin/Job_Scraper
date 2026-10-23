@@ -1764,7 +1764,12 @@ def scrape_google_jobs_recent(hours_old: int | None = None) -> list:
 
 
 # ---------------------------------------------------------------------------
-# HiringCafe — public SSR search pages (direct-from-employer listings)
+# HiringCafe — legacy public SSR search pages (currently Cloudflare-blocked)
+#
+# Verified 2026-10-22: hiring.cafe redirects to hiringcafe.com, which returns
+# HTTP 403 with Cf-Mitigated: challenge to this non-browser client. Keep the
+# stale-result guard below; do not add challenge bypasses or session credentials.
+# See README for the official MCP endpoint's automation limits and terms.
 # ---------------------------------------------------------------------------
 
 HIRINGCAFE_LOOKBACK_DAYS = 30
@@ -1930,7 +1935,7 @@ def scrape_hiringcafe_recent(days: int | None = None) -> list:
     d = days if days is not None else HIRINGCAFE_LOOKBACK_DAYS
     print(f"☕ Scraping HiringCafe (last {d}d)...")
     jobs_by_id: dict[str, dict] = {}
-    ok_pages = errored_pages = raw_rows = 0
+    ok_pages = errored_pages = blocked_403_pages = raw_rows = 0
     for term in HIRINGCAFE_SEARCH_TERMS:
         for page in range(HIRINGCAFE_MAX_PAGES):
             time.sleep(REQUEST_DELAY)
@@ -1938,6 +1943,8 @@ def scrape_hiringcafe_recent(days: int | None = None) -> list:
                 batch, is_last = _hiringcafe_ssr_hits(term, page=page)
             except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError) as e:
                 errored_pages += 1
+                if isinstance(e, urllib.error.HTTPError) and e.code == 403:
+                    blocked_403_pages += 1
                 print(f"  ⚠️  HiringCafe ({term!r} page {page}): {e}")
                 break
             ok_pages += 1
@@ -1959,6 +1966,15 @@ def scrape_hiringcafe_recent(days: int | None = None) -> list:
         f"{raw_rows} raw, {len(jobs)} matched"
     )
     if raw_rows == 0:
+        if errored_pages and blocked_403_pages == errored_pages:
+            print(
+                "  ℹ️  Known upstream block: HiringCafe redirects to hiringcafe.com, "
+                "which returns a Cloudflare browser challenge to this client."
+            )
+            print(
+                "  ℹ️  Changing terms, max_pages, hostname, or ordinary headers will not fix it; "
+                "see README before enabling or replacing this source."
+            )
         prev = _load_prev_jobs(os.path.join(OUTPUT_DIR, "hiringcafe_jobs.json"))
         print(
             f"  ⛔ HiringCafe returned 0 rows across all terms; preserving previous "

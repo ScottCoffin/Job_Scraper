@@ -91,7 +91,7 @@
   },
 
   "locations": {
-    "_comment": "LinkedIn needs a geoId (find via the guest endpoint; leave blank to let LinkedIn resolve the text). JobSpy-backed boards such as Indeed, Glassdoor, ZipRecruiter, and Google Jobs need a location + country (USA, Australia, Canada, GB...). HiringCafe currently uses its public US SEO route; locations.hiring_cafe is kept for compatibility. The map auto-fits to wherever the jobs are.",
+    "_comment": "LinkedIn needs a geoId (find via the guest endpoint; leave blank to let LinkedIn resolve the text). JobSpy-backed boards such as Indeed, Glassdoor, ZipRecruiter, and Google Jobs need a location + country (USA, Australia, Canada, GB...). locations.hiring_cafe is retained for compatibility, but the legacy HiringCafe route is currently blocked upstream by a Cloudflare challenge. The map auto-fits to wherever the jobs are.",
     "linkedin": [
       { "name": "California",  "location": "California, United States",          "geoId": "102095887" },
       { "name": "Portland OR", "location": "Portland, Oregon Metropolitan Area", "geoId": "90000079" },
@@ -171,7 +171,7 @@
   },
 
   "hiring_cafe": {
-    "_comment": "Uses HiringCafe's public SSR /jobs/<query> pages. max_pages caps SEO pagination per query; the public route currently defaults to United States.",
+    "_comment": "Legacy setting retained for compatibility. As of 2026-10-22, HiringCafe redirects /jobs/<query> to hiringcafe.com and returns a Cloudflare 403 challenge to this non-browser client. max_pages cannot fix the block; see README before enabling or replacing this source.",
     "max_pages": 3
   },
 
