@@ -1,29 +1,17 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-10-23 01:59 UTC*
+*Last updated: 2026-10-23 08:07 UTC*
 
-**6 new role(s)** since last run · 6 total in last 1h
+**3 new role(s)** since last run · 3 total in last 1h
 
-### [Environmental Compliance Coordinator](https://www.linkedin.com/jobs/view/4481641090/) — Ormat Technologies, Inc.
-- 📍 **Location:** Mammoth Lakes, CA
+### [Senior Environmental Assessment and Approvals Specialist](https://www.linkedin.com/jobs/view/4481647771/) — Western Power
+- 📍 **Location:** Perth, Western Australia, Australia
 - 🕒 **Posted:** 2026-10-23
 
-### [Environmental Health Officer](https://www.linkedin.com/jobs/view/4481627674/) — City of Whyalla
-- 📍 **Location:** Adelaide, South Australia, Australia
+### [Environmental Specialist - Shoreline/Aquatic Invasive Species](https://www.linkedin.com/jobs/view/4482498107/) — KANDIYOHI COUNTY
+- 📍 **Location:** Willmar, MN
+- 💰 **Salary:** $74,430 - $83,242
 - 🕒 **Posted:** 2026-10-23
 
-### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4481632714/) — Kelly
-- 📍 **Location:** Clark, NJ
-- 🕒 **Posted:** 2026-10-23
-
-### [Environmental Scientist](https://www.linkedin.com/jobs/view/4480612073/) — AE2S (Advanced Engineering and Environmental Services, LLC)
-- 📍 **Location:** Woodbury, MN
-- 💰 **Salary:** $70,000-$95,000
-- 🕒 **Posted:** 2026-10-23
-
-### [Water Resources Project Manager](https://www.linkedin.com/jobs/view/4480611080/) — AE2S (Advanced Engineering and Environmental Services, LLC)
-- 📍 **Location:** Billings, MT
-- 🕒 **Posted:** 2026-10-23
-
-### [Water Resources Project Manager](https://www.linkedin.com/jobs/view/4480611079/) — AE2S (Advanced Engineering and Environmental Services, LLC)
-- 📍 **Location:** Fargo, ND
+### [Hazardous Waste Field Chemist](https://www.linkedin.com/jobs/view/4482829627/) — Vetted Solutions
+- 📍 **Location:** Lakewood, CO
 - 🕒 **Posted:** 2026-10-23
