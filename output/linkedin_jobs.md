@@ -1,45 +1,124 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-10-23 21:54 UTC*
+*Last updated: 2026-10-24 01:28 UTC*
 
-**9 new role(s)** since last run · 9 total in last 1h
+**25 new role(s)** since last run · 26 total in last 1h
 
-### [Environmental Compliance Manager](https://www.linkedin.com/jobs/view/4481936988/) — Atlas
-- 📍 **Location:** Brecksville, OH
-- 🕒 **Posted:** 2026-10-23
+### [OPEN RANK FACULTY Position in Environmental Health Science at Penn State's College of Health and Human Development](https://www.linkedin.com/jobs/view/4483183169/) — Penn State University
+- 📍 **Location:** University Park, PA
+- 🕒 **Posted:** 2026-10-24
 
-### [Environmental Scientist](https://www.linkedin.com/jobs/view/4483132967/) — DRMP
-- 📍 **Location:** Orlando, FL
-- 🕒 **Posted:** 2026-10-23
+### [Hazardous Waste Field Chemist](https://www.linkedin.com/jobs/view/4482311189/) — DayToDay Health
+- 📍 **Location:** Harrisville, OH
+- 🕒 **Posted:** 2026-10-24
 
-### [Project Manager - Environmental Remediation](https://www.linkedin.com/jobs/view/4481631778/) — AECOM
-- 📍 **Location:** Austin, TX
-- 💰 **Salary:** $120000 to $140000
-- 🕒 **Posted:** 2026-10-23
+### [Hazardous Waste Field Chemist](https://www.linkedin.com/jobs/view/4481994517/) — Health Care Administrators Association® (HCAA)
+- 📍 **Location:** Yorkville, OH
+- 🕒 **Posted:** 2026-10-24
 
-### [Environmental Specialist](https://www.linkedin.com/jobs/view/4481942668/) — AECOM Hunt
-- 📍 **Location:** Redstone Arsenal, AL
-- 💰 **Salary:** $53500 to $70000
-- 🕒 **Posted:** 2026-10-23
+### [Water Quality Manager (108.26)](https://www.linkedin.com/jobs/view/4483189200/) — Golden State Water Company
+- 📍 **Location:** San Dimas, CA
+- 💰 **Salary:** $129,283.00/yr - $240,046.00/yr
+- 🕒 **Posted:** 2026-10-24
 
-### [Envrionmental Project Manager III - Remediation Focus](https://www.linkedin.com/jobs/view/4481629694/) — AECOM
-- 📍 **Location:** Chicago, IL
-- 💰 **Salary:** $102000 to $122000
-- 🕒 **Posted:** 2026-10-23
+### [Environmental Scientist III](https://www.linkedin.com/jobs/view/4481997868/) — HydroGeoLogic, Inc.
+- 📍 **Location:** Billings, MT
+- 💰 **Salary:** $65,126.00/yr - $97,689.00/yr
+- 🕒 **Posted:** 2026-10-24
 
-### [Hazardous Waste Specialist](https://www.linkedin.com/jobs/view/4481949811/) — The Planet Group
-- 📍 **Location:** Orlando, FL
-- 💰 **Salary:** $30.00/hr - $35.00/hr
-- 🕒 **Posted:** 2026-10-23
+### [Manager - Environmental Compliance](https://www.linkedin.com/jobs/view/4480687441/) — Energy Transfer
+- 📍 **Location:** Midland, TX
+- 🕒 **Posted:** 2026-10-24
 
-### [Hazardous Materials Specialist (CUPA)](https://www.linkedin.com/jobs/view/4205421305/) — Alameda County Health
-- 📍 **Location:** Oakland, CA
-- 💰 **Salary:** $114,129.60/yr - $136,697.60/yr
-- 🕒 **Posted:** 2026-10-23
+### [Environmental Scientist III](https://www.linkedin.com/jobs/view/4482307767/) — HydroGeoLogic, Inc.
+- 📍 **Location:** Helena, MT
+- 💰 **Salary:** $65,126.00/yr - $97,689.00/yr
+- 🕒 **Posted:** 2026-10-24
 
-### [Environmental Scientist](https://www.linkedin.com/jobs/view/4275970678/) — Aventia
-- 📍 **Location:** Hammond, LA
-- 🕒 **Posted:** 2026-10-23
+### [Vice President, Environmental Health, Safety and Operational Risk - Remote](https://www.linkedin.com/jobs/view/4483142081/) — Compass Group USA
+- 📍 **Location:** Charlotte, NC
+- 💰 **Salary:** $220,000 - $250,000
+- 🕒 **Posted:** 2026-10-24
 
-### [Senior Hazardous Waste Operations Manager](https://www.linkedin.com/jobs/view/4481505230/) — Triumvirate Environmental
+### [Risk Assessor II](https://www.linkedin.com/jobs/view/4470381686/) — HydroGeoLogic, Inc.
+- 📍 **Location:** Billings, MT
+- 💰 **Salary:** $83,895.00/yr - $125,843.00/yr
+- 🕒 **Posted:** 2026-10-24
+
+### [Risk Assessor II](https://www.linkedin.com/jobs/view/4470391243/) — HydroGeoLogic, Inc.
 - 📍 **Location:** Phoenix, AZ
+- 💰 **Salary:** $83,895.00/yr - $125,843.00/yr
+- 🕒 **Posted:** 2026-10-24
+
+### [Risk Assessor II](https://www.linkedin.com/jobs/view/4470372903/) — HydroGeoLogic, Inc.
+- 📍 **Location:** Overland Park, KS
+- 💰 **Salary:** $83,895.00/yr - $125,843.00/yr
+- 🕒 **Posted:** 2026-10-24
+
+### [Toxicologist](https://www.linkedin.com/jobs/view/4481983787/) — BioPhase
+- 📍 **Location:** San Diego, CA
+- 💰 **Salary:** $50.00/hr - $100.00/hr
+- 🕒 **Posted:** 2026-10-23
+
+### [Air Quality Inspector](https://www.linkedin.com/jobs/view/4476859599/) — Kansas Department of Health and Environment
+- 📍 **Location:** Neosho County, KS
+- 💰 **Salary:** $22.38-$24.72
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Chemist (Corvallis, OR)](https://www.linkedin.com/jobs/view/4481990428/) — ICF
+- 📍 **Location:** Corvallis, OR
+- 💰 **Salary:** $50,364.00 - $85,618.00
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Chemist (Corvallis, OR)](https://www.linkedin.com/jobs/view/4481991384/) — ICF
+- 📍 **Location:** Eugene, OR
+- 💰 **Salary:** $50,364.00 - $85,618.00
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Chemist (Corvallis, OR)](https://www.linkedin.com/jobs/view/4481988718/) — ICF
+- 📍 **Location:** Salem, OR
+- 💰 **Salary:** $50,364.00 - $85,618.00
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Chemist (Corvallis, OR)](https://www.linkedin.com/jobs/view/4481992358/) — ICF
+- 📍 **Location:** Portland, OR
+- 💰 **Salary:** $50,364.00 - $85,618.00
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Chemist (Corvallis, OR)](https://www.linkedin.com/jobs/view/4481977944/) — ICF
+- 📍 **Location:** Eugene, OR
+- 💰 **Salary:** $45,785.00 - $77,835.00
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Chemist (Corvallis, OR)](https://www.linkedin.com/jobs/view/4481987781/) — ICF
+- 📍 **Location:** Corvallis, OR
+- 💰 **Salary:** $45,785.00 - $77,835.00
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Chemist (Corvallis, OR)](https://www.linkedin.com/jobs/view/4481994196/) — ICF
+- 📍 **Location:** Portland, OR
+- 💰 **Salary:** $45,785.00 - $77,835.00
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Chemist (Corvallis, OR)](https://www.linkedin.com/jobs/view/4481977943/) — ICF
+- 📍 **Location:** Salem, OR
+- 💰 **Salary:** $45,785.00 - $77,835.00
+- 🕒 **Posted:** 2026-10-23
+
+### [Associate Chemist - PFAS Analysis - 2nd Shift, Tues-Sat](https://www.linkedin.com/jobs/view/4483160929/) — Eurofins Environment Testing (USA)
+- 📍 **Location:** Lancaster, PA
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Remediation Project Manager](https://www.linkedin.com/jobs/view/4483166632/) — Jacobs
+- 📍 **Location:** Dallas, TX
+- 💰 **Salary:** $121,900.00/yr - $178,000.00/yr
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Remediation Project Manager](https://www.linkedin.com/jobs/view/4483156983/) — Jacobs
+- 📍 **Location:** Austin, TX
+- 💰 **Salary:** $121,900.00/yr - $178,000.00/yr
+- 🕒 **Posted:** 2026-10-23
+
+### [Environmental Remediation Project Manager](https://www.linkedin.com/jobs/view/4483175111/) — Jacobs
+- 📍 **Location:** Houston, TX
+- 💰 **Salary:** $121,900.00/yr - $178,000.00/yr
 - 🕒 **Posted:** 2026-10-23
