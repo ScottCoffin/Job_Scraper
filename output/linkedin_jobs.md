@@ -1,6 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-10-24 21:08 UTC*
+*Last updated: 2026-10-24 23:33 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Senior Data Scientist, Fisheries & Water Resources](https://www.linkedin.com/jobs/view/4482650938/) — ICF
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $81,147.00 - $166,919.00
+- 🕒 **Posted:** 2026-10-24
