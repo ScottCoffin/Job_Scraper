@@ -1,6 +1,12 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-10-25 01:33 UTC*
+*Last updated: 2026-10-25 06:30 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**2 new role(s)** since last run · 2 total in last 1h
 
-No new roles since the last run.
+### [Medical Laboratory Scientist - Toxicology](https://www.linkedin.com/jobs/view/4483380109/) — Trinity Health
+- 📍 **Location:** Ann Arbor, MI
+- 🕒 **Posted:** 2026-10-25
+
+### [Medical Laboratory Scientist - Toxicology](https://www.linkedin.com/jobs/view/4483361843/) — Trinity Health
+- 📍 **Location:** Ann Arbor, MI
+- 🕒 **Posted:** 2026-10-25
