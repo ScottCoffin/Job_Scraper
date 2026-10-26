@@ -1,6 +1,8 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-10-25 22:06 UTC*
+*Last updated: 2026-10-26 00:37 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Manufacturing Safety, Health, and Environmental Specialist](https://www.linkedin.com/jobs/view/4482908492/) — Hader Solutions
+- 📍 **Location:** Medford, WI
+- 🕒 **Posted:** 2026-10-26
