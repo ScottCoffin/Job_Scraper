@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-10-24 18:46 UTC",
-  "total": 11,
+  "scraped_at": "2026-10-27 20:40 UTC",
+  "total": 10,
   "new_count": 0,
   "jobs": [
     {
@@ -16,23 +16,11 @@
       "work_arrangement": "On-site"
     },
     {
-      "company": "Department of Fish and Wildlife",
+      "company": "Department of Resources Recycling & Recovery",
       "title": "Environmental Scientist",
-      "location": "Yolo County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536437",
-      "date_posted": "2026-10-22",
-      "salary": "$4551.00 - $9601.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "12 Month Limited Term - Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "State Water Resources Control Board",
-      "title": "Environmental Scientist",
-      "location": "San Luis Obispo County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534879",
-      "date_posted": "2026-10-08",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533482",
+      "date_posted": "2026-10-09",
       "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
@@ -40,16 +28,16 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "Department of Parks & Recreation",
-      "title": "Environmental Scientist (Limited-Term)",
-      "location": "Los Angeles County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534918",
-      "date_posted": "2026-10-23",
+      "company": "State Water Resources Control Board",
+      "title": "Environmental Scientist",
+      "location": "United States",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533625",
+      "date_posted": "2026-10-07",
       "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
-      "telework": "In Office",
-      "job_type": "12 Month Limited Term - Full Time",
-      "work_arrangement": "On-site"
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
     },
     {
       "company": "Department of Water Resources",
@@ -76,11 +64,11 @@
       "work_arrangement": "On-site"
     },
     {
-      "company": "Department of Water Resources",
+      "company": "State Water Resources Control Board",
       "title": "Environmental Scientist",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=527904",
-      "date_posted": "2026-10-05",
+      "location": "San Luis Obispo County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534879",
+      "date_posted": "2026-10-08",
       "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
@@ -88,16 +76,16 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "Department of Resources Recycling & Recovery",
-      "title": "Environmental Scientist",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532169",
-      "date_posted": "2026-10-13",
+      "company": "Department of Parks & Recreation",
+      "title": "Environmental Scientist (Limited-Term)",
+      "location": "Los Angeles County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534918",
+      "date_posted": "2026-10-23",
       "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
+      "telework": "In Office",
+      "job_type": "12 Month Limited Term - Full Time",
+      "work_arrangement": "On-site"
     },
     {
       "company": "State Air Resources Board",
@@ -124,12 +112,12 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "State Water Resources Control Board",
-      "title": "Environmental Scientist",
-      "location": "United States",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533625",
-      "date_posted": "2026-10-07",
-      "salary": "$4418.00 - $9321.00",
+      "company": "Department of Resources Recycling & Recovery",
+      "title": "Senior Environmental Scientist (Specialist)",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536824",
+      "date_posted": "2026-10-26",
+      "salary": "$8055.00 - $11269.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
