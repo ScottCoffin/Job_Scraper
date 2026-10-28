@@ -1,18 +1,10 @@
 # 🟦 Indeed — Environmental / Toxicology Roles
-*Last updated: 2026-10-28 06:33 UTC*
+*Last updated: 2026-10-28 20:42 UTC*
 
-**2 new role(s)** since last run · 2 total in last 24h
+**1 new role(s)** since last run · 3 total in last 24h
 
-### [Associate Environmental Specialist](https://www.indeed.com/viewjob?jk=255a981ff703a2d9) — Metropolitan Water District of Southern California
-- 📍 **Location:** Los Angeles, CA, USA
-- 💰 **Salary:** $57.05–$75.05/hr
+### [Senior Environmental Scientist](https://au.indeed.com/viewjob?jk=e2f9a93217423424) — Tetra Tech
+- 📍 **Location:** Margaret River, WA, Australia
 - **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-28
-
-### [Environmental Health Safety & Secruity Manager](https://www.indeed.com/viewjob?jk=1eb11d0774357a09) — MITER Brands
-- 📍 **Location:** Sacramento, CA, USA
-- 💰 **Salary:** $96k–$119k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
+- **Job type:** parttime, fulltime
 - 🕒 **Posted:** 2026-10-28
