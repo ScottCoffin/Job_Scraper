@@ -1,1 +1,45 @@
-{"scraped_at": "2026-10-29 17:07 UTC", "total": 0, "new_count": 0, "jobs": [], "new_jobs": []}
+{
+  "scraped_at": "2026-10-29 20:35 UTC",
+  "total": 2,
+  "new_count": 2,
+  "jobs": [
+    {
+      "company": "Air Force Materiel Command",
+      "title": "Risk Assessor/Toxicologist Interdisciplinary (Environmental) - DIRECT HIRE AUTHORITY",
+      "location": "Kelly AFB, Texas",
+      "url": "https://www.usajobs.gov/job/881345300",
+      "date_posted": "2026-08-19",
+      "salary": "Starting at $90,823 Per year (NH 3)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Indian Health Service",
+      "title": "Environmental Health Specialist",
+      "location": "Rhinelander, Wisconsin",
+      "url": "https://www.usajobs.gov/job/890718800",
+      "date_posted": "2026-10-28",
+      "salary": "Starting at $74,678 Per year (GS 11)",
+      "ats": "USAJOBS"
+    }
+  ],
+  "new_jobs": [
+    {
+      "company": "Air Force Materiel Command",
+      "title": "Risk Assessor/Toxicologist Interdisciplinary (Environmental) - DIRECT HIRE AUTHORITY",
+      "location": "Kelly AFB, Texas",
+      "url": "https://www.usajobs.gov/job/881345300",
+      "date_posted": "2026-08-19",
+      "salary": "Starting at $90,823 Per year (NH 3)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Indian Health Service",
+      "title": "Environmental Health Specialist",
+      "location": "Rhinelander, Wisconsin",
+      "url": "https://www.usajobs.gov/job/890718800",
+      "date_posted": "2026-10-28",
+      "salary": "Starting at $74,678 Per year (GS 11)",
+      "ats": "USAJOBS"
+    }
+  ]
+}
