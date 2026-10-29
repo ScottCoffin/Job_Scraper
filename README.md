@@ -4,8 +4,6 @@ GitHub Actions pipelines that scrape job boards (LinkedIn, Indeed, Glassdoor, Zi
 
 **Everything you search for lives in one file: [`config.json`](config.json)** — point it at your field and locations (or generate it from your CV with an LLM) and you have your own tracker. Live example: [scottcoff.in/Job_Scraper/triage.html](https://scottcoff.in/Job_Scraper/triage.html).
 
-![The triage dashboard in action — filtering, salary distribution, map, and triage](docs/triage.gif)
-
 https://github.com/user-attachments/assets/1b7f695b-c900-4af6-8ca1-4a85f5f5b55f
 
 > This repo ships configured for **environmental / toxicology** roles (Dr. Scott Coffin's field — [scottcoff.in](https://scottcoff.in)) as a worked example, and began as [Ernesto Diaz](https://github.com/ernestod1998)'s Bay Area ML-engineer scraper. The walkthrough below sets up your own copy from scratch.
@@ -194,6 +192,7 @@ python -m http.server 8000                 # then open http://localhost:8000/tri
 
 The dashboard must be served over HTTP (the commands above) — opening `triage.html` from `file://` won't load the data.
 
+![The triage dashboard in action — filtering, salary distribution, map, and triage](docs/triage.gif)
 ------------------------------------------------------------------------
 
 > **The rest of this README documents how it works**, using the shipped environmental / toxicology example. Skim it to customize further; you don't need any of it to get running.
