@@ -6,6 +6,8 @@ GitHub Actions pipelines that scrape job boards (LinkedIn, Indeed, Glassdoor, Zi
 
 ![The triage dashboard in action — filtering, salary distribution, map, and triage](docs/triage.gif)
 
+https://github.com/user-attachments/assets/1b7f695b-c900-4af6-8ca1-4a85f5f5b55f
+
 > This repo ships configured for **environmental / toxicology** roles (Dr. Scott Coffin's field — [scottcoff.in](https://scottcoff.in)) as a worked example, and began as [Ernesto Diaz](https://github.com/ernestod1998)'s Bay Area ML-engineer scraper. The walkthrough below sets up your own copy from scratch.
 
 ------------------------------------------------------------------------
