@@ -1,1 +1,63 @@
-{"scraped_at": "2026-10-29 17:07 UTC", "total": 0, "new_count": 0, "jobs": [], "new_jobs": []}
+{
+  "scraped_at": "2026-10-29 21:12 UTC",
+  "total": 3,
+  "new_count": 3,
+  "jobs": [
+    {
+      "company": "Sunnyvale",
+      "title": "Water Pollution Control Plant Mechanic",
+      "location": "South Bay",
+      "url": "https://www.calopps.org/sunnyvale/job-20783377",
+      "date_posted": "",
+      "salary": "$52.72-$67.28 Hourly",
+      "ats": "CalOpps"
+    },
+    {
+      "company": "Simi Valley",
+      "title": "Environmental Compliance Programs Analyst (Limited-Term)",
+      "location": "Ventura County",
+      "url": "https://www.calopps.org/simi-valley/job-20777675",
+      "date_posted": "",
+      "salary": "",
+      "ats": "CalOpps"
+    },
+    {
+      "company": "Simi Valley",
+      "title": "Environmental Compliance Inspector (Bilingual)",
+      "location": "Ventura County",
+      "url": "https://www.calopps.org/simi-valley/job-20777635",
+      "date_posted": "",
+      "salary": "",
+      "ats": "CalOpps"
+    }
+  ],
+  "new_jobs": [
+    {
+      "company": "Sunnyvale",
+      "title": "Water Pollution Control Plant Mechanic",
+      "location": "South Bay",
+      "url": "https://www.calopps.org/sunnyvale/job-20783377",
+      "date_posted": "",
+      "salary": "$52.72-$67.28 Hourly",
+      "ats": "CalOpps"
+    },
+    {
+      "company": "Simi Valley",
+      "title": "Environmental Compliance Programs Analyst (Limited-Term)",
+      "location": "Ventura County",
+      "url": "https://www.calopps.org/simi-valley/job-20777675",
+      "date_posted": "",
+      "salary": "",
+      "ats": "CalOpps"
+    },
+    {
+      "company": "Simi Valley",
+      "title": "Environmental Compliance Inspector (Bilingual)",
+      "location": "Ventura County",
+      "url": "https://www.calopps.org/simi-valley/job-20777635",
+      "date_posted": "",
+      "salary": "",
+      "ats": "CalOpps"
+    }
+  ]
+}
