@@ -1,6 +1,8 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-10-30 07:47 UTC*
+*Last updated: 2026-10-30 20:20 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Safety & Environmental Compliance Lead](https://www.linkedin.com/jobs/view/4483903205/) — Monde Nissin Corporation
+- 📍 **Location:** Santa Rosa City, Calabarzon, Philippines
+- 🕒 **Posted:** 2026-10-30
