@@ -1,13 +1,14 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-02 04:01 UTC*
+*Last updated: 2026-11-02 09:12 UTC*
 
 **2 new role(s)** since last run · 2 total in last 1h
 
-### [Team Manager - Water Resources and Dam Safety](https://www.linkedin.com/jobs/view/4485433445/) — Concentis
-- 📍 **Location:** Townsville, Queensland, Australia
+### [Air Quality Technical Lead](https://www.linkedin.com/jobs/view/4440766137/) — GHD
+- 📍 **Location:** Golden, CO
+- 💰 **Salary:** $170,500.00 - $284,000.00
 - 🕒 **Posted:** 2026-11-02
 
-### [ENVIRONMENTAL SCIENCE SPECIALIST 1](https://www.linkedin.com/jobs/view/4483996961/) — Air & Waste Management Association - Grand Canyon Section
-- 📍 **Location:** Indiana, United States
-- 💰 **Salary:** $45K-$50K
+### [Air Quality Technical Lead](https://www.linkedin.com/jobs/view/4440767098/) — GHD
+- 📍 **Location:** Houston, TX
+- 💰 **Salary:** $170,500.00 - $284,000.00
 - 🕒 **Posted:** 2026-11-02
