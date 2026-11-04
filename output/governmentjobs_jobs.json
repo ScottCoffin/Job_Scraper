@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-11-03 21:48 UTC",
-  "total": 40,
-  "new_count": 14,
+  "scraped_at": "2026-11-04 21:55 UTC",
+  "total": 36,
+  "new_count": 3,
   "jobs": [
     {
       "company": "State of Louisiana",
@@ -31,21 +31,21 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "State of Louisiana",
+      "title": "Environmental Scientist Staff DCL-A",
+      "location": "Shreveport, LA",
+      "url": "https://www.governmentjobs.com/jobs/5539727-0/environmental-scientist-staff-dcl-a",
+      "date_posted": "",
+      "salary": "$4,770.00 - $8,589.00 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "City of McKinney",
       "title": "Environmental Health Specialist/Senior Environmental Health Specialist",
       "location": "TX 75069, TX",
       "url": "https://www.governmentjobs.com/jobs/5508150-0/environmental-health-specialist-senior-environmental-health-specialist",
       "date_posted": "",
       "salary": "$58,212.89 - $84,410.66 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Volusia",
-      "title": "Environmental Specialist II - Seabird Hospital Manager - Environmental Management",
-      "location": "Ponce Inlet, FL",
-      "url": "https://www.governmentjobs.com/jobs/5527828-0/environmental-specialist-ii-seabird-hospital-manager-environmental-management",
-      "date_posted": "",
-      "salary": "$2,252.00 - $4,290.40 Biweekly",
       "ats": "NEOGOV"
     },
     {
@@ -103,6 +103,15 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "Georgia Department of Public Health (GA)",
+      "title": "Environmental Health County Manager",
+      "location": "DeKalb County, GA",
+      "url": "https://www.governmentjobs.com/jobs/5539567-0/environmental-health-county-manager",
+      "date_posted": "",
+      "salary": "",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "County of San Benito",
       "title": "Environmental Health Specialist III",
       "location": "CA. 95023, CA",
@@ -153,7 +162,7 @@
       "location": "City of Washington, NC",
       "url": "https://www.governmentjobs.com/jobs/5528127-0/environmental-health-protection-officer",
       "date_posted": "",
-      "salary": "$49,153.00 - $83,182.00 Annually",
+      "salary": "$50,333.00 - $85,178.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -193,30 +202,12 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "Brunswick County",
-      "title": "Environmental Health Specialist I, II",
-      "location": "Bolivia, NC",
-      "url": "https://www.governmentjobs.com/jobs/5523815-0/environmental-health-specialist-i-ii",
-      "date_posted": "",
-      "salary": "$27.77 - $49.57 Hourly",
-      "ats": "NEOGOV"
-    },
-    {
       "company": "State of Michigan",
       "title": "Toxicology Specialist-2, Risk Assessment",
       "location": "Lansing, MI",
       "url": "https://www.governmentjobs.com/jobs/5536110-0/toxicology-specialist-2-risk-assessment",
       "date_posted": "",
       "salary": "$37.97 - $53.61 Hourly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of DuPage",
-      "title": "Water Quality Specialist",
-      "location": "Wheaton, IL",
-      "url": "https://www.governmentjobs.com/jobs/5522147-0/water-quality-specialist",
-      "date_posted": "",
-      "salary": "$82,000.00 - $87,000.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -238,6 +229,15 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "County of DuPage",
+      "title": "Water Quality Specialist",
+      "location": "Wheaton, IL",
+      "url": "https://www.governmentjobs.com/jobs/5522147-0/water-quality-specialist",
+      "date_posted": "",
+      "salary": "$82,000.00 - $87,000.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "Metro Water Recovery",
       "title": "Water Quality Chemist I",
       "location": "Denver, CO",
@@ -253,6 +253,15 @@
       "url": "https://www.governmentjobs.com/jobs/5523040-0/water-quality-wq-specialist",
       "date_posted": "",
       "salary": "$60,840.00 - $101,388.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Madison, City of (WI)",
+      "title": "Water Quality Program Specialist*",
+      "location": "Madison, WI",
+      "url": "https://www.governmentjobs.com/jobs/5497335-0/water-quality-program-specialist",
+      "date_posted": "",
+      "salary": "",
       "ats": "NEOGOV"
     },
     {
@@ -317,178 +326,34 @@
       "date_posted": "",
       "salary": "$76,608.00 - $102,996.00 Annually",
       "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Norfolk",
-      "title": "Environmental Specialist II (Storm Water)",
-      "location": "Norfolk, VA",
-      "url": "https://www.governmentjobs.com/jobs/5534247-0/environmental-specialist-ii-storm-water",
-      "date_posted": "",
-      "salary": "$54,190.94 - $90,788.72 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Kandiyohi County",
-      "title": "Environmental Specialist - Shoreline/Aquatic Invasive Species",
-      "location": "Willmar, MN",
-      "url": "https://www.governmentjobs.com/jobs/5522123-0/environmental-specialist-shoreline-aquatic-invasive-species",
-      "date_posted": "",
-      "salary": "$74,430.00 - $104,118.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Forsyth County (NC)",
-      "title": "Sr. Environmental Health Specialist",
-      "location": "Winston-Salem, NC",
-      "url": "https://www.governmentjobs.com/jobs/5377550-0/sr-environmental-health-specialist",
-      "date_posted": "",
-      "salary": "$57,574.40 - $66,206.40 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Santa Rosa County",
-      "title": "Environmental Compliance Specialist",
-      "location": "Milton, FL",
-      "url": "https://www.governmentjobs.com/jobs/5536972-0/environmental-compliance-specialist",
-      "date_posted": "",
-      "salary": "$25.76 - $28.33 Hourly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Irving",
-      "title": "Environmental Compliance Specialist",
-      "location": "City of Irving, TX",
-      "url": "https://www.governmentjobs.com/jobs/5525342-0/environmental-compliance-specialist",
-      "date_posted": "",
-      "salary": "$58,344.00 - $82,272.00 Annually",
-      "ats": "NEOGOV"
     }
   ],
   "new_jobs": [
     {
-      "company": "Summit County Government (CO)",
-      "title": "Environmental Health Specialist",
-      "location": "Frisco, CO",
-      "url": "https://www.governmentjobs.com/jobs/5537688-0/environmental-health-specialist",
+      "company": "State of Louisiana",
+      "title": "Environmental Scientist Staff DCL-A",
+      "location": "Shreveport, LA",
+      "url": "https://www.governmentjobs.com/jobs/5539727-0/environmental-scientist-staff-dcl-a",
       "date_posted": "",
-      "salary": "$65,021.00 - $72,336.00 Annually",
+      "salary": "$4,770.00 - $8,589.00 Monthly",
       "ats": "NEOGOV"
     },
     {
-      "company": "County of Tulare",
-      "title": "Environmental Health Supervisor",
-      "location": "Visalia, CA",
-      "url": "https://www.governmentjobs.com/jobs/5528759-0/environmental-health-supervisor",
+      "company": "Georgia Department of Public Health (GA)",
+      "title": "Environmental Health County Manager",
+      "location": "DeKalb County, GA",
+      "url": "https://www.governmentjobs.com/jobs/5539567-0/environmental-health-county-manager",
       "date_posted": "",
-      "salary": "$84,881.34 - $103,447.44 Annually",
+      "salary": "",
       "ats": "NEOGOV"
     },
     {
-      "company": "State of Michigan",
-      "title": "Toxicology Specialist-2, Risk Assessment",
-      "location": "Lansing, MI",
-      "url": "https://www.governmentjobs.com/jobs/5536110-0/toxicology-specialist-2-risk-assessment",
+      "company": "Madison, City of (WI)",
+      "title": "Water Quality Program Specialist*",
+      "location": "Madison, WI",
+      "url": "https://www.governmentjobs.com/jobs/5497335-0/water-quality-program-specialist",
       "date_posted": "",
-      "salary": "$37.97 - $53.61 Hourly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Metro Water Recovery",
-      "title": "Water Quality Chemist I",
-      "location": "Denver, CO",
-      "url": "https://www.governmentjobs.com/jobs/5534999-0/water-quality-chemist-i",
-      "date_posted": "",
-      "salary": "$28.21 - $39.35 Hourly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Boulder County",
-      "title": "Water Quality (WQ) Specialist",
-      "location": "Boulder County, CO",
-      "url": "https://www.governmentjobs.com/jobs/5523040-0/water-quality-wq-specialist",
-      "date_posted": "",
-      "salary": "$60,840.00 - $101,388.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "State of South Carolina",
-      "title": "Water Quality Compliance Specialist I (Environmental Health Manager I)",
-      "location": "Charleston County, SC",
-      "url": "https://www.governmentjobs.com/jobs/5529755-0/water-quality-compliance-specialist-i-environmental-health-manager-i",
-      "date_posted": "",
-      "salary": "$54,866.00 - $78,540.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Montgomery County",
-      "title": "Field Services Water Quality & Supply Operator",
-      "location": "Kettering OH 45432, OH",
-      "url": "https://www.governmentjobs.com/jobs/5526341-0/field-services-water-quality-supply-operator",
-      "date_posted": "",
-      "salary": "$51,792.00 - $65,416.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Palo Alto",
-      "title": "Journeyman Industrial Electrician - Water Quality Control Plant (Electrician)",
-      "location": "Palo Alto, CA",
-      "url": "https://www.governmentjobs.com/jobs/5192494-0/journeyman-industrial-electrician-water-quality-control-plant-electrician",
-      "date_posted": "",
-      "salary": "$119,953.60 - $146,702.40 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Prince George's County Government",
-      "title": "Hazardous Materials/Environmental Compliance Specialist",
-      "location": "Upper Marlboro, MD",
-      "url": "https://www.governmentjobs.com/jobs/5537646-0/hazardous-materials-environmental-compliance-specialist",
-      "date_posted": "",
-      "salary": "$66,549.00 - $90,320.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "State of South Carolina",
-      "title": "Hazardous Waste Facility/Air Compliance Specialist (EHM I)",
-      "location": "Florence County, SC",
-      "url": "https://www.governmentjobs.com/jobs/5530700-0/hazardous-waste-facility-air-compliance-specialist-ehm-i",
-      "date_posted": "",
-      "salary": "$54,866.00 - $78,540.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Norfolk",
-      "title": "Environmental Specialist II (Storm Water)",
-      "location": "Norfolk, VA",
-      "url": "https://www.governmentjobs.com/jobs/5534247-0/environmental-specialist-ii-storm-water",
-      "date_posted": "",
-      "salary": "$54,190.94 - $90,788.72 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Forsyth County (NC)",
-      "title": "Sr. Environmental Health Specialist",
-      "location": "Winston-Salem, NC",
-      "url": "https://www.governmentjobs.com/jobs/5377550-0/sr-environmental-health-specialist",
-      "date_posted": "",
-      "salary": "$57,574.40 - $66,206.40 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Santa Rosa County",
-      "title": "Environmental Compliance Specialist",
-      "location": "Milton, FL",
-      "url": "https://www.governmentjobs.com/jobs/5536972-0/environmental-compliance-specialist",
-      "date_posted": "",
-      "salary": "$25.76 - $28.33 Hourly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Irving",
-      "title": "Environmental Compliance Specialist",
-      "location": "City of Irving, TX",
-      "url": "https://www.governmentjobs.com/jobs/5525342-0/environmental-compliance-specialist",
-      "date_posted": "",
-      "salary": "$58,344.00 - $82,272.00 Annually",
+      "salary": "",
       "ats": "NEOGOV"
     }
   ]
