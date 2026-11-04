@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-11-03 21:43 UTC",
-  "total": 11,
+  "scraped_at": "2026-11-04 21:50 UTC",
+  "total": 10,
   "new_count": 0,
   "jobs": [
     {
@@ -28,15 +28,15 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "State Lands Commission",
+      "company": "Department of Fish and Wildlife",
       "title": "Environmental Scientist",
-      "location": "United States",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536266",
+      "location": "Yolo County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536437",
       "date_posted": "2026-10-22",
       "salary": "$4551.00 - $9601.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
+      "job_type": "12 Month Limited Term - Full Time",
       "work_arrangement": "Telecommute eligible"
     },
     {
@@ -64,36 +64,24 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "Department of Fish and Wildlife",
-      "title": "Environmental Scientist",
-      "location": "Yolo County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536437",
-      "date_posted": "2026-10-22",
-      "salary": "$4551.00 - $9601.00",
+      "company": "Department of Food & Agriculture",
+      "title": "ENVIRONMENTAL SCIENTIST",
+      "location": "Stanislaus County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535323",
+      "date_posted": "2026-10-13",
+      "salary": "$4418.00 - $9321.00",
       "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "12 Month Limited Term - Full Time",
-      "work_arrangement": "Telecommute eligible"
+      "telework": "In Office",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "On-site"
     },
     {
       "company": "State Water Resources Control Board",
       "title": "Environmental Scientist",
       "location": "San Luis Obispo County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534879",
-      "date_posted": "2026-10-08",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=482161",
+      "date_posted": "2026-11-03",
       "salary": "$4418.00 - $9321.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "Department of Toxic Substances Control",
-      "title": "Environmental Scientist",
-      "location": "Alameda County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=537404",
-      "date_posted": "2026-10-30",
-      "salary": "$4551.00 - $9787.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
