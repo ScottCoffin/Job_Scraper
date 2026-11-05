@@ -1,9 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-05 02:19 UTC*
+*Last updated: 2026-11-05 03:28 UTC*
 
-**1 new role(s)** since last run · 1 total in last 1h
+**1 new role(s)** since last run · 2 total in last 1h
 
-### [Environmental Health Specialist- Food Safety](https://www.linkedin.com/jobs/view/4486560283/) — Boulder County Sheriff's Office
-- 📍 **Location:** Boulder County, CO
-- 💰 **Salary:** $70,428.00 - $101,388.00 Annually
+### [Hazardous Materials Specialist](https://www.linkedin.com/jobs/view/4487578158/) — City of Mountain View
+- 📍 **Location:** Protection, KS
+- 💰 **Salary:** $167,726.52/yr - $226,924.36/yr
 - 🕒 **Posted:** 2026-11-05
