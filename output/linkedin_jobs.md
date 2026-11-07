@@ -1,51 +1,34 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-06 22:17 UTC*
+*Last updated: 2026-11-07 02:14 UTC*
 
-**10 new role(s)** since last run · 10 total in last 1h
+**6 new role(s)** since last run · 6 total in last 1h
 
-### [Environmental Specialist](https://www.linkedin.com/jobs/view/4487256818/) — Triumvirate Environmental
-- 📍 **Location:** San Leandro, CA
-- 💰 **Salary:** $28 USD - $28 USD
-- 🕒 **Posted:** 2026-11-06
+### [Water Resources Coordinator/EIT](https://www.linkedin.com/jobs/view/4487375672/) — HDR
+- 📍 **Location:** Walnut Creek, CA
+- 💰 **Salary:** $71,082.00 - $101,545.00 annually
+- 🕒 **Posted:** 2026-11-07
 
-### [Environmental Specialist](https://www.linkedin.com/jobs/view/4487255950/) — Triumvirate Environmental
-- 📍 **Location:** Redwood City, CA
-- 💰 **Salary:** $28 USD - $28 USD
-- 🕒 **Posted:** 2026-11-06
+### [Water Resources Coordinator/EIT](https://www.linkedin.com/jobs/view/4487386005/) — HDR
+- 📍 **Location:** Sacramento, CA
+- 💰 **Salary:** $71,082.00 - $101,545.00 annually
+- 🕒 **Posted:** 2026-11-07
 
-### [Risk Assessment Privacy Specialist](https://www.linkedin.com/jobs/view/4487352026/) — Ironwall by Incogni
-- 📍 **Location:** Mission Viejo, CA
-- 🕒 **Posted:** 2026-11-06
+### [Environmental Specialist](https://www.linkedin.com/jobs/view/4488480221/) — PPG
+- 📍 **Location:** Cleveland, OH
+- 💰 **Salary:** $100,000 - $125,000
+- 🕒 **Posted:** 2026-11-07
 
-### [Project & Regulatory Toxicologist](https://www.linkedin.com/jobs/view/4487335947/) — BioPhase
-- 📍 **Location:** San Diego, CA
-- 💰 **Salary:** $175,000.00/yr - $220,000.00/yr
-- 🕒 **Posted:** 2026-11-06
+### [Mold Remediation Supervisor](https://www.linkedin.com/jobs/view/4488474523/) — IICRC
+- 📍 **Location:** Pelham, AL
+- 💰 **Salary:** $24.00 - $28.00 per hour
+- 🕒 **Posted:** 2026-11-07
 
-### [Hazardous Waste Operations Manager- Pharmaceutical](https://www.linkedin.com/jobs/view/4488423753/) — Clean Harbors
-- 📍 **Location:** Nashville, TN
-- 💰 **Salary:** $50,500.00/yr - $159,963.00/yr
-- 🕒 **Posted:** 2026-11-06
+### [Environmental Specialist](https://www.linkedin.com/jobs/view/4488472636/) — Triumvirate Environmental
+- 📍 **Location:** Queens, NY
+- 💰 **Salary:** $25 USD - $25 USD
+- 🕒 **Posted:** 2026-11-07
 
-### [Environmental Compliance Manager](https://www.linkedin.com/jobs/view/4488438044/) — Clean Harbors
-- 📍 **Location:** Sanger, CA
-- 🕒 **Posted:** 2026-11-06
-
-### [Principal Environmental Compliance Consultant](https://www.linkedin.com/jobs/view/4488430493/) — Terraphase Engineering Inc.
-- 📍 **Location:** San Diego, CA
-- 💰 **Salary:** $135,000 USD - $200,000 USD
-- 🕒 **Posted:** 2026-11-06
-
-### [Principal Environmental Compliance Consultant](https://www.linkedin.com/jobs/view/4488444022/) — Terraphase Engineering Inc.
-- 📍 **Location:** Austin, TX
-- 💰 **Salary:** $135,000 USD - $200,000 USD
-- 🕒 **Posted:** 2026-11-06
-
-### [Principal Environmental Compliance Consultant](https://www.linkedin.com/jobs/view/4488426747/) — Terraphase Engineering Inc.
-- 📍 **Location:** Conshohocken, PA
-- 💰 **Salary:** $135,000 USD - $200,000 USD
-- 🕒 **Posted:** 2026-11-06
-
-### [Lead Geologist/Environmental Scientist](https://www.linkedin.com/jobs/view/4486286429/) — The Foth Companies
-- 📍 **Location:** Green Bay, WI
-- 🕒 **Posted:** 2026-11-06
+### [Environmental Specialist](https://www.linkedin.com/jobs/view/4488471761/) — Triumvirate Environmental
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $25 USD - $25 USD
+- 🕒 **Posted:** 2026-11-07
