@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-11-07 07:37 UTC",
+  "scraped_at": "2026-11-07 07:49 UTC",
   "total": 3,
-  "new_count": 3,
+  "new_count": 0,
   "jobs": [
     {
       "company": "NURIX",
@@ -22,24 +22,6 @@
       "ats": "Indeed"
     },
     {
-      "company": "SC&A Inc",
-      "title": "Mid-Level Environmental Specialist",
-      "location": "Remote, USA",
-      "url": "https://www.indeed.com/viewjob?jk=6edfa3fe51cfd306",
-      "direct_url": "https://scainc.applytojob.com/apply/gBDh5xnxU3/MidLevel-Environmental-Specialist?source=INDE&~",
-      "company_url": "https://www.indeed.com/cmp/Sc&A-Inc",
-      "date_posted": "2026-11-06",
-      "description": "SC&A is seeking a mid‑level environmental professional with strong technical knowledge in the National Environmental Policy Act (NEPA) and related resource areas and environmental review topics to support federal clients such as the U.S. Nuclear Regulatory Commission (NRC) and the U.S. Department of Energy (DOE). Ideal candidates will bring experience working on environmental analyses for nuclear facilities, decommissioning activities, or waste management programs, and will be eager to deepen their expertise in environmental reviews. We are seeking individuals who enjoy collaborative project work and want to contribute to projects with meaningful environmental and public health implications.  \n  \n**Key Responsibilities**\n\n* Support multidisciplinary projects by contributing technical sections, analyses, and review of environmental documentation and references.\n* Assist in preparing environmental assessments, environmental impact statements, and related materials, ensuring accuracy, clarity, and regulatory compliance.\n* Conduct research and analysis related to nuclear facilities, environmental remediation, energy infrastructure, and federal programs.\n\n**Qualifications**\n\n* Bachelor or higher degree from an accredited institution in environmental science, engineering, policy, or a related field.\n* Minimum of 5 years of **direct** experience supporting NEPA documentation for federal agencies or major infrastructure projects. Experience with NRC and/or DOE environmental documents strongly preferred.\n* Subject matter expertise in a NEPA resource area, such as biological resources.\n* Technical familiarity with nuclear facility siting, construction, operations, decommissioning, and/or waste management is highly desirable.\n* Strong technical writing, analytical, and communication skills.\n* Ability to work independently while contributing effectively within multidisciplinary, remote teams.\n* U.S. citizenship and ability to obtain a security clearance required due to federal contract requirements.\n\n**Location & Work Arrangement**  \nThis is a remote position open to qualified candidates located anywhere in the United States. Occasional travel may be required based on project needs.\n\n***SC&A does not accept third-party applications or agency inquiries. Phone calls are not accepted for any position.***\n\n*Job descriptions are not intended as and do not create employment contracts. SC&A maintains its status as an at-will employer. Employees can be terminated for any reason not prohibited by law. Candidates are required to pass a background screening prior to employment.*\n\ngBDh5xnxU3",
-      "salary": "",
-      "salary_source": "",
-      "salary_currency": "",
-      "job_type": "fulltime",
-      "is_remote": false,
-      "work_arrangement": "Remote in-state eligible",
-      "emails": "",
-      "ats": "Indeed"
-    },
-    {
       "company": "TechGlobal, Inc.",
       "title": "Environmental Scientist / Regulatory Fishery Biologist – OWCO Support",
       "location": "Remote, USA",
@@ -51,6 +33,24 @@
       "salary": "$65k–$73k/yr",
       "salary_source": "direct_data",
       "salary_currency": "USD",
+      "job_type": "fulltime",
+      "is_remote": false,
+      "work_arrangement": "Remote in-state eligible",
+      "emails": "",
+      "ats": "Indeed"
+    },
+    {
+      "company": "SC&A Inc",
+      "title": "Mid-Level Environmental Specialist",
+      "location": "Remote, USA",
+      "url": "https://www.indeed.com/viewjob?jk=6edfa3fe51cfd306",
+      "direct_url": "https://scainc.applytojob.com/apply/gBDh5xnxU3/MidLevel-Environmental-Specialist?source=INDE&~",
+      "company_url": "https://www.indeed.com/cmp/Sc&A-Inc",
+      "date_posted": "2026-11-06",
+      "description": "SC&A is seeking a mid‑level environmental professional with strong technical knowledge in the National Environmental Policy Act (NEPA) and related resource areas and environmental review topics to support federal clients such as the U.S. Nuclear Regulatory Commission (NRC) and the U.S. Department of Energy (DOE). Ideal candidates will bring experience working on environmental analyses for nuclear facilities, decommissioning activities, or waste management programs, and will be eager to deepen their expertise in environmental reviews. We are seeking individuals who enjoy collaborative project work and want to contribute to projects with meaningful environmental and public health implications.  \n  \n**Key Responsibilities**\n\n* Support multidisciplinary projects by contributing technical sections, analyses, and review of environmental documentation and references.\n* Assist in preparing environmental assessments, environmental impact statements, and related materials, ensuring accuracy, clarity, and regulatory compliance.\n* Conduct research and analysis related to nuclear facilities, environmental remediation, energy infrastructure, and federal programs.\n\n**Qualifications**\n\n* Bachelor or higher degree from an accredited institution in environmental science, engineering, policy, or a related field.\n* Minimum of 5 years of **direct** experience supporting NEPA documentation for federal agencies or major infrastructure projects. Experience with NRC and/or DOE environmental documents strongly preferred.\n* Subject matter expertise in a NEPA resource area, such as biological resources.\n* Technical familiarity with nuclear facility siting, construction, operations, decommissioning, and/or waste management is highly desirable.\n* Strong technical writing, analytical, and communication skills.\n* Ability to work independently while contributing effectively within multidisciplinary, remote teams.\n* U.S. citizenship and ability to obtain a security clearance required due to federal contract requirements.\n\n**Location & Work Arrangement**  \nThis is a remote position open to qualified candidates located anywhere in the United States. Occasional travel may be required based on project needs.\n\n***SC&A does not accept third-party applications or agency inquiries. Phone calls are not accepted for any position.***\n\n*Job descriptions are not intended as and do not create employment contracts. SC&A maintains its status as an at-will employer. Employees can be terminated for any reason not prohibited by law. Candidates are required to pass a background screening prior to employment.*\n\ngBDh5xnxU3",
+      "salary": "",
+      "salary_source": "",
+      "salary_currency": "",
       "job_type": "fulltime",
       "is_remote": false,
       "work_arrangement": "Remote in-state eligible",
@@ -58,60 +58,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "NURIX",
-      "title": "Director, Head of Investigative Toxicology",
-      "location": "Brisbane, CA, USA",
-      "url": "https://www.indeed.com/viewjob?jk=cc91d0e6d71983f5",
-      "direct_url": "https://grnh.se/m7submm72us",
-      "company_url": "https://www.indeed.com/cmp/Nurix",
-      "date_posted": "2026-11-06",
-      "description": "**Director, Head of Investigative Toxicology**\n\n*Build Nurix's in-house in vitro toxicology capability from the ground up. As Director, Head of Investigative Toxicology, you'll establish the assays, infrastructure and mechanistic understanding to identify target- and modality-related safety liabilities earlier in discovery, shaping lead selection for our growing pipeline of targeted protein degrader programs. This is a hands-on, lab-based leadership role.*\n\n  \n\n**Position Description**\n\n**The Opportunity**\n\nNurix Therapeutics is seeking a Head of Investigative Toxicology to establish and lead our in-house in vitro toxicology testing capability. Reporting into the Preclinical Toxicology leadership team, this individual will build the assays, infrastructure, and mechanistic understanding needed to characterize target- and modality-related safety liabilities earlier in discovery, reducing reliance on external CROs for early screening and de-risking. This is a hands-on, lab-based leadership role for a scientist who wants to build a function from the ground up, working in close partnership with Discovery Biology, Chemistry, DMPK, and Pharmacology to inform lead selection and optimization for our growing pipeline of targeted protein degrader programs. The position reports to the Senior Vice President, Nonclinical Toxicology.\n\n***In Vitro Toxicology Capability Build***\n\n* Design, establish, and validate an in-house in vitro toxicology testing platform, including assay selection, equipment procurement, protocol development, and standard operating procedures\n* Develop and implement in vitro toxicology (primary and immortalized cell culture, hepatocyte and iPSC cardiomyocyte models) assays to screen for cytotoxicity and off-target liabilities\n* Define the technical roadmap and prioritize which in vitro assays to bring in-house versus continue to source through CRO partners, balancing scientific value, cost, and speed\n* Own day-to-day lab operations for the function, including equipment maintenance, vendor and reagent management, and data management systems\n\n***Investigative & Mechanistic Toxicology***\n\n* Serve as the in vitro/investigative toxicology representative on discovery project teams, providing mechanistic insight into target and modality-related safety findings\n* Design and interpret investigative studies to elucidate mechanisms of toxicity, including neosubstrate and off-target degradation risk relevant to targeted protein degrader molecules\n* Partner with DMPK, Pharmacology, and Discovery Biology to integrate in vitro toxicology data into candidate selection, structure-activity relationship (SAR), and lead optimization decisions\n* Translate in vitro findings into risk assessments and clear recommendations for project teams and research leadership\n\n***Team & Culture***\n\n* Hire, mentor, and develop scientific staff as the in vitro toxicology function grows\n* Represent in vitro/investigative toxicology in Research Leadership meetings and contribute to the broader nonclinical safety strategy\n* Foster a collaborative, science-driven culture consistent with Nurix's values of rigor, creativity, and patient focus\n\n  \n\n**What You'll Bring**\n\n***Required Qualifications***\n\n* PhD in Toxicology, Pharmacology, Molecular Biology, or a closely related life sciences discipline; postdoctoral training preferred\n* 10+ years of relevant nonclinical safety, investigative toxicology, or molecular/cellular toxicology experience in the pharmaceutical or biotechnology industry, including direct, hands-on laboratory experience with in vitro and/or complex in vitro (MPS) model systems\n* Demonstrated experience building, validating, and implementing new in vitro assay platforms or laboratory capabilities in an industry setting\n* Strong working knowledge of mechanisms of drug-induced toxicity and the in vitro tools used to investigate them (e.g., high content imaging, primary and immortalized cell culture, hepatocyte/cardiomyocyte models, genotoxicity assays)\n* Proven ability to translate in vitro data into actionable risk assessments and communicate findings clearly to cross-functional project teams and senior leadership\n* Experience managing CRO relationships and evaluating build-versus-buy decisions for laboratory capabilities\n\n***Preferred Qualifications***\n\n* Experience with targeted protein degradation (TPD) or other novel small molecule modalities, including neosubstrate/off-target degradation risk assessment\n* Experience establishing or scaling a laboratory function within a growing, clinical-stage biotech\n* Familiarity with New Approach Methodologies (NAMs) and organ-on-chip/microphysiological systems\n* People management or mentoring experience\n* Strong publication record in investigative or molecular toxicology\n\n  \n\n**Salary Range:** $240,100 - $281,700\n\n*The posted range applies to roles based in the San Francisco Bay Area and reflects local market conditions. Where an offer lands within that range depends on the candidate's relevant experience, technical expertise, and how their background aligns with the role's requirements.*\n\n**Location:** Onsite – Brisbane, CA\n\n  \n\n**Fit with Nurix Culture and Values**\n\n* Strong team orientation; highly collaborative\n* Solutions and results-oriented focus\n* Hands-on approach; resourceful and open to diverse points of view\n\n  \n\n**About Nurix Therapeutics**\n\n*Nurix Therapeutics is a clinical stage biopharmaceutical company focused on the discovery, development, and commercialization of targeted protein degradation medicines, the next frontier in innovative drug design aimed at improving treatment options for patients with cancer and inflammatory diseases. Powered by a fully AI-integrated discovery engine capable of tackling any protein class, and coupled with unparalleled ligase expertise, Nurix's dedicated team has built a formidable advantage in translating the science of targeted protein degradation into clinical advancements. Nurix aims to establish degrader-based ",
-      "salary": "$240k–$282k/yr",
-      "salary_source": "direct_data",
-      "salary_currency": "USD",
-      "job_type": "",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "",
-      "ats": "Indeed"
-    },
-    {
-      "company": "SC&A Inc",
-      "title": "Mid-Level Environmental Specialist",
-      "location": "Remote, USA",
-      "url": "https://www.indeed.com/viewjob?jk=6edfa3fe51cfd306",
-      "direct_url": "https://scainc.applytojob.com/apply/gBDh5xnxU3/MidLevel-Environmental-Specialist?source=INDE&~",
-      "company_url": "https://www.indeed.com/cmp/Sc&A-Inc",
-      "date_posted": "2026-11-06",
-      "description": "SC&A is seeking a mid‑level environmental professional with strong technical knowledge in the National Environmental Policy Act (NEPA) and related resource areas and environmental review topics to support federal clients such as the U.S. Nuclear Regulatory Commission (NRC) and the U.S. Department of Energy (DOE). Ideal candidates will bring experience working on environmental analyses for nuclear facilities, decommissioning activities, or waste management programs, and will be eager to deepen their expertise in environmental reviews. We are seeking individuals who enjoy collaborative project work and want to contribute to projects with meaningful environmental and public health implications.  \n  \n**Key Responsibilities**\n\n* Support multidisciplinary projects by contributing technical sections, analyses, and review of environmental documentation and references.\n* Assist in preparing environmental assessments, environmental impact statements, and related materials, ensuring accuracy, clarity, and regulatory compliance.\n* Conduct research and analysis related to nuclear facilities, environmental remediation, energy infrastructure, and federal programs.\n\n**Qualifications**\n\n* Bachelor or higher degree from an accredited institution in environmental science, engineering, policy, or a related field.\n* Minimum of 5 years of **direct** experience supporting NEPA documentation for federal agencies or major infrastructure projects. Experience with NRC and/or DOE environmental documents strongly preferred.\n* Subject matter expertise in a NEPA resource area, such as biological resources.\n* Technical familiarity with nuclear facility siting, construction, operations, decommissioning, and/or waste management is highly desirable.\n* Strong technical writing, analytical, and communication skills.\n* Ability to work independently while contributing effectively within multidisciplinary, remote teams.\n* U.S. citizenship and ability to obtain a security clearance required due to federal contract requirements.\n\n**Location & Work Arrangement**  \nThis is a remote position open to qualified candidates located anywhere in the United States. Occasional travel may be required based on project needs.\n\n***SC&A does not accept third-party applications or agency inquiries. Phone calls are not accepted for any position.***\n\n*Job descriptions are not intended as and do not create employment contracts. SC&A maintains its status as an at-will employer. Employees can be terminated for any reason not prohibited by law. Candidates are required to pass a background screening prior to employment.*\n\ngBDh5xnxU3",
-      "salary": "",
-      "salary_source": "",
-      "salary_currency": "",
-      "job_type": "fulltime",
-      "is_remote": false,
-      "work_arrangement": "Remote in-state eligible",
-      "emails": "",
-      "ats": "Indeed"
-    },
-    {
-      "company": "TechGlobal, Inc.",
-      "title": "Environmental Scientist / Regulatory Fishery Biologist – OWCO Support",
-      "location": "Remote, USA",
-      "url": "https://www.indeed.com/viewjob?jk=538d5db1621f1148",
-      "direct_url": "",
-      "company_url": "https://www.indeed.com/cmp/Techglobal,-Inc.-1",
-      "date_posted": "2026-11-06",
-      "description": "**Work Location:** Primarily Remote / Off-Site (with temporary on-site access in Lacey or Seattle, WA as needed)\n\n**Overview:**\n\nTechGlobal, Inc., a leader in providing professional services and IT solutions to government clients, is seeking a qualified Environmental Scientist to support the National Marine Fisheries Service (NMFS) Oregon-Washington Coastal Office (OWCO). This role supports interagency consultations under the Endangered Species Act (ESA) Section 7, the Magnuson-Stevens Fishery Conservation and Management Act (MSA), and the National Environmental Policy Act (NEPA). The position primarily involves office-based technical and regulatory duties, including evaluating environmental impacts of proposed projects, drafting consultation documents, and providing technical assistance.\n\n**Duties:**\n\n· **Data Analysis & Synthesis:** Review, gather, analyze, interpret, and synthesize scientific data to determine environmental impacts on biological resources, aquatic habitats, and protected species resulting from land, water, and fishery management activities.\n\n· **Document Preparation:** Author combined ESA Biological Opinions, Letters of Concurrence, and MSA Essential Fish Habitat responses (including programmatic documents), ensuring technical sufficiency, legal defensibility, and regulatory compliance.\n\n· **Pre-Consultation Technical Assistance:** Review biological assessments and consultation initiation packages for accuracy and completeness. Provide pre-consultation feedback, technical guidance, and conservation measure recommendations via written communications and meetings.\n\n· **Programmatic Enrollments:** Review applications to enroll in existing programmatic consultations and draft appropriate enrollment documentation.\n\n· **Interagency Coordination:** Coordinate directly with NMFS fish passage engineers on project designs and follow agency guidance for legal/technical compliance. Maintain electronic records per agency quality assurance and consultation tracking protocols.\n\n· **NEPA & Habitat Restoration Reviews:** Prepare environmental documentation under NEPA and review habitat restoration proposals supporting species recovery plans.\n\n· **Meetings & Site Visits:** Actively participate in branch, division, and interagency meetings, with occasional site visits to proposed project locations in Western Washington or Western Oregon.\n\n**Minimum Qualifications:**\n\n· **Education & Experience:** Bachelor’s degree in aquatic biology or a related field with four (4) years of experience; OR a Master’s degree with two (2) years of relevant experience.\n\n· **Technical Knowledge:** Foundational knowledge of salmonid life cycles and aquatic habitat requirements.\n\n· **Communication:** Highly proficient English language composition and editing skills, with excellent verbal communication abilities in diverse interagency settings.\n\n· **Software:** Proficiency in standard office productivity tools, specifically MS Office and Google Workspace.\n\n· **Licensing:** Valid state driver’s license.\n\n**Preferred Qualifications:**\n\n· Expert knowledge of Pacific Northwest salmonid-specific life histories and geographic distributions.\n\n· Direct experience with aquatic habitat conservation and fish habitat restoration techniques.\n\n· Demonstrated experience implementing ESA Section 7 regulations and preparing federal regulatory documents under MSA and NEPA.\n\n· Experience collaborating or consulting with tribal governments.\n\n**Security Clearance & Travel:**\n\n· **Clearance:** Must be able to obtain and maintain a favorable background investigation for Public Trust classification.\n\n· **Travel:** Occasional overnight travel for project coordination or division meetings (averaging up to two trips per quarter) within Western Washington, Western Oregon, or elsewhere in the West Coast Region. Travel expenses are reimbursed under the Federal Travel Regulations.\n\nPay: $65,000.00 - $73,000.00 per year\n\nBenefits:\n\n* 401(k)\n* 401(k) matching\n* Dental insurance\n* Employee assistance program\n* Health insurance\n* Paid time off\n* Professional development assistance\n* Referral program\n* Retirement plan\n* Tuition reimbursement\n\nWork Location: Remote",
-      "salary": "$65k–$73k/yr",
-      "salary_source": "direct_data",
-      "salary_currency": "USD",
-      "job_type": "fulltime",
-      "is_remote": false,
-      "work_arrangement": "Remote in-state eligible",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
