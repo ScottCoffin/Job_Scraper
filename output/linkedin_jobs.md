@@ -1,6 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-08 20:59 UTC*
+*Last updated: 2026-11-09 01:27 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Environmental Compliance Coordinator (Base Ops)](https://www.linkedin.com/jobs/view/4487673135/) — Akima
+- 📍 **Location:** Fort Cavazos, TX
+- 💰 **Salary:** $60K - $62K
+- 🕒 **Posted:** 2026-11-09
