@@ -1,66 +1,65 @@
 # 🏛 NEOGOV — State & Local Government Environmental / Toxicology Roles
-*Last updated: 2026-11-12 22:18 UTC*
+*Last updated: 2026-11-13 21:59 UTC*
 
-**16 new role(s)** since last run · 30 total in recent GovernmentJobs postings
+**16 new role(s)** since last run · 44 total in recent GovernmentJobs postings
 
-### [Senior Regulatory Toxicologist (Toxicologist 3)](https://www.governmentjobs.com/jobs/5520225-0/senior-regulatory-toxicologist-toxicologist-3) — State of Washington
-- 📍 **Location:** Thurston County – Lacey, WA
-- 💰 **Salary:** $88,788.00 - $119,460.00 Annually
+### [Environmental Scientist III](https://www.governmentjobs.com/jobs/5549337-0/environmental-scientist-iii) — King County
+- 📍 **Location:** WA 98168, WA
+- 💰 **Salary:** $118,206.40 - $142,896.00 Annually
 
-### [ENVIRONMENTAL SCIENTIST MANAGER](https://www.governmentjobs.com/jobs/5544321-0/environmental-scientist-manager) — State of Louisiana
-- 📍 **Location:** Baton Rouge, LA
-- 💰 **Salary:** $5,845.00 - $10,521.00 Monthly
+### [Environmental Health Manager](https://www.governmentjobs.com/jobs/5548896-0/environmental-health-manager) — County of Mendocino
+- 📍 **Location:** Ukiah, CA
+- 💰 **Salary:** $99,944.00 - $121,492.80 Annually
 
-### [Environmental Scientist 1/2/3](https://www.governmentjobs.com/jobs/5547844-0/environmental-scientist-1-2-3) — State of Louisiana
-- 📍 **Location:** Baton Rouge, LA
-- 💰 **Salary:** $3,181.00 - $5,724.00 Monthly
+### [Environmental Health Supervisor](https://www.governmentjobs.com/jobs/5448513-0/environmental-health-supervisor) — Mohave County
+- 📍 **Location:** Kingman, AZ
+- 💰 **Salary:** $58,822.40 - $97,177.60 Annually
 
-### [Environmental Health Supervisor*](https://www.governmentjobs.com/jobs/5542660-0/environmental-health-supervisor) — Orange County Government
-- 📍 **Location:** Health Department, NC
-- 💰 **Salary:** $75,870.00 - $87,981.00 Annually
+### [Environmental Health Specialist Supervisor](https://www.governmentjobs.com/jobs/5548383-0/environmental-health-specialist-supervisor) — Tacoma-Pierce County Health Department
+- 📍 **Location:** Tacoma-Pierce County Health Department, WA
+- 💰 **Salary:** $96,262.40 - $130,228.80 Annually
 
-### [Environmental Health Specialist 1/2](https://www.governmentjobs.com/jobs/5547220-0/environmental-health-specialist-1-2) — Spokane Regional Health District
-- 📍 **Location:** Spokane, WA
-- 💰 **Salary:** $33.48 - $42.74 Hourly
+### [Enrollment Specialist/Lead Risk Assessor](https://www.governmentjobs.com/jobs/153515-1/enrollment-specialist-lead-risk-assessor) — Kenosha County
+- 📍 **Location:** Kenosha, WI
 
-### [Environmental Health Specialist II/III](https://www.governmentjobs.com/jobs/5540580-0/environmental-health-specialist-ii-iii) — Stanislaus County
-- 📍 **Location:** Ste C, CA
-- 💰 **Salary:** $74,027.20 - $96,512.00 Annually
-
-### [Environmental Health Specialist I/II/III](https://www.governmentjobs.com/jobs/5540978-0/environmental-health-specialist-i-ii-iii) — Merced County
-- 📍 **Location:** Merced County Planning/CED Department 2222 M St Merced, CA
-- 💰 **Salary:** $62,732.80 - $97,926.40 Annually
-
-### [Environmental Health Specialist- Food Safety](https://www.governmentjobs.com/jobs/5530189-0/environmental-health-specialist-food-safety) — Boulder County
-- 📍 **Location:** Boulder County, CO
-- 💰 **Salary:** $70,428.00 - $101,388.00 Annually
-
-### [Environmental Health Specialist I (GRANT FUNDED)](https://www.governmentjobs.com/jobs/5536248-0/environmental-health-specialist-i-grant-funded) — Douglas County (NE)
-- 📍 **Location:** Omaha, NE
-- 💰 **Salary:** $31.22 - $32.82 Hourly
-
-### [Environmental Health Specialist II/I (Health & Wellness Department)](https://www.governmentjobs.com/jobs/5539014-0/environmental-health-specialist-ii-i-health-wellness-department) — City of Detroit
-- 📍 **Location:** Michigan, MI
-- 💰 **Salary:** $67,100.00 - $87,200.00 Annually
-
-### [Environmental Health Specialist I, II, or III,](https://www.governmentjobs.com/jobs/5542621-0/environmental-health-specialist-i-ii-or-iii) — Georgia Department of Public Health (GA)
-- 📍 **Location:** Augusta, GA
-
-### [Water Quality Specialist](https://www.governmentjobs.com/jobs/5545910-0/water-quality-specialist) — City of Sachse
-- 📍 **Location:** Sachse, TX
-- 💰 **Salary:** $48,484.80 - $67,225.60 Annually
-
-### [Water Quality Inspector - Watershed Protection](https://www.governmentjobs.com/jobs/5369941-0/water-quality-inspector-watershed-protection) — Harris County
+### [Stormwater Quality Plan Reviewer](https://www.governmentjobs.com/jobs/5507736-0/stormwater-quality-plan-reviewer) — Harris County
 - 📍 **Location:** Houston, TX
 
-### [Air Quality Program Specialist](https://www.governmentjobs.com/jobs/5459787-0/air-quality-program-specialist) — Commonwealth of Pennsylvania
-- 📍 **Location:** Dauphin County, PA
-- 💰 **Salary:** $69,086.00 - $104,959.00 Annually
+### [Air Quality Meteorologist / Forecaster (EHM II)](https://www.governmentjobs.com/jobs/5543109-0/air-quality-meteorologist-forecaster-ehm-ii) — State of South Carolina
+- 📍 **Location:** Richland County, SC
+- 💰 **Salary:** $60,901.00 - $70,300.00 Annually
 
-### [AIR QUALITY SPECIALIST (Air Quality Specialist II) - Range 14 / AMEA](https://www.governmentjobs.com/jobs/5544871-0/air-quality-specialist-air-quality-specialist-ii-range-14-amea) — Municipality of Anchorage
-- 📍 **Location:** Anchorage, AK
-- 💰 **Salary:** $31.48 - $46.69 Hourly
+### [Environmental Specialist](https://www.governmentjobs.com/jobs/5542675-0/environmental-specialist) — State of Iowa
+- 📍 **Location:** Des Moines - 50321 - Polk County, IA
+- 💰 **Salary:** $54,350.40 - $81,972.80 Annually
 
-### [Hazardous Materials Specialist I/II](https://www.governmentjobs.com/jobs/5538894-0/hazardous-materials-specialist-i-ii) — City of San Leandro
-- 📍 **Location:** California, CA
-- 💰 **Salary:** $128,060.00 - $155,662.00 Annually
+### [Environmental Specialist](https://www.governmentjobs.com/jobs/5548694-0/environmental-specialist) — City of Grand Forks (ND)
+- 📍 **Location:** Public Works - 724 N 47th St Grand Forks, ND
+- 💰 **Salary:** $71,094.40 - $78,478.40 Annually
+
+### [Environmental Specialist](https://www.governmentjobs.com/jobs/5476508-0/environmental-specialist) — Forsyth County (NC)
+- 📍 **Location:** Winston-Salem, NC
+- 💰 **Salary:** $20.65 - $23.75 Hourly
+
+### [Environmental Specialist Senior](https://www.governmentjobs.com/jobs/5540686-0/environmental-specialist-senior) — State of Iowa
+- 📍 **Location:** Des Moines - 50321 - Polk County, IA
+- 💰 **Salary:** $61,443.20 - $94,764.80 Annually
+
+### [Environmental Specialist II (Storm Water)](https://www.governmentjobs.com/jobs/5534247-0/environmental-specialist-ii-storm-water) — City of Norfolk
+- 📍 **Location:** Norfolk, VA
+- 💰 **Salary:** $54,190.94 - $90,788.72 Annually
+
+### [Environmental Specialist - Polk Co (Temporary)](https://www.governmentjobs.com/jobs/5539267-0/environmental-specialist-polk-co-temporary) — State of Iowa
+- 📍 **Location:** Des Moines - 50313 - Polk County, IA
+
+### [Environmental Database Coordinator (Environmental Specialist 3) INTERNAL ONLY](https://www.governmentjobs.com/jobs/5536515-0/environmental-database-coordinator-environmental-specialist-3-internal-only) — State of Washington
+- 📍 **Location:** Yakima County - Union Gap, WA
+- 💰 **Salary:** $59,760.00 - $80,484.00 Annually
+
+### [Dangerous Waste Compliance Inspector/Enforcement Specialist (Environmental Specialist 5 In-Training)](https://www.governmentjobs.com/jobs/5527889-0/dangerous-waste-compliance-inspector-enforcement-specialist-environmental-specia) — State of Washington
+- 📍 **Location:** Benton County – Richland, WA
+- 💰 **Salary:** $59,760.00 - $102,996.00 Annually
+
+### [Sr. Environmental Health Specialist](https://www.governmentjobs.com/jobs/5377550-0/sr-environmental-health-specialist) — Forsyth County (NC)
+- 📍 **Location:** Winston-Salem, NC
+- 💰 **Salary:** $57,574.40 - $66,206.40 Annually
