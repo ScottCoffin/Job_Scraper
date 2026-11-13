@@ -1,5 +1,5 @@
 # 🏛 CalCareers — California State Environmental / Toxicology Roles
-*Last updated: 2026-11-04 21:50 UTC*
+*Last updated: 2026-11-13 21:56 UTC*
 
 **0 new role(s)** since last run · 10 total in current CalCareers postings
 
