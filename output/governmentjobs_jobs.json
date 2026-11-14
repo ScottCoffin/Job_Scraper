@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-11-13 21:59 UTC",
+  "scraped_at": "2026-11-14 20:45 UTC",
   "total": 44,
-  "new_count": 16,
+  "new_count": 3,
   "jobs": [
     {
       "company": "State of Washington",
@@ -64,15 +64,6 @@
       "url": "https://www.governmentjobs.com/jobs/5530606-0/environmental-health-specialist",
       "date_posted": "",
       "salary": "$54,230.27 - $79,174.55 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Warren County (NC)",
-      "title": "Environmental Health Specialist",
-      "location": "Warren County, NC",
-      "url": "https://www.governmentjobs.com/jobs/5458445-0/environmental-health-specialist",
-      "date_posted": "",
-      "salary": "$50,223.00 - $62,175.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -139,15 +130,6 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "County of San Benito",
-      "title": "Environmental Health Specialist III",
-      "location": "CA. 95023, CA",
-      "url": "https://www.governmentjobs.com/jobs/5444359-0/environmental-health-specialist-iii",
-      "date_posted": "",
-      "salary": "$94,952.00 - $125,632.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
       "company": "Stanislaus County",
       "title": "Environmental Health Specialist II/III",
       "location": "Ste C, CA",
@@ -190,6 +172,24 @@
       "url": "https://www.governmentjobs.com/jobs/5539014-0/environmental-health-specialist-ii-i-health-wellness-department",
       "date_posted": "",
       "salary": "$67,100.00 - $87,200.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Georgia Department of Public Health (GA)",
+      "title": "Environmental Health Specialist I, II, or III,",
+      "location": "Augusta, GA",
+      "url": "https://www.governmentjobs.com/jobs/5542621-0/environmental-health-specialist-i-ii-or-iii",
+      "date_posted": "",
+      "salary": "",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Ventura County",
+      "title": "Environmental Health Specialist I/II/III - Community Services",
+      "location": "Ventura and may require travel throughout Ventura County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5518528-0/environmental-health-specialist-i-ii-iii-community-services",
+      "date_posted": "",
+      "salary": "$60,368.09 - $111,745.42 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -256,6 +256,15 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "King County",
+      "title": "Water Quality Planner/Project Manager III (Senior Data Steward)",
+      "location": "Seattle, WA",
+      "url": "https://www.governmentjobs.com/jobs/5539620-0/water-quality-planner-project-manager-iii-senior-data-steward",
+      "date_posted": "",
+      "salary": "$114,412.27 - $145,024.26 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "Harris County",
       "title": "Stormwater Quality Plan Reviewer",
       "location": "Houston, TX",
@@ -319,15 +328,6 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "State of Iowa",
-      "title": "Environmental Specialist",
-      "location": "Des Moines - 50321 - Polk County, IA",
-      "url": "https://www.governmentjobs.com/jobs/5542675-0/environmental-specialist",
-      "date_posted": "",
-      "salary": "$54,350.40 - $81,972.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
       "company": "City of Grand Forks (ND)",
       "title": "Environmental Specialist",
       "location": "Public Works - 724 N 47th St Grand Forks, ND",
@@ -343,6 +343,15 @@
       "url": "https://www.governmentjobs.com/jobs/5476508-0/environmental-specialist",
       "date_posted": "",
       "salary": "$20.65 - $23.75 Hourly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "State of Iowa",
+      "title": "Environmental Specialist",
+      "location": "Des Moines - 50321 - Polk County, IA",
+      "url": "https://www.governmentjobs.com/jobs/5542675-0/environmental-specialist",
+      "date_posted": "",
+      "salary": "$54,350.40 - $81,972.80 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -388,161 +397,35 @@
       "url": "https://www.governmentjobs.com/jobs/5527889-0/dangerous-waste-compliance-inspector-enforcement-specialist-environmental-specia",
       "date_posted": "",
       "salary": "$59,760.00 - $102,996.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Forsyth County (NC)",
-      "title": "Sr. Environmental Health Specialist",
-      "location": "Winston-Salem, NC",
-      "url": "https://www.governmentjobs.com/jobs/5377550-0/sr-environmental-health-specialist",
-      "date_posted": "",
-      "salary": "$57,574.40 - $66,206.40 Annually",
       "ats": "NEOGOV"
     }
   ],
   "new_jobs": [
     {
+      "company": "Georgia Department of Public Health (GA)",
+      "title": "Environmental Health Specialist I, II, or III,",
+      "location": "Augusta, GA",
+      "url": "https://www.governmentjobs.com/jobs/5542621-0/environmental-health-specialist-i-ii-or-iii",
+      "date_posted": "",
+      "salary": "",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Ventura County",
+      "title": "Environmental Health Specialist I/II/III - Community Services",
+      "location": "Ventura and may require travel throughout Ventura County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5518528-0/environmental-health-specialist-i-ii-iii-community-services",
+      "date_posted": "",
+      "salary": "$60,368.09 - $111,745.42 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "King County",
-      "title": "Environmental Scientist III",
-      "location": "WA 98168, WA",
-      "url": "https://www.governmentjobs.com/jobs/5549337-0/environmental-scientist-iii",
+      "title": "Water Quality Planner/Project Manager III (Senior Data Steward)",
+      "location": "Seattle, WA",
+      "url": "https://www.governmentjobs.com/jobs/5539620-0/water-quality-planner-project-manager-iii-senior-data-steward",
       "date_posted": "",
-      "salary": "$118,206.40 - $142,896.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "County of Mendocino",
-      "title": "Environmental Health Manager",
-      "location": "Ukiah, CA",
-      "url": "https://www.governmentjobs.com/jobs/5548896-0/environmental-health-manager",
-      "date_posted": "",
-      "salary": "$99,944.00 - $121,492.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Mohave County",
-      "title": "Environmental Health Supervisor",
-      "location": "Kingman, AZ",
-      "url": "https://www.governmentjobs.com/jobs/5448513-0/environmental-health-supervisor",
-      "date_posted": "",
-      "salary": "$58,822.40 - $97,177.60 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Tacoma-Pierce County Health Department",
-      "title": "Environmental Health Specialist Supervisor",
-      "location": "Tacoma-Pierce County Health Department, WA",
-      "url": "https://www.governmentjobs.com/jobs/5548383-0/environmental-health-specialist-supervisor",
-      "date_posted": "",
-      "salary": "$96,262.40 - $130,228.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Kenosha County",
-      "title": "Enrollment Specialist/Lead Risk Assessor",
-      "location": "Kenosha, WI",
-      "url": "https://www.governmentjobs.com/jobs/153515-1/enrollment-specialist-lead-risk-assessor",
-      "date_posted": "",
-      "salary": "",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Harris County",
-      "title": "Stormwater Quality Plan Reviewer",
-      "location": "Houston, TX",
-      "url": "https://www.governmentjobs.com/jobs/5507736-0/stormwater-quality-plan-reviewer",
-      "date_posted": "",
-      "salary": "",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "State of South Carolina",
-      "title": "Air Quality Meteorologist / Forecaster (EHM II)",
-      "location": "Richland County, SC",
-      "url": "https://www.governmentjobs.com/jobs/5543109-0/air-quality-meteorologist-forecaster-ehm-ii",
-      "date_posted": "",
-      "salary": "$60,901.00 - $70,300.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "State of Iowa",
-      "title": "Environmental Specialist",
-      "location": "Des Moines - 50321 - Polk County, IA",
-      "url": "https://www.governmentjobs.com/jobs/5542675-0/environmental-specialist",
-      "date_posted": "",
-      "salary": "$54,350.40 - $81,972.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Grand Forks (ND)",
-      "title": "Environmental Specialist",
-      "location": "Public Works - 724 N 47th St Grand Forks, ND",
-      "url": "https://www.governmentjobs.com/jobs/5548694-0/environmental-specialist",
-      "date_posted": "",
-      "salary": "$71,094.40 - $78,478.40 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Forsyth County (NC)",
-      "title": "Environmental Specialist",
-      "location": "Winston-Salem, NC",
-      "url": "https://www.governmentjobs.com/jobs/5476508-0/environmental-specialist",
-      "date_posted": "",
-      "salary": "$20.65 - $23.75 Hourly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "State of Iowa",
-      "title": "Environmental Specialist Senior",
-      "location": "Des Moines - 50321 - Polk County, IA",
-      "url": "https://www.governmentjobs.com/jobs/5540686-0/environmental-specialist-senior",
-      "date_posted": "",
-      "salary": "$61,443.20 - $94,764.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Norfolk",
-      "title": "Environmental Specialist II (Storm Water)",
-      "location": "Norfolk, VA",
-      "url": "https://www.governmentjobs.com/jobs/5534247-0/environmental-specialist-ii-storm-water",
-      "date_posted": "",
-      "salary": "$54,190.94 - $90,788.72 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "State of Iowa",
-      "title": "Environmental Specialist - Polk Co (Temporary)",
-      "location": "Des Moines - 50313 - Polk County, IA",
-      "url": "https://www.governmentjobs.com/jobs/5539267-0/environmental-specialist-polk-co-temporary",
-      "date_posted": "",
-      "salary": "",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "State of Washington",
-      "title": "Environmental Database Coordinator (Environmental Specialist 3) INTERNAL ONLY",
-      "location": "Yakima County - Union Gap, WA",
-      "url": "https://www.governmentjobs.com/jobs/5536515-0/environmental-database-coordinator-environmental-specialist-3-internal-only",
-      "date_posted": "",
-      "salary": "$59,760.00 - $80,484.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "State of Washington",
-      "title": "Dangerous Waste Compliance Inspector/Enforcement Specialist (Environmental Specialist 5 In-Training)",
-      "location": "Benton County – Richland, WA",
-      "url": "https://www.governmentjobs.com/jobs/5527889-0/dangerous-waste-compliance-inspector-enforcement-specialist-environmental-specia",
-      "date_posted": "",
-      "salary": "$59,760.00 - $102,996.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Forsyth County (NC)",
-      "title": "Sr. Environmental Health Specialist",
-      "location": "Winston-Salem, NC",
-      "url": "https://www.governmentjobs.com/jobs/5377550-0/sr-environmental-health-specialist",
-      "date_posted": "",
-      "salary": "$57,574.40 - $66,206.40 Annually",
+      "salary": "$114,412.27 - $145,024.26 Annually",
       "ats": "NEOGOV"
     }
   ]
