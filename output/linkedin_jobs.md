@@ -1,16 +1,14 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-14 20:16 UTC*
+*Last updated: 2026-11-15 00:16 UTC*
 
-**3 new role(s)** since last run · 3 total in last 1h
+**2 new role(s)** since last run · 2 total in last 1h
 
-### [Environmental Scientist 1 - Jackson, TN/Hybrid](https://www.linkedin.com/jobs/view/4491207072/) — STI, LLC
-- 📍 **Location:** Jackson, TN
+### [Environmental Health Safety Specialist](https://www.linkedin.com/jobs/view/4491097786/) — Prizer-Painter Stove Works, Inc.
+- 📍 **Location:** Blandon, PA
+- 💰 **Salary:** $70,000.00/yr - $90,000.00/yr
 - 🕒 **Posted:** 2026-11-14
 
-### [Water Quality Specialist](https://www.linkedin.com/jobs/view/4489350638/) — Arkansas Department of Transportation
-- 📍 **Location:** Little Rock, AR
-- 🕒 **Posted:** 2026-11-14
-
-### [Senior Environmental Scientist](https://www.linkedin.com/jobs/view/4489358137/) — KERAMIDA Inc.
-- 📍 **Location:** Carnegie, PA
+### [Water Quality Sales Consultant](https://www.linkedin.com/jobs/view/4491201517/) — Culligan By WaterCo
+- 📍 **Location:** East Syracuse, NY
+- 💰 **Salary:** $80,000 to $125,000,
 - 🕒 **Posted:** 2026-11-14
