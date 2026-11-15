@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-11-14 20:45 UTC",
+  "scraped_at": "2026-11-15 21:05 UTC",
   "total": 44,
-  "new_count": 3,
+  "new_count": 0,
   "jobs": [
     {
       "company": "State of Washington",
@@ -400,33 +400,5 @@
       "ats": "NEOGOV"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Georgia Department of Public Health (GA)",
-      "title": "Environmental Health Specialist I, II, or III,",
-      "location": "Augusta, GA",
-      "url": "https://www.governmentjobs.com/jobs/5542621-0/environmental-health-specialist-i-ii-or-iii",
-      "date_posted": "",
-      "salary": "",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Ventura County",
-      "title": "Environmental Health Specialist I/II/III - Community Services",
-      "location": "Ventura and may require travel throughout Ventura County, CA",
-      "url": "https://www.governmentjobs.com/jobs/5518528-0/environmental-health-specialist-i-ii-iii-community-services",
-      "date_posted": "",
-      "salary": "$60,368.09 - $111,745.42 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "King County",
-      "title": "Water Quality Planner/Project Manager III (Senior Data Steward)",
-      "location": "Seattle, WA",
-      "url": "https://www.governmentjobs.com/jobs/5539620-0/water-quality-planner-project-manager-iii-senior-data-steward",
-      "date_posted": "",
-      "salary": "$114,412.27 - $145,024.26 Annually",
-      "ats": "NEOGOV"
-    }
-  ]
+  "new_jobs": []
 }
