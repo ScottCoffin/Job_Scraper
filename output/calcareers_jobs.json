@@ -1,25 +1,25 @@
 {
-  "scraped_at": "2026-11-14 20:40 UTC",
-  "total": 7,
+  "scraped_at": "2026-11-15 21:00 UTC",
+  "total": 8,
   "new_count": 0,
   "jobs": [
+    {
+      "company": "State Water Resources Control Board",
+      "title": "Environmental Scientist",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=538016",
+      "date_posted": "2026-11-05",
+      "salary": "$4551.00 - $9787.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
     {
       "company": "Department of Fish and Wildlife",
       "title": "Environmental Scientist, Wildlife Biologist",
       "location": "Solano County",
       "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=537837",
-      "date_posted": "2026-11-03",
-      "salary": "$4551.00 - $9787.00",
-      "ats": "CalCareers",
-      "telework": "In Office",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "On-site"
-    },
-    {
-      "company": "Department of Food & Agriculture",
-      "title": "ENVIRONMENTAL SCIENTIST",
-      "location": "Orange County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=537799",
       "date_posted": "2026-11-03",
       "salary": "$4551.00 - $9787.00",
       "ats": "CalCareers",
@@ -54,9 +54,21 @@
     {
       "company": "State Water Resources Control Board",
       "title": "Environmental Scientist",
+      "location": "San Luis Obispo County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=482161",
+      "date_posted": "2026-11-03",
+      "salary": "$4418.00 - $9321.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
+      "company": "Delta Stewardship Council",
+      "title": "Environmental Scientist",
       "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=538016",
-      "date_posted": "2026-11-05",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=525875",
+      "date_posted": "2026-11-12",
       "salary": "$4551.00 - $9787.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
