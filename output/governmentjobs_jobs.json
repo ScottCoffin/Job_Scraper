@@ -1,8 +1,17 @@
 {
-  "scraped_at": "2026-11-15 21:05 UTC",
-  "total": 44,
-  "new_count": 0,
+  "scraped_at": "2026-11-17 23:32 UTC",
+  "total": 48,
+  "new_count": 14,
   "jobs": [
+    {
+      "company": "Harris County",
+      "title": "Toxicologist 1",
+      "location": "Houston, TX",
+      "url": "https://www.governmentjobs.com/jobs/5472765-0/toxicologist-1",
+      "date_posted": "",
+      "salary": "",
+      "ats": "NEOGOV"
+    },
     {
       "company": "State of Washington",
       "title": "Senior Regulatory Toxicologist (Toxicologist 3)",
@@ -23,20 +32,20 @@
     },
     {
       "company": "State of Louisiana",
-      "title": "ENVIRONMENTAL SCIENTIST MANAGER",
-      "location": "Baton Rouge, LA",
-      "url": "https://www.governmentjobs.com/jobs/5544321-0/environmental-scientist-manager",
-      "date_posted": "",
-      "salary": "$5,845.00 - $10,521.00 Monthly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "State of Louisiana",
       "title": "Environmental Scientist 1/2/3",
       "location": "Baton Rouge, LA",
       "url": "https://www.governmentjobs.com/jobs/5547844-0/environmental-scientist-1-2-3",
       "date_posted": "",
       "salary": "$3,181.00 - $5,724.00 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "State of Louisiana",
+      "title": "Environmental Scientist Senior DCL-B",
+      "location": "Baton Rouge, LA",
+      "url": "https://www.governmentjobs.com/jobs/5550003-0/environmental-scientist-senior-dcl-b",
+      "date_posted": "",
+      "salary": "$6,664.67 - $10,521.00 Monthly",
       "ats": "NEOGOV"
     },
     {
@@ -46,24 +55,6 @@
       "url": "https://www.governmentjobs.com/jobs/5548896-0/environmental-health-manager",
       "date_posted": "",
       "salary": "$99,944.00 - $121,492.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Orange County Government",
-      "title": "Environmental Health Supervisor*",
-      "location": "Health Department, NC",
-      "url": "https://www.governmentjobs.com/jobs/5542660-0/environmental-health-supervisor",
-      "date_posted": "",
-      "salary": "$75,870.00 - $87,981.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of DeSoto",
-      "title": "Environmental Health Specialist",
-      "location": "DeSoto, TX",
-      "url": "https://www.governmentjobs.com/jobs/5530606-0/environmental-health-specialist",
-      "date_posted": "",
-      "salary": "$54,230.27 - $79,174.55 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -112,6 +103,33 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "Southern Nevada Health District",
+      "title": "Environmental Health Specialist I/II",
+      "location": "Southern Nevada Health District, NV",
+      "url": "https://www.governmentjobs.com/jobs/5552052-0/environmental-health-specialist-i-ii",
+      "date_posted": "",
+      "salary": "$30.83 - $47.64 Hourly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Kern County",
+      "title": "Environmental Health Specialist-In Training",
+      "location": "Bakersfield, CA",
+      "url": "https://www.governmentjobs.com/jobs/5548894-0/environmental-health-specialist-in-training",
+      "date_posted": "",
+      "salary": "$4,701.62 - $5,618.88 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "San Bernardino County",
+      "title": "Environmental Health Specialist III",
+      "location": "Throughout San Bernardino County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5547588-0/environmental-health-specialist-iii",
+      "date_posted": "",
+      "salary": "$79,227.20 - $114,483.20 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "Tacoma-Pierce County Health Department",
       "title": "Environmental Health Specialist Supervisor",
       "location": "Tacoma-Pierce County Health Department, WA",
@@ -130,15 +148,6 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "Stanislaus County",
-      "title": "Environmental Health Specialist II/III",
-      "location": "Ste C, CA",
-      "url": "https://www.governmentjobs.com/jobs/5540580-0/environmental-health-specialist-ii-iii",
-      "date_posted": "",
-      "salary": "$74,027.20 - $96,512.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
       "company": "Merced County",
       "title": "Environmental Health Specialist I/II/III",
       "location": "Merced County Planning/CED Department 2222 M St Merced, CA",
@@ -148,30 +157,12 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "Boulder County",
-      "title": "Environmental Health Specialist- Food Safety",
-      "location": "Boulder County, CO",
-      "url": "https://www.governmentjobs.com/jobs/5530189-0/environmental-health-specialist-food-safety",
+      "company": "Stanislaus County",
+      "title": "Environmental Health Specialist II/III",
+      "location": "Ste C, CA",
+      "url": "https://www.governmentjobs.com/jobs/5540580-0/environmental-health-specialist-ii-iii",
       "date_posted": "",
-      "salary": "$70,428.00 - $101,388.00 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Douglas County (NE)",
-      "title": "Environmental Health Specialist I (GRANT FUNDED)",
-      "location": "Omaha, NE",
-      "url": "https://www.governmentjobs.com/jobs/5536248-0/environmental-health-specialist-i-grant-funded",
-      "date_posted": "",
-      "salary": "$31.22 - $32.82 Hourly",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Detroit",
-      "title": "Environmental Health Specialist II/I (Health & Wellness Department)",
-      "location": "Michigan, MI",
-      "url": "https://www.governmentjobs.com/jobs/5539014-0/environmental-health-specialist-ii-i-health-wellness-department",
-      "date_posted": "",
-      "salary": "$67,100.00 - $87,200.00 Annually",
+      "salary": "$74,027.20 - $96,512.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -184,6 +175,15 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "City of Detroit",
+      "title": "Environmental Health Specialist II/I (Health & Wellness Department)",
+      "location": "Michigan, MI",
+      "url": "https://www.governmentjobs.com/jobs/5539014-0/environmental-health-specialist-ii-i-health-wellness-department",
+      "date_posted": "",
+      "salary": "$67,100.00 - $87,200.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "Ventura County",
       "title": "Environmental Health Specialist I/II/III - Community Services",
       "location": "Ventura and may require travel throughout Ventura County, CA",
@@ -193,12 +193,30 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "County of Marin",
+      "title": "Environmental Health Specialist II (Land Use and Consumer Protection)",
+      "location": "San Rafael, CA",
+      "url": "https://www.governmentjobs.com/jobs/5553082-0/environmental-health-specialist-ii-land-use-and-consumer-protection",
+      "date_posted": "",
+      "salary": "$104,637.00 - $124,956.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "Kenosha County",
       "title": "Enrollment Specialist/Lead Risk Assessor",
       "location": "Kenosha, WI",
       "url": "https://www.governmentjobs.com/jobs/153515-1/enrollment-specialist-lead-risk-assessor",
       "date_posted": "",
       "salary": "",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "State of South Carolina",
+      "title": "Lead Enforcement Risk Assessor - 61009289",
+      "location": "Lexington County, SC",
+      "url": "https://www.governmentjobs.com/jobs/5551307-0/lead-enforcement-risk-assessor-61009289",
+      "date_posted": "",
+      "salary": "$53,142.00 - $60,488.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -220,21 +238,12 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "City of Leander",
-      "title": "Water Quality Specialist",
-      "location": "Leander, TX",
-      "url": "https://www.governmentjobs.com/jobs/5530097-0/water-quality-specialist",
+      "company": "Commonwealth of Pennsylvania",
+      "title": "Water Quality Specialist Supervisor",
+      "location": "Northampton County, PA",
+      "url": "https://www.governmentjobs.com/jobs/5544630-0/water-quality-specialist-supervisor",
       "date_posted": "",
-      "salary": "$52,041.60 - $57,241.60 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "Metro Water Recovery",
-      "title": "Water Quality Chemist I",
-      "location": "Denver, CO",
-      "url": "https://www.governmentjobs.com/jobs/5534999-0/water-quality-chemist-i",
-      "date_posted": "",
-      "salary": "$28.21 - $39.35 Hourly",
+      "salary": "$69,086.00 - $104,959.00 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -283,6 +292,15 @@
       "ats": "NEOGOV"
     },
     {
+      "company": "Alamo Area Metropolitan Planning Organization",
+      "title": "Air Quality Conformity Analyst",
+      "location": "San Antonio, TX",
+      "url": "https://www.governmentjobs.com/jobs/153562-1/air-quality-conformity-analyst",
+      "date_posted": "",
+      "salary": "$67,784.00 - $103,176.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
       "company": "Commonwealth of Pennsylvania",
       "title": "Air Quality Program Specialist",
       "location": "Dauphin County, PA",
@@ -319,12 +337,12 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "Prince George's County Government",
-      "title": "Hazardous Materials/Environmental Compliance Specialist",
-      "location": "Upper Marlboro, MD",
-      "url": "https://www.governmentjobs.com/jobs/5537646-0/hazardous-materials-environmental-compliance-specialist",
+      "company": "State of Iowa",
+      "title": "Environmental Specialist",
+      "location": "Des Moines - 50321 - Polk County, IA",
+      "url": "https://www.governmentjobs.com/jobs/5551557-0/environmental-specialist",
       "date_posted": "",
-      "salary": "$66,549.00 - $90,320.00 Annually",
+      "salary": "$54,350.40 - $81,972.80 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -346,12 +364,21 @@
       "ats": "NEOGOV"
     },
     {
-      "company": "State of Iowa",
-      "title": "Environmental Specialist",
-      "location": "Des Moines - 50321 - Polk County, IA",
-      "url": "https://www.governmentjobs.com/jobs/5542675-0/environmental-specialist",
+      "company": "Peace River Manasota Regional Water Supply Authority",
+      "title": "Environmental Specialist II",
+      "location": "Arcadia, FL",
+      "url": "https://www.governmentjobs.com/jobs/153661-1/environmental-specialist-ii",
       "date_posted": "",
-      "salary": "$54,350.40 - $81,972.80 Annually",
+      "salary": "$55,608.51 - $86,193.34 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Peace River Manasota Regional Water Supply Authority",
+      "title": "Environmental Specialist III",
+      "location": "Arcadia, FL ; Arcadia, FL",
+      "url": "https://www.governmentjobs.com/jobs/153658-1/environmental-specialist-iii",
+      "date_posted": "",
+      "salary": "$61,308.49 - $95,028.16 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -361,15 +388,6 @@
       "url": "https://www.governmentjobs.com/jobs/5540686-0/environmental-specialist-senior",
       "date_posted": "",
       "salary": "$61,443.20 - $94,764.80 Annually",
-      "ats": "NEOGOV"
-    },
-    {
-      "company": "City of Norfolk",
-      "title": "Environmental Specialist II (Storm Water)",
-      "location": "Norfolk, VA",
-      "url": "https://www.governmentjobs.com/jobs/5534247-0/environmental-specialist-ii-storm-water",
-      "date_posted": "",
-      "salary": "$54,190.94 - $90,788.72 Annually",
       "ats": "NEOGOV"
     },
     {
@@ -398,7 +416,152 @@
       "date_posted": "",
       "salary": "$59,760.00 - $102,996.00 Annually",
       "ats": "NEOGOV"
+    },
+    {
+      "company": "State of Louisiana",
+      "title": "Agricultural Environmental Specialist 1-3",
+      "location": "Shreveport, LA",
+      "url": "https://www.governmentjobs.com/jobs/5552413-0/agricultural-environmental-specialist-1-3",
+      "date_posted": "",
+      "salary": "$3,333.20 - $5,723.47 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Orange County Water District",
+      "title": "Environmental Specialist/Field Biologist",
+      "location": "Anaheim, CA",
+      "url": "https://www.governmentjobs.com/jobs/5552668-0/environmental-specialist-field-biologist",
+      "date_posted": "",
+      "salary": "$91,332.80 - $114,171.20 Annually",
+      "ats": "NEOGOV"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Harris County",
+      "title": "Toxicologist 1",
+      "location": "Houston, TX",
+      "url": "https://www.governmentjobs.com/jobs/5472765-0/toxicologist-1",
+      "date_posted": "",
+      "salary": "",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "State of Louisiana",
+      "title": "Environmental Scientist Senior DCL-B",
+      "location": "Baton Rouge, LA",
+      "url": "https://www.governmentjobs.com/jobs/5550003-0/environmental-scientist-senior-dcl-b",
+      "date_posted": "",
+      "salary": "$6,664.67 - $10,521.00 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Southern Nevada Health District",
+      "title": "Environmental Health Specialist I/II",
+      "location": "Southern Nevada Health District, NV",
+      "url": "https://www.governmentjobs.com/jobs/5552052-0/environmental-health-specialist-i-ii",
+      "date_posted": "",
+      "salary": "$30.83 - $47.64 Hourly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Kern County",
+      "title": "Environmental Health Specialist-In Training",
+      "location": "Bakersfield, CA",
+      "url": "https://www.governmentjobs.com/jobs/5548894-0/environmental-health-specialist-in-training",
+      "date_posted": "",
+      "salary": "$4,701.62 - $5,618.88 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "San Bernardino County",
+      "title": "Environmental Health Specialist III",
+      "location": "Throughout San Bernardino County, CA",
+      "url": "https://www.governmentjobs.com/jobs/5547588-0/environmental-health-specialist-iii",
+      "date_posted": "",
+      "salary": "$79,227.20 - $114,483.20 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "County of Marin",
+      "title": "Environmental Health Specialist II (Land Use and Consumer Protection)",
+      "location": "San Rafael, CA",
+      "url": "https://www.governmentjobs.com/jobs/5553082-0/environmental-health-specialist-ii-land-use-and-consumer-protection",
+      "date_posted": "",
+      "salary": "$104,637.00 - $124,956.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "State of South Carolina",
+      "title": "Lead Enforcement Risk Assessor - 61009289",
+      "location": "Lexington County, SC",
+      "url": "https://www.governmentjobs.com/jobs/5551307-0/lead-enforcement-risk-assessor-61009289",
+      "date_posted": "",
+      "salary": "$53,142.00 - $60,488.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Commonwealth of Pennsylvania",
+      "title": "Water Quality Specialist Supervisor",
+      "location": "Northampton County, PA",
+      "url": "https://www.governmentjobs.com/jobs/5544630-0/water-quality-specialist-supervisor",
+      "date_posted": "",
+      "salary": "$69,086.00 - $104,959.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Alamo Area Metropolitan Planning Organization",
+      "title": "Air Quality Conformity Analyst",
+      "location": "San Antonio, TX",
+      "url": "https://www.governmentjobs.com/jobs/153562-1/air-quality-conformity-analyst",
+      "date_posted": "",
+      "salary": "$67,784.00 - $103,176.00 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "State of Iowa",
+      "title": "Environmental Specialist",
+      "location": "Des Moines - 50321 - Polk County, IA",
+      "url": "https://www.governmentjobs.com/jobs/5551557-0/environmental-specialist",
+      "date_posted": "",
+      "salary": "$54,350.40 - $81,972.80 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Peace River Manasota Regional Water Supply Authority",
+      "title": "Environmental Specialist II",
+      "location": "Arcadia, FL",
+      "url": "https://www.governmentjobs.com/jobs/153661-1/environmental-specialist-ii",
+      "date_posted": "",
+      "salary": "$55,608.51 - $86,193.34 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Peace River Manasota Regional Water Supply Authority",
+      "title": "Environmental Specialist III",
+      "location": "Arcadia, FL ; Arcadia, FL",
+      "url": "https://www.governmentjobs.com/jobs/153658-1/environmental-specialist-iii",
+      "date_posted": "",
+      "salary": "$61,308.49 - $95,028.16 Annually",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "State of Louisiana",
+      "title": "Agricultural Environmental Specialist 1-3",
+      "location": "Shreveport, LA",
+      "url": "https://www.governmentjobs.com/jobs/5552413-0/agricultural-environmental-specialist-1-3",
+      "date_posted": "",
+      "salary": "$3,333.20 - $5,723.47 Monthly",
+      "ats": "NEOGOV"
+    },
+    {
+      "company": "Orange County Water District",
+      "title": "Environmental Specialist/Field Biologist",
+      "location": "Anaheim, CA",
+      "url": "https://www.governmentjobs.com/jobs/5552668-0/environmental-specialist-field-biologist",
+      "date_posted": "",
+      "salary": "$91,332.80 - $114,171.20 Annually",
+      "ats": "NEOGOV"
+    }
+  ]
 }
