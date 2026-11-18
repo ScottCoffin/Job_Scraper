@@ -1,73 +1,64 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-17 23:31 UTC*
+*Last updated: 2026-11-18 06:24 UTC*
 
-**15 new role(s)** since last run · 15 total in last 1h
+**13 new role(s)** since last run · 13 total in last 1h
 
-### [Utility Services Representative - Burlingame, CA - Water Quality Division - SFPUC (1478) 168717](https://www.linkedin.com/jobs/view/4491443386/) — San Francisco Public Utilities Commission
-- 📍 **Location:** Burlingame, CA
-- 💰 **Salary:** $86,450 - $105,118
-- 🕒 **Posted:** 2026-11-17
+### [Water Resources Analyst / Environmental Scientist / Hydrologis](https://www.linkedin.com/jobs/view/4491439321/) — Wagner & Bonsignore, CCE
+- 📍 **Location:** Sacramento, CA
+- 🕒 **Posted:** 2026-11-18
 
-### [Toxicologist 1](https://www.linkedin.com/jobs/view/4491768248/) — Harris County
+### [Environmental Scientist (2 years of experience is required)](https://www.linkedin.com/jobs/view/4490834899/) — AECOM
+- 📍 **Location:** Midland, MI
+- 💰 **Salary:** $60000 to $75000
+- 🕒 **Posted:** 2026-11-18
+
+### [Environmental Scientist (2 years of experience is required)](https://www.linkedin.com/jobs/view/4490848274/) — AECOM
 - 📍 **Location:** Houston, TX
-- 🕒 **Posted:** 2026-11-17
+- 💰 **Salary:** $60000 to $75000
+- 🕒 **Posted:** 2026-11-18
 
-### [Assistant or Associate Professor - Environmental Chemistry and Contaminant Hydrology](https://www.linkedin.com/jobs/view/4491441281/) — University of Nebraska-Lincoln
-- 📍 **Location:** Lincoln, Nebraska Metropolitan Area
-- 🕒 **Posted:** 2026-11-17
+### [Assistant Environmental Scientist - Environmental Studies (Charlotte)](https://www.linkedin.com/jobs/view/4491484853/) — Burns & McDonnell
+- 📍 **Location:** Charlotte, NC
+- 🕒 **Posted:** 2026-11-18
 
-### [Assistant Research Professor - Emerging Contaminants and Environmental Remediation](https://www.linkedin.com/jobs/view/4490803868/) — Auburn University
-- 📍 **Location:** Auburn, AL
-- 🕒 **Posted:** 2026-11-17
+### [26-120.B - Environmental Specialist - Air Quality](https://www.linkedin.com/jobs/view/4452739889/) — Hilcorp
+- 📍 **Location:** Anchorage, AK
+- 🕒 **Posted:** 2026-11-18
 
-### [EHSS Manager-Environmental Compliance](https://www.linkedin.com/jobs/view/4491752454/) — Cinter Technology
-- 📍 **Location:** Kokomo, IN
-- 🕒 **Posted:** 2026-11-17
+### [Environmental Scientist (2 years of experience is required)](https://www.linkedin.com/jobs/view/4490834902/) — AECOM
+- 📍 **Location:** Lake Jackson, TX
+- 💰 **Salary:** $60000 to $75000
+- 🕒 **Posted:** 2026-11-18
 
-### [Environmental Scientist I](https://www.linkedin.com/jobs/view/4491423945/) — AECOM
-- 📍 **Location:** Niceville, FL
-- 💰 **Salary:** $52000 to $58000
-- 🕒 **Posted:** 2026-11-17
+### [Water Resources Specialist Assistant I](https://www.linkedin.com/jobs/view/4491488746/) — Eastern Municipal Water District
+- 📍 **Location:** Perris, CA
+- 💰 **Salary:** $40.32 - $50.22
+- 🕒 **Posted:** 2026-11-18
 
-### [Environmental Specialist I, II & III](https://www.linkedin.com/jobs/view/4490808796/) — Williams
-- 📍 **Location:** Charlottesville, VA
-- 🕒 **Posted:** 2026-11-17
+### [Quality Control Environmental Monitoring Associate II](https://www.linkedin.com/jobs/view/4491800519/) — BioSpace
+- 📍 **Location:** West Lebanon, NH
+- 🕒 **Posted:** 2026-11-18
 
-### [Consultant, Air Quality](https://www.linkedin.com/jobs/view/4491751601/) — Ramboll
-- 📍 **Location:** Denver, CO
-- 💰 **Salary:** $60,000- $85,000 per year
-- 🕒 **Posted:** 2026-11-17
+### [Laboratory Analyst II - PFAS / LC-MS, Eurofins Environment Testing, Arvada, CO](https://www.linkedin.com/jobs/view/4491496718/) — Eurofins
+- 📍 **Location:** Arvada, CO
+- 💰 **Salary:** $22.00 - $30.00 USD per hour
+- 🕒 **Posted:** 2026-11-18
 
-### [Consultant, Air Quality](https://www.linkedin.com/jobs/view/4491755489/) — Ramboll
-- 📍 **Location:** Salt Lake City, UT
-- 💰 **Salary:** $60,000- $85,000 per year
-- 🕒 **Posted:** 2026-11-17
+### [Group Leader, Environmental Risk Assessor](https://www.linkedin.com/jobs/view/4491494791/) — BioSpace
+- 📍 **Location:** Indianapolis, IN
+- 💰 **Salary:** $153,000 - $264,000
+- 🕒 **Posted:** 2026-11-18
 
-### [Environmental Specialist I, II or III](https://www.linkedin.com/jobs/view/4490809697/) — Williams
-- 📍 **Location:** Duluth, GA
-- 🕒 **Posted:** 2026-11-17
+### [Scientist II, Product Quality & Occupational Toxicologist](https://www.linkedin.com/jobs/view/4491499553/) — BioSpace
+- 📍 **Location:** North Chicago, IL
+- 🕒 **Posted:** 2026-11-18
 
-### [QC Microbiology Analyst (Environmental Monitoring)](https://www.linkedin.com/jobs/view/4491429412/) — BeOne Medicines
-- 📍 **Location:** Hopewell, NJ
-- 💰 **Salary:** $79,000.00 - $109,000.00 annually
-- 🕒 **Posted:** 2026-11-17
+### [Assistant Professor- Tenure Track - Sustainable Biology and Environmental Science](https://www.linkedin.com/jobs/view/4484206748/) — Seton Hall University
+- 📍 **Location:** South Orange, NJ
+- 💰 **Salary:** $68,483 -$76,093
+- 🕒 **Posted:** 2026-11-18
 
-### [Senior Lead Consultant, Air Quality](https://www.linkedin.com/jobs/view/4491747762/) — Ramboll
-- 📍 **Location:** Salt Lake City, UT
-- 💰 **Salary:** $97,000 - $125,000
-- 🕒 **Posted:** 2026-11-17
-
-### [Senior Lead Consultant, Air Quality](https://www.linkedin.com/jobs/view/4491758401/) — Ramboll
-- 📍 **Location:** Denver, CO
-- 💰 **Salary:** $97,000 - $125,000
-- 🕒 **Posted:** 2026-11-17
-
-### [Consultant, Air Quality](https://www.linkedin.com/jobs/view/4491748736/) — Ramboll
-- 📍 **Location:** Seattle, WA
-- 💰 **Salary:** $60,000- $85,000 per year
-- 🕒 **Posted:** 2026-11-17
-
-### [Senior Lead Consultant, Air Quality](https://www.linkedin.com/jobs/view/4491763500/) — Ramboll
-- 📍 **Location:** Seattle, WA
-- 💰 **Salary:** $97,000 - $125,000
-- 🕒 **Posted:** 2026-11-17
+### [Laboratory Analyst II - PFAS / LC-MS, Eurofins Environment Testing, Arvada, CO](https://www.linkedin.com/jobs/view/4491808236/) — Eurofins Environment Testing (USA)
+- 📍 **Location:** Arvada, WY
+- 💰 **Salary:** $22.00 - $30.00 USD per hour
+- 🕒 **Posted:** 2026-11-18
