@@ -1,44 +1,50 @@
 # 🟦 Indeed — Environmental / Toxicology Roles
-*Last updated: 2026-11-19 03:52 UTC*
+*Last updated: 2026-11-20 03:45 UTC*
 
-**6 new role(s)** since last run · 6 total in last 24h
+**7 new role(s)** since last run · 7 total in last 24h
 
-### [Senior Manager, Toxicology](https://www.indeed.com/viewjob?jk=9bca9ddc7226e6a5) — BD
-- 📍 **Location:** San Diego, CA, USA
-- 💰 **Salary:** $165k–$263k/yr
+### [Water Resources Analyst / Environmental Scientist / Hydrologist (3+ Years Experience)](https://www.indeed.com/viewjob?jk=8ce0c3878a244439) — Wagner & Bonsignore, CCE
+- 📍 **Location:** Sacramento, CA, USA
+- 💰 **Salary:** $90k–$140k/yr
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-18
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-19
 
-### [ENVIRONMENTAL SCIENTIST](https://www.indeed.com/viewjob?jk=0626c13bf4e0ddc2) — STATE WATER RESOURCES CONTROL BOARD
+### [ENVIRONMENTAL SCIENTIST](https://www.indeed.com/viewjob?jk=4c526c1fbdf56545) — Department Of Food & Agriculture
 - 📍 **Location:** CA, USA
 - 💰 **Salary:** $4551–$9787/mo
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-18
+- 🕒 **Posted:** 2026-11-19
 
-### [Senior Environmental Health Specialist - Promotional](https://www.indeed.com/viewjob?jk=997e41a090520dc2) — County of Sonoma (CA)
-- 📍 **Location:** Santa Rosa, CA, USA
-- 💰 **Salary:** $110k–$134k/yr
+### [Environmental Scientist](https://www.indeed.com/viewjob?jk=c27acf49667fc27e) — Provost & Pritchard
+- 📍 **Location:** Visalia, CA, USA
+- 💰 **Salary:** $35–$50/hr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-18
+- 🕒 **Posted:** 2026-11-19
 
-### [Lead Consultant, Environmental Compliance and Due Diligence](https://www.indeed.com/viewjob?jk=33ad8a6845b0708e) — Ramboll
-- 📍 **Location:** Los Angeles, CA, USA
-- 💰 **Salary:** $85k–$98k/yr
+### [SENIOR ENVIRONMENTAL SCIENTIST (SUPERVISORY)](https://www.indeed.com/viewjob?jk=4d808a4e58f4d8f5) — California Department of Pesticide Regulation
+- 📍 **Location:** CA, USA
+- 💰 **Salary:** $11k–$13k/mo
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-18
+- 🕒 **Posted:** 2026-11-19
 
-### [Lead Consultant, Environmental Compliance and Due Diligence](https://www.indeed.com/viewjob?jk=365ea798fa62dbdf) — Ramboll
-- 📍 **Location:** Irvine, CA, USA
-- 💰 **Salary:** $85k–$98k/yr
+### [Wastewater Storm Water Drinking Water Coordinator](https://www.indeed.com/viewjob?jk=9b888fcec4700dd1) — BB&E
+- 📍 **Location:** Mountain View, CA, USA
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-18
+- 🕒 **Posted:** 2026-11-19
 
-### [Principal Environmental Scientist/ Team Leader (Contaminated Land)](https://au.indeed.com/viewjob?jk=2f8d1e6ca2eb7a51) — Stantec
-- 📍 **Location:** Melbourne, VIC, Australia
+### [Wastewater Storm Water Drinking Water Lead](https://www.indeed.com/viewjob?jk=071a7e522745649f) — BB&E
+- 📍 **Location:** Mountain View, CA, USA
 - **Work mode:** On-site
-- **Job type:** parttime, fulltime, contract
-- 🕒 **Posted:** 2026-11-18
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-19
+
+### [Security Risk Assessment Analyst](https://www.indeed.com/viewjob?jk=4091ee4deec86e5d) — Lincoln Financial
+- 📍 **Location:** Greensboro, NC, USA
+- 💰 **Salary:** $95k–$152k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-11-19
