@@ -1,63 +1,64 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-21 02:59 UTC*
+*Last updated: 2026-11-21 06:27 UTC*
 
-**13 new role(s)** since last run · 13 total in last 1h
+**14 new role(s)** since last run · 14 total in last 1h
 
-### [Environmental Analyst / Specialist](https://www.linkedin.com/jobs/view/4493234364/) — Georgia Power Company
-- 📍 **Location:** Atlanta, GA
+### [Environmental Scientist / Senior Environmental Scientist (Compliance) - Hawaii Island](https://www.linkedin.com/jobs/view/4491986668/) — Hawaiian Electric
+- 📍 **Location:** Hilo, HI
+- 💰 **Salary:** $109,900.00 to $142,600.00
 - 🕒 **Posted:** 2026-11-21
 
-### [Environmental Health Specialist I, II, III](https://www.linkedin.com/jobs/view/4445780750/) — County of Riverside
-- 📍 **Location:** Riverside County, CA
-- 💰 **Salary:** $63,546.87 - $98,363.36 Annually
+### [Chemical Regulatory Compliance Specialist 2](https://www.linkedin.com/jobs/view/4474499159/) — Rose International
+- 📍 **Location:** Jeffersonville, OH
 - 🕒 **Posted:** 2026-11-21
 
-### [Compliance Environmental Specialist](https://www.linkedin.com/jobs/view/4410096654/) — GAI Consultants, Inc.
-- 📍 **Location:** Columbus, OH
+### [Environmental Scientist Consultant](https://www.linkedin.com/jobs/view/4493242976/) — WSP in the U.S.
+- 📍 **Location:** San Antonio, TX
 - 🕒 **Posted:** 2026-11-21
 
-### [Compliance Environmental Specialist](https://www.linkedin.com/jobs/view/4473507413/) — GAI Consultants, Inc.
-- 📍 **Location:** Homestead, PA
-- 🕒 **Posted:** 2026-11-21
-
-### [ENVIRONMENTAL SCIENCE SPECIALIST 1](https://www.linkedin.com/jobs/view/4491980328/) — Air & Waste Management Association - Grand Canyon Section
-- 📍 **Location:** Indiana, United States
-- 💰 **Salary:** $45K-$50K
-- 🕒 **Posted:** 2026-11-21
-
-### [Hazardous Materials Coordinators- Healthcare](https://www.linkedin.com/jobs/view/4493207063/) — Clean Harbors
-- 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $39,000.00/yr - $111,086.00/yr
-- 🕒 **Posted:** 2026-11-20
-
-### [Hazardous Materials Coordinator- Healthcare](https://www.linkedin.com/jobs/view/4493209035/) — Clean Harbors
-- 📍 **Location:** Richmond, CA
-- 💰 **Salary:** $39,000.00/yr - $111,086.00/yr
-- 🕒 **Posted:** 2026-11-20
-
-### [Toxicologist 10-P11, Chemical Hazards & Assessment of Risk Unit](https://www.linkedin.com/jobs/view/4491957917/) — State of Michigan
-- 📍 **Location:** Lansing, MI
-- 🕒 **Posted:** 2026-11-20
-
-### [Hazardous Materials Specialist (CUPA)](https://www.linkedin.com/jobs/view/4205421305/) — Alameda County Health
-- 📍 **Location:** Oakland, CA
-- 💰 **Salary:** $114,129.60/yr - $136,697.60/yr
-- 🕒 **Posted:** 2026-11-20
-
-### [Senior Chemical Regulatory, Product Stewardship, ESG Manager](https://www.linkedin.com/jobs/view/4492863044/) — CPS, Inc.
-- 📍 **Location:** Evansville, IN
-- 💰 **Salary:** $130,000-$170,000
-- 🕒 **Posted:** 2026-11-20
-
-### [Multi-Media Environmental Compliance Manager/Site Lead at Johnson Space Center, TX](https://www.linkedin.com/jobs/view/4493210850/) — Tetra Tech
+### [Environmental Scientist Consultant](https://www.linkedin.com/jobs/view/4493250393/) — WSP in the U.S.
 - 📍 **Location:** Houston, TX
-- 🕒 **Posted:** 2026-11-20
+- 🕒 **Posted:** 2026-11-21
 
-### [Environmental Specialist Food Manufacturing and Training](https://www.linkedin.com/jobs/view/4493216943/) — Tulsa Health Department
-- 📍 **Location:** Tulsa, OK
-- 🕒 **Posted:** 2026-11-20
+### [Environmental Scientist Journeyman](https://www.linkedin.com/jobs/view/4493254223/) — Cherokee Federal
+- 📍 **Location:** Andrews, MD
+- 🕒 **Posted:** 2026-11-21
 
-### [Environmental Specialist I](https://www.linkedin.com/jobs/view/4493228225/) — Veolia
-- 📍 **Location:** Buffalo, NY
-- 💰 **Salary:** $22 to $26 per hour
-- 🕒 **Posted:** 2026-11-20
+### [Manager, Air Quality Compliance](https://www.linkedin.com/jobs/view/4492862930/) — Venture Global LNG
+- 📍 **Location:** Houston, TX
+- 🕒 **Posted:** 2026-11-21
+
+### [Senior Environmental Scientist - Air Quality](https://www.linkedin.com/jobs/view/4493268009/) — Freeport-McMoRan
+- 📍 **Location:** Phoenix, AZ
+- 💰 **Salary:** $97,500-$138,000
+- 🕒 **Posted:** 2026-11-21
+
+### [Environmental Scientist](https://www.linkedin.com/jobs/view/4493265130/) — Actalent
+- 📍 **Location:** Novi, MI
+- 💰 **Salary:** $28.00/hr - $35.00/hr
+- 🕒 **Posted:** 2026-11-21
+
+### [Environmental Scientist](https://www.linkedin.com/jobs/view/4493245632/) — Actalent
+- 📍 **Location:** Novi, MI
+- 💰 **Salary:** $28.00/hr - $35.00/hr
+- 🕒 **Posted:** 2026-11-21
+
+### [Water Resources Project Manager](https://www.linkedin.com/jobs/view/4492867524/) — Halff
+- 📍 **Location:** Houston, TX
+- 🕒 **Posted:** 2026-11-21
+
+### [Water Resources Specialist I or II](https://www.linkedin.com/jobs/view/4492861824/) — City of Port Townsend
+- 📍 **Location:** Port Townsend, WA
+- 🕒 **Posted:** 2026-11-21
+
+### [Post Doctoral Researcher  Associate— Systems Epidemiology and Disease Risk Assessment](https://www.linkedin.com/jobs/view/4492882104/) — Pacific Northwest National Laboratory
+- 📍 **Location:** Seattle, WA
+- 🕒 **Posted:** 2026-11-21
+
+### [Post Doctoral Researcher  Associate— Systems Epidemiology and Disease Risk Assessment](https://www.linkedin.com/jobs/view/4492864936/) — Pacific Northwest National Laboratory
+- 📍 **Location:** Richland, WA
+- 🕒 **Posted:** 2026-11-21
+
+### [PhD Position in atmospheric chemistry and air quality measurements– University at Albany, SUNY (USA)](https://www.linkedin.com/jobs/view/4493261592/) — European Geosciences Union (EGU)
+- 📍 **Location:** Albany, NY
+- 🕒 **Posted:** 2026-11-21
