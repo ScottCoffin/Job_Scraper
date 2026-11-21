@@ -1,64 +1,82 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-21 06:27 UTC*
+*Last updated: 2026-11-21 14:27 UTC*
 
-**14 new role(s)** since last run · 14 total in last 1h
+**17 new role(s)** since last run · 17 total in last 1h
 
-### [Environmental Scientist / Senior Environmental Scientist (Compliance) - Hawaii Island](https://www.linkedin.com/jobs/view/4491986668/) — Hawaiian Electric
-- 📍 **Location:** Hilo, HI
-- 💰 **Salary:** $109,900.00 to $142,600.00
+### [Teacher of Special Programs (TSP) Pool - Center for Occupational and Environmental Health](https://www.linkedin.com/jobs/view/4493270476/) — University of California, Berkeley
+- 📍 **Location:** Berkeley, CA
+- 💰 **Salary:** $100.00/hr - $100.00/hr
 - 🕒 **Posted:** 2026-11-21
 
-### [Chemical Regulatory Compliance Specialist 2](https://www.linkedin.com/jobs/view/4474499159/) — Rose International
-- 📍 **Location:** Jeffersonville, OH
+### [Assistant or Associate Professor of Environmental Health Science - RISE EARTH](https://www.linkedin.com/jobs/view/4485358876/) — Nelson Institute for Environmental Studies, University of Wisconsin-Madison
+- 📍 **Location:** Madison, WI
 - 🕒 **Posted:** 2026-11-21
 
-### [Environmental Scientist Consultant](https://www.linkedin.com/jobs/view/4493242976/) — WSP in the U.S.
-- 📍 **Location:** San Antonio, TX
+### [Environmental Specialist](https://www.linkedin.com/jobs/view/4484433039/) — Georgia Power Company
+- 📍 **Location:** Forest Park, GA
 - 🕒 **Posted:** 2026-11-21
 
-### [Environmental Scientist Consultant](https://www.linkedin.com/jobs/view/4493250393/) — WSP in the U.S.
-- 📍 **Location:** Houston, TX
-- 🕒 **Posted:** 2026-11-21
-
-### [Environmental Scientist Journeyman](https://www.linkedin.com/jobs/view/4493254223/) — Cherokee Federal
-- 📍 **Location:** Andrews, MD
-- 🕒 **Posted:** 2026-11-21
-
-### [Manager, Air Quality Compliance](https://www.linkedin.com/jobs/view/4492862930/) — Venture Global LNG
-- 📍 **Location:** Houston, TX
-- 🕒 **Posted:** 2026-11-21
-
-### [Senior Environmental Scientist - Air Quality](https://www.linkedin.com/jobs/view/4493268009/) — Freeport-McMoRan
+### [Staff Air Quality Specialist](https://www.linkedin.com/jobs/view/4485647434/) — SWCA Environmental Consultants
 - 📍 **Location:** Phoenix, AZ
-- 💰 **Salary:** $97,500-$138,000
 - 🕒 **Posted:** 2026-11-21
 
-### [Environmental Scientist](https://www.linkedin.com/jobs/view/4493265130/) — Actalent
-- 📍 **Location:** Novi, MI
-- 💰 **Salary:** $28.00/hr - $35.00/hr
+### [Director, Environmental Compliance, NA](https://www.linkedin.com/jobs/view/4478001876/) — Vantage
+- 📍 **Location:** Denver, CO
+- 💰 **Salary:** $175,000 - $200,000
 - 🕒 **Posted:** 2026-11-21
 
-### [Environmental Scientist](https://www.linkedin.com/jobs/view/4493245632/) — Actalent
-- 📍 **Location:** Novi, MI
-- 💰 **Salary:** $28.00/hr - $35.00/hr
-- 🕒 **Posted:** 2026-11-21
-
-### [Water Resources Project Manager](https://www.linkedin.com/jobs/view/4492867524/) — Halff
+### [Health, Safety and Environmental Specialist](https://www.linkedin.com/jobs/view/4476873099/) — Trystar
 - 📍 **Location:** Houston, TX
+- 💰 **Salary:** $71,000.00/yr - $100,000.00/yr
 - 🕒 **Posted:** 2026-11-21
 
-### [Water Resources Specialist I or II](https://www.linkedin.com/jobs/view/4492861824/) — City of Port Townsend
-- 📍 **Location:** Port Townsend, WA
+### [Environmental Scientist & Project Manager](https://www.linkedin.com/jobs/view/4431887390/) — Kimley-Horn
+- 📍 **Location:** Phoenix, AZ
 - 🕒 **Posted:** 2026-11-21
 
-### [Post Doctoral Researcher  Associate— Systems Epidemiology and Disease Risk Assessment](https://www.linkedin.com/jobs/view/4492882104/) — Pacific Northwest National Laboratory
-- 📍 **Location:** Seattle, WA
+### [Environmental Scientist/Geologist](https://www.linkedin.com/jobs/view/4475230439/) — Arcadis
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $63,480- $95,220
 - 🕒 **Posted:** 2026-11-21
 
-### [Post Doctoral Researcher  Associate— Systems Epidemiology and Disease Risk Assessment](https://www.linkedin.com/jobs/view/4492864936/) — Pacific Northwest National Laboratory
-- 📍 **Location:** Richland, WA
+### [Environmental Scientist/Geologist](https://www.linkedin.com/jobs/view/4475223687/) — Arcadis
+- 📍 **Location:** Concord, CA
+- 💰 **Salary:** $63,480- $95,220
 - 🕒 **Posted:** 2026-11-21
 
-### [PhD Position in atmospheric chemistry and air quality measurements– University at Albany, SUNY (USA)](https://www.linkedin.com/jobs/view/4493261592/) — European Geosciences Union (EGU)
-- 📍 **Location:** Albany, NY
+### [Senior Environmental Data Manager](https://www.linkedin.com/jobs/view/4476805263/) — Geosyntec Consultants
+- 📍 **Location:** Oakland, CA
+- 💰 **Salary:** $127,530/year - $178,540/year
+- 🕒 **Posted:** 2026-11-21
+
+### [Experienced Civil EIT - Water Resources](https://www.linkedin.com/jobs/view/4467806008/) — Kimley-Horn
+- 📍 **Location:** Phoenix, AZ
+- 🕒 **Posted:** 2026-11-21
+
+### [Water Resources Practice Lead](https://www.linkedin.com/jobs/view/4291632031/) — Garver
+- 📍 **Location:** Tulsa, OK
+- 🕒 **Posted:** 2026-11-21
+
+### [Water Resources Project Manager - Everett, WA](https://www.linkedin.com/jobs/view/4412595722/) — David Evans and Associates, Inc.
+- 📍 **Location:** Everett, WA
+- 🕒 **Posted:** 2026-11-21
+
+### [Entry Level Environmental Remediation Professional -Central/Midwest United States- Hybrid](https://www.linkedin.com/jobs/view/4440345453/) — Jacobs
+- 📍 **Location:** Milwaukee, WI
+- 💰 **Salary:** $58,656.00/yr - $88,000.00/yr
+- 🕒 **Posted:** 2026-11-21
+
+### [Environmental Remediation Project Manager](https://www.linkedin.com/jobs/view/4485285053/) — Jacobs
+- 📍 **Location:** St Louis, MO
+- 💰 **Salary:** $113,400.00/yr - $165,000.00/yr
+- 🕒 **Posted:** 2026-11-21
+
+### [Environmental Remediation Project Manager](https://www.linkedin.com/jobs/view/4485281405/) — Jacobs
+- 📍 **Location:** Cincinnati, OH
+- 💰 **Salary:** $113,400.00/yr - $165,000.00/yr
+- 🕒 **Posted:** 2026-11-21
+
+### [Drinking Water Project Manager](https://www.linkedin.com/jobs/view/4468302859/) — Jacobs
+- 📍 **Location:** Milwaukee, WI
+- 💰 **Salary:** $150,000.00/yr - $225,000.00/yr
 - 🕒 **Posted:** 2026-11-21
