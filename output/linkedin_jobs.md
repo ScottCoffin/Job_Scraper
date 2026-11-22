@@ -1,46 +1,22 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-22 09:57 UTC*
+*Last updated: 2026-11-22 22:40 UTC*
 
-**9 new role(s)** since last run · 9 total in last 1h
+**4 new role(s)** since last run · 4 total in last 1h
 
-### [ENVIRONMENTAL HEALTH SPECIALIST - 40001150, 40008251](https://www.linkedin.com/jobs/view/4493334325/) — Durham County Government
-- 📍 **Location:** Durham, NC
-- 💰 **Salary:** $54,312.00- $92,264.00
+### [Remediation Lead,](https://www.linkedin.com/jobs/view/4493600084/) — Baxter International Inc.
+- 📍 **Location:** Round Lake, IL
+- 💰 **Salary:** $112,000 - $154,000 annually
 - 🕒 **Posted:** 2026-11-22
 
-### [Certifying Scientist - Toxicology](https://www.linkedin.com/jobs/view/4485698946/) — Labcorp
-- 📍 **Location:** Durham, NC
+### [Environmental Scientist](https://www.linkedin.com/jobs/view/4492362645/) — AE2S (Advanced Engineering and Environmental Services, LLC)
+- 📍 **Location:** Woodbury, MN
+- 💰 **Salary:** $70,000-$95,000
 - 🕒 **Posted:** 2026-11-22
 
-### [Intermediate Permitting Specialist - Environmental Scientist](https://www.linkedin.com/jobs/view/4485920250/) — Worley
-- 📍 **Location:** Houston, TX
-- 💰 **Salary:** $85,398 - $113,821
+### [Water Resources Project Manager](https://www.linkedin.com/jobs/view/4492353990/) — AE2S (Advanced Engineering and Environmental Services, LLC)
+- 📍 **Location:** Billings, MT
 - 🕒 **Posted:** 2026-11-22
 
-### [Project Manager - Water Resources](https://www.linkedin.com/jobs/view/4291992812/) — HDR
-- 📍 **Location:** Charlotte, NC
-- 🕒 **Posted:** 2026-11-22
-
-### [South Central Region Drinking Water Treatment Business Class Leader](https://www.linkedin.com/jobs/view/4322898875/) — HDR
-- 📍 **Location:** Dallas, TX
-- 🕒 **Posted:** 2026-11-22
-
-### [Intermediate Permitting Specialist - Environmental Scientist](https://www.linkedin.com/jobs/view/4485905671/) — Worley
-- 📍 **Location:** Charleston, WV
-- 💰 **Salary:** $85,398 - $113,821
-- 🕒 **Posted:** 2026-11-22
-
-### [Intermediate Permitting Specialist - Environmental Scientist](https://www.linkedin.com/jobs/view/4485919367/) — Worley
-- 📍 **Location:** Chicago, IL
-- 💰 **Salary:** $85,398 - $113,821
-- 🕒 **Posted:** 2026-11-22
-
-### [Water Resources Project Manager - Hydrology/Hydraulics](https://www.linkedin.com/jobs/view/4440224989/) — VHB
-- 📍 **Location:** Bedford, NH
-- 💰 **Salary:** $145,000 to $200,000
-- 🕒 **Posted:** 2026-11-22
-
-### [Intermediate Permitting Specialist - Environmental Scientist](https://www.linkedin.com/jobs/view/4485919368/) — Worley
-- 📍 **Location:** Long Beach, CA
-- 💰 **Salary:** $85,398 - $113,821
+### [Water Resources Project Manager](https://www.linkedin.com/jobs/view/4492361761/) — AE2S (Advanced Engineering and Environmental Services, LLC)
+- 📍 **Location:** Fargo, ND
 - 🕒 **Posted:** 2026-11-22
