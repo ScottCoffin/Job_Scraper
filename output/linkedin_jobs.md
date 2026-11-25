@@ -1,47 +1,27 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-25 02:41 UTC*
+*Last updated: 2026-11-25 11:37 UTC*
 
-**10 new role(s)** since last run · 11 total in last 1h
+**5 new role(s)** since last run · 5 total in last 1h
 
-### [Air Pollution Specialist](https://www.linkedin.com/jobs/view/4494442731/) — California Air Resources Board
-- 📍 **Location:** Sacramento, CA
-- 💰 **Salary:** $5,918.00/mo - $11,455.00/mo
+### [Clinical Laboratory Technologist - Toxicology](https://www.linkedin.com/jobs/view/4479243875/) — Labcorp
+- 📍 **Location:** Burlington, NC
 - 🕒 **Posted:** 2026-11-25
 
-### [Hazardous Materials Truck Driver](https://www.linkedin.com/jobs/view/4494745766/) — Coastal Elite Pro
-- 📍 **Location:** Hubbard, OR
+### [Graduate Environmental Scientist](https://www.linkedin.com/jobs/view/4460023586/) — GHD
+- 📍 **Location:** Tampa, FL
 - 🕒 **Posted:** 2026-11-25
 
-### [Incidents and Remediation Lead](https://www.linkedin.com/jobs/view/4494757768/) — Latitude Financial Services
-- 📍 **Location:** Melbourne, Victoria, Australia
+### [Remediation Senior Project Manager](https://www.linkedin.com/jobs/view/4487215581/) — Woodard & Curran
+- 📍 **Location:** Connecticut, United States
+- 💰 **Salary:** $150,000 - $175,000
 - 🕒 **Posted:** 2026-11-25
 
-### [Environmental Data Validator](https://www.linkedin.com/jobs/view/4494455537/) — Serco
-- 📍 **Location:** Detroit, MI
+### [Environmental Scientist / Toxicologist](https://www.linkedin.com/jobs/view/4485026907/) — TRC Companies, Inc.
+- 📍 **Location:** Greenville, SC
+- 💰 **Salary:** USD $64,729.60 - USD $70,000.00 /Yr
 - 🕒 **Posted:** 2026-11-25
 
-### [Environmental Data Validator](https://www.linkedin.com/jobs/view/4494462347/) — Serco
-- 📍 **Location:** Fullerton, CA
+### [Wastewater Quality Technical Advisor](https://www.linkedin.com/jobs/view/4494609566/) — Water Corporation
+- 📍 **Location:** Geraldton, Western Australia, Australia
+- 💰 **Salary:** $124,156.00/yr - A$124,156.00/yr
 - 🕒 **Posted:** 2026-11-25
-
-### [CCR Groundwater & Remediation Supervisor](https://www.linkedin.com/jobs/view/4489664739/) — Georgia Power Company
-- 📍 **Location:** Atlanta, GA
-- 🕒 **Posted:** 2026-11-25
-
-### [Sr. Environmental Analyst](https://www.linkedin.com/jobs/view/4493074000/) — Seattle Public Utilities
-- 📍 **Location:** Seattle, WA
-- 💰 **Salary:** $58.21 - $67.84 per hour
-- 🕒 **Posted:** 2026-11-25
-
-### [Environmental Data Validation Chemist](https://www.linkedin.com/jobs/view/4494452558/) — Serco
-- 📍 **Location:** Fullerton, CA
-- 🕒 **Posted:** 2026-11-25
-
-### [Scientist I (GCMS) - Eurofins Drinking Water and Wastewater West, LLC - Pomona, CA](https://www.linkedin.com/jobs/view/4494441659/) — Eurofins
-- 📍 **Location:** Pomona, CA
-- 💰 **Salary:** $22.20-$27.00
-- 🕒 **Posted:** 2026-11-24
-
-### [Program Manager-Oil, Gas, Remediation](https://www.linkedin.com/jobs/view/4494431587/) — Valley Medical Center & Clinics
-- 📍 **Location:** Oakland, CA
-- 🕒 **Posted:** 2026-11-24
