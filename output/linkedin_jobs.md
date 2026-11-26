@@ -1,27 +1,51 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-25 11:37 UTC*
+*Last updated: 2026-11-26 01:57 UTC*
 
-**5 new role(s)** since last run · 5 total in last 1h
+**11 new role(s)** since last run · 11 total in last 1h
 
-### [Clinical Laboratory Technologist - Toxicology](https://www.linkedin.com/jobs/view/4479243875/) — Labcorp
-- 📍 **Location:** Burlington, NC
+### [Environmental Data Validator](https://www.linkedin.com/jobs/view/4495237432/) — Serco
+- 📍 **Location:** Loveland, CO
+- 🕒 **Posted:** 2026-11-26
+
+### [Environmental Data Validator](https://www.linkedin.com/jobs/view/4495241113/) — Serco
+- 📍 **Location:** Baltimore, MD
+- 🕒 **Posted:** 2026-11-26
+
+### [Waste, Hazardous Materials & Remediation Coordinator](https://www.linkedin.com/jobs/view/4495231542/) — Fermi America
+- 📍 **Location:** Amarillo, TX
+- 🕒 **Posted:** 2026-11-26
+
+### [Environmental Specialist – Field Compliance, Natural & Cultural Resources, and Records](https://www.linkedin.com/jobs/view/4495228662/) — Fermi America
+- 📍 **Location:** Amarillo, TX
+- 🕒 **Posted:** 2026-11-26
+
+### [Senior Environmental Specialist - Texas](https://www.linkedin.com/jobs/view/4495228846/) — Ulteig
+- 📍 **Location:** Texas, United States
+- 💰 **Salary:** $134,300 - $181,800
+- 🕒 **Posted:** 2026-11-26
+
+### [Environmental Data Validation Chemist](https://www.linkedin.com/jobs/view/4495223996/) — Serco
+- 📍 **Location:** North Charleston, SC
+- 🕒 **Posted:** 2026-11-26
+
+### [Environmental Data Validator](https://www.linkedin.com/jobs/view/4495232454/) — Serco
+- 📍 **Location:** Des Moines, IA
+- 🕒 **Posted:** 2026-11-26
+
+### [Water Resources Permitting & Compliance Manager](https://www.linkedin.com/jobs/view/4495239190/) — Fermi America
+- 📍 **Location:** Amarillo, TX
+- 🕒 **Posted:** 2026-11-26
+
+### [Air Quality Permitting & Compliance Manager](https://www.linkedin.com/jobs/view/4495242100/) — Fermi America
+- 📍 **Location:** Amarillo, TX
+- 🕒 **Posted:** 2026-11-26
+
+### [Client Account Manager - Air Quality focused](https://www.linkedin.com/jobs/view/4492840753/) — AECOM
+- 📍 **Location:** Orange, CA
+- 💰 **Salary:** $165000 to $215000
 - 🕒 **Posted:** 2026-11-25
 
-### [Graduate Environmental Scientist](https://www.linkedin.com/jobs/view/4460023586/) — GHD
-- 📍 **Location:** Tampa, FL
-- 🕒 **Posted:** 2026-11-25
-
-### [Remediation Senior Project Manager](https://www.linkedin.com/jobs/view/4487215581/) — Woodard & Curran
-- 📍 **Location:** Connecticut, United States
-- 💰 **Salary:** $150,000 - $175,000
-- 🕒 **Posted:** 2026-11-25
-
-### [Environmental Scientist / Toxicologist](https://www.linkedin.com/jobs/view/4485026907/) — TRC Companies, Inc.
-- 📍 **Location:** Greenville, SC
-- 💰 **Salary:** USD $64,729.60 - USD $70,000.00 /Yr
-- 🕒 **Posted:** 2026-11-25
-
-### [Wastewater Quality Technical Advisor](https://www.linkedin.com/jobs/view/4494609566/) — Water Corporation
-- 📍 **Location:** Geraldton, Western Australia, Australia
-- 💰 **Salary:** $124,156.00/yr - A$124,156.00/yr
+### [Client Account Manager - Environmental Compliance focused](https://www.linkedin.com/jobs/view/4492845467/) — AECOM
+- 📍 **Location:** Orange, CA
+- 💰 **Salary:** $165000 to $215000
 - 🕒 **Posted:** 2026-11-25
