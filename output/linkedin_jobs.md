@@ -1,34 +1,26 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-11-27 01:53 UTC*
+*Last updated: 2026-11-27 11:05 UTC*
 
-**7 new role(s)** since last run · 7 total in last 1h
+**5 new role(s)** since last run · 5 total in last 1h
 
-### [Technical Consulting Director, Site Investigation and Remediation](https://www.linkedin.com/jobs/view/4493847840/) — ERM
-- 📍 **Location:** Indianapolis, IN
+### [Environmental Analyst](https://www.linkedin.com/jobs/view/4487781469/) — Booz Allen Hamilton
+- 📍 **Location:** Santa Barbara, CA
+- 💰 **Salary:** $77,600.00 to $176,000.00
 - 🕒 **Posted:** 2026-11-27
 
-### [Environmental Compliance Manager (Field Based)](https://www.linkedin.com/jobs/view/4493847844/) — ERM
-- 📍 **Location:** Houston, TX
+### [Environmental Scientist](https://www.linkedin.com/jobs/view/4460686504/) — HDR
+- 📍 **Location:** Anchorage, AK
 - 🕒 **Posted:** 2026-11-27
 
-### [Consulting Partner, Environmental Compliance](https://www.linkedin.com/jobs/view/4493856452/) — ERM
-- 📍 **Location:** Irvine, CA
-- 💰 **Salary:** $171,000 - $217,000
+### [Environmental Scientist](https://www.linkedin.com/jobs/view/4478496056/) — HDR
+- 📍 **Location:** Anchorage, AK
 - 🕒 **Posted:** 2026-11-27
 
-### [Lead Environmental Compliance Consultant (Field Based)](https://www.linkedin.com/jobs/view/4493848722/) — ERM
-- 📍 **Location:** Indianapolis, IN
+### [Environmental Specialist](https://www.linkedin.com/jobs/view/4469492141/) — EnerSys
+- 📍 **Location:** Warrensburg, MO
 - 🕒 **Posted:** 2026-11-27
 
-### [Hazardous Materials Truck Driver – Environmental Services](https://www.linkedin.com/jobs/view/4495566582/) — Warker LLC
-- 📍 **Location:** Cincinnati, OH
+### [Remediation Lead,](https://www.linkedin.com/jobs/view/4495594579/) — Baxter International Inc.
+- 📍 **Location:** Round Lake, IL
+- 💰 **Salary:** $112,000 - $154,000 annually
 - 🕒 **Posted:** 2026-11-27
-
-### [Hazardous Materials Truck Driver](https://www.linkedin.com/jobs/view/4495555930/) — Warker LLC
-- 📍 **Location:** Dayton, OH
-- 🕒 **Posted:** 2026-11-27
-
-### [Teacher of Special Programs (TSP) Pool - Center for Occupational and Environmental Health](https://www.linkedin.com/jobs/view/4495550607/) — University of California, Berkeley
-- 📍 **Location:** Berkeley, CA
-- 💰 **Salary:** $100.00/hr - $100.00/hr
-- 🕒 **Posted:** 2026-11-26
